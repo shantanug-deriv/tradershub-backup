@@ -1,4 +1,4 @@
-﻿// Function to create and append a link element
+// Function to create and append a link element
 function addLinkElement(rel, href, crossorigin = null) {
     const link = document.createElement('link');
     link.rel = rel;

@@ -1,43 +1,51 @@
-﻿define("System_.controller", ["exports", "@outsystems/runtime-core-js", "System_.model"], function (exports, OSRuntimeCore, System_Model) {
-var OS = OSRuntimeCore;
-var System_Controller = exports;
-class Controller extends 
-OS.Controller.BaseModuleController {
-constructor(model, messagesProvider, idService, translationResources) {
-super(model, messagesProvider, idService, translationResources);
-}
+define("System_.controller", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
+    var OS = OSRuntimeCore;
+    var System_Controller = exports;
+    class Controller extends
+    OS.Controller.BaseModuleController {
+        constructor(model, messagesProvider, idService, translationResources) {
+            super(model, messagesProvider, idService, translationResources);
+        }
 
-get clientActionProxies() {if(!(this.hasOwnProperty("_clientActionProxies"))) {
-this._clientActionProxies = {};
-}
+        get clientActionProxies() {
+            if (!(this.hasOwnProperty("_clientActionProxies"))) {
+                this._clientActionProxies = {};
+            }
 
-return this._clientActionProxies;
-}set clientActionProxies(value) {this._clientActionProxies = value;
-}
+            return this._clientActionProxies;
+        }
+        set clientActionProxies(value) {
+            this._clientActionProxies = value;
+        }
 
 
-get roles() {if(!(this.hasOwnProperty("_roles"))) {
-this._roles = {};
-}
+        get roles() {
+            if (!(this.hasOwnProperty("_roles"))) {
+                this._roles = {};
+            }
 
-return this._roles;
-}set roles(value) {this._roles = value;
-}
+            return this._roles;
+        }
+        set roles(value) {
+            this._roles = value;
+        }
 
-get defaultTimeout() {if(!(this.hasOwnProperty("_defaultTimeout"))) {
-this._defaultTimeout = 10;
-}
+        get defaultTimeout() {
+            if (!(this.hasOwnProperty("_defaultTimeout"))) {
+                this._defaultTimeout = 10;
+            }
 
-return this._defaultTimeout;
-}set defaultTimeout(value) {this._defaultTimeout = value;
-}
+            return this._defaultTimeout;
+        }
+        set defaultTimeout(value) {
+            this._defaultTimeout = value;
+        }
 
-getDefaultTimeout() {
-return System_Controller.default.defaultTimeout;
-}
+        getDefaultTimeout() {
+            return System_Controller.default.defaultTimeout;
+        }
 
-}
+    }
 
-System_Controller.default = new Controller();
+    System_Controller.default = new Controller();
 });
-

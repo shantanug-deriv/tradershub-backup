@@ -1,30 +1,23 @@
-﻿// define your feature flags here
+// define your feature flags here
 // add them to the array
-const FEATURE_FLAGS = [
-    {
-        name: "foo",
-        enabled: true
-    },
-    {
-        name: "bar",
-        enabled: true
-    }
-]
+const FEATURE_FLAGS = [{
+    name: "foo",
+    enabled: true
+}, {
+    name: "bar",
+    enabled: true
+}]
 
-const NEW_FEATURE_FLAGS = [
-    {
-        name: "foo",
-        enabled: false
-    },
-    {
-        name: "bar",
-        enabled: true
-    },
-    {
-        name: "newFeature", 
-        enabled: false
-    }
-]
+const NEW_FEATURE_FLAGS = [{
+    name: "foo",
+    enabled: false
+}, {
+    name: "bar",
+    enabled: true
+}, {
+    name: "newFeature",
+    enabled: false
+}]
 
 const _featureFlags = localStorage.featureFlags
 

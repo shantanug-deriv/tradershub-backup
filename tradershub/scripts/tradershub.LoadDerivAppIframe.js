@@ -1,4 +1,4 @@
-﻿const iframe = document.createElement('iframe');
+const iframe = document.createElement('iframe');
 
 let url;
 

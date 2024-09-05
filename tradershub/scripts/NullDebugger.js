@@ -1,33 +1,34 @@
-﻿(function (global, factory) {
+(function(global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@outsystems/runtime-core-js')) :
-    typeof define === 'function' && define.amd ? define('@outsystems/runtime-core-js/debugger', ['exports', '@outsystems/runtime-core-js'], factory) :
-    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.NullDebugger = {}, global.OSRuntimeCore));
-})(this, (function (exports, runtimeCoreJs) { 'use strict';
+        typeof define === 'function' && define.amd ? define('@outsystems/runtime-core-js/debugger', ['exports', '@outsystems/runtime-core-js'], factory) :
+        (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.NullDebugger = {}, global.OSRuntimeCore));
+})(this, (function(exports, runtimeCoreJs) {
+    'use strict';
 
     var BreakpointType;
-    (function (BreakpointType) {
+    (function(BreakpointType) {
         BreakpointType[BreakpointType["Normal"] = 0] = "Normal";
         BreakpointType[BreakpointType["AtFunctionReturn"] = 1] = "AtFunctionReturn";
         BreakpointType[BreakpointType["BetweenAssignments"] = 2] = "BetweenAssignments";
     })(BreakpointType || (BreakpointType = {}));
 
     class NullDebugger {
-        startSession() { }
-        endSession() { }
+        startSession() {}
+        endSession() {}
         getThreadStack(callContextId) {
             return null;
         }
-        addBreakpoint(breakpointId) { }
-        addBreakpoints(breakpointIds) { }
-        allowBreakpointsFromModule(key) { }
-        removeBreakpoint(breakpointId) { }
-        clearBreakpoints() { }
-        continue(callContextId) { }
-        continueToHere(breakpointId, callContextId) { }
-        stepInto(callContextId) { }
-        stepOver(callContextId) { }
-        stepOut(callContextId) { }
-        pauseOnAllExceptions(isEnabled) { }
+        addBreakpoint(breakpointId) {}
+        addBreakpoints(breakpointIds) {}
+        allowBreakpointsFromModule(key) {}
+        removeBreakpoint(breakpointId) {}
+        clearBreakpoints() {}
+        continue (callContextId) {}
+        continueToHere(breakpointId, callContextId) {}
+        stepInto(callContextId) {}
+        stepOver(callContextId) {}
+        stepOut(callContextId) {}
+        pauseOnAllExceptions(isEnabled) {}
         evaluateVariable(callContextId, stackLevel, actionKey, variableKey, path, depth) {
             return null;
         }
@@ -49,14 +50,14 @@
         initialize(waitForClient) {
             return Promise.resolve();
         }
-        registerMetaInfo(variablesMapping) { }
+        registerMetaInfo(variablesMapping) {}
         getRequestHeaders(callContextId) {
             return null;
         }
-        processResponseHeaders(callContextId, headers) { }
-        setThreadStartName(callContextId, threadStartName) { }
-        push(breakpointIdStr, moduleName, elementName, elementType, callContextId, varBag) { }
-        pop(breakpointIdStr, callContextId) { }
+        processResponseHeaders(callContextId, headers) {}
+        setThreadStartName(callContextId, threadStartName) {}
+        push(breakpointIdStr, moduleName, elementName, elementType, callContextId, varBag) {}
+        pop(breakpointIdStr, callContextId) {}
         handleFunctionCall(functionCaller, resultType, callContextId) {
             return functionCaller();
         }
@@ -64,7 +65,7 @@
             BreakpointType.Normal;
             return true;
         }
-        handleException(error, callContextId) { }
+        handleException(error, callContextId) {}
         parse(breakpointIdStr) {
             return null;
         }
@@ -80,6 +81,8 @@
     exports.NullDebugger = NullDebugger;
     exports.Version = Version;
 
-    Object.defineProperty(exports, '__esModule', { value: true });
+    Object.defineProperty(exports, '__esModule', {
+        value: true
+    });
 
 }));

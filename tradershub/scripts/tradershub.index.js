@@ -1,45 +1,47 @@
-﻿require(["tslib"], function (tslib) {
-require(["@outsystems/runtime-core-js", "tradershub.appDefinition", "@outsystems/runtime-core-js/debugger"], function (OSRuntimeCore, tradershubAppDefinition, NullDebugger) {
-var OS = OSRuntimeCore;
-if(OS.Navigation.ensureRequestSecurity()) {
-return;
-}
+require(["tslib"], function(tslib) {
+    require(["@outsystems/runtime-core-js", "tradershub.appDefinition", "@outsystems/runtime-core-js/debugger"], function(OSRuntimeCore, tradershubAppDefinition, NullDebugger) {
+        var OS = OSRuntimeCore;
+        if (OS.Navigation.ensureRequestSecurity()) {
+            return;
+        }
 
-Promise.all([OS.Application.default.initialize(tradershubAppDefinition, OS.Interfaces.Application.InitializationType.Full, new OS.Format.DateTimeFormatInfo("yyyy-MM-dd", "HH:mm:ss"), new OS.Format.NumberFormatInfo(".", ""), function () {
-return Promise.all(["scripts/tradershub.DerivAPIBasic.js", "scripts/tradershub.LoadFonts.js", "scripts/tradershub.ReconnectingWebsocket.js", "scripts/tradershub.yupumd.js", "scripts/tradershub.DerivAnalytics.js", "scripts/tradershub.LoadDerivAppIframe.js", "scripts/tradershub.DerivDatadog.js", "scripts/tradershub.TrackJS.js"].map(function (script) {
-return OS.SystemActions.requireScript(script);
-}));
-}).then(function (success) {
-if(success) {
-function initGlobalExceptionHandler() {
-return new Promise(function (resolve) {
-require(["tradershub.Common.controller"], function (exceptionModule) {
-OS.Application.default.registerDefaultErrorHandler(function () {
-return function (error, callContext) {
-return exceptionModule.default.handleError(error, callContext);
-};
-});
-resolve();
-});
-});
-}
-function initView() {
-return OS.Flow.promise(function (resolve, reject) {
-require(["@outsystems/runtime-view-js"], function (OSView) {
-try {OSView.Router.load(OS.Application.default);
-resolve();
-} catch (error) {
-reject(error);
-}
+        Promise.all([OS.Application.default.initialize(tradershubAppDefinition, OS.Interfaces.Application.InitializationType.Full, new OS.Format.DateTimeFormatInfo("yyyy-MM-dd", "HH:mm:ss"), new OS.Format.NumberFormatInfo(".", ""), function() {
+            return Promise.all(["scripts/tradershub.DerivAPIBasic.js", "scripts/tradershub.LoadFonts.js", "scripts/tradershub.ReconnectingWebsocket.js", "scripts/tradershub.yupumd.js", "scripts/tradershub.DerivAnalytics.js", "scripts/tradershub.LoadDerivAppIframe.js", "scripts/tradershub.DerivDatadog.js", "scripts/tradershub.TrackJS.js"].map(function(script) {
+                return OS.SystemActions.requireScript(script);
+            }));
+        }).then(function(success) {
+            if (success) {
+                function initGlobalExceptionHandler() {
+                    return new Promise(function(resolve) {
+                        require(["tradershub.Common.controller"], function(exceptionModule) {
+                            OS.Application.default.registerDefaultErrorHandler(function() {
+                                return function(error, callContext) {
+                                    return exceptionModule.default.handleError(error, callContext);
+                                };
+                            });
+                            resolve();
+                        });
+                    });
+                }
 
-});
-});
-}
-return initGlobalExceptionHandler().then(initView);
-}
+                function initView() {
+                    return OS.Flow.promise(function(resolve, reject) {
+                        require(["@outsystems/runtime-view-js"], function(OSView) {
+                            try {
+                                OSView.Router.load(OS.Application.default);
+                                resolve();
+                            } catch (error) {
+                                reject(error);
+                            }
 
-})]).catch(function (error) {
-OS.ErrorHandling.handleError(error);
-});
-});
+                        });
+                    });
+                }
+                return initGlobalExceptionHandler().then(initView);
+            }
+
+        })]).catch(function(error) {
+            OS.ErrorHandling.handleError(error);
+        });
+    });
 });

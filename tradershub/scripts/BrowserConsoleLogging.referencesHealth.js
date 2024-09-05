@@ -1,4 +1,1 @@
-﻿define("BrowserConsoleLogging.referencesHealth", [], function () {
-});
-
-
+define("BrowserConsoleLogging.referencesHealth", [], function() {});
