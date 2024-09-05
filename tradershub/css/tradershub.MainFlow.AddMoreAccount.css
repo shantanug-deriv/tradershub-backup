@@ -1,0 +1,9 @@
+﻿.add-more-accounts {
+    width: 524px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.remove-hover:hover {
+    text-decoration: none;
+}

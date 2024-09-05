@@ -1,0 +1,65 @@
+﻿.tablet .modal{
+    width: 400px;
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.phone .modal {
+    padding: 16px;
+}
+
+.tablet .content{
+    background-color: #F8F9FA;
+}
+
+
+.desktop .modal-container {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #F8F9FA;
+}
+
+
+.deriv-25years-logo-container {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.phone .deriv-25years-logo-container,
+.tablet .deriv-25years-logo-container {
+    display: none;
+}
+
+.desktop .main-container {
+    display: flex;
+    height: 100vh;
+}
+
+.desktop .main-content.ThemeGrid_Container {
+    display: unset;
+    align-items: unset;
+    justify-content: unset;
+}
+
+ .desktop .ThemeGrid_Container{
+    max-width: unset ;
+    padding-left: 0;
+    padding-right: o;
+ }
+
+ .desktop header,
+ .tablet header {
+     display: none;
+ }
+
+.desktop .modal-container {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}

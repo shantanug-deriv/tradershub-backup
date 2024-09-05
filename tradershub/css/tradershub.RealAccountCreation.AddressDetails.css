@@ -1,0 +1,39 @@
+﻿.osui-progress-bar__value:before {
+    width: 80% !important;
+}
+
+.phone .btn[type='submit'] {
+    width: 100%;
+}
+
+.vscomp-dropbox {
+    height: 100%;
+    width: 100% !important;
+}
+
+.vscomp-clear-icon {
+    display: none !important;
+}
+
+.vscomp-value {
+    font-size: 16px !important;
+    color: #6A7178 !important;
+}
+
+.vscomp-ele.pop-comp-active .vscomp-toggle-button {
+    border-color: #818488 !important;
+}
+
+.vscomp-ele.pop-comp-active .vscomp-toggle-button:after {
+    color: #818488 !important;
+}
+
+.input-with-icon .input-with-icon-input {
+    position: relative;
+}
+
+.input-with-icon .input-with-icon-input img {
+    position: absolute;
+    right: 16px;
+    top: 45%;
+}

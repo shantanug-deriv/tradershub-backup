@@ -1,0 +1,12 @@
+﻿.osui-progress-bar__value:before {
+    width: 80% !important;
+}
+
+.tablet .trading-assessment-steps__desktop,
+.phone .trading-assessment-steps__desktop {
+    visibility: hidden;
+}
+
+.desktop .title-container-mobile {
+    display: none;
+}

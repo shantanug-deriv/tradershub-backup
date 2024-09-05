@@ -1,0 +1,26 @@
+﻿.popup-backdrop {
+    background-color: rgba(0, 0, 0, 0.72);
+}
+
+.vscomp-clear-icon {
+    display: none !important;
+}
+
+.phone .pop-comp-wrapper {
+    padding: 0 !important;
+}
+
+.phone .vscomp-dropbox-wrapper .vscomp-dropbox {
+    max-height: 100% !important;
+    height: 100% !important;
+    margin-top: 0 !important;
+    width: 100% !important;
+}
+
+.phone .vscomp-options-container {
+    max-height: 95% !important;
+}
+
+[data-label].mandatory:after {
+    content: none;
+}

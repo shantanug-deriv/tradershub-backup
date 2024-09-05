@@ -1,0 +1,10 @@
+﻿/* @media (min-width: 601px) {
+    .login-content-container {
+        width: 486px;
+    }
+} */
+
+.tablet .login-content-container
+.desktop .login-content-container {
+    width: 486px;
+}

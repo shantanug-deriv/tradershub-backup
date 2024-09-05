@@ -1,0 +1,51 @@
+﻿.country-of-residence-dropdown .vscomp-ele.pop-comp-active .vscomp-toggle-button {
+    border-color: black !important;
+}
+
+.country-of-residence-dropdown .vscomp-ele.pop-comp-active .vscomp-toggle-button:after {
+    color: black;
+}
+
+.country-of-residence-dropdown .vscomp-clear-button {
+    display: none !important;
+    pointer-events: none !important;
+}
+
+.phone .country-of-residence {
+    display: none;
+}
+
+.tablet .deriv-full-screen-mobile-modal,
+.desktop .deriv-full-screen-mobile-modal {
+    display: none;
+}
+.deriv-full-screen-mobile-modal__header {
+    padding: 4px 16px 8px 16px;
+}
+.desktop .content {
+    background-color: #F8F9FA;
+}
+
+.popup-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.button-container {
+display: flex;
+justify-content: flex-end;
+}
+
+.popup-dialog {
+    width: 328px;
+}
+
+.not-valid .vscomp-toggle-button {
+border: 1px solid #FF444F;
+}
+
+.vscomp-option-description  {
+    font-size: 12px !important;
+}
+

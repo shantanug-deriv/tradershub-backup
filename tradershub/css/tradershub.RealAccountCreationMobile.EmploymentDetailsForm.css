@@ -1,0 +1,38 @@
+﻿.osui-progress-bar__value:before {
+    width: 60% !important;
+}
+
+.real-account-signup-layout__content [data-block="Adaptive.DisplayOnDevice"] {
+    width: 100%;
+}
+
+.checkbox-container span {
+    display: flex;
+}
+
+.desktop .employment-details-section__mobile {
+    display: none;
+}
+
+.phone .employment-details-section__desktop,
+.tablet .employment-details-section__desktop {
+    display: none;
+}
+
+.dropdown-container > div.dropdown-display {
+    height: 48px !important;
+}
+
+.vscomp-toggle-button {
+    height: 48px !important;
+}
+
+[data-label].mandatory:after {
+    content: none;
+}
+
+.input-with-icon .input-with-icon-input img {
+    position: absolute;
+    right: 16px;
+    top: 45%;
+}

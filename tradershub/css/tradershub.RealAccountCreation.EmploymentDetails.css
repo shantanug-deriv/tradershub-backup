@@ -1,0 +1,44 @@
+﻿.osui-progress-bar__value:before {
+    width: 60% !important;
+}
+
+.real-account-signup-layout__content [data-block="Adaptive.DisplayOnDevice"] {
+    width: 100%;
+}
+
+.checkbox-container span {
+    display: flex;
+}
+
+.desktop .employment-details-section__mobile {
+    display: none;
+}
+
+.phone .employment-details-section__desktop,
+.tablet .employment-details-section__desktop {
+    display: none;
+}
+
+.dropdown-container > div.dropdown-display {
+    height: 48px !important;
+}
+
+.vscomp-toggle-button {
+    height: 48px !important;
+}
+
+.vscomp-ele.pop-comp-active .vscomp-toggle-button {
+    border-color: #818488 !important;
+}
+
+.vscomp-ele.pop-comp-active .vscomp-toggle-button:after {
+    color: #818488 !important;
+}
+
+.dropdown-container.dropdown-expanded > div.dropdown-display {
+    border: var(--border-size-s) solid #818488 !important;
+}
+
+.dropdown-expanded.dropdown-container:after {
+    border-color: #818488 !important;
+}

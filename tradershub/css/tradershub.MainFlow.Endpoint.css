@@ -1,0 +1,18 @@
+﻿.desktop .divider {
+    display: none;
+}
+
+.desktop .modal {
+    width: 400px;
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.desktop .header-container {
+    margin-bottom: 16px;
+}
+
+.desktop .content {
+    background-color: #F8F9FA;
+}

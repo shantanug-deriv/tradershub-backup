@@ -1,0 +1,51 @@
+﻿@media (min-width: 601px) {
+    .login-content-container {
+        width: 486px;
+    }
+}
+
+[data-label].mandatory:after {
+    content: none;
+}
+
+.email-sent-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 24px !important;
+    gap: 24px;
+}
+
+.phone .email-sent-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.tablet .content,
+.desktop .content {
+    background-color: #F8F9FA;
+}
+
+
+.phone .email-sent-container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+}
+
+
+.tablet .feedback-message,
+.desktop .feedback-message {
+    top: 15%
+}
+
+.phone .feedback-message {
+    top: 7%;
+}

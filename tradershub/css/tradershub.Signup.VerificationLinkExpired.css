@@ -1,0 +1,10 @@
+﻿.desktop .content-container {
+    width: 400px;
+}
+
+.phone .content-container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+}

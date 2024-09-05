@@ -1,0 +1,65 @@
+﻿.page-number {
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.tablet .page-number {
+    font-size: 14px;
+}
+
+.phone .page-number {
+    font-size: 14px;
+}
+
+.desktop .financial-assessment-header {
+    display: none;
+}
+
+.desktop .financial-assessment-header {
+    display: none;
+}
+
+.question-container {
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+.tablet .question-container {
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.phone .question-container {
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.required-container {
+    padding-bottom: 8px;
+}
+
+.tablet .required-container {
+    padding-bottom: 4px;
+}
+
+.phone .required-container {
+    padding-bottom: 4px;
+}
+
+.question {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4F575E;
+}
+
+.tablet .question {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.phone .question {
+    font-size: 14px;
+    line-height: 21px;
+}

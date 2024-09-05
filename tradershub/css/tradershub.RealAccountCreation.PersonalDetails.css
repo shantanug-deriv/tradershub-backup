@@ -1,0 +1,25 @@
+﻿.osui-progress-bar__value:before {
+    width: 20% !important;
+}
+
+.desktop .flatpickr-calendar.open,
+.tablet .flatpickr-calendar.open {
+    width: 295px;
+}
+
+[data-label].mandatory:after {
+    content: none;
+}
+
+.real-account-signup-layout__content [data-block="Adaptive.DisplayOnDevice"] {
+    width: 100%;
+}
+
+.tablet .personal-details-section__desktop,
+.phone .personal-details-section__desktop {
+    display: none;
+}
+
+.desktop .personal-details-section__mobile {
+    display: none;
+}

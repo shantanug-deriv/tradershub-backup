@@ -1,0 +1,16 @@
+﻿.tablet .modal, 
+.desktop .modal {
+    width: 400px;
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.phone .modal {
+    padding: 16px;
+}
+
+.tablet .content,
+.desktop .content {
+    background-color: #F8F9FA;
+}

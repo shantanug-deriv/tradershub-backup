@@ -1,0 +1,59 @@
+﻿[data-radio-group] [data-radio-button] {
+    margin: 0 !important;
+    margin-top: 16px !important;
+}
+
+.btn-container {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.tablet .btn-container {
+    margin-top: 16px;
+}
+
+.phone .btn-container {
+    margin-top: 16px;
+}
+
+.tablet .btn {
+    width: 100% !important;
+}
+
+.phone .btn {
+    width: 100% !important;
+}
+
+.question {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4F575E;
+}
+
+.tablet .question {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.phone .question {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.question-container {
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+.tablet .question-container {
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.phone .question-container {
+    margin-top: 16px;
+    margin-bottom: 0;
+}
