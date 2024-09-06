@@ -1,0 +1,24 @@
+﻿.phone-number-verification__container {
+    display: flex;
+width: 424px;
+padding: 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid var(--core-color-solid-slate-100, #EBECEF);
+background: var(--core-color-solid-slate-50, #FFF);
+}
+
+.phone-number-verification__idd {
+    width: 200px;
+}
+
+.phone-number-verification__idd .vscomp-toggle-button {
+    min-width: 0px;
+}
+
+.vscomp-dropbox-container pop-comp-wrapper {
+    max-width: 200px !important;
+}

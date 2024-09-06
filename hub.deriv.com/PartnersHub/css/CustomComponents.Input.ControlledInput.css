@@ -1,0 +1,19 @@
+﻿.deriv-input input {
+    font-size: 16px !important;
+    height: auto !important;
+    padding: 12px 16px 12px 16px !important;
+    display: block;
+}
+
+
+.deriv-input input:focus {
+    border-color: #101213 !important;
+}
+
+.deriv-input input.not-valid:focus {
+    border-color: #DC2020 !important;
+}
+
+.deriv-input .validation-message {
+    margin-top: 8px;
+}

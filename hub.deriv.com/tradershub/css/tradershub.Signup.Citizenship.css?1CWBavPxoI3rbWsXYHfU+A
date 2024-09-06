@@ -1,0 +1,40 @@
+﻿.country-of-residence-dropdown .vscomp-ele.pop-comp-active .vscomp-toggle-button {
+    border-color: black !important;
+}
+
+.country-of-residence-dropdown .vscomp-ele.pop-comp-active .vscomp-toggle-button:after {
+    color: black;
+}
+
+.country-of-residence-dropdown .vscomp-clear-button {
+    display: none !important;
+    pointer-events: none !important;
+}
+
+.phone .country-of-residence {
+    display: none;
+}
+
+.tablet .deriv-full-screen-mobile-modal,
+.desktop .deriv-full-screen-mobile-modal {
+    display: none;
+}
+.deriv-full-screen-mobile-modal__header {
+    padding: 4px 16px 8px 16px;
+}
+.desktop .content {
+    background-color: #F8F9FA;
+}
+
+.not-valid .vscomp-ele.pop-comp-active.vscomp-toggle-button {
+border: 1px solid #FF444F;
+}
+
+.btn-primary.disabled-btn {
+    background-color: #d3d3d3 !important; /* Light gray background */
+    border-color: #a9a9a9 !important; /* Darker gray border */
+    cursor: not-allowed !important;
+    color: #a9a9a9 !important; /* Darker gray text */
+}
+
+

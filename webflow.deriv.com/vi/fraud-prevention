@@ -1,0 +1,2389 @@
+<!DOCTYPE html><!-- Last Published: Fri Aug 30 2024 07:57:24 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="webflow.deriv.com" data-wf-page="66585fe0e1dc7e70cc75d7fb" data-wf-site="66585fe0e1dc7e70cc75d440" lang="vi"><head><meta charset="utf-8"/><title>Phòng chống gian lận</title><link rel="alternate" hrefLang="x-default" href="https://deriv.com/fraud-prevention"/><link rel="alternate" hrefLang="en" href="https://deriv.com/fraud-prevention"/><link rel="alternate" hrefLang="fr" href="https://deriv.com/fr/fraud-prevention"/><link rel="alternate" hrefLang="ar" href="https://deriv.com/ar/fraud-prevention"/><link rel="alternate" hrefLang="pt" href="https://deriv.com/pt/fraud-prevention"/><link rel="alternate" hrefLang="es" href="https://deriv.com/es/fraud-prevention"/><link rel="alternate" hrefLang="ru" href="https://deriv.com/ru/fraud-prevention"/><link rel="alternate" hrefLang="th" href="https://deriv.com/th/fraud-prevention"/><link rel="alternate" hrefLang="vi" href="https://deriv.com/vi/fraud-prevention"/><link rel="alternate" hrefLang="bn" href="https://deriv.com/bn/fraud-prevention"/><link rel="alternate" hrefLang="si" href="https://deriv.com/si/fraud-prevention"/><link rel="alternate" hrefLang="tr" href="https://deriv.com/tr/fraud-prevention"/><link rel="alternate" hrefLang="sw" href="https://deriv.com/sw/fraud-prevention"/><link rel="alternate" hrefLang="zh-CN" href="https://deriv.com/zh-cn/fraud-prevention"/><link rel="alternate" hrefLang="zh-TW" href="https://deriv.com/zh-tw/fraud-prevention"/><link rel="alternate" hrefLang="ko" href="https://deriv.com/ko/fraud-prevention"/><link rel="alternate" hrefLang="it" href="https://deriv.com/it/fraud-prevention"/><link rel="alternate" hrefLang="de" href="https://deriv.com/de/fraud-prevention"/><link rel="alternate" hrefLang="pl" href="https://deriv.com/pl/fraud-prevention"/><meta content="Là một nhà môi giới được cấp phép và được quản lý, chúng tôi tập trung vào việc cải thiện hành trình giao dịch của bạn với các sản phẩm tập trung vào khách hàng và hỗ trợ 24/7." name="description"/><meta content="Phòng chống gian lận" property="og:title"/><meta content="Là một nhà môi giới được cấp phép và được quản lý, chúng tôi tập trung vào việc cải thiện hành trình giao dịch của bạn với các sản phẩm tập trung vào khách hàng và hỗ trợ 24/7." property="og:description"/><meta content="Phòng chống gian lận" property="twitter:title"/><meta content="Là một nhà môi giới được cấp phép và được quản lý, chúng tôi tập trung vào việc cải thiện hành trình giao dịch của bạn với các sản phẩm tập trung vào khách hàng và hỗ trợ 24/7." property="twitter:description"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/css/deriv-staged-2dfc316890fbbd8e3ed6d351bd.f8f851f58.min.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/65c76c6482e68a9e09d9b765/65c773033acbd57cd18cc4c8_deriv_favicon_32.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/65c76c6482e68a9e09d9b765/65c7730a457546181fec95a5_deriv_favicon_256.png" rel="apple-touch-icon"/><link href="https://deriv.com/vi/fraud-prevention" rel="canonical"/><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NF7884S');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Analytics Integration -->
+<script src="https://unpkg.com/@deriv-com/analytics@1.11.0/dist/analytics.bundle.js"></script>
+<!--  Analytics end-->
+
+<!-- Hotjar Tracking Code for Deriv.com (.com + app.deriv) -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3050531,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<!-- [Attributes by Finsweet] Disable scrolling -->
+<script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-scrolldisable@1/scrolldisable.js"></script>
+<!-- Keep this css code to improve the font quality-->
+<style>
+  * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -o-font-smoothing: antialiased;
+}
+/* display only one text element for language switcher 
+.current-locale-list > .current-locale:first-of-type {
+    display: block;
+} */
+</style>
+<script>
+window.growthbook_config = window.growthbook_config || {};
+window.growthbook_config.attributes = {
+  "deviceId": "foo",
+  "company": "foo",
+  "loggedIn": true,
+  "employee": true,
+  "country": "foo",
+  "user_language": "foo",
+  "device_type": "foo",
+  "device_language": "foo",
+  "user_ip": "foo"
+};
+</script>
+<style>
+/* Style for disabling scroll */
+.disable-scroll {
+    overflow: hidden;
+}
+</style>
+<style>
+/* removing scroll bar(vertical) */
+::-webkit-scrollbar {
+  display:none;
+}
+/* removing scroll bar (Firefox) */
+* {
+  scrollbar-width: none;
+}
+</style>
+<style>
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .new-navbar_menu-left-desctop{
+      font-size: 14px; /* Adjust the font size of menus in the custom breakpoint */
+    }
+    .new-navbar_dropdown-toggle , .new-navbar_link {
+      padding: .5rem 0.75rem; /* Adjust the padding of menus in the custom breakpoint */
+    }
+    header h1 {
+      font-size: 3rem; /* Adjust the font size of header texts in the custom breakpoint */
+    }
+    header p {
+      font-size: 14px; /* Adjust the font size of p texts and their width in header in the custom breakpoint */
+      width: 81%;
+    }
+  }
+</style>
+<style>
+@media screen and (max-width: 991px) { /* Adjusts for mobile landscape */
+  .tabs_menu-scroll-mobile {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS devices */
+    scrollbar-width: none; /* For Firefox */
+  } 
+}
+</style>
+<!-- Datadog Integration -->
+<script async src="https://www.datadoghq-browser-agent.com/datadog-rum.js"></script>
+<!-- Marketing and Affiliate Cookie-->
+<script>
+function loadScript(url, callback) {
+    var script = document.createElement('script');
+    script.onload = function() {
+        if (callback) callback();
+    };
+    script.src = url;
+    document.head.appendChild(script);
+}
+// Usage to load the js-cookie script
+loadScript("https://static.deriv.com/scripts/cookie.js", function() {
+    console.log('js-cookie loaded successfully!');
+});
+(function() {
+    // Function to dynamically load js-cookie
+    function loadJSCookie(callback) {
+        var script = document.createElement('script');
+        script.onload = function() {
+            if (callback) callback();
+        };
+        script.src = "https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js";
+        document.head.appendChild(script);
+    }
+    // Define your cookie storage and manipulation functions
+    function setupCookies() {
+        var deriv_cookie_domain = 'deriv.com'; // Modify as per your actual usage
+        var CookieStorage = function(cookie_name, cookie_domain = '') {
+            var hostname = window.location.hostname;
+            var is_deriv_com = hostname.includes('deriv.com');
+            this.initialized = false;
+            this.cookie_name = cookie_name;
+            this.domain = is_deriv_com ? deriv_cookie_domain : cookie_domain || hostname;
+            this.path = '/';
+            this.same_site = 'None';
+            this.is_secure = true;
+            this.expires = new Date('Thu, 1 Jan 2037 12:00:00 GMT');
+            this.value = {};
+        };
+        CookieStorage.prototype = {
+            initialize: function() {
+                var cookie_value = Cookies.get(this.cookie_name);
+                try {
+                    this.value = cookie_value ? JSON.parse(cookie_value) : {};
+                } catch (e) {
+                    this.value = {};
+                }
+                this.initialized = true;
+            },
+            write: function(val, expiry_date, is_secure, sameSite) {
+                if (!this.initialized) this.initialize();
+                this.value = val;
+                this.expires = expiry_date || this.expires;
+                Cookies.set(this.cookie_name, JSON.stringify(this.value), {
+                    expires: this.expires,
+                    path: this.path,
+                    domain: this.domain,
+                    secure: is_secure !== undefined ? is_secure : this.is_secure,
+                    sameSite: sameSite || this.same_site,
+                });
+            },
+            get: function(key) {
+                if (!this.initialized) this.initialize();
+                return this.value[key];
+            },
+            set: function(key, val, options) {
+                if (!this.initialized) this.initialize();
+                this.value[key] = val;
+                Cookies.set(this.cookie_name, JSON.stringify(this.value), {
+                    expires: this.expires,
+                    path: this.path,
+                    domain: this.domain,
+                    secure: options && options.secure !== undefined ? options.secure : this.is_secure,
+                    sameSite: options && options.sameSite || this.same_site,
+                    ...options,
+                });
+            },
+            remove: function() {
+                Cookies.remove(this.cookie_name, {
+                    path: this.path,
+                    domain: this.domain,
+                });
+            },
+        };
+        function getCookiesObject(cookies) {
+            var cookies_objects = {};
+            cookies.forEach(function(cookie_name) {
+                var cookie_object = new CookieStorage(cookie_name.includes('utm') ? 'utm_data' : cookie_name);
+                cookies_objects[cookie_name] = cookie_object;
+            });
+            return cookies_objects;
+        }
+        function getDataObjFromCookies(cookies, fields) {
+            var data = {};
+            fields.forEach(function(elem) {
+                if (cookies[elem] && cookies[elem].get(elem)) {
+                    data[elem] = cookies[elem].get(elem);
+                }
+            });
+            return data;
+        }
+        function getDataLink(data) {
+            var data_link = '';
+            Object.keys(data).forEach(function(elem) {
+                data_link += '&' + elem + '=' + encodeURIComponent(data[elem]);
+            });
+            return data_link;
+        }
+        function getCookiesFields() {
+            return [
+                'date_first_contact',
+                'signup_device',
+                'gclid',
+                'utm_source',
+                'utm_ad_id',
+                'utm_adgroup_id',
+                'utm_adrollclk_id',
+                'utm_campaign',
+                'utm_campaign_id',
+                'utm_content',
+                'utm_fbcl_id',
+                'utm_gl_client_id',
+                'utm_medium',
+                'utm_msclk_id',
+                'utm_term',
+                'sidc'
+            ];
+        }
+        // Example usage:
+        var exampleCookies = getCookiesObject(['utm_source', 'utm_campaign']);
+        var dataObj = getDataObjFromCookies(exampleCookies, getCookiesFields());
+        var dataLink = getDataLink(dataObj);
+    }
+    // Load js-cookie and setup cookies after it's loaded
+    loadJSCookie(setupCookies);
+})();
+</script>
+<!-- TrustBox script -->
+<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+<!-- End TrustBox script --></head><body><div class="page-wrapper"><div class="global-styles w-embed"><style>
+
+/* Set color style to inherit */
+.inherit-color * {
+    color: inherit;
+}
+
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+    pointer-events: none;
+}
+
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+
+/* Create a class of .div-square which maintains a 1:1 dimension of a div */
+.div-square::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+    margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+/*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+
+@media screen and (max-width: 991px) {
+    .hide, .hide-tablet {
+        display: none !important;
+    }
+}
+  @media screen and (max-width: 767px) {
+
+.disclaimer-visible .max-width-medium.max-width-full-mobile-landscape {
+        max-width: none;
+        margin-bottom: 1.5rem;
+    }
+
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+}
+  @media screen and (max-width: 479px) {
+    .hide-mobile{
+      display: none !important;
+    }
+}
+ 
+.margin-0 {
+  margin: 0rem !important;
+}
+  
+.padding-0 {
+  padding: 0rem !important;
+}
+
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+  
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+  
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+  
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+  
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+/* Apply "..." at 100% width */
+.truncate-width { 
+        width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+/* Removes native scrollbar */
+.no-scrollbar {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none; 
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.accordion_dropdown.is-active-accordion,
+.tab-dropdown.is-active-accordion {
+        background: var(--background-color--background-alternate);
+}
+
+.accordion_dropdown.is-white.is-active-accordion {
+      background: rgba(0, 0, 0, 0.00);
+}
+
+.accordion_arrow.is-active-accordion {
+        transform: rotate(180deg);
+}
+
+.help_tab.fs-cmsfilter_active {
+        color: var(--text-color--text-primary);
+    border-bottom: 2px solid var(--border-color--border-primary);
+}
+
+.w-slider-dot {
+        width: 0.5rem;
+    height: 0.5rem;
+    background: #4146528F;
+}
+
+.w-slider-dot.w-active {
+    background: var(--base-color-neutral--black);
+}
+
+.blog-filters_button.fs-cmsfilter_active {
+        background: var(--base-color-neutral--black);
+    color: var(--text-color--text-alternate);
+    border-color: var(--border-color--border-primary);
+}
+
+@media screen and (min-width: 992px) {
+    .blogs_link-block:hover .blogs_image {
+            transform: scale(1.07);
+        }
+}
+
+
+.partner-navbar_component .w-nav-link.w--current {
+    color: #e12e3a; /** Deriv partner navbar active link color **/
+}
+
+.customLink{
+  color:#ff444f !important;
+}
+
+.content_market-text {
+    display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.contact-social_link-wp:hover .is-hover, .contact-social_link-live:hover .is-hover{
+  display:block;
+}
+
+
+.contact-social_link-wp:hover .is-normal, .contact-social_link-live:hover .is-normal{
+     display:none;  
+}
+
+/* Input field styling */
+
+input, textarea, [contenteditable] {caret-color: #000000B8;}
+
+.floating-label {pointer-events: none;}
+
+.custom-input:not(:placeholder-shown){
+padding-top: 1.5rem;
+padding-bottom: .5rem;
+}
+
+.custom-input:not(:placeholder-shown) ~ .floating-label {
+color: #6002ee;
+/** transform: scale(.75); **/
+top: .5rem;
+font-size: 12px;
+}
+
+.custom-input:not(:focus) ~ .floating-label {
+color: rgba(0,0,0,.6);
+}
+
+
+
+.custom-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    margin-bottom: 0px;
+    padding: 1rem 0.70rem;
+    border: 1px solid #00000014;
+    box-shadow: none;
+    transition-property: background-color, border-color, border-width;
+    transition-duration: 150ms, 150ms, 0ms;
+    transition-timing-function: ease, ease, ease;
+    font-size: 1rem;
+    background-color: rgb(0 0 0 / 0%);
+}
+
+
+.text-input.custom {
+
+    height: 56px;
+}
+
+.custom-input.-wfp-focus, :where(html:not(.wf-design-mode)) .custom-input:focus {
+    border-bottom-width: 2px;
+    border-bottom-color: rgba(0, 0, 0, 0.08);
+    background-color: rgb(0 0 0 / 0%);
+    box-shadow: none;
+}
+
+.w-input:focus, .w-select:focus {
+   
+   outline: 0;
+   border: 1px solid var(--core-color-solid-slate-1400, #000);
+}
+
+.w-input, .w-select {
+   
+
+    color: #000000B8;
+    }
+.custom-input:not(:placeholder-shown) + .floating-label {
+    color: #000000B8;
+}
+
+input, textarea, [contenteditable] {
+    caret-color: #000000B8;
+}
+
+.custom-input:not(:placeholder-shown) + .floating-label {
+    color: #000000B8;
+    }
+
+.with-asterisk:after {
+   content: "*";
+   color: #C40000;
+   margin-left: 3px; 
+}
+
+/* Error state styles */
+.custom-input.error-field:not(:focus) + .floating-label {
+    color: #de0040;
+}
+.custom-input.error-field{
+    border-color: #de0040;
+}
+.input-error-text.error-field{
+        display: block;
+        padding-top: 4px;
+        padding-left: var(--16-px);
+        color: #de0040;
+    }
+.error-field-icon.error-field{
+        position: absolute;
+        width: 24px;
+    }   
+.error-field-icon.error-field {
+    position: absolute;
+    width: 24px;
+    inset: 0% 2% 0% auto;
+    display: block;
+}
+.error-field-icon{
+     display: none;
+}
+
+.input-error-text{
+     display: none;
+}
+
+.error-message {
+    color: rgba(230, 25, 14, 0.72) !important; /* Color of the error message */
+    font-size: 12px; /* Adjust font size as needed */
+    margin-top: 4px; /* Add space between field and message */
+}
+
+
+/* After login and logged ou */
+.logged-out-btn.hide-element {
+    display: none !important;
+}
+
+.logged-in-btn.hide-element {
+    display: none !important;
+}
+
+/*added hide-element classed to ctrader check email screens */
+.section_ctrader-check-email.hide-element {
+ display: none !important;
+}
+.section_ctrader-check-email-verify.hide-element {
+ display: none !important;
+}
+.section_page-header_dint-get-email.hide-element {
+ display: none !important;
+}
+/* Affiliates page range slider handle */
+.rangeslider_handle:focus {
+    outline: none !important;
+}
+
+.contact-social_link-wp:hover .is-hover, .contact-social_link-live:hover .is-hover{display:block;}
+
+.contact-social_link-wp:hover .is-normal, .contact-social_link-live:hover .is-normal{display:none;}
+
+.margin-bottom-md{
+   margin-bottom:0.2rem !important;
+}
+input.error-field::placeholder {
+    color: red !important;
+}
+
+.disclaimer-active .header_background-image-wrapper{
+   top:5%;
+}
+
+@media screen and (max-width: 430px) {
+    .disclaimer-active .header_background-image-wrapper{
+            top:10%;
+        }
+}
+
+.error-field-block{
+  border:1px solid #de0040;
+}
+.input-error-text.error-field-block {
+    display: block;
+    border:none;
+}
+.sn_form img#email-sign-up-error-icon {
+    width: 24px;
+    border: none;
+    position: absolute;
+    top: 14px;
+    height: 25px;
+    right: 9px;
+}
+.sn_form input.error-field-block:focus {
+    border-color: #de0040;
+}
+.error-field-icon.error-field-block {
+    display: block;
+}
+
+.footer_logo svg{
+  max-width:72px;
+}
+
+/* For trustpilot code */
+span#translations-customerssay{
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: red;
+}
+
+.navbar_icon {
+    transition: transform 0.3s;
+  }
+ .navbar_accordion-content {
+        transition: max-height 0.3s ease, padding 0.3s ease, transform 0.3s ease;
+        transform: translateY(-20px);
+  }
+  
+
+  .navbar_accordion-trigger:before {
+    display:none;
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 4px;
+    height: 44px;
+    background: #FF444F;
+}
+  .navbar_accordion-trigger.open:before {
+    display: block;
+}
+
+
+
+.navbar_accordion-trigger.open svg {
+    transform: rotate(180deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar_accordion-trigger.current:before {
+    display: block;
+}
+
+/* Disclaimer Responsive Issue Fixes - START */
+
+@media (max-width: 479px) {
+.disclaimer-active .header_background-image-wrapper{
+top:5%
+  }
+}
+@media (min-width: 480px) and (max-width: 610px) {
+.disclaimer-active .header_background-image-wrapper{
+top:15%
+  }
+}
+@media (min-width: 611px) and (max-width: 767px) {
+.disclaimer-active .header_background-image-wrapper{
+top:12%
+  }
+}
+@media (min-width: 768px) {
+.disclaimer-active .header_background-image-wrapper{
+top:7%
+  }
+}
+
+/* Disclaimer Responsive Issue Fixes - END !!! - this overwrites the required styles - !!! */
+/*.new-navbar_dropdown-content-bottom a.new-navbar_dropdown-link:hover {
+    background: transparent;
+}*/
+
+/* Fix for Select issue for safari and firefox */
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+/*to remove the password icon */
+::-ms-reveal {
+    display: none;
+}
+
+.page-wrapper.nopad {
+    padding: 0px !important;
+}
+
+.disclaimer-show .menu-wrapper{
+   height:80px;
+}
+
+.trustpilot-widget a[rel~="noopener"] {
+  visibility: hidden;
+}
+
+
+/* Navbar bug solution */
+.new-navbar_component .new-navbar_container > .new-navbar_menu {
+  transform: none !important;
+}
+
+.input-group .error-field-icon.error-field {
+    top: 16px;
+}
+/* ONLY ARABIC START*/
+
+
+.dir-ltr{
+    direction: ltr;
+    text-align: left;
+}
+.new-navbar_menu.is-padding-0.is-adaptive:lang(ar){
+margin-right:0px;
+}
+
+:dir(rtl) .navbar_accordion-trigger:before { 
+    left: auto; 
+    right:0px; 
+}
+
+:dir(rtl) .sn_form img#email-sign-up-error-icon,
+:dir(rtl) .error-field-icon.error-field {
+    left: 8px;
+    right: auto;
+}
+
+:dir(rtl) input#mobile-number {
+    text-align: right;
+}
+
+a#profile-link:focus {
+    outline: none;
+}
+
+/* ONLY ARABIC END*/
+@media (max-width: 768px) {
+.blog-filters .w-dropdown{
+   display:contents;
+}
+}
+/*
+.email-illustration #verification-text-c-trader{
+  word-wrap: break-word; 
+  word-break: break-all; 
+  overflow-wrap: break-word; 
+  white-space: normal;
+}
+*/
+
+
+.show-cookie .cookie-middle-wrapper{
+    margin-bottom: 85px;
+}
+
+.show-cookie .cookie-middle-wrapper:lang(de), .show-cookie .cookie-middle-wrapper:lang(fr), .show-cookie .cookie-middle-wrapper:lang(ru) {
+    margin-bottom: 106px;
+}
+@media (max-width: 1025px) {
+    .disclaimer_wrapper{
+     display:none;
+    }
+  .disclaimer_wrapper.head, .head .banner_disclaimer.hide-element {
+     display:block;
+    }
+  .show-cookie .cookie-middle-wrapper{
+    margin-left: 45px;
+    margin-bottom: 20px;
+  }
+ .show-cookie .cookie-middle-wrapper:lang(ar){
+    margin-right: 45px;
+}
+}
+
+
+
+@media (max-width: 478px) {
+.show-cookie .cookie-middle-wrapper {
+    margin-bottom: 0px;
+    margin-left:0px;
+}
+}
+.foot .banner_disclaimer.hide-element {
+    display: block;
+}
+
+@media (max-width: 430px) {
+.show-cookie .cookie-middle-wrapper:lang(de), .show-cookie .cookie-middle-wrapper:lang(fr), .show-cookie .cookie-middle-wrapper:lang(ru), .show-cookie .cookie-middle-wrapper:lang(de) {
+    margin-bottom: 0px;
+}
+.show-cookie a.social-proof_link {
+    z-index: -1;
+}
+
+    .show-cookie .cookie-middle-wrapper:lang(ar) {
+        margin-right: 0px;
+    }
+.show-cookie .contact-social_links-wrapper.is-whatsapp {
+    bottom: 10.5rem;
+}
+}
+@media (min-width: 1025px) {
+.disclaimer-visible #live_chat-wrapper, .disclaimer-visible .contact-social_links-wrapper {
+    bottom: 6rem;
+}
+
+.disclaimer-visible #live_chat-wrapper:lang(de), .disclaimer-visible #live_chat-wrapper:lang(fr), .disclaimer-visible #live_chat-wrapper:lang(ru) {
+    bottom: 8rem;
+}
+
+.disclaimer-visible .footer_texts {
+    padding-bottom: 70px;
+}
+}
+.cookies_banner-wrapper{
+box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
+-webkit-box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+.show-cookie div#floating_cta {
+    display: none;
+}
+
+.show-cookie .footer_bottom-wrapper {
+    margin-bottom: 128px;
+}
+
+   @media (max-width: 430px) {
+    .show-cookie .contact-social_links-wrapper.is-whatsapp:lang(fr), 
+    .show-cookie .contact-social_links-wrapper.is-whatsapp:lang(pt),
+    .show-cookie .contact-social_links-wrapper.is-whatsapp:lang(vi),
+    .show-cookie .contact-social_links-wrapper.is-whatsapp:lang(bn),
+    .show-cookie .contact-social_links-wrapper.is-whatsapp:lang(tr),
+    .show-cookie .contact-social_links-wrapper.is-whatsapp:lang(it),
+    .show-cookie .contact-social_links-wrapper.is-whatsapp:lang(pl) {
+        bottom: 12.5rem;
+    }
+
+     .show-cookie .contact-social_links-wrapper.is-whatsapp:lang(ru),
+     .show-cookie .contact-social_links-wrapper.is-whatsapp:lang(de) {
+        bottom: 13.5rem;
+    }
+}
+
+/* 25 years logo alignment */
+.new-navbar_main-wrapper .logo-wrapper-25 {
+		padding-top: 4px;
+}
+
+.prime-form-group .error-field-icon.error-field {
+    top: 16px;
+}
+.prime-form-group .custom-input:not(:placeholder-shown) ~ .floating-label {
+    color: #000000B8;
+    }
+
+</style></div><div data-animation="default" class="new-navbar_main-wrapper derivgo-query-element w-nav" data-easing2="ease" fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="medium" data-w-id="8e11cc17-102d-e2e0-18f4-df5dcff9dc9f" role="banner" data-no-scroll="1" data-duration="400" data-doc-height="1"><div data-w-id="4c2420d9-8434-a78a-2a18-0dd184489c44" class="new-navbar_backdrop-blur"></div><div data-w-id="2997ddca-0217-b8d8-8070-a9b0adc02c63" class="new-navbar_component"><div class="new-navbar_component-wrapper"><div class="new-navbar_container"><div class="logo-wrap is-adaptive"><a href="/vi" class="new-navbar_logo-link w-nav-brand"><div class="new-navbar_logo is-red is-adaptive w-embed"><svg width="100%" height="100%" viewBox="0 0 72 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.4238 0.808863L13.1912 7.79644H8.91248C4.92071 7.79644 1.11591 11.0293 0.410715 15.0195L0.112228 16.7179C-0.589682 20.7082 2.07366 23.9411 6.06543 23.9411H9.63407C12.5434 23.9411 15.315 21.5869 15.8267 18.6787L19.1133 0.0552979L14.4238 0.808863ZM11.3878 18.0196C11.2304 18.918 10.4213 19.6492 9.52256 19.6492H7.35448C5.56031 19.6492 4.35984 18.1934 4.67471 16.3966L4.86168 15.3376C5.17983 13.5441 6.89199 12.0851 8.68615 12.0851H12.4347L11.3878 18.0196ZM47.3757 23.9408L50.1834 8.01904H54.6245L51.8168 23.9408H47.3757ZM47.8561 8.20264C47.6335 9.46551 47.4099 10.7284 47.1873 11.9913C45.0833 11.3377 42.9125 11.5458 42.2456 11.6788C41.5254 15.7671 40.8042 19.8564 40.083 23.9447H35.6389C36.2424 20.5239 38.3042 8.84149 38.3042 8.84149C39.7496 8.24317 43.2991 7.02889 47.8561 8.20264ZM29.8494 7.79374H26.3924C23.0238 7.79374 19.8128 10.5217 19.219 13.8889L18.5204 17.8464C17.9267 21.2137 20.1736 23.9417 23.5422 23.9417H30.8959L31.6503 19.6629H24.7392C23.6175 19.6629 22.8664 18.7546 23.0665 17.63L23.0895 17.4956H34.2316L34.8679 13.8889C35.4615 10.5217 33.2148 7.79374 29.8462 7.79374H29.8494ZM30.4103 13.548L30.3841 13.7775H23.7586L23.7947 13.5742C23.9947 12.4528 25.0181 11.4659 26.143 11.4659H28.731C29.843 11.4659 30.5941 12.4365 30.4103 13.548ZM67.5083 8.01904H71.9526C70.4387 12.0426 66.9691 18.887 63.6082 23.9408H59.1639C57.6212 19.1308 56.625 12.429 56.4349 8.01904H60.8794C60.9596 9.45755 61.6038 14.7933 62.339 18.5208C64.3555 14.8945 66.5786 10.1366 67.5049 8.01904H67.5083Z" fill="currentcolor"/>
+</svg></div></a><div class="logo-wrapper-25 twenty-five-logo is-black is-adaptive w-embed"><svg width="100%" height="100%" viewBox="0 0 77 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4_23)">
+<path d="M30.6428 8.63601C30.1769 8.19464 29.5892 7.83174 28.8781 7.54566C28.1727 7.26204 27.3039 7.07895 26.3329 6.9964L26.7628 5.6731H23.4206L22.1317 9.64136C23.2751 9.64136 24.3598 9.70267 25.1526 9.82527C25.9454 9.94787 26.5781 10.1195 27.0521 10.3402C27.5262 10.5609 27.8687 10.8306 28.082 11.1486C28.2945 11.4673 28.4008 11.8229 28.4008 12.2144C28.4008 13.1462 28.0902 13.832 27.469 14.2733C26.8478 14.7147 25.9495 14.9354 24.7734 14.9354C24.1685 14.9354 23.54 14.8455 22.8861 14.6657C22.2322 14.4858 21.3486 14.1556 20.7773 13.8123H9.989C9.92361 13.9341 9.82063 14.1646 9.76014 14.2905C9.4005 15.0425 9.14712 15.9326 9 16.9624H19.7744C20.1103 17.1275 20.5443 17.233 20.9375 17.3621C21.3862 17.5092 21.8439 17.6278 22.3098 17.7177C22.7757 17.8076 23.2294 17.8771 23.6699 17.9261C24.1113 17.9751 24.5036 17.9997 24.8461 17.9997C26.0223 17.9997 27.0603 17.8566 27.9586 17.5705C28.8569 17.2845 29.6088 16.8807 30.2137 16.3576C30.8177 15.8345 31.2713 15.1978 31.5738 14.4458C31.8762 13.6946 32.0274 12.8609 32.0274 11.9455C32.0274 11.308 31.9121 10.708 31.6841 10.144C31.4552 9.58006 31.1079 9.0782 30.642 8.63683L30.6428 8.63601Z" fill="currentColor" />
+<path d="M24.9138 1.08374L23.8896 4.23383L33.1863 4.2322L34.2096 1.08374H24.9138Z" fill="currentColor"/>
+<path d="M22.3037 2.47496C22.0748 1.98454 21.7528 1.55543 21.3359 1.18844C20.919 0.820626 20.4295 0.531282 19.8655 0.318769C19.3015 0.106256 18.6926 0 18.0395 0C16.9941 0 15.9626 0.112795 15.0006 0.490414C13.3716 1.12959 12.1382 2.22158 12.1382 2.22158L13.3095 4.85265C14.0606 4.2805 14.7554 3.8522 15.3921 3.56613C16.0296 3.28005 16.6827 3.13702 17.3529 3.13702C17.827 3.13702 18.2144 3.28005 18.5168 3.56613C18.8193 3.8522 18.9705 4.20775 18.9705 4.63196C18.9705 4.97525 18.8969 5.30219 18.7498 5.61279C18.6027 5.92339 18.3697 6.25442 18.0518 6.60506C17.733 6.95652 17.3161 7.34068 16.802 7.75672C16.2871 8.17357 15.6618 8.66807 14.927 9.2394C14.1423 9.84425 13.4157 10.4123 12.7455 10.9428C12.1815 11.3899 11.5554 11.8672 11.0903 12.3723H15.5899C15.7231 12.2653 15.8572 12.1606 15.9928 12.0585C16.426 11.7315 16.8666 11.4128 17.3161 11.103C17.7649 10.7932 18.2103 10.4654 18.6517 10.1221C19.4029 9.53365 20.0363 9.00319 20.5512 8.52912C21.0662 8.05505 21.4781 7.58916 21.7895 7.13226C22.0993 6.67535 22.32 6.20047 22.4516 5.71087C22.5824 5.22046 22.6478 4.66547 22.6478 4.04428C22.6478 3.4893 22.5333 2.96537 22.3045 2.47577L22.3037 2.47496Z" fill="currentColor"/>
+<path d="M39.8743 13.2707C40.314 12.5751 40.7145 11.8542 41.0742 11.1071C41.433 10.3592 41.7493 9.64406 42.0215 8.95993C42.2936 8.27662 42.5225 7.64726 42.708 7.07429C42.8936 6.50051 43.0268 6.04033 43.1077 5.69214H44.7939C44.6664 6.13269 44.4866 6.68032 44.2553 7.33421C44.0232 7.98891 43.742 8.69593 43.4118 9.45525C43.0816 10.2146 42.7105 10.9911 42.2994 11.7847C41.8882 12.5784 41.4387 13.3401 40.9524 14.0709C40.5813 14.616 40.211 15.1285 39.8399 15.6091C39.4689 16.0897 39.0724 16.5066 38.6491 16.8605C38.2257 17.2136 37.7598 17.4915 37.2497 17.695C36.7397 17.8977 36.1659 17.9991 35.5292 17.9991C35.2047 17.9991 34.9031 17.9582 34.6252 17.8773C34.3473 17.7964 34.1446 17.7089 34.0171 17.6166L34.5729 16.2957C34.689 16.3881 34.8451 16.4665 35.0421 16.5303C35.239 16.594 35.4589 16.6259 35.7025 16.6259C36.3743 16.6259 36.9457 16.4633 37.4148 16.1388C37.884 15.8143 38.327 15.3852 38.7447 14.8523C38.3156 13.4505 37.9657 11.9727 37.6927 10.4197C37.4206 8.86675 37.2555 7.29089 37.1974 5.69214H38.8485C38.8599 6.21361 38.8885 6.78494 38.9351 7.4045C38.9817 8.02488 39.0479 8.66732 39.1346 9.33428C39.2212 10.0004 39.3258 10.6707 39.4468 11.3417C39.5686 12.0144 39.71 12.6568 39.8726 13.2715L39.8743 13.2707Z" fill="currentColor"/>
+<path d="M48.4952 14.9568C47.9042 14.9568 47.3942 14.8726 46.9659 14.7051C46.5368 14.5375 46.178 14.3054 45.8886 14.0095C45.5985 13.7136 45.3843 13.3695 45.2454 12.9755C45.1064 12.5816 45.0361 12.1647 45.0361 11.7242C45.0361 10.9133 45.1579 10.1311 45.4015 9.37753C45.6451 8.62393 45.9924 7.9586 46.4444 7.37909C46.8964 6.79959 47.4465 6.33941 48.0955 5.99694C48.7445 5.65529 49.4801 5.48364 50.3032 5.48364C50.7781 5.48364 51.1867 5.54413 51.5284 5.66673C51.8701 5.78852 52.148 5.95362 52.3629 6.16205C52.5771 6.37047 52.7365 6.61078 52.8411 6.88377C52.9457 7.15595 52.9972 7.43713 52.9972 7.72729C52.9972 8.27246 52.8983 8.73264 52.7013 9.10944C52.5043 9.48624 52.2436 9.80174 51.9191 10.0568C51.5946 10.3118 51.2154 10.5088 50.7805 10.6477C50.3457 10.7867 49.8937 10.897 49.4245 10.9779C48.9554 11.0588 48.4797 11.1144 47.9991 11.143C47.5184 11.1724 47.0632 11.1986 46.6349 11.2215C46.6234 11.3138 46.6177 11.3899 46.6177 11.4471V11.586C46.6177 11.8525 46.6496 12.1051 46.7134 12.3421C46.7771 12.5799 46.8956 12.7884 47.0697 12.9682C47.243 13.148 47.4841 13.2894 47.7906 13.394C48.098 13.4986 48.5001 13.551 48.9987 13.551C49.2185 13.551 49.4474 13.5305 49.6853 13.4905C49.9231 13.4496 50.1487 13.3973 50.3628 13.3344C50.577 13.2706 50.7683 13.2068 50.9366 13.1431C51.1042 13.0793 51.2235 13.0189 51.293 12.96L51.432 14.3332C51.1998 14.4607 50.8263 14.5972 50.3114 14.7418C49.7956 14.8865 49.1908 14.9593 48.4944 14.9593V14.9576L48.4952 14.9568ZM46.8441 9.98564C47.516 9.96276 48.1298 9.91944 48.6864 9.85487C49.2431 9.79111 49.7237 9.68159 50.1291 9.52465C50.5345 9.36772 50.85 9.15684 51.0764 8.89039C51.302 8.62393 51.4156 8.27655 51.4156 7.84744C51.4156 7.74282 51.3952 7.63329 51.3551 7.51723C51.3143 7.40198 51.2448 7.29409 51.1467 7.19519C51.0478 7.09629 50.9121 7.01537 50.738 6.95162C50.5647 6.88786 50.3498 6.85598 50.0948 6.85598C49.6885 6.85598 49.3093 6.94262 48.9562 7.11672C48.6023 7.29082 48.2868 7.51968 48.0089 7.8033C47.731 8.08692 47.4931 8.41714 47.2961 8.79394C47.0991 9.17074 46.9479 9.56716 46.8441 9.98483V9.98564Z" fill="currentColor"/>
+<path d="M59.8115 14.835C59.7535 14.7075 59.6955 14.5653 59.6375 14.4092C59.5794 14.2523 59.5328 14.0872 59.4985 13.9139C59.2435 14.146 58.901 14.3773 58.4727 14.6094C58.0436 14.8416 57.5164 14.9576 56.8911 14.9576C56.3811 14.9576 55.9438 14.8767 55.5785 14.7141C55.2139 14.5522 54.9148 14.3266 54.6835 14.0357C54.4513 13.7463 54.2805 13.4038 54.171 13.0099C54.0606 12.6159 54.0059 12.1811 54.0059 11.7062C54.0059 10.9297 54.1366 10.1712 54.3966 9.42903C54.6573 8.68769 55.0488 8.02727 55.5703 7.44694C56.0918 6.86744 56.7465 6.39828 57.5344 6.03864C58.3223 5.67982 59.2435 5.5 60.2979 5.5C60.6109 5.5 60.9763 5.53433 61.3931 5.60462C61.81 5.6741 62.1696 5.79016 62.4704 5.95282L61.1324 11.4103C61.0744 11.6776 61.0245 11.9318 60.9845 12.1754C60.9436 12.4189 60.924 12.6739 60.924 12.9404C60.924 13.2069 60.9469 13.4766 60.9934 13.7488C61.04 14.0209 61.121 14.3136 61.237 14.6266L59.8115 14.835ZM57.2213 13.5837C57.7077 13.5837 58.1245 13.479 58.4727 13.2714C58.8209 13.0622 59.1217 12.8194 59.3767 12.5415C59.3882 12.3445 59.4086 12.1386 59.4372 11.9244C59.4658 11.7103 59.5042 11.4929 59.55 11.273L60.5929 6.96225C60.5349 6.93937 60.4393 6.92138 60.306 6.90994C60.172 6.8985 60.0543 6.89278 59.9497 6.89278C59.2893 6.89278 58.6918 7.02028 58.1597 7.2753C57.6268 7.53032 57.1715 7.86952 56.7947 8.29209C56.4179 8.71548 56.1285 9.20753 55.9258 9.76906C55.7231 10.3314 55.6218 10.9191 55.6218 11.5337C55.6218 11.7773 55.6447 12.0233 55.6912 12.2726C55.7378 12.5219 55.822 12.7418 55.943 12.933C56.0648 13.1243 56.2266 13.2804 56.4301 13.4022C56.6328 13.524 56.896 13.5845 57.2213 13.5845V13.5837Z" fill="currentColor"/>
+<path d="M68.2595 5.50082C68.3985 5.50082 68.5554 5.50654 68.7287 5.51798C68.902 5.52942 69.0736 5.54986 69.2412 5.57847C69.4095 5.60789 69.5624 5.6365 69.7013 5.66511C69.8403 5.69453 69.9449 5.72559 70.0144 5.76074L69.5452 7.16904C69.3131 7.07668 69.0466 7.00721 68.7458 6.96062C68.4442 6.91403 68.1549 6.89114 67.8762 6.89114C67.6326 6.89114 67.3923 6.90831 67.1553 6.94345C66.9174 6.97778 66.7123 7.02437 66.5382 7.0824L64.6958 14.7304H63.0791L65.165 6.03864C65.6284 5.8768 66.1262 5.74602 66.6599 5.64794C67.1929 5.54904 67.7258 5.5 68.2595 5.5V5.50082Z" fill="currentColor"/>
+<path d="M71.8045 13.6008C72.0481 13.6008 72.2941 13.5779 72.5426 13.5313C72.7919 13.4848 73.0118 13.4096 73.203 13.3057C73.3943 13.2011 73.5504 13.0597 73.6722 12.8799C73.794 12.7001 73.8545 12.4778 73.8545 12.2105C73.8545 12.0372 73.8259 11.8835 73.7678 11.7495C73.7098 11.6163 73.6174 11.492 73.4899 11.376C73.3624 11.2607 73.203 11.1471 73.0118 11.0368C72.8205 10.9264 72.5916 10.8022 72.3252 10.6632C72.0579 10.5357 71.8152 10.4082 71.5953 10.2807C71.3746 10.1532 71.1809 10.0028 71.0133 9.82871C70.8449 9.65462 70.715 9.44946 70.6226 9.21161C70.5294 8.97376 70.4837 8.68768 70.4837 8.35093C70.4837 7.48126 70.7967 6.78406 71.422 6.25605C72.0473 5.72885 72.957 5.46484 74.1512 5.46484C74.7078 5.46484 75.1966 5.52042 75.6199 5.62995C76.0433 5.74029 76.3351 5.84165 76.4978 5.93401L75.8897 7.25486C75.727 7.16249 75.4663 7.06359 75.1075 6.95897C74.7478 6.85435 74.3481 6.80204 73.9084 6.80204C73.6877 6.80204 73.4678 6.82574 73.248 6.87152C73.0273 6.9181 72.8279 6.99575 72.648 7.1061C72.4682 7.21644 72.3235 7.36111 72.2132 7.54093C72.1029 7.72075 72.0481 7.93817 72.0481 8.19318C72.0481 8.50623 72.1699 8.76451 72.4135 8.9664C72.657 9.16911 73.0216 9.3808 73.5079 9.60067C73.8087 9.73962 74.0784 9.88184 74.3163 10.0265C74.5541 10.1712 74.7568 10.3338 74.9244 10.5137C75.0919 10.6935 75.2203 10.9044 75.3069 11.1479C75.3935 11.3915 75.4377 11.6808 75.4377 12.0176C75.4377 12.5047 75.3445 12.933 75.1598 13.3033C74.9742 13.6744 74.7168 13.9809 74.3866 14.2245C74.0563 14.468 73.6656 14.6503 73.2136 14.7721C72.7616 14.8939 72.2688 14.9552 71.7367 14.9552C71.3427 14.9552 70.9864 14.929 70.6676 14.8767C70.3488 14.8244 70.0701 14.7639 69.8331 14.6944C69.5952 14.625 69.3982 14.553 69.2421 14.477C69.086 14.4018 68.9667 14.3405 68.8857 14.2948L69.5118 12.9739C69.5928 13.0205 69.7056 13.0785 69.851 13.1472C69.9957 13.2167 70.1698 13.2861 70.3725 13.3556C70.5752 13.4251 70.7984 13.4831 71.0419 13.5289C71.2855 13.5755 71.5405 13.5984 71.807 13.5984L71.8045 13.6008Z" fill="currentColor"/>
+<rect width=".5" height="18" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_4_23">
+<rect width="76.498" height="18" fill="currentColor"/>
+</clipPath>
+</defs>
+</svg></div></div><nav role="navigation" class="new-navbar_menu is-padding-0 is-adaptive w-nav-menu"><div class="new-navbar_menu-wrapper is-overflow-scroll mobile-nav padding-left-0 padding-0"><div class="new-navbar_container new-navbar_container-language-list"><div class="new-navbar_language-button-wrapper"><img src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d56e_left-arrow.svg" loading="lazy" data-w-id="22a5e6c0-b7b0-f77c-2ebc-28588b518da4" alt="__wf_reserved_kế thừa" class="new-navbar_language-button"/></div><div class="new-navbar_dropdown-content"><div class="new-navbar_dropdown-content-bottom new-navbar_dropdown-content-bottom-language"><div id="w-node-_22a5e6c0-b7b0-f77c-2ebc-28588b518da7-cff9dc9f" class="w-locales-list"><div role="list" class="locales-list w-locales-items"><div role="listitem" class="locale w-locales-item"><a hreflang="en" href="/fraud-prevention" class="new-navbar_dropdown-link">English</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="fr" href="/fr/fraud-prevention" class="new-navbar_dropdown-link">Français</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="ar" href="/ar/fraud-prevention" class="new-navbar_dropdown-link">العربية</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="pt" href="/pt/fraud-prevention" class="new-navbar_dropdown-link">Português</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="es" href="/es/fraud-prevention" class="new-navbar_dropdown-link">Español</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="ru" href="/ru/fraud-prevention" class="new-navbar_dropdown-link">Русский</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="th" href="/th/fraud-prevention" class="new-navbar_dropdown-link">ไทย</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="vi" href="/vi/fraud-prevention" aria-current="page" class="new-navbar_dropdown-link w--current">Tiếng Việt</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="bn" href="/bn/fraud-prevention" class="new-navbar_dropdown-link">বাংলা</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="si" href="/si/fraud-prevention" class="new-navbar_dropdown-link">සිංහල</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="tr" href="/tr/fraud-prevention" class="new-navbar_dropdown-link">Türkçe</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="sw" href="/sw/fraud-prevention" class="new-navbar_dropdown-link">Kiswahili</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="zh-CN" href="/zh-cn/fraud-prevention" class="new-navbar_dropdown-link">简体中文</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="zh-TW" href="/zh-tw/fraud-prevention" class="new-navbar_dropdown-link">繁體中文</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="ko" href="/ko/fraud-prevention" class="new-navbar_dropdown-link">한국어</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="it" href="/it/fraud-prevention" class="new-navbar_dropdown-link">Italiano</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="de" href="/de/fraud-prevention" class="new-navbar_dropdown-link">Deutsch</a></div><div role="listitem" class="locale w-locales-item"><a hreflang="pl" href="/pl/fraud-prevention" class="new-navbar_dropdown-link">Polski</a></div></div></div></div></div></div><div class="tablet_wrapper"><div class="new-navbar_tabs-wrapper tab-menu"><div class="new-navbar_container height-auto"><div class="new-navbar_tabs-blocks margin-xsmall margin-vertical"><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="w-dyn-item"><div class="navbar_accordion"><div class="navbar_accordion-item"><div class="navbar_accordion-trigger"><div><div class="navbar_accordion-item-head">Giao dịch</div></div><div class="navbar_icon margin-right-10"><div class="new-navbar_tabs-icon w-embed"><svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_21114_12203)">
+<path d="M5.60156 6.10156C5.8125 5.89062 6.16406 5.89062 6.375 6.10156L10.8984 10.6016C11.1094 10.8359 11.1094 11.1875 10.8984 11.3984C10.6641 11.6328 10.3125 11.6328 10.1016 11.3984L6 7.29688L1.89844 11.3984C1.66406 11.6328 1.3125 11.6328 1.10156 11.3984C0.867188 11.1875 0.867188 10.8359 1.10156 10.625L5.60156 6.10156Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_21114_12203">
+<rect width="12" height="18" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></div></div><div class="navbar_accordion-content"><div class="navbar_accodion-block"><div class="navbar_accordion-content-head"><div class="navbar_accordion-subhead">Giao dịch</div></div><div class="navbar_accordion-content-group"><a href="/vi/trade/cfds" class="navbar_accordion-link">Các thị trường CFD</a><a href="/vi/trade/options" class="navbar_accordion-link">Quyền chọn</a></div></div><div class="navbar_accodion-block"><div class="navbar_accordion-content-head"><div class="navbar_accordion-subhead">Thị trường</div></div><div class="navbar_accordion-content-group"><a href="/vi/markets/forex" class="navbar_accordion-link">Ngoại hối</a><a href="/vi/markets/derived-indices/synthetic-indices" class="navbar_accordion-link">Chỉ số mô phỏng</a><a href="/vi/markets/stocks" class="navbar_accordion-link">Cổ phiếu</a><a href="/vi/markets/stock-indices" class="navbar_accordion-link">Chỉ số chứng khoán</a><a href="/vi/markets/commodities" class="navbar_accordion-link">Hàng hóa</a><a href="/vi/markets/cryptocurrencies" class="navbar_accordion-link">Tiền điện tử</a><a href="/vi/markets/etfs" class="navbar_accordion-link">ETF</a></div></div></div></div><div class="navbar_accordion-item"><div class="navbar_accordion-trigger"><div><div>Sàn giao dịch</div></div><div class="navbar_icon margin-right-10"><div class="new-navbar_tabs-icon w-embed"><svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_21114_12203)">
+<path d="M5.60156 6.10156C5.8125 5.89062 6.16406 5.89062 6.375 6.10156L10.8984 10.6016C11.1094 10.8359 11.1094 11.1875 10.8984 11.3984C10.6641 11.6328 10.3125 11.6328 10.1016 11.3984L6 7.29688L1.89844 11.3984C1.66406 11.6328 1.3125 11.6328 1.10156 11.3984C0.867188 11.1875 0.867188 10.8359 1.10156 10.625L5.60156 6.10156Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_21114_12203">
+<rect width="12" height="18" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></div></div><div class="navbar_accordion-content"><div class="navbar_accodion-block"><div class="navbar_accordion-content-head"><div class="navbar_accordion-subhead">Các thị trường CFD</div></div><div class="navbar_accordion-content-group"><a href="/vi/trading-platforms/deriv-mt5" class="navbar_accordion-link">Deriv MT5</a><a href="/vi/trading-platforms/deriv-ctrader" class="navbar_accordion-link">Deriv cTrader</a><a href="/vi/trading-platforms/deriv-x" class="navbar_accordion-link">Deriv X</a></div></div><div class="navbar_accodion-block"><div class="navbar_accordion-content-head"><div class="navbar_accordion-subhead">Quyền chọn</div></div><div class="navbar_accordion-content-group"><a href="/vi/trading-platforms/deriv-trader" class="navbar_accordion-link">Deriv Trader</a><a href="/vi/trading-platforms/deriv-bot" class="navbar_accordion-link">Deriv Bot</a><a href="/vi/trading-platforms/deriv-go" class="navbar_accordion-link">Deriv GO</a><div class="navbar_accordion-menu-group"><a href="https://smarttrader.deriv.com/en/trading" target="_blank" class="navbar_accordion-link padding-right-0">SmartTrader</a><div class="navbar_icon is-relative"><div class="icon-embed-auto is-rotate is-left w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></div></div></div></div></div></div><div class="navbar_accordion-item"><div class="navbar_accordion-trigger"><div><div>Học tập &amp; hỗ trợ</div></div><div class="navbar_icon margin-right-10"><div class="new-navbar_tabs-icon w-embed"><svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_21114_12203)">
+<path d="M5.60156 6.10156C5.8125 5.89062 6.16406 5.89062 6.375 6.10156L10.8984 10.6016C11.1094 10.8359 11.1094 11.1875 10.8984 11.3984C10.6641 11.6328 10.3125 11.6328 10.1016 11.3984L6 7.29688L1.89844 11.3984C1.66406 11.6328 1.3125 11.6328 1.10156 11.3984C0.867188 11.1875 0.867188 10.8359 1.10156 10.625L5.60156 6.10156Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_21114_12203">
+<rect width="12" height="18" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></div></div><div class="navbar_accordion-content"><div class="navbar_accodion-block"><div class="navbar_accordion-content-head"><div class="navbar_accordion-subhead">Học cách giao dịch</div></div><div class="navbar_accordion-content-group"><a href="/vi/blog" class="navbar_accordion-link">Deriv Blog</a></div></div><div class="navbar_accodion-block"><div class="navbar_accordion-content-head"><div class="navbar_accordion-subhead">Nhận hỗ trợ</div></div><div class="navbar_accordion-content-group"><a href="/vi/help-centre" class="navbar_accordion-link">Trung tâm trợ giúp</a><div class="navbar_accordion-menu-group"><a href="https://community.deriv.com/" class="navbar_accordion-link padding-right-0">Cộng đồng</a><div class="navbar_icon is-relative"><div class="icon-embed-auto is-rotate w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></div></div><a href="/vi/contact-us" class="navbar_accordion-link">Liên hệ</a></div></div><div class="navbar_accodion-block"><div class="navbar_accordion-content-head"><div class="navbar_accordion-subhead">Nguồn</div></div><div class="navbar_accordion-content-group"><a href="/vi/payment-methods" class="navbar_accordion-link">Phương thức thanh toán</a></div></div></div></div><div class="navbar_accordion-item"><div class="navbar_accordion-trigger"><div><div>Giới thiệu</div></div><div class="navbar_icon margin-right-10"><div class="new-navbar_tabs-icon w-embed"><svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_21114_12203)">
+<path d="M5.60156 6.10156C5.8125 5.89062 6.16406 5.89062 6.375 6.10156L10.8984 10.6016C11.1094 10.8359 11.1094 11.1875 10.8984 11.3984C10.6641 11.6328 10.3125 11.6328 10.1016 11.3984L6 7.29688L1.89844 11.3984C1.66406 11.6328 1.3125 11.6328 1.10156 11.3984C0.867188 11.1875 0.867188 10.8359 1.10156 10.625L5.60156 6.10156Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_21114_12203">
+<rect width="12" height="18" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></div></div><div class="navbar_accordion-content"><div class="navbar_accodion-block"><div class="navbar_accordion-content-group"><a href="/vi/who-we-are" class="navbar_accordion-link">Về chúng tôi</a><a href="/vi/why-choose-us" class="navbar_accordion-link">Tại sao nên chọn chúng tôi</a><a href="/vi/regulatory" class="navbar_accordion-link">Thông tin pháp lý</a><a href="/vi/responsible" class="navbar_accordion-link">Bảo mật và giao dịch có trách nhiệm</a><a href="/careers" class="navbar_accordion-link">Cơ hội việc làm</a></div></div><div class="navbar_accodion-block"></div></div></div><div class="navbar_accordion-link-item"><div class="navbar_accordion-link-group"><a href="/vi/partners" target="_blank" class="navbar_accordion-link-block text-color-secondary w-inline-block"><div>Đối tác</div><div class="navbar_icon is-relative"><div class="icon-embed-auto is-rotate w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></div></a></div></div></div></div></div></div></div></div><div class="new-navbar_language-button-block"><div id="w-node-_82d237d7-26ff-ddda-56a1-95171c3a9083-cff9dc9f" data-w-id="82d237d7-26ff-ddda-56a1-95171c3a9083" class="new-navbar_dropdown-toggle gap-small lang-mob padding-left-5p padding-left-5p"><div class="new-icon-embed-auto w-embed"><svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_17173_4606)">
+<path d="M8 19C8.27083 19 8.57292 18.8646 8.90625 18.5938C9.23958 18.3229 9.58333 17.8646 9.9375 17.2188C10.25 16.5938 10.5 15.8542 10.6875 15H5.3125C5.5 15.8542 5.75 16.5938 6.0625 17.2188C6.41667 17.8646 6.76042 18.3229 7.09375 18.5938C7.42708 18.8646 7.72917 19 8 19ZM5.125 14H10.875C10.9583 13.375 11 12.7083 11 12C11 11.2917 10.9583 10.625 10.875 10H5.125C5.04167 10.625 5 11.2917 5 12C5 12.7083 5.04167 13.375 5.125 14ZM5.3125 9H10.6875C10.5 8.14583 10.25 7.40625 9.9375 6.78125C9.58333 6.13542 9.23958 5.67708 8.90625 5.40625C8.57292 5.13542 8.27083 5 8 5C7.72917 5 7.42708 5.13542 7.09375 5.40625C6.76042 5.67708 6.41667 6.13542 6.0625 6.78125C5.75 7.40625 5.5 8.14583 5.3125 9ZM11.875 10C11.9583 10.6458 12 11.3125 12 12C12 12.6875 11.9583 13.3542 11.875 14H14.7188C14.9062 13.3542 15 12.6875 15 12C15 11.3125 14.9062 10.6458 14.7188 10H11.875ZM14.3438 9C13.9271 8.14583 13.3646 7.40625 12.6562 6.78125C11.9479 6.15625 11.1458 5.6875 10.25 5.375C10.9167 6.27083 11.4062 7.47917 11.7188 9H14.3438ZM4.28125 9C4.59375 7.47917 5.09375 6.27083 5.78125 5.375C4.86458 5.6875 4.05208 6.15625 3.34375 6.78125C2.63542 7.40625 2.08333 8.14583 1.6875 9H4.28125ZM1.28125 10C1.09375 10.6458 1 11.3125 1 12C1 12.6875 1.09375 13.3542 1.28125 14H4.125C4.04167 13.3542 4 12.6875 4 12C4 11.3125 4.04167 10.6458 4.125 10H1.28125ZM10.25 18.625C11.1458 18.3125 11.9479 17.8438 12.6562 17.2188C13.3646 16.5938 13.9167 15.8542 14.3125 15H11.7188C11.4062 16.5208 10.9167 17.7292 10.25 18.625ZM5.78125 18.625C5.09375 17.7292 4.59375 16.5208 4.28125 15H1.6875C2.08333 15.8542 2.63542 16.5938 3.34375 17.2188C4.05208 17.8438 4.86458 18.3125 5.78125 18.625ZM8 20C6.54167 19.9792 5.20833 19.625 4 18.9375C2.79167 18.2292 1.8125 17.25 1.0625 16C0.354167 14.7292 0 13.3958 0 12C0 10.6042 0.354167 9.27083 1.0625 8C1.8125 6.75 2.79167 5.77083 4 5.0625C5.20833 4.375 6.54167 4.02083 8 4C9.45833 4.02083 10.7917 4.375 12 5.0625C13.2083 5.77083 14.1875 6.75 14.9375 8C15.6458 9.27083 16 10.6042 16 12C16 13.3958 15.6458 14.7292 14.9375 16C14.1875 17.25 13.2083 18.2292 12 18.9375C10.7917 19.625 9.45833 19.9792 8 20Z" fill="currentcolor" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_17173_4606">
+<rect width="16" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div><div class="current-locale-iso-code">EN</div></div></div></div></div><div class="new-navbar_menu-left new-navbar_menu-left-desctop"><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="w-dyn-item"><div class="new-navbar_menu-left new-navbar_menu-left-desctop"><div data-hover="true" data-delay="0" class="new-navbar_menu-dropdown w-dropdown"><div class="new-navbar_dropdown-toggle is-grey is-adaptive w-dropdown-toggle"><div class="text-block">Giao dịch</div></div><nav class="new-navbar_dropdown-list w-dropdown-list"><div class="new-navbar_dropdown-list-gap"></div><div class="new-navbar_container"><div class="new-navbar_dropdown-content"><div class="new-navbar_dropdown-content-bottom is-adaptive"><div class="new-navbar_dropdown-link-list is-adaptive"><div id="w-node-_9026c31d-4304-7b71-5349-be253be88992-cff9dc9f" class="new-navbar_dropdown-title is-adaptive">Giao dịch</div><a id="w-node-_9026c31d-4304-7b71-5349-be253be88994-cff9dc9f" href="/vi/trade/cfds" class="new-navbar_dropdown-link is-adaptive">Các thị trường CFD</a><a id="w-node-_9026c31d-4304-7b71-5349-be253be88996-cff9dc9f" href="/vi/trade/options" class="new-navbar_dropdown-link is-adaptive">Quyền chọn</a></div><div class="new-navbar_dropdown-link-list is-adaptive"><div id="w-node-_9026c31d-4304-7b71-5349-be253be88999-cff9dc9f" class="new-navbar_dropdown-title is-adaptive">Thị trường</div><a id="w-node-_9026c31d-4304-7b71-5349-be253be8899b-cff9dc9f" href="/vi/markets/forex" class="new-navbar_dropdown-link is-adaptive">Ngoại hối</a><a id="w-node-_9026c31d-4304-7b71-5349-be253be8899d-cff9dc9f" href="/vi/markets/derived-indices/synthetic-indices" class="new-navbar_dropdown-link is-adaptive">Chỉ số mô phỏng</a><a id="w-node-_9026c31d-4304-7b71-5349-be253be8899f-cff9dc9f" href="/vi/markets/stocks" class="new-navbar_dropdown-link is-adaptive">Cổ phiếu</a><a id="w-node-_9026c31d-4304-7b71-5349-be253be889a1-cff9dc9f" href="/vi/markets/stock-indices" class="new-navbar_dropdown-link is-adaptive">Chỉ số chứng khoán</a></div><div class="new-navbar_dropdown-link-list is-adaptive"><div id="w-node-_9026c31d-4304-7b71-5349-be253be889a4-cff9dc9f" class="new-navbar_dropdown-gap is-adaptive"></div><a id="w-node-_9026c31d-4304-7b71-5349-be253be889a5-cff9dc9f" href="/vi/markets/commodities" class="new-navbar_dropdown-link is-adaptive">Hàng hóa</a><a id="w-node-_9026c31d-4304-7b71-5349-be253be889a7-cff9dc9f" href="/vi/markets/cryptocurrencies" class="new-navbar_dropdown-link is-adaptive">Tiền điện tử</a><a id="w-node-_9026c31d-4304-7b71-5349-be253be889a9-cff9dc9f" href="/vi/markets/etfs" class="new-navbar_dropdown-link is-adaptive">ETF</a></div><div class="new-navbar_dropdown-link-list"></div></div></div></div></nav></div><div data-hover="true" data-delay="0" class="new-navbar_menu-dropdown w-dropdown"><div class="new-navbar_dropdown-toggle is-grey is-adaptive w-dropdown-toggle"><div>Sàn giao dịch</div></div><nav class="new-navbar_dropdown-list w-dropdown-list"><div class="new-navbar_container"><div class="new-navbar_dropdown-content"><div class="new-navbar_dropdown-content-bottom is-adaptive"><div class="new-navbar_dropdown-link-list is-adaptive"><div id="w-node-_19a82ab5-6b03-06d9-0904-5a5607c77551-cff9dc9f" class="new-navbar_dropdown-title is-adaptive">Các thị trường CFD</div><a id="w-node-_9026c31d-4304-7b71-5349-be253be889bb-cff9dc9f" href="/vi/trading-platforms/deriv-mt5" class="new-navbar_dropdown-link is-adaptive">Deriv MT5</a><a id="w-node-_9026c31d-4304-7b71-5349-be253be889bd-cff9dc9f" href="/vi/trading-platforms/deriv-ctrader" class="new-navbar_dropdown-link is-adaptive">Deriv cTrader</a><a id="w-node-_13a6a4ce-8c0f-6a5c-451c-0a2930d059f2-cff9dc9f" href="/vi/trading-platforms/deriv-x" class="new-navbar_dropdown-link is-adaptive">Deriv X</a></div><div class="new-navbar_dropdown-link-list is-adaptive"><div id="w-node-_14174daf-f3ab-ab68-fccd-39edbceb8486-cff9dc9f" class="new-navbar_dropdown-title is-adaptive">Quyền chọn</div><a id="w-node-_9026c31d-4304-7b71-5349-be253be889c2-cff9dc9f" href="/vi/trading-platforms/deriv-trader" class="new-navbar_dropdown-link is-adaptive">Deriv Trader</a><a id="w-node-_49cb6522-4c12-5887-d631-2d5abecd38de-cff9dc9f" href="/vi/trading-platforms/deriv-bot" class="new-navbar_dropdown-link is-adaptive">Deriv Bot</a><a id="w-node-_95934231-c9ee-90ab-ad89-4ac0f9c32df2-cff9dc9f" href="/vi/trading-platforms/deriv-go" class="new-navbar_dropdown-link is-adaptive">Deriv GO</a><a id="w-node-_71de57ce-fe8a-11a7-a98b-d3a88daee316-cff9dc9f" href="https://smarttrader.deriv.com/" target="_blank" class="new-navbar_dropdown-link is-block is-adaptive w-inline-block"><div>SmartTrader</div><div class="icon-embed-auto is-adaptive w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a></div><div class="new-navbar_dropdown-link-list is-adaptive"><div id="w-node-f2095fc5-1aba-0b76-3c4e-6a7be105c857-cff9dc9f" class="new-navbar_dropdown-gap is-adaptive"></div></div></div></div></div><div class="new-navbar_dropdown-list-gap"></div></nav></div><div data-hover="true" data-delay="0" class="new-navbar_menu-dropdown w-dropdown"><div class="new-navbar_dropdown-toggle is-grey is-adaptive w-dropdown-toggle"><div>Học tập &amp; hỗ trợ</div></div><nav class="new-navbar_dropdown-list w-dropdown-list"><div class="new-navbar_container"><div class="new-navbar_dropdown-content"><div class="new-navbar_dropdown-content-bottom is-adaptive"><div class="new-navbar_dropdown-link-list is-adaptive"><div id="w-node-_9026c31d-4304-7b71-5349-be253be889df-cff9dc9f" class="new-navbar_dropdown-title is-adaptive">Học cách giao dịch</div><a id="w-node-_9026c31d-4304-7b71-5349-be253be889e1-cff9dc9f" href="/vi/blog" class="new-navbar_dropdown-link is-adaptive">Deriv Blog</a></div><div class="new-navbar_dropdown-link-list is-adaptive"><div class="new-navbar_dropdown-title is-adaptive">Nhận hỗ trợ</div><a href="/vi/help-centre" class="new-navbar_dropdown-link is-adaptive">Trung tâm trợ giúp</a><a href="https://community.deriv.com/" target="_blank" class="new-navbar_dropdown-link is-block is-adaptive w-inline-block"><div>Cộng đồng</div><div class="icon-embed-auto is-adaptive w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a><a href="/vi/contact-us" class="new-navbar_dropdown-link is-adaptive">Liên hệ</a></div><div id="w-node-_05a65d05-2957-f84b-46d7-65bc5e71228c-cff9dc9f" class="new-navbar_dropdown-link-list is-adaptive"><div class="new-navbar_dropdown-title is-adaptive">Nguồn</div><a id="w-node-_05a65d05-2957-f84b-46d7-65bc5e712297-cff9dc9f" href="/vi/payment-methods" class="new-navbar_dropdown-link is-adaptive">Phương thức thanh toán</a></div></div></div></div><div class="new-navbar_dropdown-list-gap"></div></nav></div><div data-hover="true" data-delay="0" class="new-navbar_menu-dropdown w-dropdown"><div class="new-navbar_dropdown-toggle is-grey is-adaptive w-dropdown-toggle"><div>Giới thiệu</div></div><nav class="new-navbar_dropdown-list w-dropdown-list"><div class="new-navbar_container"><div class="new-navbar_dropdown-content"><div class="new-navbar_dropdown-content-bottom is-adaptive"><div class="new-navbar_dropdown-link-list is-adaptive"><a id="w-node-_9026c31d-4304-7b71-5349-be253be889f8-cff9dc9f" href="/vi/who-we-are" class="new-navbar_dropdown-link is-adaptive">Về chúng tôi</a><a id="w-node-c094b644-38bc-6d82-b8a1-64b7cf2daeae-cff9dc9f" href="/vi/why-choose-us" class="new-navbar_dropdown-link is-adaptive">Tại sao nên chọn chúng tôi</a></div><div class="new-navbar_dropdown-link-list is-adaptive"><a id="w-node-eabb78c2-91e1-c191-c12c-509f4c23c199-cff9dc9f" href="/vi/regulatory" class="new-navbar_dropdown-link is-adaptive">Thông tin pháp lý</a><a id="w-node-_9026c31d-4304-7b71-5349-be253be889ff-cff9dc9f" href="/vi/responsible" class="new-navbar_dropdown-link is-adaptive">Bảo mật và giao dịch có trách nhiệm</a></div><div class="new-navbar_dropdown-link-list is-adaptive"><a id="w-node-_9026c31d-4304-7b71-5349-be253be88a04-cff9dc9f" href="/careers" class="new-navbar_dropdown-link is-adaptive">Cơ hội việc làm</a></div></div></div></div><div class="new-navbar_dropdown-list-gap"></div></nav></div><a href="/vi/partners" target="_blank" class="new-navbar_link is-adaptive w-inline-block"><div>Đối tác</div><div class="icon-embed-auto is-adaptive w-embed"><svg width="12" height="21" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a></div></div></div></div></div><div class="new-navbar_menu-right is-border-top is-adaptive"><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="w-dyn-item"><div class="new-navbar_menu-right is-border-top is-adaptive"><a id="btn-traders-hub" href="/appstore/traders-hub" class="new-button logged-in-btn tradershub-btn is-adaptive hide-element w-inline-block"><div class="icon-embed-auto is-adaptive w-embed"><svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_19689_31317)">
+<path d="M2.5 6.5V9.5H5.5V6.5H2.5ZM1 6.5C1 5.6875 1.65625 5 2.5 5H5.5C6.3125 5 7 5.6875 7 6.5V9.5C7 10.3438 6.3125 11 5.5 11H2.5C1.65625 11 1 10.3438 1 9.5V6.5ZM2.5 14.5V17.5H5.5V14.5H2.5ZM1 14.5C1 13.6875 1.65625 13 2.5 13H5.5C6.3125 13 7 13.6875 7 14.5V17.5C7 18.3438 6.3125 19 5.5 19H2.5C1.65625 19 1 18.3438 1 17.5V14.5ZM13.5 6.5H10.5V9.5H13.5V6.5ZM10.5 5H13.5C14.3125 5 15 5.6875 15 6.5V9.5C15 10.3438 14.3125 11 13.5 11H10.5C9.65625 11 9 10.3438 9 9.5V6.5C9 5.6875 9.65625 5 10.5 5ZM10.5 14.5V17.5H13.5V14.5H10.5ZM9 14.5C9 13.6875 9.65625 13 10.5 13H13.5C14.3125 13 15 13.6875 15 14.5V17.5C15 18.3438 14.3125 19 13.5 19H10.5C9.65625 19 9 18.3438 9 17.5V14.5Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_19689_31317">
+<rect width="16" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div><div>Trader&#x27;s Hub</div></a><a id="white-navbar_login" data-w-id="8e11cc17-102d-e2e0-18f4-df5dcff9ddbb" href="#" class="new-button new-navbar tab-hidden is-grey logged-out-btn is-adaptive hide-element w-button">Đăng nhập</a><a href="/vi/signup" class="new-button desctop-hidden logged-out-btn is-adaptive btn-free-demo hide-element w-button">Giao dịch thử miễn phí</a><a href="/vi/signup" class="new-button logged-out-btn is-adaptive btn-free-demo hide-element w-button">Giao dịch thử miễn phí</a></div></div></div></div><div class="new-hide-tablet"><div data-hover="true" data-delay="0" class="new-navbar_menu-dropdown w-dropdown"><div class="new-navbar_dropdown-toggle gap-small is-gray is-adaptive w-dropdown-toggle"><div class="new-icon-embed-auto is-adaptive w-embed"><svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_17173_4606)">
+<path d="M8 19C8.27083 19 8.57292 18.8646 8.90625 18.5938C9.23958 18.3229 9.58333 17.8646 9.9375 17.2188C10.25 16.5938 10.5 15.8542 10.6875 15H5.3125C5.5 15.8542 5.75 16.5938 6.0625 17.2188C6.41667 17.8646 6.76042 18.3229 7.09375 18.5938C7.42708 18.8646 7.72917 19 8 19ZM5.125 14H10.875C10.9583 13.375 11 12.7083 11 12C11 11.2917 10.9583 10.625 10.875 10H5.125C5.04167 10.625 5 11.2917 5 12C5 12.7083 5.04167 13.375 5.125 14ZM5.3125 9H10.6875C10.5 8.14583 10.25 7.40625 9.9375 6.78125C9.58333 6.13542 9.23958 5.67708 8.90625 5.40625C8.57292 5.13542 8.27083 5 8 5C7.72917 5 7.42708 5.13542 7.09375 5.40625C6.76042 5.67708 6.41667 6.13542 6.0625 6.78125C5.75 7.40625 5.5 8.14583 5.3125 9ZM11.875 10C11.9583 10.6458 12 11.3125 12 12C12 12.6875 11.9583 13.3542 11.875 14H14.7188C14.9062 13.3542 15 12.6875 15 12C15 11.3125 14.9062 10.6458 14.7188 10H11.875ZM14.3438 9C13.9271 8.14583 13.3646 7.40625 12.6562 6.78125C11.9479 6.15625 11.1458 5.6875 10.25 5.375C10.9167 6.27083 11.4062 7.47917 11.7188 9H14.3438ZM4.28125 9C4.59375 7.47917 5.09375 6.27083 5.78125 5.375C4.86458 5.6875 4.05208 6.15625 3.34375 6.78125C2.63542 7.40625 2.08333 8.14583 1.6875 9H4.28125ZM1.28125 10C1.09375 10.6458 1 11.3125 1 12C1 12.6875 1.09375 13.3542 1.28125 14H4.125C4.04167 13.3542 4 12.6875 4 12C4 11.3125 4.04167 10.6458 4.125 10H1.28125ZM10.25 18.625C11.1458 18.3125 11.9479 17.8438 12.6562 17.2188C13.3646 16.5938 13.9167 15.8542 14.3125 15H11.7188C11.4062 16.5208 10.9167 17.7292 10.25 18.625ZM5.78125 18.625C5.09375 17.7292 4.59375 16.5208 4.28125 15H1.6875C2.08333 15.8542 2.63542 16.5938 3.34375 17.2188C4.05208 17.8438 4.86458 18.3125 5.78125 18.625ZM8 20C6.54167 19.9792 5.20833 19.625 4 18.9375C2.79167 18.2292 1.8125 17.25 1.0625 16C0.354167 14.7292 0 13.3958 0 12C0 10.6042 0.354167 9.27083 1.0625 8C1.8125 6.75 2.79167 5.77083 4 5.0625C5.20833 4.375 6.54167 4.02083 8 4C9.45833 4.02083 10.7917 4.375 12 5.0625C13.2083 5.77083 14.1875 6.75 14.9375 8C15.6458 9.27083 16 10.6042 16 12C16 13.3958 15.6458 14.7292 14.9375 16C14.1875 17.25 13.2083 18.2292 12 18.9375C10.7917 19.625 9.45833 19.9792 8 20Z" fill="currentcolor" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_17173_4606">
+<rect width="16" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div><div class="current-locale-iso-code">EN</div></div><nav class="new-navbar_dropdown-list is-padding-bottom w-dropdown-list"><div class="new-navbar_container"><div class="new-navbar_dropdown-content"><div id="w-node-_07f05f89-74a9-4dfd-ab02-79d1b4660dbf-cff9dc9f" class="w-locales-list"><div role="list" class="locales-list is-adaptive w-locales-items"><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="en" href="/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">English</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="fr" href="/fr/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">Français</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="ar" href="/ar/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">العربية</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="pt" href="/pt/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">Português</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="es" href="/es/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">Español</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="ru" href="/ru/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">Русский</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="th" href="/th/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">ไทย</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="vi" href="/vi/fraud-prevention" aria-current="page" class="new-navbar_dropdown-link is-adaptive w--current">Tiếng Việt</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="bn" href="/bn/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">বাংলা</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="si" href="/si/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">සිංහල</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="tr" href="/tr/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">Türkçe</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="sw" href="/sw/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">Kiswahili</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="zh-CN" href="/zh-cn/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">简体中文</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="zh-TW" href="/zh-tw/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">繁體中文</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="ko" href="/ko/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">한국어</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="it" href="/it/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">Italiano</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="de" href="/de/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">Deutsch</a></div><div role="listitem" class="locale is-adaptive w-locales-item"><a hreflang="pl" href="/pl/fraud-prevention" class="new-navbar_dropdown-link is-adaptive">Polski</a></div></div></div></div></div><div class="new-navbar_dropdown-list-gap"></div></nav></div></div><div class="new-navbar_container-wrapper"><a href="#" class="new-button tab new btn-free-demo w-button">Đăng ký</a><a href="#" class="new-button new-navbar tab w-button">Đăng nhập</a></div></div></div></nav><div class="new-show-tablet"><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="w-dyn-item"><a id="res-white-navbar_login" href="#" class="new-button new-navbar log-in is-gray logged-out-btn hide-element w-button">Đăng nhập</a></div></div></div><div class="navbar_menu-button w-nav-button"><div id="mobile-menu" class="new-menu-icon"><div class="new-menu-icon_line-top is-gray"></div><div class="new-menu-icon_line-middle is-gray"><div class="new-menu-icon_line-middle-inner"></div></div><div class="new-menu-icon_line-bottom is-gray"></div></div></div></div></div></div><div class="new-navbar_background is-opacity-72"></div><div class="new-navbar_dynamic-background"></div><div class="new-navbar_background-solid"></div><div class="new-navbar_dark-curtain"></div></div></div><main class="main-wrapper"><div class="section_hero"><header class="section_image-header_small is-chart-background_small"><div class="padding-global"><div class="container-xlarge"><div class="bread-crumb_wrapper"><a href="/vi" class="bread-crumb_link">Trang chủ</a><div class="bread-crumb_icon-wrapper"><div class="icon-embed-auto w-embed"><svg width="9" height="22" viewBox="0 0 9 22" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_9221_82)">
+<path d="M8.30078 10.4492C8.48307 10.6497 8.48307 10.8503 8.30078 11.0508L3.05078 16.3008C2.85026 16.4831 2.64974 16.4831 2.44922 16.3008C2.26693 16.1003 2.26693 15.8997 2.44922 15.6992L7.37109 10.75L2.44922 5.80078C2.26693 5.60026 2.26693 5.39974 2.44922 5.19922C2.64974 5.01693 2.85026 5.01693 3.05078 5.19922L8.30078 10.4492Z" fill="black" fill-opacity="0.48"/>
+</g>
+<defs>
+<clipPath id="clip0_9221_82">
+<rect width="9" height="22" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></div><div class="bread-crumb_link is-light">Phòng chống gian lận</div></div></div><div class="page-header_content"><div class="padding-section-large"><div class="container-medium"><div class="text-align-center"><div class="margin-bottom margin-small"><h1>Phòng chống gian lận</h1></div><p class="text-color-light-black">Với sự gia tăng của các trò lừa đảo kỹ thuật số và các nỗ lực lừa đảo, điều quan trọng là phải biết cách tránh trở thành nạn nhân của chúng. Chúng tôi khuyến khích tất cả người dùng biết cách xác định và tránh lừa đảo lừa đảo.</p></div></div></div></div></div></header></div><section class="section_signs-fraud padding-section-large"><div class="padding-global"><div class="container-xlarge"><div class="padding-bottom padding-large"><h2 class="text-align-center">Dấu hiệu của một vụ lừa đảo lừa đảo</h2></div><div class="benefits_content"><div class="benefits_wrapper"><div class="benefits_row"><div class="benefits_item"><div class="padding-medium"><div class="padding-bottom padding-xxsmall"><h2 class="heading-style-h3">lỗi chính tả</h2></div><p>Nhiều nỗ lực lừa đảo có lỗi chính tả và ngữ pháp, vì những kẻ lừa đảo thường không đưa nội dung của họ thông qua các copywriter chuyên nghiệp.</p></div></div><div class="benefits_item"><div class="padding-medium"><div class="padding-bottom padding-xxsmall"><h2 class="heading-style-h3">Liên kết và tệp đính kèm đáng ngờ</h2></div><p>Tin nhắn lừa đảo chứa các liên kết và tệp đính kèm có hại để trích xuất dữ liệu cá nhân của bạn hoặc cài đặt phần mềm độc hại. Các liên kết này chứa lỗi chính tả của các trang web thực hoặc được lưu trữ trên các tên miền đáng ngờ và không an toàn.</p></div></div></div><div class="benefits_row is-three-columns"><div class="benefits_item"><div class="padding-medium"><div class="padding-bottom padding-xxsmall"><h2 class="heading-style-h3">Khẩn cấp</h2></div><p>Tạo cảm giác khẩn cấp, sợ hãi hoặc phấn khích để thao túng bạn hành động nhanh chóng là một chiến thuật lừa đảo phổ biến. Họ muốn bạn hoảng loạn, vì vậy bạn cung cấp thông tin chi tiết của mình và hoàn thành giao dịch nhanh chóng mà không cần suy nghĩ. </p></div></div><div class="benefits_item"><div class="padding-medium"><div class="padding-bottom padding-xxsmall"><h2 class="heading-style-h3">Lời hứa về tiền dễ dàng</h2></div><p>Mạo danh hồ sơ sẽ tuyên bố bạn đã giành được tiền và yêu cầu mật khẩu hoặc số ngân hàng của bạn. Deriv không bao giờ yêu cầu thông tin cá nhân hoặc tài chính của bạn thông qua phương tiện truyền thông xã hội, chúng tôi cũng không cung cấp quà tặng hoặc khuyến mãi.  </p></div></div><div class="benefits_item"><div class="padding-medium"><div class="padding-bottom padding-xxsmall"><h2 class="heading-style-h3">Người gửi không xác định</h2></div><p>Các nỗ lực lừa đảo là từ địa chỉ email và hồ sơ truyền thông xã hội tương tự như của chúng tôi nhưng chứa lỗi chính tả trong tên của chúng. Chỉ tin tưởng thông tin được đăng từ hồ sơ truyền thông xã hội được liệt kê ở cuối trang web của chúng tôi. </p></div></div></div></div></div></div></div></section><section class="section_bestpractices-fraud"><div class="padding-global padding-section-large"><div class="container-xlarge"><div class="best_practices_content"><div class="padding-bottom padding-large"><h2 class="text-align-center">Các phương pháp hay nhất để tránh lừa đảo lừa đảo</h2></div><div class="practices_wrapper"><div class="practice_item"><div class="padding-medium"><div class="padding-bottom padding-xxsmall"><h2 class="heading-style-h3">Đừng nhấp vào liên kết một cách nhanh chóng</h2></div><p>Di chuột qua URL trước khi nhấp vào nó để xem liên kết. Nếu liên kết không khớp với tên miền của chúng tôi hoặc có vẻ đáng ngờ, đừng nhấp vào nó.</p></div></div><div class="practice_item"><div class="padding-medium"><div class="padding-bottom padding-xxsmall"><h2 class="heading-style-h3">Không tải xuống tệp</h2></div><p>Không mở tệp đính kèm với các tiện ích mở rộng như.exe, .com, .bat và.scr., trừ khi bạn đang mong đợi chúng. Những loại tệp này có thể chứa phần mềm độc hại.</p></div></div><div class="practice_item"><div class="padding-medium"><div class="padding-bottom padding-xxsmall"><h2 class="heading-style-h3">Đừng hành động ngay lập tức</h2></div><p>Không thực hiện thanh toán hoặc cung cấp thông tin cá nhân nếu bạn được khuyến khích. Chúng tôi sẽ liên hệ với bạn qua email kết thúc bằng @deriv .com, info.deriv.com hoặc qua trò chuyện trực tiếp nếu cần.</p></div></div><div class="practice_item"><div class="padding-medium"><div class="padding-bottom padding-xxsmall"><h2 class="heading-style-h3">Không chia sẻ thông tin cá nhân</h2></div><p>Không bao giờ chia sẻ thông tin cá nhân mà không xác minh người gửi. Tất cả các vấn đề bí mật được thực hiện thông qua WhatsApp hoặc trò chuyện trực tiếp với nhóm Hỗ trợ Khách hàng của chúng tôi.</p></div></div><div class="practice_item"><div class="padding-medium"><div class="padding-bottom padding-xxsmall"><h2 class="heading-style-h3">Không trả lời tin nhắn</h2></div><p>Chặn các cuộc gọi không xác định, báo cáo email đáng ngờ và liên hệ với nhóm Hỗ trợ Khách hàng của chúng tôi nếu bạn bắt gặp hồ sơ đáng ngờ trên phương tiện truyền thông xã hội.</p></div></div><div class="practice_item"><div class="padding-medium"><div class="padding-bottom padding-xxsmall"><h2 class="heading-style-h3">Đừng ngại hỏi</h2></div><p>Liên hệ với chúng tôi qua trò chuyện trực tiếp nếu bạn không chắc chắn về email hoặc hồ sơ truyền thông xã hội và chúng tôi sẽ xác minh xem đó có phải là từ Deriv. hay không.  </p></div></div></div></div></div></div></section><section class="section_cta"><div class="padding-global"><div class="container-large"><div class="section-cta_wrapper"><div id="w-node-ddf72c94-bae5-9575-4d94-636390b18f1f-cc75d7fb" class="section-cta_content_small"><div class="margin-bottom margin-small"><h2 class="text-color-white">Tài nguyên lừa đảo của Deriv</h2></div><p>Là một phần trong nỗ lực không ngừng của chúng tôi nhằm thúc đẩy một cộng đồng giao dịch trực tuyến an toàn, truy cập các liên kết sau để khám phá thêm về:</p></div><div class="resrouces_wrapper"><div data-w-id="c2b0410b-421c-0f62-c20f-3e914b84ec6a" class="resource_link max-width-small"><a href="/vi/blog/posts/identify-report-phishing-scams" target="_blank" class="link_dark_mode">Lừa đảo</a><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></div><div data-w-id="6032d438-cdf1-cd0d-a657-f4a4c17a2955" class="resource_link max-width-small"><a href="/vi/blog/posts/how-to-protect-your-online-trading-account" target="_blank" class="link_dark_mode">Bảo vệ tài khoản giao dịch trực tuyến của bạn</a><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></div><div data-w-id="c2b0410b-421c-0f62-c20f-3e914b84ec6e" class="resource_link max-width-small"><a href="/vi/responsible" target="_blank" class="link_dark_mode">Giao dịch an toàn và có trách nhiệm</a><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="white
+"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></div><div data-w-id="c2b0410b-421c-0f62-c20f-3e914b84ec72" class="resource_link max-width-small"><a href="/vi/help-centre/fraud-prevention" target="_blank" class="link_dark_mode">Phòng chống gian lận</a><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></div></div></div></div></div></section><div id="live_chat-wrapper" class="contact-social_links-wrapper is-whatsapp derivgo-query-element hide-element"><a href="#" target="_blank" class="contact-social_link-live shadow-medium is-whatsapp livechatbtn w-inline-block"><div class="contact-social_embed is-whatsapp is-normal w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+<rect width="32" height="32" fill="white"/>
+<g clip-path="url(#clip0_3594_25066)">
+<path d="M28.8 9.4H22.4V11H28.8C29.682 11 30.4 11.718 30.4 12.6V22.2C30.4 23.082 29.682 23.8 28.8 23.8H25.6V26.2785L21.22 23.8H16C15.118 23.8 14.4 23.082 14.4 22.2V20.6H12.8V22.199C12.8 23.9615 14.2375 25.354 15.955 25.354L20.8 25.4L26.245 28.4815C26.355 28.565 26.48 28.6 26.6 28.6C26.915 28.6 27.2 28.355 27.2 28V25.3985H28.8C30.5625 25.3985 32 23.961 32 22.2435V12.555C32 10.835 30.565 9.4 28.8 9.4ZM20.8 15.8V6.155C20.8 4.4375 19.365 3 17.6 3H3.2C1.4375 3 0 4.4375 0 6.155V15.755C0 17.565 1.4375 19 3.2 19H4.8V21.6C4.8 21.955 5.09 22.2 5.4 22.2C5.519 22.2 5.644 22.1625 5.756 22.081L11.2 19L17.6 18.996C19.365 18.995 20.8 17.565 20.8 15.8ZM10.78 17.4L6.4 19.88V17.4H3.2C2.318 17.4 1.6 16.68 1.6 15.8V6.2C1.6 5.318 2.318 4.6 3.2 4.6H17.6C18.482 4.6 19.2 5.318 19.2 6.2V15.8C19.2 16.682 18.482 17.4 17.6 17.4H10.78Z" fill="#414652" fill-opacity="0.72"/>
+<path d="M15.2741 8.83105H4.26765C3.92065 8.83105 3.63965 9.11355 3.63965 9.45905C3.63965 9.80455 3.92065 10.0871 4.26765 10.0871H15.2741C15.6196 10.0871 15.9021 9.80455 15.9021 9.45905C15.9021 9.11355 15.6196 8.83105 15.2741 8.83105Z" fill="#414652" fill-opacity="0.72"/>
+<path d="M9.92115 11.972C9.92115 11.6265 9.63865 11.344 9.29315 11.344H4.26765C3.92065 11.344 3.63965 11.6265 3.63965 11.972C3.63965 12.3175 3.92065 12.6 4.26765 12.6H9.29315C9.63865 12.6 9.92115 12.3175 9.92115 11.972Z" fill="#414652" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_3594_25066">
+<rect width="32" height="25.6" fill="white" transform="translate(0 3)"/>
+</clipPath>
+</defs>
+</svg></div><div class="contact-social_embed is-whatsapp is-hover w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+<rect width="32" height="32" fill="white"/>
+<g clip-path="url(#clip0_3594_25067)">
+<path d="M20.8 15.8V6.155C20.8 4.4375 19.365 3 17.6 3H3.2C1.4375 3 0 4.4375 0 6.155V15.755C0 17.565 1.4375 19 3.2 19H4.8V21.6C4.8 21.955 5.09 22.2 5.4 22.2C5.519 22.2 5.644 22.1625 5.756 22.081L11.2 19L17.6 18.996C19.365 18.9945 20.8 17.565 20.8 15.8Z" fill="#FF444F"/>
+<path d="M28.7998 9.3999H22.3998V10.9999H28.7998C29.6818 10.9999 30.3998 11.7179 30.3998 12.5999V22.1999C30.3998 23.0819 29.6818 23.7999 28.7998 23.7999H25.5998V26.2784L21.2198 23.7999H15.9998C15.1178 23.7999 14.3998 23.0819 14.3998 22.1999V20.5999H12.7998V22.1989C12.7998 23.9614 14.2373 25.3539 15.9548 25.3539L20.7998 25.3999L26.2448 28.4814C26.3548 28.5649 26.4798 28.5999 26.5998 28.5999C26.9148 28.5999 27.1998 28.3549 27.1998 27.9999V25.3984H28.7998C30.5623 25.3984 31.9998 23.9609 31.9998 22.2434V12.5549C31.9998 10.8349 30.5648 9.3999 28.7998 9.3999Z" fill="#FF444F"/>
+<path d="M15.2741 8.83105H4.26765C3.92065 8.83105 3.63965 9.11355 3.63965 9.45905C3.63965 9.80455 3.92065 10.0871 4.26765 10.0871H15.2741C15.6196 10.0871 15.9021 9.80455 15.9021 9.45905C15.9021 9.11355 15.6196 8.83105 15.2741 8.83105Z" fill="white"/>
+<path d="M9.92115 11.972C9.92115 11.6265 9.63865 11.344 9.29315 11.344H4.26765C3.92065 11.344 3.63965 11.6265 3.63965 11.972C3.63965 12.3175 3.92065 12.6 4.26765 12.6H9.29315C9.63865 12.6 9.92115 12.3175 9.92115 11.972Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_3594_25067">
+<rect width="32" height="25.6" fill="white" transform="translate(0 3)"/>
+</clipPath>
+</defs>
+</svg></div></a><a href="https://api.whatsapp.com/send/?phone=35699578341&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank" class="contact-social_link-wp shadow-medium is-whatsapp whatsapp_chat w-inline-block"><div class="contact-social_embed is-whatsapp is-normal w-embed"><svg width="100%" height="100%" viewBox="0 0 14 22" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_17902_12317)">
+<path d="M11.293 6.40234C11.8763 6.98568 12.3229 7.64193 12.6328 8.37109C12.9609 9.10026 13.125 9.875 13.125 10.6953C13.1068 11.8255 12.8242 12.8464 12.2773 13.7578C11.7305 14.6693 10.9922 15.3984 10.0625 15.9453C9.15104 16.474 8.13021 16.7474 7 16.7656C5.96094 16.7656 4.99479 16.5195 4.10156 16.0273L0.875 16.875L1.72266 13.7305C1.19401 12.8008 0.929688 11.7891 0.929688 10.6953C0.947917 9.5651 1.22135 8.54427 1.75 7.63281C2.29688 6.72135 3.02604 5.99219 3.9375 5.44531C4.84896 4.91667 5.86979 4.64323 7 4.625C8.65885 4.64323 10.0898 5.23568 11.293 6.40234ZM7 15.7539C8.42188 15.7174 9.61589 15.2253 10.582 14.2773C11.5482 13.3112 12.0586 12.1172 12.1133 10.6953C12.0768 9.3099 11.5573 8.125 10.5547 7.14062C9.57031 6.15625 8.38542 5.66406 7 5.66406C5.57812 5.68229 4.39323 6.17448 3.44531 7.14062C2.47917 8.08854 1.97786 9.27344 1.94141 10.6953C1.95964 11.6615 2.22396 12.5547 2.73438 13.375L2.84375 13.5664L2.32422 15.4258L4.23828 14.9336L4.42969 15.043C5.21354 15.4987 6.07031 15.7357 7 15.7539ZM9.76172 11.9805C9.77995 11.9805 9.80729 11.9896 9.84375 12.0078C9.95312 12.0443 10.026 12.0898 10.0625 12.1445C10.1172 12.2357 10.0807 12.4818 9.95312 12.8828C9.88021 13.0651 9.73438 13.2201 9.51562 13.3477C9.29688 13.4753 9.10547 13.5573 8.94141 13.5938C8.72266 13.6302 8.47656 13.6302 8.20312 13.5938C7.94792 13.5391 7.58333 13.4115 7.10938 13.2109C6.39844 12.8646 5.82422 12.4453 5.38672 11.9531C4.93099 11.4609 4.65755 11.1328 4.56641 10.9688C4.54818 10.9505 4.53906 10.9323 4.53906 10.9141C4.52083 10.9141 4.51172 10.9141 4.51172 10.9141C4.45703 10.8411 4.34766 10.6589 4.18359 10.3672C4.01953 10.0573 3.92839 9.72005 3.91016 9.35547C3.92839 9.00911 3.99219 8.73568 4.10156 8.53516C4.21094 8.33464 4.3112 8.19792 4.40234 8.125C4.42057 8.10677 4.42969 8.08854 4.42969 8.07031C4.59375 7.94271 4.73047 7.88802 4.83984 7.90625C4.94922 7.90625 5.04948 7.90625 5.14062 7.90625C5.14062 7.90625 5.14974 7.90625 5.16797 7.90625C5.25911 7.85156 5.35938 7.93359 5.46875 8.15234C5.50521 8.24349 5.5599 8.36198 5.63281 8.50781C5.70573 8.6901 5.76953 8.85417 5.82422 9C5.87891 9.16406 5.91536 9.25521 5.93359 9.27344C5.98828 9.36458 5.9974 9.45573 5.96094 9.54688C5.8151 9.80208 5.69661 9.96615 5.60547 10.0391C5.47786 10.1484 5.45052 10.2578 5.52344 10.3672C5.79688 10.8594 6.09766 11.2331 6.42578 11.4883C6.75391 11.7435 7.13672 11.9714 7.57422 12.1719C7.72005 12.263 7.82943 12.2539 7.90234 12.1445C7.95703 12.0898 8.03906 11.9987 8.14844 11.8711C8.23958 11.7435 8.32161 11.6341 8.39453 11.543C8.48568 11.4154 8.59505 11.3971 8.72266 11.4883C8.8138 11.5247 8.98698 11.5977 9.24219 11.707C9.4974 11.8346 9.67057 11.9258 9.76172 11.9805Z" fill="currentcolor"/>
+</g>
+</svg></div><div class="contact-social_embed is-whatsapp is-hover w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+<g clip-path="url(#clip0_3594_25096)">
+<g filter="url(#filter0_f_3594_25096)">
+<path d="M9.56049 25.8142L9.99336 26.0706C11.8114 27.1496 13.896 27.7203 16.0218 27.7213H16.0263C22.5546 27.7213 27.8676 22.4096 27.8703 15.881C27.8715 12.7173 26.6407 9.74226 24.4044 7.50434C23.3076 6.40067 22.0028 5.5255 20.5655 4.92949C19.1282 4.33349 17.5869 4.02849 16.0309 4.03214C9.49754 4.03214 4.18434 9.34329 4.18202 15.8715C4.1788 18.1007 4.80656 20.2853 5.99272 22.1727L6.27453 22.6205L5.07778 26.9894L9.56049 25.8142ZM1.65625 30.374L3.67807 22.9923C2.43116 20.8321 1.77517 18.3813 1.77594 15.8705C1.77924 8.01584 8.17142 1.62573 16.0265 1.62573C19.8383 1.62767 23.4161 3.11103 26.1069 5.80369C28.7977 8.49635 30.2781 12.0755 30.2768 15.8819C30.2733 23.736 23.8801 30.1273 16.0263 30.1273H16.0201C13.6353 30.1263 11.292 29.5281 9.21051 28.3931L1.65625 30.374Z" fill="#B3B3B3"/>
+</g>
+<path d="M1.50781 30.2273L3.52963 22.8456C2.28058 20.6801 1.62449 18.2236 1.62751 15.7238C1.6308 7.86911 8.02298 1.479 15.878 1.479C19.6898 1.48094 23.2677 2.9643 25.9584 5.65696C28.6492 8.34962 30.1297 11.9287 30.1283 15.7352C30.1249 23.5893 23.7317 29.9806 15.8778 29.9806H15.8716C13.4869 29.9796 11.1435 29.3813 9.06207 28.2464L1.50781 30.2273Z" fill="white"/>
+<path d="M15.8841 3.88553C9.35069 3.88553 4.03749 9.19668 4.03517 15.7249C4.03195 17.9541 4.65971 20.1387 5.84587 22.0261L6.12768 22.4741L4.93093 26.843L9.41383 25.6676L9.8467 25.924C11.6648 27.0029 13.7493 27.5735 15.8752 27.5747H15.8796C22.408 27.5747 27.7211 22.2629 27.7237 15.7344C27.7286 14.1783 27.4248 12.6367 26.8299 11.1989C26.235 9.761 25.3607 8.45543 24.2578 7.35773C23.161 6.25403 21.8561 5.37885 20.4187 4.78284C18.9814 4.18684 17.4401 3.88185 15.8841 3.88553Z" fill="url(#paint0_linear_3594_25096)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.3182 9.76846C12.0513 9.17562 11.7705 9.16361 11.5169 9.15335L10.8344 9.14502C10.597 9.14502 10.2112 9.23411 9.885 9.59047C9.55884 9.94683 8.63867 10.8081 8.63867 12.5599C8.63867 14.3117 9.91463 16.0044 10.0924 16.2422C10.2702 16.4801 12.5556 20.1895 16.1749 21.6167C19.1826 22.8028 19.7946 22.5669 20.4477 22.5076C21.1008 22.4483 22.5543 21.6463 22.8508 20.8149C23.1474 19.9834 23.1476 19.2711 23.0587 19.1222C22.9698 18.9732 22.7323 18.8847 22.3759 18.7065C22.0196 18.5284 20.2693 17.6671 19.9429 17.5482C19.6166 17.4293 19.3793 17.3702 19.1417 17.7266C18.904 18.0829 18.2225 18.8845 18.0147 19.1222C17.8069 19.3598 17.5994 19.3896 17.2431 19.2117C16.8867 19.0337 15.7401 18.6575 14.3797 17.4446C13.3213 16.5008 12.6068 15.3353 12.3988 14.9791C12.1907 14.6229 12.3767 14.43 12.5553 14.2526C12.715 14.093 12.9112 13.8368 13.0896 13.629C13.268 13.4212 13.3267 13.2726 13.4452 13.0354C13.5637 12.7981 13.5047 12.5897 13.4156 12.4117C13.3265 12.2337 12.6347 10.4727 12.3182 9.76846Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_f_3594_25096" x="0.288504" y="0.257986" width="31.3566" height="31.4838" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="0.683873" result="effect1_foregroundBlur_3594_25096"/>
+</filter>
+<linearGradient id="paint0_linear_3594_25096" x1="15.6383" y1="5.3071" x2="15.7584" y2="25.551" gradientUnits="userSpaceOnUse">
+<stop stop-color="#57D163"/>
+<stop offset="1" stop-color="#23B33A"/>
+</linearGradient>
+<clipPath id="clip0_3594_25096">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a></div></main><div class="section_footer"><footer class="footer_component derivgo-query-element"><div class="padding-global"><div class="container-xlarge"><div class="padding-vertical padding-medium"><div class="footer_social-wrapper"><a href="/vi" class="footer_logo-link w-nav-brand"><div class="footer_logo w-embed"><svg width="100%" height="100%" viewBox="0 0 72 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.4238 0.808863L13.1912 7.79644H8.91248C4.92071 7.79644 1.11591 11.0293 0.410715 15.0195L0.112228 16.7179C-0.589682 20.7082 2.07366 23.9411 6.06543 23.9411H9.63407C12.5434 23.9411 15.315 21.5869 15.8267 18.6787L19.1133 0.0552979L14.4238 0.808863ZM11.3878 18.0196C11.2304 18.918 10.4213 19.6492 9.52256 19.6492H7.35448C5.56031 19.6492 4.35984 18.1934 4.67471 16.3966L4.86168 15.3376C5.17983 13.5441 6.89199 12.0851 8.68615 12.0851H12.4347L11.3878 18.0196ZM47.3757 23.9408L50.1834 8.01904H54.6245L51.8168 23.9408H47.3757ZM47.8561 8.20264C47.6335 9.46551 47.4099 10.7284 47.1873 11.9913C45.0833 11.3377 42.9125 11.5458 42.2456 11.6788C41.5254 15.7671 40.8042 19.8564 40.083 23.9447H35.6389C36.2424 20.5239 38.3042 8.84149 38.3042 8.84149C39.7496 8.24317 43.2991 7.02889 47.8561 8.20264ZM29.8494 7.79374H26.3924C23.0238 7.79374 19.8128 10.5217 19.219 13.8889L18.5204 17.8464C17.9267 21.2137 20.1736 23.9417 23.5422 23.9417H30.8959L31.6503 19.6629H24.7392C23.6175 19.6629 22.8664 18.7546 23.0665 17.63L23.0895 17.4956H34.2316L34.8679 13.8889C35.4615 10.5217 33.2148 7.79374 29.8462 7.79374H29.8494ZM30.4103 13.548L30.3841 13.7775H23.7586L23.7947 13.5742C23.9947 12.4528 25.0181 11.4659 26.143 11.4659H28.731C29.843 11.4659 30.5941 12.4365 30.4103 13.548ZM67.5083 8.01904H71.9526C70.4387 12.0426 66.9691 18.887 63.6082 23.9408H59.1639C57.6212 19.1308 56.625 12.429 56.4349 8.01904H60.8794C60.9596 9.45755 61.6038 14.7933 62.339 18.5208C64.3555 14.8945 66.5786 10.1366 67.5049 8.01904H67.5083Z" fill="currentcolor"/>
+</svg></div></a><div id="footer_social-icons_diel" class="footer_social-icons"><div class="footer_social-icons_item"><a href="https://www.facebook.com/derivdotcom" target="_blank" class="footer_social-icons_wrapper w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/6661447d728f29ee4237fcf0_facebook.svg" alt=""/></a></div><div id="w-node-_7ee69540-8e38-190b-1c17-19f24d992327-f690dc6d" class="footer_social-icons_item"><a href="https://twitter.com/derivdotcom/" target="_blank" class="footer_social-icons_wrapper w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d6a7_x-twitter-md.svg" alt=""/></a></div><div id="w-node-_7ee69540-8e38-190b-1c17-19f24d99232a-f690dc6d" class="footer_social-icons_item"><a href="https://www.instagram.com/deriv_official/" target="_blank" class="footer_social-icons_wrapper w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d67b_instagram-md.svg" alt=""/></a></div><div id="w-node-_7ee69540-8e38-190b-1c17-19f24d99232d-f690dc6d" class="footer_social-icons_item"><a href="https://www.youtube.com/@deriv" target="_blank" class="footer_social-icons_wrapper w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66613a1fcd4bb8b64795b203_youtube.svg" alt=""/></a></div><div id="w-node-_7ee69540-8e38-190b-1c17-19f24d992330-f690dc6d" class="footer_social-icons_item"><a href="https://www.linkedin.com/company/derivdotcom/" target="_blank" class="footer_social-icons_wrapper w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d67f_linkedin-md.svg" alt=""/></a></div></div><div id="footer_social-icons_row" class="footer_social-icons"><div class="footer_social-icons_item"><a href="https://www.facebook.com/derivdotcom/" target="_blank" class="footer_social-icons_wrapper w-inline-block"><img src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/6661447d728f29ee4237fcf0_facebook.svg" loading="lazy" alt=""/></a></div><div id="w-node-_658d6c14-e833-9575-42b3-2e5fdb09dbf7-f690dc6d" class="footer_social-icons_item"><a href="https://twitter.com/derivdotcom/" target="_blank" class="footer_social-icons_wrapper w-inline-block"><img src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d6a7_x-twitter-md.svg" loading="lazy" alt=""/></a></div><div id="w-node-_658d6c14-e833-9575-42b3-2e5fdb09dbfa-f690dc6d" class="footer_social-icons_item"><a href="https://www.instagram.com/deriv_official/" target="_blank" class="footer_social-icons_wrapper w-inline-block"><img src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d67b_instagram-md.svg" loading="lazy" alt=""/></a></div><div id="w-node-_658d6c14-e833-9575-42b3-2e5fdb09dbfd-f690dc6d" class="footer_social-icons_item"><a href="https://www.youtube.com/@deriv" target="_blank" class="footer_social-icons_wrapper w-inline-block"><img src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66613a1fcd4bb8b64795b203_youtube.svg" loading="lazy" alt=""/></a></div><div id="w-node-_658d6c14-e833-9575-42b3-2e5fdb09dc00-f690dc6d" class="footer_social-icons_item"><a href="https://www.linkedin.com/company/derivdotcom/" target="_blank" class="footer_social-icons_wrapper w-inline-block"><img src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d67f_linkedin-md.svg" loading="lazy" alt=""/></a></div><div id="w-node-_658d6c14-e833-9575-42b3-2e5fdb09dc03-f690dc6d" class="footer_social-icons_item"><a href="https://t.me/Derivchannelofficial" target="_blank" class="footer_social-icons_wrapper w-inline-block"><img src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d6a3_telegram-md.svg" loading="lazy" alt=""/></a></div></div></div><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="w-dyn-item"><div class="padding-bottom padding-medium"><div class="footer_tab"><div data-delay="0" data-hover="false" class="footer_tabs-dropdown w-dropdown"><div class="footer_tabs-toggle w-dropdown-toggle"><div class="footer_tabs-icon w-icon-dropdown-toggle"></div><div>Giới thiệu</div></div><nav class="footer_tabs-list w-dropdown-list"><a href="/vi/who-we-are" class="footer_tabs-dropdown-link w-dropdown-link">Về chúng tôi</a><a href="/vi/why-choose-us" class="footer_tabs-dropdown-link w-dropdown-link">Tại sao nên chọn chúng tôi</a><a href="/vi/our-principles" class="footer_tabs-dropdown-link w-dropdown-link">Nguyên tắc của chúng tôi</a><a href="/vi/contact-us" class="footer_tabs-dropdown-link w-dropdown-link">Liên hệ</a><a href="/careers" class="footer_tabs-dropdown-link w-dropdown-link">Cơ hội việc làm</a><a href="/derivtech" target="_blank" class="footer_tabs-dropdown-link is-block w-inline-block"><div>Deriv Tech</div><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a><a href="/derivlife" target="_blank" class="footer_tabs-dropdown-link is-block w-inline-block"><div>Deriv Life</div><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a></nav></div><div data-delay="0" data-hover="false" class="footer_tabs-dropdown w-dropdown"><div class="footer_tabs-toggle w-dropdown-toggle"><div class="footer_tabs-icon w-icon-dropdown-toggle"></div><div>Giao dịch</div></div><nav class="footer_tabs-list w-dropdown-list"><a href="/vi/trade/cfds" class="footer_tabs-dropdown-link w-dropdown-link">Các thị trường CFD</a><a href="/vi/trade/options" class="footer_tabs-dropdown-link w-dropdown-link">Quyền chọn</a></nav></div><div data-delay="0" data-hover="false" class="footer_tabs-dropdown w-dropdown"><div class="footer_tabs-toggle w-dropdown-toggle"><div class="footer_tabs-icon w-icon-dropdown-toggle"></div><div>Thị trường</div></div><nav class="footer_tabs-list w-dropdown-list"><a href="/vi/markets/forex" class="footer_tabs-dropdown-link w-dropdown-link">Forex</a><a href="/vi/markets/derived-indices/synthetic-indices" class="footer_tabs-dropdown-link w-dropdown-link">Chỉ số Derived</a><a href="/vi/markets/stocks" class="footer_tabs-dropdown-link w-dropdown-link">Cổ phiếu</a><a href="/vi/markets/stock-indices" class="footer_tabs-dropdown-link w-dropdown-link">Chỉ số chứng khoán</a><a href="/vi/markets/commodities" class="footer_tabs-dropdown-link w-dropdown-link">Hàng hóa</a><a href="/vi/markets/cryptocurrencies" class="footer_tabs-dropdown-link w-dropdown-link">Tiền điện tử</a><a href="/vi/markets/etfs" class="footer_tabs-dropdown-link w-dropdown-link">ETF</a></nav></div><div data-delay="0" data-hover="false" class="footer_tabs-dropdown w-dropdown"><div class="footer_tabs-toggle w-dropdown-toggle"><div class="footer_tabs-icon w-icon-dropdown-toggle"></div><div>Sàn giao dịch</div></div><nav class="footer_tabs-list w-dropdown-list"><a href="/vi/trading-platforms/deriv-mt5" class="footer_tabs-dropdown-link w-dropdown-link">Deriv MT5</a><a href="/vi/trading-platforms/deriv-ctrader" class="footer_tabs-dropdown-link w-dropdown-link">Deriv cTrader</a><a href="/vi/trading-platforms/deriv-x" class="footer_tabs-dropdown-link w-dropdown-link">Deriv X</a><a href="/vi/trading-platforms/deriv-trader" class="footer_tabs-dropdown-link w-dropdown-link">Deriv Trader</a><a href="/vi/trading-platforms/deriv-go" class="footer_tabs-dropdown-link w-dropdown-link">Deriv GO</a><a href="/vi/trading-platforms/deriv-bot" class="footer_tabs-dropdown-link w-dropdown-link">Deriv Bot</a><a href="https://smarttrader.deriv.com/" target="_blank" class="footer_tabs-dropdown-link is-block w-inline-block"><div>SmartTrader</div><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a></nav></div><div data-delay="0" data-hover="false" class="footer_tabs-dropdown w-dropdown"><div class="footer_tabs-toggle w-dropdown-toggle"><div class="footer_tabs-icon w-icon-dropdown-toggle"></div><div>Học cách giao dịch</div></div><nav class="footer_tabs-list w-dropdown-list"><a href="/vi/blog" class="footer_tabs-dropdown-link w-dropdown-link">Deriv Blog</a><a href="/vi/help-centre" class="footer_tabs-dropdown-link w-dropdown-link">Trung tâm trợ giúp</a><a href="https://community.deriv.com" target="_blank" class="footer_tabs-dropdown-link is-block w-inline-block"><div>Cộng đồng</div><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a><a href="https://deriv.statuspage.io/" target="_blank" class="footer_tabs-dropdown-link is-block w-inline-block"><div>Trang trạng thái</div><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a></nav></div><div data-delay="0" data-hover="false" class="footer_tabs-dropdown w-dropdown"><div class="footer_tabs-toggle w-dropdown-toggle"><div class="footer_tabs-icon w-icon-dropdown-toggle"></div><div>Đối tác</div></div><nav class="footer_tabs-list w-dropdown-list"><a href="/vi/partners" target="_blank" class="footer_tabs-dropdown-link is-block w-inline-block"><div>Chương trình đối tác</div><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a><a href="https://api.deriv.com/" target="_blank" class="footer_tabs-dropdown-link is-block w-inline-block"><div>Deriv API</div><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a></nav></div><div data-delay="0" data-hover="false" class="footer_tabs-dropdown w-dropdown"><div class="footer_tabs-toggle w-dropdown-toggle"><div class="footer_tabs-icon w-icon-dropdown-toggle"></div><div>Pháp lý</div></div><nav class="footer_tabs-list w-dropdown-list"><a href="/vi/regulatory" class="footer_tabs-dropdown-link w-dropdown-link">Thông tin pháp lý</a><a href="/vi/terms-and-conditions" class="footer_tabs-dropdown-link w-dropdown-link">Điều khoản và điều kiện</a><a href="/vi/responsible" class="footer_tabs-dropdown-link w-dropdown-link">Bảo mật và giao dịch có trách nhiệm</a><a href="/vi/fraud-prevention" aria-current="page" class="footer_tabs-dropdown-link w-dropdown-link w--current">Phòng chống gian lận</a></nav></div></div><div class="w-layout-grid footer_top-wrapper"><div class="footer_link-list gap-medium"><div class="footer_link-list"><div class="footer_title">Giới thiệu</div><a href="/vi/who-we-are" class="footer_link">Về chúng tôi</a><a href="/vi/why-choose-us" class="footer_link">Tại sao nên chọn chúng tôi</a><a href="/vi/our-principles" class="footer_link">Nguyên tắc của chúng tôi</a><a href="/vi/contact-us" class="footer_link">Liên hệ</a><a href="/careers" class="footer_link">Cơ hội việc làm</a><a href="/derivtech" target="_blank" class="footer_link is-block w-inline-block"><div>Deriv Tech</div><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a><a href="/derivlife" target="_blank" class="footer_link is-block w-inline-block"><div>Deriv Life</div><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a></div><a href="/blog/posts/deriv-gold-accreditation-by-investors-in-people" target="_blank" class="investor_people w-inline-block"><img src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d482_invest%20in%20people%20-%20platinum%202.svg" loading="lazy" alt="" class="footer_badge"/></a></div><div class="footer_link-list gap-medium"><div class="footer_link-list"><div class="footer_title">Giao dịch</div><a href="/vi/trade/cfds" class="footer_link">Các thị trường CFD</a><a href="/vi/trade/options" class="footer_link">Quyền chọn</a></div><div class="footer_link-list"><div class="footer_title">Học cách giao dịch</div><a href="/vi/blog" class="footer_link">Deriv Blog</a><a href="/vi/help-centre" class="footer_link">Trung tâm trợ giúp</a><a href="https://community.deriv.com/" target="_blank" class="footer_link is-block w-inline-block"><div>Cộng đồng</div><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a><a href="https://deriv.statuspage.io/" target="_blank" class="footer_link is-block w-inline-block"><div>Trang trạng thái</div><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a></div></div><div class="footer_link-list"><div class="footer_title">Thị trường</div><a href="/vi/markets/forex" class="footer_link">Forex</a><a href="/vi/markets/derived-indices/synthetic-indices" class="footer_link">Chỉ số Derived</a><a href="/vi/markets/stocks" class="footer_link">Cổ phiếu</a><a href="/vi/markets/stock-indices" class="footer_link">Chỉ số chứng khoán</a><a href="/vi/markets/commodities" class="footer_link">Hàng hóa</a><a href="/vi/markets/cryptocurrencies" class="footer_link">Tiền điện tử</a><a href="/vi/markets/etfs" class="footer_link">ETF</a></div><div class="footer_link-list"><div class="footer_title">Sàn giao dịch</div><a href="/vi/trading-platforms/deriv-mt5" class="footer_link">Deriv MT5</a><a href="/vi/trading-platforms/deriv-ctrader" class="footer_link">Deriv cTrader</a><a href="/vi/trading-platforms/deriv-x" class="footer_link">Deriv X</a><a href="/vi/trading-platforms/deriv-trader" class="footer_link">Deriv Trader</a><a href="/vi/trading-platforms/deriv-go" class="footer_link">Deriv GO</a><a href="/vi/trading-platforms/deriv-bot" class="footer_link">Deriv Bot</a><a href="https://smarttrader.deriv.com/" target="_blank" class="footer_link is-block w-inline-block"><div>SmartTrader</div><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a></div><div class="footer_link-list gap-medium"><div class="footer_link-list"><div class="footer_title">Pháp lý</div><a href="/vi/regulatory" class="footer_link">Thông tin pháp lý</a><a href="/vi/terms-and-conditions" class="footer_link">Điều khoản và điều kiện</a><a href="/vi/responsible" class="footer_link">Bảo mật và giao dịch có trách nhiệm</a><a href="/vi/fraud-prevention" aria-current="page" class="footer_link w--current">Phòng chống gian lận</a></div><div class="footer_link-list"><div class="footer_title">Đối tác</div><a href="/vi/partners" target="_blank" class="footer_link is-block w-inline-block"><div>Chương trình đối tác</div><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a><a href="https://api.deriv.com/" target="_blank" class="footer_link is-block w-inline-block"><div>Deriv API</div><div class="icon-embed-auto w-embed"><svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8673_4157)">
+<path d="M10.5 7C10.8125 7.02083 10.9792 7.1875 11 7.5V14.5C10.9792 14.8125 10.8125 14.9792 10.5 15C10.1875 14.9792 10.0208 14.8125 10 14.5V8.71875L1.84375 16.8438C1.61458 17.0521 1.38542 17.0521 1.15625 16.8438C0.947917 16.6146 0.947917 16.3854 1.15625 16.1562L9.28125 8H3.5C3.1875 7.97917 3.02083 7.8125 3 7.5C3.02083 7.1875 3.1875 7.02083 3.5 7H10.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_8673_4157">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a></div></div><div id="w-node-_35887656-04df-8825-ab69-5dddf690dd1f-f690dc6d" class="footer_banner"><div class="footer_banner-content"><div class="footer_banner-logo-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d47a_deriv%20product-deriv%20go.svg" alt="" class="footer_banner-logo-image"/><div class="footer_banner-logo-title">Deriv GO</div></div><div>Giao dịch Multipliers trên ứng dụng di động của chúng tôi.</div><div class="footer_banner-badge qr-code"><img loading="lazy" src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d4d7_deriv.link_derivgo%20(4)%201.svg" alt="" class="footer_banner-qrcode"/><div>Quét để tải xuống</div></div></div><div class="footer_banner-content"><a href="https://play.google.com/store/apps/details?id=com.deriv.app" target="_blank" class="footer_banner-badge google w-inline-block"><div class="footer_banner-store-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d4dc_icon.svg" alt="" class="footer_banner-store-icon"/></div><img loading="lazy" src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d4dd_text.svg" alt="" class="footer_banner-store-text"/></a><a href="https://apps.apple.com/my/app/deriv-go-online-trading-app/id1550561298" target="_blank" class="footer_banner-badge store w-inline-block"><div class="footer_banner-store-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d4ff_icon.svg" alt="" class="footer_banner-store-icon"/></div><img loading="lazy" src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d4fc_text.svg" alt="" class="footer_banner-store-text"/></a><a href="https://appgallery.huawei.com/app/C103801913" target="_blank" class="footer_banner-badge gallery w-inline-block"><div class="footer_banner-store-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d4db_icon.svg" alt="" class="footer_banner-store-icon"/></div><img loading="lazy" src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d47d_text.svg" alt="" class="footer_banner-store-text"/></a></div></div></div></div><div class="footer_bottom-wrapper"><div class="footer_legal-list"><div class="footer_texts"><div id="footer_text_row" class="footer_text w-richtext"><p id="">Deriv Investments (Europe) Limited được cấp phép và quản lý bởi Malta Financial Services Authority theo Investment Services Act.<br>Deriv (FX) Ltd được cấp phép bởi Labuan Financial Services Authority. <br>Deriv (BVI) Ltd được cấp phép bởi British Virgin Islands Financial Services Commission. <br>Deriv (V) Ltd được cấp phép và quản lý bởi Vanuatu Financial Services Commission.<br>Deriv (SVG) LLC có văn phòng đăng ký tại First Floor, SVG Teachers Credit Union Uptown Building, Corner of James and Middle Street, Kingstown P.O., St Vincent and the Grenadines. <br>Deriv.com Limited, một công ty đã đăng ký tại Guernsey, là công ty mẹ của các thực thể này.<br><br>Vui lòng đảm bảo rằng bạn đã đọc <a href="/terms-and-conditions" id=""><strong id="">Điều khoản và điều kiện</strong></a>, <a href="https://docs.deriv.com/tnc/risk-disclosure.pdf" target="_blank" id=""><strong id="">Công bố rủi ro</strong></a>, và <a href="/responsible" id=""><strong id="">Giao dịch an toàn và có trách nhiệm</strong></a> của chúng tôi để hiểu đầy đủ về các rủi ro liên quan trước khi sử dụng dịch vụ. Cũng xin lưu ý rằng thông tin trên trang web không là lời khuyên hay tư vấn đầu tư.</p></div><div id="footer_text_diel" class="footer_text w-richtext"><p id="">Deriv Investments (Europe) Limited được cấp phép và quản lý bởi Cơ quan Dịch vụ Tài chính Malta theo Đạo luật Dịch vụ Đầu tư.<br>Deriv (FX) Ltd được cấp phép bởi Cơ quan Dịch vụ Tài chính Labuan. <br>Deriv (BVI) Ltd được cấp phép bởi Ủy ban Dịch vụ Tài chính Quần đảo Virgin thuộc Anh. <br>Deriv (V) Ltd được cấp phép và quản lý bởi Vanuatu Financial Services Commission.<br>Deriv (SVG) LLC có văn phòng đăng ký tại First Floor, SVG Teachers Credit Union Uptown Building, Corner of James and Middle Street, Kingstown P.O., St Vincent and the Grenadines.<br>Deriv.com Limited, một công ty đã đăng ký tại Guernsey, là công ty mẹ của các thực thể này.<br><br>Vui lòng đảm bảo rằng bạn đã đọc <a href="/terms-and-conditions" id=""><strong id="">Điều khoản và điều kiện</strong></a>, <a href="https://docs.deriv.com/tnc/risk-disclosure.pdf" target="_blank" id=""><strong id="">Công bố rủi ro</strong></a>, và <a href="/responsible" id=""><strong id="">Giao dịch an toàn và có trách nhiệm</strong></a> của chúng tôi để hiểu đầy đủ về các rủi ro liên quan trước khi sử dụng dịch vụ. Cũng xin lưu ý rằng thông tin trên trang web này không cấu thành lời khuyên đầu tư.</p></div></div><div class="footer_risk-warning w-richtext"><p id="">Các sản phẩm được cung cấp trên trang web của chúng tôi là các sản phẩm phái sinh phức tạp có nguy cơ thua lỗ đáng kể. CFD là công cụ phức tạp có nguy cơ mất tiền nhanh chóng do đòn bẩy. Bạn nên xem xét liệu bạn có hiểu cách thức hoạt động của các sản phẩm này và liệu bạn có đủ khả năng chấp nhận rủi ro mất tiền cao hay không trước khi tiến hành giao dịch.</p></div></div></div></div></div></div><div class="show-tablet"><div class="footer_badge-wrapper"><a href="/blog/posts/deriv-gold-accreditation-by-investors-in-people" target="_blank" class="investor_people w-inline-block"><img src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/66585fe0e1dc7e70cc75d482_invest%20in%20people%20-%20platinum%202.svg" loading="lazy" alt="" class="footer_badge"/></a></div></div></div></div></div></footer></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66585fe0e1dc7e70cc75d440" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/66585fe0e1dc7e70cc75d440/js/deriv-staged-2dfc316890fbbd8e3ed6d351bd.84c46f90b.js" type="text/javascript"></script><!-- deriv js custom code script-->
+<script type="module" src="https://unpkg.com/@deriv-com/custom-scripts@1.18.4/dist/js/footer_scripts.min.js"></script>
+<!-- deriv js custom code script end-->
+
+
+
+<!-- Trackjs - start of code -->
+
+<script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+<script>
+    TrackJS.install({
+    token: "346262e7ffef497d85874322fff3bbf8",
+    application: "derivcom-v2",
+    dedupe:true
+});
+</script>
+
+<!-- Trackjs - end of code -->
+
+<!-- Display current language - start of code -->
+<script>
+    var Webflow = Webflow || [];
+    Webflow.push(function() {
+    let currentLocaleElement = document.querySelector('.locale > .new-navbar_dropdown-link.w--current');
+
+    if (currentLocaleElement) {
+    let currentLocaleIsoCode = currentLocaleElement.getAttribute('hreflang');
+
+    let currentLocaleIsoCodeTexts = document.querySelectorAll('.current-locale-iso-code');
+
+    if (currentLocaleIsoCode && currentLocaleIsoCodeTexts.length) {
+    for (let currentLocaleIsoCodeText of currentLocaleIsoCodeTexts) {
+    currentLocaleIsoCodeText.innerText = currentLocaleIsoCode;
+}
+}
+}
+});
+</script>
+<!-- Display current language - end of code -->
+
+<script>
+    // Function for setting cookies when changing language and redirecting to the current language page
+    document.addEventListener('DOMContentLoaded', function() {
+
+    function setCookie(name, value, days) {
+        let expires = "";
+        if (days) {
+            let date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    }
+
+    function getCookie(name) {
+    let cookies = document.cookie.split(';');
+    for (let i = 0; i < cookies.length; i++) {
+    let cookie = cookies[i].trim();
+    if (cookie.startsWith(name + '=')) {
+    return cookie.substring(name.length + 1);
+}
+}
+    return null;
+}
+
+    let localeItems = document.querySelectorAll('.w-locales-items');
+
+    if (localeItems.length > 0) {
+    localeItems.forEach(function(item) {
+    let links = item.querySelectorAll('a');
+    links.forEach(function(link) {
+    link.addEventListener('click', function(event) {
+    event.preventDefault();
+    let language = link.getAttribute('hreflang');
+    setCookie('webflow-user-language', language, 30);
+    window.location.href = link.href;
+});
+});
+});
+
+    function clickLinkWithLanguage(language) {
+    let link = document.querySelector('a[hreflang="' + language + '"]');
+    if (link && window.location.pathname !== link.getAttribute('href')) {
+    link.click();
+}
+}
+    window.setLanguageCookie = (language) => {
+    setCookie('webflow-user-language', language, 30);
+}
+
+    let languageCookie = getCookie('webflow-user-language');
+    let targetPaths = ['/careers', '/locations', '/derivtech', '/derivlife', '/eu-careers', '/our-locations'];
+    let path = window.location.pathname;
+    let targetPathUrl = false;
+
+    // Check if the current path matches any of the target paths
+    if (targetPaths.some(targetPath => path.includes(targetPath))) {
+    targetPathUrl === true;
+}
+    if (languageCookie && targetPathUrl) {
+    clickLinkWithLanguage(languageCookie);
+}
+}
+});
+</script>
+
+
+<script>
+    var Webflow = Webflow || [];
+    Webflow.push(function() {
+
+    if (document.querySelector('.new-navbar_component')) {
+
+    // Find the .new-navbar_component element
+    const navbarComponent = document.querySelector('.new-navbar_component');
+
+    // Add event listeners for hover
+    navbarComponent.addEventListener('mouseenter', () => {
+    if (window.innerWidth > 991) {
+    disableScroll();
+}
+});
+    navbarComponent.addEventListener('mouseleave', () => {
+    if (window.innerWidth > 991) {
+    enableScroll();
+}
+});
+
+    // Function to disable scroll
+    function disableScroll() {
+    document.body.classList.add('disable-scroll');
+}
+
+    // Function to enable scroll
+    function enableScroll() {
+    document.body.classList.remove('disable-scroll');
+}
+
+}
+
+});
+</script>
+
+<!-- Datadog Integration -->
+<script
+    src="https://www.datadoghq-browser-agent.com/us1/v5/datadog-rum.js"
+    type="text/javascript">
+</script>
+<script>
+    window.DD_RUM && window.DD_RUM.init({
+    clientToken: 'pub08554ab30284600af157441bfb0fa923',
+    applicationId: '5c8975a3-ec86-4a64-8a3a-e6888fdde082',
+    // `site` refers to the Datadog site parameter of your organization
+    // see https://docs.datadoghq.com/getting_started/site/
+    site: 'datadoghq.com',
+    service: 'deriv.com-v2',
+    env: 'production',
+    // Specify a version number to identify the deployed version of your application in Datadog
+    // version: '1.0.0', 
+    sessionSampleRate: 10,
+    sessionReplaySampleRate: 1,
+    trackUserInteractions: true,
+    trackResources: true,
+    trackLongTasks: true,
+    defaultPrivacyLevel: 'mask-user-input',
+});
+</script>
+<!-- End Datadog Integration -->
+<script>
+    window.parseCookies = function(cookieString, value) {
+    const cookies = {};
+    cookieString.split(';').forEach(cookie => {
+    const [key, val] = cookie.split('=').map(c => c.trim());
+    cookies[key] = decodeURIComponent(val);
+});
+    return cookies[value];
+};
+ 
+
+    // this is not getting used anywhere, should be removed.
+    const domain_url_pair = {
+    [window.deriv_com_url]: window.deriv_com_url,
+    [window.deriv_me_url]: window.deriv_me_url,
+    [window.deriv_be_url]: window.deriv_be_url,
+    [window.staging_deriv_be_url]: window.deriv_be_url,
+};
+
+
+    // Listen for DOMContentLoaded event
+    document.addEventListener('DOMContentLoaded', function () {
+    const clientsCountry = window.getClientCountry();
+
+    // login flow nawbar
+    const getCookiesFields = () => [
+    'utm_source', 'utm_ad_id', 'utm_adgroup_id', 'utm_adrollclk_id',
+    'utm_campaign', 'utm_campaign_id', 'utm_content', 'utm_fbcl_id',
+    'utm_gl_client_id', 'utm_medium', 'utm_msclk_id', 'utm_term'
+    ];
+
+    const getUTMData = () => {
+    const utmDataString = window.parseCookies(document.cookie, "utm_data");
+    if (utmDataString) {
+    const utmData = JSON.parse(utmDataString);
+    const cookiesFields = getCookiesFields();
+    const filteredData = {};
+
+    cookiesFields.forEach(field => {
+    if (utmData.hasOwnProperty(field)) {
+    filteredData[field] = utmData[field];
+}
+});
+
+    return filteredData;
+}
+    return null;
+};
+
+    const getDateFirstContact = () => {
+    const dateFirstContactString = window.parseCookies(document.cookie, "date_first_contact");
+    if (dateFirstContactString) {
+    const parsedData = JSON.parse(dateFirstContactString);
+    return parsedData.date_first_contact ? { date_first_contact: parsedData.date_first_contact } : null;
+}
+    return null;
+};
+
+    const getSignupDevice = () => {
+    const signupDeviceString = window.parseCookies(document.cookie, "signup_device");
+    if (signupDeviceString) {
+    const parsedData = JSON.parse(signupDeviceString);
+    return parsedData.signup_device ? { signup_device: parsedData.signup_device } : null;
+}
+    return null;
+};
+
+    const lang = window.parseCookies(document.cookie,"webflow-user-language");
+
+    const countriesToRedirect = ["as", "au", "at", "be", "bg", "ca", "hr", "cy", "cz", "dk", "ee", "fi", "fr", "gr", "gu", "gg", "hk", "hu", "ir", "ie", "im", "il", "it", "je", "ng", "mm", "sy", "kp", "lv", "lt", "lu", "my", "mt", "nl", "nz", "mp", "py", "pl", "pt", "pr", "ro", "rw", "sk", "si", "es", "se", "ae", "gb", "us", "um", "vu", "vi", "ky", "cu", "de"];
+
+    if (window.location.pathname.endsWith("p2p") && !window.location.pathname.startsWith('/blog')) {
+    const clientsCountry = window.getClientCountry();
+    if (clientsCountry && countriesToRedirect.includes(clientsCountry)) {
+    if (lang === 'en') {
+    window.location.replace("/404");
+} else {
+    window.location.replace(`/${lang}/404`);
+}
+}
+}
+
+    const loginLink = document.getElementById('navbar-home_login');
+    if (loginLink) {
+    loginLink.addEventListener('click', function(event) {
+    event.preventDefault();
+    window.location.href = window.loginUrl();
+});
+}
+
+    const resLoginLink = document.getElementById('res-navbar-home_login');
+    if (resLoginLink) {
+    resLoginLink.addEventListener('click', function(event) {
+    event.preventDefault();
+    window.location.href = window.loginUrl();
+});
+}
+
+    const whiteLoginBar = document.getElementById('white-navbar_login');
+    if (whiteLoginBar) {
+    whiteLoginBar.addEventListener('click', function(event) {
+    event.preventDefault();
+    window.location.href = window.loginUrl();
+});
+}
+
+    const resWhiteLoginBar = document.getElementById('res-white-navbar_login');
+    if (resWhiteLoginBar) {
+    resWhiteLoginBar.addEventListener('click', function(event) {
+    event.preventDefault();
+    window.location.href = window.loginUrl();
+});
+}
+
+    if (window.parseCookies(document.cookie, "client_information") !== undefined) {
+    let purchaseButtons = document.querySelectorAll("a.live-markets_button.is-secondary.is-small.is-purchase.w-button");
+
+    let sellButtons = document.querySelectorAll("a.live-markets_button.is-secondary.is-small.is-sell.w-button");
+
+    function updateHref(buttons) {
+    buttons.forEach(button => {
+    button.href = "https://app.deriv.com/appstore/traders-hub";
+});
+}
+
+    updateHref(purchaseButtons);
+    updateHref(sellButtons);
+}
+
+//live chat button hide on menu appear
+    const mobileMenu = document.getElementById('mobile-menu');
+    const liveChatWrapper = document.getElementById('live_chat-wrapper');
+
+    let isLiveChatVisible = true;
+    let isLiveChatActivated = false;
+
+
+    function fadeIn(element) {
+    var opacity = 0;
+    var timer = setInterval(function() {
+    if (opacity >= 1) {
+    clearInterval(timer);
+}
+    element.style.opacity = opacity;
+    opacity += 0.1;
+}, 30);
+}
+
+    function fadeOut(element) {
+    var opacity = 1;
+    var timer = setInterval(function() {
+    if (opacity <= 0) {
+    clearInterval(timer);
+    element.style.display = "none";
+}
+    element.style.opacity = opacity;
+    opacity -= 0.1;
+}, 30);
+}
+
+
+// end of live chat hide
+
+    const getDataLink = (data) => {
+    let data_link = ''
+    if(data){
+    Object.keys(data).forEach((elem) => {
+    data_link += `&${elem}=${data[elem]}`
+})
+}
+    return data_link
+}
+
+ 
+    const getDomainAppID = () => {
+    const domainUrl = window.getDomain();
+    if (domainUrl === window.deriv_me_url) {
+    return window.domain_list_app_id[window.deriv_me_url];
+} else if (domainUrl === window.deriv_be_url) {
+    return window.domain_list_app_id[window.deriv_be_url];
+} else if (domainUrl === window.webflow_domain) {
+    return window.domain_list_app_id[window.webflow_domain];
+} else {
+    return window.domain_list_app_id[window.deriv_com_url];
+}
+};
+
+
+//get login url  
+    window.loginUrl = () => {
+    const server_url = localStorage.getItem('config.server_url');
+    const langCookie = window.parseCookies(document.cookie, "webflow-user-language");
+    let language = langCookie ? langCookie.toLowerCase() : 'en';
+
+    if (language === 'zh-cn' || language === 'zh-tw') {
+    language = language.replace('-', '_');
+}
+    const cookies_value = getUTMData();
+    const cookies_link = getDataLink(cookies_value)
+
+    const affiliate_token = window.parseCookies(document.cookie,"affiliate_tracking");
+
+    const affiliate_token_link = affiliate_token
+    ? `&affiliate_token=${affiliate_token}`
+    : ''
+
+    // Function which returns sub path to the specific trading platform
+    const supported_platforms = ['mt5', 'bot', 'derivx']
+    const redirectToTradingPlatform = () => {
+    supported_platforms.filter(
+    (platform) => window.location.pathname.includes(platform) && platform,
+    )
+}
+    const sub_url = redirectToTradingPlatform() || '';
+
+    if (server_url && /qa/.test(server_url)) {
+    return `https://${server_url}/oauth2/authorize?app_id=${window.getAppId()}&l=${language}&brand=deriv${affiliate_token_link}${cookies_link}&platform=${sub_url}`
+}
+    return `${window.getOauthUrl()}/oauth2/authorize?app_id=${getDomainAppID()}&l=${language}&brand=deriv${affiliate_token_link}${cookies_link}&platform=${sub_url}`
+
+}
+    
+
+
+})
+</script>
+
+<!-- Mobile Menu - start of code -->
+<script>
+
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+    const accordionItems = document.querySelectorAll('.navbar_accordion-item');
+    // Close all accordion items on load
+    accordionItems.forEach(item => {
+    const trigger = item.querySelector('.navbar_accordion-trigger');
+    trigger.classList.remove('open');
+    const content = item.querySelector('.navbar_accordion-content');
+    content.classList.remove('open');
+    content.style.maxHeight = '0px';  // Initially collapse content
+    content.style.overflow = 'hidden';
+    content.style.transition = 'max-height 0.3s ease-in, opacity 0.3s ease-in';
+    content.style.opacity = '0';
+});
+    accordionItems.forEach(item => {
+    const trigger = item.querySelector('.navbar_accordion-trigger');
+    trigger.addEventListener('click', function() {
+    const isOpen = trigger.classList.contains('open');
+    // Close all accordion sections
+    accordionItems.forEach(i => {
+    i.querySelector('.navbar_accordion-trigger').classList.remove('open');
+    const content = i.querySelector('.navbar_accordion-content');
+    content.classList.remove('open');
+    content.style.maxHeight = '0px';  // Collapse all content
+    content.style.opacity = '0';
+});
+    // Toggle the clicked section
+    if (!isOpen) {
+    trigger.classList.add('open');
+    const content = trigger.nextElementSibling;
+    content.classList.add('open');
+    // Expand content with animation
+    content.style.maxHeight = content.scrollHeight + 'px';
+    content.style.opacity = '1';
+}
+});
+});
+});
+    document.addEventListener('DOMContentLoaded', function() {
+    // Function to handle the scrolling behavior
+    function scrollToActiveAccordion() {
+        const activeAccordion = document.querySelector('.navbar_accordion-trigger.open');
+        if (activeAccordion) {
+            activeAccordion.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    }
+    // Add click event listener to accordion triggers
+    const accordionTriggers = document.querySelectorAll('.navbar_accordion-trigger');
+    accordionTriggers.forEach(trigger => {
+    trigger.addEventListener('click', function() {
+    setTimeout(scrollToActiveAccordion, 300); // Delay to ensure CSS transitions are complete
+});
+});
+    // Add a class to make the header sticky when the accordion is active
+    const observer = new MutationObserver(mutations => {
+    mutations.forEach(mutation => {
+    if (mutation.attributeName === 'class') {
+    const target = mutation.target;
+    if (target.classList.contains('open')) {
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+}
+});
+});
+    // Observe the accordion items for changes in their class attribute
+    const accordionItems = document.querySelectorAll('.navbar_accordion-item');
+    accordionItems.forEach(item => {
+    observer.observe(item, { attributes: true });
+});
+});
+
+    // iphone back button press close menu
+
+</script>
+<!-- Responsive Menu - end of code -->
+
+
+
+<script>
+    // This function adds a red line to the current accordion trigger
+    var Webflow = Webflow || [];
+    Webflow.push(function() {
+    // Find all accordion triggers
+    let triggers = document.querySelectorAll('.navbar_accordion-trigger');
+
+    triggers.forEach(trigger => {
+    trigger.addEventListener('click', function() {
+    // Remove the .current class from all triggers
+    triggers.forEach(t => t.classList.remove('current'));
+
+    // Add the .current class to the clicked trigger
+    this.classList.add('current');
+});
+});
+
+    // Find the current page link in Navbar
+    let currentLink = document.querySelector('.navbar_accordion-link.w--current');
+
+    if (currentLink) {
+    // Find the closest accordion item
+    let accordionItem = currentLink.closest('.navbar_accordion-item');
+
+    if (accordionItem) {
+    // Find the trigger element within the found parent
+    let trigger = accordionItem.querySelector('.navbar_accordion-trigger');
+
+    if (trigger) {
+    // Add the .current class to the trigger
+    trigger.classList.add('current');
+}
+}
+}
+});
+
+</script>
+<!-- Mobile Menu - end of code -->
+
+<!-- Live Chat - start of code -->
+<script>
+    const licenceKey = '12049137';
+    const loadLiveChatScript = () => {
+    window.__lc = window.__lc || {};
+    window.__lc.license = licenceKey;
+    window.LC_API = window.LC_API || { loaded: false };
+    if (!window.LC_API.loaded) {
+    const lcScript = document.createElement('script');
+    lcScript.async = true;
+    lcScript.src = 'https://cdn.livechatinc.com/tracking.js';
+    lcScript.onload = () => {
+    window.LC_API.loaded = true; // Mark as loaded
+    window.LC_API.on_after_load = function() {
+    performLiveChatAction(!!window.parseCookies(document.cookie, "client_information"));
+      checkUrlForLiveChat();
+};
+if (typeof LiveChatWidget !== 'undefined' && LiveChatWidget.init) {
+                LiveChatWidget.init();
+}
+};
+    document.body.appendChild(lcScript);
+} else {
+    checkUrlForLiveChat();
+}
+}
+    const openLiveChat = () => {
+    if (window.LC_API && window.LC_API.open_chat_window) {
+    window.LC_API.open_chat_window();
+}
+};
+    const checkUrlForLiveChat = () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('is_livechat_open') === 'true') {
+    openLiveChat();
+}
+};
+
+    //dashboard send data
+    const performLiveChatAction = (is_logged_in) =>{
+    window?.LiveChatWidget?.on('ready', () => {
+        // we open and close the window to trigger the widget to listen for new events
+        window.LC_API.open_chat_window()
+        window.LC_API.hide_chat_window()
+        checkUrlForLiveChat();
+
+        const utm_data_string = window.parseCookies(document.cookie, 'utm_data');
+        const utm_data = utm_data_string ? JSON.parse(utm_data_string) : {};
+        const { utm_source, utm_medium, utm_campaign } = utm_data;
+
+        const client_information = window.parseCookies(document.cookie,'client_information')
+        const url_params = new URLSearchParams(window.location.search)
+
+
+        const {
+            loginid,
+            email,
+            landing_company_shortcode,
+            currency,
+            residence,
+            first_name,
+            last_name,
+        } = client_information ? JSON.parse(client_information) : {};
+
+        /* the session variables are sent to CS team dashboard to notify user has logged in
+        and also acts as custom variables to trigger targeted engagement */
+        const session_variables = {
+            is_logged_in: is_logged_in,
+            loginid: loginid ?? '',
+            landing_company_shortcode: landing_company_shortcode ?? '',
+            currency: currency ?? '',
+            residence: residence ?? '',
+            email: email ?? '',
+            platform: url_params.get('platform') ?? '',
+            utm_source: utm_source ?? '',
+            utm_medium: utm_medium ?? '',
+            utm_campaign: utm_campaign ?? '',
+        }
+
+        window.LiveChatWidget.call('set_session_variables', session_variables)
+
+        if (is_logged_in) {
+            if (email) {
+                window.LiveChatWidget.call('set_customer_email', email)
+            }
+            if (first_name && last_name) {
+                window.LiveChatWidget.call(
+                    'set_customer_name',
+                    `${first_name} ${last_name}`,
+                )
+            }
+        } else {
+
+            // clear name and email fields after chat has ended
+            window.LC_API.on_chat_ended = () => {
+                window.LiveChatWidget.call('set_customer_email', ' ')
+                window.LiveChatWidget.call('set_customer_name', ' ')
+            }
+        }
+        checkUrlForLiveChat();
+
+        // open chat widget when there is an incoming greeting/announcement
+        window.LiveChatWidget.on('new_event', (event) => {
+            if (event.greeting) {
+                window.LC_API.open_chat_window()
+            }
+        })
+    })
+}
+    let is_logged_in = false;
+    let checkCookieInterval;
+
+    const isLoggedIn = () => {
+    return !!window.parseCookies(document.cookie, "client_information");
+};
+
+    const checkLoggedIn = () => {
+    const new_login_status = isLoggedIn();
+    if (new_login_status !== is_logged_in) {
+    performLiveChatAction(new_login_status)
+    is_logged_in = new_login_status;
+}
+};
+
+
+
+    // Perform initial authentication check
+    checkLoggedIn();
+
+    // Set interval to periodically check authentication status
+    checkCookieInterval = setInterval(checkLoggedIn, 2000);
+    //end of dashboard send data
+
+    document.addEventListener('DOMContentLoaded', () => {
+    loadLiveChatScript();
+    const liveChatIcons = document.querySelectorAll(".livechatbtn");
+    if (liveChatIcons.length > 0) {
+    liveChatIcons.forEach(liveChatIcon => {
+    liveChatIcon.addEventListener('click', (event) => {
+    event.preventDefault();
+    openLiveChat();
+});
+});
+}
+    const liveChatIconById = document.getElementById("liveChatBtn");
+    if (liveChatIconById) {
+    liveChatIconById.addEventListener('click', (event) => {
+    event.preventDefault();
+    openLiveChat();
+});
+};
+      const liveChatIconsByrel = document.querySelectorAll('a[rel="liveChatBtn"]');
+      liveChatIconsByrel.forEach(liveChatIcon => {
+      liveChatIcon?.addEventListener('click', (event) => {
+        event.preventDefault();
+        openLiveChat();
+    });
+  });
+
+});
+  
+
+</script>
+<!-- Live Chat - end of code -->
+
+
+<script>
+    window.__lc = window.__lc || {};
+    window.__lc.license = 12049137;
+    window.__lc.integration_name = "manual_onboarding";
+    ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+</script>
+<noscript><a href="https://www.livechat.com/chat-with/12049137/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+<!-- End of LiveChat code -->
+
+
+
+
+<!-- mobile menu height calculation - start of code -->
+<script>
+    var Webflow = Webflow || [];
+    Webflow.push(function() {
+    let navbarMenuBtn = document.querySelector('.navbar_menu-button');
+
+    if (navbarMenuBtn) {
+    navbarMenuBtn.addEventListener('click', function() {
+    let windowHeight = window.innerHeight;
+
+    let navbarWrapper = document.querySelector('.new-navbar_main-wrapper');
+
+    if (navbarWrapper) {
+    let navbarHeight = navbarWrapper.offsetHeight;
+
+    let calculatedHeight = windowHeight - navbarHeight;
+
+    let navbarMenu = document.querySelector('.new-navbar_menu');
+    if (navbarMenu) {
+    navbarMenu.style.height = `${calculatedHeight}px`;
+}
+}
+});
+}
+});
+</script>
+<!-- mobile menu height calculation - end of code -->
+
+
+
+<!-- scroll list of languages -->
+<script>
+    // this code ensures opening a list of languages on mobile starting from the top
+    var Webflow = Webflow || [];
+    Webflow.push(function() {
+    let langMobButton = document.querySelector('.lang-mob');
+
+    if (langMobButton) {
+    langMobButton.addEventListener('click', function() {
+    let mobileMenuWrapper = document.querySelector('.new-navbar_menu-wrapper');
+
+    if (mobileMenuWrapper) {
+    mobileMenuWrapper.scrollBy({ top: -3000 });
+}
+});
+}
+});
+</script>
+<!-- end of scroll list of languages -->
+
+
+<!--EU cookie pop up -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    class CookieStorage {
+        constructor(cookieName) {
+            this.cookieName = cookieName;
+        }
+
+        setItem(value) {
+            const expiryDate = new Date();
+            expiryDate.setDate(expiryDate.getDate() + 30); // 30 days from now
+            const expires = "expires=" + expiryDate.toUTCString();
+            const cookieValue = encodeURIComponent(JSON.stringify(value));
+            document.cookie = `${this.cookieName}=${cookieValue};${expires};path=/`;
+        }
+        getItem() {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                let cookie = cookies[i].trim();
+                if (cookie.startsWith(`${this.cookieName}=`)) {
+                    let cookieValue = cookie.substring(`${this.cookieName}=`.length);
+                    return JSON.parse(decodeURIComponent(cookieValue));
+                }
+            }
+            return null;
+        }
+    }
+
+    const tracking_status_cookie = new CookieStorage('tracking_status');
+    const tracking_status_cookie_declined = new CookieStorage('tracking_status_decline');
+      
+    const popupElement = document.querySelector('.cookies_background-wrapper');
+
+//set datalayer details
+    const has_dataLayer =  window.dataLayer
+    const client_information=window.parseCookies(document.cookie, "client_information")
+    const is_logged_in = !!client_information;
+    has_dataLayer &&
+    window.dataLayer.push({
+    loggedIn: is_logged_in,
+    language: window.parseCookies(document.cookie, "webflow-user-language") || 'en',
+    ...(is_logged_in && {
+    visitorId: client_information?.loginid,
+    currency: client_information?.currency,
+    email: client_information?.email,
+}),
+})
+
+// Check if pathname contains "eu" and tracking_status_cookie is null
+
+    if (window.location.pathname.includes('eu') && !(tracking_status_cookie.getItem()) &&!(tracking_status_cookie_declined.getItem())) {
+    popupElement.classList.remove('hide-element');
+    document.body.classList.add('show-cookie');
+}
+
+
+// Select the accept and decline buttons
+    const acceptButton = document.getElementById('accept-cookie');
+    const declineButton = document.getElementById('dont-accept-cookie');
+
+    acceptButton?.addEventListener('click', function() {
+    tracking_status_cookie.setItem(true);
+    popupElement.classList.add('hide-element');
+    document.body.classList.remove('show-cookie');
+
+});
+
+    declineButton?.addEventListener('click', function() {
+      tracking_status_cookie_declined.setItem(true);
+    tracking_status_cookie.setItem(false);
+    popupElement.classList.add('hide-element');
+      document.body.classList.remove('show-cookie');
+
+});                                   })
+</script>
+
+<!-- remove hreflanf links -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    var targetPaths = ['/careers', '/locations', '/derivtech', '/derivlife', '/eu-careers', '/our-locations'];
+    var path = window.location.pathname;
+    if (targetPaths.some(targetPath => path.includes(targetPath))) {
+    var headTag = document.head;
+    var linkElements = headTag.querySelectorAll('link');
+    linkElements.forEach(function(linkElement) {
+    if (linkElement.hasAttribute('hreflang')) {
+    if (linkElement.getAttribute('hreflang') !== 'x-default') {
+    linkElement.remove();
+}
+}
+});
+}
+});
+</script>
+<!-- end of hreflang links removal -->
+<!--Analytics block starts here-->
+<script>
+    window.addClickListener = function(button, eventName, eventProperties) {
+    if (button) {
+    button.addEventListener('click', function() {
+    Analytics?.Analytics?.trackEvent(eventName, eventProperties);
+});
+}
+};
+    document.addEventListener('DOMContentLoaded', () => {
+    var btnLiveChat = document?.getElementsByClassName('livechatbtn');
+    var btnWhatsapp = document?.getElementsByClassName('whatsapp_chat');
+    var btnTradershub = document?.getElementsByClassName('tradershub-btn');
+    var btnTryFreeDemo = document.querySelectorAll('.btn-free-demo .w-button');
+    var btnTryFreeDemoFooter = document.querySelectorAll('.btn-free-demo [data-class="w-button"]');
+    var btnTryFreeDemoNavbar = document.querySelectorAll('a');
+   if(btnLiveChat){
+    Array.from(btnLiveChat).forEach(button => {
+         window.addClickListener(button, 'ce_widget_usage_form', { action: 'click', widget_name: 'livechat' });
+    })
+}
+   if(btnWhatsapp){
+    Array.from(btnWhatsapp).forEach(button => {
+         window.addClickListener(button, 'ce_widget_usage_form', { action: 'click', widget_name: 'whatsapp' });
+    })
+}
+      if(btnTradershub){
+    Array.from(btnTradershub).forEach(button => {
+         window.addClickListener(button, 'ce_cta_clicks', { action: 'click', cta_name: 'Traders Hub' })
+    })
+}
+      if(btnTryFreeDemo){
+    Array.from(btnTryFreeDemo).forEach(button => {
+ window.addClickListener(button, 'ce_cta_clicks', { action: 'click', cta_name: 'Try free demo' })
+    })
+}
+      if (btnTryFreeDemoFooter){
+        Array.from(btnTryFreeDemoFooter).forEach(button => {
+            window.addClickListener(button, 'ce_cta_clicks', { action: 'click', cta_name: 'Try free demo' });
+        });
+}
+     if(btnTryFreeDemoNavbar){
+        btnTryFreeDemoNavbar.forEach(link => {
+        if (link.classList.contains('btn-free-demo') && link.classList.contains('w-button')) {
+            window.addClickListener(link, 'ce_cta_clicks', { action: 'click', cta_name: 'Try free demo' });
+        }
+        })
+}
+    const RUDDERSTACK_STAGING_KEY = '1lN3tsFD2nruGFgM5F074DC2hMB';
+    const RUDDERSTACK_PRODUCTION_KEY = '1oV5agvlcnCZ6IH94wCKM1oR8Pd';
+    const GB_STAGING_CLIENT_KEY = 'sdk-9wuqJ1mlcQsSyZQ';
+  const GB_STAGING_DECRYPTION_KEY = 'bOFQCSZp/ctvXbJCBaEOzw==';
+    const GB_PROD_CLIENT_KEY = 'sdk-UhZV3cNEg5nLNLNS';
+  const GB_PROD_DECRYPTION_KEY = 'nre64BV0dNIa44zW4tz5ow==';
+    var GB_CLIENT_KEY, RUDDERSTACK_KEY, GB_DECRYPTION_KEY;
+   if(window.location.hostname === 'deriv.com' || window.location.hostname === 'deriv.be' || window.location.hostname === 'deriv.me') {
+      GB_CLIENT_KEY = GB_PROD_CLIENT_KEY
+      GB_DECRYPTION_KEY = GB_PROD_DECRYPTION_KEY
+      RUDDERSTACK_KEY = RUDDERSTACK_PRODUCTION_KEY
+    } else {
+      GB_CLIENT_KEY = GB_STAGING_CLIENT_KEY
+      GB_DECRYPTION_KEY = GB_STAGING_DECRYPTION_KEY
+      RUDDERSTACK_KEY = RUDDERSTACK_STAGING_KEY
+    }
+    const initialiseConfig = {
+    growthbookKey: GB_CLIENT_KEY,
+    growthbookDecryptionKey: GB_DECRYPTION_KEY,
+    rudderstackKey: RUDDERSTACK_KEY,
+    growthbookOptions: {
+    navigate: (url) => window.location.replace(url),
+    antiFlicker: false,
+    navigateDelay: 0,
+    trackingCallback: (experiment, result) => {
+                console.log('experiment', experiment)
+                console.log('result', result)
+                if (window.dataLayer) {
+                    console.log('result in datalayer', result)
+                    window.dataLayer.push({
+                        event: 'experiment_viewed',
+                        event_category: 'experiment',
+                        rudder_anonymous_id: Analytics.Analytics.getInstances().tracking.getAnonymousId(),
+                        experiment_id: experiment.key,
+                        variation_id: result.variationId,
+                    })
+                }
+                console.log('experiment_viewed', result)
+              Analytics?.Analytics?.trackEvent('experiment_viewed', {
+                    experimentId: experiment.key,
+                    variationId: result.variationId,
+                })
+            },
+},
+};
+  const client_information = window.parseCookies(document.cookie, "client_information");
+  const clientInfo = client_information? JSON.parse(client_information): null;
+    try {
+    Analytics?.Analytics.initialise(initialiseConfig);
+    Analytics?.Analytics?.getInstances()?.ab?.GrowthBook?.loadFeatures();
+    const userId = clientInfo?.user_id ? clientInfo?.user_id : Analytics?.Analytics?.getInstances?.().tracking?.getAnonymousId()
+    Analytics?.Analytics?.identifyEvent(userId)
+} catch (error) {
+    console.error('Error during initialisation:', error);
+}
+    const utm_data_string = window.parseCookies(document.cookie, 'utm_data');
+    const utm_data = utm_data_string ? JSON.parse(utm_data_string) : {};
+    const { utm_source, utm_medium, utm_campaign } = utm_data;
+    const cookies = window.parseCookies(document.cookie, "signup_device");
+    let signupDevice = null;
+    const isBrowser = () => typeof window !== 'undefined'
+    const getLanguage = () => isBrowser() ? localStorage.getItem('i18n') || navigator.language : null
+    if(cookies){
+     signupDevice = JSON.parse(cookies)?.signup_device || null;
+    }
+    Analytics?.Analytics?.getInstances()?.ab?.GrowthBook?.loadFeatures();
+    Analytics?.Analytics?.setAttributes({
+    country: window.parseCookies(document.cookie, "clients_country") || window.parseCookies(document.cookie, "website_status"),
+    user_language:window.parseCookies(document.cookie, "user_language") || getLanguage(),
+    geo_location:window.parseCookies(document.cookie, "clients_country") || window.parseCookies(document.cookie, "website_status"),
+    device_language: window.parseCookies(document.cookie, "language")|| ' ',
+    device_type:signupDevice,
+    utm_source: utm_data?.['utm_source'],
+    utm_medium: utm_data?.['utm_medium'],
+    utm_campaign: utm_data?.['utm_campaign'],
+    is_authorised: !!window.parseCookies(document.cookie, "client_information"),
+    url: window.location.href
+})
+    Analytics?.Analytics?.pageView(location.pathname, 'Deriv.com')
+    Analytics?.Analytics?.getInstances()?.ab?.GrowthBook?.setURL(window.location.href)
+    window.useGrowthbookFeatureFlag=function({ featureFlag }) {
+    let featureFlagValue = Analytics?.Analytics?.getFeatureValue(featureFlag);
+    function updateFeatureFlagValue() {
+        const value = Analytics?.Analytics?.getFeatureValue(featureFlag);
+        featureFlagValue = value;
+    }
+    Analytics?.Analytics?.getInstances()?.ab?.GrowthBook?.setRenderer(updateFeatureFlagValue);
+    return featureFlagValue;
+}
+});
+</script>
+<!--Analytics block ends-->
+
+<script>
+  // Parse the cookies to get the 'client_information' cookie value
+  const cookieValue = window.parseCookies(document.cookie, "client_information")
+    ? JSON.parse(window.parseCookies(document.cookie, "client_information"))
+    : null; 
+
+  // Hotjar integration
+  if (cookieValue?.loginid) {
+    window?.hj('identify', cookieValue.loginid, {
+      is_logged_in: !!window.parseCookies(document.cookie, "client_information"),
+      landing_company_shortcode: cookieValue.landing_company_shortcode || 'null',
+    });
+  }
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const updateLinkHrefs = () => {
+    const featureFlagValue =Analytics?.Analytics?.getFeatureValue('trigger_os_signup_wf');
+    const handleOutSystemsRedirection = () => {
+      const currentDomain = window.location.hostname;
+      let env;
+      if (
+        currentDomain === "deriv.com" ||
+        currentDomain === "deriv.be" ||
+        currentDomain === "deriv.me"
+      ) {
+        env = "production";
+      } else if (currentDomain === "staging.deriv.com") {
+        env = "staging";
+      } else {
+        env = "development";
+      }
+      switch (env) {
+        case "production":
+          return "https://hub.deriv.com/tradershub/signup";
+        case "staging":
+          return "https://staging-hub.deriv.com/tradershub/signup";
+        default:
+          return "https://dev-hub.deriv.com/tradershub/signup";
+      }
+    };
+
+    function isSafari() {
+      const ua = navigator.userAgent.toLowerCase();
+      return /safari/.test(ua) && !/chrome/.test(ua) && !/crios/.test(ua);
+    }
+
+    function isIOS() {
+      const ua = navigator.userAgent.toLowerCase();
+      return /ipad|iphone|ipod/.test(ua);
+    }
+
+    const newHref = featureFlagValue 
+      ? (isIOS() || isSafari() 
+          ? `https://${window.location.host}/signup` 
+          : handleOutSystemsRedirection())
+      : `https://${window.location.host}/signup`;
+
+    // Update href attributes
+    const mainSignupButton = document.getElementById("cta-home-btn-navbar");
+    if (mainSignupButton) {
+      mainSignupButton.href = newHref;
+    }
+
+     const signupButtons = document.querySelectorAll(".logged-out-btn");
+     signupButtons?.forEach((btn) => {
+        if (btn?.href?.indexOf('/signup')> 0){
+          btn.href = newHref;
+        }
+      });
+      
+      const signupButtonsPlatforms = document.querySelectorAll(".logged-out-btn a");
+      signupButtonsPlatforms?.forEach((btn) => {
+          if (btn?.href?.indexOf('/signup') > 0){
+            btn.href = newHref;
+          }
+      });
+  };
+
+      Analytics?.Analytics?.getInstances()?.ab?.GrowthBook?.loadFeatures().then(() => {
+         if(window.location.href.indexOf('/partners') > -1 === false) {
+           updateLinkHrefs();
+         }  
+      });
+  });
+  
+</script></body></html>

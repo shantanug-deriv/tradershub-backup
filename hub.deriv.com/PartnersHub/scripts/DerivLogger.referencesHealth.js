@@ -1,0 +1,1 @@
+define("DerivLogger.referencesHealth", [], function() {});

@@ -1,0 +1,26 @@
+﻿
+.snackbar .animate  {
+    position: absolute;
+    left: 0;
+}
+
+.snackbar--success {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.snackbar--success.alert-success {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: 9;
+    min-width: 400px;
+    width:auto;
+    max-width: 100%;
+}
+
+.snackbar--success .alert-icon {
+    align-self: center !important;
+}

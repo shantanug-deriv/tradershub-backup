@@ -1,0 +1,16 @@
+﻿.complete-my-profile {
+background: var(--Neutral-Neutral-0, #FFF);
+border: 1px solid var(--Neutral-Neutral-4, #DEE2E6);
+border-radius: 8px;
+cursor: pointer;
+display: flex;
+flex-direction: column;
+flex-shrink: 0;
+gap: 16px;
+padding: 20px;
+width: 100%;
+}
+
+.complete-my-profile:hover{
+    background-color: #efeff0;
+}

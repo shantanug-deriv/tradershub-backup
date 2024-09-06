@@ -1,0 +1,8 @@
+﻿.connect-account-manager {
+    display: flex;
+width: 100%;
+padding: 16px;
+flex-shrink: 0;
+border-radius: 8px;
+background: var(--Neutral-Neutral-0, #FFF);
+}
