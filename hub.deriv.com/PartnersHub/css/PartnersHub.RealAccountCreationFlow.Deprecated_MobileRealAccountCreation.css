@@ -1,0 +1,100 @@
+﻿.next-button {
+    align-items: center;
+    background: #000;
+    border-radius: 16px;
+    display: flex;
+    flex: 1 0 0;
+    gap: 8px;
+    justify-content: center;
+    max-height: 48px;
+    min-height: 48px;
+    min-width: 96px;
+    padding: 12px 16px;
+}
+
+.next-button:disabled {
+  opacity: 0.48;
+background: var(--core-color-solid-slate-1400, #000);
+}
+
+.termsofuse {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1 0 0;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.checkbox {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.checkbox::before {
+ appearance: none; 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px !important; 
+  height: 20px !important;
+  cursor: pointer;
+ border: 2px solid var(--system-light-3-less-prominent-text, #999);
+  }
+
+.checkbox:checked::before {
+        height: 25px;
+    width: 25px;
+      background-color: #FF444F;
+      left: 6px;
+     top: 9px;
+     border: none !important;
+}
+
+.checkbox:checked::after {
+       left: 4px !important;
+       top: 5px !important;
+       width: 10px !important;
+}
+
+.supported-documents-list .list-item {
+    padding: 6px 16px;
+    margin-bottom: 16px;
+}
+
+.list-item.currency-item.currency-item--clicked {
+    background-color: black;
+    color: red;
+}
+
+.list-item.currency-item {
+    border-bottom: none;
+}
+
+.primary-button {
+    align-items: center;
+background: #FF444F;
+border: none;
+border-radius: 100px;
+display: flex;
+flex: 1 0 0;
+gap: 8px;
+height: 48px;
+justify-content: center;
+padding: 16px;
+cursor: pointer;
+}
+
+.primary-button-disabled {
+   align-items: center;
+background: #FF444F;
+border: none;
+border-radius: 100px;
+display: flex;
+flex: 1 0 0;
+gap: 8px;
+height: 48px;
+justify-content: center;
+padding: 16px;
+opacity: 0.2;
+cursor: not-allowed;
+}

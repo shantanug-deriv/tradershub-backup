@@ -1,0 +1,55 @@
+﻿.dashboard {
+  background: #ffffff;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  height:100%;
+  padding: 16px;
+}
+
+.phone .dashboard {
+    background: #ffffff !important;
+    justify-content: center;
+}
+
+/* .phone .livechat-logout-container .osui-tooltip .osui-balloon {
+    display: none;
+} */
+
+
+@media (min-width: 1280px) {
+    .dashboard {
+  background: #ffffff;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  height:100%;
+  padding: 16px;
+  justify-content: center !important;
+  align-items: center !important;
+}
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.dashboard-mobile-header {
+    display: flex;
+height: 64px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+border-bottom: 1px solid #e6e9e9;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+
+.header {
+    box-shadow: none !important;
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e6e9e9;
+}

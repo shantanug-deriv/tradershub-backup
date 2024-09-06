@@ -1,0 +1,65 @@
+﻿.affiliates-programme {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.affiliates-programme-list__item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: fit-content;
+    margin-left: 0;
+}
+
+.affiliates-programme__carousel .list-item {
+    border-bottom: none;
+}
+
+.affiliates-programme-list__item-image {
+    width: 100%;
+    height: auto;
+}
+
+.affiliates-programme__footer--desktop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.affiliates-programme__footer--mobile {
+    width: 100%;
+}
+
+.affiliates-programme__button {
+    background-color: white !important;
+    color: rgb(255, 68, 80) !important;
+    border-radius: 50px !important;
+    margin-left: 0 !important;
+    transition: background-color 0.3s !important;
+}
+
+.affiliates-programme__button--desktop {
+    width: fit-content;
+    transition: background-color 0.3s;
+}
+
+.affiliates-programme__button--desktop:hover {
+    background-color: rgba(222,0,64,.08);
+}
+
+.affiliates-programme__button--mobile {
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.affiliates-programme__button--mobile:hover {
+    background-color: rgba(222,0,64,.08);
+}
+
+.affiliates-programme__button:hover {
+    background-color: rgba(222,0,64,.08) !important;
+}
+

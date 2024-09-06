@@ -1,0 +1,26 @@
+﻿.reset-button {
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 32px;
+    padding: 0 16px;
+}
+
+.reset-button:hover{
+    background: rgb(233, 230, 230);
+}
+
+
+.submit-button {
+    background: #FF444F;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 32px;
+    padding: 0 16px;
+}
+
+.submit-button:hover {
+    background-color: #b64c53;
+}

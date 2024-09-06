@@ -1,0 +1,23 @@
+﻿.tnc-button-container__desktop {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tablet [data-checkbox]:before, .phone [data-checkbox]:before {
+    height: 24px !important;
+    width: 24px !important;
+}
+
+.tablet [data-checkbox]:checked:after, .phone [data-checkbox]:checked:after {
+    left: 7px !important;
+    top: 8px !important;
+    width: 9px !important;
+}
+
+.tablet [data-checkbox], .phone [data-checkbox] {
+    height: 24px !important;
+    width: 24px !important;
+}
+

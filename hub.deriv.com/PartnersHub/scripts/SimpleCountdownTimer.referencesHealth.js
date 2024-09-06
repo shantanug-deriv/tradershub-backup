@@ -1,0 +1,1 @@
+define("SimpleCountdownTimer.referencesHealth", [], function() {});

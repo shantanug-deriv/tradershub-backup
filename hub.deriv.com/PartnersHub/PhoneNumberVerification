@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        
+        
+        <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1" />
+<script type="text/javascript">
+(function () {
+    function appendMetaTagAttributes(metaTag, attribute, values) {
+        var elem = document.querySelector("meta[name=" + metaTag + "]");
+
+        if (elem) {
+            var attrContent = elem.getAttribute(attribute);
+            elem.setAttribute(attribute, (attrContent ? attrContent + "," : "") + values.join(","));
+        }
+    }
+
+    if (navigator && /OutSystemsApp/i.test(navigator.userAgent)) {
+        // If this app is running on the native shell, we want to disable the zoom
+        appendMetaTagAttributes("viewport", "content", ["user-scalable=no", "minimum-scale=1.0"]);
+    }
+})();</script>
+
+        <script type="text/javascript" src="scripts/require__Wqa1zVfjfZ1X688rgPEbA.js?Wqa1zVfjfZ1X68+8rgPEbA"></script>
+<script type="text/javascript" src="scripts/tslib__7ww9JlTfJZTDz65bGJHPQ.js?7ww9JlTfJZTDz65bGJ_HPQ"></script>
+<script type="text/javascript">
+    (function() {
+        var req = window.require || window.requirejs;
+        req.config({
+            baseUrl: "scripts",
+        })
+    })();
+</script>
+
+<script type="text/javascript" src="scripts/outsystems-runtime-core__wXLBKpO5vpnD3q4tM6OXw.js?wXLBK+pO5vpnD3q4tM6OXw"></script>
+<script type="text/javascript" src="scripts/outsystems-runtime-view__cEJqVEB6GF05Yq0J8OFZA.js?cEJqVEB6GF05Yq0J8_OFZA"></script>
+<script type="text/javascript" src="scripts/outsystems-auth__Agkrv5ADMTpSBzIsvrJfiw.js?Agkrv5ADMTpSBzIsvrJfiw"></script>
+<script type="text/javascript" src="scripts/outsystems-communication__ZO6GIA0M1Vbs08rwcueGmQ.js?ZO6GIA0M1Vbs08rwcueGmQ"></script>
+<script type="text/javascript" src="scripts/outsystems-logger__1pAnpv0LwrKR4DzQ1aQ.js?1+pAn+pv0LwrKR4DzQ1_aQ"></script>
+<script type="text/javascript" src="scripts/outsystems-settings__lmF8YHvVzz3zJLqjS7CA.js?lmF8YH_vVzz3zJLqjS_7CA"></script>
+<script type="text/javascript" src="scripts/cordova.js?7KqI9_oL9hClomz1RdzTqg"></script>
+<script type="text/javascript" src="scripts/outsystems-runtime-widgets__rwmuoZ1n6MgN9ZbeXF2kA.js?rwmuoZ1n6Mg+N9ZbeXF2kA"></script>
+<script type="text/javascript" src="scripts/NullDebugger__8QVVPLmvgOkK3tMPdlpUQ.js?8QVVPLmvgOkK3tMPd+lpUQ"></script>
+<script type="text/javascript" src="scripts/PartnersHub.appDefinition__KMsq5tw8BbJlDtC2pHwMEQ.js?KMsq5tw8BbJlDtC2pHwMEQ"></script>
+<link type="text/css" rel="stylesheet" href="css/_Basic__EqGzAe81QbZLXJyfY3oLwA.css?EqGzAe81QbZLXJyfY3oLwA"></link>
+
+        <script type="text/javascript">var OSManifestLoader = {};
+OSManifestLoader.indexVersionToken = "sQ81OjBH82Kts0NHAqTqDQ";
+</script>
+    </head>
+    <body>
+        <div id="reactContainer"></div>
+        <script type="text/javascript" src="scripts/register-sw.js"></script>
+<noscript><span>JavaScript is required</span></noscript>
+
+        <script type="text/javascript" src="scripts/PartnersHub.index__HPicTmnWOy6wBVVl3zg.js?HPicTm_nW+Oy6wBVVl+3zg"></script>
+
+    </body>
+</html>

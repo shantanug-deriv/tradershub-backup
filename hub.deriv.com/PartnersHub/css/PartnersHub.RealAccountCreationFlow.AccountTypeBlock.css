@@ -1,0 +1,23 @@
+﻿.accountType {
+    align-items: center;
+    align-self: stretch;
+    background: var(--core-color-solid-slate-75, #F6F7F8);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px;
+}
+
+.accountType-selected {
+    align-items: center;
+    align-self: stretch;
+    background: var(--core-color-solid-slate-75, #F6F7F8);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px;
+   border: 2px solid var(--Semantic-Success-Base, #29823B);
+background: var(--Neutral-Neutral-1, #F8F9FA);
+}

@@ -1,0 +1,14 @@
+﻿.real-account-signup-layout .wizard-item-icon {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.real-account-signup-layout .wizard-wrapper-item.active .wizard-item-icon {
+    border-width: 2px !important;
+}
+
+.real-account-signup-layout__content {
+    width: 100% !important;
+    display:flex;
+    justify-content: center;
+}

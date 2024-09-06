@@ -1,0 +1,54 @@
+﻿.primary-button {
+display: inline-flex;
+height: 48px;
+max-height: 48px;
+padding: 0px 16px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border-radius: 16px;
+background: #FF444F;
+border: none;
+cursor: pointer;
+}
+
+.primary-label {
+color: #FFF;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+flex: 1 0 0;
+}
+
+.secondary-button {
+display: flex;
+width: 76px;
+height: 32px;
+padding: 0px 8px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 100px;
+border: 1px solid var(--Brand-Secondary-Base, #414652);
+background: var(--Neutral-Neutral-0, #FFF);
+cursor: pointer;
+}
+
+.secondary-button:hover{
+    background-color: #f0ccce;
+}
+
+.secondary-label {
+color: var(--Brand-Primary-Base, #FF444F);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Actions / XS */
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 150% */
+}
