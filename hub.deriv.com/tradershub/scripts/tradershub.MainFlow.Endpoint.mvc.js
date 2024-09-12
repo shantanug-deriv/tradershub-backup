@@ -1,4 +1,4 @@
-define("tradershub.MainFlow.Endpoint.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model"], function(OSRuntimeCore, tradershubModel) {
+define("tradershub.MainFlow.Endpoint.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.model$ST_c9321e98763823c3fe8b25101ee9afbdStructure", "tradershub.model$RL_65125be14dfacc3673d277ed0ec6faeb"], function(OSRuntimeCore, tradershubModel) {
     var OS = OSRuntimeCore;
 
 
@@ -12,7 +12,10 @@ define("tradershub.MainFlow.Endpoint.mvc$model", ["@outsystems/runtime-core-js",
                     }, false),
                     this.attr("AppId", "appIdVar", "AppId", true, false, OS.DataTypes.DataTypes.Text, function() {
                         return "";
-                    }, false)
+                    }, false),
+                    this.attr("FeatureFlags", "featureFlagsVar", "FeatureFlags", true, false, OS.DataTypes.DataTypes.RecordList, function() {
+                        return OS.DataTypes.ImmutableBase.getData(new tradershubModel.RL_65125be14dfacc3673d277ed0ec6faeb());
+                    }, false, tradershubModel.RL_65125be14dfacc3673d277ed0ec6faeb)
                 ].concat(OS.DataTypes.GenericRecord.attributesToDeclare.call(this));
             }
 
@@ -27,7 +30,8 @@ define("tradershub.MainFlow.Endpoint.mvc$model", ["@outsystems/runtime-core-js",
             return {
                 Form1: OS.Model.ValidationWidgetRecord,
                 Input_URL: OS.Model.ValidationWidgetRecord,
-                Input_AppId: OS.Model.ValidationWidgetRecord
+                Input_AppId: OS.Model.ValidationWidgetRecord,
+                Switch1: OS.Model.ValidationWidgetRecord
             };
         }
 
@@ -54,7 +58,7 @@ define("tradershub.MainFlow.Endpoint.mvc$model", ["@outsystems/runtime-core-js",
     return new OS.Model.ModelFactory(Model);
 });
 
-define("tradershub.MainFlow.Endpoint.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "react", "@outsystems/runtime-view-js", "tradershub.MainFlow.Endpoint.mvc$model", "tradershub.MainFlow.Endpoint.mvc$controller", "tradershub.clientVariables", "tradershub.Layouts.SignupLayoutTopMenu.mvc$view", "@outsystems/runtime-widgets-js"], function(OSRuntimeCore, tradershubModel, tradershubController, React, OSView, tradershub_MainFlow_Endpoint_mvc_model, tradershub_MainFlow_Endpoint_mvc_controller, tradershubClientVariables, tradershub_Layouts_SignupLayoutTopMenu_mvc_view, OSWidgets) {
+define("tradershub.MainFlow.Endpoint.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "react", "@outsystems/runtime-view-js", "tradershub.MainFlow.Endpoint.mvc$model", "tradershub.MainFlow.Endpoint.mvc$controller", "tradershub.clientVariables", "tradershub.Layouts.SignupLayoutTopMenu.mvc$view", "@outsystems/runtime-widgets-js", "tradershub.model$ST_c9321e98763823c3fe8b25101ee9afbdStructure", "tradershub.model$RL_65125be14dfacc3673d277ed0ec6faeb"], function(OSRuntimeCore, tradershubModel, tradershubController, React, OSView, tradershub_MainFlow_Endpoint_mvc_model, tradershub_MainFlow_Endpoint_mvc_controller, tradershubClientVariables, tradershub_Layouts_SignupLayoutTopMenu_mvc_view, OSWidgets) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -327,17 +331,113 @@ define("tradershub.MainFlow.Endpoint.mvc$view", ["@outsystems/runtime-core-js", 
                                 uuid: "13"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
-                        }, "Reset")))];
+                        }, "Reset"), React.createElement(OSWidgets.Container, {
+                            align: /*Default*/ 0,
+                            animate: true,
+                            visible: !(model.variables.featureFlagsVar.isEmpty),
+                            _idProps: {
+                                service: idService,
+                                uuid: "14"
+                            },
+                            _widgetRecordProvider: widgetsRecordProvider
+                        }, React.createElement(OSWidgets.TableRecords, {
+                            showHeader: true,
+                            source: model.variables.featureFlagsVar,
+                            style: "table",
+                            styleHeader: "table-header",
+                            styleRow: "table-row",
+                            _idProps: {
+                                service: idService,
+                                uuid: "15"
+                            },
+                            _widgetRecordProvider: widgetsRecordProvider,
+                            placeholders: {
+                                headerRow: new PlaceholderContent(function() {
+                                    return [React.createElement(OSWidgets.HeaderCell, {
+                                        _idProps: {
+                                            service: idService,
+                                            uuid: "16"
+                                        },
+                                        _widgetRecordProvider: widgetsRecordProvider,
+                                        _dependencies: []
+                                    }, "Flag Name"), React.createElement(OSWidgets.HeaderCell, {
+                                        extendedProperties: {
+                                            style: "text-align: center"
+                                        },
+                                        _idProps: {
+                                            service: idService,
+                                            uuid: "17"
+                                        },
+                                        _widgetRecordProvider: widgetsRecordProvider,
+                                        _dependencies: []
+                                    }, "Enabled")];
+                                }),
+                                row: new IteratorPlaceholderContent(function(idService, callContext) {
+                                    return [React.createElement(OSWidgets.RowCell, {
+                                        _idProps: {
+                                            service: idService,
+                                            uuid: "18"
+                                        },
+                                        _widgetRecordProvider: widgetsRecordProvider,
+                                        _dependencies: [asPrimitiveValue(model.variables.featureFlagsVar.getCurrent(callContext.iterationContext).nameAttr)]
+                                    }, React.createElement(OSWidgets.Expression, {
+                                        value: model.variables.featureFlagsVar.getCurrent(callContext.iterationContext).nameAttr,
+                                        _idProps: {
+                                            service: idService,
+                                            uuid: "19"
+                                        },
+                                        _widgetRecordProvider: widgetsRecordProvider
+                                    })), React.createElement(OSWidgets.RowCell, {
+                                        _idProps: {
+                                            service: idService,
+                                            uuid: "20"
+                                        },
+                                        _widgetRecordProvider: widgetsRecordProvider,
+                                        _dependencies: [asPrimitiveValue(model.variables.featureFlagsVar.getCurrent(callContext.iterationContext).enabledAttr)]
+                                    }, React.createElement(OSWidgets.Container, {
+                                        align: /*Center*/ 2,
+                                        animate: false,
+                                        visible: true,
+                                        _idProps: {
+                                            service: idService,
+                                            uuid: "21"
+                                        },
+                                        _widgetRecordProvider: widgetsRecordProvider
+                                    }, React.createElement(OSWidgets.Switch, {
+                                        _validationProps: {
+                                            validationService: validationService
+                                        },
+                                        enabled: true,
+                                        onChange: function() {
+                                            var eventHandlerContext = callContext.clone();
+                                            controller.switchOnChange$Action(model.variables.featureFlagsVar.getCurrent(callContext.iterationContext).nameAttr, controller.callContext(eventHandlerContext));
+
+                                            ;
+                                        },
+                                        style: "switch",
+                                        variable: model.createVariable(OS.DataTypes.DataTypes.Boolean, model.variables.featureFlagsVar.getCurrent(callContext.iterationContext).enabledAttr, function(value) {
+                                            model.variables.featureFlagsVar.getCurrent(callContext.iterationContext).enabledAttr = value;
+                                        }),
+                                        _idProps: {
+                                            service: idService,
+                                            name: "Switch1"
+                                        },
+                                        _widgetRecordProvider: widgetsRecordProvider
+                                    })))];
+                                }, callContext, idService, "1_0")
+                            },
+                            _dependencies: []
+                        }))))];
                     })
                 },
-                _dependencies: [asPrimitiveValue(model.variables.appIdVar), asPrimitiveValue(model.variables.uRLVar)]
+                _dependencies: [asPrimitiveValue(model.variables.featureFlagsVar), asPrimitiveValue(model.variables.appIdVar), asPrimitiveValue(model.variables.uRLVar)]
             }));
         }
     }
 
     return View;
 });
-define("tradershub.MainFlow.Endpoint.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.MainFlow.controller", "tradershub.MainFlow.Endpoint.mvc$controller.SaveOnClick.SaveWSURLJS", "tradershub.MainFlow.Endpoint.mvc$controller.OnReady.GetConfigJS", "tradershub.MainFlow.Endpoint.mvc$controller.ResetOnClick.ResetWSConfigJS"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_MainFlowController, tradershub_MainFlow_Endpoint_mvc_controller_SaveOnClick_SaveWSURLJS, tradershub_MainFlow_Endpoint_mvc_controller_OnReady_GetConfigJS, tradershub_MainFlow_Endpoint_mvc_controller_ResetOnClick_ResetWSConfigJS) {
+define("tradershub.MainFlow.Endpoint.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.MainFlow.controller", "tradershub.MainFlow.Endpoint.mvc$controller.SaveOnClick.SaveWSURLJS", "tradershub.MainFlow.Endpoint.mvc$controller.OnReady.GetConfigJS", "tradershub.MainFlow.Endpoint.mvc$controller.ResetOnClick.ResetWSConfigJS", "tradershub.MainFlow.Endpoint.mvc$controller.SwitchOnChange.UpdateFeatureFlagByNameJS", "tradershub.model$ST_c9321e98763823c3fe8b25101ee9afbdStructure", "tradershub.model$RL_65125be14dfacc3673d277ed0ec6faeb"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_MainFlowController, tradershub_MainFlow_Endpoint_mvc_controller_SaveOnClick_SaveWSURLJS, tradershub_MainFlow_Endpoint_mvc_controller_OnReady_GetConfigJS, tradershub_MainFlow_Endpoint_mvc_controller_ResetOnClick_ResetWSConfigJS, tradershub_MainFlow_Endpoint_mvc_controller_SwitchOnChange_UpdateFeatureFlagByNameJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -386,6 +486,7 @@ define("tradershub.MainFlow.Endpoint.mvc$controller", ["@outsystems/runtime-core
                                 controller.ensureControllerAlive("SaveOnClick");
                                 callContext = controller.callContext(callContext);
                                 if ((model.widgets.get(idService.getId("Form1")).validAttr)) {
+                                    OS.FeedbackMessageService.showFeedbackMessage("Update success!", /*Success*/ 1);
                                     OS.Logger.startActiveSpan("SaveWSURL", function(span) {
                                         if (span) {
                                             span.setAttribute("code.function", "SaveWSURL");
@@ -442,52 +543,63 @@ define("tradershub.MainFlow.Endpoint.mvc$controller", ["@outsystems/runtime-core
                                 span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
                             }
 
-                            try {
+                            return OS.Flow.tryFinally(function() {
                                 controller.ensureControllerAlive("OnReady");
                                 callContext = controller.callContext(callContext);
                                 var getConfigJSResult = new OS.DataTypes.VariableHolder();
-                                getConfigJSResult.value = OS.Logger.startActiveSpan("GetConfig", function(span) {
-                                    if (span) {
-                                        span.setAttribute("code.function", "GetConfig");
-                                        span.setAttribute("outsystems.function.key", "e468e45d-3ba4-43ec-be83-c0150dfb5b87");
-                                        span.setAttribute("outsystems.function.owner.name", "tradershub");
-                                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
-                                        span.setAttribute("outsystems.function.type", "JAVASCRIPT");
-                                    }
-
-                                    try {
-                                        return controller.safeExecuteJSNode(tradershub_MainFlow_Endpoint_mvc_controller_OnReady_GetConfigJS, "GetConfig", "OnReady", {
-                                            URL: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text),
-                                            AppId: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text)
-                                        }, function($parameters) {
-                                            var jsNodeResult = new(controller.constructor.getVariableGroupType("tradershub.MainFlow.Endpoint.OnReady$getConfigJSResult"))();
-                                            jsNodeResult.uRLOut = OS.DataConversion.JSNodeParamConverter.from($parameters.URL, OS.DataTypes.DataTypes.Text);
-                                            jsNodeResult.appIdOut = OS.DataConversion.JSNodeParamConverter.from($parameters.AppId, OS.DataTypes.DataTypes.Text);
-                                            return jsNodeResult;
-                                        }, {}, {});
-                                    } finally {
+                                var jSONDeserializeFlagListVar = new OS.DataTypes.VariableHolder(new(OS.Controller.BaseController.getJSONDeserializeOutputType(tradershubModel.RL_65125be14dfacc3673d277ed0ec6faeb))());
+                                return OS.Flow.executeAsyncFlow(function() {
+                                    return OS.Logger.startActiveSpan("GetConfig", function(span) {
                                         if (span) {
-                                            span.end();
+                                            span.setAttribute("code.function", "GetConfig");
+                                            span.setAttribute("outsystems.function.key", "e468e45d-3ba4-43ec-be83-c0150dfb5b87");
+                                            span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                            span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                            span.setAttribute("outsystems.function.type", "JAVASCRIPT");
                                         }
 
-                                    }
+                                        try {
+                                            return controller.safeExecuteAsyncJSNode(tradershub_MainFlow_Endpoint_mvc_controller_OnReady_GetConfigJS, "GetConfig", "OnReady", {
+                                                URL: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text),
+                                                AppId: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text),
+                                                FeatureFlags: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text)
+                                            }, function($parameters) {
+                                                var jsNodeResult = new(controller.constructor.getVariableGroupType("tradershub.MainFlow.Endpoint.OnReady$getConfigJSResult"))();
+                                                jsNodeResult.uRLOut = OS.DataConversion.JSNodeParamConverter.from($parameters.URL, OS.DataTypes.DataTypes.Text);
+                                                jsNodeResult.appIdOut = OS.DataConversion.JSNodeParamConverter.from($parameters.AppId, OS.DataTypes.DataTypes.Text);
+                                                jsNodeResult.featureFlagsOut = OS.DataConversion.JSNodeParamConverter.from($parameters.FeatureFlags, OS.DataTypes.DataTypes.Text);
+                                                return jsNodeResult;
+                                            }, {}, {});
+                                        } finally {
+                                            if (span) {
+                                                span.end();
+                                            }
 
-                                }, 1);
-                                // URL = GetConfig.URL
-                                model.variables.uRLVar = getConfigJSResult.value.uRLOut;
-                                // AppId = GetConfig.AppId
-                                model.variables.appIdVar = getConfigJSResult.value.appIdOut;
-                                // AppId = GetConfig.AppId
-                                tradershubClientVariables.setAppId(getConfigJSResult.value.appIdOut);
-                                // URL = GetConfig.URL
-                                tradershubClientVariables.setURL(getConfigJSResult.value.uRLOut);
-                            } finally {
+                                        }
+
+                                    }, 1).then(function(results) {
+                                        getConfigJSResult.value = results;
+                                    }).then(function() {
+                                        // JSON Deserialize: JSONDeserializeFlagList
+                                        jSONDeserializeFlagListVar.value.dataOut = OS.JSONUtils.deserializeFromJSON(getConfigJSResult.value.featureFlagsOut, tradershubModel.RL_65125be14dfacc3673d277ed0ec6faeb, false);
+                                        // URL = GetConfig.URL
+                                        model.variables.uRLVar = getConfigJSResult.value.uRLOut;
+                                        // AppId = GetConfig.AppId
+                                        model.variables.appIdVar = getConfigJSResult.value.appIdOut;
+                                        // AppId = GetConfig.AppId
+                                        tradershubClientVariables.setAppId(getConfigJSResult.value.appIdOut);
+                                        // URL = GetConfig.URL
+                                        tradershubClientVariables.setURL(getConfigJSResult.value.uRLOut);
+                                        // FeatureFlags = JSONDeserializeFlagList.Data
+                                        model.variables.featureFlagsVar = jSONDeserializeFlagListVar.value.dataOut;
+                                    });
+                                });
+                            }, function() {
                                 if (span) {
                                     span.end();
                                 }
 
-                            }
-
+                            });
                         }, 1);
                     };
                 }
@@ -518,6 +630,7 @@ define("tradershub.MainFlow.Endpoint.mvc$controller", ["@outsystems/runtime-core
                                 callContext = controller.callContext(callContext);
                                 // WebsocketURL = DefaultWebsocketURL
                                 tradershubClientVariables.setWebsocketURL(tradershubClientVariables.getDefaultWebsocketURL());
+                                OS.FeedbackMessageService.showFeedbackMessage("Reset success!", /*Success*/ 1);
                                 OS.Logger.startActiveSpan("ResetWSConfig", function(span) {
                                     if (span) {
                                         span.setAttribute("code.function", "ResetWSConfig");
@@ -552,6 +665,64 @@ define("tradershub.MainFlow.Endpoint.mvc$controller", ["@outsystems/runtime-core
             }
             set _resetOnClick$Action(value) {
                 this.__resetOnClick$Action = value;
+            }
+
+            get _switchOnChange$Action() {
+                if (!(this.hasOwnProperty("__switchOnChange$Action"))) {
+                    this.__switchOnChange$Action = function(flagNameIn, callContext) {
+                        var model = this.model;
+                        var controller = this.controller;
+                        var idService = this.idService;
+                        return OS.Logger.startActiveSpan("SwitchOnChange", function(span) {
+                            if (span) {
+                                span.setAttribute("code.function", "SwitchOnChange");
+                                span.setAttribute("outsystems.function.key", "a702c1bb-e919-4d28-bf36-142e3ec2e522");
+                                span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                            }
+
+                            try {
+                                controller.ensureControllerAlive("SwitchOnChange");
+                                callContext = controller.callContext(callContext);
+                                var vars = new OS.DataTypes.VariableHolder(new(controller.constructor.getVariableGroupType("tradershub.MainFlow.Endpoint.SwitchOnChange$vars"))());
+                                vars.value.flagNameInLocal = flagNameIn;
+                                OS.Logger.startActiveSpan("UpdateFeatureFlagByName", function(span) {
+                                    if (span) {
+                                        span.setAttribute("code.function", "UpdateFeatureFlagByName");
+                                        span.setAttribute("outsystems.function.key", "87e0d895-d309-4cc0-b2b0-777eef0561a6");
+                                        span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                        span.setAttribute("outsystems.function.type", "JAVASCRIPT");
+                                    }
+
+                                    try {
+                                        return controller.safeExecuteJSNode(tradershub_MainFlow_Endpoint_mvc_controller_SwitchOnChange_UpdateFeatureFlagByNameJS, "UpdateFeatureFlagByName", "SwitchOnChange", {
+                                            FlagName: OS.DataConversion.JSNodeParamConverter.to(vars.value.flagNameInLocal, OS.DataTypes.DataTypes.Text)
+                                        }, function($parameters) {}, {}, {});
+                                    } finally {
+                                        if (span) {
+                                            span.end();
+                                        }
+
+                                    }
+
+                                }, 1);
+                            } finally {
+                                if (span) {
+                                    span.end();
+                                }
+
+                            }
+
+                        }, 1);
+                    };
+                }
+
+                return this.__switchOnChange$Action;
+            }
+            set _switchOnChange$Action(value) {
+                this.__switchOnChange$Action = value;
             }
 
 
@@ -590,15 +761,14 @@ define("tradershub.MainFlow.Endpoint.mvc$controller", ["@outsystems/runtime-core
                         span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
                     }
 
-                    try {
+                    return OS.Flow.tryFinally(function() {
                         return controller.safeExecuteClientAction(controller._onReady$Action, callContext);
-                    } finally {
+                    }, function() {
                         if (span) {
                             span.end();
                         }
 
-                    }
-
+                    });
                 }, 0);
 
             }
@@ -616,6 +786,30 @@ define("tradershub.MainFlow.Endpoint.mvc$controller", ["@outsystems/runtime-core
 
                     try {
                         return controller.safeExecuteClientAction(controller._resetOnClick$Action, callContext);
+                    } finally {
+                        if (span) {
+                            span.end();
+                        }
+
+                    }
+
+                }, 0);
+
+            }
+
+            switchOnChange$Action(flagNameIn, callContext) {
+                var controller = this.controller;
+                return OS.Logger.startActiveSpan("SwitchOnChange__proxy", function(span) {
+                    if (span) {
+                        span.setAttribute("code.function", "SwitchOnChange");
+                        span.setAttribute("outsystems.function.key", "a702c1bb-e919-4d28-bf36-142e3ec2e522");
+                        span.setAttribute("outsystems.function.owner.name", "tradershub");
+                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                        span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                    }
+
+                    try {
+                        return controller.safeExecuteClientAction(controller._switchOnChange$Action, callContext, flagNameIn);
                     } finally {
                         if (span) {
                             span.end();
@@ -732,6 +926,23 @@ define("tradershub.MainFlow.Endpoint.mvc$controller", ["@outsystems/runtime-core
             defaultValue: function() {
                 return "";
             }
+        }, {
+            name: "FeatureFlags",
+            attrName: "featureFlagsOut",
+            mandatory: true,
+            dataType: OS.DataTypes.DataTypes.Text,
+            defaultValue: function() {
+                return "";
+            }
+        }]);
+        Controller.registerVariableGroupType("tradershub.MainFlow.Endpoint.SwitchOnChange$vars", [{
+            name: "FlagName",
+            attrName: "flagNameInLocal",
+            mandatory: true,
+            dataType: OS.DataTypes.DataTypes.Text,
+            defaultValue: function() {
+                return "";
+            }
         }]);
 
     }
@@ -740,10 +951,13 @@ define("tradershub.MainFlow.Endpoint.mvc$controller", ["@outsystems/runtime-core
 
 define("tradershub.MainFlow.Endpoint.mvc$controller.SaveOnClick.SaveWSURLJS", [], function() {
     return function($parameters, $actions, $roles, $public) {
+        const featureFlags = localStorage.featureFlags;
         localStorage.clear()
-        localStorage.setItem('wsconfigUrl', $parameters.URL)
+
+        localStorage.setItem('config.server_url', $parameters.URL)
         localStorage.setItem("ws-url", `wss://${$parameters.URL}/websockets/v3?app_id=${$parameters.AppId}&l=EN&brand=deriv`)
-        localStorage.setItem('wsconfigAppid', $parameters.AppId)
+        localStorage.setItem('config.app_id', $parameters.AppId)
+        localStorage.setItem('featureFlags', featureFlags)
         setTimeout(function() {
             location.reload()
         }, 1000)
@@ -752,22 +966,36 @@ define("tradershub.MainFlow.Endpoint.mvc$controller.SaveOnClick.SaveWSURLJS", []
 
 define("tradershub.MainFlow.Endpoint.mvc$controller.OnReady.GetConfigJS", [], function() {
     return function($parameters, $actions, $roles, $public) {
-        var url = localStorage.getItem('wsconfigUrl')
-        var appid = localStorage.getItem('wsconfigAppid')
+        return new Promise(function($resolve, $reject) {
+            const url = localStorage.getItem('config.server_url')
+            const appid = localStorage.getItem('config.app_id')
 
-        if (url && appid) {
-            $parameters.URL = url;
-            $parameters.AppId = appid;
-        } else {
-            $parameters.URL = "green.derivws.com";
-            $parameters.AppId = location.hostname === "hub.deriv.com" || location.hostname.includes("dev-hub") ? "61554" : "53503";
-        }
+            $parameters.FeatureFlags = localStorage.featureFlags ?? JSON.stringify([])
+
+            if (url && appid) {
+                $parameters.URL = url;
+                $parameters.AppId = appid;
+            } else {
+                $parameters.URL = "green.derivws.com";
+                $parameters.AppId = location.hostname === "hub.deriv.com" ? "61554" : location.hostname.includes("dev-hub") ? "15438" : "53503";
+            }
+
+            $resolve()
+        });
     };
 });
 
 define("tradershub.MainFlow.Endpoint.mvc$controller.ResetOnClick.ResetWSConfigJS", [], function() {
     return function($actions, $roles, $public) {
+        const featureFlags = localStorage.featureFlags;
         localStorage.clear()
+        localStorage.setItem('featureFlags', featureFlags)
         location.reload()
+    };
+});
+
+define("tradershub.MainFlow.Endpoint.mvc$controller.SwitchOnChange.UpdateFeatureFlagByNameJS", [], function() {
+    return function($parameters, $actions, $roles, $public) {
+        window?.toggleFeatureFlag($parameters.FlagName)
     };
 });

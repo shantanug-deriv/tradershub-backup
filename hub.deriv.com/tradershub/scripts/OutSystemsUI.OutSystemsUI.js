@@ -804,8 +804,7 @@ var OSFramework;
                         directionDisplacement += velocity * frame_rate;
                         positions.push({
                             transform: isVertical ?
-                                `translateY(${directionDisplacement}px)` :
-                                `translateX(${directionDisplacement}px)`,
+                                `translateY(${directionDisplacement}px)` : `translateX(${directionDisplacement}px)`,
                         });
                         largest_displ =
                             largest_displ < 0 ?
@@ -1942,8 +1941,7 @@ var OSFramework;
                         var _a, _b, _c;
                         const opts = {
                             focusTargetElement: ((_a = this.featureOptions.focusOptions.focusTrapParams) === null || _a === void 0 ? void 0 : _a.focusTargetElement) === undefined ?
-                                this._floatingOptions.AnchorElem.parentElement :
-                                this.featureOptions.focusOptions.focusTrapParams.focusTargetElement,
+                                this._floatingOptions.AnchorElem.parentElement : this.featureOptions.focusOptions.focusTrapParams.focusTargetElement,
                             focusBottomCallback: (_b = this.featureOptions.focusOptions.focusTrapParams) === null || _b === void 0 ? void 0 : _b.focusBottomCallback,
                             focusTopCallback: (_c = this.featureOptions.focusOptions.focusTrapParams) === null || _c === void 0 ? void 0 : _c.focusTopCallback,
                         };
@@ -18469,8 +18467,7 @@ var Providers;
                                 disable: this.Disable.length === 0 ? undefined : this.Disable,
                                 disableMobile: this.DisableMobile,
                                 dateFormat: this._isUsingDateTime ?
-                                    this.ServerDateFormat + ' H:i:S' :
-                                    this.ServerDateFormat,
+                                    this.ServerDateFormat + ' H:i:S' : this.ServerDateFormat,
                                 maxDate: this._validateDate(this.MaxDate, true),
                                 minDate: this._validateDate(this.MinDate),
                                 onChange: this.OnChange,
@@ -19695,8 +19692,7 @@ var Providers;
                                     label: key,
                                     options: groupedOptions[key],
                                     index: groupedOptions[previousKey] ?
-                                        options[options.length - 1].index + groupedOptions[previousKey].length + 1 :
-                                        0,
+                                        options[options.length - 1].index + groupedOptions[previousKey].length + 1 : 0,
                                 });
                                 previousKey = key;
                             }
@@ -19789,8 +19785,7 @@ var Providers;
                                 popupDropboxBreakpoint: this.PopupDropboxBreakpoint,
                                 silentInitialValueSet: true,
                                 textDirection: OutSystems.OSUI.Utils.GetIsRTL() ?
-                                    OSFramework.OSUI.GlobalEnum.Direction.RTL :
-                                    OSFramework.OSUI.GlobalEnum.Direction.LTR,
+                                    OSFramework.OSUI.GlobalEnum.Direction.RTL : OSFramework.OSUI.GlobalEnum.Direction.LTR,
                                 updatePositionThrottle: 0,
                                 useGroupValue: true,
                                 zIndex: 251,
@@ -20901,8 +20896,7 @@ var Providers;
                         getProviderConfig() {
                             this._providerOptions = {
                                 direction: OutSystems.OSUI.Utils.GetIsRTL() ?
-                                    OSFramework.OSUI.GlobalEnum.Direction.RTL :
-                                    OSFramework.OSUI.GlobalEnum.Direction.LTR,
+                                    OSFramework.OSUI.GlobalEnum.Direction.RTL : OSFramework.OSUI.GlobalEnum.Direction.LTR,
                                 step: this.Step,
                                 orientation: this.Orientation,
                                 pips: this.ShowTickMarks ? this.getPipsConfig() : null,
@@ -21851,11 +21845,9 @@ var Providers;
                                 } = middlewareData.arrow;
                                 Object.assign(this.floatingConfigs.ArrowElem.style, {
                                     left: x !== undefined ?
-                                        `${x}${OSFramework.OSUI.GlobalEnum.Units.Pixel}` :
-                                        OSFramework.OSUI.Constants.EmptyString,
+                                        `${x}${OSFramework.OSUI.GlobalEnum.Units.Pixel}` : OSFramework.OSUI.Constants.EmptyString,
                                     top: y !== undefined ?
-                                        `${y}${OSFramework.OSUI.GlobalEnum.Units.Pixel}` :
-                                        OSFramework.OSUI.Constants.EmptyString,
+                                        `${y}${OSFramework.OSUI.GlobalEnum.Units.Pixel}` : OSFramework.OSUI.Constants.EmptyString,
                                     right: OSFramework.OSUI.Constants.EmptyString,
                                     bottom: OSFramework.OSUI.Constants.EmptyString,
                                     [staticSide]: `${-this.floatingConfigs.ArrowElem.offsetWidth / 2}${OSFramework.OSUI.GlobalEnum.Units.Pixel}`,

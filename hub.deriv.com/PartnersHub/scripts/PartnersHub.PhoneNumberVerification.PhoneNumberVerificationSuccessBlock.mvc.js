@@ -141,7 +141,7 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.
                 extendedProperties: {
                     style: "color: #222; font-size: 20px; font-weight: bold;"
                 },
-                text: ["Success"],
+                text: [$text(getTranslation("HYnU0YvK1UOpA1lyGTo7Xg#Value", "Success"))],
                 _idProps: {
                     service: idService,
                     uuid: "3"
@@ -164,7 +164,7 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.
                 extendedProperties: {
                     style: "font-size: 16px;"
                 },
-                text: ["Phone number verified. Your account manager will contact you shortly."],
+                text: [$text(getTranslation("nsqW7xRMnEa2udMrIDU1Bw#Value", "Phone number verified. Your account manager will contact you shortly."))],
                 _idProps: {
                     service: idService,
                     uuid: "5"
@@ -340,6 +340,84 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.
 });
 
 
-define("PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "nsqW7xRMnEa2udMrIDU1Bw#Value": "Telefonnummer verifiziert. Ihr Kundenbetreuer wird Sie in Kürze kontaktieren.",
+        "HYnU0YvK1UOpA1lyGTo7Xg#Value": "Erfolg"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "nsqW7xRMnEa2udMrIDU1Bw#Value": "Número de teléfono verificado. Su gestor de cuentas se pondrá en contacto con usted en breve.",
+        "HYnU0YvK1UOpA1lyGTo7Xg#Value": "Éxito"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "nsqW7xRMnEa2udMrIDU1Bw#Value": "Numéro de téléphone vérifié. Votre gestionnaire de compte vous contactera bientôt.",
+        "HYnU0YvK1UOpA1lyGTo7Xg#Value": "Succès"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "nsqW7xRMnEa2udMrIDU1Bw#Value": "Numero di telefono verificato. Il tuo account manager ti contatterà a breve.",
+        "HYnU0YvK1UOpA1lyGTo7Xg#Value": "Successo"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "nsqW7xRMnEa2udMrIDU1Bw#Value": "Numer telefonu zweryfikowany. Twój menedżer konta skontaktuje się z Tobą wkrótce.",
+        "HYnU0YvK1UOpA1lyGTo7Xg#Value": "Sukces"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "nsqW7xRMnEa2udMrIDU1Bw#Value": "Número de telefone verificado. O seu gestor de conta irá contactá-lo em breve.",
+        "HYnU0YvK1UOpA1lyGTo7Xg#Value": "Sucesso"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "nsqW7xRMnEa2udMrIDU1Bw#Value": "Номер телефона подтвержден. Ваш менеджер свяжется с вами в ближайшее время.",
+        "HYnU0YvK1UOpA1lyGTo7Xg#Value": "Успех"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.mvc$translationsResources", ["exports", "PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.mvc$translationsResources.de-DE", "PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.mvc$translationsResources.es-ES", "PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.mvc$translationsResources.fr-FR", "PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.mvc$translationsResources.it-IT", "PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.mvc$translationsResources.pl-PL", "PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.mvc$translationsResources.pt-PT", "PartnersHub.PhoneNumberVerification.PhoneNumberVerificationSuccessBlock.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_PhoneNumberVerification_PhoneNumberVerificationSuccessBlock_mvc_translationsResources_deDE, PartnersHub_PhoneNumberVerification_PhoneNumberVerificationSuccessBlock_mvc_translationsResources_esES, PartnersHub_PhoneNumberVerification_PhoneNumberVerificationSuccessBlock_mvc_translationsResources_frFR, PartnersHub_PhoneNumberVerification_PhoneNumberVerificationSuccessBlock_mvc_translationsResources_itIT, PartnersHub_PhoneNumberVerification_PhoneNumberVerificationSuccessBlock_mvc_translationsResources_plPL, PartnersHub_PhoneNumberVerification_PhoneNumberVerificationSuccessBlock_mvc_translationsResources_ptPT, PartnersHub_PhoneNumberVerification_PhoneNumberVerificationSuccessBlock_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_PhoneNumberVerification_PhoneNumberVerificationSuccessBlock_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_PhoneNumberVerification_PhoneNumberVerificationSuccessBlock_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_PhoneNumberVerification_PhoneNumberVerificationSuccessBlock_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_PhoneNumberVerification_PhoneNumberVerificationSuccessBlock_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_PhoneNumberVerification_PhoneNumberVerificationSuccessBlock_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_PhoneNumberVerification_PhoneNumberVerificationSuccessBlock_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_PhoneNumberVerification_PhoneNumberVerificationSuccessBlock_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

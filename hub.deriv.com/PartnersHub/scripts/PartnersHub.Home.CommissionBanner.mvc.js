@@ -181,7 +181,7 @@ define("PartnersHub.Home.CommissionBanner.mvc$view", ["@outsystems/runtime-core-
                     style: "font-size: 16px; font-weight: bold; text-wrap: wrap;"
                 },
                 style: "commission-text",
-                text: ["How commissions are calculated"],
+                text: [$text(getTranslation("fbMhprVBJUKl1tI+9HqV4w#Value", "How commissions are calculated"))],
                 _idProps: {
                     service: idService,
                     uuid: "5"
@@ -210,7 +210,7 @@ define("PartnersHub.Home.CommissionBanner.mvc$view", ["@outsystems/runtime-core-
                     uuid: "6"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Learn more")))));
+            }, $text(getTranslation("dZs_UaLNzkKgTcMnmeLywA#Value", "Learn more")))))));
         }
     }
 
@@ -427,6 +427,84 @@ define("PartnersHub.Home.CommissionBanner.mvc$controller.OnClickLearnMore.JavaSc
 });
 
 
-define("PartnersHub.Home.CommissionBanner.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Home.CommissionBanner.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "dZs_UaLNzkKgTcMnmeLywA#Value": "Erfahren Sie mehr",
+        "fbMhprVBJUKl1tI+9HqV4w#Value": "Wie die Provisionen berechnet werden"
+    };
+});
+
+define("PartnersHub.Home.CommissionBanner.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "dZs_UaLNzkKgTcMnmeLywA#Value": "Aprende más",
+        "fbMhprVBJUKl1tI+9HqV4w#Value": "Cómo se calculan las comisiones"
+    };
+});
+
+define("PartnersHub.Home.CommissionBanner.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "dZs_UaLNzkKgTcMnmeLywA#Value": "En savoir plus",
+        "fbMhprVBJUKl1tI+9HqV4w#Value": "Comment les commissions sont calculées"
+    };
+});
+
+define("PartnersHub.Home.CommissionBanner.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "dZs_UaLNzkKgTcMnmeLywA#Value": "Scopri di più",
+        "fbMhprVBJUKl1tI+9HqV4w#Value": "Come vengono calcolate le commissioni"
+    };
+});
+
+define("PartnersHub.Home.CommissionBanner.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "dZs_UaLNzkKgTcMnmeLywA#Value": "Dowiedz się więcej",
+        "fbMhprVBJUKl1tI+9HqV4w#Value": "Jak są obliczane prowizje"
+    };
+});
+
+define("PartnersHub.Home.CommissionBanner.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "dZs_UaLNzkKgTcMnmeLywA#Value": "Saiba mais",
+        "fbMhprVBJUKl1tI+9HqV4w#Value": "Como são calculadas as comissões"
+    };
+});
+
+define("PartnersHub.Home.CommissionBanner.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "dZs_UaLNzkKgTcMnmeLywA#Value": "Узнайте больше",
+        "fbMhprVBJUKl1tI+9HqV4w#Value": "Как рассчитываются комиссии"
+    };
+});
+
+define("PartnersHub.Home.CommissionBanner.mvc$translationsResources", ["exports", "PartnersHub.Home.CommissionBanner.mvc$translationsResources.de-DE", "PartnersHub.Home.CommissionBanner.mvc$translationsResources.es-ES", "PartnersHub.Home.CommissionBanner.mvc$translationsResources.fr-FR", "PartnersHub.Home.CommissionBanner.mvc$translationsResources.it-IT", "PartnersHub.Home.CommissionBanner.mvc$translationsResources.pl-PL", "PartnersHub.Home.CommissionBanner.mvc$translationsResources.pt-PT", "PartnersHub.Home.CommissionBanner.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Home_CommissionBanner_mvc_translationsResources_deDE, PartnersHub_Home_CommissionBanner_mvc_translationsResources_esES, PartnersHub_Home_CommissionBanner_mvc_translationsResources_frFR, PartnersHub_Home_CommissionBanner_mvc_translationsResources_itIT, PartnersHub_Home_CommissionBanner_mvc_translationsResources_plPL, PartnersHub_Home_CommissionBanner_mvc_translationsResources_ptPT, PartnersHub_Home_CommissionBanner_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Home_CommissionBanner_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Home_CommissionBanner_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Home_CommissionBanner_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Home_CommissionBanner_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Home_CommissionBanner_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Home_CommissionBanner_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Home_CommissionBanner_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

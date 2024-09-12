@@ -158,7 +158,7 @@ define("PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$vie
                 extendedProperties: {
                     style: "font-size: 14px;"
                 },
-                text: ["Share the website URL you\'ll use for promoting our services."],
+                text: [$text(getTranslation("7xhuTyiejkmHiT0utntkkg#Value", "Share the website URL you\'ll use for promoting our services."))],
                 _idProps: {
                     service: idService,
                     uuid: "2"
@@ -205,7 +205,7 @@ define("PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$vie
                     uuid: "5"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Your Website"), React.createElement(OSWidgets.Input, {
+            }, $text(getTranslation("nSNgqvEiEEeaizXqeVp1fw#Value", "Your Website"))), React.createElement(OSWidgets.Input, {
                 _validationProps: {
                     validationService: validationService,
                     validationParentId: idService.getId("FormWebsiteAddress")
@@ -280,7 +280,7 @@ define("PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$vie
                 },
                 _widgetRecordProvider: widgetsRecordProvider,
                 style_dataFetchStatus: OS.Model.calculateDataFetchStatus(model.variables._isMobileLayoutInDataFetchStatus)
-            }, "Next")));
+            }, $text(getTranslation("Ct2l9Kfj6ES_lWZVQq3kfQ#Value", "Next")))));
         }
     }
 
@@ -540,6 +540,91 @@ define("PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$con
 });
 
 
-define("PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "Ct2l9Kfj6ES_lWZVQq3kfQ#Value": "Nächste",
+        "nSNgqvEiEEeaizXqeVp1fw#Value": "Ihre Website",
+        "7xhuTyiejkmHiT0utntkkg#Value": "Teilen Sie die URL der Website, die Sie zur Bewerbung unserer Dienstleistungen verwenden werden."
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "Ct2l9Kfj6ES_lWZVQq3kfQ#Value": "Siguiente",
+        "nSNgqvEiEEeaizXqeVp1fw#Value": "Su sitio web",
+        "7xhuTyiejkmHiT0utntkkg#Value": "Comparte la URL del sitio web que utilizarás para promover nuestros servicios."
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "Ct2l9Kfj6ES_lWZVQq3kfQ#Value": "Suivant",
+        "nSNgqvEiEEeaizXqeVp1fw#Value": "Votre site web",
+        "7xhuTyiejkmHiT0utntkkg#Value": "Partagez l\'URL du site web que vous utiliserez pour promouvoir nos services."
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "Ct2l9Kfj6ES_lWZVQq3kfQ#Value": "Prossimo",
+        "nSNgqvEiEEeaizXqeVp1fw#Value": "Il tuo sito web",
+        "7xhuTyiejkmHiT0utntkkg#Value": "Condividi l\'URL del sito web che utilizzerai per promuovere i nostri servizi."
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "Ct2l9Kfj6ES_lWZVQq3kfQ#Value": "Następny",
+        "nSNgqvEiEEeaizXqeVp1fw#Value": "Twoja strona internetowa",
+        "7xhuTyiejkmHiT0utntkkg#Value": "Podziel się adresem URL strony internetowej, której użyjesz do promowania naszych usług."
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "Ct2l9Kfj6ES_lWZVQq3kfQ#Value": "Próximo",
+        "nSNgqvEiEEeaizXqeVp1fw#Value": "O seu site",
+        "7xhuTyiejkmHiT0utntkkg#Value": "Compartilhe a URL do site que você usará para promover nossos serviços."
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "Ct2l9Kfj6ES_lWZVQq3kfQ#Value": "Далее",
+        "nSNgqvEiEEeaizXqeVp1fw#Value": "Ваш веб-сайт",
+        "7xhuTyiejkmHiT0utntkkg#Value": "Поделитесь URL-адресом веб-сайта, который вы будете использовать для продвижения наших услуг."
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$translationsResources", ["exports", "PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$translationsResources.de-DE", "PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$translationsResources.es-ES", "PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$translationsResources.fr-FR", "PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$translationsResources.it-IT", "PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$translationsResources.pl-PL", "PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$translationsResources.pt-PT", "PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvc_translationsResources_deDE, PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvc_translationsResources_esES, PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvc_translationsResources_frFR, PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvc_translationsResources_itIT, PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvc_translationsResources_plPL, PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvc_translationsResources_ptPT, PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

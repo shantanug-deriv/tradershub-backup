@@ -180,7 +180,7 @@ define("PartnersHub.Home.ConnectAccountManager.mvc$view", ["@outsystems/runtime-
                 extendedProperties: {
                     style: "font-size: 14px; font-weight: bold;"
                 },
-                text: ["Connect with your account manager"],
+                text: [$text(getTranslation("1WvkBGwnZEe65CmHsO972g#Value", "Connect with your account manager"))],
                 _idProps: {
                     service: idService,
                     uuid: "5"
@@ -332,6 +332,77 @@ define("PartnersHub.Home.ConnectAccountManager.mvc$controller", ["@outsystems/ru
 });
 
 
-define("PartnersHub.Home.ConnectAccountManager.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Home.ConnectAccountManager.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "1WvkBGwnZEe65CmHsO972g#Value": "Verbinden Sie sich mit Ihrem Kundenbetreuer"
+    };
+});
+
+define("PartnersHub.Home.ConnectAccountManager.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "1WvkBGwnZEe65CmHsO972g#Value": "Conéctate con tu gestor de cuentas"
+    };
+});
+
+define("PartnersHub.Home.ConnectAccountManager.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "1WvkBGwnZEe65CmHsO972g#Value": "Connectez-vous avec votre gestionnaire de compte"
+    };
+});
+
+define("PartnersHub.Home.ConnectAccountManager.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "1WvkBGwnZEe65CmHsO972g#Value": "Connettiti con il tuo account manager"
+    };
+});
+
+define("PartnersHub.Home.ConnectAccountManager.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "1WvkBGwnZEe65CmHsO972g#Value": "Połącz się ze swoim menedżerem konta"
+    };
+});
+
+define("PartnersHub.Home.ConnectAccountManager.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "1WvkBGwnZEe65CmHsO972g#Value": "Conecte-se com o seu gestor de contas"
+    };
+});
+
+define("PartnersHub.Home.ConnectAccountManager.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "1WvkBGwnZEe65CmHsO972g#Value": "Свяжитесь со своим менеджером по работе с клиентами"
+    };
+});
+
+define("PartnersHub.Home.ConnectAccountManager.mvc$translationsResources", ["exports", "PartnersHub.Home.ConnectAccountManager.mvc$translationsResources.de-DE", "PartnersHub.Home.ConnectAccountManager.mvc$translationsResources.es-ES", "PartnersHub.Home.ConnectAccountManager.mvc$translationsResources.fr-FR", "PartnersHub.Home.ConnectAccountManager.mvc$translationsResources.it-IT", "PartnersHub.Home.ConnectAccountManager.mvc$translationsResources.pl-PL", "PartnersHub.Home.ConnectAccountManager.mvc$translationsResources.pt-PT", "PartnersHub.Home.ConnectAccountManager.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Home_ConnectAccountManager_mvc_translationsResources_deDE, PartnersHub_Home_ConnectAccountManager_mvc_translationsResources_esES, PartnersHub_Home_ConnectAccountManager_mvc_translationsResources_frFR, PartnersHub_Home_ConnectAccountManager_mvc_translationsResources_itIT, PartnersHub_Home_ConnectAccountManager_mvc_translationsResources_plPL, PartnersHub_Home_ConnectAccountManager_mvc_translationsResources_ptPT, PartnersHub_Home_ConnectAccountManager_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Home_ConnectAccountManager_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Home_ConnectAccountManager_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Home_ConnectAccountManager_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Home_ConnectAccountManager_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Home_ConnectAccountManager_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Home_ConnectAccountManager_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Home_ConnectAccountManager_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

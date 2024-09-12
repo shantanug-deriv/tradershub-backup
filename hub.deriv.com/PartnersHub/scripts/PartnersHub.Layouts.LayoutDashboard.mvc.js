@@ -1,4 +1,4 @@
-define("PartnersHub.Layouts.LayoutDashboard.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "OutSystemsUI.model", "OutSystemsUI.controller", "PartnersHub.controller", "CustomComponents.ButtonVariants.PrimaryButton.mvc$model", "CustomComponents.ButtonVariants.SecondaryButton.mvc$model", "OutSystemsUI.Adaptive.DisplayOnDevice.mvc$model", "OutSystemsUI.Content.Tooltip.mvc$model", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$MenuShow", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent", "OutSystemsUI.controller$AddFavicon", "PartnersHub.controller$MountDerivAPIClient", "PartnersHub.controller$UseDevice", "PartnersHub.controller$ShowLiveChat", "PartnersHub.controller$MountDatadogClient", "PartnersHub.controller$SendLogout", "PartnersHub.controller$RedirectToOauth"], function(OSRuntimeCore, PartnersHubModel, OutSystemsUIModel, OutSystemsUIController, PartnersHubController, CustomComponents_ButtonVariants_PrimaryButton_mvcModel, CustomComponents_ButtonVariants_SecondaryButton_mvcModel, OutSystemsUI_Adaptive_DisplayOnDevice_mvcModel, OutSystemsUI_Content_Tooltip_mvcModel) {
+define("PartnersHub.Layouts.LayoutDashboard.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "OutSystemsUI.model", "OutSystemsUI.controller", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "CustomComponents.ButtonVariants.PrimaryButton.mvc$model", "CustomComponents.ButtonVariants.SecondaryButton.mvc$model", "OutSystemsUI.Adaptive.DisplayOnDevice.mvc$model", "OutSystemsUI.Content.Tooltip.mvc$model", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$MenuShow", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent", "OutSystemsUI.controller$AddFavicon", "PartnersHub.controller$MountDerivAPIClient", "PartnersHub.controller$UseDevice", "PartnersHub.controller$ShowLiveChat", "PartnersHub.controller$MountDatadogClient", "RESTAPIWebsocket.model$ST_bc9f0cd5cd952aeeadf59ee9a5dfb79aStructure", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.controller$WebsocketLogout", "PartnersHub.controller$RedirectToOauth"], function(OSRuntimeCore, PartnersHubModel, OutSystemsUIModel, OutSystemsUIController, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, CustomComponents_ButtonVariants_PrimaryButton_mvcModel, CustomComponents_ButtonVariants_SecondaryButton_mvcModel, OutSystemsUI_Adaptive_DisplayOnDevice_mvcModel, OutSystemsUI_Content_Tooltip_mvcModel) {
     var OS = OSRuntimeCore;
 
 
@@ -94,7 +94,7 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$model", ["@outsystems/runtime-co
     return new OS.Model.ModelFactory(Model);
 });
 
-define("PartnersHub.Layouts.LayoutDashboard.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "OutSystemsUI.controller", "react", "@outsystems/runtime-view-js", "PartnersHub.Layouts.LayoutDashboard.mvc$model", "PartnersHub.Layouts.LayoutDashboard.mvc$controller", "PartnersHub.clientVariables", "@outsystems/runtime-widgets-js", "CustomComponents.ButtonVariants.PrimaryButton.mvc$view", "CustomComponents.ButtonVariants.SecondaryButton.mvc$view", "OutSystemsUI.Adaptive.DisplayOnDevice.mvc$view", "OutSystemsUI.Content.Tooltip.mvc$view", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$MenuShow", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent", "OutSystemsUI.controller$AddFavicon", "PartnersHub.controller$MountDerivAPIClient", "PartnersHub.controller$UseDevice", "PartnersHub.controller$ShowLiveChat", "PartnersHub.controller$MountDatadogClient", "PartnersHub.controller$SendLogout", "PartnersHub.controller$RedirectToOauth"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, OutSystemsUIController, React, OSView, PartnersHub_Layouts_LayoutDashboard_mvc_model, PartnersHub_Layouts_LayoutDashboard_mvc_controller, PartnersHubClientVariables, OSWidgets, CustomComponents_ButtonVariants_PrimaryButton_mvc_view, CustomComponents_ButtonVariants_SecondaryButton_mvc_view, OutSystemsUI_Adaptive_DisplayOnDevice_mvc_view, OutSystemsUI_Content_Tooltip_mvc_view) {
+define("PartnersHub.Layouts.LayoutDashboard.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "OutSystemsUI.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "react", "@outsystems/runtime-view-js", "PartnersHub.Layouts.LayoutDashboard.mvc$model", "PartnersHub.Layouts.LayoutDashboard.mvc$controller", "PartnersHub.clientVariables", "@outsystems/runtime-widgets-js", "CustomComponents.ButtonVariants.PrimaryButton.mvc$view", "CustomComponents.ButtonVariants.SecondaryButton.mvc$view", "OutSystemsUI.Adaptive.DisplayOnDevice.mvc$view", "OutSystemsUI.Content.Tooltip.mvc$view", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$MenuShow", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent", "OutSystemsUI.controller$AddFavicon", "PartnersHub.controller$MountDerivAPIClient", "PartnersHub.controller$UseDevice", "PartnersHub.controller$ShowLiveChat", "PartnersHub.controller$MountDatadogClient", "RESTAPIWebsocket.model$ST_bc9f0cd5cd952aeeadf59ee9a5dfb79aStructure", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.controller$WebsocketLogout", "PartnersHub.controller$RedirectToOauth"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, OutSystemsUIController, RESTAPIWebsocketModel, RESTAPIWebsocketController, React, OSView, PartnersHub_Layouts_LayoutDashboard_mvc_model, PartnersHub_Layouts_LayoutDashboard_mvc_controller, PartnersHubClientVariables, OSWidgets, CustomComponents_ButtonVariants_PrimaryButton_mvc_view, CustomComponents_ButtonVariants_SecondaryButton_mvc_view, OutSystemsUI_Adaptive_DisplayOnDevice_mvc_view, OutSystemsUI_Content_Tooltip_mvc_view) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -194,7 +194,7 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$view", ["@outsystems/runtime-cor
                 extendedProperties: {
                     style: "font-size: 16px; font-weight: bold;"
                 },
-                text: ["Are you sure you want to log out?"],
+                text: [$text(getTranslation("u6D_wbxGcUC2hnueavwrUA#Value", "Are you sure you want to log out?"))],
                 _idProps: {
                     service: idService,
                     uuid: "3"
@@ -259,9 +259,9 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$view", ["@outsystems/runtime-cor
                     return _this.getChildSpan("destroy");
                 },
                 inputs: {
+                    title: "Yes, log out",
                     height: "40px",
-                    Width: "100%",
-                    title: "Yes, log out"
+                    Width: "100%"
                 },
                 events: {
                     _handleError: function(ex) {
@@ -302,10 +302,10 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$view", ["@outsystems/runtime-cor
                 },
                 inputs: {
                     height: "40px",
-                    BorderColor: "#FF444F",
+                    title: "Cancel",
                     borderRadius: "100px",
                     Width: "100%",
-                    title: "Cancel"
+                    BorderColor: "#FF444F"
                 },
                 events: {
                     _handleError: function(ex) {
@@ -384,7 +384,7 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$view", ["@outsystems/runtime-cor
                         return [React.createElement(OSWidgets.AdvancedHtml, {
                             extendedProperties: {
                                 role: "banner",
-                                className: "header"
+                                className: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("L0LZ2weFB0i4vQ6cHwhS1Q#Value.-1221270899.1", "header")
                             },
                             tag: "header",
                             _idProps: {
@@ -536,7 +536,7 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$view", ["@outsystems/runtime-cor
                                             uuid: "21"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
-                                    }, "Live chat")];
+                                    }, $text(getTranslation("zOG2b5Vg8UWXy3rR7PzcOw#Value", "Live chat")))];
                                 })
                             },
                             _dependencies: []
@@ -612,7 +612,7 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$view", ["@outsystems/runtime-cor
                                             uuid: "25"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
-                                    }, "Log out")];
+                                    }, $text(getTranslation("jJ43ECPLvEeKFN3LPXcGug#Value", "Log out")))];
                                 })
                             },
                             _dependencies: []
@@ -621,8 +621,8 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$view", ["@outsystems/runtime-cor
                     onTablet: new PlaceholderContent(function() {
                         return [React.createElement(OSWidgets.AdvancedHtml, {
                             extendedProperties: {
-                                role: "banner",
-                                className: "header"
+                                role: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("ZGGeSbg7WUagZno4rBIW5w#Value.-1396342996.1", "banner"),
+                                className: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("38XhKKe5LEW+A2zRRni8zQ#Value.-1221270899.1", "header")
                             },
                             tag: "header",
                             _idProps: {
@@ -640,7 +640,7 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$view", ["@outsystems/runtime-cor
                                 classes: "OSInline",
                                 width: "100%"
                             },
-                            style: "header-top",
+                            style: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("rTuVkrGaBEOPnPSbtA3yVQ#ValueExpression.1976371733.1", "header-top"),
                             visible: true,
                             _idProps: {
                                 service: idService,
@@ -774,7 +774,7 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$view", ["@outsystems/runtime-cor
                                             uuid: "34"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
-                                    }, "Live chat")];
+                                    }, $text(getTranslation("y3I3z2tJB06xi0f6VYHYww#Value", "Live chat")))];
                                 })
                             },
                             _dependencies: []
@@ -850,7 +850,7 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$view", ["@outsystems/runtime-cor
                                             uuid: "38"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
-                                    }, "Log out")];
+                                    }, $text(getTranslation("WuL5RxW2z0GzmUysFxZAVg#Value", "Log out")))];
                                 })
                             },
                             _dependencies: []
@@ -988,10 +988,6 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$view", ["@outsystems/runtime-cor
                     })
                 },
                 _dependencies: []
-            }), $if(PartnersHubClientVariables.getIsDesktop(), false, this, function() {
-                return [];
-            }, function() {
-                return [];
             }), React.createElement(OSWidgets.Container, {
                 align: /*Default*/ 0,
                 animate: false,
@@ -1022,7 +1018,7 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$view", ["@outsystems/runtime-cor
             }, React.createElement(OSWidgets.Placeholder, {
                 align: /*Default*/ 0,
                 content: _this.props.placeholders.mainContent,
-                style: "dashboard",
+                style: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("PU7gknieWkOx_ByEMNdLqQ#Style.-1047860588.1", "dashboard"),
                 _idProps: {
                     service: idService,
                     name: "MainContent"
@@ -1034,7 +1030,7 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$view", ["@outsystems/runtime-cor
 
     return View;
 });
-define("PartnersHub.Layouts.LayoutDashboard.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "OutSystemsUI.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources", "PartnersHub.Layouts.LayoutDashboard.mvc$controller.OnRender.JavaScript1JS", "PartnersHub.Layouts.LayoutDashboard.mvc$controller.OnClickLogout.HandleLogoutJS", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$MenuShow", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent", "OutSystemsUI.controller$AddFavicon", "PartnersHub.controller$MountDerivAPIClient", "PartnersHub.controller$UseDevice", "PartnersHub.controller$ShowLiveChat", "PartnersHub.controller$MountDatadogClient", "PartnersHub.controller$SendLogout", "PartnersHub.controller$RedirectToOauth"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, OutSystemsUIController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Layouts_LayoutDashboard_mvc_TranslationsResources, PartnersHub_Layouts_LayoutDashboard_mvc_controller_OnRender_JavaScript1JS, PartnersHub_Layouts_LayoutDashboard_mvc_controller_OnClickLogout_HandleLogoutJS) {
+define("PartnersHub.Layouts.LayoutDashboard.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "OutSystemsUI.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources", "PartnersHub.Layouts.LayoutDashboard.mvc$controller.OnRender.JavaScript1JS", "PartnersHub.Layouts.LayoutDashboard.mvc$controller.OnClickLogout.HandleLogoutJS", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$MenuShow", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent", "OutSystemsUI.controller$AddFavicon", "PartnersHub.controller$MountDerivAPIClient", "PartnersHub.controller$UseDevice", "PartnersHub.controller$ShowLiveChat", "PartnersHub.controller$MountDatadogClient", "RESTAPIWebsocket.model$ST_bc9f0cd5cd952aeeadf59ee9a5dfb79aStructure", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.controller$WebsocketLogout", "PartnersHub.controller$RedirectToOauth"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, OutSystemsUIController, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Layouts_LayoutDashboard_mvc_TranslationsResources, PartnersHub_Layouts_LayoutDashboard_mvc_controller_OnRender_JavaScript1JS, PartnersHub_Layouts_LayoutDashboard_mvc_controller_OnClickLogout_HandleLogoutJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -1518,7 +1514,7 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$controller", ["@outsystems/runti
                                             }, function($parameters) {}, {
                                                 CloseLogoutModal: controller.clientActionProxies.closeLogoutModal$Action,
                                                 ShowLoader: controller.clientActionProxies.showLoader$Action,
-                                                SendLogout: PartnersHubController.default.clientActionProxies.sendLogout$Action,
+                                                WebsocketLogout: RESTAPIWebsocketController.default.clientActionProxies.websocketLogout$Action,
                                                 RedirectToOauth: PartnersHubController.default.clientActionProxies.redirectToOauth$Action
                                             }, {});
                                         } finally {
@@ -1961,7 +1957,7 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$controller.OnClickLogout.HandleL
             function performLogout() {
                 $actions.CloseLogoutModal()
                 $actions.ShowLoader()
-                $actions.SendLogout()
+                $actions.WebsocketLogout($parameters.ServerUrl, $parameters.CurrentAppId, "EN", token)
 
                 try {
                     const featureValue = window.Analytics.Analytics.getFeatureValue("hydra_be");
@@ -2031,6 +2027,140 @@ define("PartnersHub.Layouts.LayoutDashboard.mvc$controller.OnClickLogout.HandleL
 });
 
 
-define("PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "PU7gknieWkOx_ByEMNdLqQ#Style.-1047860588.1": "Dashboard",
+        "38XhKKe5LEW+A2zRRni8zQ#Value.-1221270899.1": "header",
+        "ZGGeSbg7WUagZno4rBIW5w#Value.-1396342996.1": "banner",
+        "WuL5RxW2z0GzmUysFxZAVg#Value": "Abmelden",
+        "y3I3z2tJB06xi0f6VYHYww#Value": "Live-Chat",
+        "rTuVkrGaBEOPnPSbtA3yVQ#ValueExpression.1976371733.1": "header-top",
+        "L0LZ2weFB0i4vQ6cHwhS1Q#Value.-1221270899.1": "header",
+        "jJ43ECPLvEeKFN3LPXcGug#Value": "Abmelden",
+        "zOG2b5Vg8UWXy3rR7PzcOw#Value": "Live-Chat",
+        "u6D_wbxGcUC2hnueavwrUA#Value": "Bist du dir sicher, dass du dich abmelden möchtest?"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "PU7gknieWkOx_ByEMNdLqQ#Style.-1047860588.1": "Panel",
+        "38XhKKe5LEW+A2zRRni8zQ#Value.-1221270899.1": "header",
+        "ZGGeSbg7WUagZno4rBIW5w#Value.-1396342996.1": "banner",
+        "WuL5RxW2z0GzmUysFxZAVg#Value": "Cerrar sesión",
+        "y3I3z2tJB06xi0f6VYHYww#Value": "Chat en vivo",
+        "rTuVkrGaBEOPnPSbtA3yVQ#ValueExpression.1976371733.1": "header-top",
+        "L0LZ2weFB0i4vQ6cHwhS1Q#Value.-1221270899.1": "header",
+        "jJ43ECPLvEeKFN3LPXcGug#Value": "Cerrar sesión",
+        "zOG2b5Vg8UWXy3rR7PzcOw#Value": "Chat en vivo",
+        "u6D_wbxGcUC2hnueavwrUA#Value": "¿Estás seguro de que quieres cerrar sesión?"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "PU7gknieWkOx_ByEMNdLqQ#Style.-1047860588.1": "Tableau de bord",
+        "38XhKKe5LEW+A2zRRni8zQ#Value.-1221270899.1": "header",
+        "ZGGeSbg7WUagZno4rBIW5w#Value.-1396342996.1": "banner",
+        "WuL5RxW2z0GzmUysFxZAVg#Value": "Se déconnecter",
+        "y3I3z2tJB06xi0f6VYHYww#Value": "Chat en direct",
+        "rTuVkrGaBEOPnPSbtA3yVQ#ValueExpression.1976371733.1": "header-top",
+        "L0LZ2weFB0i4vQ6cHwhS1Q#Value.-1221270899.1": "header",
+        "jJ43ECPLvEeKFN3LPXcGug#Value": "Se déconnecter",
+        "zOG2b5Vg8UWXy3rR7PzcOw#Value": "Chat en direct",
+        "u6D_wbxGcUC2hnueavwrUA#Value": "Êtes-vous sûr de vouloir vous déconnecter ?"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "PU7gknieWkOx_ByEMNdLqQ#Style.-1047860588.1": "Cruscotto",
+        "38XhKKe5LEW+A2zRRni8zQ#Value.-1221270899.1": "header",
+        "ZGGeSbg7WUagZno4rBIW5w#Value.-1396342996.1": "banner",
+        "WuL5RxW2z0GzmUysFxZAVg#Value": "Disconnettersi",
+        "y3I3z2tJB06xi0f6VYHYww#Value": "Chat dal vivo",
+        "rTuVkrGaBEOPnPSbtA3yVQ#ValueExpression.1976371733.1": "header-top",
+        "L0LZ2weFB0i4vQ6cHwhS1Q#Value.-1221270899.1": "header",
+        "jJ43ECPLvEeKFN3LPXcGug#Value": "Disconnettersi",
+        "zOG2b5Vg8UWXy3rR7PzcOw#Value": "Chat dal vivo",
+        "u6D_wbxGcUC2hnueavwrUA#Value": "Sei sicuro di voler effettuare il logout?"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "PU7gknieWkOx_ByEMNdLqQ#Style.-1047860588.1": "Panel",
+        "38XhKKe5LEW+A2zRRni8zQ#Value.-1221270899.1": "header",
+        "ZGGeSbg7WUagZno4rBIW5w#Value.-1396342996.1": "banner",
+        "WuL5RxW2z0GzmUysFxZAVg#Value": "Wyloguj się",
+        "y3I3z2tJB06xi0f6VYHYww#Value": "Czat na żywo",
+        "rTuVkrGaBEOPnPSbtA3yVQ#ValueExpression.1976371733.1": "header-top",
+        "L0LZ2weFB0i4vQ6cHwhS1Q#Value.-1221270899.1": "header",
+        "jJ43ECPLvEeKFN3LPXcGug#Value": "Wyloguj się",
+        "zOG2b5Vg8UWXy3rR7PzcOw#Value": "Czat na żywo",
+        "u6D_wbxGcUC2hnueavwrUA#Value": "Czy jesteś pewien, że chcesz się wylogować?"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "PU7gknieWkOx_ByEMNdLqQ#Style.-1047860588.1": "Painel",
+        "38XhKKe5LEW+A2zRRni8zQ#Value.-1221270899.1": "header",
+        "ZGGeSbg7WUagZno4rBIW5w#Value.-1396342996.1": "banner",
+        "WuL5RxW2z0GzmUysFxZAVg#Value": "Sair",
+        "y3I3z2tJB06xi0f6VYHYww#Value": "Chat ao vivo",
+        "rTuVkrGaBEOPnPSbtA3yVQ#ValueExpression.1976371733.1": "header-top",
+        "L0LZ2weFB0i4vQ6cHwhS1Q#Value.-1221270899.1": "header",
+        "jJ43ECPLvEeKFN3LPXcGug#Value": "Sair",
+        "zOG2b5Vg8UWXy3rR7PzcOw#Value": "Chat ao vivo",
+        "u6D_wbxGcUC2hnueavwrUA#Value": "Tem certeza de que deseja sair?"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "PU7gknieWkOx_ByEMNdLqQ#Style.-1047860588.1": "Панель управления",
+        "38XhKKe5LEW+A2zRRni8zQ#Value.-1221270899.1": "header",
+        "ZGGeSbg7WUagZno4rBIW5w#Value.-1396342996.1": "banner",
+        "WuL5RxW2z0GzmUysFxZAVg#Value": "Выйти",
+        "y3I3z2tJB06xi0f6VYHYww#Value": "Оnлайн-чат",
+        "rTuVkrGaBEOPnPSbtA3yVQ#ValueExpression.1976371733.1": "header-top",
+        "L0LZ2weFB0i4vQ6cHwhS1Q#Value.-1221270899.1": "header",
+        "jJ43ECPLvEeKFN3LPXcGug#Value": "Выйти",
+        "zOG2b5Vg8UWXy3rR7PzcOw#Value": "Живой чат",
+        "u6D_wbxGcUC2hnueavwrUA#Value": "Вы уверены, что хотите выйти?"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources", ["exports", "PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources.de-DE", "PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources.es-ES", "PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources.fr-FR", "PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources.it-IT", "PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources.pl-PL", "PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources.pt-PT", "PartnersHub.Layouts.LayoutDashboard.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Layouts_LayoutDashboard_mvc_translationsResources_deDE, PartnersHub_Layouts_LayoutDashboard_mvc_translationsResources_esES, PartnersHub_Layouts_LayoutDashboard_mvc_translationsResources_frFR, PartnersHub_Layouts_LayoutDashboard_mvc_translationsResources_itIT, PartnersHub_Layouts_LayoutDashboard_mvc_translationsResources_plPL, PartnersHub_Layouts_LayoutDashboard_mvc_translationsResources_ptPT, PartnersHub_Layouts_LayoutDashboard_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Layouts_LayoutDashboard_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Layouts_LayoutDashboard_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Layouts_LayoutDashboard_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Layouts_LayoutDashboard_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Layouts_LayoutDashboard_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Layouts_LayoutDashboard_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Layouts_LayoutDashboard_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

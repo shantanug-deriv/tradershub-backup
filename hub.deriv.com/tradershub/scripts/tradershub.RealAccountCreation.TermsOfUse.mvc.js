@@ -18,6 +18,9 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$model", ["@outsystems/runt
                     }, false, tradershubModel.ST_bc7a92cde0807afeabb9fb7ba2ef9c4cStructure),
                     this.attr("IsDuplicateAccount", "isDuplicateAccountVar", "IsDuplicateAccount", true, false, OS.DataTypes.DataTypes.Boolean, function() {
                         return false;
+                    }, false),
+                    this.attr("IsExecuting", "isExecutingVar", "IsExecuting", true, false, OS.DataTypes.DataTypes.Boolean, function() {
+                        return false;
                     }, false)
                 ].concat(OS.DataTypes.GenericRecord.attributesToDeclare.call(this));
             }
@@ -60,7 +63,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$model", ["@outsystems/runt
     return new OS.Model.ModelFactory(Model);
 });
 
-define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.controller", "react", "@outsystems/runtime-view-js", "tradershub.RealAccountCreation.TermsOfUse.mvc$model", "tradershub.RealAccountCreation.TermsOfUse.mvc$controller", "tradershub.clientVariables", "tradershub.Layouts.RealAccountCreationLayout.mvc$view", "@outsystems/runtime-widgets-js", "OutSystemsUI.Utilities.Separator.mvc$view", "OutSystemsUI.controller$IsPhone", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.model$ST_bc7a92cde0807afeabb9fb7ba2ef9c4cStructure", "tradershub.controller$SyncAccountInfo", "tradershub.controller$NewAccountReal"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIController, React, OSView, tradershub_RealAccountCreation_TermsOfUse_mvc_model, tradershub_RealAccountCreation_TermsOfUse_mvc_controller, tradershubClientVariables, tradershub_Layouts_RealAccountCreationLayout_mvc_view, OSWidgets, OutSystemsUI_Utilities_Separator_mvc_view) {
+define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.controller", "react", "@outsystems/runtime-view-js", "tradershub.RealAccountCreation.TermsOfUse.mvc$model", "tradershub.RealAccountCreation.TermsOfUse.mvc$controller", "tradershub.clientVariables", "tradershub.Layouts.RealAccountCreationLayout.mvc$view", "@outsystems/runtime-widgets-js", "OutSystemsUI.Utilities.Separator.mvc$view", "OutSystemsUI.Utilities.ButtonLoading.mvc$view", "OutSystemsUI.controller$IsPhone", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.model$ST_bc7a92cde0807afeabb9fb7ba2ef9c4cStructure", "tradershub.controller$SyncAccountInfo", "tradershub.controller$NewAccountReal"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIController, React, OSView, tradershub_RealAccountCreation_TermsOfUse_mvc_model, tradershub_RealAccountCreation_TermsOfUse_mvc_controller, tradershubClientVariables, tradershub_Layouts_RealAccountCreationLayout_mvc_view, OSWidgets, OutSystemsUI_Utilities_Separator_mvc_view, OutSystemsUI_Utilities_ButtonLoading_mvc_view) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -91,7 +94,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
         }
 
         static getBlocks() {
-            return [tradershub_Layouts_RealAccountCreationLayout_mvc_view, OutSystemsUI_Utilities_Separator_mvc_view];
+            return [tradershub_Layouts_RealAccountCreationLayout_mvc_view, OutSystemsUI_Utilities_Separator_mvc_view, OutSystemsUI_Utilities_ButtonLoading_mvc_view];
         }
 
         get modelFactory() {
@@ -641,23 +644,67 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                                 uuid: "40"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
-                        }, React.createElement(OSWidgets.Button, {
-                            enabled: true,
-                            isDefault: false,
-                            onClick: function() {
-                                return Promise.resolve().then(function() {
-                                    var eventHandlerContext = callContext.clone();
-                                    return controller.buttonOnClick$Action(controller.callContext(eventHandlerContext));
-                                });;
+                        }, React.createElement(OutSystemsUI_Utilities_ButtonLoading_mvc_view, {
+                            getOwnerSpan: function() {
+                                return _this.getChildSpan("render");
                             },
-                            style: "btn btn-primary",
-                            visible: true,
+                            getOwnerDisposeSpan: function() {
+                                return _this.getChildSpan("destroy");
+                            },
+                            inputs: {
+                                ShowLabelOnLoading: true,
+                                IsLoading: model.variables.isExecutingVar
+                            },
+                            events: {
+                                _handleError: function(ex) {
+                                    controller.handleError(ex);
+                                }
+                            },
+                            _validationProps: {
+                                validationService: validationService
+                            },
                             _idProps: {
                                 service: idService,
-                                name: "CreateAccountBtn"
+                                uuid: "41",
+                                alias: "6"
                             },
-                            _widgetRecordProvider: widgetsRecordProvider
-                        }, "Create account"))), React.createElement(OSWidgets.Popup, {
+                            _widgetRecordProvider: widgetsRecordProvider,
+                            placeholders: {
+                                button: new PlaceholderContent(function() {
+                                    return [React.createElement(OSWidgets.Button, {
+                                        enabled: !(model.variables.isExecutingVar),
+                                        gridProperties: {
+                                            classes: "OSFillParent"
+                                        },
+                                        isDefault: false,
+                                        onClick: function() {
+                                            return Promise.resolve().then(function() {
+                                                var eventHandlerContext = callContext.clone();
+                                                return controller.buttonOnClick$Action(controller.callContext(eventHandlerContext));
+                                            });;
+                                        },
+                                        style: "btn btn-primary",
+                                        visible: true,
+                                        _idProps: {
+                                            service: idService,
+                                            uuid: "42"
+                                        },
+                                        _widgetRecordProvider: widgetsRecordProvider
+                                    }, React.createElement(OSWidgets.Container, {
+                                        align: /*Default*/ 0,
+                                        animate: false,
+                                        style: "osui-btn-loading__spinner-animation",
+                                        visible: true,
+                                        _idProps: {
+                                            service: idService,
+                                            uuid: "43"
+                                        },
+                                        _widgetRecordProvider: widgetsRecordProvider
+                                    }), "Create account")];
+                                })
+                            },
+                            _dependencies: [asPrimitiveValue(model.variables.isExecutingVar)]
+                        }))), React.createElement(OSWidgets.Popup, {
                             extendedProperties: {
                                 style: "border-radius: 8px; padding: 0px;"
                             },
@@ -665,7 +712,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             style: "popup-dialog",
                             _idProps: {
                                 service: idService,
-                                uuid: "42"
+                                uuid: "44"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         }, React.createElement(OSWidgets.Container, {
@@ -678,7 +725,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             visible: true,
                             _idProps: {
                                 service: idService,
-                                uuid: "43"
+                                uuid: "45"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         }, React.createElement(OSWidgets.Container, {
@@ -690,7 +737,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             visible: true,
                             _idProps: {
                                 service: idService,
-                                uuid: "44"
+                                uuid: "46"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         }, React.createElement(OSWidgets.Link, {
@@ -704,7 +751,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             visible: true,
                             _idProps: {
                                 service: idService,
-                                uuid: "45"
+                                uuid: "47"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         }, React.createElement(OSWidgets.Image, {
@@ -712,7 +759,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             type: /*Static*/ 0,
                             _idProps: {
                                 service: idService,
-                                uuid: "46"
+                                uuid: "48"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         })), React.createElement(OSWidgets.Container, {
@@ -723,7 +770,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             }),
                             _idProps: {
                                 service: idService,
-                                uuid: "47"
+                                uuid: "49"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         }, React.createElement(OutSystemsUI_Utilities_Separator_mvc_view, {
@@ -746,8 +793,8 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             },
                             _idProps: {
                                 service: idService,
-                                uuid: "48",
-                                alias: "6"
+                                uuid: "50",
+                                alias: "7"
                             },
                             _widgetRecordProvider: widgetsRecordProvider,
                             _dependencies: []
@@ -757,7 +804,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             visible: true,
                             _idProps: {
                                 service: idService,
-                                uuid: "49"
+                                uuid: "51"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         }, React.createElement(OSWidgets.Container, {
@@ -769,7 +816,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             visible: true,
                             _idProps: {
                                 service: idService,
-                                uuid: "50"
+                                uuid: "52"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         }, React.createElement(OSWidgets.Image, {
@@ -777,7 +824,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             type: /*Static*/ 0,
                             _idProps: {
                                 service: idService,
-                                uuid: "51"
+                                uuid: "53"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         })), React.createElement(OSWidgets.Container, {
@@ -790,7 +837,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             visible: true,
                             _idProps: {
                                 service: idService,
-                                uuid: "52"
+                                uuid: "54"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         }, React.createElement(OSWidgets.Text, {
@@ -800,7 +847,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             text: ["Account already exists"],
                             _idProps: {
                                 service: idService,
-                                uuid: "53"
+                                uuid: "55"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         }), "If you think this is a mistake, contact us via live chat.")), React.createElement(OSWidgets.Container, {
@@ -810,7 +857,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             visible: true,
                             _idProps: {
                                 service: idService,
-                                uuid: "54"
+                                uuid: "56"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         }, React.createElement(OSWidgets.Container, {
@@ -821,7 +868,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             }),
                             _idProps: {
                                 service: idService,
-                                uuid: "55"
+                                uuid: "57"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         }, React.createElement(OutSystemsUI_Utilities_Separator_mvc_view, {
@@ -844,8 +891,8 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             },
                             _idProps: {
                                 service: idService,
-                                uuid: "56",
-                                alias: "7"
+                                uuid: "58",
+                                alias: "8"
                             },
                             _widgetRecordProvider: widgetsRecordProvider,
                             _dependencies: []
@@ -872,7 +919,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             visible: true,
                             _idProps: {
                                 service: idService,
-                                uuid: "57"
+                                uuid: "59"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         }, React.createElement(OSWidgets.Text, {
@@ -882,7 +929,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             text: ["Try again"],
                             _idProps: {
                                 service: idService,
-                                uuid: "58"
+                                uuid: "60"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         })), React.createElement(OSWidgets.Button, {
@@ -905,7 +952,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             visible: true,
                             _idProps: {
                                 service: idService,
-                                uuid: "59"
+                                uuid: "61"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         }, React.createElement(OSWidgets.Text, {
@@ -915,20 +962,20 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
                             text: ["Live chat"],
                             _idProps: {
                                 service: idService,
-                                uuid: "60"
+                                uuid: "62"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         })))))];
                     })
                 },
-                _dependencies: [asPrimitiveValue(model.variables.isDuplicateAccountVar), asPrimitiveValue(model.variables.agreeToTermsVar), asPrimitiveValue(model.variables.pEPVar), asPrimitiveValue(model.variables.validFieldsVar.agreeToTermsAttr), asPrimitiveValue(model.variables.validFieldsVar.pEPAttr), asPrimitiveValue(model.variables.validFieldsVar.fatcaDeclareAttr), asPrimitiveValue(tradershubClientVariables.getRealSignupFatcaDeclaration())]
+                _dependencies: [asPrimitiveValue(model.variables.isDuplicateAccountVar), asPrimitiveValue(model.variables.isExecutingVar), asPrimitiveValue(model.variables.agreeToTermsVar), asPrimitiveValue(model.variables.pEPVar), asPrimitiveValue(model.variables.validFieldsVar.agreeToTermsAttr), asPrimitiveValue(model.variables.validFieldsVar.pEPAttr), asPrimitiveValue(model.variables.validFieldsVar.fatcaDeclareAttr), asPrimitiveValue(tradershubClientVariables.getRealSignupFatcaDeclaration())]
             }));
         }
     }
 
     return View;
 });
-define("tradershub.RealAccountCreation.TermsOfUse.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreation.controller", "tradershub.RealAccountCreation.TermsOfUse.mvc$controller.OnReady.RudderStackJS", "tradershub.RealAccountCreation.TermsOfUse.mvc$controller.ButtonOnClick.ValidateJS", "OutSystemsUI.controller$IsPhone", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.model$ST_bc7a92cde0807afeabb9fb7ba2ef9c4cStructure", "tradershub.controller$SyncAccountInfo", "tradershub.controller$NewAccountReal"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationController, tradershub_RealAccountCreation_TermsOfUse_mvc_controller_OnReady_RudderStackJS, tradershub_RealAccountCreation_TermsOfUse_mvc_controller_ButtonOnClick_ValidateJS) {
+define("tradershub.RealAccountCreation.TermsOfUse.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreation.controller", "tradershub.RealAccountCreation.TermsOfUse.mvc$controller.ButtonOnClick.RudderStackFailureJS", "tradershub.RealAccountCreation.TermsOfUse.mvc$controller.ButtonOnClick.ValidateJS", "tradershub.RealAccountCreation.TermsOfUse.mvc$controller.ButtonOnClick.RudderStackSuccessJS", "tradershub.RealAccountCreation.TermsOfUse.mvc$controller.LiveChatOnClick.SyncLocalStorageJS", "OutSystemsUI.controller$IsPhone", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.model$ST_bc7a92cde0807afeabb9fb7ba2ef9c4cStructure", "tradershub.controller$SyncAccountInfo", "tradershub.controller$NewAccountReal"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationController, tradershub_RealAccountCreation_TermsOfUse_mvc_controller_ButtonOnClick_RudderStackFailureJS, tradershub_RealAccountCreation_TermsOfUse_mvc_controller_ButtonOnClick_ValidateJS, tradershub_RealAccountCreation_TermsOfUse_mvc_controller_ButtonOnClick_RudderStackSuccessJS, tradershub_RealAccountCreation_TermsOfUse_mvc_controller_LiveChatOnClick_SyncLocalStorageJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -976,25 +1023,6 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$controller", ["@outsystems
                             try {
                                 controller.ensureControllerAlive("OnReady");
                                 callContext = controller.callContext(callContext);
-                                OS.Logger.startActiveSpan("RudderStack", function(span) {
-                                    if (span) {
-                                        span.setAttribute("code.function", "RudderStack");
-                                        span.setAttribute("outsystems.function.key", "c8b09a38-9c48-4c40-b5d0-668edcaf2efe");
-                                        span.setAttribute("outsystems.function.owner.name", "tradershub");
-                                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
-                                        span.setAttribute("outsystems.function.type", "JAVASCRIPT");
-                                    }
-
-                                    try {
-                                        return controller.safeExecuteJSNode(tradershub_RealAccountCreation_TermsOfUse_mvc_controller_OnReady_RudderStackJS, "RudderStack", "OnReady", null, function($parameters) {}, {}, {});
-                                    } finally {
-                                        if (span) {
-                                            span.end();
-                                        }
-
-                                    }
-
-                                }, 1);
                             } finally {
                                 if (span) {
                                     span.end();
@@ -1150,6 +1178,8 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$controller", ["@outsystems
                                                 model.variables.validFieldsVar.agreeToTermsAttr = true;
                                                 // ValidFields.PEP = True
                                                 model.variables.validFieldsVar.pEPAttr = true;
+                                                // IsExecuting = True
+                                                model.variables.isExecutingVar = true;
                                                 // RealSignupCurrentStep = 7
                                                 tradershubClientVariables.setRealSignupCurrentStep(7);
                                                 // Execute Action: NewAccountReal
@@ -1157,9 +1187,52 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$controller", ["@outsystems
                                                 return tradershubController.default.newAccountReal$Action(callContext).then(function(value) {
                                                     newAccountRealVar.value = value;
                                                 }).then(function() {
-                                                    if ((!(newAccountRealVar.value.isSuccessOut))) {
+                                                    if ((newAccountRealVar.value.isSuccessOut)) {
+                                                        OS.Logger.startActiveSpan("RudderStackSuccess", function(span) {
+                                                            if (span) {
+                                                                span.setAttribute("code.function", "RudderStackSuccess");
+                                                                span.setAttribute("outsystems.function.key", "dc630acf-8b92-4c80-8122-fff598089c6e");
+                                                                span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                                                span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                                                span.setAttribute("outsystems.function.type", "JAVASCRIPT");
+                                                            }
+
+                                                            try {
+                                                                return controller.safeExecuteJSNode(tradershub_RealAccountCreation_TermsOfUse_mvc_controller_ButtonOnClick_RudderStackSuccessJS, "RudderStackSuccess", "ButtonOnClick", null, function($parameters) {}, {}, {});
+                                                            } finally {
+                                                                if (span) {
+                                                                    span.end();
+                                                                }
+
+                                                            }
+
+                                                        }, 1);
+                                                        // IsExecuting = False
+                                                        model.variables.isExecutingVar = false;
+                                                    } else {
+                                                        OS.Logger.startActiveSpan("RudderStackFailure", function(span) {
+                                                            if (span) {
+                                                                span.setAttribute("code.function", "RudderStackFailure");
+                                                                span.setAttribute("outsystems.function.key", "cb30d76f-9c0a-493c-a247-a724bb4f9078");
+                                                                span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                                                span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                                                span.setAttribute("outsystems.function.type", "JAVASCRIPT");
+                                                            }
+
+                                                            try {
+                                                                return controller.safeExecuteJSNode(tradershub_RealAccountCreation_TermsOfUse_mvc_controller_ButtonOnClick_RudderStackFailureJS, "RudderStackFailure", "ButtonOnClick", null, function($parameters) {}, {}, {});
+                                                            } finally {
+                                                                if (span) {
+                                                                    span.end();
+                                                                }
+
+                                                            }
+
+                                                        }, 1);
                                                         // IsDuplicateAccount = NewAccountReal.ErrorCode = "DuplicateAccount"
                                                         model.variables.isDuplicateAccountVar = (newAccountRealVar.value.errorCodeOut === "DuplicateAccount");
+                                                        // IsExecuting = False
+                                                        model.variables.isExecutingVar = false;
                                                     }
 
                                                 });
@@ -1211,8 +1284,27 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$controller", ["@outsystems
                             try {
                                 controller.ensureControllerAlive("LiveChatOnClick");
                                 callContext = controller.callContext(callContext);
-                                // Execute Action: SyncAccountInfo
-                                tradershubController.default.syncAccountInfo$Action(callContext);
+                                OS.Logger.startActiveSpan("SyncLocalStorage", function(span) {
+                                    if (span) {
+                                        span.setAttribute("code.function", "SyncLocalStorage");
+                                        span.setAttribute("outsystems.function.key", "475a539b-46b2-452a-9a6d-4e3e9f5d464b");
+                                        span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                        span.setAttribute("outsystems.function.type", "JAVASCRIPT");
+                                    }
+
+                                    try {
+                                        return controller.safeExecuteJSNode(tradershub_RealAccountCreation_TermsOfUse_mvc_controller_LiveChatOnClick_SyncLocalStorageJS, "SyncLocalStorage", "LiveChatOnClick", {
+                                            ActiveLoginId: OS.DataConversion.JSNodeParamConverter.to(tradershubClientVariables.getActiveLoginId(), OS.DataTypes.DataTypes.Text)
+                                        }, function($parameters) {}, {}, {});
+                                    } finally {
+                                        if (span) {
+                                            span.end();
+                                        }
+
+                                    }
+
+                                }, 1);
                             } finally {
                                 if (span) {
                                     span.end();
@@ -1468,13 +1560,14 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$controller", ["@outsystems
     return new OS.Controller.ControllerFactory(Controller, tradershubLanguageResources);
 });
 
-define("tradershub.RealAccountCreation.TermsOfUse.mvc$controller.OnReady.RudderStackJS", [], function() {
+define("tradershub.RealAccountCreation.TermsOfUse.mvc$controller.ButtonOnClick.RudderStackFailureJS", [], function() {
     return function($actions, $roles, $public) {
-        setTimeout(() => {
-            Analytics.Analytics.trackEvent({
-                action: "real_account_employment_details_open",
-            })
-        }, 100);
+        Analytics.Analytics.trackEvent("ce_real_account_signup_form", {
+            action: "real_signup_error",
+            step_num: 4,
+            step_codename: "terms_of_use",
+            form_name: "real_account_signup_form_outsystems"
+        });
 
     };
 });
@@ -1506,5 +1599,70 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$controller.ButtonOnClick.V
 
             $resolve()
         });
+    };
+});
+
+define("tradershub.RealAccountCreation.TermsOfUse.mvc$controller.ButtonOnClick.RudderStackSuccessJS", [], function() {
+    return function($actions, $roles, $public) {
+        Analytics.Analytics.trackEvent("ce_real_account_signup_form", {
+            action: "real_signup_finished",
+            form_name: "real_account_signup_form_outsystems"
+        });
+
+    };
+});
+
+define("tradershub.RealAccountCreation.TermsOfUse.mvc$controller.LiveChatOnClick.SyncLocalStorageJS", [], function() {
+    return function($parameters, $actions, $roles, $public) {
+        let origin = `https://app.deriv.com`
+
+        if (window.location.hostname !== "hub.deriv.com") {
+            origin = `https://staging-app.deriv.com`
+        }
+
+        const iframe = document.getElementById('localstorage-sync');
+        if (iframe) {
+            iframe?.contentWindow.postMessage({
+                    key: 'client.accounts',
+                    value: localStorage.getItem('client.accounts'),
+                },
+                origin
+            );
+
+            iframe?.contentWindow.postMessage({
+                    key: 'active_loginid',
+                    value: $parameters.ActiveLoginId,
+                },
+                origin
+            );
+        }
+
+
+        if (window.JSCookies) {
+            // expiry time in minutes
+            const inOneMinute = new Date(new Date().getTime() + 1 * 60 * 1000);
+
+            JSCookies.set('client.accounts', localStorage.getItem('client.accounts'), {
+                domain: ".deriv.com",
+                expires: inOneMinute,
+                secure: true
+            })
+            JSCookies.set('active_loginid', $parameters.ActiveLoginId, {
+                domain: ".deriv.com",
+                expires: inOneMinute,
+                secure: true
+            })
+        }
+
+        setTimeout(() => {
+            const hostname = window.location.hostname;
+            if (hostname === "hub.deriv.com") {
+                return window.open('https://app.deriv.com/redirect?action=livechat', '_blank', 'noopener, noreferrer');
+            }
+
+            window.open('https://staging-app.deriv.com/redirect?action=livechat', '_blank', 'noopener, noreferrer');
+        }, 100)
+
+
     };
 });

@@ -175,7 +175,7 @@ define("PartnersHub.Developer.Endpoint.mvc$view", ["@outsystems/runtime-core-js"
                             extendedProperties: {
                                 style: "font-size: 16px; font-weight: bold;"
                             },
-                            text: ["Change API Endpoint"],
+                            text: [$text(getTranslation("xq6aFQV3i0GlkG17lS85RA#Value", "Change API Endpoint"))],
                             _idProps: {
                                 service: idService,
                                 uuid: "3"
@@ -202,7 +202,7 @@ define("PartnersHub.Developer.Endpoint.mvc$view", ["@outsystems/runtime-core-js"
                                 uuid: "5"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
-                        }, "Server"), React.createElement(OSWidgets.Input, {
+                        }, $text(getTranslation("DWYZMDPB40Oa+r4IbtgTyg#Value", "Server"))), React.createElement(OSWidgets.Input, {
                             _validationProps: {
                                 validationService: validationService,
                                 validationParentId: idService.getId("Form1")
@@ -255,7 +255,7 @@ define("PartnersHub.Developer.Endpoint.mvc$view", ["@outsystems/runtime-core-js"
                                 uuid: "9"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
-                        }, "OAuth App ID"), React.createElement(OSWidgets.Input, {
+                        }, $text(getTranslation("tYSnXt74LEe+5+sVcqPLpw#Value", "OAuth App ID"))), React.createElement(OSWidgets.Input, {
                             _validationProps: {
                                 validationService: validationService,
                                 validationParentId: idService.getId("Form1")
@@ -290,7 +290,7 @@ define("PartnersHub.Developer.Endpoint.mvc$view", ["@outsystems/runtime-core-js"
                                 uuid: "11"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
-                        }, "Register an ", React.createElement(OSWidgets.Container, {
+                        }, $text(getTranslation("jso1GJeBzkmbFB0QlMBT5Q#Value", "Register an ")), React.createElement(OSWidgets.Container, {
                             align: /*Default*/ 0,
                             animate: false,
                             extendedEvents: {
@@ -317,7 +317,7 @@ define("PartnersHub.Developer.Endpoint.mvc$view", ["@outsystems/runtime-core-js"
                             extendedProperties: {
                                 style: "text-decoration: underline;"
                             },
-                            text: ["app ID"],
+                            text: [$text(getTranslation("ZIpQdKMSh029jJ2Kl8HJIg#Value", "app ID"))],
                             _idProps: {
                                 service: idService,
                                 uuid: "13"
@@ -327,7 +327,7 @@ define("PartnersHub.Developer.Endpoint.mvc$view", ["@outsystems/runtime-core-js"
                             extendedProperties: {
                                 style: "margin-left: 4px;"
                             },
-                            text: ["to use the above server for logging in."],
+                            text: [$text(getTranslation("40bWnUM0M0qjslHd09SpUw#Value", "to use the above server for logging in."))],
                             _idProps: {
                                 service: idService,
                                 uuid: "14"
@@ -367,7 +367,7 @@ define("PartnersHub.Developer.Endpoint.mvc$view", ["@outsystems/runtime-core-js"
                             extendedProperties: {
                                 style: "color: #fff; font-size: 14px; font-weight: bold;"
                             },
-                            text: ["Submit"],
+                            text: [$text(getTranslation("KIeuFldrS0KldY+5Z10Nrw#Value", "Submit"))],
                             _idProps: {
                                 service: idService,
                                 uuid: "17"
@@ -396,7 +396,7 @@ define("PartnersHub.Developer.Endpoint.mvc$view", ["@outsystems/runtime-core-js"
                             extendedProperties: {
                                 style: "color: #222; font-size: 14px; font-weight: bold;"
                             },
-                            text: ["Reset to original settings"],
+                            text: [$text(getTranslation("z4E221d1vEeR43uMRxpE+A#Value", "Reset to original settings"))],
                             _idProps: {
                                 service: idService,
                                 uuid: "19"
@@ -720,14 +720,15 @@ define("PartnersHub.Developer.Endpoint.mvc$controller", ["@outsystems/runtime-co
                         span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
                     }
 
-                    return OS.Flow.tryFinally(function() {
+                    try {
                         return controller.safeExecuteClientAction(controller._onReady$Action, callContext);
-                    }, function() {
+                    } finally {
                         if (span) {
                             span.end();
                         }
 
-                    });
+                    }
+
                 }, 0);
 
             }
@@ -869,6 +870,126 @@ define("PartnersHub.Developer.Endpoint.mvc$controller.OnClick.JavaScript1JS", []
 });
 
 
-define("PartnersHub.Developer.Endpoint.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Developer.Endpoint.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "z4E221d1vEeR43uMRxpE+A#Value": "Auf die Werkseinstellungen zurücksetzen",
+        "KIeuFldrS0KldY+5Z10Nrw#Value": "Einreichen",
+        "40bWnUM0M0qjslHd09SpUw#Value": "um den oben genannten Server zum Einloggen zu verwenden.",
+        "ZIpQdKMSh029jJ2Kl8HJIg#Value": "App-ID",
+        "jso1GJeBzkmbFB0QlMBT5Q#Value": "Registrieren Sie ein",
+        "tYSnXt74LEe+5+sVcqPLpw#Value": "OAuth-App-ID",
+        "DWYZMDPB40Oa+r4IbtgTyg#Value": "Server",
+        "xq6aFQV3i0GlkG17lS85RA#Value": "API-Endpunkt ändern"
+    };
+});
+
+define("PartnersHub.Developer.Endpoint.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "z4E221d1vEeR43uMRxpE+A#Value": "Restablecer a la configuración original",
+        "KIeuFldrS0KldY+5Z10Nrw#Value": "Enviar",
+        "40bWnUM0M0qjslHd09SpUw#Value": "para usar el servidor anterior para iniciar sesión.",
+        "ZIpQdKMSh029jJ2Kl8HJIg#Value": "ID de la aplicación",
+        "jso1GJeBzkmbFB0QlMBT5Q#Value": "Regístrate en",
+        "tYSnXt74LEe+5+sVcqPLpw#Value": "ID de la aplicación OAuth",
+        "DWYZMDPB40Oa+r4IbtgTyg#Value": "Servidor",
+        "xq6aFQV3i0GlkG17lS85RA#Value": "Cambiar el punto final de la API"
+    };
+});
+
+define("PartnersHub.Developer.Endpoint.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "z4E221d1vEeR43uMRxpE+A#Value": "Réinitialiser aux paramètres d\'origine",
+        "KIeuFldrS0KldY+5Z10Nrw#Value": "Soumettre",
+        "40bWnUM0M0qjslHd09SpUw#Value": "pour utiliser le serveur ci-dessus pour se connecter.",
+        "ZIpQdKMSh029jJ2Kl8HJIg#Value": "ID de l\'application",
+        "jso1GJeBzkmbFB0QlMBT5Q#Value": "Inscrivez-vous à",
+        "tYSnXt74LEe+5+sVcqPLpw#Value": "ID de l\'application OAuth",
+        "DWYZMDPB40Oa+r4IbtgTyg#Value": "Serveur",
+        "xq6aFQV3i0GlkG17lS85RA#Value": "Changer le point de terminaison de l\'API"
+    };
+});
+
+define("PartnersHub.Developer.Endpoint.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "z4E221d1vEeR43uMRxpE+A#Value": "Ripristina le impostazioni originali",
+        "KIeuFldrS0KldY+5Z10Nrw#Value": "Inviare",
+        "40bWnUM0M0qjslHd09SpUw#Value": "per utilizzare il server sopra per accedere.",
+        "ZIpQdKMSh029jJ2Kl8HJIg#Value": "ID dell\'app",
+        "jso1GJeBzkmbFB0QlMBT5Q#Value": "Registrati a",
+        "tYSnXt74LEe+5+sVcqPLpw#Value": "ID dell\'app OAuth",
+        "DWYZMDPB40Oa+r4IbtgTyg#Value": "Server",
+        "xq6aFQV3i0GlkG17lS85RA#Value": "Cambiare l\'endpoint dell\'API"
+    };
+});
+
+define("PartnersHub.Developer.Endpoint.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "z4E221d1vEeR43uMRxpE+A#Value": "Przywróć ustawienia fabryczne",
+        "KIeuFldrS0KldY+5Z10Nrw#Value": "Zatwierdź",
+        "40bWnUM0M0qjslHd09SpUw#Value": "aby korzystać z powyższego serwera do logowania.",
+        "ZIpQdKMSh029jJ2Kl8HJIg#Value": "ID aplikacji",
+        "jso1GJeBzkmbFB0QlMBT5Q#Value": "Zarejestruj się na",
+        "tYSnXt74LEe+5+sVcqPLpw#Value": "ID aplikacji OAuth",
+        "DWYZMDPB40Oa+r4IbtgTyg#Value": "Serwer",
+        "xq6aFQV3i0GlkG17lS85RA#Value": "Zmień punkt końcowy API"
+    };
+});
+
+define("PartnersHub.Developer.Endpoint.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "z4E221d1vEeR43uMRxpE+A#Value": "Reiniciar para as configurações originais",
+        "KIeuFldrS0KldY+5Z10Nrw#Value": "Submeter",
+        "40bWnUM0M0qjslHd09SpUw#Value": "para usar o servidor acima para fazer login.",
+        "ZIpQdKMSh029jJ2Kl8HJIg#Value": "ID da app",
+        "jso1GJeBzkmbFB0QlMBT5Q#Value": "Registe-se em",
+        "tYSnXt74LEe+5+sVcqPLpw#Value": "ID da aplicação OAuth",
+        "DWYZMDPB40Oa+r4IbtgTyg#Value": "Servidor",
+        "xq6aFQV3i0GlkG17lS85RA#Value": "Alterar o endpoint da API"
+    };
+});
+
+define("PartnersHub.Developer.Endpoint.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "z4E221d1vEeR43uMRxpE+A#Value": "Сбросить до заводских настроек",
+        "KIeuFldrS0KldY+5Z10Nrw#Value": "Отправить",
+        "40bWnUM0M0qjslHd09SpUw#Value": "чтобы использовать указанный выше сервер для входа.",
+        "ZIpQdKMSh029jJ2Kl8HJIg#Value": "ID приложения",
+        "jso1GJeBzkmbFB0QlMBT5Q#Value": "Зарегистрируйтесь на",
+        "tYSnXt74LEe+5+sVcqPLpw#Value": "ID приложения OAuth",
+        "DWYZMDPB40Oa+r4IbtgTyg#Value": "Сервер",
+        "xq6aFQV3i0GlkG17lS85RA#Value": "Изменить конечную точку API"
+    };
+});
+
+define("PartnersHub.Developer.Endpoint.mvc$translationsResources", ["exports", "PartnersHub.Developer.Endpoint.mvc$translationsResources.de-DE", "PartnersHub.Developer.Endpoint.mvc$translationsResources.es-ES", "PartnersHub.Developer.Endpoint.mvc$translationsResources.fr-FR", "PartnersHub.Developer.Endpoint.mvc$translationsResources.it-IT", "PartnersHub.Developer.Endpoint.mvc$translationsResources.pl-PL", "PartnersHub.Developer.Endpoint.mvc$translationsResources.pt-PT", "PartnersHub.Developer.Endpoint.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Developer_Endpoint_mvc_translationsResources_deDE, PartnersHub_Developer_Endpoint_mvc_translationsResources_esES, PartnersHub_Developer_Endpoint_mvc_translationsResources_frFR, PartnersHub_Developer_Endpoint_mvc_translationsResources_itIT, PartnersHub_Developer_Endpoint_mvc_translationsResources_plPL, PartnersHub_Developer_Endpoint_mvc_translationsResources_ptPT, PartnersHub_Developer_Endpoint_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Developer_Endpoint_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Developer_Endpoint_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Developer_Endpoint_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Developer_Endpoint_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Developer_Endpoint_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Developer_Endpoint_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Developer_Endpoint_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

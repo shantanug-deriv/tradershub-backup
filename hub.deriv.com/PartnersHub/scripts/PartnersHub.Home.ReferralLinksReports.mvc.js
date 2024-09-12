@@ -125,7 +125,7 @@ define("PartnersHub.Home.ReferralLinksReports.mvc$view", ["@outsystems/runtime-c
                 extendedProperties: {
                     style: "font-size: 16px; font-weight: bold; padding: 0px 10px 0px 0px;"
                 },
-                text: ["My referral links and reports"],
+                text: [$text(getTranslation("J5lNcrQnik2aXzdyKncEuA#Value", "My referral links and reports"))],
                 _idProps: {
                     service: idService,
                     uuid: "1"
@@ -390,6 +390,77 @@ define("PartnersHub.Home.ReferralLinksReports.mvc$controller.OpenDashboardOnClic
 });
 
 
-define("PartnersHub.Home.ReferralLinksReports.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Home.ReferralLinksReports.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "J5lNcrQnik2aXzdyKncEuA#Value": "Meine Empfehlungslinks und Berichte"
+    };
+});
+
+define("PartnersHub.Home.ReferralLinksReports.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "J5lNcrQnik2aXzdyKncEuA#Value": "Mis enlaces de referencia y reportes"
+    };
+});
+
+define("PartnersHub.Home.ReferralLinksReports.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "J5lNcrQnik2aXzdyKncEuA#Value": "Mes liens de parrainage et rapports"
+    };
+});
+
+define("PartnersHub.Home.ReferralLinksReports.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "J5lNcrQnik2aXzdyKncEuA#Value": "I miei link di referral e report"
+    };
+});
+
+define("PartnersHub.Home.ReferralLinksReports.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "J5lNcrQnik2aXzdyKncEuA#Value": "Moje linki polecające i raporty"
+    };
+});
+
+define("PartnersHub.Home.ReferralLinksReports.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "J5lNcrQnik2aXzdyKncEuA#Value": "Meus links de referência e relatórios"
+    };
+});
+
+define("PartnersHub.Home.ReferralLinksReports.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "J5lNcrQnik2aXzdyKncEuA#Value": "Мои реферальные ссылки и отчеты"
+    };
+});
+
+define("PartnersHub.Home.ReferralLinksReports.mvc$translationsResources", ["exports", "PartnersHub.Home.ReferralLinksReports.mvc$translationsResources.de-DE", "PartnersHub.Home.ReferralLinksReports.mvc$translationsResources.es-ES", "PartnersHub.Home.ReferralLinksReports.mvc$translationsResources.fr-FR", "PartnersHub.Home.ReferralLinksReports.mvc$translationsResources.it-IT", "PartnersHub.Home.ReferralLinksReports.mvc$translationsResources.pl-PL", "PartnersHub.Home.ReferralLinksReports.mvc$translationsResources.pt-PT", "PartnersHub.Home.ReferralLinksReports.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Home_ReferralLinksReports_mvc_translationsResources_deDE, PartnersHub_Home_ReferralLinksReports_mvc_translationsResources_esES, PartnersHub_Home_ReferralLinksReports_mvc_translationsResources_frFR, PartnersHub_Home_ReferralLinksReports_mvc_translationsResources_itIT, PartnersHub_Home_ReferralLinksReports_mvc_translationsResources_plPL, PartnersHub_Home_ReferralLinksReports_mvc_translationsResources_ptPT, PartnersHub_Home_ReferralLinksReports_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Home_ReferralLinksReports_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Home_ReferralLinksReports_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Home_ReferralLinksReports_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Home_ReferralLinksReports_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Home_ReferralLinksReports_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Home_ReferralLinksReports_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Home_ReferralLinksReports_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

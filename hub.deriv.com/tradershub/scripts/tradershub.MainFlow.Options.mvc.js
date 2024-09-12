@@ -1,4 +1,4 @@
-define("tradershub.MainFlow.Options.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.model$ST_8d630435c078369fbe29222c857e96f2Structure", "tradershub.model$ST_dda3674fb618c7350645a460f303a303Structure", "tradershub.model$RL_5efabb620fce6e69244e61944ef4417d", "tradershub.model$ST_2b68b61da9b8f6db8463a60cc48350faStructure", "tradershub.controller$SendAuthorize", "tradershub.controller$GetWebsiteStatus", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting", "tradershub.controller$TradingPlatformProductListing", "tradershub.model$ST_52667a49e65b5175f66dacecb12f345fStructure", "tradershub.controller$GetAccountByLoginId", "tradershub.controller$TopupVirtualAccount", "tradershub.controller$GetAllAccountsBalance", "tradershub.model$EN_bf87ce2ee46f8f5bc73889fe14426739EntityRecord", "tradershub.model$RL_7f0ff0d0a70a4e41424efbf5ef899b8d", "tradershub.model$ST_d9250f167f0b0818f60ee73b22ec1a06Structure"], function(OSRuntimeCore, tradershubModel, tradershubController) {
+define("tradershub.MainFlow.Options.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "OutSystemsUI.controller", "tradershub.controller", "OutSystemsUI.controller$IsDesktop", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.model$ST_8d630435c078369fbe29222c857e96f2Structure", "tradershub.model$ST_dda3674fb618c7350645a460f303a303Structure", "tradershub.model$RL_5efabb620fce6e69244e61944ef4417d", "tradershub.model$ST_2b68b61da9b8f6db8463a60cc48350faStructure", "tradershub.controller$SendAuthorize", "tradershub.controller$GetWebsiteStatus", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting", "tradershub.controller$TradingPlatformProductListing", "tradershub.model$ST_52667a49e65b5175f66dacecb12f345fStructure", "tradershub.controller$GetAccountByLoginId", "tradershub.controller$TopupVirtualAccount", "tradershub.model$EN_bf87ce2ee46f8f5bc73889fe14426739EntityRecord", "tradershub.model$RL_7f0ff0d0a70a4e41424efbf5ef899b8d", "tradershub.controller$GetAllAccountsBalance", "tradershub.controller$getCurrencyIcon", "tradershub.model$ST_d9250f167f0b0818f60ee73b22ec1a06Structure"], function(OSRuntimeCore, tradershubModel, OutSystemsUIController, tradershubController) {
     var OS = OSRuntimeCore;
 
     {
@@ -77,6 +77,9 @@ define("tradershub.MainFlow.Options.mvc$model", ["@outsystems/runtime-core-js", 
                     this.attr("IsLoading", "isLoadingVar", "IsLoading", true, false, OS.DataTypes.DataTypes.Boolean, function() {
                         return false;
                     }, false),
+                    this.attr("OpenAccountSwitcherModal", "openAccountSwitcherModalVar", "OpenAccountSwitcherModal", true, false, OS.DataTypes.DataTypes.Boolean, function() {
+                        return false;
+                    }, false),
                     this.attr("TrustPilot", "trustPilotDataAct", "TrustPilot", true, true, OS.DataTypes.DataTypes.Record, function() {
                         return OS.DataTypes.ImmutableBase.getData(new TrustPilotDataActRec());
                     }, true, TrustPilotDataActRec)
@@ -119,7 +122,7 @@ define("tradershub.MainFlow.Options.mvc$model", ["@outsystems/runtime-core-js", 
     return new OS.Model.ModelFactory(Model);
 });
 
-define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "react", "@outsystems/runtime-view-js", "tradershub.MainFlow.Options.mvc$model", "tradershub.MainFlow.Options.mvc$controller", "tradershub.clientVariables", "tradershub.Layouts.MainLayout.mvc$view", "@outsystems/runtime-widgets-js", "OutSystemsUI.Numbers.Rating.mvc$view", "OutSystemsUI.Content.Tooltip.mvc$view", "OutSystemsUI.Utilities.Separator.mvc$view", "tradershub.model$ST_8d630435c078369fbe29222c857e96f2Structure", "tradershub.model$ST_dda3674fb618c7350645a460f303a303Structure", "tradershub.model$RL_5efabb620fce6e69244e61944ef4417d", "tradershub.model$ST_2b68b61da9b8f6db8463a60cc48350faStructure", "tradershub.controller$SendAuthorize", "tradershub.controller$GetWebsiteStatus", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting", "tradershub.controller$TradingPlatformProductListing", "tradershub.model$ST_52667a49e65b5175f66dacecb12f345fStructure", "tradershub.controller$GetAccountByLoginId", "tradershub.controller$TopupVirtualAccount", "tradershub.controller$GetAllAccountsBalance", "tradershub.model$EN_bf87ce2ee46f8f5bc73889fe14426739EntityRecord", "tradershub.model$RL_7f0ff0d0a70a4e41424efbf5ef899b8d", "tradershub.model$ST_d9250f167f0b0818f60ee73b22ec1a06Structure"], function(OSRuntimeCore, tradershubModel, tradershubController, React, OSView, tradershub_MainFlow_Options_mvc_model, tradershub_MainFlow_Options_mvc_controller, tradershubClientVariables, tradershub_Layouts_MainLayout_mvc_view, OSWidgets, OutSystemsUI_Numbers_Rating_mvc_view, OutSystemsUI_Content_Tooltip_mvc_view, OutSystemsUI_Utilities_Separator_mvc_view) {
+define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.controller", "react", "@outsystems/runtime-view-js", "tradershub.MainFlow.Options.mvc$model", "tradershub.MainFlow.Options.mvc$controller", "tradershub.clientVariables", "tradershub.Layouts.MainLayout.mvc$view", "@outsystems/runtime-widgets-js", "OutSystemsUI.Numbers.Rating.mvc$view", "OutSystemsUI.Content.Tooltip.mvc$view", "OutSystemsUI.Utilities.Separator.mvc$view", "OutSystemsUI.controller$IsDesktop", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.model$ST_8d630435c078369fbe29222c857e96f2Structure", "tradershub.model$ST_dda3674fb618c7350645a460f303a303Structure", "tradershub.model$RL_5efabb620fce6e69244e61944ef4417d", "tradershub.model$ST_2b68b61da9b8f6db8463a60cc48350faStructure", "tradershub.controller$SendAuthorize", "tradershub.controller$GetWebsiteStatus", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting", "tradershub.controller$TradingPlatformProductListing", "tradershub.model$ST_52667a49e65b5175f66dacecb12f345fStructure", "tradershub.controller$GetAccountByLoginId", "tradershub.controller$TopupVirtualAccount", "tradershub.model$EN_bf87ce2ee46f8f5bc73889fe14426739EntityRecord", "tradershub.model$RL_7f0ff0d0a70a4e41424efbf5ef899b8d", "tradershub.controller$GetAllAccountsBalance", "tradershub.controller$getCurrencyIcon", "tradershub.model$ST_d9250f167f0b0818f60ee73b22ec1a06Structure"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIController, React, OSView, tradershub_MainFlow_Options_mvc_model, tradershub_MainFlow_Options_mvc_controller, tradershubClientVariables, tradershub_Layouts_MainLayout_mvc_view, OSWidgets, OutSystemsUI_Numbers_Rating_mvc_view, OutSystemsUI_Content_Tooltip_mvc_view, OutSystemsUI_Utilities_Separator_mvc_view) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -302,18 +305,37 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     uuid: "7"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
-                            }, React.createElement(OSWidgets.Image, {
-                                gridProperties: {
-                                    classes: "OSFillParent"
-                                },
-                                image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.trustpilotbanner.svg"),
-                                style: "position-relative",
-                                type: /*Static*/ 0,
-                                _idProps: {
-                                    service: idService,
-                                    uuid: "8"
-                                },
-                                _widgetRecordProvider: widgetsRecordProvider
+                            }, $if(OutSystemsUIController.default.isDesktop$Action(callContext).isDesktopOut, false, this, function() {
+                                return [React.createElement(OSWidgets.Image, {
+                                    gridProperties: {
+                                        classes: "OSFillParent"
+                                    },
+                                    image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.trustpilotbanner.svg"),
+                                    style: "position-relative",
+                                    type: /*Static*/ 0,
+                                    _idProps: {
+                                        service: idService,
+                                        uuid: "8"
+                                    },
+                                    _widgetRecordProvider: widgetsRecordProvider
+                                })];
+                            }, function() {
+                                return [React.createElement(OSWidgets.Image, {
+                                    extendedProperties: {
+                                        style: "height: 180px;"
+                                    },
+                                    gridProperties: {
+                                        classes: "OSFillParent"
+                                    },
+                                    image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.trustpilot_responsivebanner.svg"),
+                                    style: "position-relative",
+                                    type: /*Static*/ 0,
+                                    _idProps: {
+                                        service: idService,
+                                        uuid: "9"
+                                    },
+                                    _widgetRecordProvider: widgetsRecordProvider
+                                })];
                             }), React.createElement(OSWidgets.Container, {
                                 align: /*Default*/ 0,
                                 animate: false,
@@ -332,7 +354,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 text: ["Join over 2.5 million traders"],
                                 _idProps: {
                                     service: idService,
-                                    uuid: "10"
+                                    uuid: "11"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }), React.createElement(OSWidgets.Button, {
@@ -347,7 +369,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 isDefault: false,
                                 onClick: function() {
                                     try {
-                                        OS.Navigation.navigateTo(OS.Navigation.generateScreenURL("https://deriv-dev.outsystems.app/tradershub/login", {}), OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default), null, true);
+                                        OS.Navigation.navigateTo(OS.Navigation.generateScreenURL((((OS.BuiltinFunctions.index(tradershubClientVariables.getURL(), "green", 0, false, false) > -1)) ? (("https://oauth.deriv.com/oauth2/authorize?app_id=" + tradershubClientVariables.getAppId())) : (((("https://" + tradershubClientVariables.getURL()) + "/oauth2/authorize?app_id=") + tradershubClientVariables.getAppId()))), {}), OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default), null, true);
                                     } catch (ex) {
                                         if (((ex.name) !== ("RedirectOccurredException"))) {
                                             throw ex;
@@ -359,7 +381,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "11"
+                                    uuid: "12"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Text, {
@@ -369,7 +391,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 text: ["Get started"],
                                 _idProps: {
                                     service: idService,
-                                    uuid: "12"
+                                    uuid: "13"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             })))), React.createElement(OSWidgets.Container, {
@@ -382,7 +404,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "13"
+                                    uuid: "14"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Text, {
@@ -390,7 +412,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 text: ["Our customer say"],
                                 _idProps: {
                                     service: idService,
-                                    uuid: "14"
+                                    uuid: "15"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }), React.createElement(OSWidgets.Container, {
@@ -413,7 +435,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 text: ["Excellent"],
                                 _idProps: {
                                     service: idService,
-                                    uuid: "16"
+                                    uuid: "17"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             })), React.createElement(OutSystemsUI_Numbers_Rating_mvc_view, {
@@ -437,7 +459,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 },
                                 _idProps: {
                                     service: idService,
-                                    uuid: "17",
+                                    uuid: "18",
                                     alias: "2"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider,
@@ -451,7 +473,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                             type: /*Static*/ 0,
                                             _idProps: {
                                                 service: idService,
-                                                uuid: "18"
+                                                uuid: "19"
                                             },
                                             _widgetRecordProvider: widgetsRecordProvider
                                         })];
@@ -465,7 +487,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                             type: /*Static*/ 0,
                                             _idProps: {
                                                 service: idService,
-                                                uuid: "19"
+                                                uuid: "20"
                                             },
                                             _widgetRecordProvider: widgetsRecordProvider
                                         })];
@@ -476,7 +498,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                             type: /*Static*/ 0,
                                             _idProps: {
                                                 service: idService,
-                                                uuid: "20"
+                                                uuid: "21"
                                             },
                                             _widgetRecordProvider: widgetsRecordProvider
                                         })];
@@ -496,7 +518,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "21"
+                                    uuid: "22"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Expression, {
@@ -512,7 +534,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 }),
                                 _idProps: {
                                     service: idService,
-                                    uuid: "22"
+                                    uuid: "23"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider,
                                 value_dataFetchStatus: OS.Model.calculateDataFetchStatus(model.variables.trustPilotDataAct.dataFetchStatusAttr)
@@ -533,7 +555,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 type: /*Static*/ 0,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "23"
+                                    uuid: "24"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             })))];
@@ -564,7 +586,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                             visible: true,
                             _idProps: {
                                 service: idService,
-                                uuid: "26"
+                                uuid: "27"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         }, React.createElement(OSWidgets.Text, {
@@ -572,7 +594,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                             text: ["Options trading"],
                             _idProps: {
                                 service: idService,
-                                uuid: "27"
+                                uuid: "28"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         }), React.createElement(OutSystemsUI_Content_Tooltip_mvc_view, {
@@ -595,7 +617,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                             },
                             _idProps: {
                                 service: idService,
-                                uuid: "28",
+                                uuid: "29",
                                 alias: "3"
                             },
                             _widgetRecordProvider: widgetsRecordProvider,
@@ -613,7 +635,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                         type: /*Static*/ 0,
                                         _idProps: {
                                             service: idService,
-                                            uuid: "29"
+                                            uuid: "30"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
                                     })];
@@ -690,7 +712,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "33"
+                                        uuid: "34"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Container, {
@@ -709,7 +731,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     extendedEvents: {
                                         onClick: function() {
                                             var eventHandlerContext = callContext.clone();
-                                            controller.openAccountSwitcherOnClick$Action(controller.callContext(eventHandlerContext));
+                                            controller.mobileAccountSwitcherOnClick$Action(controller.callContext(eventHandlerContext));
 
                                             ;
                                         }
@@ -731,7 +753,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     text: ["Balance:"],
                                     _idProps: {
                                         service: idService,
-                                        uuid: "36"
+                                        uuid: "37"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }), React.createElement(OSWidgets.Container, {
@@ -741,7 +763,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "37"
+                                        uuid: "38"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Expression, {
@@ -751,7 +773,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     value: ((model.variables.selectedAccountBalanceVar + " ") + model.variables.selectedAccountCurrencyVar),
                                     _idProps: {
                                         service: idService,
-                                        uuid: "38"
+                                        uuid: "39"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }), React.createElement(OSWidgets.Container, {
@@ -764,7 +786,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "39"
+                                        uuid: "40"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Image, {
@@ -772,7 +794,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     type: /*Static*/ 0,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "40"
+                                        uuid: "41"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 })))), React.createElement(OSWidgets.Container, {
@@ -803,7 +825,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     text: ["Balance:"],
                                     _idProps: {
                                         service: idService,
-                                        uuid: "42"
+                                        uuid: "43"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }), React.createElement(OSWidgets.Container, {
@@ -813,7 +835,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "43"
+                                        uuid: "44"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Expression, {
@@ -823,7 +845,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     value: ((model.variables.selectedAccountBalanceVar + " ") + model.variables.selectedAccountCurrencyVar),
                                     _idProps: {
                                         service: idService,
-                                        uuid: "44"
+                                        uuid: "45"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }), React.createElement(OSWidgets.Container, {
@@ -836,7 +858,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "45"
+                                        uuid: "46"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Image, {
@@ -844,7 +866,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     type: /*Static*/ 0,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "46"
+                                        uuid: "47"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 })))), React.createElement(OSWidgets.Container, {
@@ -854,7 +876,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "47"
+                                        uuid: "48"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Button, {
@@ -874,7 +896,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "48"
+                                        uuid: "49"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Image, {
@@ -882,7 +904,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     type: /*Static*/ 0,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "49"
+                                        uuid: "50"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }), React.createElement(OSWidgets.Text, {
@@ -893,7 +915,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     text: ["Transfer"],
                                     _idProps: {
                                         service: idService,
-                                        uuid: "50"
+                                        uuid: "51"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 })), React.createElement(OSWidgets.Link, {
@@ -907,7 +929,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "51"
+                                        uuid: "52"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Text, {
@@ -918,7 +940,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     text: ["Transfer"],
                                     _idProps: {
                                         service: idService,
-                                        uuid: "52"
+                                        uuid: "53"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 })))), $if(model.variables.isAccountSwitcherOpenVar, true, this, function() {
@@ -951,7 +973,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                         text: ["Select account"],
                                         _idProps: {
                                             service: idService,
-                                            uuid: "55"
+                                            uuid: "56"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
                                     })), React.createElement(OSWidgets.Container, {
@@ -1013,7 +1035,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                                                 visible: true,
                                                                 _idProps: {
                                                                     service: idService,
-                                                                    uuid: "59"
+                                                                    uuid: "60"
                                                                 },
                                                                 _widgetRecordProvider: widgetsRecordProvider
                                                             }, React.createElement(OSWidgets.Container, {
@@ -1038,7 +1060,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                                                 url: model.variables.filteredAccountListVar.getCurrent(callContext.iterationContext).iconAttr,
                                                                 _idProps: {
                                                                     service: idService,
-                                                                    uuid: "61"
+                                                                    uuid: "62"
                                                                 },
                                                                 _widgetRecordProvider: widgetsRecordProvider
                                                             })), React.createElement(OSWidgets.Container, {
@@ -1090,7 +1112,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                         visible: true,
                                         _idProps: {
                                             service: idService,
-                                            uuid: "65"
+                                            uuid: "66"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
                                     }, React.createElement(OSWidgets.Container, {
@@ -1113,7 +1135,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                         text: ["Add more accounts"],
                                         _idProps: {
                                             service: idService,
-                                            uuid: "67"
+                                            uuid: "68"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
                                     }), React.createElement(OSWidgets.Container, {
@@ -1123,7 +1145,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                         visible: true,
                                         _idProps: {
                                             service: idService,
-                                            uuid: "68"
+                                            uuid: "69"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
                                     }, React.createElement(OSWidgets.Image, {
@@ -1131,7 +1153,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                         type: /*Static*/ 0,
                                         _idProps: {
                                             service: idService,
-                                            uuid: "69"
+                                            uuid: "70"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
                                     }))))))];
@@ -1158,7 +1180,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "71"
+                                        uuid: "72"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Text, {
@@ -1168,7 +1190,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     text: ["Balance:"],
                                     _idProps: {
                                         service: idService,
-                                        uuid: "72"
+                                        uuid: "73"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }), React.createElement(OSWidgets.Container, {
@@ -1177,7 +1199,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "73"
+                                        uuid: "74"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Expression, {
@@ -1221,7 +1243,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "76"
+                                        uuid: "77"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Image, {
@@ -1229,7 +1251,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     type: /*Static*/ 0,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "77"
+                                        uuid: "78"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }), React.createElement(OSWidgets.Text, {
@@ -1240,7 +1262,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     text: ["Reset balance"],
                                     _idProps: {
                                         service: idService,
-                                        uuid: "78"
+                                        uuid: "79"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 })), React.createElement(OSWidgets.Text, {
@@ -1251,7 +1273,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     text: ["Reset balance"],
                                     _idProps: {
                                         service: idService,
-                                        uuid: "79"
+                                        uuid: "80"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 })))];
@@ -1298,7 +1320,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "82"
+                                    uuid: "83"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Image, {
@@ -1313,7 +1335,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 type: /*Static*/ 0,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "83"
+                                    uuid: "84"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }), React.createElement(OSWidgets.Container, {
@@ -1326,7 +1348,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "84"
+                                    uuid: "85"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Text, {
@@ -1336,7 +1358,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 text: ["Deriv Trader"],
                                 _idProps: {
                                     service: idService,
-                                    uuid: "85"
+                                    uuid: "86"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }), React.createElement(OSWidgets.Text, {
@@ -1346,7 +1368,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 text: ["Diverse trading options, low-entry costs."],
                                 _idProps: {
                                     service: idService,
-                                    uuid: "86"
+                                    uuid: "87"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }))), $if(((tradershubClientVariables.getAuthToken()) !== (OS.BuiltinFunctions.nullTextIdentifier())), false, this, function() {
@@ -1369,7 +1391,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "87"
+                                        uuid: "88"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, "Trade")];
@@ -1380,7 +1402,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     type: /*Static*/ 0,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "88"
+                                        uuid: "89"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 })];
@@ -1422,7 +1444,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "91"
+                                    uuid: "92"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Container, {
@@ -1435,7 +1457,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "92"
+                                    uuid: "93"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Image, {
@@ -1444,7 +1466,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 type: /*Static*/ 0,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "93"
+                                    uuid: "94"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             })), "Accumulators"), React.createElement(OSWidgets.Container, {
@@ -1465,7 +1487,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "94"
+                                    uuid: "95"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Container, {
@@ -1478,7 +1500,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "95"
+                                    uuid: "96"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Image, {
@@ -1487,7 +1509,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 type: /*Static*/ 0,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "96"
+                                    uuid: "97"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             })), "Turbos"), React.createElement(OSWidgets.Container, {
@@ -1508,7 +1530,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "97"
+                                    uuid: "98"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Container, {
@@ -1521,7 +1543,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "98"
+                                    uuid: "99"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Image, {
@@ -1530,7 +1552,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 type: /*Static*/ 0,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "99"
+                                    uuid: "100"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             })), "Vanilla options"), React.createElement(OSWidgets.Container, {
@@ -1551,7 +1573,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "100"
+                                    uuid: "101"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Container, {
@@ -1564,7 +1586,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "101"
+                                    uuid: "102"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Image, {
@@ -1573,7 +1595,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 type: /*Static*/ 0,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "102"
+                                    uuid: "103"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             })), "Multiplies")), React.createElement(OSWidgets.Container, {
@@ -1583,7 +1605,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "103"
+                                    uuid: "104"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Button, {
@@ -1665,7 +1687,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "108"
+                                    uuid: "109"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Container, {
@@ -1675,7 +1697,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "109"
+                                    uuid: "110"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Text, {
@@ -1685,7 +1707,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 text: ["Deriv Bot"],
                                 _idProps: {
                                     service: idService,
-                                    uuid: "110"
+                                    uuid: "111"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }), React.createElement(OSWidgets.Text, {
@@ -1695,7 +1717,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 text: ["Automated trading with custom bots."],
                                 _idProps: {
                                     service: idService,
-                                    uuid: "111"
+                                    uuid: "112"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             })), React.createElement(OSWidgets.Image, {
@@ -1709,7 +1731,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 type: /*Static*/ 0,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "112"
+                                    uuid: "113"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             })))];
@@ -1750,7 +1772,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 type: /*Static*/ 0,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "114"
+                                    uuid: "115"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }), React.createElement(OSWidgets.Container, {
@@ -1763,7 +1785,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "115"
+                                    uuid: "116"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Container, {
@@ -1773,7 +1795,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "116"
+                                    uuid: "117"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Text, {
@@ -1783,7 +1805,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 text: ["SmartTrader"],
                                 _idProps: {
                                     service: idService,
-                                    uuid: "117"
+                                    uuid: "118"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }), React.createElement(OSWidgets.Text, {
@@ -1793,7 +1815,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 text: ["Simple interface for traders of all levels."],
                                 _idProps: {
                                     service: idService,
-                                    uuid: "118"
+                                    uuid: "119"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             })), React.createElement(OSWidgets.Image, {
@@ -1807,7 +1829,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 type: /*Static*/ 0,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "119"
+                                    uuid: "120"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             })))];
@@ -1831,7 +1853,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 text: ["Download our mobile app:"],
                                 _idProps: {
                                     service: idService,
-                                    uuid: "121"
+                                    uuid: "122"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             })), React.createElement(OSWidgets.Container, {
@@ -1863,7 +1885,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 type: /*Static*/ 0,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "123"
+                                    uuid: "124"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }), React.createElement(OSWidgets.Container, {
@@ -1873,7 +1895,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "124"
+                                    uuid: "125"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Container, {
@@ -1883,7 +1905,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "125"
+                                    uuid: "126"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Text, {
@@ -1893,7 +1915,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 text: ["Deriv Go"],
                                 _idProps: {
                                     service: idService,
-                                    uuid: "126"
+                                    uuid: "127"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }), React.createElement(OSWidgets.Text, {
@@ -1903,7 +1925,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 text: ["Mobile trading on-the-go."],
                                 _idProps: {
                                     service: idService,
-                                    uuid: "127"
+                                    uuid: "128"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             })), React.createElement(OSWidgets.Image, {
@@ -1917,7 +1939,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 type: /*Static*/ 0,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "128"
+                                    uuid: "129"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }))), $if(model.variables.isDerivGoModalVisibleVar, false, this, function() {
@@ -1932,7 +1954,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Popup, {
                                     extendedProperties: {
-                                        style: "height: auto; margin-bottom: 0px; margin-left: auto; margin-right: 0px; margin-top: 0px; padding: 10px;"
+                                        style: "height: 100%; margin-bottom: 0px; margin-left: auto; margin-right: 0px; margin-top: 0px; overflow-y: scroll; padding: 10px;"
                                     },
                                     showPopup: model.variables.isDerivGoModalVisibleVar,
                                     style: "\"popup-dialog\"",
@@ -1945,7 +1967,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     align: /*Default*/ 0,
                                     animate: false,
                                     extendedProperties: {
-                                        style: "margin-top: 0px;"
+                                        style: "margin-top: 10%;"
                                     },
                                     style: "display-flex align-items-center justify-content-space-between",
                                     visible: true,
@@ -1961,7 +1983,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     text: ["Trade with Deriv Go"],
                                     _idProps: {
                                         service: idService,
-                                        uuid: "132"
+                                        uuid: "133"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }), React.createElement(OSWidgets.Image, {
@@ -1984,7 +2006,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     type: /*Static*/ 0,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "133"
+                                        uuid: "134"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 })), React.createElement(OutSystemsUI_Utilities_Separator_mvc_view, {
@@ -2005,7 +2027,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     },
                                     _idProps: {
                                         service: idService,
-                                        uuid: "134",
+                                        uuid: "135",
                                         alias: "4"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider,
@@ -2032,7 +2054,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "136"
+                                        uuid: "137"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Image, {
@@ -2040,7 +2062,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     type: /*Static*/ 0,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "137"
+                                        uuid: "138"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }), React.createElement(OSWidgets.Text, {
@@ -2050,18 +2072,18 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     text: ["Deriv GO"],
                                     _idProps: {
                                         service: idService,
-                                        uuid: "138"
+                                        uuid: "139"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 })), React.createElement(OSWidgets.Image, {
                                     gridProperties: {
                                         classes: "OSFillParent"
                                     },
-                                    image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.derivgobanner.svg"),
+                                    image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.dgobanner.svg"),
                                     type: /*Static*/ 0,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "139"
+                                        uuid: "140"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }), React.createElement(OSWidgets.Container, {
@@ -2084,7 +2106,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     text: ["Download Deriv GO and dive into trading on your mobile."],
                                     _idProps: {
                                         service: idService,
-                                        uuid: "141"
+                                        uuid: "142"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 })), React.createElement(OSWidgets.Container, {
@@ -2122,7 +2144,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "144"
+                                        uuid: "145"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Image, {
@@ -2136,7 +2158,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     type: /*Static*/ 0,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "145"
+                                        uuid: "146"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 })), React.createElement(OSWidgets.Container, {
@@ -2148,7 +2170,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "146"
+                                        uuid: "147"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Text, {
@@ -2158,7 +2180,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     text: ["Scan the QR code to download Deriv GO"],
                                     _idProps: {
                                         service: idService,
-                                        uuid: "147"
+                                        uuid: "148"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }))), React.createElement(OSWidgets.Container, {
@@ -2187,7 +2209,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     type: /*Static*/ 0,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "149"
+                                        uuid: "150"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }), React.createElement(OSWidgets.Image, {
@@ -2207,7 +2229,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     type: /*Static*/ 0,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "150"
+                                        uuid: "151"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }))), React.createElement(OSWidgets.Container, {
@@ -2235,7 +2257,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "152"
+                                        uuid: "153"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Text, {
@@ -2245,7 +2267,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                     text: ["Note: "],
                                     _idProps: {
                                         service: idService,
-                                        uuid: "153"
+                                        uuid: "154"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }), "Already have Deriv GO? Open the app and trade now.")))))];
@@ -2276,7 +2298,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "155"
+                                    uuid: "156"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Button, {
@@ -2292,7 +2314,7 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "156"
+                                    uuid: "157"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, "OK")))];
@@ -2302,13 +2324,275 @@ define("tradershub.MainFlow.Options.mvc$view", ["@outsystems/runtime-core-js", "
                     })
                 },
                 _dependencies: [asPrimitiveValue(model.variables.isEmptyPlatformModalVisibleVar), asPrimitiveValue(model.variables.isDerivGoModalVisibleVar), asPrimitiveValue(model.variables.shouldShowDerivGoVar), asPrimitiveValue(model.variables.shouldShowSmartTraderVar), asPrimitiveValue(model.variables.shouldShowDBotVar), asPrimitiveValue(model.variables.isDisabledVar), asPrimitiveValue(model.variables.shouldShowDTraderVar), asPrimitiveValue(tradershubClientVariables.getActiveLoginId()), asPrimitiveValue(model.variables.filteredAccountListVar), asPrimitiveValue(model.variables.isAccountSwitcherOpenVar), asPrimitiveValue(model.variables.selectedAccountCurrencyVar), asPrimitiveValue(model.variables.selectedAccountBalanceVar), asPrimitiveValue(model.variables.trustPilotDataAct.dataFetchStatusAttr), asPrimitiveValue(model.variables.trustPilotDataAct.trustPilotOutputOut.numberOfReviewsAttr.totalAttr), asPrimitiveValue(model.variables.trustPilotDataAct.trustPilotOutputOut.scoreAttr.trustScoreAttr), asPrimitiveValue(model.variables.trustPilotDataAct.trustPilotOutputOut.scoreAttr.starsAttr), asPrimitiveValue(model.variables.hasRealAccountVar), asPrimitiveValue(tradershubClientVariables.getAuthToken()), asPrimitiveValue(model.variables.accountTypeVar)]
-            }));
+            }), React.createElement(OSWidgets.Container, {
+                align: /*Default*/ 0,
+                animate: false,
+                visible: true,
+                _idProps: {
+                    service: idService,
+                    name: "AccountSwitcherModal"
+                },
+                _widgetRecordProvider: widgetsRecordProvider
+            }, React.createElement(OSWidgets.Popup, {
+                showPopup: model.variables.openAccountSwitcherModalVar,
+                style: "\"popup-dialog\"",
+                _idProps: {
+                    service: idService,
+                    uuid: "159"
+                },
+                _widgetRecordProvider: widgetsRecordProvider
+            }, $if(model.variables.openAccountSwitcherModalVar, true, this, function() {
+                return [React.createElement(OSWidgets.Container, {
+                    align: /*Default*/ 0,
+                    animate: false,
+                    visible: true,
+                    _idProps: {
+                        service: idService,
+                        name: "container"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }, React.createElement(OSWidgets.Container, {
+                    align: /*Default*/ 0,
+                    animate: false,
+                    extendedEvents: {
+                        onClick: function() {
+                            var eventHandlerContext = callContext.clone();
+                            controller.titleContainerMobileOnClick$Action(controller.callContext(eventHandlerContext));
+
+                            ;
+                        }
+                    },
+                    extendedProperties: {
+                        style: "border-color: #E9ECEF; border-style: none none solid none; border-width: 0px 0px 2px 0px; height: 52px; padding: 0 16px;"
+                    },
+                    style: "display-flex align-items-center",
+                    visible: true,
+                    _idProps: {
+                        service: idService,
+                        name: "TitleContainerMobile"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }, React.createElement(OSWidgets.Container, {
+                    align: /*Default*/ 0,
+                    animate: false,
+                    extendedProperties: {
+                        style: "margin-right: 16px;"
+                    },
+                    style: "display-flex align-items-center justify-content-center",
+                    visible: true,
+                    _idProps: {
+                        service: idService,
+                        uuid: "162"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }, React.createElement(OSWidgets.Image, {
+                    image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.arrowleft.svg"),
+                    type: /*Static*/ 0,
+                    _idProps: {
+                        service: idService,
+                        uuid: "163"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                })), React.createElement(OSWidgets.Text, {
+                    extendedProperties: {
+                        style: "color: #272B30; font-size: 18px; font-weight: 700;"
+                    },
+                    text: ["Select account"],
+                    _idProps: {
+                        service: idService,
+                        uuid: "164"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                })), React.createElement(OSWidgets.Container, {
+                    align: /*Default*/ 0,
+                    animate: false,
+                    extendedProperties: {
+                        style: "padding: 16px;"
+                    },
+                    visible: true,
+                    _idProps: {
+                        service: idService,
+                        name: "AccountListContainerMobile"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }, React.createElement(OSWidgets.List, {
+                    animateItems: true,
+                    gridProperties: {
+                        classes: "OSFillParent"
+                    },
+                    mode: /*Default*/ 0,
+                    source: model.variables.filteredAccountListVar,
+                    style: "list list-group",
+                    tag: "div",
+                    _idProps: {
+                        service: idService,
+                        name: "AccountList2"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider,
+                    placeholders: {
+                        content: new IteratorPlaceholderContent(function(idService, callContext) {
+                            return [React.createElement(OSWidgets.ListItem, {
+                                onClick: function() {
+                                    return Promise.resolve().then(function() {
+                                        var eventHandlerContext = callContext.clone();
+                                        return controller.accountListItemOnClick$Action(controller.callContext(eventHandlerContext));
+                                    });;
+                                },
+                                style: "list-item",
+                                triggerActionOnFullSwipeLeft: true,
+                                triggerActionOnFullSwipeRight: true,
+                                _idProps: {
+                                    service: idService,
+                                    name: "ListItem2"
+                                },
+                                _widgetRecordProvider: widgetsRecordProvider,
+                                placeholders: {
+                                    leftActions: PlaceholderContent.Empty,
+                                    content: new PlaceholderContent(function() {
+                                        return [React.createElement(OSWidgets.Container, {
+                                            align: /*Default*/ 0,
+                                            animate: false,
+                                            style: model.getCachedValue(idService.getId("jniRmc6ji0OA7L_33sDXnA.Style"), function() {
+                                                return (((tradershubClientVariables.getActiveLoginId() === model.variables.filteredAccountListVar.getCurrent(callContext.iterationContext).loginidAttr)) ? ("account-list-item active-account") : ("account-list-item"));
+                                            }, function() {
+                                                return tradershubClientVariables.getActiveLoginId();
+                                            }, function() {
+                                                return model.variables.filteredAccountListVar.getCurrent(callContext.iterationContext).loginidAttr;
+                                            }),
+                                            visible: true,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "168"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }, React.createElement(OSWidgets.Container, {
+                                            align: /*Default*/ 0,
+                                            animate: false,
+                                            extendedProperties: {
+                                                style: "border-radius: 100%; height: 24px; overflow: hidden;"
+                                            },
+                                            gridProperties: {
+                                                classes: "OSInline",
+                                                width: "24px"
+                                            },
+                                            style: "display-flex align-items-center justify-content-center",
+                                            visible: true,
+                                            _idProps: {
+                                                service: idService,
+                                                name: "Icon2"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }, React.createElement(OSWidgets.Image, {
+                                            type: /*External*/ 1,
+                                            url: model.variables.filteredAccountListVar.getCurrent(callContext.iterationContext).iconAttr,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "170"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        })), React.createElement(OSWidgets.Container, {
+                                            align: /*Default*/ 0,
+                                            animate: false,
+                                            gridProperties: {
+                                                marginLeft: "8px"
+                                            },
+                                            style: "display-flex align-items-center",
+                                            visible: true,
+                                            _idProps: {
+                                                service: idService,
+                                                name: "text2"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }, React.createElement(OSWidgets.Expression, {
+                                            style: "account-list-item__text",
+                                            value: (model.variables.filteredAccountListVar.getCurrent(callContext.iterationContext).balanceAttr).toString(),
+                                            _idProps: {
+                                                service: idService,
+                                                name: "AccountBalance2"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }), React.createElement(OSWidgets.Expression, {
+                                            gridProperties: {
+                                                marginLeft: "5px"
+                                            },
+                                            style: "account-list-item__text",
+                                            value: model.variables.filteredAccountListVar.getCurrent(callContext.iterationContext).currencyAttr,
+                                            _idProps: {
+                                                service: idService,
+                                                name: "AccountCurrency2"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        })))];
+                                    }),
+                                    rightActions: PlaceholderContent.Empty
+                                },
+                                _dependencies: [asPrimitiveValue(model.variables.filteredAccountListVar.getCurrent(callContext.iterationContext).currencyAttr), asPrimitiveValue(model.variables.filteredAccountListVar.getCurrent(callContext.iterationContext).balanceAttr), asPrimitiveValue(model.variables.filteredAccountListVar.getCurrent(callContext.iterationContext).iconAttr), asPrimitiveValue(model.variables.filteredAccountListVar.getCurrent(callContext.iterationContext).loginidAttr), asPrimitiveValue(tradershubClientVariables.getActiveLoginId())]
+                            })];
+                        }, callContext, idService, "2")
+                    },
+                    _dependencies: [asPrimitiveValue(tradershubClientVariables.getActiveLoginId())]
+                }), React.createElement(OSWidgets.Link, {
+                    enabled: true,
+                    style: "remove-hover",
+                    transition: OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Fade),
+                    url: OS.Navigation.generateScreenURL("tradershub", "AddMoreAccount", {}),
+                    visible: true,
+                    _idProps: {
+                        service: idService,
+                        uuid: "174"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }, React.createElement(OSWidgets.Container, {
+                    align: /*Default*/ 0,
+                    animate: false,
+                    extendedProperties: {
+                        style: "border-color: #DEE2E6; border-style: solid; border-width: 1px 0px 0px 0px; padding: 8px;"
+                    },
+                    style: "display-flex align-items-center justify-content-space-between",
+                    visible: true,
+                    _idProps: {
+                        service: idService,
+                        name: "AddMoreAccountContainer2"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }, React.createElement(OSWidgets.Text, {
+                    extendedProperties: {
+                        style: "color: #272B30; font-weight: 700;"
+                    },
+                    text: ["Add more accounts"],
+                    _idProps: {
+                        service: idService,
+                        uuid: "176"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }), React.createElement(OSWidgets.Container, {
+                    align: /*Default*/ 0,
+                    animate: false,
+                    style: "display-flex align-items-center justify-content-center",
+                    visible: true,
+                    _idProps: {
+                        service: idService,
+                        uuid: "177"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }, React.createElement(OSWidgets.Image, {
+                    image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.standalone_chevron_right_md.svg"),
+                    type: /*Static*/ 0,
+                    _idProps: {
+                        service: idService,
+                        uuid: "178"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }))))))];
+            }, function() {
+                return [];
+            }))));
         }
     }
 
     return View;
 });
-define("tradershub.MainFlow.Options.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.MainFlow.controller", "tradershub.MainFlow.Options.mvc$controller.setDemoValue.GenerateDemoAccountTokenJS", "tradershub.MainFlow.Options.mvc$controller.OnReady.JavaScript1JS", "tradershub.MainFlow.Options.mvc$controller.OnReady.JavaScript2JS", "tradershub.MainFlow.Options.mvc$controller.FilterAccountListAction.FilterAccountListJS", "tradershub.model$ST_8d630435c078369fbe29222c857e96f2Structure", "tradershub.model$ST_dda3674fb618c7350645a460f303a303Structure", "tradershub.model$RL_5efabb620fce6e69244e61944ef4417d", "tradershub.model$ST_2b68b61da9b8f6db8463a60cc48350faStructure", "tradershub.controller$SendAuthorize", "tradershub.controller$GetWebsiteStatus", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting", "tradershub.controller$TradingPlatformProductListing", "tradershub.model$ST_52667a49e65b5175f66dacecb12f345fStructure", "tradershub.controller$GetAccountByLoginId", "tradershub.controller$TopupVirtualAccount", "tradershub.controller$GetAllAccountsBalance", "tradershub.model$EN_bf87ce2ee46f8f5bc73889fe14426739EntityRecord", "tradershub.model$RL_7f0ff0d0a70a4e41424efbf5ef899b8d", "tradershub.model$ST_d9250f167f0b0818f60ee73b22ec1a06Structure"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_MainFlowController, tradershub_MainFlow_Options_mvc_controller_setDemoValue_GenerateDemoAccountTokenJS, tradershub_MainFlow_Options_mvc_controller_OnReady_JavaScript1JS, tradershub_MainFlow_Options_mvc_controller_OnReady_JavaScript2JS, tradershub_MainFlow_Options_mvc_controller_FilterAccountListAction_FilterAccountListJS) {
+define("tradershub.MainFlow.Options.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.MainFlow.controller", "tradershub.MainFlow.Options.mvc$controller.setDemoValue.GenerateDemoAccountTokenJS", "tradershub.MainFlow.Options.mvc$controller.OnReady.JavaScript1JS", "tradershub.MainFlow.Options.mvc$controller.OnReady.JavaScript2JS", "tradershub.MainFlow.Options.mvc$controller.FilterAccountListAction.FilterAccountListJS", "OutSystemsUI.controller$IsDesktop", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.model$ST_8d630435c078369fbe29222c857e96f2Structure", "tradershub.model$ST_dda3674fb618c7350645a460f303a303Structure", "tradershub.model$RL_5efabb620fce6e69244e61944ef4417d", "tradershub.model$ST_2b68b61da9b8f6db8463a60cc48350faStructure", "tradershub.controller$SendAuthorize", "tradershub.controller$GetWebsiteStatus", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting", "tradershub.controller$TradingPlatformProductListing", "tradershub.model$ST_52667a49e65b5175f66dacecb12f345fStructure", "tradershub.controller$GetAccountByLoginId", "tradershub.controller$TopupVirtualAccount", "tradershub.model$EN_bf87ce2ee46f8f5bc73889fe14426739EntityRecord", "tradershub.model$RL_7f0ff0d0a70a4e41424efbf5ef899b8d", "tradershub.controller$GetAllAccountsBalance", "tradershub.controller$getCurrencyIcon", "tradershub.model$ST_d9250f167f0b0818f60ee73b22ec1a06Structure"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIController, tradershubLanguageResources, tradershubClientVariables, tradershub_MainFlowController, tradershub_MainFlow_Options_mvc_controller_setDemoValue_GenerateDemoAccountTokenJS, tradershub_MainFlow_Options_mvc_controller_OnReady_JavaScript1JS, tradershub_MainFlow_Options_mvc_controller_OnReady_JavaScript2JS, tradershub_MainFlow_Options_mvc_controller_FilterAccountListAction_FilterAccountListJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -2838,6 +3122,43 @@ define("tradershub.MainFlow.Options.mvc$controller", ["@outsystems/runtime-core-
                 this.__onReady$Action = value;
             }
 
+            get _titleContainerMobileOnClick$Action() {
+                if (!(this.hasOwnProperty("__titleContainerMobileOnClick$Action"))) {
+                    this.__titleContainerMobileOnClick$Action = function(callContext) {
+                        var model = this.model;
+                        var controller = this.controller;
+                        var idService = this.idService;
+                        return OS.Logger.startActiveSpan("TitleContainerMobileOnClick", function(span) {
+                            if (span) {
+                                span.setAttribute("code.function", "TitleContainerMobileOnClick");
+                                span.setAttribute("outsystems.function.key", "914be576-b183-4eb7-9117-3dd64799a0e9");
+                                span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                            }
+
+                            try {
+                                controller.ensureControllerAlive("TitleContainerMobileOnClick");
+                                callContext = controller.callContext(callContext);
+                                // OpenAccountSwitcherModal = False
+                                model.variables.openAccountSwitcherModalVar = false;
+                            } finally {
+                                if (span) {
+                                    span.end();
+                                }
+
+                            }
+
+                        }, 1);
+                    };
+                }
+
+                return this.__titleContainerMobileOnClick$Action;
+            }
+            set _titleContainerMobileOnClick$Action(value) {
+                this.__titleContainerMobileOnClick$Action = value;
+            }
+
             get _onInitialize$Action() {
                 if (!(this.hasOwnProperty("__onInitialize$Action"))) {
                     this.__onInitialize$Action = function(callContext) {
@@ -2858,6 +3179,8 @@ define("tradershub.MainFlow.Options.mvc$controller", ["@outsystems/runtime-core-
                                 callContext = controller.callContext(callContext);
                                 // IsAccountSwitcherOpen = False
                                 model.variables.isAccountSwitcherOpenVar = false;
+                                // OpenAccountSwitcherModal = False
+                                model.variables.openAccountSwitcherModalVar = false;
                             } finally {
                                 if (span) {
                                     span.end();
@@ -3130,6 +3453,43 @@ define("tradershub.MainFlow.Options.mvc$controller", ["@outsystems/runtime-core-
                 this.__iOSDGoRedirection$Action = value;
             }
 
+            get _mobileAccountSwitcherOnClick$Action() {
+                if (!(this.hasOwnProperty("__mobileAccountSwitcherOnClick$Action"))) {
+                    this.__mobileAccountSwitcherOnClick$Action = function(callContext) {
+                        var model = this.model;
+                        var controller = this.controller;
+                        var idService = this.idService;
+                        return OS.Logger.startActiveSpan("MobileAccountSwitcherOnClick", function(span) {
+                            if (span) {
+                                span.setAttribute("code.function", "MobileAccountSwitcherOnClick");
+                                span.setAttribute("outsystems.function.key", "d1da44cc-b8ee-42c7-9e9b-9a28108531a6");
+                                span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                            }
+
+                            try {
+                                controller.ensureControllerAlive("MobileAccountSwitcherOnClick");
+                                callContext = controller.callContext(callContext);
+                                // OpenAccountSwitcherModal = notIsAccountSwitcherOpen
+                                model.variables.openAccountSwitcherModalVar = !(model.variables.isAccountSwitcherOpenVar);
+                            } finally {
+                                if (span) {
+                                    span.end();
+                                }
+
+                            }
+
+                        }, 1);
+                    };
+                }
+
+                return this.__mobileAccountSwitcherOnClick$Action;
+            }
+            set _mobileAccountSwitcherOnClick$Action(value) {
+                this.__mobileAccountSwitcherOnClick$Action = value;
+            }
+
             get _accountListItemOnClick$Action() {
                 if (!(this.hasOwnProperty("__accountListItemOnClick$Action"))) {
                     this.__accountListItemOnClick$Action = function(callContext) {
@@ -3153,6 +3513,8 @@ define("tradershub.MainFlow.Options.mvc$controller", ["@outsystems/runtime-core-
                                 return OS.Flow.executeAsyncFlow(function() {
                                     // IsAccountSwitcherOpen = False
                                     model.variables.isAccountSwitcherOpenVar = false;
+                                    // OpenAccountSwitcherModal = False
+                                    model.variables.openAccountSwitcherModalVar = false;
                                     return OS.Flow.executeSequence(function() {
                                         if (((((tradershubClientVariables.getActiveLoginId() === model.variables.filteredAccountListVar.getCurrent(callContext.iterationContext).loginidAttr)) ? (false) : (true)))) {
                                             // Execute Action: GetTokenByLoginId
@@ -3330,22 +3692,14 @@ define("tradershub.MainFlow.Options.mvc$controller", ["@outsystems/runtime-core-
                                 var getAllAccountsBalanceVar = new OS.DataTypes.VariableHolder();
                                 var sendAuthorizeVar = new OS.DataTypes.VariableHolder();
                                 var filterAccountListJSResult = new OS.DataTypes.VariableHolder();
-                                var jSONSerializeCurrencyListVar = new OS.DataTypes.VariableHolder(new OS.DataTypes.JSONSerializeOutputType());
+                                var jSONSerializeCurrenciesListVar = new OS.DataTypes.VariableHolder(new OS.DataTypes.JSONSerializeOutputType());
                                 var jSONSerializeAuthorizeVar = new OS.DataTypes.VariableHolder(new OS.DataTypes.JSONSerializeOutputType());
                                 var jSONDeserializeFilteredAccountListListVar = new OS.DataTypes.VariableHolder(new(OS.Controller.BaseController.getJSONDeserializeOutputType(tradershubModel.RL_5efabb620fce6e69244e61944ef4417d))());
                                 return OS.Flow.executeAsyncFlow(function() {
-                                    // Execute Action: CurrenciesList
+                                    // Execute Action: SendAuthorize
                                     model.flush();
-                                    return controller.currenciesList$ServerAction(callContext).then(function(value) {
-                                        currenciesListVar.value = value;
-                                    }).then(function() {
-                                        // JSON Serialize: JSONSerializeCurrencyList
-                                        jSONSerializeCurrencyListVar.value.jSONOut = OS.JSONUtils.serializeToJSON(currenciesListVar.value.currenciesListOut, false, false);
-                                        // Execute Action: SendAuthorize
-                                        model.flush();
-                                        return tradershubController.default.sendAuthorize$Action(false, callContext).then(function(value) {
-                                            sendAuthorizeVar.value = value;
-                                        });
+                                    return tradershubController.default.sendAuthorize$Action(false, callContext).then(function(value) {
+                                        sendAuthorizeVar.value = value;
                                     }).then(function() {
                                         // SelectedAccountCurrency = SendAuthorize.Response.Authorize.Currency
                                         model.variables.selectedAccountCurrencyVar = sendAuthorizeVar.value.responseOut.authorizeAttr.currencyAttr;
@@ -3359,6 +3713,14 @@ define("tradershub.MainFlow.Options.mvc$controller", ["@outsystems/runtime-core-
                                             getAllAccountsBalanceVar.value = value;
                                         });
                                     }).then(function() {
+                                        // Execute Action: CurrenciesList
+                                        model.flush();
+                                        return controller.currenciesList$ServerAction(callContext).then(function(value) {
+                                            currenciesListVar.value = value;
+                                        });
+                                    }).then(function() {
+                                        // JSON Serialize: JSONSerializeCurrenciesList
+                                        jSONSerializeCurrenciesListVar.value.jSONOut = OS.JSONUtils.serializeToJSON(currenciesListVar.value.currenciesListOut, false, false);
                                         filterAccountListJSResult.value = OS.Logger.startActiveSpan("FilterAccountList", function(span) {
                                             if (span) {
                                                 span.setAttribute("code.function", "FilterAccountList");
@@ -3370,7 +3732,7 @@ define("tradershub.MainFlow.Options.mvc$controller", ["@outsystems/runtime-core-
 
                                             try {
                                                 return controller.safeExecuteJSNode(tradershub_MainFlow_Options_mvc_controller_FilterAccountListAction_FilterAccountListJS, "FilterAccountList", "FilterAccountListAction", {
-                                                    CurrenciesList: OS.DataConversion.JSNodeParamConverter.to(jSONSerializeCurrencyListVar.value.jSONOut, OS.DataTypes.DataTypes.Text),
+                                                    CurrenciesList: OS.DataConversion.JSNodeParamConverter.to(jSONSerializeCurrenciesListVar.value.jSONOut, OS.DataTypes.DataTypes.Text),
                                                     AllAccountsBalance: OS.DataConversion.JSNodeParamConverter.to(getAllAccountsBalanceVar.value.responseOut, OS.DataTypes.DataTypes.Text),
                                                     AuthorizeResponse: OS.DataConversion.JSNodeParamConverter.to(jSONSerializeAuthorizeVar.value.jSONOut, OS.DataTypes.DataTypes.Text),
                                                     modifiedAccountList: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text),
@@ -3382,7 +3744,9 @@ define("tradershub.MainFlow.Options.mvc$controller", ["@outsystems/runtime-core-
                                                     jsNodeResult.hasRealAccountOut = OS.DataConversion.JSNodeParamConverter.from($parameters.HasRealAccount, OS.DataTypes.DataTypes.Boolean);
                                                     jsNodeResult.isDisabledOut = OS.DataConversion.JSNodeParamConverter.from($parameters.IsDisabled, OS.DataTypes.DataTypes.Boolean);
                                                     return jsNodeResult;
-                                                }, {}, {});
+                                                }, {
+                                                    getCurrencyIcon: tradershubController.default.clientActionProxies.getCurrencyIcon$Action
+                                                }, {});
                                             } finally {
                                                 if (span) {
                                                     span.end();
@@ -3623,6 +3987,30 @@ define("tradershub.MainFlow.Options.mvc$controller", ["@outsystems/runtime-core-
 
             }
 
+            titleContainerMobileOnClick$Action(callContext) {
+                var controller = this.controller;
+                return OS.Logger.startActiveSpan("TitleContainerMobileOnClick__proxy", function(span) {
+                    if (span) {
+                        span.setAttribute("code.function", "TitleContainerMobileOnClick");
+                        span.setAttribute("outsystems.function.key", "914be576-b183-4eb7-9117-3dd64799a0e9");
+                        span.setAttribute("outsystems.function.owner.name", "tradershub");
+                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                        span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                    }
+
+                    try {
+                        return controller.safeExecuteClientAction(controller._titleContainerMobileOnClick$Action, callContext);
+                    } finally {
+                        if (span) {
+                            span.end();
+                        }
+
+                    }
+
+                }, 0);
+
+            }
+
             onInitialize$Action(callContext) {
                 var controller = this.controller;
                 return OS.Logger.startActiveSpan("OnInitialize__proxy", function(span) {
@@ -3779,6 +4167,30 @@ define("tradershub.MainFlow.Options.mvc$controller", ["@outsystems/runtime-core-
 
                     try {
                         return controller.safeExecuteClientAction(controller._iOSDGoRedirection$Action, callContext);
+                    } finally {
+                        if (span) {
+                            span.end();
+                        }
+
+                    }
+
+                }, 0);
+
+            }
+
+            mobileAccountSwitcherOnClick$Action(callContext) {
+                var controller = this.controller;
+                return OS.Logger.startActiveSpan("MobileAccountSwitcherOnClick__proxy", function(span) {
+                    if (span) {
+                        span.setAttribute("code.function", "MobileAccountSwitcherOnClick");
+                        span.setAttribute("outsystems.function.key", "d1da44cc-b8ee-42c7-9e9b-9a28108531a6");
+                        span.setAttribute("outsystems.function.owner.name", "tradershub");
+                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                        span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                    }
+
+                    try {
+                        return controller.safeExecuteClientAction(controller._mobileAccountSwitcherOnClick$Action, callContext);
                     } finally {
                         if (span) {
                             span.end();
@@ -4121,13 +4533,7 @@ define("tradershub.MainFlow.Options.mvc$controller.FilterAccountListAction.Filte
     return function($parameters, $actions, $roles, $public) {
         const authorize = JSON.parse($parameters.AuthorizeResponse);
         const accountList = authorize?.authorize?.account_list;
-        const currenciesList = JSON.parse($parameters.CurrenciesList);
         const allAccountsBalance = JSON.parse($parameters.AllAccountsBalance);
-
-        const getCurrencyIcon = (code) => {
-            const currencyArray = currenciesList.filter((currency) => currency.Code === code);
-            return currencyArray[0]?.Icon ?? '';
-        }
 
         if (accountList.length > 1) {
             $parameters.HasRealAccount = true;
@@ -4136,11 +4542,12 @@ define("tradershub.MainFlow.Options.mvc$controller.FilterAccountListAction.Filte
         }
 
         const filterAccountList = accountList?.filter((account) => !account.is_virtual);
-        const is_disabled = accountList?.some((account) => !account.broker.startsWith("VR") && account.is_disabled === 1)
+
+        const is_disabled = accountList?.some((account) => !account.broker.startsWith("VR") && account.is_disabled === 1);
         $parameters.IsDisabled = is_disabled;
 
         const modifiedAccountList = filterAccountList?.map((account) => {
-            const icon = getCurrencyIcon(account.currency || "USD");
+            const icon = $actions.getCurrencyIcon(account.currency || "USD", $parameters.CurrenciesList)?.CurrencyIcon;
             const balance = allAccountsBalance?.balance?.accounts;
 
             return {
@@ -4149,7 +4556,7 @@ define("tradershub.MainFlow.Options.mvc$controller.FilterAccountListAction.Filte
                 loginid: account.loginid,
                 currency: account.currency,
                 balance: balance[account.loginid]?.balance
-            }
+            };
         });
 
         $parameters.modifiedAccountList = JSON.stringify(modifiedAccountList);

@@ -303,7 +303,7 @@ define("PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$view", ["@o
                     uuid: "9"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Verify")));
+            }, $text(getTranslation("vQoJkjTA406ABKE+2dHP3A#Value", "Verify")))));
         }
     }
 
@@ -537,6 +537,77 @@ define("PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$controller"
 });
 
 
-define("PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "vQoJkjTA406ABKE+2dHP3A#Value": "Überprüfen"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "vQoJkjTA406ABKE+2dHP3A#Value": "Verificar"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "vQoJkjTA406ABKE+2dHP3A#Value": "Vérifier"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "vQoJkjTA406ABKE+2dHP3A#Value": "Verificare"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "vQoJkjTA406ABKE+2dHP3A#Value": "Weryfikuj"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "vQoJkjTA406ABKE+2dHP3A#Value": "Verificar"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "vQoJkjTA406ABKE+2dHP3A#Value": "Проверить"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources", ["exports", "PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources.de-DE", "PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources.es-ES", "PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources.fr-FR", "PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources.it-IT", "PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources.pl-PL", "PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources.pt-PT", "PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_translationsResources_deDE, PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_translationsResources_esES, PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_translationsResources_frFR, PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_translationsResources_itIT, PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_translationsResources_plPL, PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_translationsResources_ptPT, PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

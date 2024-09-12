@@ -427,7 +427,7 @@ define("tradershub.RealAccountCreation.TradingAssessment.mvc$view", ["@outsystem
 
     return View;
 });
-define("tradershub.RealAccountCreation.TradingAssessment.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreation.controller", "tradershub.RealAccountCreation.TradingAssessment.mvc$controller.OnReady.RudderStackJS", "tradershub.RealAccountCreation.TradingAssessment.mvc$controller.NextOnClick.RudderStackJS", "OutSystemsUI.controller$IsPhone", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationController, tradershub_RealAccountCreation_TradingAssessment_mvc_controller_OnReady_RudderStackJS, tradershub_RealAccountCreation_TradingAssessment_mvc_controller_NextOnClick_RudderStackJS) {
+define("tradershub.RealAccountCreation.TradingAssessment.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreation.controller", "OutSystemsUI.controller$IsPhone", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationController) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -549,25 +549,6 @@ define("tradershub.RealAccountCreation.TradingAssessment.mvc$controller", ["@out
                             try {
                                 controller.ensureControllerAlive("OnReady");
                                 callContext = controller.callContext(callContext);
-                                OS.Logger.startActiveSpan("RudderStack", function(span) {
-                                    if (span) {
-                                        span.setAttribute("code.function", "RudderStack");
-                                        span.setAttribute("outsystems.function.key", "ee74109a-04a6-42b3-92c9-1a460cd71bb7");
-                                        span.setAttribute("outsystems.function.owner.name", "tradershub");
-                                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
-                                        span.setAttribute("outsystems.function.type", "JAVASCRIPT");
-                                    }
-
-                                    try {
-                                        return controller.safeExecuteJSNode(tradershub_RealAccountCreation_TradingAssessment_mvc_controller_OnReady_RudderStackJS, "RudderStack", "OnReady", null, function($parameters) {}, {}, {});
-                                    } finally {
-                                        if (span) {
-                                            span.end();
-                                        }
-
-                                    }
-
-                                }, 1);
                             } finally {
                                 if (span) {
                                     span.end();
@@ -603,25 +584,6 @@ define("tradershub.RealAccountCreation.TradingAssessment.mvc$controller", ["@out
                             try {
                                 controller.ensureControllerAlive("NextOnClick");
                                 callContext = controller.callContext(callContext);
-                                OS.Logger.startActiveSpan("RudderStack", function(span) {
-                                    if (span) {
-                                        span.setAttribute("code.function", "RudderStack");
-                                        span.setAttribute("outsystems.function.key", "1ff14c51-b807-4f47-9693-b8ac7635f930");
-                                        span.setAttribute("outsystems.function.owner.name", "tradershub");
-                                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
-                                        span.setAttribute("outsystems.function.type", "JAVASCRIPT");
-                                    }
-
-                                    try {
-                                        return controller.safeExecuteJSNode(tradershub_RealAccountCreation_TradingAssessment_mvc_controller_NextOnClick_RudderStackJS, "RudderStack", "NextOnClick", null, function($parameters) {}, {}, {});
-                                    } finally {
-                                        if (span) {
-                                            span.end();
-                                        }
-
-                                    }
-
-                                }, 1);
                                 if (((model.variables.moneyLossVar === OS.BuiltinFunctions.nullTextIdentifier()))) {
                                     // IsRequired = True
                                     model.variables.isRequiredVar = true;
@@ -836,23 +798,4 @@ define("tradershub.RealAccountCreation.TradingAssessment.mvc$controller", ["@out
 
     }
     return new OS.Controller.ControllerFactory(Controller, tradershubLanguageResources);
-});
-
-define("tradershub.RealAccountCreation.TradingAssessment.mvc$controller.OnReady.RudderStackJS", [], function() {
-    return function($actions, $roles, $public) {
-        setTimeout(() => {
-            Analytics.Analytics.trackEvent({
-                action: "real_account_trading_assessment_open",
-            })
-        }, 100);
-
-    };
-});
-
-define("tradershub.RealAccountCreation.TradingAssessment.mvc$controller.NextOnClick.RudderStackJS", [], function() {
-    return function($actions, $roles, $public) {
-        Analytics.Analytics.trackEvent({
-            action: "signup_modal_next_button_os",
-        })
-    };
 });

@@ -138,7 +138,7 @@ define("PartnersHub.Layouts.LayoutBlank.mvc$view", ["@outsystems/runtime-core-js
                 align: /*Default*/ 0,
                 animate: false,
                 style: model.getCachedValue(idService.getId("8lEy+z8iXUqB3svMwRxbLw.Style"), function() {
-                    return (("layout blank" + ((!(model.variables.enableAccessibilityFeaturesIn)) ? ("") : (" has-accessible-features"))) + (((model.variables.extendedClassIn === "")) ? ("") : ((" " + model.variables.extendedClassIn))));
+                    return ((OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("NsVr+E+8uk+P2N5tsZQr_g#ValueExpression.409671902.1", "layout blank") + ((!(model.variables.enableAccessibilityFeaturesIn)) ? ("") : (" has-accessible-features"))) + (((model.variables.extendedClassIn === "")) ? ("") : ((" " + model.variables.extendedClassIn))));
                 }, function() {
                     return model.variables.enableAccessibilityFeaturesIn;
                 }, function() {
@@ -155,9 +155,9 @@ define("PartnersHub.Layouts.LayoutBlank.mvc$view", ["@outsystems/runtime-core-js
                 align: /*Default*/ 0,
                 animate: false,
                 extendedProperties: {
-                    role: "main"
+                    role: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("WfwpZ3Adz0+5iD86897xeA#Value.3343801.1", "main")
                 },
-                style: "content",
+                style: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("Dq5agRlwxEqrLbJ9M0gHow#ValueExpression.951530617.1", "content"),
                 visible: true,
                 _idProps: {
                     service: idService,
@@ -444,6 +444,91 @@ define("PartnersHub.Layouts.LayoutBlank.mvc$controller", ["@outsystems/runtime-c
 });
 
 
-define("PartnersHub.Layouts.LayoutBlank.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Layouts.LayoutBlank.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "WfwpZ3Adz0+5iD86897xeA#Value.3343801.1": "main",
+        "Dq5agRlwxEqrLbJ9M0gHow#ValueExpression.951530617.1": "content",
+        "NsVr+E+8uk+P2N5tsZQr_g#ValueExpression.409671902.1": "layout blank"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutBlank.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "WfwpZ3Adz0+5iD86897xeA#Value.3343801.1": "main",
+        "Dq5agRlwxEqrLbJ9M0gHow#ValueExpression.951530617.1": "content",
+        "NsVr+E+8uk+P2N5tsZQr_g#ValueExpression.409671902.1": "layout blank"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutBlank.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "WfwpZ3Adz0+5iD86897xeA#Value.3343801.1": "main",
+        "Dq5agRlwxEqrLbJ9M0gHow#ValueExpression.951530617.1": "content",
+        "NsVr+E+8uk+P2N5tsZQr_g#ValueExpression.409671902.1": "layout blank"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutBlank.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "WfwpZ3Adz0+5iD86897xeA#Value.3343801.1": "main",
+        "Dq5agRlwxEqrLbJ9M0gHow#ValueExpression.951530617.1": "content",
+        "NsVr+E+8uk+P2N5tsZQr_g#ValueExpression.409671902.1": "layout blank"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutBlank.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "WfwpZ3Adz0+5iD86897xeA#Value.3343801.1": "main",
+        "Dq5agRlwxEqrLbJ9M0gHow#ValueExpression.951530617.1": "content",
+        "NsVr+E+8uk+P2N5tsZQr_g#ValueExpression.409671902.1": "layout blank"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutBlank.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "WfwpZ3Adz0+5iD86897xeA#Value.3343801.1": "main",
+        "Dq5agRlwxEqrLbJ9M0gHow#ValueExpression.951530617.1": "content",
+        "NsVr+E+8uk+P2N5tsZQr_g#ValueExpression.409671902.1": "layout blank"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutBlank.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "WfwpZ3Adz0+5iD86897xeA#Value.3343801.1": "main",
+        "Dq5agRlwxEqrLbJ9M0gHow#ValueExpression.951530617.1": "content",
+        "NsVr+E+8uk+P2N5tsZQr_g#ValueExpression.409671902.1": "layout blank"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutBlank.mvc$translationsResources", ["exports", "PartnersHub.Layouts.LayoutBlank.mvc$translationsResources.de-DE", "PartnersHub.Layouts.LayoutBlank.mvc$translationsResources.es-ES", "PartnersHub.Layouts.LayoutBlank.mvc$translationsResources.fr-FR", "PartnersHub.Layouts.LayoutBlank.mvc$translationsResources.it-IT", "PartnersHub.Layouts.LayoutBlank.mvc$translationsResources.pl-PL", "PartnersHub.Layouts.LayoutBlank.mvc$translationsResources.pt-PT", "PartnersHub.Layouts.LayoutBlank.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Layouts_LayoutBlank_mvc_translationsResources_deDE, PartnersHub_Layouts_LayoutBlank_mvc_translationsResources_esES, PartnersHub_Layouts_LayoutBlank_mvc_translationsResources_frFR, PartnersHub_Layouts_LayoutBlank_mvc_translationsResources_itIT, PartnersHub_Layouts_LayoutBlank_mvc_translationsResources_plPL, PartnersHub_Layouts_LayoutBlank_mvc_translationsResources_ptPT, PartnersHub_Layouts_LayoutBlank_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Layouts_LayoutBlank_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Layouts_LayoutBlank_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Layouts_LayoutBlank_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Layouts_LayoutBlank_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Layouts_LayoutBlank_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Layouts_LayoutBlank_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Layouts_LayoutBlank_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

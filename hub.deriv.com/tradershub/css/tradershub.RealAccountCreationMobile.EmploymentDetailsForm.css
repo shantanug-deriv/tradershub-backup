@@ -31,17 +31,8 @@
     content: none;
 }
 
-.phone .pop-comp-wrapper {
-    padding: 0 !important;
-}
-
-.phone .vscomp-dropbox-wrapper .vscomp-dropbox {
-    max-height: 100% !important;
-    height: 100% !important;
-    margin-top: 0 !important;
-    width: 100% !important;
-}
-
-.phone .vscomp-options-container {
-    max-height: 95% !important;
+.input-with-icon .input-with-icon-input img {
+    position: absolute;
+    right: 16px;
+    top: 45%;
 }

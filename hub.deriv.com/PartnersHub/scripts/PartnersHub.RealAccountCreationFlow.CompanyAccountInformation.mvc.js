@@ -152,7 +152,7 @@ define("PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$view",
                     uuid: "3"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Company name"), React.createElement(OSWidgets.Input, {
+            }, $text(getTranslation("RlEWszTL90ShMbKVY+FqdA#Value", "Company name"))), React.createElement(OSWidgets.Input, {
                 _validationProps: {
                     validationService: validationService,
                     validationParentId: idService.getId("Form1")
@@ -195,7 +195,7 @@ define("PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$view",
                     uuid: "6"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Company registration number"), React.createElement(OSWidgets.Input, {
+            }, $text(getTranslation("oPe5bjYhZUGMG_agdPtCGA#Value", "Company registration number"))), React.createElement(OSWidgets.Input, {
                 _validationProps: {
                     validationService: validationService,
                     validationParentId: idService.getId("Form1")
@@ -238,7 +238,7 @@ define("PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$view",
                     uuid: "9"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Company website"), React.createElement(OSWidgets.Input, {
+            }, $text(getTranslation("nMJSRyUyykWZMZAzopN+yQ#Value", "Company website"))), React.createElement(OSWidgets.Input, {
                 _validationProps: {
                     validationService: validationService,
                     validationParentId: idService.getId("Form1")
@@ -298,7 +298,7 @@ define("PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$view",
                 extendedProperties: {
                     style: "color: #f3f6f8; font-weight: bold;"
                 },
-                text: ["Next"],
+                text: [$text(getTranslation("8TyiCledL0Ozu+dR9ojnVw#Value", "Next"))],
                 _idProps: {
                     service: idService,
                     uuid: "13"
@@ -500,6 +500,98 @@ define("PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$contro
 });
 
 
-define("PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "8TyiCledL0Ozu+dR9ojnVw#Value": "Nächste",
+        "nMJSRyUyykWZMZAzopN+yQ#Value": "Unternehmenswebsite",
+        "oPe5bjYhZUGMG_agdPtCGA#Value": "Unternehmensregistrierungsnummer",
+        "RlEWszTL90ShMbKVY+FqdA#Value": "Firmenname"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "8TyiCledL0Ozu+dR9ojnVw#Value": "Siguiente",
+        "nMJSRyUyykWZMZAzopN+yQ#Value": "Sitio web de la empresa",
+        "oPe5bjYhZUGMG_agdPtCGA#Value": "Número de registro de la empresa",
+        "RlEWszTL90ShMbKVY+FqdA#Value": "Nombre de la empresa"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "8TyiCledL0Ozu+dR9ojnVw#Value": "Suivant",
+        "nMJSRyUyykWZMZAzopN+yQ#Value": "Site web de l\'entreprise",
+        "oPe5bjYhZUGMG_agdPtCGA#Value": "Numéro d\'enregistrement de l\'entreprise",
+        "RlEWszTL90ShMbKVY+FqdA#Value": "Nom de l\'entreprise"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "8TyiCledL0Ozu+dR9ojnVw#Value": "Prossimo",
+        "nMJSRyUyykWZMZAzopN+yQ#Value": "Sito web dell\'azienda",
+        "oPe5bjYhZUGMG_agdPtCGA#Value": "Numero di registrazione della società",
+        "RlEWszTL90ShMbKVY+FqdA#Value": "Nome dell\'azienda"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "8TyiCledL0Ozu+dR9ojnVw#Value": "Następny",
+        "nMJSRyUyykWZMZAzopN+yQ#Value": "Strona internetowa firmy",
+        "oPe5bjYhZUGMG_agdPtCGA#Value": "Numer rejestracji firmy",
+        "RlEWszTL90ShMbKVY+FqdA#Value": "Nazwa firmy"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "8TyiCledL0Ozu+dR9ojnVw#Value": "Próximo",
+        "nMJSRyUyykWZMZAzopN+yQ#Value": "Site da empresa",
+        "oPe5bjYhZUGMG_agdPtCGA#Value": "Número de registro da empresa",
+        "RlEWszTL90ShMbKVY+FqdA#Value": "Nome da empresa"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "8TyiCledL0Ozu+dR9ojnVw#Value": "Следующий",
+        "nMJSRyUyykWZMZAzopN+yQ#Value": "Веб-сайт компании",
+        "oPe5bjYhZUGMG_agdPtCGA#Value": "Номер регистрации компании",
+        "RlEWszTL90ShMbKVY+FqdA#Value": "Название компании"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$translationsResources", ["exports", "PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$translationsResources.de-DE", "PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$translationsResources.es-ES", "PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$translationsResources.fr-FR", "PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$translationsResources.it-IT", "PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$translationsResources.pl-PL", "PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$translationsResources.pt-PT", "PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvc_translationsResources_deDE, PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvc_translationsResources_esES, PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvc_translationsResources_frFR, PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvc_translationsResources_itIT, PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvc_translationsResources_plPL, PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvc_translationsResources_ptPT, PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

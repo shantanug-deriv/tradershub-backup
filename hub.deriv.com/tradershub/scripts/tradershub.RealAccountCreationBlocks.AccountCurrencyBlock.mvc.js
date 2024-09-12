@@ -1,4 +1,4 @@
-define("tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.model$ST_8929e3c9fca60443ab65fcc0c5318922Structure", "tradershub.model$EN_bf87ce2ee46f8f5bc73889fe14426739EntityRecord", "tradershub.model$RL_7f0ff0d0a70a4e41424efbf5ef899b8d", "tradershub.controller$DerivApiSendMessage", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting"], function(OSRuntimeCore, tradershubModel, tradershubController) {
+define("tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.Common.LoaderBlock.mvc$model", "tradershub.model$ST_8929e3c9fca60443ab65fcc0c5318922Structure", "tradershub.model$EN_bf87ce2ee46f8f5bc73889fe14426739EntityRecord", "tradershub.model$RL_7f0ff0d0a70a4e41424efbf5ef899b8d", "tradershub.controller$DerivApiSendMessage", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershub_Common_LoaderBlock_mvcModel) {
     var OS = OSRuntimeCore;
 
 
@@ -15,7 +15,10 @@ define("tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$model", ["
                     }, false, tradershubModel.RL_7f0ff0d0a70a4e41424efbf5ef899b8d),
                     this.attr("FilteredOtherCurrencies", "filteredOtherCurrenciesVar", "FilteredOtherCurrencies", true, false, OS.DataTypes.DataTypes.RecordList, function() {
                         return OS.DataTypes.ImmutableBase.getData(new tradershubModel.RL_7f0ff0d0a70a4e41424efbf5ef899b8d());
-                    }, false, tradershubModel.RL_7f0ff0d0a70a4e41424efbf5ef899b8d)
+                    }, false, tradershubModel.RL_7f0ff0d0a70a4e41424efbf5ef899b8d),
+                    this.attr("IsLoading", "isLoadingVar", "IsLoading", true, false, OS.DataTypes.DataTypes.Boolean, function() {
+                        return true;
+                    }, false)
                 ].concat(OS.DataTypes.GenericRecord.attributesToDeclare.call(this));
             }
 
@@ -43,7 +46,11 @@ define("tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$model", ["
         }
 
         static get hasValidationWidgets() {
-            return false;
+            if ((Model._hasValidationWidgetsValue === undefined)) {
+                Model._hasValidationWidgetsValue = tradershub_Common_LoaderBlock_mvcModel.hasValidationWidgets;
+            }
+
+            return Model._hasValidationWidgetsValue;
         }
         setInputs(inputs) {}
 
@@ -53,7 +60,7 @@ define("tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$model", ["
     return new OS.Model.ModelFactory(Model);
 });
 
-define("tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "react", "@outsystems/runtime-view-js", "tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$model", "tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$controller", "tradershub.clientVariables", "@outsystems/runtime-widgets-js", "tradershub.model$ST_8929e3c9fca60443ab65fcc0c5318922Structure", "tradershub.model$EN_bf87ce2ee46f8f5bc73889fe14426739EntityRecord", "tradershub.model$RL_7f0ff0d0a70a4e41424efbf5ef899b8d", "tradershub.controller$DerivApiSendMessage", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting"], function(OSRuntimeCore, tradershubModel, tradershubController, React, OSView, tradershub_RealAccountCreationBlocks_AccountCurrencyBlock_mvc_model, tradershub_RealAccountCreationBlocks_AccountCurrencyBlock_mvc_controller, tradershubClientVariables, OSWidgets) {
+define("tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "react", "@outsystems/runtime-view-js", "tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$model", "tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$controller", "tradershub.clientVariables", "tradershub.Common.LoaderBlock.mvc$view", "@outsystems/runtime-widgets-js", "tradershub.model$ST_8929e3c9fca60443ab65fcc0c5318922Structure", "tradershub.model$EN_bf87ce2ee46f8f5bc73889fe14426739EntityRecord", "tradershub.model$RL_7f0ff0d0a70a4e41424efbf5ef899b8d", "tradershub.controller$DerivApiSendMessage", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting"], function(OSRuntimeCore, tradershubModel, tradershubController, React, OSView, tradershub_RealAccountCreationBlocks_AccountCurrencyBlock_mvc_model, tradershub_RealAccountCreationBlocks_AccountCurrencyBlock_mvc_controller, tradershubClientVariables, tradershub_Common_LoaderBlock_mvc_view, OSWidgets) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -84,7 +91,7 @@ define("tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$view", ["@
         }
 
         static getBlocks() {
-            return [];
+            return [tradershub_Common_LoaderBlock_mvc_view];
         }
 
         get modelFactory() {
@@ -114,344 +121,371 @@ define("tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$view", ["@
             var getTranslation = View.getTranslation;
             var _this = this;
 
-            return React.createElement("div", this.getRootNodeProperties(), React.createElement(OSWidgets.Container, {
-                align: /*Default*/ 0,
-                animate: false,
-                extendedProperties: {
-                    style: "align-items: flex-start; display: flex; flex-direction: column; padding: 16px 0;"
-                },
-                style: "full-width",
-                visible: true,
-                _idProps: {
-                    service: idService,
-                    uuid: "0"
-                },
-                _widgetRecordProvider: widgetsRecordProvider
-            }, React.createElement(OSWidgets.Text, {
-                extendedProperties: {
-                    style: "color: #000; font-size: 16px;"
-                },
-                text: ["Recommended"],
-                _idProps: {
-                    service: idService,
-                    uuid: "1"
-                },
-                _widgetRecordProvider: widgetsRecordProvider
-            }), React.createElement(OSWidgets.List, {
-                animateItems: true,
-                gridProperties: {
-                    classes: "OSFillParent"
-                },
-                mode: /*Default*/ 0,
-                source: model.variables.filteredRecommendedCurrenciesVar,
-                style: "list list-group display-flex flex-direction-column gap-base",
-                tag: "div",
-                _idProps: {
-                    service: idService,
-                    name: "RecommendedList"
-                },
-                _widgetRecordProvider: widgetsRecordProvider,
-                placeholders: {
-                    content: new IteratorPlaceholderContent(function(idService, callContext) {
-                        return [React.createElement(OSWidgets.ListItem, {
-                            onClick: function() {
-                                return Promise.resolve().then(function() {
-                                    var eventHandlerContext = callContext.clone();
-                                    return controller.recommendedListItemOnClick$Action(controller.callContext(eventHandlerContext));
-                                });;
-                            },
-                            style: model.getCachedValue(idService.getId("RecommendedListItem.Style"), function() {
-                                return (((model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr === tradershubClientVariables.getSelectedCurrencyCode())) ? ("currency-list--selected") : ("currency-list"));
-                            }, function() {
-                                return model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr;
-                            }, function() {
-                                return tradershubClientVariables.getSelectedCurrencyCode();
-                            }),
-                            triggerActionOnFullSwipeLeft: false,
-                            triggerActionOnFullSwipeRight: false,
-                            _idProps: {
-                                service: idService,
-                                name: "RecommendedListItem"
-                            },
-                            _widgetRecordProvider: widgetsRecordProvider,
-                            placeholders: {
-                                leftActions: PlaceholderContent.Empty,
-                                content: new PlaceholderContent(function() {
-                                    return [React.createElement(OSWidgets.Container, {
-                                        align: /*Default*/ 0,
-                                        animate: false,
-                                        extendedProperties: {
-                                            style: "align-items: center; display: flex; justify-content: space-between;"
-                                        },
-                                        gridProperties: {
-                                            classes: "OSInline",
-                                            width: "100%"
-                                        },
-                                        visible: true,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "4"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }, React.createElement(OSWidgets.Container, {
-                                        align: /*Default*/ 0,
-                                        animate: false,
-                                        extendedProperties: {
-                                            style: "text-align: center;"
-                                        },
-                                        style: "display-flex align-items-center gap-s",
-                                        visible: true,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "5"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }, React.createElement(OSWidgets.Image, {
-                                        gridProperties: {
-                                            width: "24px"
-                                        },
-                                        type: /*External*/ 1,
-                                        url: model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).iconAttr,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "6"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }), React.createElement(OSWidgets.Label, {
-                                        extendedProperties: {
-                                            style: "color: #101213; font-weight: 500;"
-                                        },
-                                        gridProperties: {
-                                            classes: "OSFillParent",
-                                            marginLeft: "16px"
-                                        },
-                                        style: "display-flex cursor-pointer",
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "7"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }, React.createElement(OSWidgets.Expression, {
-                                        style: "curreny-name",
-                                        value: model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).nameAttr,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "8"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }), React.createElement(OSWidgets.Expression, {
-                                        gridProperties: {
-                                            marginLeft: "2px"
-                                        },
-                                        style: "curreny-name",
-                                        value: (("(" + model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr) + ")"),
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "9"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }))), React.createElement(OSWidgets.Container, {
-                                        align: /*Default*/ 0,
-                                        animate: false,
-                                        style: "list-item-icon display-flex",
-                                        visible: true,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "10"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }, $if((tradershubClientVariables.getSelectedCurrencyCode() === model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr), false, this, function() {
-                                        return [React.createElement(OSWidgets.Image, {
-                                            image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.roundedblackcheckmark.png"),
-                                            type: /*Static*/ 0,
+            return React.createElement("div", this.getRootNodeProperties(), $if(model.variables.isLoadingVar, false, this, function() {
+                return [React.createElement(tradershub_Common_LoaderBlock_mvc_view, {
+                    getOwnerSpan: function() {
+                        return _this.getChildSpan("render");
+                    },
+                    getOwnerDisposeSpan: function() {
+                        return _this.getChildSpan("destroy");
+                    },
+                    inputs: {},
+                    events: {
+                        _handleError: function(ex) {
+                            controller.handleError(ex);
+                        }
+                    },
+                    _validationProps: {
+                        validationService: validationService
+                    },
+                    _idProps: {
+                        service: idService,
+                        uuid: "0",
+                        alias: "1"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider,
+                    _dependencies: []
+                })];
+            }, function() {
+                return [React.createElement(OSWidgets.Container, {
+                    align: /*Default*/ 0,
+                    animate: false,
+                    extendedProperties: {
+                        style: "align-items: flex-start; display: flex; flex-direction: column; padding: 16px 0;"
+                    },
+                    style: "full-width",
+                    visible: true,
+                    _idProps: {
+                        service: idService,
+                        uuid: "1"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }, React.createElement(OSWidgets.Text, {
+                    extendedProperties: {
+                        style: "color: #000; font-size: 16px;"
+                    },
+                    text: ["Recommended"],
+                    _idProps: {
+                        service: idService,
+                        uuid: "2"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }), React.createElement(OSWidgets.List, {
+                    animateItems: true,
+                    gridProperties: {
+                        classes: "OSFillParent"
+                    },
+                    mode: /*Default*/ 0,
+                    source: model.variables.filteredRecommendedCurrenciesVar,
+                    style: "list list-group display-flex flex-direction-column gap-base",
+                    tag: "div",
+                    _idProps: {
+                        service: idService,
+                        name: "RecommendedList"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider,
+                    placeholders: {
+                        content: new IteratorPlaceholderContent(function(idService, callContext) {
+                            return [React.createElement(OSWidgets.ListItem, {
+                                onClick: function() {
+                                    return Promise.resolve().then(function() {
+                                        var eventHandlerContext = callContext.clone();
+                                        return controller.recommendedListItemOnClick$Action(controller.callContext(eventHandlerContext));
+                                    });;
+                                },
+                                style: model.getCachedValue(idService.getId("RecommendedListItem.Style"), function() {
+                                    return (((model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr === tradershubClientVariables.getSelectedCurrencyCode())) ? ("currency-list--selected") : ("currency-list"));
+                                }, function() {
+                                    return model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr;
+                                }, function() {
+                                    return tradershubClientVariables.getSelectedCurrencyCode();
+                                }),
+                                triggerActionOnFullSwipeLeft: false,
+                                triggerActionOnFullSwipeRight: false,
+                                _idProps: {
+                                    service: idService,
+                                    name: "RecommendedListItem"
+                                },
+                                _widgetRecordProvider: widgetsRecordProvider,
+                                placeholders: {
+                                    leftActions: PlaceholderContent.Empty,
+                                    content: new PlaceholderContent(function() {
+                                        return [React.createElement(OSWidgets.Container, {
+                                            align: /*Default*/ 0,
+                                            animate: false,
+                                            extendedProperties: {
+                                                style: "align-items: center; display: flex; justify-content: space-between;"
+                                            },
+                                            gridProperties: {
+                                                classes: "OSInline",
+                                                width: "100%"
+                                            },
+                                            visible: true,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "5"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }, React.createElement(OSWidgets.Container, {
+                                            align: /*Default*/ 0,
+                                            animate: false,
+                                            extendedProperties: {
+                                                style: "text-align: center;"
+                                            },
+                                            style: "display-flex align-items-center gap-s",
+                                            visible: true,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "6"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }, React.createElement(OSWidgets.Image, {
+                                            gridProperties: {
+                                                width: "24px"
+                                            },
+                                            type: /*External*/ 1,
+                                            url: model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).iconAttr,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "7"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }), React.createElement(OSWidgets.Label, {
+                                            extendedProperties: {
+                                                style: "color: #101213; font-weight: 500;"
+                                            },
+                                            gridProperties: {
+                                                classes: "OSFillParent",
+                                                marginLeft: "16px"
+                                            },
+                                            style: "display-flex cursor-pointer",
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "8"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }, React.createElement(OSWidgets.Expression, {
+                                            style: "curreny-name",
+                                            value: model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).nameAttr,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "9"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }), React.createElement(OSWidgets.Expression, {
+                                            gridProperties: {
+                                                marginLeft: "2px"
+                                            },
+                                            style: "curreny-name",
+                                            value: (("(" + model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr) + ")"),
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "10"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }))), React.createElement(OSWidgets.Container, {
+                                            align: /*Default*/ 0,
+                                            animate: false,
+                                            style: "list-item-icon display-flex",
+                                            visible: true,
                                             _idProps: {
                                                 service: idService,
                                                 uuid: "11"
                                             },
                                             _widgetRecordProvider: widgetsRecordProvider
-                                        })];
-                                    }, function() {
-                                        return [React.createElement(OSWidgets.Image, {
-                                            image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.rightIcon.png"),
-                                            type: /*Static*/ 0,
+                                        }, $if((tradershubClientVariables.getSelectedCurrencyCode() === model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr), false, this, function() {
+                                            return [React.createElement(OSWidgets.Image, {
+                                                image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.roundedblackcheckmark.png"),
+                                                type: /*Static*/ 0,
+                                                _idProps: {
+                                                    service: idService,
+                                                    uuid: "12"
+                                                },
+                                                _widgetRecordProvider: widgetsRecordProvider
+                                            })];
+                                        }, function() {
+                                            return [React.createElement(OSWidgets.Image, {
+                                                image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.rightIcon.png"),
+                                                type: /*Static*/ 0,
+                                                _idProps: {
+                                                    service: idService,
+                                                    uuid: "13"
+                                                },
+                                                _widgetRecordProvider: widgetsRecordProvider
+                                            })];
+                                        })))];
+                                    }),
+                                    rightActions: PlaceholderContent.Empty
+                                },
+                                _dependencies: [asPrimitiveValue(tradershubClientVariables.getSelectedCurrencyCode()), asPrimitiveValue(model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr), asPrimitiveValue(model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).nameAttr), asPrimitiveValue(model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).iconAttr)]
+                            })];
+                        }, callContext, idService, "1")
+                    },
+                    _dependencies: [asPrimitiveValue(tradershubClientVariables.getSelectedCurrencyCode())]
+                }), React.createElement(OSWidgets.Text, {
+                    extendedProperties: {
+                        style: "color: #000; font-size: 16px;"
+                    },
+                    text: ["Other"],
+                    _idProps: {
+                        service: idService,
+                        uuid: "14"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }), React.createElement(OSWidgets.List, {
+                    animateItems: true,
+                    gridProperties: {
+                        classes: "OSFillParent"
+                    },
+                    mode: /*Default*/ 0,
+                    source: model.variables.filteredOtherCurrenciesVar,
+                    style: "list list-group display-flex flex-direction-column gap-base",
+                    tag: "div",
+                    _idProps: {
+                        service: idService,
+                        name: "OtherCurrencies"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider,
+                    placeholders: {
+                        content: new IteratorPlaceholderContent(function(idService, callContext) {
+                            return [React.createElement(OSWidgets.ListItem, {
+                                onClick: function() {
+                                    return Promise.resolve().then(function() {
+                                        var eventHandlerContext = callContext.clone();
+                                        return controller.otherCurrenciesItemOnClick$Action(controller.callContext(eventHandlerContext));
+                                    });;
+                                },
+                                style: model.getCachedValue(idService.getId("OtherCurrenciesItem.Style"), function() {
+                                    return (((model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr === tradershubClientVariables.getSelectedCurrencyCode())) ? ("currency-list--selected") : ("currency-list"));
+                                }, function() {
+                                    return model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr;
+                                }, function() {
+                                    return tradershubClientVariables.getSelectedCurrencyCode();
+                                }),
+                                triggerActionOnFullSwipeLeft: false,
+                                triggerActionOnFullSwipeRight: false,
+                                _idProps: {
+                                    service: idService,
+                                    name: "OtherCurrenciesItem"
+                                },
+                                _widgetRecordProvider: widgetsRecordProvider,
+                                placeholders: {
+                                    leftActions: PlaceholderContent.Empty,
+                                    content: new PlaceholderContent(function() {
+                                        return [React.createElement(OSWidgets.Container, {
+                                            align: /*Default*/ 0,
+                                            animate: false,
+                                            extendedProperties: {
+                                                style: "align-items: center; display: flex; justify-content: space-between;"
+                                            },
+                                            gridProperties: {
+                                                classes: "OSInline",
+                                                width: "100%"
+                                            },
+                                            visible: true,
                                             _idProps: {
                                                 service: idService,
-                                                uuid: "12"
+                                                uuid: "17"
                                             },
                                             _widgetRecordProvider: widgetsRecordProvider
-                                        })];
-                                    })))];
-                                }),
-                                rightActions: PlaceholderContent.Empty
-                            },
-                            _dependencies: [asPrimitiveValue(tradershubClientVariables.getSelectedCurrencyCode()), asPrimitiveValue(model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr), asPrimitiveValue(model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).nameAttr), asPrimitiveValue(model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).iconAttr)]
-                        })];
-                    }, callContext, idService, "1")
-                },
-                _dependencies: [asPrimitiveValue(tradershubClientVariables.getSelectedCurrencyCode())]
-            }), React.createElement(OSWidgets.Text, {
-                extendedProperties: {
-                    style: "color: #000; font-size: 16px;"
-                },
-                text: ["Other"],
-                _idProps: {
-                    service: idService,
-                    uuid: "13"
-                },
-                _widgetRecordProvider: widgetsRecordProvider
-            }), React.createElement(OSWidgets.List, {
-                animateItems: true,
-                gridProperties: {
-                    classes: "OSFillParent"
-                },
-                mode: /*Default*/ 0,
-                source: model.variables.filteredOtherCurrenciesVar,
-                style: "list list-group display-flex flex-direction-column gap-base",
-                tag: "div",
-                _idProps: {
-                    service: idService,
-                    name: "OtherCurrencies"
-                },
-                _widgetRecordProvider: widgetsRecordProvider,
-                placeholders: {
-                    content: new IteratorPlaceholderContent(function(idService, callContext) {
-                        return [React.createElement(OSWidgets.ListItem, {
-                            onClick: function() {
-                                return Promise.resolve().then(function() {
-                                    var eventHandlerContext = callContext.clone();
-                                    return controller.otherCurrenciesItemOnClick$Action(controller.callContext(eventHandlerContext));
-                                });;
-                            },
-                            style: model.getCachedValue(idService.getId("OtherCurrenciesItem.Style"), function() {
-                                return (((model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr === tradershubClientVariables.getSelectedCurrencyCode())) ? ("currency-list--selected") : ("currency-list"));
-                            }, function() {
-                                return model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr;
-                            }, function() {
-                                return tradershubClientVariables.getSelectedCurrencyCode();
-                            }),
-                            triggerActionOnFullSwipeLeft: false,
-                            triggerActionOnFullSwipeRight: false,
-                            _idProps: {
-                                service: idService,
-                                name: "OtherCurrenciesItem"
-                            },
-                            _widgetRecordProvider: widgetsRecordProvider,
-                            placeholders: {
-                                leftActions: PlaceholderContent.Empty,
-                                content: new PlaceholderContent(function() {
-                                    return [React.createElement(OSWidgets.Container, {
-                                        align: /*Default*/ 0,
-                                        animate: false,
-                                        extendedProperties: {
-                                            style: "align-items: center; display: flex; justify-content: space-between;"
-                                        },
-                                        gridProperties: {
-                                            classes: "OSInline",
-                                            width: "100%"
-                                        },
-                                        visible: true,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "16"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }, React.createElement(OSWidgets.Container, {
-                                        align: /*Default*/ 0,
-                                        animate: false,
-                                        extendedProperties: {
-                                            style: "text-align: center;"
-                                        },
-                                        style: "display-flex align-items-center gap-s",
-                                        visible: true,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "17"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }, React.createElement(OSWidgets.Image, {
-                                        gridProperties: {
-                                            width: "32px"
-                                        },
-                                        type: /*External*/ 1,
-                                        url: model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).iconAttr,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "18"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }), React.createElement(OSWidgets.Label, {
-                                        extendedProperties: {
-                                            style: "color: #101213; font-weight: 500;"
-                                        },
-                                        gridProperties: {
-                                            classes: "OSFillParent",
-                                            marginLeft: "16px"
-                                        },
-                                        style: "display-flex",
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "19"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }, React.createElement(OSWidgets.Expression, {
-                                        style: "curreny-name cursor-pointer",
-                                        value: model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).nameAttr,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "20"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }), React.createElement(OSWidgets.Expression, {
-                                        gridProperties: {
-                                            marginLeft: "2px"
-                                        },
-                                        style: "curreny-name",
-                                        value: (("(" + model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr) + ")"),
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "21"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }))), React.createElement(OSWidgets.Container, {
-                                        align: /*Default*/ 0,
-                                        animate: false,
-                                        style: "list-item-icon display-flex",
-                                        visible: true,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "22"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }, $if((tradershubClientVariables.getSelectedCurrencyCode() === model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr), false, this, function() {
-                                        return [React.createElement(OSWidgets.Image, {
-                                            image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.roundedblackcheckmark.png"),
-                                            type: /*Static*/ 0,
+                                        }, React.createElement(OSWidgets.Container, {
+                                            align: /*Default*/ 0,
+                                            animate: false,
+                                            extendedProperties: {
+                                                style: "text-align: center;"
+                                            },
+                                            style: "display-flex align-items-center gap-s",
+                                            visible: true,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "18"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }, React.createElement(OSWidgets.Image, {
+                                            gridProperties: {
+                                                width: "32px"
+                                            },
+                                            type: /*External*/ 1,
+                                            url: model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).iconAttr,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "19"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }), React.createElement(OSWidgets.Label, {
+                                            extendedProperties: {
+                                                style: "color: #101213; font-weight: 500;"
+                                            },
+                                            gridProperties: {
+                                                classes: "OSFillParent",
+                                                marginLeft: "16px"
+                                            },
+                                            style: "display-flex",
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "20"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }, React.createElement(OSWidgets.Expression, {
+                                            style: "curreny-name cursor-pointer",
+                                            value: model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).nameAttr,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "21"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }), React.createElement(OSWidgets.Expression, {
+                                            gridProperties: {
+                                                marginLeft: "2px"
+                                            },
+                                            style: "curreny-name",
+                                            value: (("(" + model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr) + ")"),
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "22"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }))), React.createElement(OSWidgets.Container, {
+                                            align: /*Default*/ 0,
+                                            animate: false,
+                                            style: "list-item-icon display-flex",
+                                            visible: true,
                                             _idProps: {
                                                 service: idService,
                                                 uuid: "23"
                                             },
                                             _widgetRecordProvider: widgetsRecordProvider
-                                        })];
-                                    }, function() {
-                                        return [React.createElement(OSWidgets.Image, {
-                                            image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.rightIcon.png"),
-                                            type: /*Static*/ 0,
-                                            _idProps: {
-                                                service: idService,
-                                                uuid: "24"
-                                            },
-                                            _widgetRecordProvider: widgetsRecordProvider
-                                        })];
-                                    })))];
-                                }),
-                                rightActions: PlaceholderContent.Empty
-                            },
-                            _dependencies: [asPrimitiveValue(tradershubClientVariables.getSelectedCurrencyCode()), asPrimitiveValue(model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr), asPrimitiveValue(model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).nameAttr), asPrimitiveValue(model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).iconAttr)]
-                        })];
-                    }, callContext, idService, "2")
-                },
-                _dependencies: [asPrimitiveValue(tradershubClientVariables.getSelectedCurrencyCode())]
-            })));
+                                        }, $if((tradershubClientVariables.getSelectedCurrencyCode() === model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr), false, this, function() {
+                                            return [React.createElement(OSWidgets.Image, {
+                                                image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.roundedblackcheckmark.png"),
+                                                type: /*Static*/ 0,
+                                                _idProps: {
+                                                    service: idService,
+                                                    uuid: "24"
+                                                },
+                                                _widgetRecordProvider: widgetsRecordProvider
+                                            })];
+                                        }, function() {
+                                            return [React.createElement(OSWidgets.Image, {
+                                                image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.rightIcon.png"),
+                                                type: /*Static*/ 0,
+                                                _idProps: {
+                                                    service: idService,
+                                                    uuid: "25"
+                                                },
+                                                _widgetRecordProvider: widgetsRecordProvider
+                                            })];
+                                        })))];
+                                    }),
+                                    rightActions: PlaceholderContent.Empty
+                                },
+                                _dependencies: [asPrimitiveValue(tradershubClientVariables.getSelectedCurrencyCode()), asPrimitiveValue(model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr), asPrimitiveValue(model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).nameAttr), asPrimitiveValue(model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).iconAttr)]
+                            })];
+                        }, callContext, idService, "2")
+                    },
+                    _dependencies: [asPrimitiveValue(tradershubClientVariables.getSelectedCurrencyCode())]
+                }))];
+            }));
         }
     }
 
@@ -804,6 +838,9 @@ define("tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$controller
                                                         // Execute Action: FilterCurrenciesFunction
                                                         return controller._filterCurrenciesFunction$Action(callContext);
                                                     });
+                                                } else {
+                                                    return OS.Flow.returnAsync();
+
                                                 }
 
                                             });
@@ -816,11 +853,17 @@ define("tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$controller
                                                     model.variables.landingCompanyVar = jSONDeserializeLandingCompanyResponse2Var.value.dataOut;
                                                     // Execute Action: FilterCurrenciesFunction2
                                                     return controller._filterCurrenciesFunction$Action(callContext);
+                                                } else {
+                                                    return OS.Flow.returnAsync();
+
                                                 }
 
                                             });
                                         }
 
+                                    }).then(function() {
+                                        // IsLoading = False
+                                        model.variables.isLoadingVar = false;
                                     });
                                 });
                             }, function() {
@@ -1114,17 +1157,55 @@ define("tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$controller
 
 define("tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$controller.RecommendedListItemOnClick.RudderStackJS", [], function() {
     return function($actions, $roles, $public) {
-        Analytics.Analytics.trackEvent({
-            action: "signup_modal_next_button_os",
-        })
+        let rudderStackLoaded = false;
+
+        function checkForRudderStack() {
+            if (window?.rudderanalytics && !rudderStackLoaded) {
+                window.rudderanalytics.ready(() => {
+                    if (!rudderStackLoaded) {
+                        Analytics.Analytics.trackEvent("ce_real_account_signup_form", {
+                            action: "step_passed",
+                            step_num: "0",
+                            step_codename: "account_currency",
+                            form_name: "real_account_signup_form_outsystems"
+                        });
+                        rudderStackLoaded = true;
+                    }
+                    clearInterval(intervalId);
+                });
+            }
+        }
+
+        const intervalId = setInterval(() => {
+            checkForRudderStack();
+        }, 2000);
     };
 });
 
 define("tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$controller.OtherCurrenciesItemOnClick.RudderStackJS", [], function() {
     return function($actions, $roles, $public) {
-        Analytics.Analytics.trackEvent({
-            action: "signup_modal_next_button_os",
-        })
+        let rudderStackLoaded = false;
+
+        function checkForRudderStack() {
+            if (window?.rudderanalytics && !rudderStackLoaded) {
+                window.rudderanalytics.ready(() => {
+                    if (!rudderStackLoaded) {
+                        Analytics.Analytics.trackEvent("ce_real_account_signup_form", {
+                            action: "step_passed",
+                            step_num: "0",
+                            step_codename: "account_currency",
+                            form_name: "real_account_signup_form_outsystems"
+                        });
+                        rudderStackLoaded = true;
+                    }
+                    clearInterval(intervalId);
+                });
+            }
+        }
+
+        const intervalId = setInterval(() => {
+            checkForRudderStack();
+        }, 2000);
     };
 });
 

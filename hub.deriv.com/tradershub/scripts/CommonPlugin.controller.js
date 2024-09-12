@@ -578,7 +578,8 @@ define("CommonPlugin.controller$InitPluginManager", ["exports", "@outsystems/run
 
                         try {
                             return controller.safeExecuteAsyncJSNode(CommonPlugin_controller_InitPluginManager_InitScriptJS, "InitScript", "InitPluginManager", {
-                                ScriptURL: OS.DataConversion.JSNodeParamConverter.to(OS.Navigation.VersionedURL.getVersionedUrl("scripts/CommonPlugin.PluginManager.js"), OS.DataTypes.DataTypes.Text)
+                                ScriptURL: OS.DataConversion.JSNodeParamConverter.to(OS.Navigation.VersionedURL.getVersionedUrl("scripts/CommonPlugin.PluginManager.js"), OS.DataTypes.DataTypes.Text),
+                                LegacyScriptURL: OS.DataConversion.JSNodeParamConverter.to(OS.Navigation.VersionedURL.getVersionedUrl("scripts/CommonPlugin.Legacy_PluginManager.js"), OS.DataTypes.DataTypes.Text)
                             }, function($parameters) {}, {
                                 RequireScript: OS.SystemActions.requireScript
                             }, {});
@@ -612,6 +613,10 @@ define("CommonPlugin.controller$InitPluginManager", ["exports", "@outsystems/run
 define("CommonPlugin.controller$InitPluginManager.InitScriptJS", [], function() {
     return function($parameters, $actions, $roles, $public) {
         return new Promise(function($resolve, $reject) {
+            if (define !== undefined && require !== undefined) {
+                $actions.RequireScript($parameters.LegacyScriptURL)
+            }
+
             $actions.RequireScript($parameters.ScriptURL).then(function() {
                 $resolve();
             });

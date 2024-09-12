@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="login-pf">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="noindex, nofollow">
+            <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Sign in to 428c3954-0b24-47e4-9900-616c1a545bbc</title>
+    <link rel="icon" href="https://prd-neo-unified-experience.s3.eu-west-1.amazonaws.com/identity-core/keycloak/img/favicon.ico" />
+
+    <!--
+    Apply old theme styles only to style master realm login
+    -->
+    <!--
+    End of styles for old login theme
+    -->
+
+    <link href="https://prd-neo-unified-experience.s3.eu-west-1.amazonaws.com/identity-core/keycloak/css/NeoTheme.compiled.css" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+</head>
+
+<body class="">
+<div class="login-pf-page">
+    <div id="kc-header" class="login-pf-page-header">
+    </div>
+    <div class="card-pf">
+        <header class="login-pf-header">
+                <h1 id="kc-page-title">        Device Login
+</h1>
+      </header>
+      <div id="kc-content">
+        <div id="kc-content-wrapper">
+
+
+        <form id="kc-user-verify-device-user-code-form" class="form-horizontal" action="/auth/realms/428c3954-0b24-47e4-9900-616c1a545bbc/device" method="post">
+            <div class="form-group">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <label for="device-user-code" class="pf-c-form__label pf-c-form__label-text">Enter the code provided by your device and click Submit</label>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <input id="device-user-code" name="device_user_code" autocomplete="off" type="text" class="pf-c-form-control" autofocus />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div id="kc-form-options" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="">
+                    </div>
+                </div>
+
+                <div id="kc-form-buttons" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="">
+                        <input class="pf-c-button pf-m-primary btn-lg" type="submit" value="Submit"/>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

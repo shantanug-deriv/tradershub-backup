@@ -1,0 +1,22 @@
+﻿/* @media (min-width: 601px) {
+    .main-content.ThemeGrid_Container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+} */
+
+.tablet .main-content.ThemeGrid_Container,
+.desktop .main-content.ThemeGrid_Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control[data-input]:focus:not(.not-valid), 
+.form-control[data-textarea]:focus:not(.not-valid),
+.dropdown-container > div.dropdown-display:focus:not(.not-valid), 
+.dropdown-container > select.dropdown-display:focus:not(.not-valid),
+.dropdown-container:focus(.not-valid)  {
+    border: var(--border-size-s) solid #818488 !important;
+}

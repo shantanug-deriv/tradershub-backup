@@ -1,0 +1,30 @@
+﻿.desktop .main-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 16px;
+}
+
+.sign-up-header {
+    font-size: x-large;
+}
+
+.tablet .content-container,
+.phone .content-container {
+    display: none;
+}
+
+.tablet .sign-up-container,
+.desktop .sign-up-container {
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.phone .sign-up-container {
+    width: 100% !important;
+}
+
+[data-label].mandatory:after {
+    content: none;
+}

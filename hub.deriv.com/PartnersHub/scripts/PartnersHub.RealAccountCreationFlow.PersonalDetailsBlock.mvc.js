@@ -159,7 +159,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                         uuid: "3"
                     },
                     _widgetRecordProvider: widgetsRecordProvider
-                }, "First (and middle) name"), React.createElement(OSWidgets.Input, {
+                }, $text(getTranslation("0T3Wi9jMUEaxXFsiJf7cxQ#Value", "First (and middle) name"))), React.createElement(OSWidgets.Input, {
                     _validationProps: {
                         validationService: validationService,
                         validationParentId: idService.getId("Form1")
@@ -171,7 +171,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                     inputType: /*Text*/ 0,
                     mandatory: true,
                     maxLength: 50,
-                    prompt: "First (and middle) name",
+                    prompt: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("hBJlxfgynUmzZ9AhSwOZXw#ValueExpression.1197690936.1", "First (and middle) name"),
                     style: "form-control",
                     variable: model.createVariable(OS.DataTypes.DataTypes.Text, PartnersHubClientVariables.getRealSignupFirstName(), function(value) {
                         PartnersHubClientVariables.setRealSignupFirstName(value);
@@ -202,7 +202,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                         uuid: "6"
                     },
                     _widgetRecordProvider: widgetsRecordProvider
-                }, "Last name"), React.createElement(OSWidgets.Input, {
+                }, $text(getTranslation("zjJ1q5jYdkymqdJ0Ew8BAg#Value", "Last name"))), React.createElement(OSWidgets.Input, {
                     _validationProps: {
                         validationService: validationService,
                         validationParentId: idService.getId("Form1")
@@ -214,7 +214,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                     inputType: /*Text*/ 0,
                     mandatory: true,
                     maxLength: 50,
-                    prompt: "Enter your last name",
+                    prompt: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("16HlsEFl20aowcu+AUX2nQ#ValueExpression.1572233360.1", "Enter your last name"),
                     style: "form-control",
                     variable: model.createVariable(OS.DataTypes.DataTypes.Text, PartnersHubClientVariables.getRealSignupLastName(), function(value) {
                         PartnersHubClientVariables.setRealSignupLastName(value);
@@ -269,7 +269,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                     extendedProperties: {
                         style: "margin-right: 4px;"
                     },
-                    text: ["Enter your"],
+                    text: [$text(getTranslation("4_2LZ2b5xEyZNd4uy9iZww#Value", "Enter your"))],
                     _idProps: {
                         service: idService,
                         uuid: "11"
@@ -279,13 +279,13 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                     extendedProperties: {
                         style: "font-weight: bold; margin-right: 4px;"
                     },
-                    text: ["name"],
+                    text: [$text(getTranslation("J0V3L+sIAEqTue6JXMGP3A#Value", "name"))],
                     _idProps: {
                         service: idService,
                         uuid: "12"
                     },
                     _widgetRecordProvider: widgetsRecordProvider
-                }), "exactly as it appears on your identity document.")), React.createElement(OSWidgets.Image, {
+                }), $text(getTranslation("aP1vS54I5k2xlwZGB0k6Hw#Value", "exactly as it appears on your identity document.")))), React.createElement(OSWidgets.Image, {
                     gridProperties: {
                         classes: "OSFillParent",
                         marginLeft: "0"
@@ -322,7 +322,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                     extendedProperties: {
                         style: "color: #f3f6f8; font-size: 16px; font-weight: bold;"
                     },
-                    text: ["Next"],
+                    text: [$text(getTranslation("RG70PEg8yEyXExOyPJcC6w#Value", "Next"))],
                     _idProps: {
                         service: idService,
                         uuid: "15"
@@ -387,7 +387,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                     extendedProperties: {
                         style: "margin-right: 4px;"
                     },
-                    text: ["Enter your"],
+                    text: [$text(getTranslation("bjOi2lIQ_EqD3rHVXQZfsg#Value", "Enter your"))],
                     _idProps: {
                         service: idService,
                         uuid: "20"
@@ -397,7 +397,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                     extendedProperties: {
                         style: "font-weight: bold; margin-right: 4px;"
                     },
-                    text: ["name"],
+                    text: [$text(getTranslation("BH4xaTTRpkCbML18NugkfA#Value", "name"))],
                     _idProps: {
                         service: idService,
                         uuid: "21"
@@ -407,7 +407,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                     extendedProperties: {
                         style: "font-weight: normal; margin-right: 4px;"
                     },
-                    text: ["and"],
+                    text: [$text(getTranslation("jjo7zQDjKEOzEB8rpTtC5Q#Value", "and"))],
                     _idProps: {
                         service: idService,
                         uuid: "22"
@@ -417,13 +417,13 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                     extendedProperties: {
                         style: "font-weight: bold; margin-right: 4px;"
                     },
-                    text: ["date of birth"],
+                    text: [$text(getTranslation("bfHfU4sxB0uZYsBvXwcV0g#Value", "date of birth"))],
                     _idProps: {
                         service: idService,
                         uuid: "23"
                     },
                     _widgetRecordProvider: widgetsRecordProvider
-                }), "exactly as it appears on your identity document.")), React.createElement(OSWidgets.Container, {
+                }), $text(getTranslation("WGq0RVZ5r0yEEwsOsR4JlA#Value", "exactly as it appears on your identity document.")))), React.createElement(OSWidgets.Container, {
                     align: /*Default*/ 0,
                     animate: false,
                     extendedProperties: {
@@ -485,7 +485,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                         uuid: "28"
                     },
                     _widgetRecordProvider: widgetsRecordProvider
-                }, "First (and middle) name"), React.createElement(OSWidgets.Input, {
+                }, $text(getTranslation("2mZm2HFVgEyXiVPF5ncAMA#Value", "First (and middle) name"))), React.createElement(OSWidgets.Input, {
                     _validationProps: {
                         validationService: validationService,
                         validationParentId: idService.getId("Form2")
@@ -497,7 +497,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                     inputType: /*Text*/ 0,
                     mandatory: true,
                     maxLength: 50,
-                    prompt: "First (and middle) name",
+                    prompt: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("8wPzweYOjEW2uxdLwdFzSA#ValueExpression.1197690936.1", "First (and middle) name"),
                     style: "form-control",
                     variable: model.createVariable(OS.DataTypes.DataTypes.Text, PartnersHubClientVariables.getRealSignupFirstName(), function(value) {
                         PartnersHubClientVariables.setRealSignupFirstName(value);
@@ -528,7 +528,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                         uuid: "31"
                     },
                     _widgetRecordProvider: widgetsRecordProvider
-                }, "Last name"), React.createElement(OSWidgets.Input, {
+                }, $text(getTranslation("DsD3zjGmQU2YmaZO__txJA#Value", "Last name"))), React.createElement(OSWidgets.Input, {
                     _validationProps: {
                         validationService: validationService,
                         validationParentId: idService.getId("Form2")
@@ -540,7 +540,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                     inputType: /*Text*/ 0,
                     mandatory: true,
                     maxLength: 50,
-                    prompt: "Enter your last name",
+                    prompt: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("BNQBIV97LkG9yYb3KpfMtQ#ValueExpression.1572233360.1", "Enter your last name"),
                     style: "form-control",
                     variable: model.createVariable(OS.DataTypes.DataTypes.Text, PartnersHubClientVariables.getRealSignupLastName(), function(value) {
                         PartnersHubClientVariables.setRealSignupLastName(value);
@@ -571,7 +571,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                         uuid: "34"
                     },
                     _widgetRecordProvider: widgetsRecordProvider
-                }, "Date of birth"), React.createElement(OSWidgets.Container, {
+                }, $text(getTranslation("s_eGbmNoT06cMKSVqx3Zrw#Value", "Date of birth"))), React.createElement(OSWidgets.Container, {
                     align: /*Default*/ 0,
                     animate: false,
                     extendedProperties: {
@@ -636,7 +636,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                                 inputType: /*Date*/ 4,
                                 mandatory: true,
                                 maxLength: 0,
-                                prompt: "dd/mm/yyyy",
+                                prompt: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("lOBAHtZQGUmW9zPBauhtIg#ValueExpression.-1399232832.1", "dd/mm/yyyy"),
                                 style: "form-control",
                                 variable: model.createVariable(OS.DataTypes.DataTypes.Date, PartnersHubClientVariables.getRealSignupDateofBirth(), function(value) {
                                     PartnersHubClientVariables.setRealSignupDateofBirth(value);
@@ -715,7 +715,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
                     extendedProperties: {
                         style: "color: #f3f6f8; font-weight: bold;"
                     },
-                    text: ["Next"],
+                    text: [$text(getTranslation("j_EPQ_tMEkOIVLHUSf5bHQ#Value", "Next"))],
                     _idProps: {
                         service: idService,
                         uuid: "42"
@@ -1361,6 +1361,210 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$controller.
 });
 
 
-define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "j_EPQ_tMEkOIVLHUSf5bHQ#Value": "Nächste",
+        "lOBAHtZQGUmW9zPBauhtIg#ValueExpression.-1399232832.1": "dd.mm.jjjj",
+        "s_eGbmNoT06cMKSVqx3Zrw#Value": "Geburtsdatum",
+        "BNQBIV97LkG9yYb3KpfMtQ#ValueExpression.1572233360.1": "Geben Sie Ihren Nachnamen ein",
+        "DsD3zjGmQU2YmaZO__txJA#Value": "Nachname",
+        "8wPzweYOjEW2uxdLwdFzSA#ValueExpression.1197690936.1": "Vorname (und zweiter Vorname)",
+        "2mZm2HFVgEyXiVPF5ncAMA#Value": "Vorname (und zweiter Vorname)",
+        "WGq0RVZ5r0yEEwsOsR4JlA#Value": "genau wie auf Ihrem Ausweisdokument angegeben.",
+        "bfHfU4sxB0uZYsBvXwcV0g#Value": "Geburtsdatum",
+        "jjo7zQDjKEOzEB8rpTtC5Q#Value": "und",
+        "BH4xaTTRpkCbML18NugkfA#Value": "Name",
+        "bjOi2lIQ_EqD3rHVXQZfsg#Value": "Geben Sie Ihre",
+        "RG70PEg8yEyXExOyPJcC6w#Value": "Nächste",
+        "aP1vS54I5k2xlwZGB0k6Hw#Value": "genau wie es auf Ihrem Ausweis steht.",
+        "J0V3L+sIAEqTue6JXMGP3A#Value": "Name",
+        "4_2LZ2b5xEyZNd4uy9iZww#Value": "Geben Sie Ihr ein",
+        "16HlsEFl20aowcu+AUX2nQ#ValueExpression.1572233360.1": "Geben Sie Ihren Nachnamen ein",
+        "zjJ1q5jYdkymqdJ0Ew8BAg#Value": "Nachname",
+        "hBJlxfgynUmzZ9AhSwOZXw#ValueExpression.1197690936.1": "Vorname (und zweiter Vorname)",
+        "0T3Wi9jMUEaxXFsiJf7cxQ#Value": "Vorname (und zweiter Vorname)"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "j_EPQ_tMEkOIVLHUSf5bHQ#Value": "Siguiente",
+        "lOBAHtZQGUmW9zPBauhtIg#ValueExpression.-1399232832.1": "dd/mm/yyyy",
+        "s_eGbmNoT06cMKSVqx3Zrw#Value": "Fecha de nacimiento",
+        "BNQBIV97LkG9yYb3KpfMtQ#ValueExpression.1572233360.1": "Introduzca su apellido",
+        "DsD3zjGmQU2YmaZO__txJA#Value": "Apellido",
+        "8wPzweYOjEW2uxdLwdFzSA#ValueExpression.1197690936.1": "Nombre (y segundo nombre)",
+        "2mZm2HFVgEyXiVPF5ncAMA#Value": "Nombre (y segundo nombre)",
+        "WGq0RVZ5r0yEEwsOsR4JlA#Value": "exactamente como aparece en su documento de identidad.",
+        "bfHfU4sxB0uZYsBvXwcV0g#Value": "fecha de nacimiento",
+        "jjo7zQDjKEOzEB8rpTtC5Q#Value": "y",
+        "BH4xaTTRpkCbML18NugkfA#Value": "nombre",
+        "bjOi2lIQ_EqD3rHVXQZfsg#Value": "Introduzca su",
+        "RG70PEg8yEyXExOyPJcC6w#Value": "Siguiente",
+        "aP1vS54I5k2xlwZGB0k6Hw#Value": "exactamente como aparece en su documento de identidad.",
+        "J0V3L+sIAEqTue6JXMGP3A#Value": "nombre",
+        "4_2LZ2b5xEyZNd4uy9iZww#Value": "Introduzca su",
+        "16HlsEFl20aowcu+AUX2nQ#ValueExpression.1572233360.1": "Introduzca su apellido",
+        "zjJ1q5jYdkymqdJ0Ew8BAg#Value": "Apellido",
+        "hBJlxfgynUmzZ9AhSwOZXw#ValueExpression.1197690936.1": "Nombre (y segundo nombre)",
+        "0T3Wi9jMUEaxXFsiJf7cxQ#Value": "Nombre (y segundo nombre)"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "j_EPQ_tMEkOIVLHUSf5bHQ#Value": "Suivant",
+        "lOBAHtZQGUmW9zPBauhtIg#ValueExpression.-1399232832.1": "jj/mm/aaaa",
+        "s_eGbmNoT06cMKSVqx3Zrw#Value": "Date de naissance",
+        "BNQBIV97LkG9yYb3KpfMtQ#ValueExpression.1572233360.1": "Entrez votre nom de famille",
+        "DsD3zjGmQU2YmaZO__txJA#Value": "Nom de famille",
+        "8wPzweYOjEW2uxdLwdFzSA#ValueExpression.1197690936.1": "Prénom (et deuxième prénom)",
+        "2mZm2HFVgEyXiVPF5ncAMA#Value": "Prénom (et deuxième prénom)",
+        "WGq0RVZ5r0yEEwsOsR4JlA#Value": "exactement comme indiqué sur votre document d\'identité.",
+        "bfHfU4sxB0uZYsBvXwcV0g#Value": "date de naissance",
+        "jjo7zQDjKEOzEB8rpTtC5Q#Value": "et",
+        "BH4xaTTRpkCbML18NugkfA#Value": "nom",
+        "bjOi2lIQ_EqD3rHVXQZfsg#Value": "Entrez votre",
+        "RG70PEg8yEyXExOyPJcC6w#Value": "Suivant",
+        "aP1vS54I5k2xlwZGB0k6Hw#Value": "exactement comme il apparaît sur votre document d\'identité.",
+        "J0V3L+sIAEqTue6JXMGP3A#Value": "nom",
+        "4_2LZ2b5xEyZNd4uy9iZww#Value": "Entrez votre",
+        "16HlsEFl20aowcu+AUX2nQ#ValueExpression.1572233360.1": "Entrez votre nom de famille",
+        "zjJ1q5jYdkymqdJ0Ew8BAg#Value": "Nom de famille",
+        "hBJlxfgynUmzZ9AhSwOZXw#ValueExpression.1197690936.1": "Prénom (et deuxième prénom)",
+        "0T3Wi9jMUEaxXFsiJf7cxQ#Value": "Prénom (et deuxième prénom)"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "j_EPQ_tMEkOIVLHUSf5bHQ#Value": "Prossimo",
+        "lOBAHtZQGUmW9zPBauhtIg#ValueExpression.-1399232832.1": "gg/mm/aaaa",
+        "s_eGbmNoT06cMKSVqx3Zrw#Value": "Data di nascita",
+        "BNQBIV97LkG9yYb3KpfMtQ#ValueExpression.1572233360.1": "Inserisci il tuo cognome",
+        "DsD3zjGmQU2YmaZO__txJA#Value": "Cognome",
+        "8wPzweYOjEW2uxdLwdFzSA#ValueExpression.1197690936.1": "Nome (e secondo nome)",
+        "2mZm2HFVgEyXiVPF5ncAMA#Value": "Nome (e secondo nome)",
+        "WGq0RVZ5r0yEEwsOsR4JlA#Value": "esattamente come appare sul tuo documento d\'identità.",
+        "bfHfU4sxB0uZYsBvXwcV0g#Value": "data di nascita",
+        "jjo7zQDjKEOzEB8rpTtC5Q#Value": "e",
+        "BH4xaTTRpkCbML18NugkfA#Value": "nome",
+        "bjOi2lIQ_EqD3rHVXQZfsg#Value": "Inserisci il tuo",
+        "RG70PEg8yEyXExOyPJcC6w#Value": "Prossimo",
+        "aP1vS54I5k2xlwZGB0k6Hw#Value": "esattamente come appare sul tuo documento d\'identità.",
+        "J0V3L+sIAEqTue6JXMGP3A#Value": "nome",
+        "4_2LZ2b5xEyZNd4uy9iZww#Value": "Inserisci il tuo",
+        "16HlsEFl20aowcu+AUX2nQ#ValueExpression.1572233360.1": "Inserisci il tuo cognome",
+        "zjJ1q5jYdkymqdJ0Ew8BAg#Value": "Cognome",
+        "hBJlxfgynUmzZ9AhSwOZXw#ValueExpression.1197690936.1": "Nome (e secondo nome)",
+        "0T3Wi9jMUEaxXFsiJf7cxQ#Value": "Nome (e secondo nome)"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "j_EPQ_tMEkOIVLHUSf5bHQ#Value": "Następny",
+        "lOBAHtZQGUmW9zPBauhtIg#ValueExpression.-1399232832.1": "dd.mm.rrrr",
+        "s_eGbmNoT06cMKSVqx3Zrw#Value": "Data urodzenia",
+        "BNQBIV97LkG9yYb3KpfMtQ#ValueExpression.1572233360.1": "Wprowadź swoje nazwisko",
+        "DsD3zjGmQU2YmaZO__txJA#Value": "Nazwisko",
+        "8wPzweYOjEW2uxdLwdFzSA#ValueExpression.1197690936.1": "Imię (i drugie imię)",
+        "2mZm2HFVgEyXiVPF5ncAMA#Value": "Imię (i drugie imię)",
+        "WGq0RVZ5r0yEEwsOsR4JlA#Value": "dokładnie tak, jak jest to napisane w Twoim dokumencie tożsamości.",
+        "bfHfU4sxB0uZYsBvXwcV0g#Value": "data urodzenia",
+        "jjo7zQDjKEOzEB8rpTtC5Q#Value": "i",
+        "BH4xaTTRpkCbML18NugkfA#Value": "nazwa",
+        "bjOi2lIQ_EqD3rHVXQZfsg#Value": "Wprowadź swoje",
+        "RG70PEg8yEyXExOyPJcC6w#Value": "Następny",
+        "aP1vS54I5k2xlwZGB0k6Hw#Value": "dokładnie tak, jak widnieje w twoim dokumencie tożsamości.",
+        "J0V3L+sIAEqTue6JXMGP3A#Value": "nazwa",
+        "4_2LZ2b5xEyZNd4uy9iZww#Value": "Wprowadź swój",
+        "16HlsEFl20aowcu+AUX2nQ#ValueExpression.1572233360.1": "Wprowadź swoje nazwisko",
+        "zjJ1q5jYdkymqdJ0Ew8BAg#Value": "Nazwisko",
+        "hBJlxfgynUmzZ9AhSwOZXw#ValueExpression.1197690936.1": "Imię (i drugie imię)",
+        "0T3Wi9jMUEaxXFsiJf7cxQ#Value": "Imię (i drugie imię)"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "j_EPQ_tMEkOIVLHUSf5bHQ#Value": "Próximo",
+        "lOBAHtZQGUmW9zPBauhtIg#ValueExpression.-1399232832.1": "dd/mm/aaaa",
+        "s_eGbmNoT06cMKSVqx3Zrw#Value": "Data de nascimento",
+        "BNQBIV97LkG9yYb3KpfMtQ#ValueExpression.1572233360.1": "Insira o seu sobrenome",
+        "DsD3zjGmQU2YmaZO__txJA#Value": "Sobrenome",
+        "8wPzweYOjEW2uxdLwdFzSA#ValueExpression.1197690936.1": "Primeiro nome (e segundo nome)",
+        "2mZm2HFVgEyXiVPF5ncAMA#Value": "Primeiro nome (e nome do meio)",
+        "WGq0RVZ5r0yEEwsOsR4JlA#Value": "exatamente como aparece no seu documento de identidade.",
+        "bfHfU4sxB0uZYsBvXwcV0g#Value": "data de nascimento",
+        "jjo7zQDjKEOzEB8rpTtC5Q#Value": "e",
+        "BH4xaTTRpkCbML18NugkfA#Value": "nome",
+        "bjOi2lIQ_EqD3rHVXQZfsg#Value": "Insira o seu",
+        "RG70PEg8yEyXExOyPJcC6w#Value": "Próximo",
+        "aP1vS54I5k2xlwZGB0k6Hw#Value": "exatamente como aparece no seu documento de identidade.",
+        "J0V3L+sIAEqTue6JXMGP3A#Value": "nome",
+        "4_2LZ2b5xEyZNd4uy9iZww#Value": "Insira o seu",
+        "16HlsEFl20aowcu+AUX2nQ#ValueExpression.1572233360.1": "Insira o seu apelido",
+        "zjJ1q5jYdkymqdJ0Ew8BAg#Value": "Sobrenome",
+        "hBJlxfgynUmzZ9AhSwOZXw#ValueExpression.1197690936.1": "Primeiro nome (e nome do meio)",
+        "0T3Wi9jMUEaxXFsiJf7cxQ#Value": "Primeiro nome (e nome do meio)"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "j_EPQ_tMEkOIVLHUSf5bHQ#Value": "Следующий",
+        "lOBAHtZQGUmW9zPBauhtIg#ValueExpression.-1399232832.1": "дд.мм.гггг",
+        "s_eGbmNoT06cMKSVqx3Zrw#Value": "Дата рождения",
+        "BNQBIV97LkG9yYb3KpfMtQ#ValueExpression.1572233360.1": "Введите вашу фамилию",
+        "DsD3zjGmQU2YmaZO__txJA#Value": "Фамилия",
+        "8wPzweYOjEW2uxdLwdFzSA#ValueExpression.1197690936.1": "Имя (и отчество)",
+        "2mZm2HFVgEyXiVPF5ncAMA#Value": "Имя (и отчество)",
+        "WGq0RVZ5r0yEEwsOsR4JlA#Value": "точно так, как указано в вашем удостоверении личности.",
+        "bfHfU4sxB0uZYsBvXwcV0g#Value": "дата рождения",
+        "jjo7zQDjKEOzEB8rpTtC5Q#Value": "и",
+        "BH4xaTTRpkCbML18NugkfA#Value": "имя",
+        "bjOi2lIQ_EqD3rHVXQZfsg#Value": "Введите ваш",
+        "RG70PEg8yEyXExOyPJcC6w#Value": "Следующий",
+        "aP1vS54I5k2xlwZGB0k6Hw#Value": "точно так, как указано в вашем удостоверении личности.",
+        "J0V3L+sIAEqTue6JXMGP3A#Value": "имя",
+        "4_2LZ2b5xEyZNd4uy9iZww#Value": "Введите ваш",
+        "16HlsEFl20aowcu+AUX2nQ#ValueExpression.1572233360.1": "Введите вашу фамилию",
+        "zjJ1q5jYdkymqdJ0Ew8BAg#Value": "Фамилия",
+        "hBJlxfgynUmzZ9AhSwOZXw#ValueExpression.1197690936.1": "Имя (и второе имя)",
+        "0T3Wi9jMUEaxXFsiJf7cxQ#Value": "Имя (и второе имя)"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources", ["exports", "PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources.de-DE", "PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources.es-ES", "PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources.fr-FR", "PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources.it-IT", "PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources.pl-PL", "PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources.pt-PT", "PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_translationsResources_deDE, PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_translationsResources_esES, PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_translationsResources_frFR, PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_translationsResources_itIT, PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_translationsResources_plPL, PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_translationsResources_ptPT, PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

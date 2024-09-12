@@ -1,0 +1,29 @@
+﻿define("tradershub.appDefinition", ["@outsystems/runtime-core-js"], function (OSRuntimeCore) {
+var OS = OSRuntimeCore;
+return {
+environmentKey: "DUMMY_KEY",
+environmentName: "DUMMY_NAME",
+applicationKey: "2ad446d5-32d7-4fbf-959d-82d8325bcfbc",
+applicationName: "tradershub",
+userProviderName: "Users",
+debugEnabled: false,
+debugUseWebSockets: true,
+homeModuleName: "tradershub",
+homeModuleKey: "2ad446d5-32d7-4fbf-959d-82d8325bcfbc",
+homeModuleControllerName: "tradershub.controller",
+homeModuleLanguageResourcesName: "tradershub.languageResources",
+defaultScreenName: "signup",
+defaultTransition: "None",
+errorPageConfig: {
+showExceptionStack: false
+},
+isWeb: true,
+personalArea: null,
+showWatermark: false,
+buildServiceVersion: "v17.1581.6.0",
+clientRuntimeVersion: "6.9.4",
+useESM: false,
+appVersion: "4015"
+};
+});
+

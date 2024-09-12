@@ -20,7 +20,7 @@ define("OutSystemsUI.appDefinition", ["@outsystems/runtime-core-js"], function(O
         isWeb: true,
         personalArea: null,
         showWatermark: false,
-        buildServiceVersion: "v17.1581.3.0",
+        buildServiceVersion: "v17.1581.6.0",
         clientRuntimeVersion: "6.9.4",
         useESM: false,
         appVersion: "5"

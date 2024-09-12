@@ -112,6 +112,10 @@ border: 1px solid var(--core-color-opacity-black-100, rgba(0, 0, 0, 0.08));
 background: var(--core-color-solid-slate-50, #FFF);
 }
 
+.sortable-icon {
+    display: none;
+}
+
 .dashboard__content--disabled {
     opacity: 20%;
     pointer-events: none;
@@ -122,4 +126,12 @@ background: var(--core-color-solid-slate-50, #FFF);
   border:var(--border-size-s) solid var(--color-neutral-6);
 }
 
+.table-header th {
+    background-color: #F8F9FA;
+}
+
+
+.table .table-row:nth-child(even) td{
+  background-color: #F8F9FA;
+}
 

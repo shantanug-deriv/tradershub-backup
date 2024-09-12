@@ -162,7 +162,7 @@ define("PartnersHub.Signup.EmailVerificationBlock.mvc$view", ["@outsystems/runti
                 extendedProperties: {
                     style: "font-size: 16px;"
                 },
-                text: ["We\'ve sent a verification link to"],
+                text: [$text(getTranslation("nmZ5mUvyNEKM2qCLevum5Q#Value", "We\'ve sent a verification link to"))],
                 _idProps: {
                     service: idService,
                     uuid: "4"
@@ -206,7 +206,7 @@ define("PartnersHub.Signup.EmailVerificationBlock.mvc$view", ["@outsystems/runti
                 extendedProperties: {
                     style: "margin-bottom: 8px; margin-right: 8px;"
                 },
-                text: ["Didn\'t get an email?"],
+                text: [$text(getTranslation("X44uz9A6JkW4bDTdx+u2Dw#Value", "Didn\'t get an email?"))],
                 _idProps: {
                     service: idService,
                     uuid: "8"
@@ -237,7 +237,7 @@ define("PartnersHub.Signup.EmailVerificationBlock.mvc$view", ["@outsystems/runti
                     extendedProperties: {
                         style: "cursor: pointer; font-weight: bold; text-decoration: underline;"
                     },
-                    text: ["Resend email"],
+                    text: [$text(getTranslation("gmoJ9bRlBk2hPDhbG6xeKw#Value", "Resend email"))],
                     _idProps: {
                         service: idService,
                         uuid: "10"
@@ -249,7 +249,7 @@ define("PartnersHub.Signup.EmailVerificationBlock.mvc$view", ["@outsystems/runti
                     extendedProperties: {
                         style: "color: #adb5bd; font-weight: bold; text-decoration: underline;"
                     },
-                    value: (("Resend code in " + (model.variables.timerVar).toString()) + " sec"),
+                    value: ((OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("etHx6o0xsEibhJs7jg1Onw#ValueExpression.-831934195.1", "Resend code in ") + (model.variables.timerVar).toString()) + OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("etHx6o0xsEibhJs7jg1Onw#ValueExpression.1067057.1", " sec")),
                     _idProps: {
                         service: idService,
                         uuid: "11"
@@ -281,7 +281,7 @@ define("PartnersHub.Signup.EmailVerificationBlock.mvc$view", ["@outsystems/runti
                 extendedProperties: {
                     style: "display: block;"
                 },
-                text: [" • Make sure you\'ve entered your email correctly."],
+                text: [$text(getTranslation("Gti3g47eEU+oenmecSnO6Q#Value", " • Make sure you\'ve entered your email correctly."))],
                 _idProps: {
                     service: idService,
                     uuid: "14"
@@ -296,7 +296,7 @@ define("PartnersHub.Signup.EmailVerificationBlock.mvc$view", ["@outsystems/runti
                     uuid: "15"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, " • Check your spam folder."), React.createElement(OSWidgets.Container, {
+            }, $text(getTranslation("kSn5sLsbmkmpruyoXIZ6LQ#Value", " • Check your spam folder."))), React.createElement(OSWidgets.Container, {
                 align: /*Default*/ 0,
                 animate: false,
                 visible: true,
@@ -305,7 +305,7 @@ define("PartnersHub.Signup.EmailVerificationBlock.mvc$view", ["@outsystems/runti
                     uuid: "16"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, " • Make sure the email isn’t blocked by firewalls or filters.")))));
+            }, $text(getTranslation("EShNp62YjUep+kX04AAY+g#Value", " • Make sure the email isn’t blocked by firewalls or filters.")))))));
         }
     }
 
@@ -717,6 +717,126 @@ define("PartnersHub.Signup.EmailVerificationBlock.mvc$controller.OnClickTimer.Ja
 });
 
 
-define("PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "EShNp62YjUep+kX04AAY+g#Value": "Stellen Sie sicher, dass die E-Mail nicht von Firewalls oder Filtern blockiert wird.",
+        "kSn5sLsbmkmpruyoXIZ6LQ#Value": "Überprüfen Sie Ihren Spam-Ordner.",
+        "Gti3g47eEU+oenmecSnO6Q#Value": "Stellen Sie sicher, dass Sie Ihre E-Mail-Adresse korrekt eingegeben haben.",
+        "etHx6o0xsEibhJs7jg1Onw#ValueExpression.-831934195.1": "Code erneut senden in",
+        "etHx6o0xsEibhJs7jg1Onw#ValueExpression.1067057.1": "Sekunde",
+        "gmoJ9bRlBk2hPDhbG6xeKw#Value": "E-Mail erneut senden",
+        "X44uz9A6JkW4bDTdx+u2Dw#Value": "Keine E-Mail erhalten?",
+        "nmZ5mUvyNEKM2qCLevum5Q#Value": "Wir haben einen Bestätigungslink an Sie gesendet."
+    };
+});
+
+define("PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "EShNp62YjUep+kX04AAY+g#Value": "Asegúrate de que el correo electrónico no esté bloqueado por cortafuegos o filtros.",
+        "kSn5sLsbmkmpruyoXIZ6LQ#Value": "Verifica tu carpeta de spam.",
+        "Gti3g47eEU+oenmecSnO6Q#Value": "Asegúrate de haber ingresado tu correo electrónico correctamente.",
+        "etHx6o0xsEibhJs7jg1Onw#ValueExpression.-831934195.1": "Reenviar código en",
+        "etHx6o0xsEibhJs7jg1Onw#ValueExpression.1067057.1": "segundo",
+        "gmoJ9bRlBk2hPDhbG6xeKw#Value": "Reenviar correo electrónico",
+        "X44uz9A6JkW4bDTdx+u2Dw#Value": "¿No recibiste un correo electrónico?",
+        "nmZ5mUvyNEKM2qCLevum5Q#Value": "Hemos enviado un enlace de verificación a usted."
+    };
+});
+
+define("PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "EShNp62YjUep+kX04AAY+g#Value": "Assurez-vous que l\'e-mail n\'est pas bloqué par des pare-feu ou des filtres.",
+        "kSn5sLsbmkmpruyoXIZ6LQ#Value": "Vérifiez votre dossier de spam.",
+        "Gti3g47eEU+oenmecSnO6Q#Value": "Assurez-vous d\'avoir entré votre e-mail correctement.",
+        "etHx6o0xsEibhJs7jg1Onw#ValueExpression.-831934195.1": "Renvoyer le code dans",
+        "etHx6o0xsEibhJs7jg1Onw#ValueExpression.1067057.1": "seconde",
+        "gmoJ9bRlBk2hPDhbG6xeKw#Value": "Renvoyer l\'e-mail",
+        "X44uz9A6JkW4bDTdx+u2Dw#Value": "Vous n\'avez pas reçu d\'e-mail ?",
+        "nmZ5mUvyNEKM2qCLevum5Q#Value": "Nous vous avons envoyé un lien de vérification."
+    };
+});
+
+define("PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "EShNp62YjUep+kX04AAY+g#Value": "Assicurati che l\'email non sia bloccata da firewall o filtri.",
+        "kSn5sLsbmkmpruyoXIZ6LQ#Value": "Controlla la tua cartella spam.",
+        "Gti3g47eEU+oenmecSnO6Q#Value": "Assicurati di aver inserito correttamente la tua email.",
+        "etHx6o0xsEibhJs7jg1Onw#ValueExpression.-831934195.1": "Reinvia il codice in",
+        "etHx6o0xsEibhJs7jg1Onw#ValueExpression.1067057.1": "secondo",
+        "gmoJ9bRlBk2hPDhbG6xeKw#Value": "Invia nuovamente l\'email",
+        "X44uz9A6JkW4bDTdx+u2Dw#Value": "Non hai ricevuto un\'email?",
+        "nmZ5mUvyNEKM2qCLevum5Q#Value": "Abbiamo inviato un link di verifica a te."
+    };
+});
+
+define("PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "EShNp62YjUep+kX04AAY+g#Value": "Upewnij się, że e-mail nie jest blokowany przez zapory lub filtry.",
+        "kSn5sLsbmkmpruyoXIZ6LQ#Value": "Sprawdź swój folder spam.",
+        "Gti3g47eEU+oenmecSnO6Q#Value": "Upewnij się, że poprawnie wpisałeś swój adres e-mail.",
+        "etHx6o0xsEibhJs7jg1Onw#ValueExpression.-831934195.1": "Wyślij kod ponownie w",
+        "etHx6o0xsEibhJs7jg1Onw#ValueExpression.1067057.1": "sekunda",
+        "gmoJ9bRlBk2hPDhbG6xeKw#Value": "Wyślij e-mail ponownie",
+        "X44uz9A6JkW4bDTdx+u2Dw#Value": "Nie otrzymałeś e-maila?",
+        "nmZ5mUvyNEKM2qCLevum5Q#Value": "Wysłaliśmy do Ciebie link weryfikacyjny."
+    };
+});
+
+define("PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "EShNp62YjUep+kX04AAY+g#Value": "Certifique-se de que o e-mail não está bloqueado por firewalls ou filtros.",
+        "kSn5sLsbmkmpruyoXIZ6LQ#Value": "Verifique a sua pasta de spam.",
+        "Gti3g47eEU+oenmecSnO6Q#Value": "Certifique-se de que inseriu o seu e-mail corretamente.",
+        "etHx6o0xsEibhJs7jg1Onw#ValueExpression.-831934195.1": "Reenviar código em",
+        "etHx6o0xsEibhJs7jg1Onw#ValueExpression.1067057.1": "segundo",
+        "gmoJ9bRlBk2hPDhbG6xeKw#Value": "Reenviar e-mail",
+        "X44uz9A6JkW4bDTdx+u2Dw#Value": "Não recebeu um e-mail?",
+        "nmZ5mUvyNEKM2qCLevum5Q#Value": "Enviámos um link de verificação para si."
+    };
+});
+
+define("PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "EShNp62YjUep+kX04AAY+g#Value": "Убедитесь, что электронное письмо не заблокировано брандмауэрами или фильтрами.",
+        "kSn5sLsbmkmpruyoXIZ6LQ#Value": "Проверьте свою папку со спамом.",
+        "Gti3g47eEU+oenmecSnO6Q#Value": "Убедитесь, что вы правильно ввели свой адрес электронной почты.",
+        "etHx6o0xsEibhJs7jg1Onw#ValueExpression.-831934195.1": "Повторно отправить код в",
+        "etHx6o0xsEibhJs7jg1Onw#ValueExpression.1067057.1": "секунда",
+        "gmoJ9bRlBk2hPDhbG6xeKw#Value": "Переслать электронное письмо",
+        "X44uz9A6JkW4bDTdx+u2Dw#Value": "Не получили электронное письмо?",
+        "nmZ5mUvyNEKM2qCLevum5Q#Value": "Мы отправили вам ссылку для подтверждения."
+    };
+});
+
+define("PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources", ["exports", "PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources.de-DE", "PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources.es-ES", "PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources.fr-FR", "PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources.it-IT", "PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources.pl-PL", "PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources.pt-PT", "PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Signup_EmailVerificationBlock_mvc_translationsResources_deDE, PartnersHub_Signup_EmailVerificationBlock_mvc_translationsResources_esES, PartnersHub_Signup_EmailVerificationBlock_mvc_translationsResources_frFR, PartnersHub_Signup_EmailVerificationBlock_mvc_translationsResources_itIT, PartnersHub_Signup_EmailVerificationBlock_mvc_translationsResources_plPL, PartnersHub_Signup_EmailVerificationBlock_mvc_translationsResources_ptPT, PartnersHub_Signup_EmailVerificationBlock_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Signup_EmailVerificationBlock_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Signup_EmailVerificationBlock_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Signup_EmailVerificationBlock_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Signup_EmailVerificationBlock_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Signup_EmailVerificationBlock_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Signup_EmailVerificationBlock_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Signup_EmailVerificationBlock_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

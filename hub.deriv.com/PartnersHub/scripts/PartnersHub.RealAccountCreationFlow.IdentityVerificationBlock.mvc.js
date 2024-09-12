@@ -1,4 +1,4 @@
-define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.model$ST_9a29ef26037f71a833a7717922f3c172Structure", "PartnersHub.model$RL_d9adde0b03f648d52095292753e14389", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.model$ST_4286a56d180b6bb5649e20efadd675fdStructure", "PartnersHub.model$ST_fd472dd876adddab32395354eb83b1e8Structure", "PartnersHub.model$ST_3b8f7a9e49bbec7ed0ab55bd440bab7dStructure", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure", "PartnersHub.controller$SendGetSettings", "PartnersHub.controller$SendResidenceList", "PartnersHub.model$ST_9f80c4e8dbd08377be883c073be1c044Structure"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController) {
+define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "RESTAPIWebsocket.model", "PartnersHub.controller", "RESTAPIWebsocket.controller", "PartnersHub.model$ST_9a29ef26037f71a833a7717922f3c172Structure", "PartnersHub.model$RL_d9adde0b03f648d52095292753e14389", "RESTAPIWebsocket.model$ST_63a473e932ef99f5271718b62399e682Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.model$ST_fd472dd876adddab32395354eb83b1e8Structure", "PartnersHub.model$ST_3b8f7a9e49bbec7ed0ab55bd440bab7dStructure", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStep", "RESTAPIWebsocket.controller$ResidenceList", "PartnersHub.controller$GetToken", "RESTAPIWebsocket.controller$GetSettings"], function(OSRuntimeCore, PartnersHubModel, RESTAPIWebsocketModel, PartnersHubController, RESTAPIWebsocketController) {
     var OS = OSRuntimeCore;
 
 
@@ -11,11 +11,11 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$model"
                         return OS.DataTypes.ImmutableBase.getData(new PartnersHubModel.RL_d9adde0b03f648d52095292753e14389());
                     }, false, PartnersHubModel.RL_d9adde0b03f648d52095292753e14389),
                     this.attr("ResidenceListResponse", "residenceListResponseVar", "ResidenceListResponse", true, false, OS.DataTypes.DataTypes.Record, function() {
-                        return OS.DataTypes.ImmutableBase.getData(new PartnersHubModel.ST_0be4704c381e15995202804b221a5e3aStructure());
-                    }, false, PartnersHubModel.ST_0be4704c381e15995202804b221a5e3aStructure),
+                        return OS.DataTypes.ImmutableBase.getData(new RESTAPIWebsocketModel.ST_63a473e932ef99f5271718b62399e682Structure());
+                    }, false, RESTAPIWebsocketModel.ST_63a473e932ef99f5271718b62399e682Structure),
                     this.attr("GetSettingsResponse", "getSettingsResponseVar", "GetSettingsResponse", true, false, OS.DataTypes.DataTypes.Record, function() {
-                        return OS.DataTypes.ImmutableBase.getData(new PartnersHubModel.ST_4286a56d180b6bb5649e20efadd675fdStructure());
-                    }, false, PartnersHubModel.ST_4286a56d180b6bb5649e20efadd675fdStructure),
+                        return OS.DataTypes.ImmutableBase.getData(new RESTAPIWebsocketModel.ST_5fc2e4a935064c1413d6e989e87decd2Structure());
+                    }, false, RESTAPIWebsocketModel.ST_5fc2e4a935064c1413d6e989e87decd2Structure),
                     this.attr("AdditionalDocumentLabel", "additionalDocumentLabelVar", "AdditionalDocumentLabel", true, false, OS.DataTypes.DataTypes.Text, function() {
                         return "";
                     }, false)
@@ -64,7 +64,7 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$model"
     return new OS.Model.ModelFactory(Model);
 });
 
-define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "react", "@outsystems/runtime-view-js", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$model", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$controller", "PartnersHub.clientVariables", "PartnersHub.Layouts.DeviceLayout.mvc$view", "@outsystems/runtime-widgets-js", "CustomComponents.ButtonVariants.PrimaryButton.mvc$view", "PartnersHub.model$ST_9a29ef26037f71a833a7717922f3c172Structure", "PartnersHub.model$RL_d9adde0b03f648d52095292753e14389", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.model$ST_4286a56d180b6bb5649e20efadd675fdStructure", "PartnersHub.model$ST_fd472dd876adddab32395354eb83b1e8Structure", "PartnersHub.model$ST_3b8f7a9e49bbec7ed0ab55bd440bab7dStructure", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure", "PartnersHub.controller$SendGetSettings", "PartnersHub.controller$SendResidenceList", "PartnersHub.model$ST_9f80c4e8dbd08377be883c073be1c044Structure"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, React, OSView, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_model, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_controller, PartnersHubClientVariables, PartnersHub_Layouts_DeviceLayout_mvc_view, OSWidgets, CustomComponents_ButtonVariants_PrimaryButton_mvc_view) {
+define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "react", "@outsystems/runtime-view-js", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$model", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$controller", "PartnersHub.clientVariables", "PartnersHub.Layouts.DeviceLayout.mvc$view", "@outsystems/runtime-widgets-js", "CustomComponents.ButtonVariants.PrimaryButton.mvc$view", "PartnersHub.Common.SkeletonLoader.mvc$view", "PartnersHub.model$ST_9a29ef26037f71a833a7717922f3c172Structure", "PartnersHub.model$RL_d9adde0b03f648d52095292753e14389", "RESTAPIWebsocket.model$ST_63a473e932ef99f5271718b62399e682Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.model$ST_fd472dd876adddab32395354eb83b1e8Structure", "PartnersHub.model$ST_3b8f7a9e49bbec7ed0ab55bd440bab7dStructure", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStep", "RESTAPIWebsocket.controller$ResidenceList", "PartnersHub.controller$GetToken", "RESTAPIWebsocket.controller$GetSettings"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, React, OSView, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_model, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_controller, PartnersHubClientVariables, PartnersHub_Layouts_DeviceLayout_mvc_view, OSWidgets, CustomComponents_ButtonVariants_PrimaryButton_mvc_view, PartnersHub_Common_SkeletonLoader_mvc_view) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -95,7 +95,7 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view",
         }
 
         static getBlocks() {
-            return [PartnersHub_Layouts_DeviceLayout_mvc_view, CustomComponents_ButtonVariants_PrimaryButton_mvc_view];
+            return [PartnersHub_Layouts_DeviceLayout_mvc_view, CustomComponents_ButtonVariants_PrimaryButton_mvc_view, PartnersHub_Common_SkeletonLoader_mvc_view];
         }
 
         get modelFactory() {
@@ -182,7 +182,7 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view",
                             extendedProperties: {
                                 style: "font-style: normal; font-weight: bold; text-decoration: underline;"
                             },
-                            text: ["Skip"],
+                            text: [$text(getTranslation("bEusLmQgYkyDMBES6VyV3A#Value", "Skip"))],
                             _idProps: {
                                 service: idService,
                                 uuid: "3"
@@ -222,7 +222,7 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view",
                                 uuid: "6"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
-                        }, "Document type"), React.createElement(OSWidgets.Dropdown, {
+                        }, $text(getTranslation("pMoWHnd8T065SXOBoUHfRw#Value", "Document type"))), React.createElement(OSWidgets.Dropdown, {
                             _validationProps: {
                                 validationService: validationService,
                                 validationParentId: idService.getId("IDVDesktop")
@@ -459,126 +459,165 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view",
                                     uuid: "19"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
-                            }, React.createElement(OSWidgets.List, {
-                                animateItems: true,
-                                extendedProperties: {
-                                    style: "display: flex; flex-direction: column; gap: 16px;"
-                                },
-                                gridProperties: {
-                                    classes: "OSFillParent"
-                                },
-                                mode: /*Default*/ 0,
-                                source: model.variables.supportedDocumentsVar,
-                                style: "list list-group",
-                                tag: "div",
-                                _idProps: {
-                                    service: idService,
-                                    uuid: "20"
-                                },
-                                _widgetRecordProvider: widgetsRecordProvider,
-                                placeholders: {
-                                    content: new IteratorPlaceholderContent(function(idService, callContext) {
-                                        return [React.createElement(OSWidgets.ListItem, {
-                                            onClick: function() {
-                                                var eventHandlerContext = callContext.clone();
-                                                controller.onClickDocumentType$Action(model.variables.supportedDocumentsVar.getCurrent(callContext.iterationContext).display_nameAttr, controller.callContext(eventHandlerContext));
+                            }, $if((model.variables.supportedDocumentsVar.length > 0), false, this, function() {
+                                return [React.createElement(OSWidgets.List, {
+                                    animateItems: true,
+                                    extendedProperties: {
+                                        style: "display: flex; flex-direction: column; gap: 16px;"
+                                    },
+                                    gridProperties: {
+                                        classes: "OSFillParent"
+                                    },
+                                    mode: /*Default*/ 0,
+                                    source: model.variables.supportedDocumentsVar,
+                                    style: "list list-group",
+                                    tag: "div",
+                                    _idProps: {
+                                        service: idService,
+                                        uuid: "20"
+                                    },
+                                    _widgetRecordProvider: widgetsRecordProvider,
+                                    placeholders: {
+                                        content: new IteratorPlaceholderContent(function(idService, callContext) {
+                                            return [React.createElement(OSWidgets.ListItem, {
+                                                onClick: function() {
+                                                    var eventHandlerContext = callContext.clone();
+                                                    controller.onClickDocumentType$Action(model.variables.supportedDocumentsVar.getCurrent(callContext.iterationContext).display_nameAttr, controller.callContext(eventHandlerContext));
 
-                                                ;
-                                            },
-                                            style: "listitem1",
-                                            triggerActionOnFullSwipeLeft: true,
-                                            triggerActionOnFullSwipeRight: true,
-                                            _idProps: {
-                                                service: idService,
-                                                name: "ListItem1"
-                                            },
-                                            _widgetRecordProvider: widgetsRecordProvider,
-                                            placeholders: {
-                                                leftActions: PlaceholderContent.Empty,
-                                                content: new PlaceholderContent(function() {
-                                                    return [React.createElement(OSWidgets.Container, {
-                                                        align: /*Default*/ 0,
-                                                        animate: false,
-                                                        extendedProperties: {
-                                                            style: "align-items: center; display: flex; justify-content: space-between;"
-                                                        },
-                                                        gridProperties: {
-                                                            classes: "OSInline",
-                                                            width: "100%"
-                                                        },
-                                                        visible: true,
-                                                        _idProps: {
-                                                            service: idService,
-                                                            uuid: "22"
-                                                        },
-                                                        _widgetRecordProvider: widgetsRecordProvider
-                                                    }, React.createElement(OSWidgets.Container, {
-                                                        align: /*Default*/ 0,
-                                                        animate: false,
-                                                        extendedProperties: {
-                                                            style: "align-items: center; display: flex;"
-                                                        },
-                                                        gridProperties: {
-                                                            classes: "OSInline",
-                                                            width: "100% justify-content: space-between"
-                                                        },
-                                                        visible: true,
-                                                        _idProps: {
-                                                            service: idService,
-                                                            uuid: "23"
-                                                        },
-                                                        _widgetRecordProvider: widgetsRecordProvider
-                                                    }, React.createElement(OSWidgets.Container, {
-                                                        align: /*Default*/ 0,
-                                                        animate: false,
-                                                        extendedProperties: {
-                                                            style: "padding: 6px;"
-                                                        },
-                                                        gridProperties: {
-                                                            classes: "OSInline"
-                                                        },
-                                                        visible: true,
-                                                        _idProps: {
-                                                            service: idService,
-                                                            uuid: "24"
-                                                        },
-                                                        _widgetRecordProvider: widgetsRecordProvider
-                                                    }, React.createElement(OSWidgets.Expression, {
-                                                        extendedProperties: {
-                                                            style: "font-weight: 700;"
-                                                        },
-                                                        value: model.variables.supportedDocumentsVar.getCurrent(callContext.iterationContext).display_nameAttr,
-                                                        _idProps: {
-                                                            service: idService,
-                                                            uuid: "25"
-                                                        },
-                                                        _widgetRecordProvider: widgetsRecordProvider
-                                                    }))), React.createElement(OSWidgets.Container, {
-                                                        align: /*Default*/ 0,
-                                                        animate: false,
-                                                        visible: true,
-                                                        _idProps: {
-                                                            service: idService,
-                                                            uuid: "26"
-                                                        },
-                                                        _widgetRecordProvider: widgetsRecordProvider
-                                                    }, React.createElement(OSWidgets.Image, {
-                                                        image: OS.Navigation.VersionedURL.getVersionedUrl("img/PartnersHub.rightIcon.png"),
-                                                        type: /*Static*/ 0,
-                                                        _idProps: {
-                                                            service: idService,
-                                                            uuid: "27"
-                                                        },
-                                                        _widgetRecordProvider: widgetsRecordProvider
-                                                    })))];
-                                                }),
-                                                rightActions: PlaceholderContent.Empty
-                                            },
-                                            _dependencies: [asPrimitiveValue(model.variables.supportedDocumentsVar.getCurrent(callContext.iterationContext).display_nameAttr)]
-                                        })];
-                                    }, callContext, idService, "2")
-                                },
-                                _dependencies: []
+                                                    ;
+                                                },
+                                                style: "listitem1",
+                                                triggerActionOnFullSwipeLeft: true,
+                                                triggerActionOnFullSwipeRight: true,
+                                                _idProps: {
+                                                    service: idService,
+                                                    name: "ListItem1"
+                                                },
+                                                _widgetRecordProvider: widgetsRecordProvider,
+                                                placeholders: {
+                                                    leftActions: PlaceholderContent.Empty,
+                                                    content: new PlaceholderContent(function() {
+                                                        return [React.createElement(OSWidgets.Container, {
+                                                            align: /*Default*/ 0,
+                                                            animate: false,
+                                                            extendedProperties: {
+                                                                style: "align-items: center; display: flex; justify-content: space-between;"
+                                                            },
+                                                            gridProperties: {
+                                                                classes: "OSInline",
+                                                                width: "100%"
+                                                            },
+                                                            visible: true,
+                                                            _idProps: {
+                                                                service: idService,
+                                                                uuid: "22"
+                                                            },
+                                                            _widgetRecordProvider: widgetsRecordProvider
+                                                        }, React.createElement(OSWidgets.Container, {
+                                                            align: /*Default*/ 0,
+                                                            animate: false,
+                                                            extendedProperties: {
+                                                                style: "align-items: center; display: flex;"
+                                                            },
+                                                            gridProperties: {
+                                                                classes: "OSInline",
+                                                                width: "100% justify-content: space-between"
+                                                            },
+                                                            visible: true,
+                                                            _idProps: {
+                                                                service: idService,
+                                                                uuid: "23"
+                                                            },
+                                                            _widgetRecordProvider: widgetsRecordProvider
+                                                        }, React.createElement(OSWidgets.Container, {
+                                                            align: /*Default*/ 0,
+                                                            animate: false,
+                                                            extendedProperties: {
+                                                                style: "padding: 6px;"
+                                                            },
+                                                            gridProperties: {
+                                                                classes: "OSInline"
+                                                            },
+                                                            visible: true,
+                                                            _idProps: {
+                                                                service: idService,
+                                                                uuid: "24"
+                                                            },
+                                                            _widgetRecordProvider: widgetsRecordProvider
+                                                        }, React.createElement(OSWidgets.Expression, {
+                                                            extendedProperties: {
+                                                                style: "font-weight: 700;"
+                                                            },
+                                                            value: model.variables.supportedDocumentsVar.getCurrent(callContext.iterationContext).display_nameAttr,
+                                                            _idProps: {
+                                                                service: idService,
+                                                                uuid: "25"
+                                                            },
+                                                            _widgetRecordProvider: widgetsRecordProvider
+                                                        }))), React.createElement(OSWidgets.Container, {
+                                                            align: /*Default*/ 0,
+                                                            animate: false,
+                                                            visible: true,
+                                                            _idProps: {
+                                                                service: idService,
+                                                                uuid: "26"
+                                                            },
+                                                            _widgetRecordProvider: widgetsRecordProvider
+                                                        }, React.createElement(OSWidgets.Image, {
+                                                            image: OS.Navigation.VersionedURL.getVersionedUrl("img/PartnersHub.rightIcon.png"),
+                                                            type: /*Static*/ 0,
+                                                            _idProps: {
+                                                                service: idService,
+                                                                uuid: "27"
+                                                            },
+                                                            _widgetRecordProvider: widgetsRecordProvider
+                                                        })))];
+                                                    }),
+                                                    rightActions: PlaceholderContent.Empty
+                                                },
+                                                _dependencies: [asPrimitiveValue(model.variables.supportedDocumentsVar.getCurrent(callContext.iterationContext).display_nameAttr)]
+                                            })];
+                                        }, callContext, idService, "2")
+                                    },
+                                    _dependencies: []
+                                })];
+                            }, function() {
+                                return [React.createElement(OSWidgets.Container, {
+                                    align: /*Default*/ 0,
+                                    animate: false,
+                                    extendedProperties: {
+                                        style: "margin-top: 10px;"
+                                    },
+                                    visible: true,
+                                    _idProps: {
+                                        service: idService,
+                                        uuid: "28"
+                                    },
+                                    _widgetRecordProvider: widgetsRecordProvider
+                                }, React.createElement(PartnersHub_Common_SkeletonLoader_mvc_view, {
+                                    getOwnerSpan: function() {
+                                        return _this.getChildSpan("render");
+                                    },
+                                    getOwnerDisposeSpan: function() {
+                                        return _this.getChildSpan("destroy");
+                                    },
+                                    inputs: {},
+                                    events: {
+                                        _handleError: function(ex) {
+                                            controller.handleError(ex);
+                                        }
+                                    },
+                                    _validationProps: {
+                                        validationService: validationService
+                                    },
+                                    _idProps: {
+                                        service: idService,
+                                        uuid: "29",
+                                        alias: "3"
+                                    },
+                                    _widgetRecordProvider: widgetsRecordProvider,
+                                    _dependencies: []
+                                }))];
                             }))];
                         }, function() {
                             return [React.createElement(OSWidgets.Form, {
@@ -603,7 +642,7 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view",
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "29"
+                                    uuid: "31"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Container, {
@@ -615,7 +654,7 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view",
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "30"
+                                    uuid: "32"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Container, {
@@ -632,7 +671,7 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view",
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "31"
+                                    uuid: "33"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Label, {
@@ -643,7 +682,7 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view",
                                 targetWidget: "Input_DocumentNumber3",
                                 _idProps: {
                                     service: idService,
-                                    uuid: "32"
+                                    uuid: "34"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Expression, {
@@ -654,7 +693,7 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view",
                                 }),
                                 _idProps: {
                                     service: idService,
-                                    uuid: "33"
+                                    uuid: "35"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             })), React.createElement(OSWidgets.Input, {
@@ -701,7 +740,7 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view",
                                     visible: true,
                                     _idProps: {
                                         service: idService,
-                                        uuid: "35"
+                                        uuid: "37"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Label, {
@@ -712,14 +751,14 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view",
                                     targetWidget: "Input_DocumentNumber4",
                                     _idProps: {
                                         service: idService,
-                                        uuid: "36"
+                                        uuid: "38"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 }, React.createElement(OSWidgets.Expression, {
                                     value: (model.variables.additionalDocumentLabelVar + " number"),
                                     _idProps: {
                                         service: idService,
-                                        uuid: "37"
+                                        uuid: "39"
                                     },
                                     _widgetRecordProvider: widgetsRecordProvider
                                 })), React.createElement(OSWidgets.Input, {
@@ -763,7 +802,7 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view",
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "39"
+                                    uuid: "41"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(CustomComponents_ButtonVariants_PrimaryButton_mvc_view, {
@@ -795,8 +834,8 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view",
                                 },
                                 _idProps: {
                                     service: idService,
-                                    uuid: "40",
-                                    alias: "3"
+                                    uuid: "42",
+                                    alias: "4"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider,
                                 _dependencies: []
@@ -811,7 +850,7 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view",
 
     return View;
 });
-define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$controller.MobileOnClick.ValidateTheIDVJS", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$controller.Dropdown1OnChange.JavaScript1JS", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$controller.OnInitialize.JavaScript1JS", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$controller.PrimaryButtononClick.ValidateTheIDVJS", "PartnersHub.model$ST_9a29ef26037f71a833a7717922f3c172Structure", "PartnersHub.model$RL_d9adde0b03f648d52095292753e14389", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.model$ST_4286a56d180b6bb5649e20efadd675fdStructure", "PartnersHub.model$ST_fd472dd876adddab32395354eb83b1e8Structure", "PartnersHub.model$ST_3b8f7a9e49bbec7ed0ab55bd440bab7dStructure", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure", "PartnersHub.controller$SendGetSettings", "PartnersHub.controller$SendResidenceList", "PartnersHub.model$ST_9f80c4e8dbd08377be883c073be1c044Structure"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_TranslationsResources, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_controller_MobileOnClick_ValidateTheIDVJS, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_controller_Dropdown1OnChange_JavaScript1JS, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_controller_OnInitialize_JavaScript1JS, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_controller_PrimaryButtononClick_ValidateTheIDVJS) {
+define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$controller.MobileOnClick.ValidateTheIDVJS", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$controller.Dropdown1OnChange.JavaScript1JS", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$controller.OnReady.JavaScript1JS", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$controller.PrimaryButtononClick.ValidateTheIDVJS", "PartnersHub.model$ST_9a29ef26037f71a833a7717922f3c172Structure", "PartnersHub.model$RL_d9adde0b03f648d52095292753e14389", "RESTAPIWebsocket.model$ST_63a473e932ef99f5271718b62399e682Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.model$ST_fd472dd876adddab32395354eb83b1e8Structure", "PartnersHub.model$ST_3b8f7a9e49bbec7ed0ab55bd440bab7dStructure", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStep", "RESTAPIWebsocket.controller$ResidenceList", "PartnersHub.controller$GetToken", "RESTAPIWebsocket.controller$GetSettings"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_TranslationsResources, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_controller_MobileOnClick_ValidateTheIDVJS, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_controller_Dropdown1OnChange_JavaScript1JS, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_controller_OnReady_JavaScript1JS, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_controller_PrimaryButtononClick_ValidateTheIDVJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -1052,15 +1091,15 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$contro
                 this.__dropdown1OnChange$Action = value;
             }
 
-            get _onInitialize$Action() {
-                if (!(this.hasOwnProperty("__onInitialize$Action"))) {
-                    this.__onInitialize$Action = function(callContext) {
+            get _onReady$Action() {
+                if (!(this.hasOwnProperty("__onReady$Action"))) {
+                    this.__onReady$Action = function(callContext) {
                         var model = this.model;
                         var controller = this.controller;
                         var idService = this.idService;
-                        return OS.Logger.startActiveSpan("OnInitialize", function(span) {
+                        return OS.Logger.startActiveSpan("OnReady", function(span) {
                             if (span) {
-                                span.setAttribute("code.function", "OnInitialize");
+                                span.setAttribute("code.function", "OnReady");
                                 span.setAttribute("outsystems.function.key", "5daaa33b-0432-4e19-8e30-3f2548616a67");
                                 span.setAttribute("outsystems.function.owner.name", "PartnersHub");
                                 span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
@@ -1068,68 +1107,35 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$contro
                             }
 
                             return OS.Flow.tryFinally(function() {
-                                controller.ensureControllerAlive("OnInitialize");
+                                controller.ensureControllerAlive("OnReady");
                                 callContext = controller.callContext(callContext);
-                                var sendGetSettingsVar = new OS.DataTypes.VariableHolder();
-                                var sendResidenceListVar = new OS.DataTypes.VariableHolder();
+                                var residenceListVar = new OS.DataTypes.VariableHolder();
+                                var getTokenVar = new OS.DataTypes.VariableHolder();
+                                var getSettingsVar = new OS.DataTypes.VariableHolder();
                                 var javaScript1JSResult = new OS.DataTypes.VariableHolder();
                                 var jSONSerialize1Var = new OS.DataTypes.VariableHolder(new OS.DataTypes.JSONSerializeOutputType());
                                 var jSONDeserializeDocumentWithAdditionalDocumentsListVar = new OS.DataTypes.VariableHolder(new(OS.Controller.BaseController.getJSONDeserializeOutputType(PartnersHubModel.RL_d9adde0b03f648d52095292753e14389))());
                                 return OS.Flow.executeAsyncFlow(function() {
-                                    // Execute Action: SendGetSettings
+                                    // Execute Action: GetToken
+                                    getTokenVar.value = PartnersHubController.default.getToken$Action(callContext);
+
+                                    // Execute Action: GetSettings
                                     model.flush();
-                                    return PartnersHubController.default.sendGetSettings$Action(callContext).then(function(value) {
-                                        sendGetSettingsVar.value = value;
+                                    return RESTAPIWebsocketController.default.getSettings$Action("green.derivws.com", getTokenVar.value.tokenOut, "1", "en", callContext).then(function(value) {
+                                        getSettingsVar.value = value;
                                     }).then(function() {
-                                        // Execute Action: SendResidenceList
+                                        // Execute Action: ResidenceList
                                         model.flush();
-                                        return PartnersHubController.default.sendResidenceList$Action(callContext).then(function(value) {
-                                            sendResidenceListVar.value = value;
+                                        return RESTAPIWebsocketController.default.residenceList$Action("green.derivws.com", "1", "en", callContext).then(function(value) {
+                                            residenceListVar.value = value;
                                         });
                                     }).then(function() {
-                                        // ResidenceListResponse = SendResidenceList.ResidenceListResponse
-                                        model.variables.residenceListResponseVar = sendResidenceListVar.value.residenceListResponseOut;
-                                        // GetSettingsResponse = SendGetSettings.GetSettingsResponse
-                                        model.variables.getSettingsResponseVar = OS.DataConversion.JSConversions.typeConvertRecord(sendGetSettingsVar.value.getSettingsResponseOut, new PartnersHubModel.ST_4286a56d180b6bb5649e20efadd675fdStructure(), function(source, target) {
-                                            target.get_settingsAttr.account_opening_reasonAttr = source.account_opening_reasonAttr;
-                                            target.get_settingsAttr.address_cityAttr = source.address_cityAttr;
-                                            target.get_settingsAttr.address_line_1Attr = source.address_line_1Attr;
-                                            target.get_settingsAttr.address_line_2Attr = source.address_line_2Attr;
-                                            target.get_settingsAttr.address_postcodeAttr = source.address_postcodeAttr;
-                                            target.get_settingsAttr.address_stateAttr = source.address_stateAttr;
-                                            target.get_settingsAttr.allow_copiersAttr = source.allow_copiersAttr;
-                                            target.get_settingsAttr.citizenAttr = source.citizenAttr;
-                                            target.get_settingsAttr.client_tnc_statusAttr = source.client_tnc_statusAttr;
-                                            target.get_settingsAttr.cooling_off_expiration_dateAttr = source.cooling_off_expiration_dateAttr;
-                                            target.get_settingsAttr.countryAttr = source.countryAttr;
-                                            target.get_settingsAttr.country_codeAttr = source.country_codeAttr;
-                                            target.get_settingsAttr.date_of_birthAttr = source.date_of_birthAttr;
-                                            target.get_settingsAttr.dxtrade_user_exceptionAttr = source.dxtrade_user_exceptionAttr;
-                                            target.get_settingsAttr.emailAttr = source.emailAttr;
-                                            target.get_settingsAttr.email_consentAttr = source.email_consentAttr;
-                                            target.get_settingsAttr.employment_statusAttr = source.employment_statusAttr;
-                                            target.get_settingsAttr.fatca_declarationAttr = source.fatca_declarationAttr;
-                                            target.get_settingsAttr.first_nameAttr = source.first_nameAttr;
-                                            target.get_settingsAttr.has_secret_answerAttr = source.has_secret_answerAttr;
-                                            target.get_settingsAttr.immutable_fieldsAttr = source.immutable_fieldsAttr;
-                                            target.get_settingsAttr.is_authenticated_payment_agentAttr = source.is_authenticated_payment_agentAttr;
-                                            target.get_settingsAttr.last_nameAttr = source.last_nameAttr;
-                                            target.get_settingsAttr.non_pep_declarationAttr = source.non_pep_declarationAttr;
-                                            target.get_settingsAttr.phoneAttr = source.phoneAttr;
-                                            target.get_settingsAttr.place_of_birthAttr = source.place_of_birthAttr;
-                                            target.get_settingsAttr.preferred_languageAttr = source.preferred_languageAttr;
-                                            target.get_settingsAttr.request_professional_statusAttr = source.request_professional_statusAttr;
-                                            target.get_settingsAttr.residenceAttr = source.residenceAttr;
-                                            target.get_settingsAttr.salutationAttr = source.salutationAttr;
-                                            target.get_settingsAttr.tax_identification_numberAttr = source.tax_identification_numberAttr;
-                                            target.get_settingsAttr.tax_residenceAttr = source.tax_residenceAttr;
-                                            target.get_settingsAttr.trading_hubAttr = source.trading_hubAttr;
-                                            target.get_settingsAttr.user_hashAttr = source.user_hashAttr;
-                                            target.get_settingsAttr.phone_number_verificationAttr = source.phone_number_verificationAttr;
-                                            return target;
-                                        });
+                                        // ResidenceListResponse = ResidenceList.Response
+                                        model.variables.residenceListResponseVar = residenceListVar.value.responseOut;
+                                        // GetSettingsResponse = GetSettings.Response
+                                        model.variables.getSettingsResponseVar = getSettingsVar.value.responseOut;
                                         // JSON Serialize: JSONSerialize1
-                                        jSONSerialize1Var.value.jSONOut = OS.JSONUtils.serializeToJSON(sendResidenceListVar.value.residenceListResponseOut, false, false);
+                                        jSONSerialize1Var.value.jSONOut = OS.JSONUtils.serializeToJSON(residenceListVar.value.responseOut, false, false);
                                         javaScript1JSResult.value = OS.Logger.startActiveSpan("JavaScript1", function(span) {
                                             if (span) {
                                                 span.setAttribute("code.function", "JavaScript1");
@@ -1140,12 +1146,12 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$contro
                                             }
 
                                             try {
-                                                return controller.safeExecuteJSNode(PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_controller_OnInitialize_JavaScript1JS, "JavaScript1", "OnInitialize", {
-                                                    Citizenship: OS.DataConversion.JSNodeParamConverter.to(sendGetSettingsVar.value.getSettingsResponseOut.citizenAttr, OS.DataTypes.DataTypes.Text),
+                                                return controller.safeExecuteJSNode(PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_controller_OnReady_JavaScript1JS, "JavaScript1", "OnReady", {
+                                                    Citizenship: OS.DataConversion.JSNodeParamConverter.to(getSettingsVar.value.responseOut.get_settingsAttr.citizenAttr, OS.DataTypes.DataTypes.Text),
                                                     ResidenceList: OS.DataConversion.JSNodeParamConverter.to(jSONSerialize1Var.value.jSONOut, OS.DataTypes.DataTypes.Text),
                                                     supportedDocuments: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text)
                                                 }, function($parameters) {
-                                                    var jsNodeResult = new(controller.constructor.getVariableGroupType("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.OnInitialize$javaScript1JSResult"))();
+                                                    var jsNodeResult = new(controller.constructor.getVariableGroupType("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.OnReady$javaScript1JSResult"))();
                                                     jsNodeResult.supportedDocumentsOut = OS.DataConversion.JSNodeParamConverter.from($parameters.supportedDocuments, OS.DataTypes.DataTypes.Text);
                                                     return jsNodeResult;
                                                 }, {}, {});
@@ -1173,10 +1179,10 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$contro
                     };
                 }
 
-                return this.__onInitialize$Action;
+                return this.__onReady$Action;
             }
-            set _onInitialize$Action(value) {
-                this.__onInitialize$Action = value;
+            set _onReady$Action(value) {
+                this.__onReady$Action = value;
             }
 
             get _primaryButtononClick$Action() {
@@ -1427,11 +1433,11 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$contro
 
             }
 
-            onInitialize$Action(callContext) {
+            onReady$Action(callContext) {
                 var controller = this.controller;
-                return OS.Logger.startActiveSpan("OnInitialize__proxy", function(span) {
+                return OS.Logger.startActiveSpan("OnReady__proxy", function(span) {
                     if (span) {
-                        span.setAttribute("code.function", "OnInitialize");
+                        span.setAttribute("code.function", "OnReady");
                         span.setAttribute("outsystems.function.key", "5daaa33b-0432-4e19-8e30-3f2548616a67");
                         span.setAttribute("outsystems.function.owner.name", "PartnersHub");
                         span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
@@ -1439,7 +1445,7 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$contro
                     }
 
                     return OS.Flow.tryFinally(function() {
-                        return controller.safeExecuteClientAction(controller._onInitialize$Action, callContext);
+                        return controller.safeExecuteClientAction(controller._onReady$Action, callContext);
                     }, function() {
                         if (span) {
                             span.end();
@@ -1537,14 +1543,7 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$contro
             // Event Handler Actions
             get onInitializeEventHandler() {
                 if (!(this.hasOwnProperty("_onInitializeEventHandler"))) {
-                    this._onInitializeEventHandler = function(callContext) {
-                        var controller = this.controller;
-                        var model = this.model;
-                        var idService = this.idService;
-
-                        return controller.onInitialize$Action(callContext);
-
-                    };
+                    this._onInitializeEventHandler = null;
                 }
 
                 return this._onInitializeEventHandler;
@@ -1555,7 +1554,14 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$contro
 
             get onReadyEventHandler() {
                 if (!(this.hasOwnProperty("_onReadyEventHandler"))) {
-                    this._onReadyEventHandler = null;
+                    this._onReadyEventHandler = function(callContext) {
+                        var controller = this.controller;
+                        var model = this.model;
+                        var idService = this.idService;
+
+                        return controller.onReady$Action(callContext);
+
+                    };
                 }
 
                 return this._onReadyEventHandler;
@@ -1648,7 +1654,7 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$contro
                 return "";
             }
         }]);
-        Controller.registerVariableGroupType("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.OnInitialize$javaScript1JSResult", [{
+        Controller.registerVariableGroupType("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.OnReady$javaScript1JSResult", [{
             name: "supportedDocuments",
             attrName: "supportedDocumentsOut",
             mandatory: true,
@@ -1769,7 +1775,7 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$contro
     };
 });
 
-define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$controller.OnInitialize.JavaScript1JS", [], function() {
+define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$controller.OnReady.JavaScript1JS", [], function() {
     return function($parameters, $actions, $roles, $public) {
         const currentCountry = JSON.parse($parameters.ResidenceList).residence_list.find(c => c.value === $parameters.Citizenship)
 
@@ -1851,6 +1857,84 @@ define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$contro
 });
 
 
-define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "pMoWHnd8T065SXOBoUHfRw#Value": "Dokumenttyp",
+        "bEusLmQgYkyDMBES6VyV3A#Value": "Überspringen"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "pMoWHnd8T065SXOBoUHfRw#Value": "Tipo de documento",
+        "bEusLmQgYkyDMBES6VyV3A#Value": "Saltar"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "pMoWHnd8T065SXOBoUHfRw#Value": "Type de document",
+        "bEusLmQgYkyDMBES6VyV3A#Value": "Sauter"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "pMoWHnd8T065SXOBoUHfRw#Value": "Tipo di documento",
+        "bEusLmQgYkyDMBES6VyV3A#Value": "Salta"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "pMoWHnd8T065SXOBoUHfRw#Value": "Typ dokumentu",
+        "bEusLmQgYkyDMBES6VyV3A#Value": "Pomiń"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "pMoWHnd8T065SXOBoUHfRw#Value": "Tipo de documento",
+        "bEusLmQgYkyDMBES6VyV3A#Value": "Ignorar"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "pMoWHnd8T065SXOBoUHfRw#Value": "Тип документа",
+        "bEusLmQgYkyDMBES6VyV3A#Value": "Пропустить"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources", ["exports", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources.de-DE", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources.es-ES", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources.fr-FR", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources.it-IT", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources.pl-PL", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources.pt-PT", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_translationsResources_deDE, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_translationsResources_esES, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_translationsResources_frFR, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_translationsResources_itIT, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_translationsResources_plPL, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_translationsResources_ptPT, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

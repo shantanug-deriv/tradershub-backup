@@ -1,4 +1,4 @@
-define("tradershub.MainFlow.HomeScreen.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.Layouts.LayoutTopMenu.mvc$model", "tradershub.controller$MountDerivApi"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershub_Layouts_LayoutTopMenu_mvcModel) {
+define("tradershub.MainFlow.HomeScreen.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.Layouts.LayoutTopMenu.mvc$model", "tradershub.controller$InitizalizeDerivApi"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershub_Layouts_LayoutTopMenu_mvcModel) {
     var OS = OSRuntimeCore;
 
 
@@ -47,7 +47,7 @@ define("tradershub.MainFlow.HomeScreen.mvc$model", ["@outsystems/runtime-core-js
     return new OS.Model.ModelFactory(Model);
 });
 
-define("tradershub.MainFlow.HomeScreen.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "react", "@outsystems/runtime-view-js", "tradershub.MainFlow.HomeScreen.mvc$model", "tradershub.MainFlow.HomeScreen.mvc$controller", "tradershub.clientVariables", "tradershub.Layouts.LayoutTopMenu.mvc$view", "@outsystems/runtime-widgets-js", "tradershub.controller$MountDerivApi"], function(OSRuntimeCore, tradershubModel, tradershubController, React, OSView, tradershub_MainFlow_HomeScreen_mvc_model, tradershub_MainFlow_HomeScreen_mvc_controller, tradershubClientVariables, tradershub_Layouts_LayoutTopMenu_mvc_view, OSWidgets) {
+define("tradershub.MainFlow.HomeScreen.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "react", "@outsystems/runtime-view-js", "tradershub.MainFlow.HomeScreen.mvc$model", "tradershub.MainFlow.HomeScreen.mvc$controller", "tradershub.clientVariables", "tradershub.Layouts.LayoutTopMenu.mvc$view", "@outsystems/runtime-widgets-js", "tradershub.controller$InitizalizeDerivApi"], function(OSRuntimeCore, tradershubModel, tradershubController, React, OSView, tradershub_MainFlow_HomeScreen_mvc_model, tradershub_MainFlow_HomeScreen_mvc_controller, tradershubClientVariables, tradershub_Layouts_LayoutTopMenu_mvc_view, OSWidgets) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -240,7 +240,7 @@ define("tradershub.MainFlow.HomeScreen.mvc$view", ["@outsystems/runtime-core-js"
 
     return View;
 });
-define("tradershub.MainFlow.HomeScreen.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.MainFlow.controller", "tradershub.controller$MountDerivApi"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_MainFlowController) {
+define("tradershub.MainFlow.HomeScreen.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.MainFlow.controller", "tradershub.controller$InitizalizeDerivApi"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_MainFlowController) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -288,8 +288,8 @@ define("tradershub.MainFlow.HomeScreen.mvc$controller", ["@outsystems/runtime-co
                             try {
                                 controller.ensureControllerAlive("OnInitialize");
                                 callContext = controller.callContext(callContext);
-                                // Execute Action: MountDerivApi
-                                tradershubController.default.mountDerivApi$Action(callContext);
+                                // Execute Action: InitizalizeDerivApi
+                                tradershubController.default.initizalizeDerivApi$Action(callContext);
                             } finally {
                                 if (span) {
                                     span.end();

@@ -498,7 +498,7 @@ define("tradershub.RealAccountCreation.IdentityVerification.mvc$view", ["@outsys
 
     return View;
 });
-define("tradershub.RealAccountCreation.IdentityVerification.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreation.controller", "tradershub.RealAccountCreation.IdentityVerification.mvc$controller.OnReady.GetIDVCountry2JS", "tradershub.RealAccountCreation.IdentityVerification.mvc$controller.OnReady.GetIDVCountryJS", "tradershub.RealAccountCreation.IdentityVerification.mvc$controller.OnReady.RudderStackJS", "tradershub.RealAccountCreation.IdentityVerification.mvc$controller.Input_DocumentTypeOnChange.JavaScript1JS", "tradershub.RealAccountCreation.IdentityVerification.mvc$controller.NextOnClick.ValidateIDVJS", "tradershub.RealAccountCreation.IdentityVerification.mvc$controller.NextOnClick.RudderStackJS", "tradershub.model$ST_81244dbb8e72a05a708e9a449198444eStructure", "tradershub.model$RL_9103c933715345647d34a3ebfe5f38fd", "tradershub.controller$DerivApiSendMessage", "tradershub.model$ST_5ee2e7ff29695cda8882106170100facStructure", "tradershub.model$ST_b9fa9c81e682aaa4746021d7919cd480Structure"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationController, tradershub_RealAccountCreation_IdentityVerification_mvc_controller_OnReady_GetIDVCountry2JS, tradershub_RealAccountCreation_IdentityVerification_mvc_controller_OnReady_GetIDVCountryJS, tradershub_RealAccountCreation_IdentityVerification_mvc_controller_OnReady_RudderStackJS, tradershub_RealAccountCreation_IdentityVerification_mvc_controller_Input_DocumentTypeOnChange_JavaScript1JS, tradershub_RealAccountCreation_IdentityVerification_mvc_controller_NextOnClick_ValidateIDVJS, tradershub_RealAccountCreation_IdentityVerification_mvc_controller_NextOnClick_RudderStackJS) {
+define("tradershub.RealAccountCreation.IdentityVerification.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreation.controller", "tradershub.RealAccountCreation.IdentityVerification.mvc$controller.OnReady.GetIDVCountry2JS", "tradershub.RealAccountCreation.IdentityVerification.mvc$controller.OnReady.GetIDVCountryJS", "tradershub.RealAccountCreation.IdentityVerification.mvc$controller.Input_DocumentTypeOnChange.JavaScript1JS", "tradershub.RealAccountCreation.IdentityVerification.mvc$controller.NextOnClick.ValidateIDVJS", "tradershub.model$ST_81244dbb8e72a05a708e9a449198444eStructure", "tradershub.model$RL_9103c933715345647d34a3ebfe5f38fd", "tradershub.controller$DerivApiSendMessage", "tradershub.model$ST_5ee2e7ff29695cda8882106170100facStructure", "tradershub.model$ST_b9fa9c81e682aaa4746021d7919cd480Structure"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationController, tradershub_RealAccountCreation_IdentityVerification_mvc_controller_OnReady_GetIDVCountry2JS, tradershub_RealAccountCreation_IdentityVerification_mvc_controller_OnReady_GetIDVCountryJS, tradershub_RealAccountCreation_IdentityVerification_mvc_controller_Input_DocumentTypeOnChange_JavaScript1JS, tradershub_RealAccountCreation_IdentityVerification_mvc_controller_NextOnClick_ValidateIDVJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -637,26 +637,6 @@ define("tradershub.RealAccountCreation.IdentityVerification.mvc$controller", ["@
                                             });
                                         }
 
-                                    }).then(function() {
-                                        OS.Logger.startActiveSpan("RudderStack", function(span) {
-                                            if (span) {
-                                                span.setAttribute("code.function", "RudderStack");
-                                                span.setAttribute("outsystems.function.key", "f8968c56-e987-4c6b-b65a-ccb297ea7613");
-                                                span.setAttribute("outsystems.function.owner.name", "tradershub");
-                                                span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
-                                                span.setAttribute("outsystems.function.type", "JAVASCRIPT");
-                                            }
-
-                                            try {
-                                                return controller.safeExecuteJSNode(tradershub_RealAccountCreation_IdentityVerification_mvc_controller_OnReady_RudderStackJS, "RudderStack", "OnReady", null, function($parameters) {}, {}, {});
-                                            } finally {
-                                                if (span) {
-                                                    span.end();
-                                                }
-
-                                            }
-
-                                        }, 1);
                                     });
                                 });
                             }, function() {
@@ -850,25 +830,6 @@ define("tradershub.RealAccountCreation.IdentityVerification.mvc$controller", ["@
                                 var jSONDeserializeIDVValidFieldsVar = new OS.DataTypes.VariableHolder(new(OS.Controller.BaseController.getJSONDeserializeOutputType(tradershubModel.ST_5ee2e7ff29695cda8882106170100facStructure))());
                                 var jSONDeserializeIDVValidationErrorVar = new OS.DataTypes.VariableHolder(new(OS.Controller.BaseController.getJSONDeserializeOutputType(tradershubModel.ST_b9fa9c81e682aaa4746021d7919cd480Structure))());
                                 return OS.Flow.executeAsyncFlow(function() {
-                                    OS.Logger.startActiveSpan("RudderStack", function(span) {
-                                        if (span) {
-                                            span.setAttribute("code.function", "RudderStack");
-                                            span.setAttribute("outsystems.function.key", "4589d40b-da12-49f6-9fa3-6c0d93547034");
-                                            span.setAttribute("outsystems.function.owner.name", "tradershub");
-                                            span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
-                                            span.setAttribute("outsystems.function.type", "JAVASCRIPT");
-                                        }
-
-                                        try {
-                                            return controller.safeExecuteJSNode(tradershub_RealAccountCreation_IdentityVerification_mvc_controller_NextOnClick_RudderStackJS, "RudderStack", "NextOnClick", null, function($parameters) {}, {}, {});
-                                        } finally {
-                                            if (span) {
-                                                span.end();
-                                            }
-
-                                        }
-
-                                    }, 1);
                                     // JSON Serialize: JSONSerializeSupportedDocuments
                                     jSONSerializeSupportedDocumentsVar.value.jSONOut = OS.JSONUtils.serializeToJSON(model.variables.supportedDocumentsVar, false, false);
                                     return OS.Logger.startActiveSpan("ValidateIDV", function(span) {
@@ -1251,17 +1212,6 @@ define("tradershub.RealAccountCreation.IdentityVerification.mvc$controller.OnRea
     };
 });
 
-define("tradershub.RealAccountCreation.IdentityVerification.mvc$controller.OnReady.RudderStackJS", [], function() {
-    return function($actions, $roles, $public) {
-        setTimeout(() => {
-            Analytics.Analytics.trackEvent({
-                action: "real_account_identity_verification_open",
-            })
-        }, 100);
-
-    };
-});
-
 define("tradershub.RealAccountCreation.IdentityVerification.mvc$controller.Input_DocumentTypeOnChange.JavaScript1JS", [], function() {
     return function($parameters, $actions, $roles, $public) {
         return new Promise(function($resolve, $reject) {
@@ -1340,13 +1290,5 @@ define("tradershub.RealAccountCreation.IdentityVerification.mvc$controller.NextO
             $parameters.ValidFields = JSON.stringify(validFields)
             $resolve()
         });
-    };
-});
-
-define("tradershub.RealAccountCreation.IdentityVerification.mvc$controller.NextOnClick.RudderStackJS", [], function() {
-    return function($actions, $roles, $public) {
-        Analytics.Analytics.trackEvent({
-            action: "signup_modal_next_button_os",
-        })
     };
 });

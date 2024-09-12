@@ -312,7 +312,7 @@ define("PartnersHub.VirtualAccountCreation.Citizenship.mvc$view", ["@outsystems/
                                         extendedProperties: {
                                             style: "font-size: 28px; font-weight: bold; margin-top: 0px; width: ;"
                                         },
-                                        text: ["Citizenship"],
+                                        text: [$text(getTranslation("Dvlnn52Fpkygi+VBXSS2Dw#Value", "Citizenship"))],
                                         _idProps: {
                                             service: idService,
                                             uuid: "10"
@@ -338,7 +338,7 @@ define("PartnersHub.VirtualAccountCreation.Citizenship.mvc$view", ["@outsystems/
                                             return _this.getChildSpan("destroy");
                                         },
                                         inputs: {
-                                            Prompt: "Select your citizenship",
+                                            Prompt: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("e0ZkSI_tx0C4JE2x_02BfA#Value.-122289221.1", "Select your citizenship"),
                                             OptionsList: model.getCachedValue(idService.getId("OKXvRvi6wECG5a3i1SGcWg.OptionsList"), function() {
                                                 return OS.DataConversion.JSConversions.typeConvertRecordList(model.variables.residenceListResponseVar.residence_listAttr, new PartnersHubModel.RL_c0f17d75c546075264f5d075e00ba65b(), function(source, target) {
                                                     target.valueAttr = source.valueAttr;
@@ -351,8 +351,8 @@ define("PartnersHub.VirtualAccountCreation.Citizenship.mvc$view", ["@outsystems/
                                             OptionalConfigs: model.getCachedValue(idService.getId("OKXvRvi6wECG5a3i1SGcWg.OptionalConfigs"), function() {
                                                 return function() {
                                                     var rec = new OutSystemsUIModel.ST_4e53cb8815b86020ced1d2f2652c9b1dStructure();
-                                                    rec.noResultsTextAttr = "Services not available";
-                                                    rec.noOptionsTextAttr = "Services not available";
+                                                    rec.noResultsTextAttr = OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("mZWPxcZ8pUaBV52DCuAaPg#Value.-1726996070.1", "Services not available");
+                                                    rec.noOptionsTextAttr = OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("VOklgSMAAUC0R0Un9xFeBw#Value.-1726996070.1", "Services not available");
                                                     return rec;
                                                 }();
                                             })
@@ -386,7 +386,7 @@ define("PartnersHub.VirtualAccountCreation.Citizenship.mvc$view", ["@outsystems/
                                         extendedProperties: {
                                             style: "color: #6A7178; font-weight: 400; line-height: 21px;"
                                         },
-                                        text: ["Choose the citizenship/nationality shown on your official ID."],
+                                        text: [$text(getTranslation("ErifJ+AR6Eax2K9Df+hCjQ#Value", "Choose the citizenship/nationality shown on your official ID."))],
                                         _idProps: {
                                             service: idService,
                                             uuid: "13"
@@ -442,7 +442,7 @@ define("PartnersHub.VirtualAccountCreation.Citizenship.mvc$view", ["@outsystems/
                                         inputs: {
                                             HasBackButton: false,
                                             HasCloseIcon: false,
-                                            Title: "Citizenship"
+                                            Title: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("Qk41zaQoA0Ct2VwQgZt1FA#Value.-592606844.1", "Citizenship")
                                         },
                                         events: {
                                             _handleError: function(ex) {
@@ -977,6 +977,112 @@ define("PartnersHub.VirtualAccountCreation.Citizenship.mvc$controller", ["@outsy
 });
 
 
-define("PartnersHub.VirtualAccountCreation.Citizenship.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.VirtualAccountCreation.Citizenship.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "Qk41zaQoA0Ct2VwQgZt1FA#Value.-592606844.1": "Citizenship",
+        "ErifJ+AR6Eax2K9Df+hCjQ#Value": "Wählen Sie die Staatsbürgerschaft/Nationalität, die auf Ihrem offiziellen Ausweis angegeben ist.",
+        "VOklgSMAAUC0R0Un9xFeBw#Value.-1726996070.1": "Dienste nicht verfügbar",
+        "mZWPxcZ8pUaBV52DCuAaPg#Value.-1726996070.1": "Dienste nicht verfügbar",
+        "e0ZkSI_tx0C4JE2x_02BfA#Value.-122289221.1": "Select your citizenship",
+        "Dvlnn52Fpkygi+VBXSS2Dw#Value": "Staatsbürgerschaft"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.Citizenship.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "Qk41zaQoA0Ct2VwQgZt1FA#Value.-592606844.1": "Citizenship",
+        "ErifJ+AR6Eax2K9Df+hCjQ#Value": "Elija la ciudadanía/nacionalidad que aparece en su documento de identidad oficial.",
+        "VOklgSMAAUC0R0Un9xFeBw#Value.-1726996070.1": "Servicios no disponibles",
+        "mZWPxcZ8pUaBV52DCuAaPg#Value.-1726996070.1": "Servicios no disponibles",
+        "e0ZkSI_tx0C4JE2x_02BfA#Value.-122289221.1": "Select your citizenship",
+        "Dvlnn52Fpkygi+VBXSS2Dw#Value": "Ciudadanía"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.Citizenship.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "Qk41zaQoA0Ct2VwQgZt1FA#Value.-592606844.1": "Citizenship",
+        "ErifJ+AR6Eax2K9Df+hCjQ#Value": "Choisissez la citoyenneté/nationalité indiquée sur votre pièce d\'identité officielle.",
+        "VOklgSMAAUC0R0Un9xFeBw#Value.-1726996070.1": "Services non disponibles",
+        "mZWPxcZ8pUaBV52DCuAaPg#Value.-1726996070.1": "Services non disponibles",
+        "e0ZkSI_tx0C4JE2x_02BfA#Value.-122289221.1": "Select your citizenship",
+        "Dvlnn52Fpkygi+VBXSS2Dw#Value": "Citoyenneté"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.Citizenship.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "Qk41zaQoA0Ct2VwQgZt1FA#Value.-592606844.1": "Citizenship",
+        "ErifJ+AR6Eax2K9Df+hCjQ#Value": "Scegli la cittadinanza/nazionalità mostrata sul tuo documento d\'identità ufficiale.",
+        "VOklgSMAAUC0R0Un9xFeBw#Value.-1726996070.1": "Servizi non disponibili",
+        "mZWPxcZ8pUaBV52DCuAaPg#Value.-1726996070.1": "Servizi non disponibili",
+        "e0ZkSI_tx0C4JE2x_02BfA#Value.-122289221.1": "Select your citizenship",
+        "Dvlnn52Fpkygi+VBXSS2Dw#Value": "Cittadinanza"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.Citizenship.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "Qk41zaQoA0Ct2VwQgZt1FA#Value.-592606844.1": "Citizenship",
+        "ErifJ+AR6Eax2K9Df+hCjQ#Value": "Wybierz obywatelstwo/narodowość widoczną na Twoim oficjalnym dowodzie tożsamości.",
+        "VOklgSMAAUC0R0Un9xFeBw#Value.-1726996070.1": "Usługi niedostępne",
+        "mZWPxcZ8pUaBV52DCuAaPg#Value.-1726996070.1": "Usługi niedostępne",
+        "e0ZkSI_tx0C4JE2x_02BfA#Value.-122289221.1": "Select your citizenship",
+        "Dvlnn52Fpkygi+VBXSS2Dw#Value": "Obywatelstwo"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.Citizenship.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "Qk41zaQoA0Ct2VwQgZt1FA#Value.-592606844.1": "Citizenship",
+        "ErifJ+AR6Eax2K9Df+hCjQ#Value": "Escolha a cidadania/nacionalidade que aparece no seu documento de identificação oficial.",
+        "VOklgSMAAUC0R0Un9xFeBw#Value.-1726996070.1": "Serviços não disponíveis",
+        "mZWPxcZ8pUaBV52DCuAaPg#Value.-1726996070.1": "Serviços não disponíveis",
+        "e0ZkSI_tx0C4JE2x_02BfA#Value.-122289221.1": "Select your citizenship",
+        "Dvlnn52Fpkygi+VBXSS2Dw#Value": "Cidadania"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.Citizenship.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "Qk41zaQoA0Ct2VwQgZt1FA#Value.-592606844.1": "Citizenship",
+        "ErifJ+AR6Eax2K9Df+hCjQ#Value": "Выберите гражданство/национальность, указанную в вашем официальном удостоверении личности.",
+        "VOklgSMAAUC0R0Un9xFeBw#Value.-1726996070.1": "Услуги недоступны",
+        "mZWPxcZ8pUaBV52DCuAaPg#Value.-1726996070.1": "Услуги недоступны",
+        "e0ZkSI_tx0C4JE2x_02BfA#Value.-122289221.1": "Select your citizenship",
+        "Dvlnn52Fpkygi+VBXSS2Dw#Value": "Гражданство"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.Citizenship.mvc$translationsResources", ["exports", "PartnersHub.VirtualAccountCreation.Citizenship.mvc$translationsResources.de-DE", "PartnersHub.VirtualAccountCreation.Citizenship.mvc$translationsResources.es-ES", "PartnersHub.VirtualAccountCreation.Citizenship.mvc$translationsResources.fr-FR", "PartnersHub.VirtualAccountCreation.Citizenship.mvc$translationsResources.it-IT", "PartnersHub.VirtualAccountCreation.Citizenship.mvc$translationsResources.pl-PL", "PartnersHub.VirtualAccountCreation.Citizenship.mvc$translationsResources.pt-PT", "PartnersHub.VirtualAccountCreation.Citizenship.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_VirtualAccountCreation_Citizenship_mvc_translationsResources_deDE, PartnersHub_VirtualAccountCreation_Citizenship_mvc_translationsResources_esES, PartnersHub_VirtualAccountCreation_Citizenship_mvc_translationsResources_frFR, PartnersHub_VirtualAccountCreation_Citizenship_mvc_translationsResources_itIT, PartnersHub_VirtualAccountCreation_Citizenship_mvc_translationsResources_plPL, PartnersHub_VirtualAccountCreation_Citizenship_mvc_translationsResources_ptPT, PartnersHub_VirtualAccountCreation_Citizenship_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_VirtualAccountCreation_Citizenship_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_VirtualAccountCreation_Citizenship_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_VirtualAccountCreation_Citizenship_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_VirtualAccountCreation_Citizenship_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_VirtualAccountCreation_Citizenship_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_VirtualAccountCreation_Citizenship_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_VirtualAccountCreation_Citizenship_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

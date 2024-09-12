@@ -1,4 +1,4 @@
-define("PartnersHub.Home.CompleteMyProfile.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "OutSystemsUI.model", "OutSystemsUI.Numbers.ProgressBar.mvc$model", "OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(OSRuntimeCore, PartnersHubModel, OutSystemsUIModel, OutSystemsUI_Numbers_ProgressBar_mvcModel) {
+define("PartnersHub.Home.CompleteMyProfile.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "OutSystemsUI.model", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.controller", "OutSystemsUI.Numbers.ProgressBar.mvc$model", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.controller$SendResidenceList"], function(OSRuntimeCore, PartnersHubModel, OutSystemsUIModel, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubController, OutSystemsUI_Numbers_ProgressBar_mvcModel) {
     var OS = OSRuntimeCore;
 
 
@@ -6,7 +6,17 @@ define("PartnersHub.Home.CompleteMyProfile.mvc$model", ["@outsystems/runtime-cor
         class VariablesRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
-                return [].concat(OS.DataTypes.GenericRecord.attributesToDeclare.call(this));
+                return [
+                    this.attr("ResidenceListResponse", "residenceListResponseVar", "ResidenceListResponse", true, false, OS.DataTypes.DataTypes.Record, function() {
+                        return OS.DataTypes.ImmutableBase.getData(new PartnersHubModel.ST_0be4704c381e15995202804b221a5e3aStructure());
+                    }, false, PartnersHubModel.ST_0be4704c381e15995202804b221a5e3aStructure)
+                ].concat(OS.DataTypes.GenericRecord.attributesToDeclare.call(this));
+            }
+
+            static fromStructure(str) {
+                return new VariablesRecord(new VariablesRecord.RecordClass({
+                    residenceListResponseVar: OS.DataTypes.ImmutableBase.getData(str)
+                }));
             }
 
         }
@@ -23,7 +33,7 @@ define("PartnersHub.Home.CompleteMyProfile.mvc$model", ["@outsystems/runtime-cor
     }
 
     class Model extends
-    OS.Model.VariablelessViewModel {
+    OS.Model.BaseViewModel {
         static getVariablesRecordConstructor() {
             return VariablesRecord;
         }
@@ -47,7 +57,7 @@ define("PartnersHub.Home.CompleteMyProfile.mvc$model", ["@outsystems/runtime-cor
     return new OS.Model.ModelFactory(Model);
 });
 
-define("PartnersHub.Home.CompleteMyProfile.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "react", "@outsystems/runtime-view-js", "PartnersHub.Home.CompleteMyProfile.mvc$model", "PartnersHub.Home.CompleteMyProfile.mvc$controller", "PartnersHub.clientVariables", "@outsystems/runtime-widgets-js", "OutSystemsUI.Numbers.ProgressBar.mvc$view", "OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, React, OSView, PartnersHub_Home_CompleteMyProfile_mvc_model, PartnersHub_Home_CompleteMyProfile_mvc_controller, PartnersHubClientVariables, OSWidgets, OutSystemsUI_Numbers_ProgressBar_mvc_view) {
+define("PartnersHub.Home.CompleteMyProfile.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "react", "@outsystems/runtime-view-js", "PartnersHub.Home.CompleteMyProfile.mvc$model", "PartnersHub.Home.CompleteMyProfile.mvc$controller", "PartnersHub.clientVariables", "@outsystems/runtime-widgets-js", "OutSystemsUI.Numbers.ProgressBar.mvc$view", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.controller$SendResidenceList"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, RESTAPIWebsocketModel, RESTAPIWebsocketController, React, OSView, PartnersHub_Home_CompleteMyProfile_mvc_model, PartnersHub_Home_CompleteMyProfile_mvc_controller, PartnersHubClientVariables, OSWidgets, OutSystemsUI_Numbers_ProgressBar_mvc_view) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -143,7 +153,7 @@ define("PartnersHub.Home.CompleteMyProfile.mvc$view", ["@outsystems/runtime-core
                 extendedProperties: {
                     style: "font-size: 16px; font-weight: bold;"
                 },
-                text: ["Complete my profile"],
+                text: [$text(getTranslation("V_f6UFrIQkCuMDCeq35TIQ#Value", "Complete my profile"))],
                 _idProps: {
                     service: idService,
                     uuid: "2"
@@ -190,7 +200,7 @@ define("PartnersHub.Home.CompleteMyProfile.mvc$view", ["@outsystems/runtime-core
                     uuid: "6"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Step ", React.createElement(OSWidgets.Expression, {
+            }, $text(getTranslation("zkE0A_QNHUO3f5+rZyPegQ#Value", "Step ")), React.createElement(OSWidgets.Expression, {
                 gridProperties: {
                     marginLeft: "0"
                 },
@@ -261,7 +271,7 @@ define("PartnersHub.Home.CompleteMyProfile.mvc$view", ["@outsystems/runtime-core
 
     return View;
 });
-define("PartnersHub.Home.CompleteMyProfile.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Home.CompleteMyProfile.mvc$translationsResources", "OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Home_CompleteMyProfile_mvc_TranslationsResources) {
+define("PartnersHub.Home.CompleteMyProfile.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Home.CompleteMyProfile.mvc$translationsResources", "PartnersHub.Home.CompleteMyProfile.mvc$controller.OnReady.CheckIfIDVIsSupportedJSJS", "PartnersHub.Home.CompleteMyProfile.mvc$controller.OnReady.GetAuthTokenJS", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.controller$SendResidenceList"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Home_CompleteMyProfile_mvc_TranslationsResources, PartnersHub_Home_CompleteMyProfile_mvc_controller_OnReady_CheckIfIDVIsSupportedJSJS, PartnersHub_Home_CompleteMyProfile_mvc_controller_OnReady_GetAuthTokenJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -328,6 +338,117 @@ define("PartnersHub.Home.CompleteMyProfile.mvc$controller", ["@outsystems/runtim
                 this.__onClick$Action = value;
             }
 
+            get _onReady$Action() {
+                if (!(this.hasOwnProperty("__onReady$Action"))) {
+                    this.__onReady$Action = function(callContext) {
+                        var model = this.model;
+                        var controller = this.controller;
+                        var idService = this.idService;
+                        return OS.Logger.startActiveSpan("OnReady", function(span) {
+                            if (span) {
+                                span.setAttribute("code.function", "OnReady");
+                                span.setAttribute("outsystems.function.key", "9a5b194f-d2cb-43ce-80c6-390c7eeebaa3");
+                                span.setAttribute("outsystems.function.owner.name", "PartnersHub");
+                                span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
+                                span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                            }
+
+                            return OS.Flow.tryFinally(function() {
+                                controller.ensureControllerAlive("OnReady");
+                                callContext = controller.callContext(callContext);
+                                var getSettingsVar = new OS.DataTypes.VariableHolder();
+                                var sendResidenceListVar = new OS.DataTypes.VariableHolder();
+                                var checkIfIDVIsSupportedJSJSResult = new OS.DataTypes.VariableHolder();
+                                var getAuthTokenJSResult = new OS.DataTypes.VariableHolder();
+                                var serializeResidenceListVar = new OS.DataTypes.VariableHolder(new OS.DataTypes.JSONSerializeOutputType());
+                                return OS.Flow.executeAsyncFlow(function() {
+                                    getAuthTokenJSResult.value = OS.Logger.startActiveSpan("GetAuthToken", function(span) {
+                                        if (span) {
+                                            span.setAttribute("code.function", "GetAuthToken");
+                                            span.setAttribute("outsystems.function.key", "a90a2d60-98b8-48c2-8c6d-aad580e7b181");
+                                            span.setAttribute("outsystems.function.owner.name", "PartnersHub");
+                                            span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
+                                            span.setAttribute("outsystems.function.type", "JAVASCRIPT");
+                                        }
+
+                                        try {
+                                            return controller.safeExecuteJSNode(PartnersHub_Home_CompleteMyProfile_mvc_controller_OnReady_GetAuthTokenJS, "GetAuthToken", "OnReady", {
+                                                Token: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text)
+                                            }, function($parameters) {
+                                                var jsNodeResult = new(controller.constructor.getVariableGroupType("PartnersHub.Home.CompleteMyProfile.OnReady$getAuthTokenJSResult"))();
+                                                jsNodeResult.tokenOut = OS.DataConversion.JSNodeParamConverter.from($parameters.Token, OS.DataTypes.DataTypes.Text);
+                                                return jsNodeResult;
+                                            }, {}, {});
+                                        } finally {
+                                            if (span) {
+                                                span.end();
+                                            }
+
+                                        }
+
+                                    }, 1);
+                                    // Execute Action: SendResidenceList
+                                    model.flush();
+                                    return PartnersHubController.default.sendResidenceList$Action(callContext).then(function(value) {
+                                        sendResidenceListVar.value = value;
+                                    }).then(function() {
+                                        // Execute Action: GetSettings
+                                        model.flush();
+                                        return RESTAPIWebsocketController.default.getSettings$Action(PartnersHubClientVariables.getServer(), getAuthTokenJSResult.value.tokenOut, PartnersHubClientVariables.getAppId(), "EN", callContext).then(function(value) {
+                                            getSettingsVar.value = value;
+                                        });
+                                    }).then(function() {
+                                        // ResidenceListResponse = SendResidenceList.ResidenceListResponse
+                                        model.variables.residenceListResponseVar = sendResidenceListVar.value.residenceListResponseOut;
+                                        // JSON Serialize: SerializeResidenceList
+                                        serializeResidenceListVar.value.jSONOut = OS.JSONUtils.serializeToJSON(sendResidenceListVar.value.residenceListResponseOut, false, false);
+                                        checkIfIDVIsSupportedJSJSResult.value = OS.Logger.startActiveSpan("CheckIfIDVIsSupportedJS", function(span) {
+                                            if (span) {
+                                                span.setAttribute("code.function", "CheckIfIDVIsSupportedJS");
+                                                span.setAttribute("outsystems.function.key", "33193da3-481b-4435-9672-2e26c0b62d9e");
+                                                span.setAttribute("outsystems.function.owner.name", "PartnersHub");
+                                                span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
+                                                span.setAttribute("outsystems.function.type", "JAVASCRIPT");
+                                            }
+
+                                            try {
+                                                return controller.safeExecuteJSNode(PartnersHub_Home_CompleteMyProfile_mvc_controller_OnReady_CheckIfIDVIsSupportedJSJS, "CheckIfIDVIsSupportedJS", "OnReady", {
+                                                    ResidenceList: OS.DataConversion.JSNodeParamConverter.to(serializeResidenceListVar.value.jSONOut, OS.DataTypes.DataTypes.Text),
+                                                    SelectedCitizenship: OS.DataConversion.JSNodeParamConverter.to(getSettingsVar.value.responseOut.get_settingsAttr.citizenAttr, OS.DataTypes.DataTypes.Text),
+                                                    isIDVSupported: OS.DataConversion.JSNodeParamConverter.to(false, OS.DataTypes.DataTypes.Boolean)
+                                                }, function($parameters) {
+                                                    var jsNodeResult = new(controller.constructor.getVariableGroupType("PartnersHub.Home.CompleteMyProfile.OnReady$checkIfIDVIsSupportedJSJSResult"))();
+                                                    jsNodeResult.isIDVSupportedOut = OS.DataConversion.JSNodeParamConverter.from($parameters.isIDVSupported, OS.DataTypes.DataTypes.Boolean);
+                                                    return jsNodeResult;
+                                                }, {}, {});
+                                            } finally {
+                                                if (span) {
+                                                    span.end();
+                                                }
+
+                                            }
+
+                                        }, 1);
+                                        // RealSignupIsIDVSupported = CheckIfIDVIsSupportedJS.isIDVSupported
+                                        PartnersHubClientVariables.setRealSignupIsIDVSupported(checkIfIDVIsSupportedJSJSResult.value.isIDVSupportedOut);
+                                    });
+                                });
+                            }, function() {
+                                if (span) {
+                                    span.end();
+                                }
+
+                            });
+                        }, 1);
+                    };
+                }
+
+                return this.__onReady$Action;
+            }
+            set _onReady$Action(value) {
+                this.__onReady$Action = value;
+            }
+
 
             onClick$Action(callContext) {
                 var controller = this.controller;
@@ -353,11 +474,41 @@ define("PartnersHub.Home.CompleteMyProfile.mvc$controller", ["@outsystems/runtim
 
             }
 
+            onReady$Action(callContext) {
+                var controller = this.controller;
+                return OS.Logger.startActiveSpan("OnReady__proxy", function(span) {
+                    if (span) {
+                        span.setAttribute("code.function", "OnReady");
+                        span.setAttribute("outsystems.function.key", "9a5b194f-d2cb-43ce-80c6-390c7eeebaa3");
+                        span.setAttribute("outsystems.function.owner.name", "PartnersHub");
+                        span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
+                        span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                    }
+
+                    return OS.Flow.tryFinally(function() {
+                        return controller.safeExecuteClientAction(controller._onReady$Action, callContext);
+                    }, function() {
+                        if (span) {
+                            span.end();
+                        }
+
+                    });
+                }, 0);
+
+            }
+
 
             // Event Handler Actions
             get onInitializeEventHandler() {
                 if (!(this.hasOwnProperty("_onInitializeEventHandler"))) {
-                    this._onInitializeEventHandler = null;
+                    this._onInitializeEventHandler = function(callContext) {
+                        var controller = this.controller;
+                        var model = this.model;
+                        var idService = this.idService;
+
+                        return controller.onReady$Action(callContext);
+
+                    };
                 }
 
                 return this._onInitializeEventHandler;
@@ -435,12 +586,124 @@ define("PartnersHub.Home.CompleteMyProfile.mvc$controller", ["@outsystems/runtim
         // Server Actions - Variables
 
         // Client Actions - Variables
+        Controller.registerVariableGroupType("PartnersHub.Home.CompleteMyProfile.OnReady$checkIfIDVIsSupportedJSJSResult", [{
+            name: "isIDVSupported",
+            attrName: "isIDVSupportedOut",
+            mandatory: true,
+            dataType: OS.DataTypes.DataTypes.Boolean,
+            defaultValue: function() {
+                return false;
+            }
+        }]);
+        Controller.registerVariableGroupType("PartnersHub.Home.CompleteMyProfile.OnReady$getAuthTokenJSResult", [{
+            name: "Token",
+            attrName: "tokenOut",
+            mandatory: true,
+            dataType: OS.DataTypes.DataTypes.Text,
+            defaultValue: function() {
+                return "";
+            }
+        }]);
 
     }
     return new OS.Controller.ControllerFactory(Controller, PartnersHubLanguageResources);
 });
 
+define("PartnersHub.Home.CompleteMyProfile.mvc$controller.OnReady.CheckIfIDVIsSupportedJSJS", [], function() {
+    return function($parameters, $actions, $roles, $public) {
+        const country = JSON.parse($parameters.ResidenceList || JSON.stringify([])).residence_list.find(c => c.value == $parameters.SelectedCitizenship)
 
-define("PartnersHub.Home.CompleteMyProfile.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+        $parameters.isIDVSupported = Boolean(country?.identity?.services?.idv?.is_country_supported)
+
+
+    };
+});
+
+define("PartnersHub.Home.CompleteMyProfile.mvc$controller.OnReady.GetAuthTokenJS", [], function() {
+    return function($parameters, $actions, $roles, $public) {
+        $parameters.Token = localStorage.getItem("token")
+    };
+});
+
+
+define("PartnersHub.Home.CompleteMyProfile.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "zkE0A_QNHUO3f5+rZyPegQ#Value": "Schritt",
+        "V_f6UFrIQkCuMDCeq35TIQ#Value": "Mein Profil vervollständigen"
+    };
+});
+
+define("PartnersHub.Home.CompleteMyProfile.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "zkE0A_QNHUO3f5+rZyPegQ#Value": "Paso",
+        "V_f6UFrIQkCuMDCeq35TIQ#Value": "Completar mi perfil"
+    };
+});
+
+define("PartnersHub.Home.CompleteMyProfile.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "zkE0A_QNHUO3f5+rZyPegQ#Value": "Étape",
+        "V_f6UFrIQkCuMDCeq35TIQ#Value": "Compléter mon profil"
+    };
+});
+
+define("PartnersHub.Home.CompleteMyProfile.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "zkE0A_QNHUO3f5+rZyPegQ#Value": "Passo",
+        "V_f6UFrIQkCuMDCeq35TIQ#Value": "Completa il mio profilo"
+    };
+});
+
+define("PartnersHub.Home.CompleteMyProfile.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "zkE0A_QNHUO3f5+rZyPegQ#Value": "Krok",
+        "V_f6UFrIQkCuMDCeq35TIQ#Value": "Uzupełnij mój profil"
+    };
+});
+
+define("PartnersHub.Home.CompleteMyProfile.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "zkE0A_QNHUO3f5+rZyPegQ#Value": "Passo",
+        "V_f6UFrIQkCuMDCeq35TIQ#Value": "Completar o meu perfil"
+    };
+});
+
+define("PartnersHub.Home.CompleteMyProfile.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "zkE0A_QNHUO3f5+rZyPegQ#Value": "Шаг",
+        "V_f6UFrIQkCuMDCeq35TIQ#Value": "Завершить мой профиль"
+    };
+});
+
+define("PartnersHub.Home.CompleteMyProfile.mvc$translationsResources", ["exports", "PartnersHub.Home.CompleteMyProfile.mvc$translationsResources.de-DE", "PartnersHub.Home.CompleteMyProfile.mvc$translationsResources.es-ES", "PartnersHub.Home.CompleteMyProfile.mvc$translationsResources.fr-FR", "PartnersHub.Home.CompleteMyProfile.mvc$translationsResources.it-IT", "PartnersHub.Home.CompleteMyProfile.mvc$translationsResources.pl-PL", "PartnersHub.Home.CompleteMyProfile.mvc$translationsResources.pt-PT", "PartnersHub.Home.CompleteMyProfile.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Home_CompleteMyProfile_mvc_translationsResources_deDE, PartnersHub_Home_CompleteMyProfile_mvc_translationsResources_esES, PartnersHub_Home_CompleteMyProfile_mvc_translationsResources_frFR, PartnersHub_Home_CompleteMyProfile_mvc_translationsResources_itIT, PartnersHub_Home_CompleteMyProfile_mvc_translationsResources_plPL, PartnersHub_Home_CompleteMyProfile_mvc_translationsResources_ptPT, PartnersHub_Home_CompleteMyProfile_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Home_CompleteMyProfile_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Home_CompleteMyProfile_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Home_CompleteMyProfile_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Home_CompleteMyProfile_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Home_CompleteMyProfile_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Home_CompleteMyProfile_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Home_CompleteMyProfile_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

@@ -1,4 +1,4 @@
-define("tradershub.Layouts.MainLayout.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.model", "OutSystemsUI.controller", "tradershub.Common.LoaderBlock.mvc$model", "OutSystemsUI.Navigation.BottomBarItem.mvc$model", "tradershub.model$ST_2b68b61da9b8f6db8463a60cc48350faStructure", "tradershub.controller$SendAuthorize", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$AddFavicon", "tradershub.controller$MountDerivApi"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIModel, OutSystemsUIController, tradershub_Common_LoaderBlock_mvcModel, OutSystemsUI_Navigation_BottomBarItem_mvcModel) {
+define("tradershub.Layouts.MainLayout.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.model", "OutSystemsUI.controller", "tradershub.Common.LoaderBlock.mvc$model", "OutSystemsUI.Navigation.BottomBarItem.mvc$model", "tradershub.model$ST_2b68b61da9b8f6db8463a60cc48350faStructure", "tradershub.controller$SendAuthorize", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$AddFavicon", "tradershub.controller$InitizalizeDerivApi"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIModel, OutSystemsUIController, tradershub_Common_LoaderBlock_mvcModel, OutSystemsUI_Navigation_BottomBarItem_mvcModel) {
     var OS = OSRuntimeCore;
 
 
@@ -77,7 +77,7 @@ define("tradershub.Layouts.MainLayout.mvc$model", ["@outsystems/runtime-core-js"
     return new OS.Model.ModelFactory(Model);
 });
 
-define("tradershub.Layouts.MainLayout.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.model", "OutSystemsUI.controller", "react", "@outsystems/runtime-view-js", "tradershub.Layouts.MainLayout.mvc$model", "tradershub.Layouts.MainLayout.mvc$controller", "tradershub.clientVariables", "@outsystems/runtime-widgets-js", "tradershub.Common.LoaderBlock.mvc$view", "OutSystemsUI.Navigation.BottomBarItem.mvc$view", "tradershub.model$ST_2b68b61da9b8f6db8463a60cc48350faStructure", "tradershub.controller$SendAuthorize", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$AddFavicon", "tradershub.controller$MountDerivApi"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIModel, OutSystemsUIController, React, OSView, tradershub_Layouts_MainLayout_mvc_model, tradershub_Layouts_MainLayout_mvc_controller, tradershubClientVariables, OSWidgets, tradershub_Common_LoaderBlock_mvc_view, OutSystemsUI_Navigation_BottomBarItem_mvc_view) {
+define("tradershub.Layouts.MainLayout.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.model", "OutSystemsUI.controller", "react", "@outsystems/runtime-view-js", "tradershub.Layouts.MainLayout.mvc$model", "tradershub.Layouts.MainLayout.mvc$controller", "tradershub.clientVariables", "@outsystems/runtime-widgets-js", "tradershub.Common.LoaderBlock.mvc$view", "OutSystemsUI.Navigation.BottomBarItem.mvc$view", "tradershub.model$ST_2b68b61da9b8f6db8463a60cc48350faStructure", "tradershub.controller$SendAuthorize", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$AddFavicon", "tradershub.controller$InitizalizeDerivApi"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIModel, OutSystemsUIController, React, OSView, tradershub_Layouts_MainLayout_mvc_model, tradershub_Layouts_MainLayout_mvc_controller, tradershubClientVariables, OSWidgets, tradershub_Common_LoaderBlock_mvc_view, OutSystemsUI_Navigation_BottomBarItem_mvc_view) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -290,42 +290,46 @@ define("tradershub.Layouts.MainLayout.mvc$view", ["@outsystems/runtime-core-js",
                     uuid: "13"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }))), React.createElement(OSWidgets.Container, {
-                align: /*Default*/ 0,
-                animate: false,
-                extendedProperties: {
-                    style: "height: 56px;"
-                },
-                gridProperties: {
-                    marginLeft: "24px"
-                },
-                style: "tab",
-                visible: true,
-                _idProps: {
-                    service: idService,
-                    name: "Wallets"
-                },
-                _widgetRecordProvider: widgetsRecordProvider
-            }, React.createElement(OSWidgets.Link, {
-                enabled: true,
-                style: "tab-link",
-                transition: OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default),
-                url: OS.Navigation.generateScreenURL("tradershub", "Wallets", {}),
-                visible: true,
-                _idProps: {
-                    service: idService,
-                    uuid: "15"
-                },
-                _widgetRecordProvider: widgetsRecordProvider
-            }, React.createElement(OSWidgets.Text, {
-                style: "tab-text",
-                text: ["Wallets"],
-                _idProps: {
-                    service: idService,
-                    uuid: "16"
-                },
-                _widgetRecordProvider: widgetsRecordProvider
-            }))))), $if(((tradershubClientVariables.getAuthToken()) !== (OS.BuiltinFunctions.nullTextIdentifier())), false, this, function() {
+            }))), $if(((tradershubClientVariables.getAuthToken()) !== (OS.BuiltinFunctions.nullTextIdentifier())), false, this, function() {
+                return [React.createElement(OSWidgets.Container, {
+                    align: /*Default*/ 0,
+                    animate: false,
+                    extendedProperties: {
+                        style: "height: 56px;"
+                    },
+                    gridProperties: {
+                        marginLeft: "24px"
+                    },
+                    style: "tab",
+                    visible: true,
+                    _idProps: {
+                        service: idService,
+                        name: "Wallets"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }, React.createElement(OSWidgets.Link, {
+                    enabled: true,
+                    style: "tab-link",
+                    transition: OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default),
+                    url: OS.Navigation.generateScreenURL("tradershub", "Wallets", {}),
+                    visible: true,
+                    _idProps: {
+                        service: idService,
+                        uuid: "15"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }, React.createElement(OSWidgets.Text, {
+                    style: "tab-text",
+                    text: ["Wallets"],
+                    _idProps: {
+                        service: idService,
+                        uuid: "16"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                })))];
+            }, function() {
+                return [];
+            }))), $if(((tradershubClientVariables.getAuthToken()) !== (OS.BuiltinFunctions.nullTextIdentifier())), false, this, function() {
                 return [React.createElement(OSWidgets.Container, {
                     align: /*Default*/ 0,
                     animate: false,
@@ -709,161 +713,165 @@ define("tradershub.Layouts.MainLayout.mvc$view", ["@outsystems/runtime-core-js",
                     })
                 },
                 _dependencies: [asPrimitiveValue(model.variables._activeTabInDataFetchStatus), asPrimitiveValue(model.variables.activeTabIn)]
-            }))), React.createElement(OSWidgets.Container, {
-                align: /*Default*/ 0,
-                animate: false,
-                style: "bottom-navigation-item",
-                visible: true,
-                _idProps: {
-                    service: idService,
-                    name: "WalletsContainer"
-                },
-                _widgetRecordProvider: widgetsRecordProvider
-            }, React.createElement(OSWidgets.Link, {
-                enabled: true,
-                gridProperties: {
-                    classes: "OSFillParent"
-                },
-                transition: OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default),
-                url: OS.Navigation.generateScreenURL("tradershub", "Wallets", {}),
-                visible: true,
-                _idProps: {
-                    service: idService,
-                    uuid: "44"
-                },
-                _widgetRecordProvider: widgetsRecordProvider
-            }, React.createElement(OutSystemsUI_Navigation_BottomBarItem_mvc_view, {
-                getOwnerSpan: function() {
-                    return _this.getChildSpan("render");
-                },
-                getOwnerDisposeSpan: function() {
-                    return _this.getChildSpan("destroy");
-                },
-                inputs: {},
-                events: {
-                    _handleError: function(ex) {
-                        controller.handleError(ex);
-                    }
-                },
-                _validationProps: {
-                    validationService: validationService
-                },
-                _idProps: {
-                    service: idService,
-                    uuid: "45",
-                    alias: "5"
-                },
-                _widgetRecordProvider: widgetsRecordProvider,
-                placeholders: {
-                    icon: new PlaceholderContent(function() {
-                        return [$if((model.variables.activeTabIn === 3), false, this, function() {
-                            return [React.createElement(OSWidgets.Image, {
-                                image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.WalletsActiveSm.svg"),
-                                type: /*Static*/ 0,
-                                _idProps: {
-                                    service: idService,
-                                    uuid: "46"
-                                },
-                                _widgetRecordProvider: widgetsRecordProvider
+            }))), $if(((tradershubClientVariables.getAuthToken()) !== (OS.BuiltinFunctions.nullTextIdentifier())), false, this, function() {
+                return [React.createElement(OSWidgets.Container, {
+                    align: /*Default*/ 0,
+                    animate: false,
+                    style: "bottom-navigation-item",
+                    visible: true,
+                    _idProps: {
+                        service: idService,
+                        name: "WalletsContainer"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }, React.createElement(OSWidgets.Link, {
+                    enabled: true,
+                    gridProperties: {
+                        classes: "OSFillParent"
+                    },
+                    transition: OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default),
+                    url: OS.Navigation.generateScreenURL("tradershub", "Wallets", {}),
+                    visible: true,
+                    _idProps: {
+                        service: idService,
+                        uuid: "44"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }, React.createElement(OutSystemsUI_Navigation_BottomBarItem_mvc_view, {
+                    getOwnerSpan: function() {
+                        return _this.getChildSpan("render");
+                    },
+                    getOwnerDisposeSpan: function() {
+                        return _this.getChildSpan("destroy");
+                    },
+                    inputs: {},
+                    events: {
+                        _handleError: function(ex) {
+                            controller.handleError(ex);
+                        }
+                    },
+                    _validationProps: {
+                        validationService: validationService
+                    },
+                    _idProps: {
+                        service: idService,
+                        uuid: "45",
+                        alias: "5"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider,
+                    placeholders: {
+                        icon: new PlaceholderContent(function() {
+                            return [$if((model.variables.activeTabIn === 3), false, this, function() {
+                                return [React.createElement(OSWidgets.Image, {
+                                    image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.WalletsActiveSm.svg"),
+                                    type: /*Static*/ 0,
+                                    _idProps: {
+                                        service: idService,
+                                        uuid: "46"
+                                    },
+                                    _widgetRecordProvider: widgetsRecordProvider
+                                })];
+                            }, function() {
+                                return [React.createElement(OSWidgets.Image, {
+                                    image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.WalletsSm.svg"),
+                                    type: /*Static*/ 0,
+                                    _idProps: {
+                                        service: idService,
+                                        uuid: "47"
+                                    },
+                                    _widgetRecordProvider: widgetsRecordProvider
+                                })];
                             })];
-                        }, function() {
-                            return [React.createElement(OSWidgets.Image, {
-                                image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.WalletsSm.svg"),
-                                type: /*Static*/ 0,
-                                _idProps: {
-                                    service: idService,
-                                    uuid: "47"
-                                },
-                                _widgetRecordProvider: widgetsRecordProvider
+                        }),
+                        text: new PlaceholderContent(function() {
+                            return ["Wallets"];
+                        })
+                    },
+                    _dependencies: [asPrimitiveValue(model.variables._activeTabInDataFetchStatus), asPrimitiveValue(model.variables.activeTabIn)]
+                }))), React.createElement(OSWidgets.Container, {
+                    align: /*Default*/ 0,
+                    animate: false,
+                    style: "bottom-navigation-item",
+                    visible: true,
+                    _idProps: {
+                        service: idService,
+                        name: "AccountContainer"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }, React.createElement(OSWidgets.Link, {
+                    enabled: true,
+                    gridProperties: {
+                        classes: "OSFillParent"
+                    },
+                    transition: OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default),
+                    url: OS.Navigation.generateScreenURL("tradershub", "Account", {}),
+                    visible: true,
+                    _idProps: {
+                        service: idService,
+                        uuid: "49"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                }, React.createElement(OutSystemsUI_Navigation_BottomBarItem_mvc_view, {
+                    getOwnerSpan: function() {
+                        return _this.getChildSpan("render");
+                    },
+                    getOwnerDisposeSpan: function() {
+                        return _this.getChildSpan("destroy");
+                    },
+                    inputs: {},
+                    events: {
+                        _handleError: function(ex) {
+                            controller.handleError(ex);
+                        }
+                    },
+                    _validationProps: {
+                        validationService: validationService
+                    },
+                    _idProps: {
+                        service: idService,
+                        uuid: "50",
+                        alias: "6"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider,
+                    placeholders: {
+                        icon: new PlaceholderContent(function() {
+                            return [$if((model.variables.activeTabIn === 4), false, this, function() {
+                                return [React.createElement(OSWidgets.Image, {
+                                    image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.AccountActiveSm.svg"),
+                                    type: /*Static*/ 0,
+                                    _idProps: {
+                                        service: idService,
+                                        uuid: "51"
+                                    },
+                                    _widgetRecordProvider: widgetsRecordProvider
+                                })];
+                            }, function() {
+                                return [React.createElement(OSWidgets.Image, {
+                                    image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.AccountSm.svg"),
+                                    type: /*Static*/ 0,
+                                    _idProps: {
+                                        service: idService,
+                                        uuid: "52"
+                                    },
+                                    _widgetRecordProvider: widgetsRecordProvider
+                                })];
                             })];
-                        })];
-                    }),
-                    text: new PlaceholderContent(function() {
-                        return ["Wallets"];
-                    })
-                },
-                _dependencies: [asPrimitiveValue(model.variables._activeTabInDataFetchStatus), asPrimitiveValue(model.variables.activeTabIn)]
-            }))), React.createElement(OSWidgets.Container, {
-                align: /*Default*/ 0,
-                animate: false,
-                style: "bottom-navigation-item",
-                visible: true,
-                _idProps: {
-                    service: idService,
-                    name: "AccountContainer"
-                },
-                _widgetRecordProvider: widgetsRecordProvider
-            }, React.createElement(OSWidgets.Link, {
-                enabled: true,
-                gridProperties: {
-                    classes: "OSFillParent"
-                },
-                transition: OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default),
-                url: OS.Navigation.generateScreenURL("tradershub", "Account", {}),
-                visible: true,
-                _idProps: {
-                    service: idService,
-                    uuid: "49"
-                },
-                _widgetRecordProvider: widgetsRecordProvider
-            }, React.createElement(OutSystemsUI_Navigation_BottomBarItem_mvc_view, {
-                getOwnerSpan: function() {
-                    return _this.getChildSpan("render");
-                },
-                getOwnerDisposeSpan: function() {
-                    return _this.getChildSpan("destroy");
-                },
-                inputs: {},
-                events: {
-                    _handleError: function(ex) {
-                        controller.handleError(ex);
-                    }
-                },
-                _validationProps: {
-                    validationService: validationService
-                },
-                _idProps: {
-                    service: idService,
-                    uuid: "50",
-                    alias: "6"
-                },
-                _widgetRecordProvider: widgetsRecordProvider,
-                placeholders: {
-                    icon: new PlaceholderContent(function() {
-                        return [$if((model.variables.activeTabIn === 4), false, this, function() {
-                            return [React.createElement(OSWidgets.Image, {
-                                image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.AccountActiveSm.svg"),
-                                type: /*Static*/ 0,
-                                _idProps: {
-                                    service: idService,
-                                    uuid: "51"
-                                },
-                                _widgetRecordProvider: widgetsRecordProvider
-                            })];
-                        }, function() {
-                            return [React.createElement(OSWidgets.Image, {
-                                image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.AccountSm.svg"),
-                                type: /*Static*/ 0,
-                                _idProps: {
-                                    service: idService,
-                                    uuid: "52"
-                                },
-                                _widgetRecordProvider: widgetsRecordProvider
-                            })];
-                        })];
-                    }),
-                    text: new PlaceholderContent(function() {
-                        return ["Account"];
-                    })
-                },
-                _dependencies: [asPrimitiveValue(model.variables._activeTabInDataFetchStatus), asPrimitiveValue(model.variables.activeTabIn)]
-            })))));
+                        }),
+                        text: new PlaceholderContent(function() {
+                            return ["Account"];
+                        })
+                    },
+                    _dependencies: [asPrimitiveValue(model.variables._activeTabInDataFetchStatus), asPrimitiveValue(model.variables.activeTabIn)]
+                })))];
+            }, function() {
+                return [];
+            })));
         }
     }
 
     return View;
 });
-define("tradershub.Layouts.MainLayout.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.model", "OutSystemsUI.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.Layouts.MainLayout.mvc$controller.OnReady.AddActiveTabJS", "tradershub.model$ST_2b68b61da9b8f6db8463a60cc48350faStructure", "tradershub.controller$SendAuthorize", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$AddFavicon", "tradershub.controller$MountDerivApi"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIModel, OutSystemsUIController, tradershubLanguageResources, tradershubClientVariables, tradershub_Layouts_MainLayout_mvc_controller_OnReady_AddActiveTabJS) {
+define("tradershub.Layouts.MainLayout.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.model", "OutSystemsUI.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.Layouts.MainLayout.mvc$controller.OnReady.AddActiveTabJS", "tradershub.model$ST_2b68b61da9b8f6db8463a60cc48350faStructure", "tradershub.controller$SendAuthorize", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$AddFavicon", "tradershub.controller$InitizalizeDerivApi"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIModel, OutSystemsUIController, tradershubLanguageResources, tradershubClientVariables, tradershub_Layouts_MainLayout_mvc_controller_OnReady_AddActiveTabJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -979,8 +987,8 @@ define("tradershub.Layouts.MainLayout.mvc$controller", ["@outsystems/runtime-cor
                                 // Execute Action: AddFavicon
                                 addFaviconVar.value = OutSystemsUIController.default.addFavicon$Action("/tradershub/favicon.png", callContext);
 
-                                // Execute Action: MountDerivApi
-                                tradershubController.default.mountDerivApi$Action(callContext);
+                                // Execute Action: InitizalizeDerivApi
+                                tradershubController.default.initizalizeDerivApi$Action(callContext);
                             } finally {
                                 if (span) {
                                     span.end();

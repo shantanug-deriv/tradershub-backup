@@ -1,4 +1,4 @@
-define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "PartnersHub.Layouts.RealAccountCreationLayout.mvc$model", "PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$model", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$model", "PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$model", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$model", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsBlock.mvc$model", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$model", "PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$model", "PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$model", "PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$model", "PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$model", "CustomComponents.ButtonVariants.PrimaryButton.mvc$model", "CustomComponents.ButtonVariants.SecondaryButton.mvc$model", "PartnersHub.model$ST_e61d85f6aadd57329cc664ba1d0e64c1Structure", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure", "PartnersHub.model$ST_c98d478d92307b8784bb1e90423f775bStructure", "PartnersHub.model$ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructure", "PartnersHub.model$RL_ad0d7e810e49e61265e2d337c04416fc", "PartnersHub.model$ST_b4cd08f1a2e52c6c30b2b1fd8abf3029Structure", "PartnersHub.model$ST_dbace2176e52429900d8209086350204Structure", "PartnersHub.model$ST_0c954cdeca234316306bb67c6b24f05bStructure", "PartnersHub.model$ST_b539dd26c0de381503da71ca2655394fStructure", "PartnersHub.model$ST_eda668e7f210db3d136460db1684b63bStructure", "PartnersHub.model$ST_6d2f2a84ec0b7321167e27d19b6d33f8Structure", "PartnersHub.model$RL_72539fe43229e47c6f0bb03bc660d8fe", "PartnersHub.model$ST_8c2ccdb8651c27e0fadf6d9395795b9fStructure", "PartnersHub.model$ST_537325baeed781544ed9f203cd7f9384Structure", "PartnersHub.model$ST_db915d6b5cc14a9247531baaa76ce4a5Structure", "PartnersHub.model$RL_27bf68eaead02a99ca09aef3148704b7", "PartnersHub.controller$RealSignupPreviousStep", "PartnersHub.controller$RealSignupPreviousStepProgressBar", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.controller$RealSignupNextStepProgressBar", "PartnersHub.controller$MountDerivAPIClient", "PartnersHub.controller$SendWebsiteStatus", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure", "PartnersHub.controller$SendGetSettings", "PartnersHub.controller$SendResidenceList", "PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "PartnersHub.controller$SendAuthorize", "PartnersHub.model$ST_8401e8b399f219fdd97b12284d97703eStructure", "PartnersHub.controller$SendStatesList", "PartnersHub.controller$UseDevice"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, PartnersHub_Layouts_RealAccountCreationLayout_mvcModel, PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvcModel, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvcModel, PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvcModel, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvcModel, PartnersHub_RealAccountCreationFlow_EmploymentDetailsBlock_mvcModel, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvcModel, PartnersHub_RealAccountCreationFlow_Addressdetails_mvcModel, PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvcModel, PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvcModel, PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvcModel, CustomComponents_ButtonVariants_PrimaryButton_mvcModel, CustomComponents_ButtonVariants_SecondaryButton_mvcModel) {
+define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "RESTAPIWebsocket.model", "PartnersHub.controller", "RESTAPIWebsocket.controller", "PartnersHub.Layouts.RealAccountCreationLayout.mvc$model", "PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$model", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$model", "PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$model", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$model", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsBlock.mvc$model", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$model", "PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$model", "PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$model", "PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$model", "PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$model", "CustomComponents.ButtonVariants.PrimaryButton.mvc$model", "CustomComponents.ButtonVariants.SecondaryButton.mvc$model", "RESTAPIWebsocket.model$ST_c864353821feed79663806f3e445d40eStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure", "PartnersHub.model$ST_c98d478d92307b8784bb1e90423f775bStructure", "PartnersHub.model$ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructure", "PartnersHub.model$RL_ad0d7e810e49e61265e2d337c04416fc", "PartnersHub.model$ST_b4cd08f1a2e52c6c30b2b1fd8abf3029Structure", "PartnersHub.model$ST_dbace2176e52429900d8209086350204Structure", "PartnersHub.model$ST_0c954cdeca234316306bb67c6b24f05bStructure", "PartnersHub.model$ST_b539dd26c0de381503da71ca2655394fStructure", "PartnersHub.model$ST_eda668e7f210db3d136460db1684b63bStructure", "PartnersHub.model$ST_6d2f2a84ec0b7321167e27d19b6d33f8Structure", "PartnersHub.model$RL_72539fe43229e47c6f0bb03bc660d8fe", "PartnersHub.model$ST_8c2ccdb8651c27e0fadf6d9395795b9fStructure", "PartnersHub.model$ST_537325baeed781544ed9f203cd7f9384Structure", "PartnersHub.model$ST_db915d6b5cc14a9247531baaa76ce4a5Structure", "PartnersHub.model$RL_27bf68eaead02a99ca09aef3148704b7", "PartnersHub.controller$RealSignupPreviousStep", "PartnersHub.controller$RealSignupPreviousStepProgressBar", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.controller$RealSignupNextStepProgressBar", "PartnersHub.controller$MountDerivAPIClient", "RESTAPIWebsocket.controller$GetWebsiteStatus", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.controller$SendResidenceList", "PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "PartnersHub.controller$SendAuthorize", "PartnersHub.model$ST_8401e8b399f219fdd97b12284d97703eStructure", "PartnersHub.controller$SendStatesList", "PartnersHub.controller$UseDevice"], function(OSRuntimeCore, PartnersHubModel, RESTAPIWebsocketModel, PartnersHubController, RESTAPIWebsocketController, PartnersHub_Layouts_RealAccountCreationLayout_mvcModel, PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvcModel, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvcModel, PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvcModel, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvcModel, PartnersHub_RealAccountCreationFlow_EmploymentDetailsBlock_mvcModel, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvcModel, PartnersHub_RealAccountCreationFlow_Addressdetails_mvcModel, PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvcModel, PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvcModel, PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvcModel, CustomComponents_ButtonVariants_PrimaryButton_mvcModel, CustomComponents_ButtonVariants_SecondaryButton_mvcModel) {
     var OS = OSRuntimeCore;
 
 
@@ -11,8 +11,8 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$model", ["@o
                         return false;
                     }, false),
                     this.attr("WebsiteStatusResponse", "websiteStatusResponseVar", "WebsiteStatusResponse", true, false, OS.DataTypes.DataTypes.Record, function() {
-                        return OS.DataTypes.ImmutableBase.getData(new PartnersHubModel.ST_e61d85f6aadd57329cc664ba1d0e64c1Structure());
-                    }, false, PartnersHubModel.ST_e61d85f6aadd57329cc664ba1d0e64c1Structure),
+                        return OS.DataTypes.ImmutableBase.getData(new RESTAPIWebsocketModel.ST_c864353821feed79663806f3e445d40eStructure());
+                    }, false, RESTAPIWebsocketModel.ST_c864353821feed79663806f3e445d40eStructure),
                     this.attr("ResidenceListResponse", "residenceListResponseVar", "ResidenceListResponse", true, false, OS.DataTypes.DataTypes.Record, function() {
                         return OS.DataTypes.ImmutableBase.getData(new PartnersHubModel.ST_0be4704c381e15995202804b221a5e3aStructure());
                     }, false, PartnersHubModel.ST_0be4704c381e15995202804b221a5e3aStructure),
@@ -63,7 +63,7 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$model", ["@o
     return new OS.Model.ModelFactory(Model);
 });
 
-define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "react", "@outsystems/runtime-view-js", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$model", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller", "PartnersHub.clientVariables", "PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", "@outsystems/runtime-widgets-js", "PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$view", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$view", "PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsBlock.mvc$view", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$view", "PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$view", "PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$view", "PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$view", "PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$view", "CustomComponents.ButtonVariants.PrimaryButton.mvc$view", "CustomComponents.ButtonVariants.SecondaryButton.mvc$view", "PartnersHub.model$ST_e61d85f6aadd57329cc664ba1d0e64c1Structure", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure", "PartnersHub.model$ST_c98d478d92307b8784bb1e90423f775bStructure", "PartnersHub.model$ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructure", "PartnersHub.model$RL_ad0d7e810e49e61265e2d337c04416fc", "PartnersHub.model$ST_b4cd08f1a2e52c6c30b2b1fd8abf3029Structure", "PartnersHub.model$ST_dbace2176e52429900d8209086350204Structure", "PartnersHub.model$ST_0c954cdeca234316306bb67c6b24f05bStructure", "PartnersHub.model$ST_b539dd26c0de381503da71ca2655394fStructure", "PartnersHub.model$ST_eda668e7f210db3d136460db1684b63bStructure", "PartnersHub.model$ST_6d2f2a84ec0b7321167e27d19b6d33f8Structure", "PartnersHub.model$RL_72539fe43229e47c6f0bb03bc660d8fe", "PartnersHub.model$ST_8c2ccdb8651c27e0fadf6d9395795b9fStructure", "PartnersHub.model$ST_537325baeed781544ed9f203cd7f9384Structure", "PartnersHub.model$ST_db915d6b5cc14a9247531baaa76ce4a5Structure", "PartnersHub.model$RL_27bf68eaead02a99ca09aef3148704b7", "PartnersHub.controller$RealSignupPreviousStep", "PartnersHub.controller$RealSignupPreviousStepProgressBar", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.controller$RealSignupNextStepProgressBar", "PartnersHub.controller$MountDerivAPIClient", "PartnersHub.controller$SendWebsiteStatus", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure", "PartnersHub.controller$SendGetSettings", "PartnersHub.controller$SendResidenceList", "PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "PartnersHub.controller$SendAuthorize", "PartnersHub.model$ST_8401e8b399f219fdd97b12284d97703eStructure", "PartnersHub.controller$SendStatesList", "PartnersHub.controller$UseDevice"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, React, OSView, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_model, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_controller, PartnersHubClientVariables, PartnersHub_Layouts_RealAccountCreationLayout_mvc_view, OSWidgets, PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvc_view, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_view, PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_view, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_view, PartnersHub_RealAccountCreationFlow_EmploymentDetailsBlock_mvc_view, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_view, PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_view, PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvc_view, PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvc_view, PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvc_view, CustomComponents_ButtonVariants_PrimaryButton_mvc_view, CustomComponents_ButtonVariants_SecondaryButton_mvc_view) {
+define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "react", "@outsystems/runtime-view-js", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$model", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller", "PartnersHub.clientVariables", "PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", "@outsystems/runtime-widgets-js", "PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$view", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$view", "PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", "PartnersHub.RealAccountCreationFlow.IdentityVerificationBlock.mvc$view", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsBlock.mvc$view", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$view", "PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$view", "PartnersHub.RealAccountCreationFlow.IndividualAccountInformation.mvc$view", "PartnersHub.RealAccountCreationFlow.CompanyAccountInformation.mvc$view", "PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$view", "CustomComponents.ButtonVariants.PrimaryButton.mvc$view", "CustomComponents.ButtonVariants.SecondaryButton.mvc$view", "RESTAPIWebsocket.model$ST_c864353821feed79663806f3e445d40eStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure", "PartnersHub.model$ST_c98d478d92307b8784bb1e90423f775bStructure", "PartnersHub.model$ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructure", "PartnersHub.model$RL_ad0d7e810e49e61265e2d337c04416fc", "PartnersHub.model$ST_b4cd08f1a2e52c6c30b2b1fd8abf3029Structure", "PartnersHub.model$ST_dbace2176e52429900d8209086350204Structure", "PartnersHub.model$ST_0c954cdeca234316306bb67c6b24f05bStructure", "PartnersHub.model$ST_b539dd26c0de381503da71ca2655394fStructure", "PartnersHub.model$ST_eda668e7f210db3d136460db1684b63bStructure", "PartnersHub.model$ST_6d2f2a84ec0b7321167e27d19b6d33f8Structure", "PartnersHub.model$RL_72539fe43229e47c6f0bb03bc660d8fe", "PartnersHub.model$ST_8c2ccdb8651c27e0fadf6d9395795b9fStructure", "PartnersHub.model$ST_537325baeed781544ed9f203cd7f9384Structure", "PartnersHub.model$ST_db915d6b5cc14a9247531baaa76ce4a5Structure", "PartnersHub.model$RL_27bf68eaead02a99ca09aef3148704b7", "PartnersHub.controller$RealSignupPreviousStep", "PartnersHub.controller$RealSignupPreviousStepProgressBar", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.controller$RealSignupNextStepProgressBar", "PartnersHub.controller$MountDerivAPIClient", "RESTAPIWebsocket.controller$GetWebsiteStatus", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.controller$SendResidenceList", "PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "PartnersHub.controller$SendAuthorize", "PartnersHub.model$ST_8401e8b399f219fdd97b12284d97703eStructure", "PartnersHub.controller$SendStatesList", "PartnersHub.controller$UseDevice"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, React, OSView, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_model, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_controller, PartnersHubClientVariables, PartnersHub_Layouts_RealAccountCreationLayout_mvc_view, OSWidgets, PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvc_view, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_view, PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_view, PartnersHub_RealAccountCreationFlow_IdentityVerificationBlock_mvc_view, PartnersHub_RealAccountCreationFlow_EmploymentDetailsBlock_mvc_view, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_view, PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_view, PartnersHub_RealAccountCreationFlow_IndividualAccountInformation_mvc_view, PartnersHub_RealAccountCreationFlow_CompanyAccountInformation_mvc_view, PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvc_view, CustomComponents_ButtonVariants_PrimaryButton_mvc_view, CustomComponents_ButtonVariants_SecondaryButton_mvc_view) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -301,7 +301,7 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$view", ["@ou
                                     ;
                                 }
                             },
-                            visible: ((PartnersHubClientVariables.getRealSignupCurrentStep() === 4) && (PartnersHubClientVariables.getisIDVMobileDocumentNumberContainerVisible() === false)),
+                            visible: (((PartnersHubClientVariables.getRealSignupCurrentStep() === 4) && (PartnersHubClientVariables.getisIDVMobileDocumentNumberContainerVisible() === false)) && PartnersHubClientVariables.getRealSignupIsIDVSupported()),
                             _idProps: {
                                 service: idService,
                                 uuid: "11"
@@ -311,7 +311,7 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$view", ["@ou
                             extendedProperties: {
                                 style: "font-weight: bold; text-decoration: underline;"
                             },
-                            text: ["Skip"],
+                            text: [$text(getTranslation("qG1AIVmW3kew2FwCyxYUew#Value", "Skip"))],
                             _idProps: {
                                 service: idService,
                                 uuid: "12"
@@ -321,7 +321,7 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$view", ["@ou
                             align: /*Default*/ 0,
                             animate: true,
                             extendedProperties: {
-                                style: "align-items: center; display: flex; flex-direction: column; height: 100vh; margin-top: 24px; text-align: center;"
+                                style: "align-items: center; display: flex; flex-direction: column; margin-top: 24px; text-align: center;"
                             },
                             gridProperties: {
                                 classes: "OSInline",
@@ -437,7 +437,7 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$view", ["@ou
                             align: /*Default*/ 0,
                             animate: true,
                             extendedProperties: {
-                                style: "align-items: center; display: flex; flex-direction: column; height: 100vh;"
+                                style: "align-items: center; display: flex; flex-direction: column;"
                             },
                             gridProperties: {
                                 classes: "OSInline",
@@ -492,7 +492,7 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$view", ["@ou
                             align: /*Default*/ 0,
                             animate: true,
                             extendedProperties: {
-                                style: "align-items: center; display: flex; flex-direction: column; height: 100vh;"
+                                style: "align-items: center; display: flex; flex-direction: column;"
                             },
                             gridProperties: {
                                 classes: "OSInline",
@@ -556,7 +556,7 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$view", ["@ou
                             align: /*Default*/ 0,
                             animate: true,
                             extendedProperties: {
-                                style: "align-items: center; display: flex; flex-direction: column; height: 100vh; margin-top: 12px;"
+                                style: "align-items: center; display: flex; flex-direction: column; margin-top: 12px;"
                             },
                             gridProperties: {
                                 classes: "OSInline",
@@ -857,7 +857,7 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$view", ["@ou
                             extendedProperties: {
                                 style: "font-size: 16px; font-weight: bold;"
                             },
-                            text: ["Exit profile setup?"],
+                            text: [$text(getTranslation("eA6s0SHKm0+A8rlV+JQ4gw#Value", "Exit profile setup?"))],
                             _idProps: {
                                 service: idService,
                                 uuid: "41"
@@ -885,7 +885,7 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$view", ["@ou
                                 uuid: "42"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
-                        })), "Complete the setup to access custom commission plans.", React.createElement(OSWidgets.Container, {
+                        })), $text(getTranslation("INDkvkIe4k2YS9jNZT4rPQ#Value", "Complete the setup to access custom commission plans.")), React.createElement(OSWidgets.Container, {
                             align: /*Default*/ 0,
                             animate: false,
                             extendedProperties: {
@@ -996,7 +996,7 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$view", ["@ou
 
     return View;
 });
-define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources", "PartnersHub.RealAccountCreationFlow.controller", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller.OnReady.JavaScript1JS", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller.OnReady.CheckIfIDVIsSupportedJSJS", "PartnersHub.model$ST_e61d85f6aadd57329cc664ba1d0e64c1Structure", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure", "PartnersHub.model$ST_c98d478d92307b8784bb1e90423f775bStructure", "PartnersHub.model$ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructure", "PartnersHub.model$RL_ad0d7e810e49e61265e2d337c04416fc", "PartnersHub.model$ST_b4cd08f1a2e52c6c30b2b1fd8abf3029Structure", "PartnersHub.model$ST_dbace2176e52429900d8209086350204Structure", "PartnersHub.model$ST_0c954cdeca234316306bb67c6b24f05bStructure", "PartnersHub.model$ST_b539dd26c0de381503da71ca2655394fStructure", "PartnersHub.model$ST_eda668e7f210db3d136460db1684b63bStructure", "PartnersHub.model$ST_6d2f2a84ec0b7321167e27d19b6d33f8Structure", "PartnersHub.model$RL_72539fe43229e47c6f0bb03bc660d8fe", "PartnersHub.model$ST_8c2ccdb8651c27e0fadf6d9395795b9fStructure", "PartnersHub.model$ST_537325baeed781544ed9f203cd7f9384Structure", "PartnersHub.model$ST_db915d6b5cc14a9247531baaa76ce4a5Structure", "PartnersHub.model$RL_27bf68eaead02a99ca09aef3148704b7", "PartnersHub.controller$RealSignupPreviousStep", "PartnersHub.controller$RealSignupPreviousStepProgressBar", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.controller$RealSignupNextStepProgressBar", "PartnersHub.controller$MountDerivAPIClient", "PartnersHub.controller$SendWebsiteStatus", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure", "PartnersHub.controller$SendGetSettings", "PartnersHub.controller$SendResidenceList", "PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "PartnersHub.controller$SendAuthorize", "PartnersHub.model$ST_8401e8b399f219fdd97b12284d97703eStructure", "PartnersHub.controller$SendStatesList", "PartnersHub.controller$UseDevice"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_TranslationsResources, PartnersHub_RealAccountCreationFlowController, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_controller_OnReady_JavaScript1JS, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_controller_OnReady_CheckIfIDVIsSupportedJSJS) {
+define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources", "PartnersHub.RealAccountCreationFlow.controller", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller.OnReady.GetAuthTokenJS", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller.OnReady.CheckIfIDVIsSupportedJSJS", "RESTAPIWebsocket.model$ST_c864353821feed79663806f3e445d40eStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure", "PartnersHub.model$ST_c98d478d92307b8784bb1e90423f775bStructure", "PartnersHub.model$ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructure", "PartnersHub.model$RL_ad0d7e810e49e61265e2d337c04416fc", "PartnersHub.model$ST_b4cd08f1a2e52c6c30b2b1fd8abf3029Structure", "PartnersHub.model$ST_dbace2176e52429900d8209086350204Structure", "PartnersHub.model$ST_0c954cdeca234316306bb67c6b24f05bStructure", "PartnersHub.model$ST_b539dd26c0de381503da71ca2655394fStructure", "PartnersHub.model$ST_eda668e7f210db3d136460db1684b63bStructure", "PartnersHub.model$ST_6d2f2a84ec0b7321167e27d19b6d33f8Structure", "PartnersHub.model$RL_72539fe43229e47c6f0bb03bc660d8fe", "PartnersHub.model$ST_8c2ccdb8651c27e0fadf6d9395795b9fStructure", "PartnersHub.model$ST_537325baeed781544ed9f203cd7f9384Structure", "PartnersHub.model$ST_db915d6b5cc14a9247531baaa76ce4a5Structure", "PartnersHub.model$RL_27bf68eaead02a99ca09aef3148704b7", "PartnersHub.controller$RealSignupPreviousStep", "PartnersHub.controller$RealSignupPreviousStepProgressBar", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.controller$RealSignupNextStepProgressBar", "PartnersHub.controller$MountDerivAPIClient", "RESTAPIWebsocket.controller$GetWebsiteStatus", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.controller$SendResidenceList", "PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "PartnersHub.controller$SendAuthorize", "PartnersHub.model$ST_8401e8b399f219fdd97b12284d97703eStructure", "PartnersHub.controller$SendStatesList", "PartnersHub.controller$UseDevice"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_TranslationsResources, PartnersHub_RealAccountCreationFlowController, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_controller_OnReady_GetAuthTokenJS, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_controller_OnReady_CheckIfIDVIsSupportedJSJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -1144,20 +1144,20 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller",
                             return OS.Flow.tryFinally(function() {
                                 controller.ensureControllerAlive("OnReady");
                                 callContext = controller.callContext(callContext);
-                                var sendWebsiteStatusVar = new OS.DataTypes.VariableHolder();
-                                var sendGetSettingsVar = new OS.DataTypes.VariableHolder();
+                                var getWebsiteStatusVar = new OS.DataTypes.VariableHolder();
+                                var getSettingsVar = new OS.DataTypes.VariableHolder();
                                 var sendResidenceListVar = new OS.DataTypes.VariableHolder();
                                 var sendAuthorizeVar = new OS.DataTypes.VariableHolder();
                                 var sendStatesListVar = new OS.DataTypes.VariableHolder();
-                                var javaScript1JSResult = new OS.DataTypes.VariableHolder();
+                                var getAuthTokenJSResult = new OS.DataTypes.VariableHolder();
                                 var checkIfIDVIsSupportedJSJSResult = new OS.DataTypes.VariableHolder();
                                 var serializeResidenceListVar = new OS.DataTypes.VariableHolder(new OS.DataTypes.JSONSerializeOutputType());
                                 return OS.Flow.executeAsyncFlow(function() {
                                     // Execute Action: MountDerivAPIClient
                                     PartnersHubController.default.mountDerivAPIClient$Action(callContext);
-                                    javaScript1JSResult.value = OS.Logger.startActiveSpan("JavaScript1", function(span) {
+                                    getAuthTokenJSResult.value = OS.Logger.startActiveSpan("GetAuthToken", function(span) {
                                         if (span) {
-                                            span.setAttribute("code.function", "JavaScript1");
+                                            span.setAttribute("code.function", "GetAuthToken");
                                             span.setAttribute("outsystems.function.key", "4aca33ac-b0d8-4cb0-a5b5-fb5b31dc7d46");
                                             span.setAttribute("outsystems.function.owner.name", "PartnersHub");
                                             span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
@@ -1165,10 +1165,10 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller",
                                         }
 
                                         try {
-                                            return controller.safeExecuteJSNode(PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_controller_OnReady_JavaScript1JS, "JavaScript1", "OnReady", {
+                                            return controller.safeExecuteJSNode(PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_controller_OnReady_GetAuthTokenJS, "GetAuthToken", "OnReady", {
                                                 token: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text)
                                             }, function($parameters) {
-                                                var jsNodeResult = new(controller.constructor.getVariableGroupType("PartnersHub.RealAccountCreationFlow.RealAccountCreation.OnReady$javaScript1JSResult"))();
+                                                var jsNodeResult = new(controller.constructor.getVariableGroupType("PartnersHub.RealAccountCreationFlow.RealAccountCreation.OnReady$getAuthTokenJSResult"))();
                                                 jsNodeResult.tokenOut = OS.DataConversion.JSNodeParamConverter.from($parameters.token, OS.DataTypes.DataTypes.Text);
                                                 return jsNodeResult;
                                             }, {}, {});
@@ -1184,17 +1184,17 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller",
                                     model.flush();
                                     return PartnersHubController.default.sendAuthorize$Action(function() {
                                         var rec = new PartnersHubModel.ST_e00c986a2a7690520557f1ea58ae1d82Structure();
-                                        rec.authorizeAttr = javaScript1JSResult.value.tokenOut;
+                                        rec.authorizeAttr = getAuthTokenJSResult.value.tokenOut;
                                         return rec;
                                     }(), callContext).then(function(value) {
                                         sendAuthorizeVar.value = value;
                                     }).then(function() {
                                         // Execute Action: UseDevice
                                         PartnersHubController.default.useDevice$Action(callContext);
-                                        // Execute Action: SendWebsiteStatus
+                                        // Execute Action: GetWebsiteStatus
                                         model.flush();
-                                        return PartnersHubController.default.sendWebsiteStatus$Action(callContext).then(function(value) {
-                                            sendWebsiteStatusVar.value = value;
+                                        return RESTAPIWebsocketController.default.getWebsiteStatus$Action(PartnersHubClientVariables.getServer(), PartnersHubClientVariables.getAppId(), "EN", callContext).then(function(value) {
+                                            getWebsiteStatusVar.value = value;
                                         });
                                     }).then(function() {
                                         // Execute Action: SendResidenceList
@@ -1203,18 +1203,18 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller",
                                             sendResidenceListVar.value = value;
                                         });
                                     }).then(function() {
-                                        // Execute Action: SendGetSettings
+                                        // Execute Action: GetSettings
                                         model.flush();
-                                        return PartnersHubController.default.sendGetSettings$Action(callContext).then(function(value) {
-                                            sendGetSettingsVar.value = value;
+                                        return RESTAPIWebsocketController.default.getSettings$Action(PartnersHubClientVariables.getServer(), getAuthTokenJSResult.value.tokenOut, PartnersHubClientVariables.getAppId(), "EN", callContext).then(function(value) {
+                                            getSettingsVar.value = value;
                                         });
                                     }).then(function() {
                                         // ResidenceListResponse = SendResidenceList.ResidenceListResponse
                                         model.variables.residenceListResponseVar = sendResidenceListVar.value.residenceListResponseOut;
-                                        // WebsiteStatusResponse = SendWebsiteStatus.WebsiteStatusResponse
-                                        model.variables.websiteStatusResponseVar = sendWebsiteStatusVar.value.websiteStatusResponseOut;
-                                        // Country = SendGetSettings.GetSettingsResponse.Country_code
-                                        model.variables.countryVar = sendGetSettingsVar.value.getSettingsResponseOut.country_codeAttr;
+                                        // WebsiteStatusResponse = GetWebsiteStatus.Response
+                                        model.variables.websiteStatusResponseVar = getWebsiteStatusVar.value.responseOut;
+                                        // Country = GetSettings.Response.Get_settings.Country_code
+                                        model.variables.countryVar = getSettingsVar.value.responseOut.get_settingsAttr.country_codeAttr;
                                         // JSON Serialize: SerializeResidenceList
                                         serializeResidenceListVar.value.jSONOut = OS.JSONUtils.serializeToJSON(sendResidenceListVar.value.residenceListResponseOut, false, false);
                                         checkIfIDVIsSupportedJSJSResult.value = OS.Logger.startActiveSpan("CheckIfIDVIsSupportedJS", function(span) {
@@ -1229,7 +1229,7 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller",
                                             try {
                                                 return controller.safeExecuteJSNode(PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_controller_OnReady_CheckIfIDVIsSupportedJSJS, "CheckIfIDVIsSupportedJS", "OnReady", {
                                                     ResidenceList: OS.DataConversion.JSNodeParamConverter.to(serializeResidenceListVar.value.jSONOut, OS.DataTypes.DataTypes.Text),
-                                                    SelectedCitizenship: OS.DataConversion.JSNodeParamConverter.to(sendGetSettingsVar.value.getSettingsResponseOut.citizenAttr, OS.DataTypes.DataTypes.Text),
+                                                    SelectedCitizenship: OS.DataConversion.JSNodeParamConverter.to(getSettingsVar.value.responseOut.get_settingsAttr.citizenAttr, OS.DataTypes.DataTypes.Text),
                                                     isIDVSupported: OS.DataConversion.JSNodeParamConverter.to(false, OS.DataTypes.DataTypes.Boolean)
                                                 }, function($parameters) {
                                                     var jsNodeResult = new(controller.constructor.getVariableGroupType("PartnersHub.RealAccountCreationFlow.RealAccountCreation.OnReady$checkIfIDVIsSupportedJSJSResult"))();
@@ -1255,9 +1255,6 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller",
                                         }(), callContext).then(function(value) {
                                             sendStatesListVar.value = value;
                                         });
-                                    }).then(function() {
-                                        // StatesListResponse = SendStatesList.StatesListResponse
-                                        model.variables.statesListResponseVar = sendStatesListVar.value.statesListResponseOut;
                                     });
                                 });
                             }, function() {
@@ -1571,7 +1568,7 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller",
         // Server Actions - Variables
 
         // Client Actions - Variables
-        Controller.registerVariableGroupType("PartnersHub.RealAccountCreationFlow.RealAccountCreation.OnReady$javaScript1JSResult", [{
+        Controller.registerVariableGroupType("PartnersHub.RealAccountCreationFlow.RealAccountCreation.OnReady$getAuthTokenJSResult", [{
             name: "token",
             attrName: "tokenOut",
             mandatory: true,
@@ -1603,7 +1600,7 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller",
     return new OS.Controller.ControllerFactory(Controller, PartnersHubLanguageResources);
 });
 
-define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller.OnReady.JavaScript1JS", [], function() {
+define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller.OnReady.GetAuthTokenJS", [], function() {
     return function($parameters, $actions, $roles, $public) {
         const token = localStorage.getItem('token');
 
@@ -1624,6 +1621,91 @@ define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$controller.O
 });
 
 
-define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "INDkvkIe4k2YS9jNZT4rPQ#Value": "Vervollständigen Sie die Einrichtung, um auf benutzerdefinierte Provisionspläne zuzugreifen.",
+        "eA6s0SHKm0+A8rlV+JQ4gw#Value": "Profilausgang einrichten?",
+        "qG1AIVmW3kew2FwCyxYUew#Value": "Überspringen"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "INDkvkIe4k2YS9jNZT4rPQ#Value": "Completa la configuración para acceder a planes de comisión personalizados.",
+        "eA6s0SHKm0+A8rlV+JQ4gw#Value": "¿Configurar el perfil de salida?",
+        "qG1AIVmW3kew2FwCyxYUew#Value": "Saltar"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "INDkvkIe4k2YS9jNZT4rPQ#Value": "Complétez la configuration pour accéder aux plans de commission personnalisés.",
+        "eA6s0SHKm0+A8rlV+JQ4gw#Value": "Configurer le profil de sortie ?",
+        "qG1AIVmW3kew2FwCyxYUew#Value": "Passer"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "INDkvkIe4k2YS9jNZT4rPQ#Value": "Completa la configurazione per accedere ai piani di commissione personalizzati.",
+        "eA6s0SHKm0+A8rlV+JQ4gw#Value": "Configurare il profilo di uscita?",
+        "qG1AIVmW3kew2FwCyxYUew#Value": "Salta"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "INDkvkIe4k2YS9jNZT4rPQ#Value": "Ukończ konfigurację, aby uzyskać dostęp do niestandardowych planów prowizji.",
+        "eA6s0SHKm0+A8rlV+JQ4gw#Value": "Ustawienie profilu wyjścia?",
+        "qG1AIVmW3kew2FwCyxYUew#Value": "Pomiń"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "INDkvkIe4k2YS9jNZT4rPQ#Value": "Complete a configuração para aceder a planos de comissão personalizados.",
+        "eA6s0SHKm0+A8rlV+JQ4gw#Value": "Configurar perfil de saída?",
+        "qG1AIVmW3kew2FwCyxYUew#Value": "Saltar"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "INDkvkIe4k2YS9jNZT4rPQ#Value": "Завершите настройку, чтобы получить доступ к индивидуальным планам комиссий.",
+        "eA6s0SHKm0+A8rlV+JQ4gw#Value": "Настройка профиля выхода?",
+        "qG1AIVmW3kew2FwCyxYUew#Value": "Пропустить"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources", ["exports", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources.de-DE", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources.es-ES", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources.fr-FR", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources.it-IT", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources.pl-PL", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources.pt-PT", "PartnersHub.RealAccountCreationFlow.RealAccountCreation.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_translationsResources_deDE, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_translationsResources_esES, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_translationsResources_frFR, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_translationsResources_itIT, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_translationsResources_plPL, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_translationsResources_ptPT, PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_RealAccountCreationFlow_RealAccountCreation_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

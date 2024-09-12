@@ -1,4 +1,4 @@
-define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.model$ST_d2265ea20cfa443b1c068fbda918f468Structure", "PartnersHub.model$EN_8476f8009941f077eecf6fb67b7e9001EntityRecord", "PartnersHub.model$RL_f11f2783845d109e2716e7158d803ceb", "PartnersHub.model$ST_01d741f79542148df9ffe6146152c5f0Structure", "PartnersHub.controller$SendLandingCompany"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController) {
+define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "RESTAPIWebsocket.model$ST_55477c48be760e041c4dbfa365f63009Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "PartnersHub.model$EN_8476f8009941f077eecf6fb67b7e9001EntityRecord", "PartnersHub.model$RL_f11f2783845d109e2716e7158d803ceb", "RESTAPIWebsocket.model$ST_2aa6b158772e078b381113da0ab825f8Structure", "RESTAPIWebsocket.controller$LandingCompany", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "RESTAPIWebsocket.controller$GetSettings"], function(OSRuntimeCore, PartnersHubModel, RESTAPIWebsocketModel, RESTAPIWebsocketController) {
     var OS = OSRuntimeCore;
 
 
@@ -8,8 +8,8 @@ define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$model", ["@
             static attributesToDeclare() {
                 return [
                     this.attr("LandingCompany", "landingCompanyVar", "LandingCompany", true, false, OS.DataTypes.DataTypes.Record, function() {
-                        return OS.DataTypes.ImmutableBase.getData(new PartnersHubModel.ST_d2265ea20cfa443b1c068fbda918f468Structure());
-                    }, false, PartnersHubModel.ST_d2265ea20cfa443b1c068fbda918f468Structure),
+                        return OS.DataTypes.ImmutableBase.getData(new RESTAPIWebsocketModel.ST_55477c48be760e041c4dbfa365f63009Structure());
+                    }, false, RESTAPIWebsocketModel.ST_55477c48be760e041c4dbfa365f63009Structure),
                     this.attr("FilteredRecommendedCurrencies", "filteredRecommendedCurrenciesVar", "FilteredRecommendedCurrencies", true, false, OS.DataTypes.DataTypes.RecordList, function() {
                         return OS.DataTypes.ImmutableBase.getData(new PartnersHubModel.RL_f11f2783845d109e2716e7158d803ceb());
                     }, false, PartnersHubModel.RL_f11f2783845d109e2716e7158d803ceb),
@@ -53,7 +53,7 @@ define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$model", ["@
     return new OS.Model.ModelFactory(Model);
 });
 
-define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "react", "@outsystems/runtime-view-js", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$model", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller", "PartnersHub.clientVariables", "@outsystems/runtime-widgets-js", "PartnersHub.model$ST_d2265ea20cfa443b1c068fbda918f468Structure", "PartnersHub.model$EN_8476f8009941f077eecf6fb67b7e9001EntityRecord", "PartnersHub.model$RL_f11f2783845d109e2716e7158d803ceb", "PartnersHub.model$ST_01d741f79542148df9ffe6146152c5f0Structure", "PartnersHub.controller$SendLandingCompany"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, React, OSView, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_model, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_controller, PartnersHubClientVariables, OSWidgets) {
+define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "react", "@outsystems/runtime-view-js", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$model", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller", "PartnersHub.clientVariables", "@outsystems/runtime-widgets-js", "RESTAPIWebsocket.model$ST_55477c48be760e041c4dbfa365f63009Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "PartnersHub.model$EN_8476f8009941f077eecf6fb67b7e9001EntityRecord", "PartnersHub.model$RL_f11f2783845d109e2716e7158d803ceb", "RESTAPIWebsocket.model$ST_2aa6b158772e078b381113da0ab825f8Structure", "RESTAPIWebsocket.controller$LandingCompany", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "RESTAPIWebsocket.controller$GetSettings"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, React, OSView, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_model, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_controller, PartnersHubClientVariables, OSWidgets) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -130,347 +130,375 @@ define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$view", ["@o
                 extendedProperties: {
                     style: "font-size: 16px;"
                 },
-                text: ["Recommended"],
+                text: [$text(getTranslation("1BgQC1dOl0+suliu5QMy_A#Value", "Recommended"))],
                 _idProps: {
                     service: idService,
                     uuid: "1"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }), React.createElement(OSWidgets.List, {
-                animateItems: true,
-                gridProperties: {
-                    classes: "OSFillParent"
-                },
-                mode: /*Default*/ 0,
-                source: model.variables.filteredRecommendedCurrenciesVar,
-                style: "list list-group display-flex flex-direction-column gap-base",
-                tag: "div",
-                _idProps: {
-                    service: idService,
-                    name: "RecommendedList"
-                },
-                _widgetRecordProvider: widgetsRecordProvider,
-                placeholders: {
-                    content: new IteratorPlaceholderContent(function(idService, callContext) {
-                        return [React.createElement(OSWidgets.ListItem, {
-                            onClick: function() {
-                                return Promise.resolve().then(function() {
-                                    var eventHandlerContext = callContext.clone();
-                                    return controller.recommendedListItemOnClick$Action(controller.callContext(eventHandlerContext));
-                                });;
-                            },
-                            style: model.getCachedValue(idService.getId("RecommendedListItem.Style"), function() {
-                                return (((model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr === PartnersHubClientVariables.getSelectedCurrencyCode())) ? ("currency-list--selected") : ("currency-list"));
-                            }, function() {
-                                return model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr;
-                            }, function() {
-                                return PartnersHubClientVariables.getSelectedCurrencyCode();
-                            }),
-                            triggerActionOnFullSwipeLeft: true,
-                            triggerActionOnFullSwipeRight: true,
-                            _idProps: {
-                                service: idService,
-                                name: "RecommendedListItem"
-                            },
-                            _widgetRecordProvider: widgetsRecordProvider,
-                            placeholders: {
-                                leftActions: PlaceholderContent.Empty,
-                                content: new PlaceholderContent(function() {
-                                    return [React.createElement(OSWidgets.Container, {
-                                        align: /*Default*/ 0,
-                                        animate: false,
-                                        extendedProperties: {
-                                            style: "align-items: center; display: flex; justify-content: space-between;"
-                                        },
-                                        gridProperties: {
-                                            classes: "OSInline",
-                                            width: "100%"
-                                        },
-                                        visible: true,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "4"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }, React.createElement(OSWidgets.Container, {
-                                        align: /*Default*/ 0,
-                                        animate: false,
-                                        extendedProperties: {
-                                            style: "text-align: center;"
-                                        },
-                                        style: "display-flex align-items-center gap-s",
-                                        visible: true,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "5"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }, React.createElement(OSWidgets.Image, {
-                                        gridProperties: {
-                                            width: "24px"
-                                        },
-                                        type: /*External*/ 1,
-                                        url: model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).iconAttr,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "6"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }), React.createElement(OSWidgets.Label, {
-                                        extendedProperties: {
-                                            style: "color: #101213; font-weight: 500;"
-                                        },
-                                        gridProperties: {
-                                            classes: "OSFillParent",
-                                            marginLeft: "16px"
-                                        },
-                                        style: "display-flex ",
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "7"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }, React.createElement(OSWidgets.Expression, {
-                                        extendedProperties: {
-                                            style: "font-weight: 700;"
-                                        },
-                                        style: "display-flex align-items-center flex-direction-row",
-                                        value: model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).nameAttr,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "8"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }), React.createElement(OSWidgets.Expression, {
-                                        extendedProperties: {
-                                            style: "font-weight: 700;"
-                                        },
-                                        gridProperties: {
-                                            marginLeft: "2px"
-                                        },
-                                        value: (("(" + model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr) + ")"),
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "9"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }))), React.createElement(OSWidgets.Container, {
-                                        align: /*Default*/ 0,
-                                        animate: false,
-                                        extendedProperties: {
-                                            style: "align-items: center; display: flex;"
-                                        },
-                                        visible: true,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "10"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }, $if((PartnersHubClientVariables.getSelectedCurrencyCode() === model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr), false, this, function() {
-                                        return [React.createElement(OSWidgets.Image, {
-                                            image: OS.Navigation.VersionedURL.getVersionedUrl("img/PartnersHub.roundedblackcheckmark.png"),
-                                            type: /*Static*/ 0,
-                                            _idProps: {
-                                                service: idService,
-                                                uuid: "11"
-                                            },
-                                            _widgetRecordProvider: widgetsRecordProvider
-                                        })];
-                                    }, function() {
-                                        return [React.createElement(OSWidgets.Image, {
-                                            image: OS.Navigation.VersionedURL.getVersionedUrl("img/PartnersHub.rightIcon.png"),
-                                            type: /*Static*/ 0,
-                                            _idProps: {
-                                                service: idService,
-                                                uuid: "12"
-                                            },
-                                            _widgetRecordProvider: widgetsRecordProvider
-                                        })];
-                                    })))];
+            }), $if((model.variables.filteredRecommendedCurrenciesVar.length > 0), false, this, function() {
+                return [React.createElement(OSWidgets.List, {
+                    animateItems: true,
+                    gridProperties: {
+                        classes: "OSFillParent"
+                    },
+                    mode: /*Default*/ 0,
+                    source: model.variables.filteredRecommendedCurrenciesVar,
+                    style: "list list-group display-flex flex-direction-column gap-base",
+                    tag: "div",
+                    _idProps: {
+                        service: idService,
+                        name: "RecommendedList"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider,
+                    placeholders: {
+                        content: new IteratorPlaceholderContent(function(idService, callContext) {
+                            return [React.createElement(OSWidgets.ListItem, {
+                                onClick: function() {
+                                    return Promise.resolve().then(function() {
+                                        var eventHandlerContext = callContext.clone();
+                                        return controller.recommendedListItemOnClick$Action(controller.callContext(eventHandlerContext));
+                                    });;
+                                },
+                                style: model.getCachedValue(idService.getId("RecommendedListItem.Style"), function() {
+                                    return (((model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr === PartnersHubClientVariables.getSelectedCurrencyCode())) ? ("currency-list--selected") : ("currency-list"));
+                                }, function() {
+                                    return model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr;
+                                }, function() {
+                                    return PartnersHubClientVariables.getSelectedCurrencyCode();
                                 }),
-                                rightActions: PlaceholderContent.Empty
-                            },
-                            _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getSelectedCurrencyCode()), asPrimitiveValue(model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr), asPrimitiveValue(model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).nameAttr), asPrimitiveValue(model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).iconAttr)]
-                        })];
-                    }, callContext, idService, "1")
-                },
-                _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getSelectedCurrencyCode())]
+                                triggerActionOnFullSwipeLeft: true,
+                                triggerActionOnFullSwipeRight: true,
+                                _idProps: {
+                                    service: idService,
+                                    name: "RecommendedListItem"
+                                },
+                                _widgetRecordProvider: widgetsRecordProvider,
+                                placeholders: {
+                                    leftActions: PlaceholderContent.Empty,
+                                    content: new PlaceholderContent(function() {
+                                        return [React.createElement(OSWidgets.Container, {
+                                            align: /*Default*/ 0,
+                                            animate: false,
+                                            extendedProperties: {
+                                                style: "align-items: center; display: flex; justify-content: space-between;"
+                                            },
+                                            gridProperties: {
+                                                classes: "OSInline",
+                                                width: "100%"
+                                            },
+                                            visible: true,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "4"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }, React.createElement(OSWidgets.Container, {
+                                            align: /*Default*/ 0,
+                                            animate: false,
+                                            extendedProperties: {
+                                                style: "text-align: center;"
+                                            },
+                                            style: "display-flex align-items-center gap-s",
+                                            visible: true,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "5"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }, React.createElement(OSWidgets.Image, {
+                                            gridProperties: {
+                                                width: "24px"
+                                            },
+                                            type: /*External*/ 1,
+                                            url: model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).iconAttr,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "6"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }), React.createElement(OSWidgets.Label, {
+                                            extendedProperties: {
+                                                style: "color: #101213; font-weight: 500;"
+                                            },
+                                            gridProperties: {
+                                                classes: "OSFillParent",
+                                                marginLeft: "16px"
+                                            },
+                                            style: "display-flex ",
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "7"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }, React.createElement(OSWidgets.Expression, {
+                                            extendedProperties: {
+                                                style: "font-weight: 700;"
+                                            },
+                                            style: "display-flex align-items-center flex-direction-row",
+                                            value: model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).nameAttr,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "8"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }), React.createElement(OSWidgets.Expression, {
+                                            extendedProperties: {
+                                                style: "font-weight: 700;"
+                                            },
+                                            gridProperties: {
+                                                marginLeft: "2px"
+                                            },
+                                            value: (("(" + model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr) + ")"),
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "9"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }))), React.createElement(OSWidgets.Container, {
+                                            align: /*Default*/ 0,
+                                            animate: false,
+                                            extendedProperties: {
+                                                style: "align-items: center; display: flex;"
+                                            },
+                                            visible: true,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "10"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }, $if((PartnersHubClientVariables.getSelectedCurrencyCode() === model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr), false, this, function() {
+                                            return [React.createElement(OSWidgets.Image, {
+                                                image: OS.Navigation.VersionedURL.getVersionedUrl("img/PartnersHub.roundedblackcheckmark.png"),
+                                                type: /*Static*/ 0,
+                                                _idProps: {
+                                                    service: idService,
+                                                    uuid: "11"
+                                                },
+                                                _widgetRecordProvider: widgetsRecordProvider
+                                            })];
+                                        }, function() {
+                                            return [React.createElement(OSWidgets.Image, {
+                                                image: OS.Navigation.VersionedURL.getVersionedUrl("img/PartnersHub.rightIcon.png"),
+                                                type: /*Static*/ 0,
+                                                _idProps: {
+                                                    service: idService,
+                                                    uuid: "12"
+                                                },
+                                                _widgetRecordProvider: widgetsRecordProvider
+                                            })];
+                                        })))];
+                                    }),
+                                    rightActions: PlaceholderContent.Empty
+                                },
+                                _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getSelectedCurrencyCode()), asPrimitiveValue(model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr), asPrimitiveValue(model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).nameAttr), asPrimitiveValue(model.variables.filteredRecommendedCurrenciesVar.getCurrent(callContext.iterationContext).iconAttr)]
+                            })];
+                        }, callContext, idService, "1")
+                    },
+                    _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getSelectedCurrencyCode())]
+                })];
+            }, function() {
+                return [React.createElement(OSWidgets.Container, {
+                    align: /*Default*/ 0,
+                    animate: false,
+                    style: "skeleton-loader",
+                    visible: true,
+                    _idProps: {
+                        service: idService,
+                        uuid: "13"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                })];
             }), React.createElement(OSWidgets.Text, {
                 extendedProperties: {
                     style: "font-size: 16px;"
                 },
-                text: ["Other"],
+                text: [$text(getTranslation("NavmSfU2vEqhUhapuAdKNA#Value", "Other"))],
                 _idProps: {
                     service: idService,
-                    uuid: "13"
+                    uuid: "14"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }), React.createElement(OSWidgets.List, {
-                animateItems: true,
-                gridProperties: {
-                    classes: "OSFillParent"
-                },
-                mode: /*Default*/ 0,
-                source: model.variables.filteredOtherCurrenciesVar,
-                style: "list list-group display-flex flex-direction-column gap-base",
-                tag: "div",
-                _idProps: {
-                    service: idService,
-                    name: "OtherCurrencies"
-                },
-                _widgetRecordProvider: widgetsRecordProvider,
-                placeholders: {
-                    content: new IteratorPlaceholderContent(function(idService, callContext) {
-                        return [React.createElement(OSWidgets.ListItem, {
-                            onClick: function() {
-                                return Promise.resolve().then(function() {
-                                    var eventHandlerContext = callContext.clone();
-                                    return controller.otherCurrenciesItemOnClick$Action(controller.callContext(eventHandlerContext));
-                                });;
-                            },
-                            style: model.getCachedValue(idService.getId("OtherCurrenciesItem.Style"), function() {
-                                return (((model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr === PartnersHubClientVariables.getSelectedCurrencyCode())) ? ("currency-list--selected") : ("currency-list"));
-                            }, function() {
-                                return model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr;
-                            }, function() {
-                                return PartnersHubClientVariables.getSelectedCurrencyCode();
-                            }),
-                            triggerActionOnFullSwipeLeft: true,
-                            triggerActionOnFullSwipeRight: true,
-                            _idProps: {
-                                service: idService,
-                                name: "OtherCurrenciesItem"
-                            },
-                            _widgetRecordProvider: widgetsRecordProvider,
-                            placeholders: {
-                                leftActions: PlaceholderContent.Empty,
-                                content: new PlaceholderContent(function() {
-                                    return [React.createElement(OSWidgets.Container, {
-                                        align: /*Default*/ 0,
-                                        animate: false,
-                                        extendedProperties: {
-                                            style: "align-items: center; display: flex; justify-content: space-between;"
-                                        },
-                                        gridProperties: {
-                                            classes: "OSInline",
-                                            width: "100%"
-                                        },
-                                        visible: true,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "16"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }, React.createElement(OSWidgets.Container, {
-                                        align: /*Default*/ 0,
-                                        animate: false,
-                                        extendedProperties: {
-                                            style: "text-align: center;"
-                                        },
-                                        style: "display-flex align-items-center gap-s",
-                                        visible: true,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "17"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }, React.createElement(OSWidgets.Image, {
-                                        gridProperties: {
-                                            width: "32px"
-                                        },
-                                        type: /*External*/ 1,
-                                        url: model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).iconAttr,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "18"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }), React.createElement(OSWidgets.Label, {
-                                        extendedProperties: {
-                                            style: "color: #101213; font-weight: 500;"
-                                        },
-                                        gridProperties: {
-                                            classes: "OSFillParent",
-                                            marginLeft: "16px"
-                                        },
-                                        style: "display-flex",
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "19"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }, React.createElement(OSWidgets.Expression, {
-                                        extendedProperties: {
-                                            style: "font-weight: 700;"
-                                        },
-                                        style: "display-flex align-items-center flex-direction-row",
-                                        value: model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).nameAttr,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "20"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }), React.createElement(OSWidgets.Expression, {
-                                        extendedProperties: {
-                                            style: "font-weight: 700;"
-                                        },
-                                        gridProperties: {
-                                            marginLeft: "2px"
-                                        },
-                                        value: (("(" + model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr) + ")"),
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "21"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }))), React.createElement(OSWidgets.Container, {
-                                        align: /*Default*/ 0,
-                                        animate: false,
-                                        extendedProperties: {
-                                            style: "align-items: center; display: flex;"
-                                        },
-                                        visible: true,
-                                        _idProps: {
-                                            service: idService,
-                                            uuid: "22"
-                                        },
-                                        _widgetRecordProvider: widgetsRecordProvider
-                                    }, $if((PartnersHubClientVariables.getSelectedCurrencyCode() === model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr), false, this, function() {
-                                        return [React.createElement(OSWidgets.Image, {
-                                            image: OS.Navigation.VersionedURL.getVersionedUrl("img/PartnersHub.roundedblackcheckmark.png"),
-                                            type: /*Static*/ 0,
+            }), $if((model.variables.filteredRecommendedCurrenciesVar.length > 0), false, this, function() {
+                return [React.createElement(OSWidgets.List, {
+                    animateItems: true,
+                    gridProperties: {
+                        classes: "OSFillParent"
+                    },
+                    mode: /*Default*/ 0,
+                    source: model.variables.filteredOtherCurrenciesVar,
+                    style: "list list-group display-flex flex-direction-column gap-base",
+                    tag: "div",
+                    _idProps: {
+                        service: idService,
+                        name: "OtherCurrencies"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider,
+                    placeholders: {
+                        content: new IteratorPlaceholderContent(function(idService, callContext) {
+                            return [React.createElement(OSWidgets.ListItem, {
+                                onClick: function() {
+                                    return Promise.resolve().then(function() {
+                                        var eventHandlerContext = callContext.clone();
+                                        return controller.otherCurrenciesItemOnClick$Action(controller.callContext(eventHandlerContext));
+                                    });;
+                                },
+                                style: model.getCachedValue(idService.getId("OtherCurrenciesItem.Style"), function() {
+                                    return (((model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr === PartnersHubClientVariables.getSelectedCurrencyCode())) ? ("currency-list--selected") : ("currency-list"));
+                                }, function() {
+                                    return model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr;
+                                }, function() {
+                                    return PartnersHubClientVariables.getSelectedCurrencyCode();
+                                }),
+                                triggerActionOnFullSwipeLeft: true,
+                                triggerActionOnFullSwipeRight: true,
+                                _idProps: {
+                                    service: idService,
+                                    name: "OtherCurrenciesItem"
+                                },
+                                _widgetRecordProvider: widgetsRecordProvider,
+                                placeholders: {
+                                    leftActions: PlaceholderContent.Empty,
+                                    content: new PlaceholderContent(function() {
+                                        return [React.createElement(OSWidgets.Container, {
+                                            align: /*Default*/ 0,
+                                            animate: false,
+                                            extendedProperties: {
+                                                style: "align-items: center; display: flex; justify-content: space-between;"
+                                            },
+                                            gridProperties: {
+                                                classes: "OSInline",
+                                                width: "100%"
+                                            },
+                                            visible: true,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "17"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }, React.createElement(OSWidgets.Container, {
+                                            align: /*Default*/ 0,
+                                            animate: false,
+                                            extendedProperties: {
+                                                style: "text-align: center;"
+                                            },
+                                            style: "display-flex align-items-center gap-s",
+                                            visible: true,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "18"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }, React.createElement(OSWidgets.Image, {
+                                            gridProperties: {
+                                                width: "32px"
+                                            },
+                                            type: /*External*/ 1,
+                                            url: model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).iconAttr,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "19"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }), React.createElement(OSWidgets.Label, {
+                                            extendedProperties: {
+                                                style: "color: #101213; font-weight: 500;"
+                                            },
+                                            gridProperties: {
+                                                classes: "OSFillParent",
+                                                marginLeft: "16px"
+                                            },
+                                            style: "display-flex",
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "20"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }, React.createElement(OSWidgets.Expression, {
+                                            extendedProperties: {
+                                                style: "font-weight: 700;"
+                                            },
+                                            style: "display-flex align-items-center flex-direction-row",
+                                            value: model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).nameAttr,
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "21"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }), React.createElement(OSWidgets.Expression, {
+                                            extendedProperties: {
+                                                style: "font-weight: 700;"
+                                            },
+                                            gridProperties: {
+                                                marginLeft: "2px"
+                                            },
+                                            value: (("(" + model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr) + ")"),
+                                            _idProps: {
+                                                service: idService,
+                                                uuid: "22"
+                                            },
+                                            _widgetRecordProvider: widgetsRecordProvider
+                                        }))), React.createElement(OSWidgets.Container, {
+                                            align: /*Default*/ 0,
+                                            animate: false,
+                                            extendedProperties: {
+                                                style: "align-items: center; display: flex;"
+                                            },
+                                            visible: true,
                                             _idProps: {
                                                 service: idService,
                                                 uuid: "23"
                                             },
                                             _widgetRecordProvider: widgetsRecordProvider
-                                        })];
-                                    }, function() {
-                                        return [React.createElement(OSWidgets.Image, {
-                                            image: OS.Navigation.VersionedURL.getVersionedUrl("img/PartnersHub.rightIcon.png"),
-                                            type: /*Static*/ 0,
-                                            _idProps: {
-                                                service: idService,
-                                                uuid: "24"
-                                            },
-                                            _widgetRecordProvider: widgetsRecordProvider
-                                        })];
-                                    })))];
-                                }),
-                                rightActions: PlaceholderContent.Empty
-                            },
-                            _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getSelectedCurrencyCode()), asPrimitiveValue(model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr), asPrimitiveValue(model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).nameAttr), asPrimitiveValue(model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).iconAttr)]
-                        })];
-                    }, callContext, idService, "2")
-                },
-                _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getSelectedCurrencyCode())]
+                                        }, $if((PartnersHubClientVariables.getSelectedCurrencyCode() === model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr), false, this, function() {
+                                            return [React.createElement(OSWidgets.Image, {
+                                                image: OS.Navigation.VersionedURL.getVersionedUrl("img/PartnersHub.roundedblackcheckmark.png"),
+                                                type: /*Static*/ 0,
+                                                _idProps: {
+                                                    service: idService,
+                                                    uuid: "24"
+                                                },
+                                                _widgetRecordProvider: widgetsRecordProvider
+                                            })];
+                                        }, function() {
+                                            return [React.createElement(OSWidgets.Image, {
+                                                image: OS.Navigation.VersionedURL.getVersionedUrl("img/PartnersHub.rightIcon.png"),
+                                                type: /*Static*/ 0,
+                                                _idProps: {
+                                                    service: idService,
+                                                    uuid: "25"
+                                                },
+                                                _widgetRecordProvider: widgetsRecordProvider
+                                            })];
+                                        })))];
+                                    }),
+                                    rightActions: PlaceholderContent.Empty
+                                },
+                                _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getSelectedCurrencyCode()), asPrimitiveValue(model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).codeAttr), asPrimitiveValue(model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).nameAttr), asPrimitiveValue(model.variables.filteredOtherCurrenciesVar.getCurrent(callContext.iterationContext).iconAttr)]
+                            })];
+                        }, callContext, idService, "2")
+                    },
+                    _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getSelectedCurrencyCode())]
+                })];
+            }, function() {
+                return [React.createElement(OSWidgets.Container, {
+                    align: /*Default*/ 0,
+                    animate: false,
+                    style: "skeleton-loader",
+                    visible: true,
+                    _idProps: {
+                        service: idService,
+                        uuid: "26"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                })];
             })));
         }
     }
 
     return View;
 });
-define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller.FilterCurrenciesFunction.JavaScript1JS", "PartnersHub.model$ST_d2265ea20cfa443b1c068fbda918f468Structure", "PartnersHub.model$EN_8476f8009941f077eecf6fb67b7e9001EntityRecord", "PartnersHub.model$RL_f11f2783845d109e2716e7158d803ceb", "PartnersHub.model$ST_01d741f79542148df9ffe6146152c5f0Structure", "PartnersHub.controller$SendLandingCompany"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_TranslationsResources, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_controller_FilterCurrenciesFunction_JavaScript1JS) {
+define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller.FilterCurrenciesFunction.JavaScript1JS", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller.OnReady.GetTokenJS", "RESTAPIWebsocket.model$ST_55477c48be760e041c4dbfa365f63009Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "PartnersHub.model$EN_8476f8009941f077eecf6fb67b7e9001EntityRecord", "PartnersHub.model$RL_f11f2783845d109e2716e7158d803ceb", "RESTAPIWebsocket.model$ST_2aa6b158772e078b381113da0ab825f8Structure", "RESTAPIWebsocket.controller$LandingCompany", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "RESTAPIWebsocket.controller$GetSettings"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_TranslationsResources, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_controller_FilterCurrenciesFunction_JavaScript1JS, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_controller_OnReady_GetTokenJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -664,15 +692,15 @@ define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller"
                 this.__recommendedListItemOnClick$Action = value;
             }
 
-            get _onInitialize$Action() {
-                if (!(this.hasOwnProperty("__onInitialize$Action"))) {
-                    this.__onInitialize$Action = function(callContext) {
+            get _onReady$Action() {
+                if (!(this.hasOwnProperty("__onReady$Action"))) {
+                    this.__onReady$Action = function(callContext) {
                         var model = this.model;
                         var controller = this.controller;
                         var idService = this.idService;
-                        return OS.Logger.startActiveSpan("OnInitialize", function(span) {
+                        return OS.Logger.startActiveSpan("OnReady", function(span) {
                             if (span) {
-                                span.setAttribute("code.function", "OnInitialize");
+                                span.setAttribute("code.function", "OnReady");
                                 span.setAttribute("outsystems.function.key", "7e81f65d-ef77-4630-b85b-7726cde9245b");
                                 span.setAttribute("outsystems.function.owner.name", "PartnersHub");
                                 span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
@@ -680,21 +708,54 @@ define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller"
                             }
 
                             return OS.Flow.tryFinally(function() {
-                                controller.ensureControllerAlive("OnInitialize");
+                                controller.ensureControllerAlive("OnReady");
                                 callContext = controller.callContext(callContext);
-                                var sendLandingCompanyVar = new OS.DataTypes.VariableHolder();
+                                var landingCompany2Var = new OS.DataTypes.VariableHolder();
+                                var getSettingsVar = new OS.DataTypes.VariableHolder();
+                                var getTokenJSResult = new OS.DataTypes.VariableHolder();
                                 return OS.Flow.executeAsyncFlow(function() {
-                                    // Execute Action: SendLandingCompany
+                                    getTokenJSResult.value = OS.Logger.startActiveSpan("GetToken", function(span) {
+                                        if (span) {
+                                            span.setAttribute("code.function", "GetToken");
+                                            span.setAttribute("outsystems.function.key", "66b8d8ba-f40b-4f3b-ba28-aee20c7cc52b");
+                                            span.setAttribute("outsystems.function.owner.name", "PartnersHub");
+                                            span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
+                                            span.setAttribute("outsystems.function.type", "JAVASCRIPT");
+                                        }
+
+                                        try {
+                                            return controller.safeExecuteJSNode(PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_controller_OnReady_GetTokenJS, "GetToken", "OnReady", {
+                                                authToken: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text)
+                                            }, function($parameters) {
+                                                var jsNodeResult = new(controller.constructor.getVariableGroupType("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.OnReady$getTokenJSResult"))();
+                                                jsNodeResult.authTokenOut = OS.DataConversion.JSNodeParamConverter.from($parameters.authToken, OS.DataTypes.DataTypes.Text);
+                                                return jsNodeResult;
+                                            }, {}, {});
+                                        } finally {
+                                            if (span) {
+                                                span.end();
+                                            }
+
+                                        }
+
+                                    }, 1);
+                                    // Execute Action: GetSettings
                                     model.flush();
-                                    return PartnersHubController.default.sendLandingCompany$Action(function() {
-                                        var rec = new PartnersHubModel.ST_01d741f79542148df9ffe6146152c5f0Structure();
-                                        rec.landing_companyAttr = "id";
-                                        return rec;
-                                    }(), callContext).then(function(value) {
-                                        sendLandingCompanyVar.value = value;
+                                    return RESTAPIWebsocketController.default.getSettings$Action("green.derivws.com", getTokenJSResult.value.authTokenOut, "1", "en", callContext).then(function(value) {
+                                        getSettingsVar.value = value;
                                     }).then(function() {
-                                        // LandingCompany = SendLandingCompany.LandingCompanyResponse
-                                        model.variables.landingCompanyVar = sendLandingCompanyVar.value.landingCompanyResponseOut;
+                                        // Execute Action: LandingCompany2
+                                        model.flush();
+                                        return RESTAPIWebsocketController.default.landingCompany$Action(function() {
+                                            var rec = new RESTAPIWebsocketModel.ST_2aa6b158772e078b381113da0ab825f8Structure();
+                                            rec.landing_companyAttr = getSettingsVar.value.responseOut.get_settingsAttr.country_codeAttr;
+                                            return rec;
+                                        }(), "green.derivws.com", "1", "en", callContext).then(function(value) {
+                                            landingCompany2Var.value = value;
+                                        });
+                                    }).then(function() {
+                                        // LandingCompany = LandingCompany2.Response
+                                        model.variables.landingCompanyVar = landingCompany2Var.value.responseOut;
                                         // Execute Action: FilterCurrenciesFunction
                                         return controller._filterCurrenciesFunction$Action(callContext);
                                     });
@@ -709,10 +770,10 @@ define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller"
                     };
                 }
 
-                return this.__onInitialize$Action;
+                return this.__onReady$Action;
             }
-            set _onInitialize$Action(value) {
-                this.__onInitialize$Action = value;
+            set _onReady$Action(value) {
+                this.__onReady$Action = value;
             }
 
             get _otherCurrenciesItemOnClick$Action() {
@@ -802,11 +863,11 @@ define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller"
 
             }
 
-            onInitialize$Action(callContext) {
+            onReady$Action(callContext) {
                 var controller = this.controller;
-                return OS.Logger.startActiveSpan("OnInitialize__proxy", function(span) {
+                return OS.Logger.startActiveSpan("OnReady__proxy", function(span) {
                     if (span) {
-                        span.setAttribute("code.function", "OnInitialize");
+                        span.setAttribute("code.function", "OnReady");
                         span.setAttribute("outsystems.function.key", "7e81f65d-ef77-4630-b85b-7726cde9245b");
                         span.setAttribute("outsystems.function.owner.name", "PartnersHub");
                         span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
@@ -814,7 +875,7 @@ define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller"
                     }
 
                     return OS.Flow.tryFinally(function() {
-                        return controller.safeExecuteClientAction(controller._onInitialize$Action, callContext);
+                        return controller.safeExecuteClientAction(controller._onReady$Action, callContext);
                     }, function() {
                         if (span) {
                             span.end();
@@ -881,7 +942,7 @@ define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller"
                         var model = this.model;
                         var idService = this.idService;
 
-                        return controller.onInitialize$Action(callContext);
+                        return controller.onReady$Action(callContext);
 
                     };
                 }
@@ -977,6 +1038,15 @@ define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller"
                 return "";
             }
         }]);
+        Controller.registerVariableGroupType("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.OnReady$getTokenJSResult", [{
+            name: "authToken",
+            attrName: "authTokenOut",
+            mandatory: true,
+            dataType: OS.DataTypes.DataTypes.Text,
+            defaultValue: function() {
+                return "";
+            }
+        }]);
 
     }
     return new OS.Controller.ControllerFactory(Controller, PartnersHubLanguageResources);
@@ -1000,7 +1070,92 @@ define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller.
     };
 });
 
+define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller.OnReady.GetTokenJS", [], function() {
+    return function($parameters, $actions, $roles, $public) {
+        const token = localStorage.getItem("token");
+        $parameters.authToken = token;
+    };
+});
 
-define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+
+define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "NavmSfU2vEqhUhapuAdKNA#Value": "Andere",
+        "1BgQC1dOl0+suliu5QMy_A#Value": "Empfohlen"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "NavmSfU2vEqhUhapuAdKNA#Value": "Otro",
+        "1BgQC1dOl0+suliu5QMy_A#Value": "Recomendado"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "NavmSfU2vEqhUhapuAdKNA#Value": "Autre",
+        "1BgQC1dOl0+suliu5QMy_A#Value": "Recommandé"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "NavmSfU2vEqhUhapuAdKNA#Value": "Altro",
+        "1BgQC1dOl0+suliu5QMy_A#Value": "Raccomandato"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "NavmSfU2vEqhUhapuAdKNA#Value": "Inny",
+        "1BgQC1dOl0+suliu5QMy_A#Value": "Zalecane"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "NavmSfU2vEqhUhapuAdKNA#Value": "Outro",
+        "1BgQC1dOl0+suliu5QMy_A#Value": "Recomendado"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "NavmSfU2vEqhUhapuAdKNA#Value": "Другой",
+        "1BgQC1dOl0+suliu5QMy_A#Value": "Рекомендуется"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources", ["exports", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources.de-DE", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources.es-ES", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources.fr-FR", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources.it-IT", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources.pl-PL", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources.pt-PT", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_translationsResources_deDE, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_translationsResources_esES, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_translationsResources_frFR, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_translationsResources_itIT, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_translationsResources_plPL, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_translationsResources_ptPT, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

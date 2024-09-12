@@ -298,7 +298,7 @@ define("PartnersHub.ForgotPassword.ResetPassword.mvc$view", ["@outsystems/runtim
                                             extendedProperties: {
                                                 style: "color: #333; font-size: 24px; font-style: normal; font-weight: 700; line-height: normal;"
                                             },
-                                            text: ["Reset password"],
+                                            text: [$text(getTranslation("htx1DHChDEqSTMjCvpDibQ#Value", "Reset password"))],
                                             _idProps: {
                                                 service: idService,
                                                 uuid: "8"
@@ -875,6 +875,77 @@ define("PartnersHub.ForgotPassword.ResetPassword.mvc$controller", ["@outsystems/
 });
 
 
-define("PartnersHub.ForgotPassword.ResetPassword.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.ForgotPassword.ResetPassword.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "htx1DHChDEqSTMjCvpDibQ#Value": "Passwort zurücksetzen"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ResetPassword.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "htx1DHChDEqSTMjCvpDibQ#Value": "Restablecer contraseña"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ResetPassword.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "htx1DHChDEqSTMjCvpDibQ#Value": "Réinitialiser le mot de passe"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ResetPassword.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "htx1DHChDEqSTMjCvpDibQ#Value": "Reimposta password"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ResetPassword.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "htx1DHChDEqSTMjCvpDibQ#Value": "Zresetuj hasło"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ResetPassword.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "htx1DHChDEqSTMjCvpDibQ#Value": "Redefinir palavra-passe"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ResetPassword.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "htx1DHChDEqSTMjCvpDibQ#Value": "Сбросить пароль"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ResetPassword.mvc$translationsResources", ["exports", "PartnersHub.ForgotPassword.ResetPassword.mvc$translationsResources.de-DE", "PartnersHub.ForgotPassword.ResetPassword.mvc$translationsResources.es-ES", "PartnersHub.ForgotPassword.ResetPassword.mvc$translationsResources.fr-FR", "PartnersHub.ForgotPassword.ResetPassword.mvc$translationsResources.it-IT", "PartnersHub.ForgotPassword.ResetPassword.mvc$translationsResources.pl-PL", "PartnersHub.ForgotPassword.ResetPassword.mvc$translationsResources.pt-PT", "PartnersHub.ForgotPassword.ResetPassword.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_ForgotPassword_ResetPassword_mvc_translationsResources_deDE, PartnersHub_ForgotPassword_ResetPassword_mvc_translationsResources_esES, PartnersHub_ForgotPassword_ResetPassword_mvc_translationsResources_frFR, PartnersHub_ForgotPassword_ResetPassword_mvc_translationsResources_itIT, PartnersHub_ForgotPassword_ResetPassword_mvc_translationsResources_plPL, PartnersHub_ForgotPassword_ResetPassword_mvc_translationsResources_ptPT, PartnersHub_ForgotPassword_ResetPassword_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_ForgotPassword_ResetPassword_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_ForgotPassword_ResetPassword_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_ForgotPassword_ResetPassword_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_ForgotPassword_ResetPassword_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_ForgotPassword_ResetPassword_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_ForgotPassword_ResetPassword_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_ForgotPassword_ResetPassword_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

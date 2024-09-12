@@ -179,7 +179,7 @@ define("PartnersHub.Layouts.MobileHeaderDashboard.mvc$view", ["@outsystems/runti
                 _widgetRecordProvider: widgetsRecordProvider
             }, React.createElement(OSWidgets.AdvancedHtml, {
                 extendedProperties: {
-                    role: "banner",
+                    role: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("vMhseK6nKEqYjq2vpJiY3w#Value.-1396342996.1", "banner"),
                     className: "header"
                 },
                 tag: "header",
@@ -672,6 +672,77 @@ define("PartnersHub.Layouts.MobileHeaderDashboard.mvc$controller", ["@outsystems
 });
 
 
-define("PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "vMhseK6nKEqYjq2vpJiY3w#Value.-1396342996.1": "banner"
+    };
+});
+
+define("PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "vMhseK6nKEqYjq2vpJiY3w#Value.-1396342996.1": "banner"
+    };
+});
+
+define("PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "vMhseK6nKEqYjq2vpJiY3w#Value.-1396342996.1": "banner"
+    };
+});
+
+define("PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "vMhseK6nKEqYjq2vpJiY3w#Value.-1396342996.1": "banner"
+    };
+});
+
+define("PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "vMhseK6nKEqYjq2vpJiY3w#Value.-1396342996.1": "banner"
+    };
+});
+
+define("PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "vMhseK6nKEqYjq2vpJiY3w#Value.-1396342996.1": "banner"
+    };
+});
+
+define("PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "vMhseK6nKEqYjq2vpJiY3w#Value.-1396342996.1": "banner"
+    };
+});
+
+define("PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources", ["exports", "PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources.de-DE", "PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources.es-ES", "PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources.fr-FR", "PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources.it-IT", "PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources.pl-PL", "PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources.pt-PT", "PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Layouts_MobileHeaderDashboard_mvc_translationsResources_deDE, PartnersHub_Layouts_MobileHeaderDashboard_mvc_translationsResources_esES, PartnersHub_Layouts_MobileHeaderDashboard_mvc_translationsResources_frFR, PartnersHub_Layouts_MobileHeaderDashboard_mvc_translationsResources_itIT, PartnersHub_Layouts_MobileHeaderDashboard_mvc_translationsResources_plPL, PartnersHub_Layouts_MobileHeaderDashboard_mvc_translationsResources_ptPT, PartnersHub_Layouts_MobileHeaderDashboard_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Layouts_MobileHeaderDashboard_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Layouts_MobileHeaderDashboard_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Layouts_MobileHeaderDashboard_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Layouts_MobileHeaderDashboard_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Layouts_MobileHeaderDashboard_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Layouts_MobileHeaderDashboard_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Layouts_MobileHeaderDashboard_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });
