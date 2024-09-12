@@ -870,6 +870,8 @@ define("tradershub.Signup.CreatePassword.mvc$controller", ["@outsystems/runtime-
                                                 }, 1);
                                                 return OS.Flow.executeSequence(function() {
                                                     if ((getFlagFromGrowthbookJSResult.value.redirectToDerivAppOut)) {
+                                                        // InitializeRealSignup = False
+                                                        tradershubClientVariables.setInitializeRealSignup(false);
                                                         // Execute Action: PostSignupActions
                                                         model.flush();
                                                         return tradershubController.default.postSignupActions$Action(true, callContext).then(function(value) {
@@ -916,6 +918,8 @@ define("tradershub.Signup.CreatePassword.mvc$controller", ["@outsystems/runtime-
                                                                     }).then(function() {
                                                                         // RawLandingCompanyResponse = LandingCompanyAPI.Response
                                                                         tradershubClientVariables.setRawLandingCompanyResponse(landingCompanyAPIVar.value.responseOut);
+                                                                        // InitializeRealSignup = True
+                                                                        tradershubClientVariables.setInitializeRealSignup(true);
                                                                         // Destination: /tradershub/CurrencySelection
                                                                         return OS.Flow.returnAsync(OS.Navigation.navigateTo(OS.Navigation.generateScreenURL("tradershub", "currency-selection", {}), OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default), callContext, true));
                                                                     });
@@ -1375,5 +1379,6 @@ define("tradershub.Signup.CreatePassword.mvc$controller.CreateVirtualAccount.Get
         if (window.Analytics) {
             $parameters.RedirectToDerivApp = Analytics.Analytics?.getFeatureValue("trigger_real_account_creation_highcode") ?? false
         }
+
     };
 });

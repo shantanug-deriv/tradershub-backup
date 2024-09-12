@@ -145,7 +145,7 @@ define("PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.m
                 extendedProperties: {
                     style: "font-weight: bold;"
                 },
-                text: ["Confirm it\'s you"],
+                text: [$text(getTranslation("B3lrFIwzEE6kXtLKNxbdzQ#Value", "Confirm it\'s you"))],
                 _idProps: {
                     service: idService,
                     uuid: "1"
@@ -169,7 +169,7 @@ define("PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.m
                     uuid: "3"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "We\'ve sent a verification code to ", React.createElement(OSWidgets.Expression, {
+            }, $text(getTranslation("Q5xGGMg4_Umu6dd_rTYEew#Value", "We\'ve sent a verification code to ")), React.createElement(OSWidgets.Expression, {
                 extendedProperties: {
                     style: "font-weight: bold;"
                 },
@@ -187,7 +187,7 @@ define("PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.m
                 extendedProperties: {
                     style: "margin-left: 0px;"
                 },
-                text: [". Enter the code or click the link in the email to verify that the account belongs to you."],
+                text: [$text(getTranslation("v5+MWDj2dkSNxfDF9HQMGA#Value", ". Enter the code or click the link in the email to verify that the account belongs to you."))],
                 _idProps: {
                     service: idService,
                     uuid: "5"
@@ -742,6 +742,91 @@ define("PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.m
 });
 
 
-define("PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "v5+MWDj2dkSNxfDF9HQMGA#Value": "Geben Sie den Code ein oder klicken Sie auf den Link in der E-Mail, um zu bestätigen, dass das Konto Ihnen gehört.",
+        "Q5xGGMg4_Umu6dd_rTYEew#Value": "Wir haben einen Bestätigungscode gesendet an",
+        "B3lrFIwzEE6kXtLKNxbdzQ#Value": "Bestätigen Sie, dass Sie es sind"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "v5+MWDj2dkSNxfDF9HQMGA#Value": "Ingrese el código o haga clic en el enlace del correo electrónico para verificar que la cuenta le pertenece.",
+        "Q5xGGMg4_Umu6dd_rTYEew#Value": "Hemos enviado un código de verificación a",
+        "B3lrFIwzEE6kXtLKNxbdzQ#Value": "Confirma que eres tú"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "v5+MWDj2dkSNxfDF9HQMGA#Value": "Entrez le code ou cliquez sur le lien dans l\'e-mail pour vérifier que le compte vous appartient.",
+        "Q5xGGMg4_Umu6dd_rTYEew#Value": "Nous avons envoyé un code de vérification à",
+        "B3lrFIwzEE6kXtLKNxbdzQ#Value": "Confirmez que c\'est vous"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "v5+MWDj2dkSNxfDF9HQMGA#Value": "Inserisci il codice o fai clic sul link nell\'email per verificare che l\'account appartenga a te.",
+        "Q5xGGMg4_Umu6dd_rTYEew#Value": "Abbiamo inviato un codice di verifica a",
+        "B3lrFIwzEE6kXtLKNxbdzQ#Value": "Conferma che sei tu"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "v5+MWDj2dkSNxfDF9HQMGA#Value": "Wprowadź kod lub kliknij link w e-mailu, aby potwierdzić, że konto należy do Ciebie.",
+        "Q5xGGMg4_Umu6dd_rTYEew#Value": "Wysłaliśmy kod weryfikacyjny na",
+        "B3lrFIwzEE6kXtLKNxbdzQ#Value": "Potwierdź, że to ty"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "v5+MWDj2dkSNxfDF9HQMGA#Value": "Insira o código ou clique no link no e-mail para verificar que a conta pertence a você.",
+        "Q5xGGMg4_Umu6dd_rTYEew#Value": "Enviámos um código de verificação para",
+        "B3lrFIwzEE6kXtLKNxbdzQ#Value": "Confirme que é você"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "v5+MWDj2dkSNxfDF9HQMGA#Value": "Введите код или нажмите на ссылку в электронной почте, чтобы подтвердить, что аккаунт принадлежит вам.",
+        "Q5xGGMg4_Umu6dd_rTYEew#Value": "Мы отправили код подтверждения на",
+        "B3lrFIwzEE6kXtLKNxbdzQ#Value": "Подтвердите, что это вы"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources", ["exports", "PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources.de-DE", "PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources.es-ES", "PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources.fr-FR", "PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources.it-IT", "PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources.pl-PL", "PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources.pt-PT", "PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_translationsResources_deDE, PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_translationsResources_esES, PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_translationsResources_frFR, PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_translationsResources_itIT, PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_translationsResources_plPL, PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_translationsResources_ptPT, PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

@@ -595,7 +595,7 @@ define("tradershub.RealAccountCreation.PersonalDetails.mvc$view", ["@outsystems/
 
     return View;
 });
-define("tradershub.RealAccountCreation.PersonalDetails.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreation.controller", "tradershub.RealAccountCreation.PersonalDetails.mvc$controller.IconOnClick.OpenDatePickerJS", "tradershub.RealAccountCreation.PersonalDetails.mvc$controller.OnReady.RudderStackJS", "tradershub.RealAccountCreation.PersonalDetails.mvc$controller.OnReady.InitializeFlatpickrJS", "tradershub.RealAccountCreation.PersonalDetails.mvc$controller.SaveOnClick.RudderStackJS", "tradershub.RealAccountCreation.PersonalDetails.mvc$controller.SaveOnClick.ValidateJS", "tradershub.model$ST_3a6e5c84ccd1db0dd256408ff639cec5Structure", "tradershub.model$ST_89997516e5fa7eccf341304acb63651bStructure"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationController, tradershub_RealAccountCreation_PersonalDetails_mvc_controller_IconOnClick_OpenDatePickerJS, tradershub_RealAccountCreation_PersonalDetails_mvc_controller_OnReady_RudderStackJS, tradershub_RealAccountCreation_PersonalDetails_mvc_controller_OnReady_InitializeFlatpickrJS, tradershub_RealAccountCreation_PersonalDetails_mvc_controller_SaveOnClick_RudderStackJS, tradershub_RealAccountCreation_PersonalDetails_mvc_controller_SaveOnClick_ValidateJS) {
+define("tradershub.RealAccountCreation.PersonalDetails.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreation.controller", "tradershub.RealAccountCreation.PersonalDetails.mvc$controller.IconOnClick.OpenDatePickerJS", "tradershub.RealAccountCreation.PersonalDetails.mvc$controller.OnReady.InitializeFlatpickrJS", "tradershub.RealAccountCreation.PersonalDetails.mvc$controller.SaveOnClick.RudderStackJS", "tradershub.RealAccountCreation.PersonalDetails.mvc$controller.SaveOnClick.ValidateJS", "tradershub.model$ST_3a6e5c84ccd1db0dd256408ff639cec5Structure", "tradershub.model$ST_89997516e5fa7eccf341304acb63651bStructure"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationController, tradershub_RealAccountCreation_PersonalDetails_mvc_controller_IconOnClick_OpenDatePickerJS, tradershub_RealAccountCreation_PersonalDetails_mvc_controller_OnReady_InitializeFlatpickrJS, tradershub_RealAccountCreation_PersonalDetails_mvc_controller_SaveOnClick_RudderStackJS, tradershub_RealAccountCreation_PersonalDetails_mvc_controller_SaveOnClick_ValidateJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -805,25 +805,6 @@ define("tradershub.RealAccountCreation.PersonalDetails.mvc$controller", ["@outsy
                                     }
 
                                 }, 1);
-                                OS.Logger.startActiveSpan("RudderStack", function(span) {
-                                    if (span) {
-                                        span.setAttribute("code.function", "RudderStack");
-                                        span.setAttribute("outsystems.function.key", "6699fb58-6d1d-49b2-b2d1-43ac536ff43b");
-                                        span.setAttribute("outsystems.function.owner.name", "tradershub");
-                                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
-                                        span.setAttribute("outsystems.function.type", "JAVASCRIPT");
-                                    }
-
-                                    try {
-                                        return controller.safeExecuteJSNode(tradershub_RealAccountCreation_PersonalDetails_mvc_controller_OnReady_RudderStackJS, "RudderStack", "OnReady", null, function($parameters) {}, {}, {});
-                                    } finally {
-                                        if (span) {
-                                            span.end();
-                                        }
-
-                                    }
-
-                                }, 1);
                             } finally {
                                 if (span) {
                                     span.end();
@@ -862,25 +843,6 @@ define("tradershub.RealAccountCreation.PersonalDetails.mvc$controller", ["@outsy
                                 var validateJSResult = new OS.DataTypes.VariableHolder();
                                 var jSONDeserializePersonalDetailsValidFieldsVar = new OS.DataTypes.VariableHolder(new(OS.Controller.BaseController.getJSONDeserializeOutputType(tradershubModel.ST_3a6e5c84ccd1db0dd256408ff639cec5Structure))());
                                 var jSONDeserializePersonalDetailsValidationErrorVar = new OS.DataTypes.VariableHolder(new(OS.Controller.BaseController.getJSONDeserializeOutputType(tradershubModel.ST_89997516e5fa7eccf341304acb63651bStructure))());
-                                OS.Logger.startActiveSpan("RudderStack", function(span) {
-                                    if (span) {
-                                        span.setAttribute("code.function", "RudderStack");
-                                        span.setAttribute("outsystems.function.key", "532db969-8e06-4e6a-b559-11bf23ccad06");
-                                        span.setAttribute("outsystems.function.owner.name", "tradershub");
-                                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
-                                        span.setAttribute("outsystems.function.type", "JAVASCRIPT");
-                                    }
-
-                                    try {
-                                        return controller.safeExecuteJSNode(tradershub_RealAccountCreation_PersonalDetails_mvc_controller_SaveOnClick_RudderStackJS, "RudderStack", "SaveOnClick", null, function($parameters) {}, {}, {});
-                                    } finally {
-                                        if (span) {
-                                            span.end();
-                                        }
-
-                                    }
-
-                                }, 1);
                                 validateJSResult.value = OS.Logger.startActiveSpan("Validate", function(span) {
                                     if (span) {
                                         span.setAttribute("code.function", "Validate");
@@ -932,6 +894,25 @@ define("tradershub.RealAccountCreation.PersonalDetails.mvc$controller", ["@outsy
                                 // Input_FirstName.ValidationMessage = JSONDeserializePersonalDetailsValidationError.Data.FirstName
                                 model.widgets.get(idService.getId("Input_FirstName")).validationMessageAttr = jSONDeserializePersonalDetailsValidationErrorVar.value.dataOut.firstNameAttr;
                                 if ((model.widgets.get(idService.getId("DesktopForm")).validAttr)) {
+                                    OS.Logger.startActiveSpan("RudderStack", function(span) {
+                                        if (span) {
+                                            span.setAttribute("code.function", "RudderStack");
+                                            span.setAttribute("outsystems.function.key", "532db969-8e06-4e6a-b559-11bf23ccad06");
+                                            span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                            span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                            span.setAttribute("outsystems.function.type", "JAVASCRIPT");
+                                        }
+
+                                        try {
+                                            return controller.safeExecuteJSNode(tradershub_RealAccountCreation_PersonalDetails_mvc_controller_SaveOnClick_RudderStackJS, "RudderStack", "SaveOnClick", null, function($parameters) {}, {}, {});
+                                        } finally {
+                                            if (span) {
+                                                span.end();
+                                            }
+
+                                        }
+
+                                    }, 1);
                                     // RealSignupCurrentStep = 3
                                     tradershubClientVariables.setRealSignupCurrentStep(3);
                                     if ((tradershubClientVariables.getRealSignupIsIDVSupported())) {
@@ -1217,17 +1198,6 @@ define("tradershub.RealAccountCreation.PersonalDetails.mvc$controller.IconOnClic
     };
 });
 
-define("tradershub.RealAccountCreation.PersonalDetails.mvc$controller.OnReady.RudderStackJS", [], function() {
-    return function($actions, $roles, $public) {
-        setTimeout(() => {
-            Analytics.Analytics.trackEvent({
-                action: "real_account_personal_details_open",
-            })
-        }, 100);
-
-    };
-});
-
 define("tradershub.RealAccountCreation.PersonalDetails.mvc$controller.OnReady.InitializeFlatpickrJS", [], function() {
     return function($parameters, $actions, $roles, $public) {
         // Create a new Date object for the current date
@@ -1273,9 +1243,13 @@ define("tradershub.RealAccountCreation.PersonalDetails.mvc$controller.OnReady.In
 
 define("tradershub.RealAccountCreation.PersonalDetails.mvc$controller.SaveOnClick.RudderStackJS", [], function() {
     return function($actions, $roles, $public) {
-        Analytics.Analytics.trackEvent({
-            action: "signup_modal_next_button_os",
-        })
+        Analytics.Analytics.trackEvent("ce_real_account_signup_form", {
+            action: "step_passed",
+            step_num: 1,
+            step_codename: "personal_details",
+            form_name: "real_account_signup_form_outsystems"
+        });
+
     };
 });
 

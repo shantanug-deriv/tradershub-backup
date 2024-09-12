@@ -176,7 +176,7 @@ define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$view", ["@outsys
                 extendedProperties: {
                     style: "font-size: 14px;"
                 },
-                text: ["By pressing \"Create account\", I confirm the following:"],
+                text: [$text(getTranslation("rFYmz96HiEWPg06uCEFWdg#Value", "By pressing \"Create account\", I confirm the following:"))],
                 _idProps: {
                     service: idService,
                     uuid: "2"
@@ -205,7 +205,7 @@ define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$view", ["@outsys
 
                     ;
                 },
-                style: "checkbox",
+                style: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("62JmoyN1XUyGJW2Q5yP16A#ValueExpression.1536891843.1", "checkbox"),
                 variable: model.createVariable(OS.DataTypes.DataTypes.Boolean, model.variables.pEPCheckboxVar, function(value) {
                     model.variables.pEPCheckboxVar = value;
                 }),
@@ -218,7 +218,7 @@ define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$view", ["@outsys
                 extendedProperties: {
                     style: "font-size: 14px; margin-left: 10px;"
                 },
-                text: ["I am not a politically exposed person (PEP)."],
+                text: [$text(getTranslation("RLfb3cSw8UaqOgw46uRbbw#Value", "I am not a politically exposed person (PEP)."))],
                 _idProps: {
                     service: idService,
                     uuid: "5"
@@ -250,7 +250,7 @@ define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$view", ["@outsys
 
                     ;
                 },
-                style: "checkbox",
+                style: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("L_E_eCEGQ02yC3sQ3ic8fw#ValueExpression.1536891843.1", "checkbox"),
                 variable: model.createVariable(OS.DataTypes.DataTypes.Boolean, model.variables.termsandConditionsVar, function(value) {
                     model.variables.termsandConditionsVar = value;
                 }),
@@ -284,7 +284,7 @@ define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$view", ["@outsys
                 extendedProperties: {
                     style: "font-size: 14px;"
                 },
-                text: ["I have read and accepted"],
+                text: [$text(getTranslation("xhbd6R06F069qBPrmfmluQ#Value", "I have read and accepted"))],
                 _idProps: {
                     service: idService,
                     uuid: "10"
@@ -308,7 +308,7 @@ define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$view", ["@outsys
                     uuid: "11"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Deriv’s terms and conditions for clients."))), React.createElement(OSWidgets.Container, {
+            }, $text(getTranslation("4BRK3oZyVUi+KPRCJ4PBGQ#Value", "Deriv’s terms and conditions for clients."))))), React.createElement(OSWidgets.Container, {
                 align: /*Default*/ 0,
                 animate: false,
                 extendedProperties: {
@@ -334,7 +334,7 @@ define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$view", ["@outsys
 
                     ;
                 },
-                style: "checkbox",
+                style: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("bp7I03uLbUKPk9A9vbkt3w#ValueExpression.1536891843.1", "checkbox"),
                 variable: model.createVariable(OS.DataTypes.DataTypes.Boolean, model.variables.affiliateTermandConditionsVar, function(value) {
                     model.variables.affiliateTermandConditionsVar = value;
                 }),
@@ -368,7 +368,7 @@ define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$view", ["@outsys
                 extendedProperties: {
                     style: "font-size: 14px;"
                 },
-                text: ["I have read and accepted"],
+                text: [$text(getTranslation("YZOevNXwRkiD5NJ9YA7JtQ#Value", "I have read and accepted"))],
                 _idProps: {
                     service: idService,
                     uuid: "16"
@@ -392,7 +392,7 @@ define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$view", ["@outsys
                     uuid: "17"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Deriv\'s General terms for business partners"), " and ", React.createElement(OSWidgets.Link, {
+            }, $text(getTranslation("kHOr63YB0EeIo+eENGyzQQ#Value", "Deriv\'s General terms for business partners"))), $text(getTranslation("tv_vYBYcz0+UfN5UFzWZkA#Value", " and ")), React.createElement(OSWidgets.Link, {
                 enabled: true,
                 extendedProperties: {
                     target: "_blank",
@@ -407,7 +407,7 @@ define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$view", ["@outsys
                     uuid: "18"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Affiliates and introducing brokers’ terms and conditions."))), React.createElement(OSWidgets.Container, {
+            }, $text(getTranslation("u1wyVqIdrUu2AoUzziFrog#Value", "Affiliates and introducing brokers’ terms and conditions."))))), React.createElement(OSWidgets.Container, {
                 align: /*Default*/ 0,
                 animate: false,
                 extendedProperties: {
@@ -433,7 +433,7 @@ define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$view", ["@outsys
 
                     ;
                 },
-                style: "checkbox",
+                style: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("Ia3uxqD610aro3H83QhpRg#ValueExpression.1536891843.1", "checkbox"),
                 variable: model.createVariable(OS.DataTypes.DataTypes.Boolean, model.variables.consentPromotionalVar, function(value) {
                     model.variables.consentPromotionalVar = value;
                 }),
@@ -446,7 +446,7 @@ define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$view", ["@outsys
                 extendedProperties: {
                     style: "font-size: 14px; margin-left: 10px;"
                 },
-                text: ["I consent to receive promotional materials and notifications regarding Deriv partnership programme."],
+                text: [$text(getTranslation("LUFf5NOc9k+rogAz0AOq2g#Value", "I consent to receive promotional materials and notifications regarding Deriv partnership programme."))],
                 _idProps: {
                     service: idService,
                     uuid: "21"
@@ -776,6 +776,161 @@ define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$controller", ["@
 });
 
 
-define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "LUFf5NOc9k+rogAz0AOq2g#Value": "Ich stimme zu, Werbematerialien und Benachrichtigungen über das Deriv-Partnerschaftsprogramm zu erhalten.",
+        "Ia3uxqD610aro3H83QhpRg#ValueExpression.1536891843.1": "checkbox",
+        "u1wyVqIdrUu2AoUzziFrog#Value": "Bedingungen und Konditionen für Affiliates und Introducing Brokers.",
+        "tv_vYBYcz0+UfN5UFzWZkA#Value": "und",
+        "kHOr63YB0EeIo+eENGyzQQ#Value": "Derivs Allgemeine Geschäftsbedingungen für Geschäftspartner",
+        "YZOevNXwRkiD5NJ9YA7JtQ#Value": "Ich habe gelesen und akzeptiert",
+        "bp7I03uLbUKPk9A9vbkt3w#ValueExpression.1536891843.1": "checkbox",
+        "4BRK3oZyVUi+KPRCJ4PBGQ#Value": "Derivs Geschäftsbedingungen für Kunden.",
+        "xhbd6R06F069qBPrmfmluQ#Value": "Ich habe gelesen und akzeptiert",
+        "L_E_eCEGQ02yC3sQ3ic8fw#ValueExpression.1536891843.1": "checkbox",
+        "RLfb3cSw8UaqOgw46uRbbw#Value": "Ich bin keine politisch exponierte Person (PEP).",
+        "62JmoyN1XUyGJW2Q5yP16A#ValueExpression.1536891843.1": "checkbox",
+        "rFYmz96HiEWPg06uCEFWdg#Value": "Durch Drücken von \"Konto erstellen\" bestätige ich Folgendes:"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "LUFf5NOc9k+rogAz0AOq2g#Value": "Consiento en recibir materiales promocionales y notificaciones sobre el programa de asociación de Deriv.",
+        "Ia3uxqD610aro3H83QhpRg#ValueExpression.1536891843.1": "checkbox",
+        "u1wyVqIdrUu2AoUzziFrog#Value": "Términos y condiciones para afiliados y corredores introductores.",
+        "tv_vYBYcz0+UfN5UFzWZkA#Value": "y",
+        "kHOr63YB0EeIo+eENGyzQQ#Value": "Términos generales de Deriv para socios comerciales",
+        "YZOevNXwRkiD5NJ9YA7JtQ#Value": "He leído y aceptado",
+        "bp7I03uLbUKPk9A9vbkt3w#ValueExpression.1536891843.1": "checkbox",
+        "4BRK3oZyVUi+KPRCJ4PBGQ#Value": "Términos y condiciones de Deriv para clientes.",
+        "xhbd6R06F069qBPrmfmluQ#Value": "He leído y aceptado",
+        "L_E_eCEGQ02yC3sQ3ic8fw#ValueExpression.1536891843.1": "checkbox",
+        "RLfb3cSw8UaqOgw46uRbbw#Value": "No soy una persona políticamente expuesta (PEP).",
+        "62JmoyN1XUyGJW2Q5yP16A#ValueExpression.1536891843.1": "checkbox",
+        "rFYmz96HiEWPg06uCEFWdg#Value": "Al presionar \"Crear cuenta\", confirmo lo siguiente:"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "LUFf5NOc9k+rogAz0AOq2g#Value": "Je consens à recevoir des supports promotionnels et des notifications concernant le programme de partenariat Deriv.",
+        "Ia3uxqD610aro3H83QhpRg#ValueExpression.1536891843.1": "checkbox",
+        "u1wyVqIdrUu2AoUzziFrog#Value": "Conditions générales pour les affiliés et les courtiers introducteurs.",
+        "tv_vYBYcz0+UfN5UFzWZkA#Value": "et",
+        "kHOr63YB0EeIo+eENGyzQQ#Value": "Conditions générales de Deriv pour les partenaires commerciaux",
+        "YZOevNXwRkiD5NJ9YA7JtQ#Value": "J\'ai lu et accepté",
+        "bp7I03uLbUKPk9A9vbkt3w#ValueExpression.1536891843.1": "checkbox",
+        "4BRK3oZyVUi+KPRCJ4PBGQ#Value": "Conditions générales de Deriv pour les clients.",
+        "xhbd6R06F069qBPrmfmluQ#Value": "J\'ai lu et accepté",
+        "L_E_eCEGQ02yC3sQ3ic8fw#ValueExpression.1536891843.1": "checkbox",
+        "RLfb3cSw8UaqOgw46uRbbw#Value": "Je ne suis pas une personne politiquement exposée (PEP).",
+        "62JmoyN1XUyGJW2Q5yP16A#ValueExpression.1536891843.1": "checkbox",
+        "rFYmz96HiEWPg06uCEFWdg#Value": "En appuyant sur \"Créer un compte\", je confirme ce qui suit :"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "LUFf5NOc9k+rogAz0AOq2g#Value": "Acconsento a ricevere materiali promozionali e notifiche riguardanti il programma di partnership Deriv.",
+        "Ia3uxqD610aro3H83QhpRg#ValueExpression.1536891843.1": "checkbox",
+        "u1wyVqIdrUu2AoUzziFrog#Value": "Termini e condizioni per affiliati e broker introduttori.",
+        "tv_vYBYcz0+UfN5UFzWZkA#Value": "e",
+        "kHOr63YB0EeIo+eENGyzQQ#Value": "Termini generali di Deriv per partner commerciali",
+        "YZOevNXwRkiD5NJ9YA7JtQ#Value": "Ho letto e accettato",
+        "bp7I03uLbUKPk9A9vbkt3w#ValueExpression.1536891843.1": "checkbox",
+        "4BRK3oZyVUi+KPRCJ4PBGQ#Value": "Termini e condizioni di Deriv per i clienti.",
+        "xhbd6R06F069qBPrmfmluQ#Value": "Ho letto e accettato",
+        "L_E_eCEGQ02yC3sQ3ic8fw#ValueExpression.1536891843.1": "checkbox",
+        "RLfb3cSw8UaqOgw46uRbbw#Value": "Non sono una persona politicamente esposta (PEP).",
+        "62JmoyN1XUyGJW2Q5yP16A#ValueExpression.1536891843.1": "checkbox",
+        "rFYmz96HiEWPg06uCEFWdg#Value": "Premendo \"Crea account\", confermo quanto segue:"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "LUFf5NOc9k+rogAz0AOq2g#Value": "Wyrażam zgodę na otrzymywanie materiałów promocyjnych i powiadomień dotyczących programu partnerskiego Deriv.",
+        "Ia3uxqD610aro3H83QhpRg#ValueExpression.1536891843.1": "checkbox",
+        "u1wyVqIdrUu2AoUzziFrog#Value": "Warunki i zasady dla partnerów i brokerów wprowadzających.",
+        "tv_vYBYcz0+UfN5UFzWZkA#Value": "i",
+        "kHOr63YB0EeIo+eENGyzQQ#Value": "Ogólne warunki Deriv dla partnerów biznesowych",
+        "YZOevNXwRkiD5NJ9YA7JtQ#Value": "Przeczytałem i zaakceptowałem",
+        "bp7I03uLbUKPk9A9vbkt3w#ValueExpression.1536891843.1": "checkbox",
+        "4BRK3oZyVUi+KPRCJ4PBGQ#Value": "Warunki i zasady Deriv dla klientów.",
+        "xhbd6R06F069qBPrmfmluQ#Value": "Przeczytałem i zaakceptowałem",
+        "L_E_eCEGQ02yC3sQ3ic8fw#ValueExpression.1536891843.1": "checkbox",
+        "RLfb3cSw8UaqOgw46uRbbw#Value": "Nie jestem osobą politcznie eksponowaną (PEP).",
+        "62JmoyN1XUyGJW2Q5yP16A#ValueExpression.1536891843.1": "checkbox",
+        "rFYmz96HiEWPg06uCEFWdg#Value": "Naciskając „Utwórz konto”, potwierdzam, że:"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "LUFf5NOc9k+rogAz0AOq2g#Value": "Concordo em receber materiais promocionais e notificações sobre o programa de parceria Deriv.",
+        "Ia3uxqD610aro3H83QhpRg#ValueExpression.1536891843.1": "checkbox",
+        "u1wyVqIdrUu2AoUzziFrog#Value": "Termos e condições para afiliados e corretores introduzidos.",
+        "tv_vYBYcz0+UfN5UFzWZkA#Value": "e",
+        "kHOr63YB0EeIo+eENGyzQQ#Value": "Termos gerais da Deriv para parceiros comerciais",
+        "YZOevNXwRkiD5NJ9YA7JtQ#Value": "Li e aceitei",
+        "bp7I03uLbUKPk9A9vbkt3w#ValueExpression.1536891843.1": "checkbox",
+        "4BRK3oZyVUi+KPRCJ4PBGQ#Value": "Termos e condições da Deriv para clientes.",
+        "xhbd6R06F069qBPrmfmluQ#Value": "Li e aceitei",
+        "L_E_eCEGQ02yC3sQ3ic8fw#ValueExpression.1536891843.1": "checkbox",
+        "RLfb3cSw8UaqOgw46uRbbw#Value": "Não sou uma pessoa politicamente exposta (PEP).",
+        "62JmoyN1XUyGJW2Q5yP16A#ValueExpression.1536891843.1": "checkbox",
+        "rFYmz96HiEWPg06uCEFWdg#Value": "Ao pressionar \"Criar conta\", confirmo o seguinte:"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "LUFf5NOc9k+rogAz0AOq2g#Value": "Я даю согласие на получение рекламных материалов и уведомлений о программе партнерства Deriv.",
+        "Ia3uxqD610aro3H83QhpRg#ValueExpression.1536891843.1": "checkbox",
+        "u1wyVqIdrUu2AoUzziFrog#Value": "Условия для партнеров и вводящих брокеров.",
+        "tv_vYBYcz0+UfN5UFzWZkA#Value": "и",
+        "kHOr63YB0EeIo+eENGyzQQ#Value": "Общие условия Deriv для бизнес-партнеров",
+        "YZOevNXwRkiD5NJ9YA7JtQ#Value": "Я прочитал и принял",
+        "bp7I03uLbUKPk9A9vbkt3w#ValueExpression.1536891843.1": "checkbox",
+        "4BRK3oZyVUi+KPRCJ4PBGQ#Value": "Условия и положения Deriv для клиентов.",
+        "xhbd6R06F069qBPrmfmluQ#Value": "Я прочитал и принял",
+        "L_E_eCEGQ02yC3sQ3ic8fw#ValueExpression.1536891843.1": "checkbox",
+        "RLfb3cSw8UaqOgw46uRbbw#Value": "Я не являюсь политически значимой персоной (PEP).",
+        "62JmoyN1XUyGJW2Q5yP16A#ValueExpression.1536891843.1": "checkbox",
+        "rFYmz96HiEWPg06uCEFWdg#Value": "Нажимая \"Создать аккаунт\", я подтверждаю следующее:"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$translationsResources", ["exports", "PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$translationsResources.de-DE", "PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$translationsResources.es-ES", "PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$translationsResources.fr-FR", "PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$translationsResources.it-IT", "PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$translationsResources.pl-PL", "PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$translationsResources.pt-PT", "PartnersHub.RealAccountCreationFlow.TermsOfUseBlock.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvc_translationsResources_deDE, PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvc_translationsResources_esES, PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvc_translationsResources_frFR, PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvc_translationsResources_itIT, PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvc_translationsResources_plPL, PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvc_translationsResources_ptPT, PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_RealAccountCreationFlow_TermsOfUseBlock_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

@@ -26,3 +26,19 @@
 .vscomp-toggle-button {
     height: 48px !important;
 }
+
+.vscomp-ele.pop-comp-active .vscomp-toggle-button {
+    border-color: #818488 !important;
+}
+
+.vscomp-ele.pop-comp-active .vscomp-toggle-button:after {
+    color: #818488 !important;
+}
+
+.dropdown-container.dropdown-expanded > div.dropdown-display {
+    border: var(--border-size-s) solid #818488 !important;
+}
+
+.dropdown-expanded.dropdown-container:after {
+    border-color: #818488 !important;
+}

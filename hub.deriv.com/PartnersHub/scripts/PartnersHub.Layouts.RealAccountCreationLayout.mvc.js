@@ -161,7 +161,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                 extendedProperties: {
                     style: "color: #222; font-size: 20px; font-weight: bold; text-wrap: nowrap;"
                 },
-                text: ["Add a real account"],
+                text: [$text(getTranslation("Pd1ZLA6XpE6fD+75qUoUXg#Value", "Add a real account"))],
                 _idProps: {
                     service: idService,
                     uuid: "3"
@@ -261,7 +261,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                                             extendedProperties: {
                                                 style: "color: #222;"
                                             },
-                                            text: ["Account type"],
+                                            text: [$text(getTranslation("YramVibtdUKPaIgj1OJ0kg#Value", "Account type"))],
                                             _idProps: {
                                                 service: idService,
                                                 uuid: "8"
@@ -337,7 +337,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                                             extendedProperties: {
                                                 style: "color: #222;"
                                             },
-                                            text: ["Account currency"],
+                                            text: [$text(getTranslation("S3iQjwG8M0OPkqWRBiGV2w#Value", "Account currency"))],
                                             _idProps: {
                                                 service: idService,
                                                 uuid: "12"
@@ -409,7 +409,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                                                 uuid: "15"
                                             },
                                             _widgetRecordProvider: widgetsRecordProvider
-                                        }, "Personal details")];
+                                        }, $text(getTranslation("2zT5ezvOfUufLEkacU1hWA#Value", "Personal details")))];
                                     })
                                 },
                                 _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getRealSignupCurrentStep())]
@@ -475,7 +475,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                                                 uuid: "18"
                                             },
                                             _widgetRecordProvider: widgetsRecordProvider
-                                        }, "Identity verification")];
+                                        }, $text(getTranslation("z6g2BoLl+U+IZ0Uh+onO3Q#Value", "Identity verification")))];
                                     })
                                 },
                                 _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getRealSignupCurrentStep())]
@@ -541,7 +541,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                                                 uuid: "21"
                                             },
                                             _widgetRecordProvider: widgetsRecordProvider
-                                        }, "Employment details")];
+                                        }, $text(getTranslation("8KAIelA1vUOD1IBcV_3Bug#Value", "Employment details")))];
                                     })
                                 },
                                 _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getRealSignupCurrentStep())]
@@ -607,7 +607,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                                                 uuid: "24"
                                             },
                                             _widgetRecordProvider: widgetsRecordProvider
-                                        }, "Address details")];
+                                        }, $text(getTranslation("LOHogPj7AkamPabzFF_m4w#Value", "Address details")))];
                                     })
                                 },
                                 _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getRealSignupCurrentStep())]
@@ -750,7 +750,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                                                 uuid: "31"
                                             },
                                             _widgetRecordProvider: widgetsRecordProvider
-                                        }, "Terms of use")];
+                                        }, $text(getTranslation("JeN0p7uu00yd0gVlFMA4ng#Value", "Terms of use")))];
                                     })
                                 },
                                 _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getRealSignupCurrentStep())]
@@ -822,7 +822,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                                             extendedProperties: {
                                                 style: "color: #222;"
                                             },
-                                            text: ["Account type"],
+                                            text: [$text(getTranslation("Bp86I9Ixv0OIhQly_f6eUA#Value", "Account type"))],
                                             _idProps: {
                                                 service: idService,
                                                 uuid: "35"
@@ -898,7 +898,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                                             extendedProperties: {
                                                 style: "color: #222;"
                                             },
-                                            text: ["Account currency"],
+                                            text: [$text(getTranslation("_+B0FA+SSkKHk1HjYv340w#Value", "Account currency"))],
                                             _idProps: {
                                                 service: idService,
                                                 uuid: "39"
@@ -970,7 +970,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                                                 uuid: "42"
                                             },
                                             _widgetRecordProvider: widgetsRecordProvider
-                                        }, "Personal details")];
+                                        }, $text(getTranslation("TzCWE08vhEiMd46j9F_2pQ#Value", "Personal details")))];
                                     })
                                 },
                                 _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getRealSignupCurrentStep())]
@@ -1036,7 +1036,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                                                 uuid: "45"
                                             },
                                             _widgetRecordProvider: widgetsRecordProvider
-                                        }, "Employment details")];
+                                        }, $text(getTranslation("rPOlfxqGXkGuqdRCco9X3w#Value", "Employment details")))];
                                     })
                                 },
                                 _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getRealSignupCurrentStep())]
@@ -1102,7 +1102,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                                                 uuid: "48"
                                             },
                                             _widgetRecordProvider: widgetsRecordProvider
-                                        }, "Address details")];
+                                        }, $text(getTranslation("5ycKwwc7KkytjvwmEJe4Ag#Value", "Address details")))];
                                     })
                                 },
                                 _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getRealSignupCurrentStep())]
@@ -1245,7 +1245,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                                                 uuid: "55"
                                             },
                                             _widgetRecordProvider: widgetsRecordProvider
-                                        }, "Terms of use")];
+                                        }, $text(getTranslation("sOpdF1jXe0aVJB8RctEMSg#Value", "Terms of use")))];
                                     })
                                 },
                                 _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getRealSignupCurrentStep())]
@@ -1353,7 +1353,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                 },
                 inputs: {
                     Progress: PartnersHubClientVariables.getProgressBarLength(),
-                    Thickness: 8,
+                    Thickness: 9,
                     ProgressColor: PartnersHubModel.staticEntities.color.primary
                 },
                 events: {
@@ -1468,7 +1468,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                 extendedProperties: {
                     style: "font-size: 16px; font-weight: bold;"
                 },
-                text: ["Exit profile setup?"],
+                text: [$text(getTranslation("JkpYM0ORA0W5DV6B_mF2Kg#Value", "Exit profile setup?"))],
                 _idProps: {
                     service: idService,
                     uuid: "70"
@@ -1505,7 +1505,7 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/r
                     uuid: "72"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Complete the setup to access custom commission plans."), React.createElement(OSWidgets.Container, {
+            }, $text(getTranslation("k4gPXOzX2E+h7qtfW9Q3Eg#Value", "Complete the setup to access custom commission plans."))), React.createElement(OSWidgets.Container, {
                 align: /*Default*/ 0,
                 animate: false,
                 extendedProperties: {
@@ -2060,6 +2060,182 @@ define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$controller", ["@outsys
 });
 
 
-define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "k4gPXOzX2E+h7qtfW9Q3Eg#Value": "Schließen Sie die Einrichtung ab, um auf benutzerdefinierte Provisionspläne zuzugreifen.",
+        "JkpYM0ORA0W5DV6B_mF2Kg#Value": "Profilausgang einrichten?",
+        "sOpdF1jXe0aVJB8RctEMSg#Value": "Nutzungsbedingungen",
+        "5ycKwwc7KkytjvwmEJe4Ag#Value": "Adressdetails",
+        "rPOlfxqGXkGuqdRCco9X3w#Value": "Beschäftigungsdetails",
+        "TzCWE08vhEiMd46j9F_2pQ#Value": "Persönliche Daten",
+        "_+B0FA+SSkKHk1HjYv340w#Value": "Kontowährung",
+        "Bp86I9Ixv0OIhQly_f6eUA#Value": "Kontotyp",
+        "JeN0p7uu00yd0gVlFMA4ng#Value": "Nutzungsbedingungen",
+        "LOHogPj7AkamPabzFF_m4w#Value": "Adressdetails",
+        "8KAIelA1vUOD1IBcV_3Bug#Value": "Beschäftigungsdetails",
+        "z6g2BoLl+U+IZ0Uh+onO3Q#Value": "Identitätsverifizierung",
+        "2zT5ezvOfUufLEkacU1hWA#Value": "Persönliche Daten",
+        "S3iQjwG8M0OPkqWRBiGV2w#Value": "Kontowährung",
+        "YramVibtdUKPaIgj1OJ0kg#Value": "Kontotyp",
+        "Pd1ZLA6XpE6fD+75qUoUXg#Value": "Ein echtes Konto hinzufügen"
+    };
+});
+
+define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "k4gPXOzX2E+h7qtfW9Q3Eg#Value": "Completa la configuración para acceder a planes de comisión personalizados.",
+        "JkpYM0ORA0W5DV6B_mF2Kg#Value": "¿Configurar perfil de salida?",
+        "sOpdF1jXe0aVJB8RctEMSg#Value": "Términos de uso",
+        "5ycKwwc7KkytjvwmEJe4Ag#Value": "Detalles de la dirección",
+        "rPOlfxqGXkGuqdRCco9X3w#Value": "Detalles de empleo",
+        "TzCWE08vhEiMd46j9F_2pQ#Value": "Datos personales",
+        "_+B0FA+SSkKHk1HjYv340w#Value": "Moneda de la cuenta",
+        "Bp86I9Ixv0OIhQly_f6eUA#Value": "Tipo de cuenta",
+        "JeN0p7uu00yd0gVlFMA4ng#Value": "Términos de uso",
+        "LOHogPj7AkamPabzFF_m4w#Value": "Detalles de dirección",
+        "8KAIelA1vUOD1IBcV_3Bug#Value": "Detalles del empleo",
+        "z6g2BoLl+U+IZ0Uh+onO3Q#Value": "Verificación de identidad",
+        "2zT5ezvOfUufLEkacU1hWA#Value": "Detalles personales",
+        "S3iQjwG8M0OPkqWRBiGV2w#Value": "Moneda de la cuenta",
+        "YramVibtdUKPaIgj1OJ0kg#Value": "Tipo de cuenta",
+        "Pd1ZLA6XpE6fD+75qUoUXg#Value": "Agregar una cuenta real"
+    };
+});
+
+define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "k4gPXOzX2E+h7qtfW9Q3Eg#Value": "Complétez la configuration pour accéder aux plans de commission personnalisés.",
+        "JkpYM0ORA0W5DV6B_mF2Kg#Value": "Configuration du profil de sortie ?",
+        "sOpdF1jXe0aVJB8RctEMSg#Value": "Conditions d\'utilisation",
+        "5ycKwwc7KkytjvwmEJe4Ag#Value": "Détails de l\'adresse",
+        "rPOlfxqGXkGuqdRCco9X3w#Value": "Détails de l\'emploi",
+        "TzCWE08vhEiMd46j9F_2pQ#Value": "Détails personnels",
+        "_+B0FA+SSkKHk1HjYv340w#Value": "Devise du compte",
+        "Bp86I9Ixv0OIhQly_f6eUA#Value": "Type de compte",
+        "JeN0p7uu00yd0gVlFMA4ng#Value": "Conditions d\'utilisation",
+        "LOHogPj7AkamPabzFF_m4w#Value": "Détails de l\'adresse",
+        "8KAIelA1vUOD1IBcV_3Bug#Value": "Détails de l\'emploi",
+        "z6g2BoLl+U+IZ0Uh+onO3Q#Value": "Vérification d\'identité",
+        "2zT5ezvOfUufLEkacU1hWA#Value": "Détails personnels",
+        "S3iQjwG8M0OPkqWRBiGV2w#Value": "Devise du compte",
+        "YramVibtdUKPaIgj1OJ0kg#Value": "Type de compte",
+        "Pd1ZLA6XpE6fD+75qUoUXg#Value": "Ajouter un compte réel"
+    };
+});
+
+define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "k4gPXOzX2E+h7qtfW9Q3Eg#Value": "Completa la configurazione per accedere ai piani di commissione personalizzati.",
+        "JkpYM0ORA0W5DV6B_mF2Kg#Value": "Configurazione del profilo di uscita?",
+        "sOpdF1jXe0aVJB8RctEMSg#Value": "Termini di utilizzo",
+        "5ycKwwc7KkytjvwmEJe4Ag#Value": "Dettagli dell\'indirizzo",
+        "rPOlfxqGXkGuqdRCco9X3w#Value": "Dettagli sull\'occupazione",
+        "TzCWE08vhEiMd46j9F_2pQ#Value": "Dettagli personali",
+        "_+B0FA+SSkKHk1HjYv340w#Value": "Valuta del conto",
+        "Bp86I9Ixv0OIhQly_f6eUA#Value": "Tipo di conto",
+        "JeN0p7uu00yd0gVlFMA4ng#Value": "Termini di utilizzo",
+        "LOHogPj7AkamPabzFF_m4w#Value": "Dettagli dell\'indirizzo",
+        "8KAIelA1vUOD1IBcV_3Bug#Value": "Dettagli sull\'impiego",
+        "z6g2BoLl+U+IZ0Uh+onO3Q#Value": "Verifica dell\'identità",
+        "2zT5ezvOfUufLEkacU1hWA#Value": "Dati personali",
+        "S3iQjwG8M0OPkqWRBiGV2w#Value": "Valuta del conto",
+        "YramVibtdUKPaIgj1OJ0kg#Value": "Tipo di conto",
+        "Pd1ZLA6XpE6fD+75qUoUXg#Value": "Aggiungi un conto reale"
+    };
+});
+
+define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "k4gPXOzX2E+h7qtfW9Q3Eg#Value": "Zakończ konfigurację, aby uzyskać dostęp do niestandardowych planów prowizji.",
+        "JkpYM0ORA0W5DV6B_mF2Kg#Value": "Ustawienia profilu wyjściowego?",
+        "sOpdF1jXe0aVJB8RctEMSg#Value": "Warunki użytkowania",
+        "5ycKwwc7KkytjvwmEJe4Ag#Value": "Szczegóły adresu",
+        "rPOlfxqGXkGuqdRCco9X3w#Value": "Szczegóły zatrudnienia",
+        "TzCWE08vhEiMd46j9F_2pQ#Value": "Dane osobowe",
+        "_+B0FA+SSkKHk1HjYv340w#Value": "Waluta konta",
+        "Bp86I9Ixv0OIhQly_f6eUA#Value": "Typ konta",
+        "JeN0p7uu00yd0gVlFMA4ng#Value": "Warunki użytkowania",
+        "LOHogPj7AkamPabzFF_m4w#Value": "Szczegóły adresu",
+        "8KAIelA1vUOD1IBcV_3Bug#Value": "Szczegóły zatrudnienia",
+        "z6g2BoLl+U+IZ0Uh+onO3Q#Value": "Weryfikacja tożsamości",
+        "2zT5ezvOfUufLEkacU1hWA#Value": "Szczegóły osobowe",
+        "S3iQjwG8M0OPkqWRBiGV2w#Value": "Waluta konta",
+        "YramVibtdUKPaIgj1OJ0kg#Value": "Typ konta",
+        "Pd1ZLA6XpE6fD+75qUoUXg#Value": "Dodaj prawdziwe konto"
+    };
+});
+
+define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "k4gPXOzX2E+h7qtfW9Q3Eg#Value": "Complete a configuração para aceder a planos de comissão personalizados.",
+        "JkpYM0ORA0W5DV6B_mF2Kg#Value": "Configuração do perfil de saída?",
+        "sOpdF1jXe0aVJB8RctEMSg#Value": "Termos de uso",
+        "5ycKwwc7KkytjvwmEJe4Ag#Value": "Detalhes do endereço",
+        "rPOlfxqGXkGuqdRCco9X3w#Value": "Detalhes de emprego",
+        "TzCWE08vhEiMd46j9F_2pQ#Value": "Dados pessoais",
+        "_+B0FA+SSkKHk1HjYv340w#Value": "Moeda da conta",
+        "Bp86I9Ixv0OIhQly_f6eUA#Value": "Tipo de conta",
+        "JeN0p7uu00yd0gVlFMA4ng#Value": "Termos de uso",
+        "LOHogPj7AkamPabzFF_m4w#Value": "Detalhes do endereço",
+        "8KAIelA1vUOD1IBcV_3Bug#Value": "Detalhes de emprego",
+        "z6g2BoLl+U+IZ0Uh+onO3Q#Value": "Verificação de identidade",
+        "2zT5ezvOfUufLEkacU1hWA#Value": "Dados pessoais",
+        "S3iQjwG8M0OPkqWRBiGV2w#Value": "Moeda da conta",
+        "YramVibtdUKPaIgj1OJ0kg#Value": "Tipo de conta",
+        "Pd1ZLA6XpE6fD+75qUoUXg#Value": "Adicionar uma conta real"
+    };
+});
+
+define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "k4gPXOzX2E+h7qtfW9Q3Eg#Value": "Завершите настройку, чтобы получить доступ к пользовательским планам комиссий.",
+        "JkpYM0ORA0W5DV6B_mF2Kg#Value": "Настройка профиля выхода?",
+        "sOpdF1jXe0aVJB8RctEMSg#Value": "Условия использования",
+        "5ycKwwc7KkytjvwmEJe4Ag#Value": "Адресные данные",
+        "rPOlfxqGXkGuqdRCco9X3w#Value": "Подробности о трудоустройстве",
+        "TzCWE08vhEiMd46j9F_2pQ#Value": "Личные данные",
+        "_+B0FA+SSkKHk1HjYv340w#Value": "Валюта аккаунта",
+        "Bp86I9Ixv0OIhQly_f6eUA#Value": "Тип счета",
+        "JeN0p7uu00yd0gVlFMA4ng#Value": "Условия использования",
+        "LOHogPj7AkamPabzFF_m4w#Value": "Детали адреса",
+        "8KAIelA1vUOD1IBcV_3Bug#Value": "Подробности о трудоустройстве",
+        "z6g2BoLl+U+IZ0Uh+onO3Q#Value": "Проверка личности",
+        "2zT5ezvOfUufLEkacU1hWA#Value": "Личные данные",
+        "S3iQjwG8M0OPkqWRBiGV2w#Value": "Валюта счета",
+        "YramVibtdUKPaIgj1OJ0kg#Value": "Тип аккаунта",
+        "Pd1ZLA6XpE6fD+75qUoUXg#Value": "Добавить реальный счет"
+    };
+});
+
+define("PartnersHub.Layouts.RealAccountCreationLayout.mvc$translationsResources", ["exports", "PartnersHub.Layouts.RealAccountCreationLayout.mvc$translationsResources.de-DE", "PartnersHub.Layouts.RealAccountCreationLayout.mvc$translationsResources.es-ES", "PartnersHub.Layouts.RealAccountCreationLayout.mvc$translationsResources.fr-FR", "PartnersHub.Layouts.RealAccountCreationLayout.mvc$translationsResources.it-IT", "PartnersHub.Layouts.RealAccountCreationLayout.mvc$translationsResources.pl-PL", "PartnersHub.Layouts.RealAccountCreationLayout.mvc$translationsResources.pt-PT", "PartnersHub.Layouts.RealAccountCreationLayout.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Layouts_RealAccountCreationLayout_mvc_translationsResources_deDE, PartnersHub_Layouts_RealAccountCreationLayout_mvc_translationsResources_esES, PartnersHub_Layouts_RealAccountCreationLayout_mvc_translationsResources_frFR, PartnersHub_Layouts_RealAccountCreationLayout_mvc_translationsResources_itIT, PartnersHub_Layouts_RealAccountCreationLayout_mvc_translationsResources_plPL, PartnersHub_Layouts_RealAccountCreationLayout_mvc_translationsResources_ptPT, PartnersHub_Layouts_RealAccountCreationLayout_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Layouts_RealAccountCreationLayout_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Layouts_RealAccountCreationLayout_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Layouts_RealAccountCreationLayout_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Layouts_RealAccountCreationLayout_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Layouts_RealAccountCreationLayout_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Layouts_RealAccountCreationLayout_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Layouts_RealAccountCreationLayout_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

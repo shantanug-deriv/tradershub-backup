@@ -175,7 +175,7 @@ define("PartnersHub.Developer.AmamTestRest.mvc$view", ["@outsystems/runtime-core
                             extendedProperties: {
                                 style: "font-size: 16px; font-weight: bold;"
                             },
-                            text: ["Change API Endpoint"],
+                            text: [$text(getTranslation("HWpQT2_xsE6CBFCvVr23vw#Value", "Change API Endpoint"))],
                             _idProps: {
                                 service: idService,
                                 uuid: "3"
@@ -202,7 +202,7 @@ define("PartnersHub.Developer.AmamTestRest.mvc$view", ["@outsystems/runtime-core
                                 uuid: "5"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
-                        }, "Server"), React.createElement(OSWidgets.Input, {
+                        }, $text(getTranslation("668BiAtrh0qFEzyWTJVN_w#Value", "Server"))), React.createElement(OSWidgets.Input, {
                             _validationProps: {
                                 validationService: validationService,
                                 validationParentId: idService.getId("Form1")
@@ -255,7 +255,7 @@ define("PartnersHub.Developer.AmamTestRest.mvc$view", ["@outsystems/runtime-core
                                 uuid: "9"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
-                        }, "User token"), React.createElement(OSWidgets.Input, {
+                        }, $text(getTranslation("jidQpjar20yZW+MM7GCMNA#Value", "User token"))), React.createElement(OSWidgets.Input, {
                             _validationProps: {
                                 validationService: validationService,
                                 validationParentId: idService.getId("Form1")
@@ -309,7 +309,7 @@ define("PartnersHub.Developer.AmamTestRest.mvc$view", ["@outsystems/runtime-core
                             extendedProperties: {
                                 style: "color: #fff; font-size: 14px; font-weight: bold;"
                             },
-                            text: ["Submit"],
+                            text: [$text(getTranslation("U3Ya9XVpsE6UksqzSCPWsA#Value", "Submit"))],
                             _idProps: {
                                 service: idService,
                                 uuid: "13"
@@ -338,7 +338,7 @@ define("PartnersHub.Developer.AmamTestRest.mvc$view", ["@outsystems/runtime-core
                             extendedProperties: {
                                 style: "color: #222; font-size: 14px; font-weight: bold;"
                             },
-                            text: ["Reset to original settings"],
+                            text: [$text(getTranslation("uvD7belHcUSyXMrGZJWW8w#Value", "Reset to original settings"))],
                             _idProps: {
                                 service: idService,
                                 uuid: "15"
@@ -465,11 +465,11 @@ define("PartnersHub.Developer.AmamTestRest.mvc$controller", ["@outsystems/runtim
                                 return OS.Flow.executeAsyncFlow(function() {
                                     // Execute Action: Authorize
                                     model.flush();
-                                    return RESTAPIWebsocketController.default.authorize$Action(PartnersHubClientVariables.getAppId(), "EN", function() {
+                                    return RESTAPIWebsocketController.default.authorize$Action(function() {
                                         var rec = new RESTAPIWebsocketModel.ST_450f06937a42e6bd68832beac9fd4297Structure();
                                         rec.authorizeAttr = model.variables.userTokenVar;
                                         return rec;
-                                    }(), model.variables.serverURLVar, callContext).then(function(value) {
+                                    }(), model.variables.serverURLVar, PartnersHubClientVariables.getAppId(), "EN", callContext).then(function(value) {
                                         authorizeVar.value = value;
                                     });
                                 });
@@ -591,14 +591,15 @@ define("PartnersHub.Developer.AmamTestRest.mvc$controller", ["@outsystems/runtim
                         span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
                     }
 
-                    return OS.Flow.tryFinally(function() {
+                    try {
                         return controller.safeExecuteClientAction(controller._onReady$Action, callContext);
-                    }, function() {
+                    } finally {
                         if (span) {
                             span.end();
                         }
 
-                    });
+                    }
+
                 }, 0);
 
             }
@@ -704,6 +705,105 @@ define("PartnersHub.Developer.AmamTestRest.mvc$controller.ResetEndpoint.JavaScri
 });
 
 
-define("PartnersHub.Developer.AmamTestRest.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Developer.AmamTestRest.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "uvD7belHcUSyXMrGZJWW8w#Value": "Auf die ursprünglichen Einstellungen zurücksetzen",
+        "U3Ya9XVpsE6UksqzSCPWsA#Value": "Einreichen",
+        "jidQpjar20yZW+MM7GCMNA#Value": "Benutzertoken",
+        "668BiAtrh0qFEzyWTJVN_w#Value": "Server",
+        "HWpQT2_xsE6CBFCvVr23vw#Value": "API-Endpunkt ändern"
+    };
+});
+
+define("PartnersHub.Developer.AmamTestRest.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "uvD7belHcUSyXMrGZJWW8w#Value": "Restablecer a la configuración original",
+        "U3Ya9XVpsE6UksqzSCPWsA#Value": "Enviar",
+        "jidQpjar20yZW+MM7GCMNA#Value": "Token de usuario",
+        "668BiAtrh0qFEzyWTJVN_w#Value": "Servidor",
+        "HWpQT2_xsE6CBFCvVr23vw#Value": "Cambiar el punto final de la API"
+    };
+});
+
+define("PartnersHub.Developer.AmamTestRest.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "uvD7belHcUSyXMrGZJWW8w#Value": "Réinitialiser aux paramètres d\'origine",
+        "U3Ya9XVpsE6UksqzSCPWsA#Value": "Soumettre",
+        "jidQpjar20yZW+MM7GCMNA#Value": "Jeton utilisateur",
+        "668BiAtrh0qFEzyWTJVN_w#Value": "Serveur",
+        "HWpQT2_xsE6CBFCvVr23vw#Value": "Changer le point de terminaison de l\'API"
+    };
+});
+
+define("PartnersHub.Developer.AmamTestRest.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "uvD7belHcUSyXMrGZJWW8w#Value": "Ripristina le impostazioni originali",
+        "U3Ya9XVpsE6UksqzSCPWsA#Value": "Inviare",
+        "jidQpjar20yZW+MM7GCMNA#Value": "Token utente",
+        "668BiAtrh0qFEzyWTJVN_w#Value": "Server",
+        "HWpQT2_xsE6CBFCvVr23vw#Value": "Cambiare l\'endpoint dell\'API"
+    };
+});
+
+define("PartnersHub.Developer.AmamTestRest.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "uvD7belHcUSyXMrGZJWW8w#Value": "Przywróć ustawienia fabryczne",
+        "U3Ya9XVpsE6UksqzSCPWsA#Value": "Zatwierdź",
+        "jidQpjar20yZW+MM7GCMNA#Value": "Token użytkownika",
+        "668BiAtrh0qFEzyWTJVN_w#Value": "Serwer",
+        "HWpQT2_xsE6CBFCvVr23vw#Value": "Zmień punkt końcowy API"
+    };
+});
+
+define("PartnersHub.Developer.AmamTestRest.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "uvD7belHcUSyXMrGZJWW8w#Value": "Restaurar para as configurações originais",
+        "U3Ya9XVpsE6UksqzSCPWsA#Value": "Enviar",
+        "jidQpjar20yZW+MM7GCMNA#Value": "Token de utilizador",
+        "668BiAtrh0qFEzyWTJVN_w#Value": "Servidor",
+        "HWpQT2_xsE6CBFCvVr23vw#Value": "Alterar o endpoint da API"
+    };
+});
+
+define("PartnersHub.Developer.AmamTestRest.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "uvD7belHcUSyXMrGZJWW8w#Value": "Сбросить до заводских настроек",
+        "U3Ya9XVpsE6UksqzSCPWsA#Value": "Отправить",
+        "jidQpjar20yZW+MM7GCMNA#Value": "Токен пользователя",
+        "668BiAtrh0qFEzyWTJVN_w#Value": "Сервер",
+        "HWpQT2_xsE6CBFCvVr23vw#Value": "Изменить конечную точку API"
+    };
+});
+
+define("PartnersHub.Developer.AmamTestRest.mvc$translationsResources", ["exports", "PartnersHub.Developer.AmamTestRest.mvc$translationsResources.de-DE", "PartnersHub.Developer.AmamTestRest.mvc$translationsResources.es-ES", "PartnersHub.Developer.AmamTestRest.mvc$translationsResources.fr-FR", "PartnersHub.Developer.AmamTestRest.mvc$translationsResources.it-IT", "PartnersHub.Developer.AmamTestRest.mvc$translationsResources.pl-PL", "PartnersHub.Developer.AmamTestRest.mvc$translationsResources.pt-PT", "PartnersHub.Developer.AmamTestRest.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Developer_AmamTestRest_mvc_translationsResources_deDE, PartnersHub_Developer_AmamTestRest_mvc_translationsResources_esES, PartnersHub_Developer_AmamTestRest_mvc_translationsResources_frFR, PartnersHub_Developer_AmamTestRest_mvc_translationsResources_itIT, PartnersHub_Developer_AmamTestRest_mvc_translationsResources_plPL, PartnersHub_Developer_AmamTestRest_mvc_translationsResources_ptPT, PartnersHub_Developer_AmamTestRest_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Developer_AmamTestRest_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Developer_AmamTestRest_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Developer_AmamTestRest_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Developer_AmamTestRest_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Developer_AmamTestRest_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Developer_AmamTestRest_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Developer_AmamTestRest_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

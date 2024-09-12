@@ -125,7 +125,8 @@ define("tradershub.Signup.EmailSentScreen.mvc$view", ["@outsystems/runtime-core-
                     return _this.getChildSpan("destroy");
                 },
                 inputs: {
-                    NoContentMiddle: true
+                    NoContentMiddle: true,
+                    HasLink: true
                 },
                 events: {
                     _handleError: function(ex) {

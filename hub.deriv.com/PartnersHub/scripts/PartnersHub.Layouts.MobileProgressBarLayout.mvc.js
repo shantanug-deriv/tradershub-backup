@@ -333,7 +333,7 @@ define("PartnersHub.Layouts.MobileProgressBarLayout.mvc$view", ["@outsystems/run
                 extendedProperties: {
                     style: "font-size: 16px; font-weight: bold;"
                 },
-                text: ["Exit profile setup?"],
+                text: [$text(getTranslation("PUZk8rTKV0S6uWyOIu9xxQ#Value", "Exit profile setup?"))],
                 _idProps: {
                     service: idService,
                     uuid: "13"
@@ -370,7 +370,7 @@ define("PartnersHub.Layouts.MobileProgressBarLayout.mvc$view", ["@outsystems/run
                     uuid: "15"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Complete the setup to access custom commission plans."), React.createElement(OSWidgets.Container, {
+            }, $text(getTranslation("2iMvGgd9qEuJciPIJfkzRw#Value", "Complete the setup to access custom commission plans."))), React.createElement(OSWidgets.Container, {
                 align: /*Default*/ 0,
                 animate: false,
                 extendedProperties: {
@@ -894,6 +894,84 @@ define("PartnersHub.Layouts.MobileProgressBarLayout.mvc$controller", ["@outsyste
 });
 
 
-define("PartnersHub.Layouts.MobileProgressBarLayout.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Layouts.MobileProgressBarLayout.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "2iMvGgd9qEuJciPIJfkzRw#Value": "Vervollständigen Sie die Einrichtung, um auf benutzerdefinierte Provisionspläne zuzugreifen.",
+        "PUZk8rTKV0S6uWyOIu9xxQ#Value": "Profilausgang einrichten?"
+    };
+});
+
+define("PartnersHub.Layouts.MobileProgressBarLayout.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "2iMvGgd9qEuJciPIJfkzRw#Value": "Complete la configuración para acceder a planes de comisiones personalizados.",
+        "PUZk8rTKV0S6uWyOIu9xxQ#Value": "¿Configurar el perfil de salida?"
+    };
+});
+
+define("PartnersHub.Layouts.MobileProgressBarLayout.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "2iMvGgd9qEuJciPIJfkzRw#Value": "Complétez la configuration pour accéder aux plans de commission personnalisés.",
+        "PUZk8rTKV0S6uWyOIu9xxQ#Value": "Configurer le profil de sortie ?"
+    };
+});
+
+define("PartnersHub.Layouts.MobileProgressBarLayout.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "2iMvGgd9qEuJciPIJfkzRw#Value": "Completa la configurazione per accedere ai piani di commissione personalizzati.",
+        "PUZk8rTKV0S6uWyOIu9xxQ#Value": "Impostazione del profilo di uscita?"
+    };
+});
+
+define("PartnersHub.Layouts.MobileProgressBarLayout.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "2iMvGgd9qEuJciPIJfkzRw#Value": "Ukończ konfigurację, aby uzyskać dostęp do niestandardowych planów prowizji.",
+        "PUZk8rTKV0S6uWyOIu9xxQ#Value": "Ustawienie profilu wyjścia?"
+    };
+});
+
+define("PartnersHub.Layouts.MobileProgressBarLayout.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "2iMvGgd9qEuJciPIJfkzRw#Value": "Complete a configuração para aceder a planos de comissões personalizados.",
+        "PUZk8rTKV0S6uWyOIu9xxQ#Value": "Configurar perfil de saída?"
+    };
+});
+
+define("PartnersHub.Layouts.MobileProgressBarLayout.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "2iMvGgd9qEuJciPIJfkzRw#Value": "Завершите настройку, чтобы получить доступ к пользовательским планам комиссий.",
+        "PUZk8rTKV0S6uWyOIu9xxQ#Value": "Настройка профиля выхода?"
+    };
+});
+
+define("PartnersHub.Layouts.MobileProgressBarLayout.mvc$translationsResources", ["exports", "PartnersHub.Layouts.MobileProgressBarLayout.mvc$translationsResources.de-DE", "PartnersHub.Layouts.MobileProgressBarLayout.mvc$translationsResources.es-ES", "PartnersHub.Layouts.MobileProgressBarLayout.mvc$translationsResources.fr-FR", "PartnersHub.Layouts.MobileProgressBarLayout.mvc$translationsResources.it-IT", "PartnersHub.Layouts.MobileProgressBarLayout.mvc$translationsResources.pl-PL", "PartnersHub.Layouts.MobileProgressBarLayout.mvc$translationsResources.pt-PT", "PartnersHub.Layouts.MobileProgressBarLayout.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Layouts_MobileProgressBarLayout_mvc_translationsResources_deDE, PartnersHub_Layouts_MobileProgressBarLayout_mvc_translationsResources_esES, PartnersHub_Layouts_MobileProgressBarLayout_mvc_translationsResources_frFR, PartnersHub_Layouts_MobileProgressBarLayout_mvc_translationsResources_itIT, PartnersHub_Layouts_MobileProgressBarLayout_mvc_translationsResources_plPL, PartnersHub_Layouts_MobileProgressBarLayout_mvc_translationsResources_ptPT, PartnersHub_Layouts_MobileProgressBarLayout_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Layouts_MobileProgressBarLayout_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Layouts_MobileProgressBarLayout_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Layouts_MobileProgressBarLayout_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Layouts_MobileProgressBarLayout_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Layouts_MobileProgressBarLayout_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Layouts_MobileProgressBarLayout_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Layouts_MobileProgressBarLayout_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

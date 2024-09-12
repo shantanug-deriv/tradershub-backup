@@ -156,7 +156,7 @@ define("PartnersHub.Layouts.RealSignupLayout.mvc$view", ["@outsystems/runtime-co
                 extendedProperties: {
                     style: "color: #222; font-size: 20px; font-weight: bold; text-wrap: nowrap;"
                 },
-                text: ["Add a real account"],
+                text: [$text(getTranslation("U+RfKlcKOUu370_GGo57sg#Value", "Add a real account"))],
                 _idProps: {
                     service: idService,
                     uuid: "3"
@@ -255,7 +255,7 @@ define("PartnersHub.Layouts.RealSignupLayout.mvc$view", ["@outsystems/runtime-co
                                         extendedProperties: {
                                             style: "color: #222;"
                                         },
-                                        text: ["Account type"],
+                                        text: [$text(getTranslation("x7aU+JdcFkSp0aQplouQaA#Value", "Account type"))],
                                         _idProps: {
                                             service: idService,
                                             uuid: "8"
@@ -331,7 +331,7 @@ define("PartnersHub.Layouts.RealSignupLayout.mvc$view", ["@outsystems/runtime-co
                                         extendedProperties: {
                                             style: "color: #222;"
                                         },
-                                        text: ["Account currency"],
+                                        text: [$text(getTranslation("g1a0z3kEPUW3QH+bDFe17g#Value", "Account currency"))],
                                         _idProps: {
                                             service: idService,
                                             uuid: "12"
@@ -403,7 +403,7 @@ define("PartnersHub.Layouts.RealSignupLayout.mvc$view", ["@outsystems/runtime-co
                                             uuid: "15"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
-                                    }, "Personal details")];
+                                    }, $text(getTranslation("YgdPiBnYm0WoI7q1J0rIaQ#Value", "Personal details")))];
                                 })
                             },
                             _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getRealSignupCurrentStep())]
@@ -469,7 +469,7 @@ define("PartnersHub.Layouts.RealSignupLayout.mvc$view", ["@outsystems/runtime-co
                                             uuid: "18"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
-                                    }, "Identity verification")];
+                                    }, $text(getTranslation("fBHBbf2e0UaRhgzogcE0sg#Value", "Identity verification")))];
                                 })
                             },
                             _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getRealSignupCurrentStep())]
@@ -535,7 +535,7 @@ define("PartnersHub.Layouts.RealSignupLayout.mvc$view", ["@outsystems/runtime-co
                                             uuid: "21"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
-                                    }, "Employment details")];
+                                    }, $text(getTranslation("MWYGd4mn6UaZTwD83Dk0rQ#Value", "Employment details")))];
                                 })
                             },
                             _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getRealSignupCurrentStep())]
@@ -601,7 +601,7 @@ define("PartnersHub.Layouts.RealSignupLayout.mvc$view", ["@outsystems/runtime-co
                                             uuid: "24"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
-                                    }, "Address details")];
+                                    }, $text(getTranslation("KBGQ4pg10Ui30pijs4Xfew#Value", "Address details")))];
                                 })
                             },
                             _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getRealSignupCurrentStep())]
@@ -667,7 +667,7 @@ define("PartnersHub.Layouts.RealSignupLayout.mvc$view", ["@outsystems/runtime-co
                                             uuid: "27"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
-                                    }, "Promotion platforms")];
+                                    }, $text(getTranslation("u7BlRWdrt0+ixMyjgh6sBw#Value", "Promotion platforms")))];
                                 })
                             },
                             _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getRealSignupCurrentStep())]
@@ -733,7 +733,7 @@ define("PartnersHub.Layouts.RealSignupLayout.mvc$view", ["@outsystems/runtime-co
                                             uuid: "30"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
-                                    }, "Terms of use")];
+                                    }, $text(getTranslation("X44sSTfLdkCkHEOfytCWPw#Value", "Terms of use")))];
                                 })
                             },
                             _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getRealSignupCurrentStep())]
@@ -799,7 +799,7 @@ define("PartnersHub.Layouts.RealSignupLayout.mvc$view", ["@outsystems/runtime-co
                                             uuid: "33"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
-                                    }, "CFDs commission")];
+                                    }, $text(getTranslation("i8+dTC528EydZcwYoOEEvQ#Value", "CFDs commission")))];
                                 })
                             },
                             _dependencies: [asPrimitiveValue(PartnersHubClientVariables.getRealSignupCurrentStep())]
@@ -1095,6 +1095,140 @@ define("PartnersHub.Layouts.RealSignupLayout.mvc$controller", ["@outsystems/runt
 });
 
 
-define("PartnersHub.Layouts.RealSignupLayout.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Layouts.RealSignupLayout.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "i8+dTC528EydZcwYoOEEvQ#Value": "CFDs-Kommission",
+        "X44sSTfLdkCkHEOfytCWPw#Value": "Nutzungsbedingungen",
+        "u7BlRWdrt0+ixMyjgh6sBw#Value": "Promotionsplattformen",
+        "KBGQ4pg10Ui30pijs4Xfew#Value": "Adressdetails",
+        "MWYGd4mn6UaZTwD83Dk0rQ#Value": "Beschäftigungsdetails",
+        "fBHBbf2e0UaRhgzogcE0sg#Value": "Identitätsverifizierung",
+        "YgdPiBnYm0WoI7q1J0rIaQ#Value": "Persönliche Daten",
+        "g1a0z3kEPUW3QH+bDFe17g#Value": "Kontowährung",
+        "x7aU+JdcFkSp0aQplouQaA#Value": "Kontotyp",
+        "U+RfKlcKOUu370_GGo57sg#Value": "Ein echtes Konto hinzufügen"
+    };
+});
+
+define("PartnersHub.Layouts.RealSignupLayout.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "i8+dTC528EydZcwYoOEEvQ#Value": "comisión de CFDs",
+        "X44sSTfLdkCkHEOfytCWPw#Value": "Términos de uso",
+        "u7BlRWdrt0+ixMyjgh6sBw#Value": "Plataformas de promoción",
+        "KBGQ4pg10Ui30pijs4Xfew#Value": "Detalles de dirección",
+        "MWYGd4mn6UaZTwD83Dk0rQ#Value": "Detalles de empleo",
+        "fBHBbf2e0UaRhgzogcE0sg#Value": "Verificación de identidad",
+        "YgdPiBnYm0WoI7q1J0rIaQ#Value": "Detalles personales",
+        "g1a0z3kEPUW3QH+bDFe17g#Value": "Moneda de la cuenta",
+        "x7aU+JdcFkSp0aQplouQaA#Value": "Tipo de cuenta",
+        "U+RfKlcKOUu370_GGo57sg#Value": "Agregar una cuenta real"
+    };
+});
+
+define("PartnersHub.Layouts.RealSignupLayout.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "i8+dTC528EydZcwYoOEEvQ#Value": "commission sur les CFD",
+        "X44sSTfLdkCkHEOfytCWPw#Value": "Conditions d\'utilisation",
+        "u7BlRWdrt0+ixMyjgh6sBw#Value": "Plateformes de promotion",
+        "KBGQ4pg10Ui30pijs4Xfew#Value": "Détails de l\'adresse",
+        "MWYGd4mn6UaZTwD83Dk0rQ#Value": "Détails de l\'emploi",
+        "fBHBbf2e0UaRhgzogcE0sg#Value": "Vérification d\'identité",
+        "YgdPiBnYm0WoI7q1J0rIaQ#Value": "Détails personnels",
+        "g1a0z3kEPUW3QH+bDFe17g#Value": "Devise du compte",
+        "x7aU+JdcFkSp0aQplouQaA#Value": "Type de compte",
+        "U+RfKlcKOUu370_GGo57sg#Value": "Ajouter un compte réel"
+    };
+});
+
+define("PartnersHub.Layouts.RealSignupLayout.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "i8+dTC528EydZcwYoOEEvQ#Value": "commissioni sui CFD",
+        "X44sSTfLdkCkHEOfytCWPw#Value": "Termini di utilizzo",
+        "u7BlRWdrt0+ixMyjgh6sBw#Value": "Piattaforme di promozione",
+        "KBGQ4pg10Ui30pijs4Xfew#Value": "Dettagli dell\'indirizzo",
+        "MWYGd4mn6UaZTwD83Dk0rQ#Value": "Dettagli sull\'impiego",
+        "fBHBbf2e0UaRhgzogcE0sg#Value": "Verifica dell\'identità",
+        "YgdPiBnYm0WoI7q1J0rIaQ#Value": "Dati personali",
+        "g1a0z3kEPUW3QH+bDFe17g#Value": "Valuta del conto",
+        "x7aU+JdcFkSp0aQplouQaA#Value": "Tipo di account",
+        "U+RfKlcKOUu370_GGo57sg#Value": "Aggiungi un conto reale"
+    };
+});
+
+define("PartnersHub.Layouts.RealSignupLayout.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "i8+dTC528EydZcwYoOEEvQ#Value": "prowizja CFD",
+        "X44sSTfLdkCkHEOfytCWPw#Value": "Warunki użytkowania",
+        "u7BlRWdrt0+ixMyjgh6sBw#Value": "Platformy promocyjne",
+        "KBGQ4pg10Ui30pijs4Xfew#Value": "Szczegóły adresu",
+        "MWYGd4mn6UaZTwD83Dk0rQ#Value": "Szczegóły zatrudnienia",
+        "fBHBbf2e0UaRhgzogcE0sg#Value": "Weryfikacja tożsamości",
+        "YgdPiBnYm0WoI7q1J0rIaQ#Value": "Szczegóły osobowe",
+        "g1a0z3kEPUW3QH+bDFe17g#Value": "Waluta konta",
+        "x7aU+JdcFkSp0aQplouQaA#Value": "Typ konta",
+        "U+RfKlcKOUu370_GGo57sg#Value": "Dodaj prawdziwe konto"
+    };
+});
+
+define("PartnersHub.Layouts.RealSignupLayout.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "i8+dTC528EydZcwYoOEEvQ#Value": "comissão de CFDs",
+        "X44sSTfLdkCkHEOfytCWPw#Value": "Termos de uso",
+        "u7BlRWdrt0+ixMyjgh6sBw#Value": "Plataformas de promoção",
+        "KBGQ4pg10Ui30pijs4Xfew#Value": "Detalhes do endereço",
+        "MWYGd4mn6UaZTwD83Dk0rQ#Value": "Detalhes de emprego",
+        "fBHBbf2e0UaRhgzogcE0sg#Value": "Verificação de identidade",
+        "YgdPiBnYm0WoI7q1J0rIaQ#Value": "Dados pessoais",
+        "g1a0z3kEPUW3QH+bDFe17g#Value": "Moeda da conta",
+        "x7aU+JdcFkSp0aQplouQaA#Value": "Tipo de conta",
+        "U+RfKlcKOUu370_GGo57sg#Value": "Adicionar uma conta real"
+    };
+});
+
+define("PartnersHub.Layouts.RealSignupLayout.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "i8+dTC528EydZcwYoOEEvQ#Value": "комиссия по CFD",
+        "X44sSTfLdkCkHEOfytCWPw#Value": "Условия использования",
+        "u7BlRWdrt0+ixMyjgh6sBw#Value": "Платформы продвижения",
+        "KBGQ4pg10Ui30pijs4Xfew#Value": "Данные адреса",
+        "MWYGd4mn6UaZTwD83Dk0rQ#Value": "Данные о трудоустройстве",
+        "fBHBbf2e0UaRhgzogcE0sg#Value": "Проверка личности",
+        "YgdPiBnYm0WoI7q1J0rIaQ#Value": "Личная информация",
+        "g1a0z3kEPUW3QH+bDFe17g#Value": "Валюта счета",
+        "x7aU+JdcFkSp0aQplouQaA#Value": "Тип аккаунта",
+        "U+RfKlcKOUu370_GGo57sg#Value": "Добавить реальный аккаунт"
+    };
+});
+
+define("PartnersHub.Layouts.RealSignupLayout.mvc$translationsResources", ["exports", "PartnersHub.Layouts.RealSignupLayout.mvc$translationsResources.de-DE", "PartnersHub.Layouts.RealSignupLayout.mvc$translationsResources.es-ES", "PartnersHub.Layouts.RealSignupLayout.mvc$translationsResources.fr-FR", "PartnersHub.Layouts.RealSignupLayout.mvc$translationsResources.it-IT", "PartnersHub.Layouts.RealSignupLayout.mvc$translationsResources.pl-PL", "PartnersHub.Layouts.RealSignupLayout.mvc$translationsResources.pt-PT", "PartnersHub.Layouts.RealSignupLayout.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Layouts_RealSignupLayout_mvc_translationsResources_deDE, PartnersHub_Layouts_RealSignupLayout_mvc_translationsResources_esES, PartnersHub_Layouts_RealSignupLayout_mvc_translationsResources_frFR, PartnersHub_Layouts_RealSignupLayout_mvc_translationsResources_itIT, PartnersHub_Layouts_RealSignupLayout_mvc_translationsResources_plPL, PartnersHub_Layouts_RealSignupLayout_mvc_translationsResources_ptPT, PartnersHub_Layouts_RealSignupLayout_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Layouts_RealSignupLayout_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Layouts_RealSignupLayout_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Layouts_RealSignupLayout_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Layouts_RealSignupLayout_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Layouts_RealSignupLayout_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Layouts_RealSignupLayout_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Layouts_RealSignupLayout_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

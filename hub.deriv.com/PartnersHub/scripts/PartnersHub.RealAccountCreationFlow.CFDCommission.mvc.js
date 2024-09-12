@@ -160,7 +160,7 @@ define("PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$view", ["@outsyste
                                 extendedProperties: {
                                     style: "font-size: 16px; font-weight: bold;"
                                 },
-                                text: ["To enable CFDs commission, set up your MT5 password"],
+                                text: [$text(getTranslation("w5Et4V_7ekuNEFI541nGmg#Value", "To enable CFDs commission, set up your MT5 password"))],
                                 _idProps: {
                                     service: idService,
                                     uuid: "2"
@@ -183,7 +183,7 @@ define("PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$view", ["@outsyste
                                 extendedProperties: {
                                     style: "margin-bottom: 0px; margin-top: 0px;"
                                 },
-                                text: ["Password"],
+                                text: [$text(getTranslation("Hb9Gdw4u8Eeak153q49qYA#Value", "Password"))],
                                 _idProps: {
                                     service: idService,
                                     uuid: "4"
@@ -309,7 +309,7 @@ define("PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$view", ["@outsyste
                                             inputType: /*Password*/ 1,
                                             mandatory: true,
                                             maxLength: 0,
-                                            prompt: "Password",
+                                            prompt: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("ryfwHuhUXEaeQiOWlRR9vQ#ValueExpression.1281629883.1", "Password"),
                                             style: model.getCachedValue(idService.getId("CreatePasswordInput.Style"), function() {
                                                 return (((OS.BuiltinFunctions.length(model.variables.passwordVar) === 0)) ? ("password-input__field") : (((model.variables.isPasswordValidVar) ? ("password-input__field password-input__field--success") : ("password-input__field password-input__field--failure"))));
                                             }, function() {
@@ -377,7 +377,7 @@ define("PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$view", ["@outsyste
                                     uuid: "13"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
-                            }, "Create password"))];
+                            }, $text(getTranslation("D7GIKBcNckmFNlI5AzX_eg#Value", "Create password"))))];
                         }, function() {
                             return [];
                         })];
@@ -701,6 +701,98 @@ define("PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$controller", ["@ou
 });
 
 
-define("PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "D7GIKBcNckmFNlI5AzX_eg#Value": "Passwort erstellen",
+        "ryfwHuhUXEaeQiOWlRR9vQ#ValueExpression.1281629883.1": "Passwort",
+        "Hb9Gdw4u8Eeak153q49qYA#Value": "Passwort",
+        "w5Et4V_7ekuNEFI541nGmg#Value": "Um die CFDs-Kommission zu aktivieren, richten Sie Ihr MT5-Passwort ein."
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "D7GIKBcNckmFNlI5AzX_eg#Value": "Crear contraseña",
+        "ryfwHuhUXEaeQiOWlRR9vQ#ValueExpression.1281629883.1": "Contraseña",
+        "Hb9Gdw4u8Eeak153q49qYA#Value": "Contraseña",
+        "w5Et4V_7ekuNEFI541nGmg#Value": "Para habilitar la comisión de CFDs, configura tu contraseña de MT5."
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "D7GIKBcNckmFNlI5AzX_eg#Value": "Créer un mot de passe",
+        "ryfwHuhUXEaeQiOWlRR9vQ#ValueExpression.1281629883.1": "Mot de passe",
+        "Hb9Gdw4u8Eeak153q49qYA#Value": "Mot de passe",
+        "w5Et4V_7ekuNEFI541nGmg#Value": "Pour activer la commission sur les CFD, configurez votre mot de passe MT5."
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "D7GIKBcNckmFNlI5AzX_eg#Value": "Crea password",
+        "ryfwHuhUXEaeQiOWlRR9vQ#ValueExpression.1281629883.1": "Password",
+        "Hb9Gdw4u8Eeak153q49qYA#Value": "Password",
+        "w5Et4V_7ekuNEFI541nGmg#Value": "Per abilitare la commissione sui CFD, imposta la tua password MT5."
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "D7GIKBcNckmFNlI5AzX_eg#Value": "Utwórz hasło",
+        "ryfwHuhUXEaeQiOWlRR9vQ#ValueExpression.1281629883.1": "Hasło",
+        "Hb9Gdw4u8Eeak153q49qYA#Value": "Hasło",
+        "w5Et4V_7ekuNEFI541nGmg#Value": "Aby włączyć prowizję CFD, skonfiguruj swoje hasło MT5."
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "D7GIKBcNckmFNlI5AzX_eg#Value": "Criar senha",
+        "ryfwHuhUXEaeQiOWlRR9vQ#ValueExpression.1281629883.1": "Senha",
+        "Hb9Gdw4u8Eeak153q49qYA#Value": "Palavra-passe",
+        "w5Et4V_7ekuNEFI541nGmg#Value": "Para ativar a comissão de CFDs, configure a sua senha do MT5."
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "D7GIKBcNckmFNlI5AzX_eg#Value": "Создать пароль",
+        "ryfwHuhUXEaeQiOWlRR9vQ#ValueExpression.1281629883.1": "Пароль",
+        "Hb9Gdw4u8Eeak153q49qYA#Value": "Пароль",
+        "w5Et4V_7ekuNEFI541nGmg#Value": "Чтобы активировать комиссию по CFD, настройте свой пароль MT5."
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$translationsResources", ["exports", "PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$translationsResources.de-DE", "PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$translationsResources.es-ES", "PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$translationsResources.fr-FR", "PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$translationsResources.it-IT", "PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$translationsResources.pl-PL", "PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$translationsResources.pt-PT", "PartnersHub.RealAccountCreationFlow.CFDCommission.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_RealAccountCreationFlow_CFDCommission_mvc_translationsResources_deDE, PartnersHub_RealAccountCreationFlow_CFDCommission_mvc_translationsResources_esES, PartnersHub_RealAccountCreationFlow_CFDCommission_mvc_translationsResources_frFR, PartnersHub_RealAccountCreationFlow_CFDCommission_mvc_translationsResources_itIT, PartnersHub_RealAccountCreationFlow_CFDCommission_mvc_translationsResources_plPL, PartnersHub_RealAccountCreationFlow_CFDCommission_mvc_translationsResources_ptPT, PartnersHub_RealAccountCreationFlow_CFDCommission_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_RealAccountCreationFlow_CFDCommission_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_RealAccountCreationFlow_CFDCommission_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_RealAccountCreationFlow_CFDCommission_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_RealAccountCreationFlow_CFDCommission_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_RealAccountCreationFlow_CFDCommission_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_RealAccountCreationFlow_CFDCommission_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_RealAccountCreationFlow_CFDCommission_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

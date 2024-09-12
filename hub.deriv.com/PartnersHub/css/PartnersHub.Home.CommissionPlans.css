@@ -1,0 +1,66 @@
+﻿.osui-carousel .splide__arrow{
+    display: none;
+}
+
+.desktop .learn-more {
+    font-size: 14px;
+    line-height: 22px;
+}
+.learn-more {
+    color: #222;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-decoration-line: underline;
+}
+
+.desktop .description {
+    font-size: 14px;
+    line-height: 22px;
+}
+.description {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.desktop .ph-card-title{
+    font-size: 14px;
+    line-height: 22px;
+}
+.ph-card-title {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.desktop .section-subtitle {
+    font-size: 16px;
+    line-height: 24px;
+}
+.section-subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.desktop .container-title {
+    font-size: 20px;
+    line-height: 30px;
+}
+.container-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.desktop .cfd-container {
+    gap: 16px;
+}
+.cfd-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

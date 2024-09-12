@@ -247,7 +247,7 @@ define("PartnersHub.ForgotPassword.ForgotPassword.mvc$view", ["@outsystems/runti
                                         extendedProperties: {
                                             style: "color: #333; font-size: 24px; font-style: normal; font-weight: 700; line-height: normal;"
                                         },
-                                        text: ["Forgot password"],
+                                        text: [$text(getTranslation("YDh0MyyAak+VvW7qL38MXw#Value", "Forgot password"))],
                                         _idProps: {
                                             service: idService,
                                             uuid: "7"
@@ -257,7 +257,7 @@ define("PartnersHub.ForgotPassword.ForgotPassword.mvc$view", ["@outsystems/runti
                                         extendedProperties: {
                                             style: "color: #333; font-size: 14px; font-style: normal; font-weight: 400; line-height: 24px; margin-top: 16px;"
                                         },
-                                        text: ["We’ll email you instructions to reset your password."],
+                                        text: [$text(getTranslation("rLgXlSTML0WrzZUE8llzYg#Value", "We’ll email you instructions to reset your password."))],
                                         _idProps: {
                                             service: idService,
                                             uuid: "8"
@@ -279,7 +279,7 @@ define("PartnersHub.ForgotPassword.ForgotPassword.mvc$view", ["@outsystems/runti
                                         extendedProperties: {
                                             style: "color: #4F575E; font-size: 16px; font-style: normal; font-weight: 400; line-height: 24px; margin-top: 0px;"
                                         },
-                                        text: ["Email"],
+                                        text: [$text(getTranslation("5zG3vVwLSUmzxK8J2_EDJQ#Value", "Email"))],
                                         _idProps: {
                                             service: idService,
                                             uuid: "10"
@@ -335,7 +335,7 @@ define("PartnersHub.ForgotPassword.ForgotPassword.mvc$view", ["@outsystems/runti
                                             uuid: "12"
                                         },
                                         _widgetRecordProvider: widgetsRecordProvider
-                                    }, "Send email"))))];
+                                    }, $text(getTranslation("vX58_Fqy6UG10yQ9Z1cm7w#Value", "Send email"))))))];
                                 }),
                                 tabletContent: PlaceholderContent.Empty,
                                 mobileContent: new PlaceholderContent(function() {
@@ -428,7 +428,7 @@ define("PartnersHub.ForgotPassword.ForgotPassword.mvc$view", ["@outsystems/runti
                                                     extendedProperties: {
                                                         style: "color: #333; font-size: 14px; font-style: normal; font-weight: 400; line-height: 24px;"
                                                     },
-                                                    text: ["We’ll email you instructions to reset your password."],
+                                                    text: [$text(getTranslation("FWCTvECwVEi6umdPrnYO+g#Value", "We’ll email you instructions to reset your password."))],
                                                     _idProps: {
                                                         service: idService,
                                                         uuid: "18"
@@ -450,7 +450,7 @@ define("PartnersHub.ForgotPassword.ForgotPassword.mvc$view", ["@outsystems/runti
                                                     extendedProperties: {
                                                         style: "color: #4F575E; font-size: 16px; font-style: normal; font-weight: 400; line-height: 24px; margin-top: 0px;"
                                                     },
-                                                    text: ["Email"],
+                                                    text: [$text(getTranslation("sXKPoLUybE2FHFmsCMZ4yg#Value", "Email"))],
                                                     _idProps: {
                                                         service: idService,
                                                         uuid: "20"
@@ -500,7 +500,7 @@ define("PartnersHub.ForgotPassword.ForgotPassword.mvc$view", ["@outsystems/runti
                                                         uuid: "22"
                                                     },
                                                     _widgetRecordProvider: widgetsRecordProvider
-                                                }, "Send email"))))];
+                                                }, $text(getTranslation("0B5RuWgJTUiealfNUe3R0A#Value", "Send email"))))))];
                                             })
                                         },
                                         _dependencies: [asPrimitiveValue(model.variables.forgotPasswordEmailVar)]
@@ -855,6 +855,119 @@ define("PartnersHub.ForgotPassword.ForgotPassword.mvc$controller", ["@outsystems
 });
 
 
-define("PartnersHub.ForgotPassword.ForgotPassword.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.ForgotPassword.ForgotPassword.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "0B5RuWgJTUiealfNUe3R0A#Value": "E-Mail senden",
+        "sXKPoLUybE2FHFmsCMZ4yg#Value": "E-Mail",
+        "FWCTvECwVEi6umdPrnYO+g#Value": "Wir senden Ihnen Anweisungen zum Zurücksetzen Ihres Passworts per E-Mail.",
+        "vX58_Fqy6UG10yQ9Z1cm7w#Value": "E-Mail senden",
+        "5zG3vVwLSUmzxK8J2_EDJQ#Value": "E-Mail",
+        "rLgXlSTML0WrzZUE8llzYg#Value": "Wir werden Ihnen Anweisungen zum Zurücksetzen Ihres Passworts per E-Mail senden.",
+        "YDh0MyyAak+VvW7qL38MXw#Value": "Passwort vergessen"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ForgotPassword.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "0B5RuWgJTUiealfNUe3R0A#Value": "Enviar correo electrónico",
+        "sXKPoLUybE2FHFmsCMZ4yg#Value": "Correo electrónico",
+        "FWCTvECwVEi6umdPrnYO+g#Value": "Te enviaremos instrucciones para restablecer tu contraseña por correo electrónico.",
+        "vX58_Fqy6UG10yQ9Z1cm7w#Value": "Enviar correo electrónico",
+        "5zG3vVwLSUmzxK8J2_EDJQ#Value": "Correo electrónico",
+        "rLgXlSTML0WrzZUE8llzYg#Value": "Te enviaremos por correo electrónico las instrucciones para restablecer tu contraseña.",
+        "YDh0MyyAak+VvW7qL38MXw#Value": "Olvidé mi contraseña"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ForgotPassword.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "0B5RuWgJTUiealfNUe3R0A#Value": "Envoyer un e-mail",
+        "sXKPoLUybE2FHFmsCMZ4yg#Value": "E-mail",
+        "FWCTvECwVEi6umdPrnYO+g#Value": "Nous vous enverrons des instructions par e-mail pour réinitialiser votre mot de passe.",
+        "vX58_Fqy6UG10yQ9Z1cm7w#Value": "Envoyer un e-mail",
+        "5zG3vVwLSUmzxK8J2_EDJQ#Value": "E-mail",
+        "rLgXlSTML0WrzZUE8llzYg#Value": "Nous vous enverrons par e-mail des instructions pour réinitialiser votre mot de passe.",
+        "YDh0MyyAak+VvW7qL38MXw#Value": "Mot de passe oublié"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ForgotPassword.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "0B5RuWgJTUiealfNUe3R0A#Value": "Inviare un\'email",
+        "sXKPoLUybE2FHFmsCMZ4yg#Value": "Email",
+        "FWCTvECwVEi6umdPrnYO+g#Value": "Ti invieremo istruzioni per reimpostare la tua password via email.",
+        "vX58_Fqy6UG10yQ9Z1cm7w#Value": "Inviare un\'email",
+        "5zG3vVwLSUmzxK8J2_EDJQ#Value": "Email",
+        "rLgXlSTML0WrzZUE8llzYg#Value": "Ti invieremo un\'email con le istruzioni per reimpostare la tua password.",
+        "YDh0MyyAak+VvW7qL38MXw#Value": "Password dimenticato"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ForgotPassword.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "0B5RuWgJTUiealfNUe3R0A#Value": "Wyślij e-mail",
+        "sXKPoLUybE2FHFmsCMZ4yg#Value": "E-mail",
+        "FWCTvECwVEi6umdPrnYO+g#Value": "Wyślemy Ci instrukcje dotyczące resetowania hasła na adres e-mail.",
+        "vX58_Fqy6UG10yQ9Z1cm7w#Value": "Wyślij e-mail",
+        "5zG3vVwLSUmzxK8J2_EDJQ#Value": "E-mail",
+        "rLgXlSTML0WrzZUE8llzYg#Value": "Wyślemy Ci instrukcje dotyczące resetowania hasła na adres e-mail.",
+        "YDh0MyyAak+VvW7qL38MXw#Value": "Zapomniałem hasła"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ForgotPassword.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "0B5RuWgJTUiealfNUe3R0A#Value": "Enviar e-mail",
+        "sXKPoLUybE2FHFmsCMZ4yg#Value": "Email",
+        "FWCTvECwVEi6umdPrnYO+g#Value": "Enviaremos instruções para redefinir a sua senha por e-mail.",
+        "vX58_Fqy6UG10yQ9Z1cm7w#Value": "Enviar e-mail",
+        "5zG3vVwLSUmzxK8J2_EDJQ#Value": "Email",
+        "rLgXlSTML0WrzZUE8llzYg#Value": "Enviaremos por e-mail as instruções para redefinir a sua palavra-passe.",
+        "YDh0MyyAak+VvW7qL38MXw#Value": "Esqueci a senha"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ForgotPassword.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "0B5RuWgJTUiealfNUe3R0A#Value": "Отправить электронное письмо",
+        "sXKPoLUybE2FHFmsCMZ4yg#Value": "Электронная почта",
+        "FWCTvECwVEi6umdPrnYO+g#Value": "Мы отправим вам инструкции по сбросу пароля на электронную почту.",
+        "vX58_Fqy6UG10yQ9Z1cm7w#Value": "Отправить электронное письмо",
+        "5zG3vVwLSUmzxK8J2_EDJQ#Value": "Электронная почта",
+        "rLgXlSTML0WrzZUE8llzYg#Value": "Мы отправим вам инструкции по сбросу пароля по электронной почте.",
+        "YDh0MyyAak+VvW7qL38MXw#Value": "Забыли пароль"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ForgotPassword.mvc$translationsResources", ["exports", "PartnersHub.ForgotPassword.ForgotPassword.mvc$translationsResources.de-DE", "PartnersHub.ForgotPassword.ForgotPassword.mvc$translationsResources.es-ES", "PartnersHub.ForgotPassword.ForgotPassword.mvc$translationsResources.fr-FR", "PartnersHub.ForgotPassword.ForgotPassword.mvc$translationsResources.it-IT", "PartnersHub.ForgotPassword.ForgotPassword.mvc$translationsResources.pl-PL", "PartnersHub.ForgotPassword.ForgotPassword.mvc$translationsResources.pt-PT", "PartnersHub.ForgotPassword.ForgotPassword.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_ForgotPassword_ForgotPassword_mvc_translationsResources_deDE, PartnersHub_ForgotPassword_ForgotPassword_mvc_translationsResources_esES, PartnersHub_ForgotPassword_ForgotPassword_mvc_translationsResources_frFR, PartnersHub_ForgotPassword_ForgotPassword_mvc_translationsResources_itIT, PartnersHub_ForgotPassword_ForgotPassword_mvc_translationsResources_plPL, PartnersHub_ForgotPassword_ForgotPassword_mvc_translationsResources_ptPT, PartnersHub_ForgotPassword_ForgotPassword_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_ForgotPassword_ForgotPassword_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_ForgotPassword_ForgotPassword_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_ForgotPassword_ForgotPassword_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_ForgotPassword_ForgotPassword_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_ForgotPassword_ForgotPassword_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_ForgotPassword_ForgotPassword_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_ForgotPassword_ForgotPassword_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

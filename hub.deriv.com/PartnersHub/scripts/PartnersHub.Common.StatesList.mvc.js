@@ -1,4 +1,4 @@
-define("PartnersHub.Common.StatesList.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure", "PartnersHub.controller$SendGetSettings", "PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "PartnersHub.controller$SendAuthorize", "PartnersHub.model$ST_8401e8b399f219fdd97b12284d97703eStructure", "PartnersHub.controller$SendStatesList", "PartnersHub.controller$MountDerivAPIClient"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel) {
+define("PartnersHub.Common.StatesList.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.controller", "PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.model$ST_8401e8b399f219fdd97b12284d97703eStructure", "PartnersHub.controller$SendStatesList", "PartnersHub.controller$MountDerivAPIClient"], function(OSRuntimeCore, PartnersHubModel, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubController) {
     var OS = OSRuntimeCore;
 
 
@@ -58,7 +58,7 @@ define("PartnersHub.Common.StatesList.mvc$model", ["@outsystems/runtime-core-js"
     return new OS.Model.ModelFactory(Model);
 });
 
-define("PartnersHub.Common.StatesList.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "react", "@outsystems/runtime-view-js", "PartnersHub.Common.StatesList.mvc$model", "PartnersHub.Common.StatesList.mvc$controller", "PartnersHub.clientVariables", "@outsystems/runtime-widgets-js", "OutSystemsUI.Interaction.Search.mvc$view", "PartnersHub.Common.LoaderBlock.mvc$view", "PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure", "PartnersHub.controller$SendGetSettings", "PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "PartnersHub.controller$SendAuthorize", "PartnersHub.model$ST_8401e8b399f219fdd97b12284d97703eStructure", "PartnersHub.controller$SendStatesList", "PartnersHub.controller$MountDerivAPIClient"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, React, OSView, PartnersHub_Common_StatesList_mvc_model, PartnersHub_Common_StatesList_mvc_controller, PartnersHubClientVariables, OSWidgets, OutSystemsUI_Interaction_Search_mvc_view, PartnersHub_Common_LoaderBlock_mvc_view) {
+define("PartnersHub.Common.StatesList.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "react", "@outsystems/runtime-view-js", "PartnersHub.Common.StatesList.mvc$model", "PartnersHub.Common.StatesList.mvc$controller", "PartnersHub.clientVariables", "@outsystems/runtime-widgets-js", "OutSystemsUI.Interaction.Search.mvc$view", "PartnersHub.Common.LoaderBlock.mvc$view", "PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.model$ST_8401e8b399f219fdd97b12284d97703eStructure", "PartnersHub.controller$SendStatesList", "PartnersHub.controller$MountDerivAPIClient"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, React, OSView, PartnersHub_Common_StatesList_mvc_model, PartnersHub_Common_StatesList_mvc_controller, PartnersHubClientVariables, OSWidgets, OutSystemsUI_Interaction_Search_mvc_view, PartnersHub_Common_LoaderBlock_mvc_view) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -188,7 +188,7 @@ define("PartnersHub.Common.StatesList.mvc$view", ["@outsystems/runtime-core-js",
 
                                 ;
                             },
-                            prompt: "Search",
+                            prompt: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("L6DcTU+GSkWmPl1ilbXMiQ#ValueExpression.-1822469688.1", "Search"),
                             style: "form-control",
                             variable: model.createVariable(OS.DataTypes.DataTypes.Text, model.variables.searchedStateVar, function(value) {
                                 model.variables.searchedStateVar = value;
@@ -367,7 +367,7 @@ define("PartnersHub.Common.StatesList.mvc$view", ["@outsystems/runtime-core-js",
 
     return View;
 });
-define("PartnersHub.Common.StatesList.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Common.StatesList.mvc$translationsResources", "PartnersHub.Common.StatesList.mvc$controller.OnSearch.JavaScript1JS", "PartnersHub.Common.StatesList.mvc$controller.OnReady.JavaScript1JS", "PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure", "PartnersHub.controller$SendGetSettings", "PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "PartnersHub.controller$SendAuthorize", "PartnersHub.model$ST_8401e8b399f219fdd97b12284d97703eStructure", "PartnersHub.controller$SendStatesList", "PartnersHub.controller$MountDerivAPIClient"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Common_StatesList_mvc_TranslationsResources, PartnersHub_Common_StatesList_mvc_controller_OnSearch_JavaScript1JS, PartnersHub_Common_StatesList_mvc_controller_OnReady_JavaScript1JS) {
+define("PartnersHub.Common.StatesList.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Common.StatesList.mvc$translationsResources", "PartnersHub.Common.StatesList.mvc$controller.OnSearch.JavaScript1JS", "PartnersHub.Common.StatesList.mvc$controller.OnReady.GetAuthTokenJS", "PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.model$ST_8401e8b399f219fdd97b12284d97703eStructure", "PartnersHub.controller$SendStatesList", "PartnersHub.controller$MountDerivAPIClient"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Common_StatesList_mvc_TranslationsResources, PartnersHub_Common_StatesList_mvc_controller_OnSearch_JavaScript1JS, PartnersHub_Common_StatesList_mvc_controller_OnReady_GetAuthTokenJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -498,14 +498,13 @@ define("PartnersHub.Common.StatesList.mvc$controller", ["@outsystems/runtime-cor
                             return OS.Flow.tryFinally(function() {
                                 controller.ensureControllerAlive("OnReady");
                                 callContext = controller.callContext(callContext);
-                                var sendGetSettingsVar = new OS.DataTypes.VariableHolder();
-                                var sendAuthorizeVar = new OS.DataTypes.VariableHolder();
+                                var getSettingsVar = new OS.DataTypes.VariableHolder();
                                 var sendStatesListVar = new OS.DataTypes.VariableHolder();
-                                var javaScript1JSResult = new OS.DataTypes.VariableHolder();
+                                var getAuthTokenJSResult = new OS.DataTypes.VariableHolder();
                                 return OS.Flow.executeAsyncFlow(function() {
-                                    javaScript1JSResult.value = OS.Logger.startActiveSpan("JavaScript1", function(span) {
+                                    getAuthTokenJSResult.value = OS.Logger.startActiveSpan("GetAuthToken", function(span) {
                                         if (span) {
-                                            span.setAttribute("code.function", "JavaScript1");
+                                            span.setAttribute("code.function", "GetAuthToken");
                                             span.setAttribute("outsystems.function.key", "cbedcff9-7151-460d-aa7f-ce0a594bce2c");
                                             span.setAttribute("outsystems.function.owner.name", "PartnersHub");
                                             span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
@@ -513,10 +512,10 @@ define("PartnersHub.Common.StatesList.mvc$controller", ["@outsystems/runtime-cor
                                         }
 
                                         try {
-                                            return controller.safeExecuteJSNode(PartnersHub_Common_StatesList_mvc_controller_OnReady_JavaScript1JS, "JavaScript1", "OnReady", {
+                                            return controller.safeExecuteJSNode(PartnersHub_Common_StatesList_mvc_controller_OnReady_GetAuthTokenJS, "GetAuthToken", "OnReady", {
                                                 token: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text)
                                             }, function($parameters) {
-                                                var jsNodeResult = new(controller.constructor.getVariableGroupType("PartnersHub.Common.StatesList.OnReady$javaScript1JSResult"))();
+                                                var jsNodeResult = new(controller.constructor.getVariableGroupType("PartnersHub.Common.StatesList.OnReady$getAuthTokenJSResult"))();
                                                 jsNodeResult.tokenOut = OS.DataConversion.JSNodeParamConverter.from($parameters.token, OS.DataTypes.DataTypes.Text);
                                                 return jsNodeResult;
                                             }, {}, {});
@@ -530,26 +529,16 @@ define("PartnersHub.Common.StatesList.mvc$controller", ["@outsystems/runtime-cor
                                     }, 1);
                                     // Execute Action: MountDerivAPIClient
                                     PartnersHubController.default.mountDerivAPIClient$Action(callContext);
-                                    // Execute Action: SendAuthorize
+                                    // Execute Action: GetSettings
                                     model.flush();
-                                    return PartnersHubController.default.sendAuthorize$Action(function() {
-                                        var rec = new PartnersHubModel.ST_e00c986a2a7690520557f1ea58ae1d82Structure();
-                                        rec.authorizeAttr = javaScript1JSResult.value.tokenOut;
-                                        return rec;
-                                    }(), callContext).then(function(value) {
-                                        sendAuthorizeVar.value = value;
-                                    }).then(function() {
-                                        // Execute Action: SendGetSettings
-                                        model.flush();
-                                        return PartnersHubController.default.sendGetSettings$Action(callContext).then(function(value) {
-                                            sendGetSettingsVar.value = value;
-                                        });
+                                    return RESTAPIWebsocketController.default.getSettings$Action(PartnersHubClientVariables.getServer(), getAuthTokenJSResult.value.tokenOut, PartnersHubClientVariables.getAppId(), "EN", callContext).then(function(value) {
+                                        getSettingsVar.value = value;
                                     }).then(function() {
                                         // Execute Action: SendStatesList
                                         model.flush();
                                         return PartnersHubController.default.sendStatesList$Action(function() {
                                             var rec = new PartnersHubModel.ST_8401e8b399f219fdd97b12284d97703eStructure();
-                                            rec.states_listAttr = sendGetSettingsVar.value.getSettingsResponseOut.country_codeAttr;
+                                            rec.states_listAttr = getSettingsVar.value.responseOut.get_settingsAttr.country_codeAttr;
                                             return rec;
                                         }(), callContext).then(function(value) {
                                             sendStatesListVar.value = value;
@@ -821,7 +810,7 @@ define("PartnersHub.Common.StatesList.mvc$controller", ["@outsystems/runtime-cor
                 return false;
             }
         }]);
-        Controller.registerVariableGroupType("PartnersHub.Common.StatesList.OnReady$javaScript1JSResult", [{
+        Controller.registerVariableGroupType("PartnersHub.Common.StatesList.OnReady$getAuthTokenJSResult", [{
             name: "token",
             attrName: "tokenOut",
             mandatory: true,
@@ -858,7 +847,7 @@ define("PartnersHub.Common.StatesList.mvc$controller.OnSearch.JavaScript1JS", []
     };
 });
 
-define("PartnersHub.Common.StatesList.mvc$controller.OnReady.JavaScript1JS", [], function() {
+define("PartnersHub.Common.StatesList.mvc$controller.OnReady.GetAuthTokenJS", [], function() {
     return function($parameters, $actions, $roles, $public) {
         const token = localStorage.getItem('token');
 
@@ -869,6 +858,77 @@ define("PartnersHub.Common.StatesList.mvc$controller.OnReady.JavaScript1JS", [],
 });
 
 
-define("PartnersHub.Common.StatesList.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Common.StatesList.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "L6DcTU+GSkWmPl1ilbXMiQ#ValueExpression.-1822469688.1": "Suche"
+    };
+});
+
+define("PartnersHub.Common.StatesList.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "L6DcTU+GSkWmPl1ilbXMiQ#ValueExpression.-1822469688.1": "Buscar"
+    };
+});
+
+define("PartnersHub.Common.StatesList.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "L6DcTU+GSkWmPl1ilbXMiQ#ValueExpression.-1822469688.1": "Recherche"
+    };
+});
+
+define("PartnersHub.Common.StatesList.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "L6DcTU+GSkWmPl1ilbXMiQ#ValueExpression.-1822469688.1": "Cerca"
+    };
+});
+
+define("PartnersHub.Common.StatesList.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "L6DcTU+GSkWmPl1ilbXMiQ#ValueExpression.-1822469688.1": "Szukaj"
+    };
+});
+
+define("PartnersHub.Common.StatesList.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "L6DcTU+GSkWmPl1ilbXMiQ#ValueExpression.-1822469688.1": "Pesquisar"
+    };
+});
+
+define("PartnersHub.Common.StatesList.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "L6DcTU+GSkWmPl1ilbXMiQ#ValueExpression.-1822469688.1": "Поиск"
+    };
+});
+
+define("PartnersHub.Common.StatesList.mvc$translationsResources", ["exports", "PartnersHub.Common.StatesList.mvc$translationsResources.de-DE", "PartnersHub.Common.StatesList.mvc$translationsResources.es-ES", "PartnersHub.Common.StatesList.mvc$translationsResources.fr-FR", "PartnersHub.Common.StatesList.mvc$translationsResources.it-IT", "PartnersHub.Common.StatesList.mvc$translationsResources.pl-PL", "PartnersHub.Common.StatesList.mvc$translationsResources.pt-PT", "PartnersHub.Common.StatesList.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Common_StatesList_mvc_translationsResources_deDE, PartnersHub_Common_StatesList_mvc_translationsResources_esES, PartnersHub_Common_StatesList_mvc_translationsResources_frFR, PartnersHub_Common_StatesList_mvc_translationsResources_itIT, PartnersHub_Common_StatesList_mvc_translationsResources_plPL, PartnersHub_Common_StatesList_mvc_translationsResources_ptPT, PartnersHub_Common_StatesList_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Common_StatesList_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Common_StatesList_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Common_StatesList_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Common_StatesList_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Common_StatesList_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Common_StatesList_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Common_StatesList_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

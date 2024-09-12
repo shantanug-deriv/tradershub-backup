@@ -1,4 +1,4 @@
-define("tradershub.RealAccountCreation.AddressDetails.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "OutSystemsUI.model", "tradershub.controller", "tradershub.model$ST_27f8ec64ca98713144ae178da75c54abStructure", "tradershub.model$RL_f8f18d18d5de26fb445609e3f88624db", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.model$RL_c0f17d75c546075264f5d075e00ba65b", "OutSystemsUI.model$ST_4e53cb8815b86020ced1d2f2652c9b1dStructure", "tradershub.model$ST_a99e5b4d6b08ee1b808de2fbce23bf4fStructure", "tradershub.model$ST_771888a7c88d31c2c35d9cb462eaf9dfStructure", "tradershub.model$ST_69d197f741008559fd9136ea6f31ca4cStructure", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting", "tradershub.controller$DerivApiSendMessage"], function(OSRuntimeCore, tradershubModel, OutSystemsUIModel, tradershubController) {
+define("tradershub.RealAccountCreation.AddressDetails.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "OutSystemsUI.controller", "OutSystemsUI.model", "tradershub.controller", "OutSystemsUI.controller$IsDesktop", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.model$ST_27f8ec64ca98713144ae178da75c54abStructure", "tradershub.model$RL_f8f18d18d5de26fb445609e3f88624db", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", "tradershub.model$RL_c0f17d75c546075264f5d075e00ba65b", "OutSystemsUI.model$ST_4e53cb8815b86020ced1d2f2652c9b1dStructure", "tradershub.model$ST_a99e5b4d6b08ee1b808de2fbce23bf4fStructure", "tradershub.model$ST_771888a7c88d31c2c35d9cb462eaf9dfStructure", "tradershub.model$ST_69d197f741008559fd9136ea6f31ca4cStructure", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting", "tradershub.controller$DerivApiSendMessage"], function(OSRuntimeCore, tradershubModel, OutSystemsUIController, OutSystemsUIModel, tradershubController) {
     var OS = OSRuntimeCore;
 
 
@@ -9,14 +9,11 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$model", ["@outsystems/
                 return [
                     this.attr("StateList", "stateListVar", "StateList", true, false, OS.DataTypes.DataTypes.RecordList, function() {
                         return OS.DataTypes.ImmutableBase.getData(new tradershubModel.RL_f8f18d18d5de26fb445609e3f88624db());
-                    }, false, tradershubModel.RL_f8f18d18d5de26fb445609e3f88624db)
+                    }, false, tradershubModel.RL_f8f18d18d5de26fb445609e3f88624db),
+                    this.attr("IsStateSelectionPopopOpen", "isStateSelectionPopopOpenVar", "IsStateSelectionPopopOpen", true, false, OS.DataTypes.DataTypes.Boolean, function() {
+                        return false;
+                    }, false)
                 ].concat(OS.DataTypes.GenericRecord.attributesToDeclare.call(this));
-            }
-
-            static fromStructure(str) {
-                return new VariablesRecord(new VariablesRecord.RecordClass({
-                    stateListVar: OS.DataTypes.ImmutableBase.getData(str)
-                }));
             }
 
         }
@@ -31,6 +28,7 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$model", ["@outsystems/
                 AddressForm: OS.Model.ValidationWidgetRecord,
                 Input_Address: OS.Model.ValidationWidgetRecord,
                 Input_Town: OS.Model.ValidationWidgetRecord,
+                Input_InputState: OS.Model.ValidationWidgetRecord,
                 Input_PostCode: OS.Model.ValidationWidgetRecord
             };
         }
@@ -58,7 +56,7 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$model", ["@outsystems/
     return new OS.Model.ModelFactory(Model);
 });
 
-define("tradershub.RealAccountCreation.AddressDetails.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.model", "react", "@outsystems/runtime-view-js", "tradershub.RealAccountCreation.AddressDetails.mvc$model", "tradershub.RealAccountCreation.AddressDetails.mvc$controller", "tradershub.clientVariables", "tradershub.Layouts.RealAccountCreationLayout.mvc$view", "@outsystems/runtime-widgets-js", "OutSystemsUI.Interaction.DropdownSearch.mvc$view", "tradershub.model$ST_27f8ec64ca98713144ae178da75c54abStructure", "tradershub.model$RL_f8f18d18d5de26fb445609e3f88624db", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.model$RL_c0f17d75c546075264f5d075e00ba65b", "OutSystemsUI.model$ST_4e53cb8815b86020ced1d2f2652c9b1dStructure", "tradershub.model$ST_a99e5b4d6b08ee1b808de2fbce23bf4fStructure", "tradershub.model$ST_771888a7c88d31c2c35d9cb462eaf9dfStructure", "tradershub.model$ST_69d197f741008559fd9136ea6f31ca4cStructure", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting", "tradershub.controller$DerivApiSendMessage"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIModel, React, OSView, tradershub_RealAccountCreation_AddressDetails_mvc_model, tradershub_RealAccountCreation_AddressDetails_mvc_controller, tradershubClientVariables, tradershub_Layouts_RealAccountCreationLayout_mvc_view, OSWidgets, OutSystemsUI_Interaction_DropdownSearch_mvc_view) {
+define("tradershub.RealAccountCreation.AddressDetails.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.controller", "OutSystemsUI.model", "react", "@outsystems/runtime-view-js", "tradershub.RealAccountCreation.AddressDetails.mvc$model", "tradershub.RealAccountCreation.AddressDetails.mvc$controller", "tradershub.clientVariables", "tradershub.Layouts.RealAccountCreationLayout.mvc$view", "@outsystems/runtime-widgets-js", "OutSystemsUI.Interaction.DropdownSearch.mvc$view", "OutSystemsUI.Interaction.InputWithIcon.mvc$view", "tradershub.Common.StateSelector.mvc$view", "OutSystemsUI.controller$IsDesktop", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.model$ST_27f8ec64ca98713144ae178da75c54abStructure", "tradershub.model$RL_f8f18d18d5de26fb445609e3f88624db", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", "tradershub.model$RL_c0f17d75c546075264f5d075e00ba65b", "OutSystemsUI.model$ST_4e53cb8815b86020ced1d2f2652c9b1dStructure", "tradershub.model$ST_a99e5b4d6b08ee1b808de2fbce23bf4fStructure", "tradershub.model$ST_771888a7c88d31c2c35d9cb462eaf9dfStructure", "tradershub.model$ST_69d197f741008559fd9136ea6f31ca4cStructure", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting", "tradershub.controller$DerivApiSendMessage"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIController, OutSystemsUIModel, React, OSView, tradershub_RealAccountCreation_AddressDetails_mvc_model, tradershub_RealAccountCreation_AddressDetails_mvc_controller, tradershubClientVariables, tradershub_Layouts_RealAccountCreationLayout_mvc_view, OSWidgets, OutSystemsUI_Interaction_DropdownSearch_mvc_view, OutSystemsUI_Interaction_InputWithIcon_mvc_view, tradershub_Common_StateSelector_mvc_view) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -89,7 +87,7 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$view", ["@outsystems/r
         }
 
         static getBlocks() {
-            return [tradershub_Layouts_RealAccountCreationLayout_mvc_view, OutSystemsUI_Interaction_DropdownSearch_mvc_view];
+            return [tradershub_Layouts_RealAccountCreationLayout_mvc_view, OutSystemsUI_Interaction_DropdownSearch_mvc_view, OutSystemsUI_Interaction_InputWithIcon_mvc_view, tradershub_Common_StateSelector_mvc_view];
         }
 
         get modelFactory() {
@@ -339,7 +337,18 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$view", ["@outsystems/r
                                 uuid: "13"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
-                        })), React.createElement(OutSystemsUI_Interaction_DropdownSearch_mvc_view, {
+                        })), React.createElement(OSWidgets.Container, {
+                            align: /*Default*/ 0,
+                            animate: true,
+                            visible: model.getCachedValue(idService.getId("60ZK39hVTkGoGO_rnwqJ3Q.Visible"), function() {
+                                return OutSystemsUIController.default.isDesktop$Action(callContext).isDesktopOut;
+                            }),
+                            _idProps: {
+                                service: idService,
+                                uuid: "14"
+                            },
+                            _widgetRecordProvider: widgetsRecordProvider
+                        }, React.createElement(OutSystemsUI_Interaction_DropdownSearch_mvc_view, {
                             getOwnerSpan: function() {
                                 return _this.getChildSpan("render");
                             },
@@ -347,8 +356,16 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$view", ["@outsystems/r
                                 return _this.getChildSpan("destroy");
                             },
                             inputs: {
-                                Prompt: "Select your state/province",
-                                StartingSelection: model.getCachedValue(idService.getId("Kl2O0Uukbkm8F27POdRd6Q.StartingSelection"), function() {
+                                OptionsList: model.getCachedValue(idService.getId("S131jaXsakKJEDXPxYyfcg.OptionsList"), function() {
+                                    return OS.DataConversion.JSConversions.typeConvertRecordList(model.variables.stateListVar, new tradershubModel.RL_c0f17d75c546075264f5d075e00ba65b(), function(source, target) {
+                                        target.valueAttr = source.valueAttr;
+                                        target.labelAttr = source.textAttr;
+                                        return target;
+                                    });
+                                }, function() {
+                                    return model.variables.stateListVar;
+                                }),
+                                StartingSelection: model.getCachedValue(idService.getId("S131jaXsakKJEDXPxYyfcg.StartingSelection"), function() {
                                     return function() {
                                         var list = new tradershubModel.RL_c0f17d75c546075264f5d075e00ba65b();
                                         list.pushAll([function() {
@@ -364,15 +381,7 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$view", ["@outsystems/r
                                 }, function() {
                                     return tradershubClientVariables.getRealSignupAddressStateLabel();
                                 }),
-                                OptionsList: model.getCachedValue(idService.getId("Kl2O0Uukbkm8F27POdRd6Q.OptionsList"), function() {
-                                    return OS.DataConversion.JSConversions.typeConvertRecordList(model.variables.stateListVar, new tradershubModel.RL_c0f17d75c546075264f5d075e00ba65b(), function(source, target) {
-                                        target.valueAttr = source.valueAttr;
-                                        target.labelAttr = source.textAttr;
-                                        return target;
-                                    });
-                                }, function() {
-                                    return model.variables.stateListVar;
-                                })
+                                Prompt: "Select your state/province"
                             },
                             events: {
                                 _handleError: function(ex) {
@@ -391,12 +400,102 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$view", ["@outsystems/r
                             },
                             _idProps: {
                                 service: idService,
-                                uuid: "14",
+                                uuid: "15",
                                 alias: "2"
                             },
                             _widgetRecordProvider: widgetsRecordProvider,
                             _dependencies: []
                         })), React.createElement(OSWidgets.Container, {
+                            align: /*Default*/ 0,
+                            animate: true,
+                            visible: model.getCachedValue(idService.getId("235ZdWMqyEqSDx00tkdX2g.Visible"), function() {
+                                return !(OutSystemsUIController.default.isDesktop$Action(callContext).isDesktopOut);
+                            }),
+                            _idProps: {
+                                service: idService,
+                                uuid: "16"
+                            },
+                            _widgetRecordProvider: widgetsRecordProvider
+                        }, React.createElement(OutSystemsUI_Interaction_InputWithIcon_mvc_view, {
+                            getOwnerSpan: function() {
+                                return _this.getChildSpan("render");
+                            },
+                            getOwnerDisposeSpan: function() {
+                                return _this.getChildSpan("destroy");
+                            },
+                            inputs: {
+                                AlignIconRight: true
+                            },
+                            events: {
+                                _handleError: function(ex) {
+                                    controller.handleError(ex);
+                                }
+                            },
+                            _validationProps: {
+                                validationService: validationService,
+                                validationParentId: idService.getId("AddressForm")
+                            },
+                            _idProps: {
+                                service: idService,
+                                uuid: "17",
+                                alias: "3"
+                            },
+                            _widgetRecordProvider: widgetsRecordProvider,
+                            placeholders: {
+                                icon: PlaceholderContent.Empty,
+                                input: new PlaceholderContent(function() {
+                                    return [React.createElement(OSWidgets.Input, {
+                                        _validationProps: {
+                                            validationService: validationService,
+                                            validationParentId: idService.getId("AddressForm")
+                                        },
+                                        enabled: true,
+                                        extendedEvents: {
+                                            onClick: function() {
+                                                var eventHandlerContext = callContext.clone();
+                                                controller.stateOnClickMobile$Action(controller.callContext(eventHandlerContext));
+
+                                                ;
+                                            }
+                                        },
+                                        gridProperties: {
+                                            classes: "OSFillParent"
+                                        },
+                                        inputType: /*Text*/ 0,
+                                        mandatory: false,
+                                        maxLength: 50,
+                                        prompt: "Select your state/province",
+                                        style: "form-control",
+                                        variable: model.createVariable(OS.DataTypes.DataTypes.Text, tradershubClientVariables.getRealSignupAddressStateLabel(), function(value) {
+                                            tradershubClientVariables.setRealSignupAddressStateLabel(value);
+                                        }),
+                                        _idProps: {
+                                            service: idService,
+                                            name: "Input_InputState"
+                                        },
+                                        _widgetRecordProvider: widgetsRecordProvider
+                                    }), React.createElement(OSWidgets.Image, {
+                                        extendedEvents: {
+                                            onClick: function() {
+                                                var eventHandlerContext = callContext.clone();
+                                                controller.stateOnClickMobile$Action(controller.callContext(eventHandlerContext));
+
+                                                ;
+                                            }
+                                        },
+                                        image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.arrowdown.svg"),
+                                        style: "cursor-pointer",
+                                        type: /*Static*/ 0,
+                                        _idProps: {
+                                            service: idService,
+                                            uuid: "19"
+                                        },
+                                        _widgetRecordProvider: widgetsRecordProvider
+                                    })];
+                                })
+                            },
+                            _dependencies: [asPrimitiveValue(tradershubClientVariables.getRealSignupAddressStateLabel())]
+                        }))), React.createElement(OSWidgets.Container, {
                             align: /*Default*/ 0,
                             animate: false,
                             extendedProperties: {
@@ -420,7 +519,7 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$view", ["@outsystems/r
                             targetWidget: "Input_PostCode",
                             _idProps: {
                                 service: idService,
-                                uuid: "16"
+                                uuid: "21"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         }, React.createElement(OSWidgets.Text, {
@@ -430,7 +529,7 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$view", ["@outsystems/r
                             text: ["Postal/ZIP code"],
                             _idProps: {
                                 service: idService,
-                                uuid: "17"
+                                uuid: "22"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
                         })), React.createElement(OSWidgets.Input, {
@@ -486,20 +585,133 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$view", ["@outsystems/r
                             visible: true,
                             _idProps: {
                                 service: idService,
-                                uuid: "20"
+                                uuid: "25"
                             },
                             _widgetRecordProvider: widgetsRecordProvider
-                        }, "Next")))];
+                        }, "Next"))), React.createElement(OSWidgets.Popup, {
+                            showPopup: model.variables.isStateSelectionPopopOpenVar,
+                            style: "popup-dialog popup-dialog__mobile",
+                            _idProps: {
+                                service: idService,
+                                uuid: "26"
+                            },
+                            _widgetRecordProvider: widgetsRecordProvider
+                        }, React.createElement(OSWidgets.Container, {
+                            align: /*Default*/ 0,
+                            animate: false,
+                            style: "display-flex align-items-center justify-content-space-between",
+                            visible: true,
+                            _idProps: {
+                                service: idService,
+                                uuid: "27"
+                            },
+                            _widgetRecordProvider: widgetsRecordProvider
+                        }, React.createElement(OSWidgets.Container, {
+                            align: /*Default*/ 0,
+                            animate: false,
+                            visible: true,
+                            _idProps: {
+                                service: idService,
+                                uuid: "28"
+                            },
+                            _widgetRecordProvider: widgetsRecordProvider
+                        }, React.createElement(OSWidgets.Link, {
+                            enabled: true,
+                            onClick: function() {
+                                var eventHandlerContext = callContext.clone();
+                                controller.closeStateSelectionPopupOnClick$Action(controller.callContext(eventHandlerContext));
+
+                                ;
+                            },
+                            visible: true,
+                            _idProps: {
+                                service: idService,
+                                uuid: "29"
+                            },
+                            _widgetRecordProvider: widgetsRecordProvider
+                        }, React.createElement(OSWidgets.Image, {
+                            image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.arrowleft.svg"),
+                            type: /*Static*/ 0,
+                            _idProps: {
+                                service: idService,
+                                uuid: "30"
+                            },
+                            _widgetRecordProvider: widgetsRecordProvider
+                        })), React.createElement(OSWidgets.Text, {
+                            extendedProperties: {
+                                style: "font-size: 18px; font-weight: bold;"
+                            },
+                            style: "margin-left-base",
+                            text: ["State/Province"],
+                            _idProps: {
+                                service: idService,
+                                uuid: "31"
+                            },
+                            _widgetRecordProvider: widgetsRecordProvider
+                        })), React.createElement(OSWidgets.Link, {
+                            enabled: true,
+                            onClick: function() {
+                                var eventHandlerContext = callContext.clone();
+                                controller.closeStateSelectionPopupOnClick$Action(controller.callContext(eventHandlerContext));
+
+                                ;
+                            },
+                            visible: true,
+                            _idProps: {
+                                service: idService,
+                                uuid: "32"
+                            },
+                            _widgetRecordProvider: widgetsRecordProvider
+                        }, React.createElement(OSWidgets.Image, {
+                            image: OS.Navigation.VersionedURL.getVersionedUrl("img/tradershub.closeicon.svg"),
+                            type: /*Static*/ 0,
+                            _idProps: {
+                                service: idService,
+                                uuid: "33"
+                            },
+                            _widgetRecordProvider: widgetsRecordProvider
+                        }))), React.createElement(tradershub_Common_StateSelector_mvc_view, {
+                            getOwnerSpan: function() {
+                                return _this.getChildSpan("render");
+                            },
+                            getOwnerDisposeSpan: function() {
+                                return _this.getChildSpan("destroy");
+                            },
+                            inputs: {
+                                StatesList: model.variables.stateListVar
+                            },
+                            events: {
+                                _handleError: function(ex) {
+                                    controller.handleError(ex);
+                                },
+                                onClickCountry$Action: function(stateIn, labelIn) {
+                                    var eventHandlerContext = callContext.clone();
+                                    controller.stateSelectorOnClickCountry$Action(stateIn, labelIn, controller.callContext(eventHandlerContext));
+
+                                    ;
+                                }
+                            },
+                            _validationProps: {
+                                validationService: validationService
+                            },
+                            _idProps: {
+                                service: idService,
+                                uuid: "34",
+                                alias: "4"
+                            },
+                            _widgetRecordProvider: widgetsRecordProvider,
+                            _dependencies: []
+                        }))];
                     })
                 },
-                _dependencies: [asPrimitiveValue(tradershubClientVariables.getRealSignupAddressPostCode()), asPrimitiveValue(model.variables.stateListVar), asPrimitiveValue(tradershubClientVariables.getRealSignupAddressStateLabel()), asPrimitiveValue(tradershubClientVariables.getRealSignupAddressState()), asPrimitiveValue(tradershubClientVariables.getRealSignupAddressTown()), asPrimitiveValue(tradershubClientVariables.getRealSignupAddress())]
+                _dependencies: [asPrimitiveValue(model.variables.isStateSelectionPopopOpenVar), asPrimitiveValue(tradershubClientVariables.getRealSignupAddressPostCode()), asPrimitiveValue(tradershubClientVariables.getRealSignupAddressStateLabel()), asPrimitiveValue(tradershubClientVariables.getRealSignupAddressState()), asPrimitiveValue(model.variables.stateListVar), asPrimitiveValue(tradershubClientVariables.getRealSignupAddressTown()), asPrimitiveValue(tradershubClientVariables.getRealSignupAddress())]
             }));
         }
     }
 
     return View;
 });
-define("tradershub.RealAccountCreation.AddressDetails.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.model", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreation.controller", "tradershub.RealAccountCreation.AddressDetails.mvc$controller.SaveOnClick.RudderStackJS", "tradershub.RealAccountCreation.AddressDetails.mvc$controller.SaveOnClick.ValidateJS", "tradershub.RealAccountCreation.AddressDetails.mvc$controller.OnReady.GenerateStatesListPayloadJS", "tradershub.RealAccountCreation.AddressDetails.mvc$controller.OnReady.JavaScript1JS", "tradershub.model$ST_27f8ec64ca98713144ae178da75c54abStructure", "tradershub.model$RL_f8f18d18d5de26fb445609e3f88624db", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.model$RL_c0f17d75c546075264f5d075e00ba65b", "OutSystemsUI.model$ST_4e53cb8815b86020ced1d2f2652c9b1dStructure", "tradershub.model$ST_a99e5b4d6b08ee1b808de2fbce23bf4fStructure", "tradershub.model$ST_771888a7c88d31c2c35d9cb462eaf9dfStructure", "tradershub.model$ST_69d197f741008559fd9136ea6f31ca4cStructure", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting", "tradershub.controller$DerivApiSendMessage"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIModel, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationController, tradershub_RealAccountCreation_AddressDetails_mvc_controller_SaveOnClick_RudderStackJS, tradershub_RealAccountCreation_AddressDetails_mvc_controller_SaveOnClick_ValidateJS, tradershub_RealAccountCreation_AddressDetails_mvc_controller_OnReady_GenerateStatesListPayloadJS, tradershub_RealAccountCreation_AddressDetails_mvc_controller_OnReady_JavaScript1JS) {
+define("tradershub.RealAccountCreation.AddressDetails.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.controller", "OutSystemsUI.model", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreation.controller", "tradershub.RealAccountCreation.AddressDetails.mvc$controller.SaveOnClick.RudderStackJS", "tradershub.RealAccountCreation.AddressDetails.mvc$controller.SaveOnClick.ValidateJS", "tradershub.RealAccountCreation.AddressDetails.mvc$controller.OnReady.GenerateStatesListPayloadJS", "OutSystemsUI.controller$IsDesktop", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.model$ST_27f8ec64ca98713144ae178da75c54abStructure", "tradershub.model$RL_f8f18d18d5de26fb445609e3f88624db", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", "tradershub.model$RL_c0f17d75c546075264f5d075e00ba65b", "OutSystemsUI.model$ST_4e53cb8815b86020ced1d2f2652c9b1dStructure", "tradershub.model$ST_a99e5b4d6b08ee1b808de2fbce23bf4fStructure", "tradershub.model$ST_771888a7c88d31c2c35d9cb462eaf9dfStructure", "tradershub.model$ST_69d197f741008559fd9136ea6f31ca4cStructure", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting", "tradershub.controller$DerivApiSendMessage"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIController, OutSystemsUIModel, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationController, tradershub_RealAccountCreation_AddressDetails_mvc_controller_SaveOnClick_RudderStackJS, tradershub_RealAccountCreation_AddressDetails_mvc_controller_SaveOnClick_ValidateJS, tradershub_RealAccountCreation_AddressDetails_mvc_controller_OnReady_GenerateStatesListPayloadJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -529,6 +741,124 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$controller", ["@outsys
             }
 
             // Client Actions - Methods
+            get _stateSelectorOnClickCountry$Action() {
+                if (!(this.hasOwnProperty("__stateSelectorOnClickCountry$Action"))) {
+                    this.__stateSelectorOnClickCountry$Action = function(stateIn, labelIn, callContext) {
+                        var model = this.model;
+                        var controller = this.controller;
+                        var idService = this.idService;
+                        return OS.Logger.startActiveSpan("StateSelectorOnClickCountry", function(span) {
+                            if (span) {
+                                span.setAttribute("code.function", "StateSelectorOnClickCountry");
+                                span.setAttribute("outsystems.function.key", "0f230078-93e3-4945-bd55-38507a65b06f");
+                                span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                            }
+
+                            try {
+                                controller.ensureControllerAlive("StateSelectorOnClickCountry");
+                                callContext = controller.callContext(callContext);
+                                var vars = new OS.DataTypes.VariableHolder(new(controller.constructor.getVariableGroupType("tradershub.RealAccountCreation.AddressDetails.StateSelectorOnClickCountry$vars"))());
+                                vars.value.stateInLocal = stateIn;
+                                vars.value.labelInLocal = labelIn;
+                                // RealSignupAddressState = State
+                                tradershubClientVariables.setRealSignupAddressState(vars.value.stateInLocal);
+                                // IsStateSelectionPopopOpen = False
+                                model.variables.isStateSelectionPopopOpenVar = false;
+                                // RealSignupAddressStateLabel = Label
+                                tradershubClientVariables.setRealSignupAddressStateLabel(vars.value.labelInLocal);
+                            } finally {
+                                if (span) {
+                                    span.end();
+                                }
+
+                            }
+
+                        }, 1);
+                    };
+                }
+
+                return this.__stateSelectorOnClickCountry$Action;
+            }
+            set _stateSelectorOnClickCountry$Action(value) {
+                this.__stateSelectorOnClickCountry$Action = value;
+            }
+
+            get _stateOnClickMobile$Action() {
+                if (!(this.hasOwnProperty("__stateOnClickMobile$Action"))) {
+                    this.__stateOnClickMobile$Action = function(callContext) {
+                        var model = this.model;
+                        var controller = this.controller;
+                        var idService = this.idService;
+                        return OS.Logger.startActiveSpan("StateOnClickMobile", function(span) {
+                            if (span) {
+                                span.setAttribute("code.function", "StateOnClickMobile");
+                                span.setAttribute("outsystems.function.key", "32d4e090-d996-425c-9ed5-8cc1f9ccd643");
+                                span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                            }
+
+                            try {
+                                controller.ensureControllerAlive("StateOnClickMobile");
+                                callContext = controller.callContext(callContext);
+                                // IsStateSelectionPopopOpen = True
+                                model.variables.isStateSelectionPopopOpenVar = true;
+                            } finally {
+                                if (span) {
+                                    span.end();
+                                }
+
+                            }
+
+                        }, 1);
+                    };
+                }
+
+                return this.__stateOnClickMobile$Action;
+            }
+            set _stateOnClickMobile$Action(value) {
+                this.__stateOnClickMobile$Action = value;
+            }
+
+            get _closeStateSelectionPopupOnClick$Action() {
+                if (!(this.hasOwnProperty("__closeStateSelectionPopupOnClick$Action"))) {
+                    this.__closeStateSelectionPopupOnClick$Action = function(callContext) {
+                        var model = this.model;
+                        var controller = this.controller;
+                        var idService = this.idService;
+                        return OS.Logger.startActiveSpan("CloseStateSelectionPopupOnClick", function(span) {
+                            if (span) {
+                                span.setAttribute("code.function", "CloseStateSelectionPopupOnClick");
+                                span.setAttribute("outsystems.function.key", "5d27ad3b-e9dd-4e48-8894-4a824c4e4ba9");
+                                span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                            }
+
+                            try {
+                                controller.ensureControllerAlive("CloseStateSelectionPopupOnClick");
+                                callContext = controller.callContext(callContext);
+                                // IsStateSelectionPopopOpen = False
+                                model.variables.isStateSelectionPopopOpenVar = false;
+                            } finally {
+                                if (span) {
+                                    span.end();
+                                }
+
+                            }
+
+                        }, 1);
+                    };
+                }
+
+                return this.__closeStateSelectionPopupOnClick$Action;
+            }
+            set _closeStateSelectionPopupOnClick$Action(value) {
+                this.__closeStateSelectionPopupOnClick$Action = value;
+            }
+
             get _saveOnClick$Action() {
                 if (!(this.hasOwnProperty("__saveOnClick$Action"))) {
                     this.__saveOnClick$Action = function(callContext) {
@@ -550,25 +880,6 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$controller", ["@outsys
                                 var validateJSResult = new OS.DataTypes.VariableHolder();
                                 var jSONDeserializeAddressDetailsValidFieldVar = new OS.DataTypes.VariableHolder(new(OS.Controller.BaseController.getJSONDeserializeOutputType(tradershubModel.ST_a99e5b4d6b08ee1b808de2fbce23bf4fStructure))());
                                 var jSONDeserializeAddressDetailsValidationErrorVar = new OS.DataTypes.VariableHolder(new(OS.Controller.BaseController.getJSONDeserializeOutputType(tradershubModel.ST_771888a7c88d31c2c35d9cb462eaf9dfStructure))());
-                                OS.Logger.startActiveSpan("RudderStack", function(span) {
-                                    if (span) {
-                                        span.setAttribute("code.function", "RudderStack");
-                                        span.setAttribute("outsystems.function.key", "6cb03280-85b0-49f1-bc16-25ed89122ab2");
-                                        span.setAttribute("outsystems.function.owner.name", "tradershub");
-                                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
-                                        span.setAttribute("outsystems.function.type", "JAVASCRIPT");
-                                    }
-
-                                    try {
-                                        return controller.safeExecuteJSNode(tradershub_RealAccountCreation_AddressDetails_mvc_controller_SaveOnClick_RudderStackJS, "RudderStack", "SaveOnClick", null, function($parameters) {}, {}, {});
-                                    } finally {
-                                        if (span) {
-                                            span.end();
-                                        }
-
-                                    }
-
-                                }, 1);
                                 validateJSResult.value = OS.Logger.startActiveSpan("Validate", function(span) {
                                     if (span) {
                                         span.setAttribute("code.function", "Validate");
@@ -617,6 +928,25 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$controller", ["@outsys
                                 // Input_PostCode.ValidationMessage = JSONDeserializeAddressDetailsValidationError.Data.PostCode
                                 model.widgets.get(idService.getId("Input_PostCode")).validationMessageAttr = jSONDeserializeAddressDetailsValidationErrorVar.value.dataOut.postCodeAttr;
                                 if ((model.widgets.get(idService.getId("AddressForm")).validAttr)) {
+                                    OS.Logger.startActiveSpan("RudderStack", function(span) {
+                                        if (span) {
+                                            span.setAttribute("code.function", "RudderStack");
+                                            span.setAttribute("outsystems.function.key", "6cb03280-85b0-49f1-bc16-25ed89122ab2");
+                                            span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                            span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                            span.setAttribute("outsystems.function.type", "JAVASCRIPT");
+                                        }
+
+                                        try {
+                                            return controller.safeExecuteJSNode(tradershub_RealAccountCreation_AddressDetails_mvc_controller_SaveOnClick_RudderStackJS, "RudderStack", "SaveOnClick", null, function($parameters) {}, {}, {});
+                                        } finally {
+                                            if (span) {
+                                                span.end();
+                                            }
+
+                                        }
+
+                                    }, 1);
                                     // Destination: /tradershub/TermsOfUse
                                     return OS.Navigation.navigateTo(OS.Navigation.generateScreenURL("tradershub", "terms-of-use", {}), OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default), callContext, true);
                                 }
@@ -786,25 +1116,6 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$controller", ["@outsys
                                     }).then(function() {
                                         // JSON Deserialize: JSONDeserializeStatesListResponse
                                         jSONDeserializeStatesListResponseVar.value.dataOut = OS.JSONUtils.deserializeFromJSON(derivApiSendMessageVar.value.responseOut, tradershubModel.ST_69d197f741008559fd9136ea6f31ca4cStructure, false);
-                                        OS.Logger.startActiveSpan("JavaScript1", function(span) {
-                                            if (span) {
-                                                span.setAttribute("code.function", "JavaScript1");
-                                                span.setAttribute("outsystems.function.key", "675c5900-840e-46eb-afb5-bb7c436eb732");
-                                                span.setAttribute("outsystems.function.owner.name", "tradershub");
-                                                span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
-                                                span.setAttribute("outsystems.function.type", "JAVASCRIPT");
-                                            }
-
-                                            try {
-                                                return controller.safeExecuteJSNode(tradershub_RealAccountCreation_AddressDetails_mvc_controller_OnReady_JavaScript1JS, "JavaScript1", "OnReady", null, function($parameters) {}, {}, {});
-                                            } finally {
-                                                if (span) {
-                                                    span.end();
-                                                }
-
-                                            }
-
-                                        }, 1);
                                         // StateList = JSONDeserializeStatesListResponse.Data.States_list
                                         model.variables.stateListVar = jSONDeserializeStatesListResponseVar.value.dataOut.states_listAttr;
                                         // RealSignupStateList = DerivApiSendMessage.Response
@@ -827,6 +1138,78 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$controller", ["@outsys
                 this.__onReady$Action = value;
             }
 
+
+            stateSelectorOnClickCountry$Action(stateIn, labelIn, callContext) {
+                var controller = this.controller;
+                return OS.Logger.startActiveSpan("StateSelectorOnClickCountry__proxy", function(span) {
+                    if (span) {
+                        span.setAttribute("code.function", "StateSelectorOnClickCountry");
+                        span.setAttribute("outsystems.function.key", "0f230078-93e3-4945-bd55-38507a65b06f");
+                        span.setAttribute("outsystems.function.owner.name", "tradershub");
+                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                        span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                    }
+
+                    try {
+                        return controller.safeExecuteClientAction(controller._stateSelectorOnClickCountry$Action, callContext, stateIn, labelIn);
+                    } finally {
+                        if (span) {
+                            span.end();
+                        }
+
+                    }
+
+                }, 0);
+
+            }
+
+            stateOnClickMobile$Action(callContext) {
+                var controller = this.controller;
+                return OS.Logger.startActiveSpan("StateOnClickMobile__proxy", function(span) {
+                    if (span) {
+                        span.setAttribute("code.function", "StateOnClickMobile");
+                        span.setAttribute("outsystems.function.key", "32d4e090-d996-425c-9ed5-8cc1f9ccd643");
+                        span.setAttribute("outsystems.function.owner.name", "tradershub");
+                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                        span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                    }
+
+                    try {
+                        return controller.safeExecuteClientAction(controller._stateOnClickMobile$Action, callContext);
+                    } finally {
+                        if (span) {
+                            span.end();
+                        }
+
+                    }
+
+                }, 0);
+
+            }
+
+            closeStateSelectionPopupOnClick$Action(callContext) {
+                var controller = this.controller;
+                return OS.Logger.startActiveSpan("CloseStateSelectionPopupOnClick__proxy", function(span) {
+                    if (span) {
+                        span.setAttribute("code.function", "CloseStateSelectionPopupOnClick");
+                        span.setAttribute("outsystems.function.key", "5d27ad3b-e9dd-4e48-8894-4a824c4e4ba9");
+                        span.setAttribute("outsystems.function.owner.name", "tradershub");
+                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                        span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                    }
+
+                    try {
+                        return controller.safeExecuteClientAction(controller._closeStateSelectionPopupOnClick$Action, callContext);
+                    } finally {
+                        if (span) {
+                            span.end();
+                        }
+
+                    }
+
+                }, 0);
+
+            }
 
             saveOnClick$Action(callContext) {
                 var controller = this.controller;
@@ -1019,6 +1402,23 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$controller", ["@outsys
         // Server Actions - Variables
 
         // Client Actions - Variables
+        Controller.registerVariableGroupType("tradershub.RealAccountCreation.AddressDetails.StateSelectorOnClickCountry$vars", [{
+            name: "State",
+            attrName: "stateInLocal",
+            mandatory: true,
+            dataType: OS.DataTypes.DataTypes.Text,
+            defaultValue: function() {
+                return "";
+            }
+        }, {
+            name: "Label",
+            attrName: "labelInLocal",
+            mandatory: true,
+            dataType: OS.DataTypes.DataTypes.Text,
+            defaultValue: function() {
+                return "";
+            }
+        }]);
         Controller.registerVariableGroupType("tradershub.RealAccountCreation.AddressDetails.SaveOnClick$validateJSResult", [{
             name: "ValidationErrors",
             attrName: "validationErrorsOut",
@@ -1062,9 +1462,13 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$controller", ["@outsys
 
 define("tradershub.RealAccountCreation.AddressDetails.mvc$controller.SaveOnClick.RudderStackJS", [], function() {
     return function($actions, $roles, $public) {
-        Analytics.Analytics.trackEvent({
-            action: "signup_modal_next_button_os",
-        })
+        Analytics.Analytics.trackEvent("ce_real_account_signup_form", {
+            action: "step_passed",
+            step_num: 3,
+            step_codename: "address_details",
+            form_name: "real_account_signup_form_outsystems"
+        });
+
     };
 });
 
@@ -1122,16 +1526,5 @@ define("tradershub.RealAccountCreation.AddressDetails.mvc$controller.OnReady.Gen
         $parameters.Payload = JSON.stringify({
             states_list: $parameters.CountryCode
         })
-    };
-});
-
-define("tradershub.RealAccountCreation.AddressDetails.mvc$controller.OnReady.JavaScript1JS", [], function() {
-    return function($actions, $roles, $public) {
-        setTimeout(() => {
-            Analytics.Analytics.trackEvent({
-                action: "real_account_address-details-open",
-            })
-        }, 100);
-
     };
 });

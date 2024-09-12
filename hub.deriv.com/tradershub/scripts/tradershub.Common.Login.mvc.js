@@ -532,7 +532,8 @@ define("tradershub.Common.Login.mvc$view", ["@outsystems/runtime-core-js", "trad
                             },
                             inputs: {
                                 ExtendedClass: "full-width",
-                                IsLoading: model.variables.isExecutingVar
+                                IsLoading: model.variables.isExecutingVar,
+                                ShowLabelOnLoading: true
                             },
                             events: {
                                 _handleError: function(ex) {

@@ -6,17 +6,7 @@ define("tradershub.RealAccountCreation.CurrencySelection.mvc$model", ["@outsyste
         class VariablesRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
-                return [
-                    this.attr("SelectedCurrency", "selectedCurrencyVar", "SelectedCurrency", true, false, OS.DataTypes.DataTypes.Text, function() {
-                        return "";
-                    }, false)
-                ].concat(OS.DataTypes.GenericRecord.attributesToDeclare.call(this));
-            }
-
-            static fromStructure(str) {
-                return new VariablesRecord(new VariablesRecord.RecordClass({
-                    selectedCurrencyVar: OS.DataTypes.ImmutableBase.getData(str)
-                }));
+                return [].concat(OS.DataTypes.GenericRecord.attributesToDeclare.call(this));
             }
 
         }
@@ -33,7 +23,7 @@ define("tradershub.RealAccountCreation.CurrencySelection.mvc$model", ["@outsyste
     }
 
     class Model extends
-    OS.Model.BaseViewModel {
+    OS.Model.VariablelessViewModel {
         static getVariablesRecordConstructor() {
             return VariablesRecord;
         }
@@ -240,10 +230,6 @@ define("tradershub.RealAccountCreation.CurrencySelection.mvc$controller", ["@out
                             try {
                                 controller.ensureControllerAlive("AccountCurrencyBlockNextStepEvent");
                                 callContext = controller.callContext(callContext);
-                                // RealSignupCurrentStep = 2
-                                tradershubClientVariables.setRealSignupCurrentStep(2);
-                                // SelectedCurrency = SelectedCurrencyCode
-                                model.variables.selectedCurrencyVar = tradershubClientVariables.getSelectedCurrencyCode();
                                 // Destination: /tradershub/PersonalDetails
                                 return OS.Navigation.navigateTo(OS.Navigation.generateScreenURL("tradershub", "personal-details", {}), OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default), callContext, true);
                             } finally {
@@ -530,11 +516,26 @@ define("tradershub.RealAccountCreation.CurrencySelection.mvc$controller", ["@out
 
 define("tradershub.RealAccountCreation.CurrencySelection.mvc$controller.OnReady.RudderStackJS", [], function() {
     return function($actions, $roles, $public) {
-        setTimeout(() => {
-            Analytics.Analytics.trackEvent({
-                action: "real_account_currency_selection_open",
-            })
-        }, 100);
+        let rudderStackLoaded = false;
 
+        function checkForRudderStack() {
+            if (window?.rudderanalytics && !rudderStackLoaded) {
+                window.rudderanalytics.ready(() => {
+                    if (!rudderStackLoaded) {
+                        Analytics.Analytics.trackEvent("ce_real_account_signup_form", {
+                            step_num: 0,
+                            action: "open",
+                            form_name: "real_account_signup_form_outsystems"
+                        });
+                        rudderStackLoaded = true;
+                    }
+                    clearInterval(intervalId);
+                });
+            }
+        }
+
+        const intervalId = setInterval(() => {
+            checkForRudderStack();
+        }, 2000);
     };
 });

@@ -166,7 +166,7 @@ define("PartnersHub.Home.AffiliateProgramme.mvc$view", ["@outsystems/runtime-cor
                 extendedProperties: {
                     style: "color: #222; font-size: 20px;"
                 },
-                text: ["Video library"],
+                text: [$text(getTranslation("T7D85Ou3vE61yWtLCd1Qjw#Value", "Video library"))],
                 _idProps: {
                     service: idService,
                     uuid: "2"
@@ -326,7 +326,7 @@ define("PartnersHub.Home.AffiliateProgramme.mvc$view", ["@outsystems/runtime-cor
                 isDefault: false,
                 onClick: function() {
                     var eventHandlerContext = callContext.clone();
-                    controller.onClickLearnMore$Action(controller.callContext(eventHandlerContext));
+                    controller.onClickSeeAllVideo$Action(controller.callContext(eventHandlerContext));
 
                     ;
                 },
@@ -369,13 +369,13 @@ define("PartnersHub.Home.AffiliateProgramme.mvc$view", ["@outsystems/runtime-cor
                     uuid: "12"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }), "See all videos")))));
+            }), $text(getTranslation("hKoas_JkdUqaXBT9HahADw#Value", "See all videos")))))));
         }
     }
 
     return View;
 });
-define("PartnersHub.Home.AffiliateProgramme.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Home.AffiliateProgramme.mvc$translationsResources", "PartnersHub.Home.AffiliateProgramme.mvc$controller.OnClickLearnMore.JavaScript1JS", "PartnersHub.Home.AffiliateProgramme.mvc$controller.OnSlideMove.AttachClickHandlersToCarouselClonesJS", "PartnersHub.Home.AffiliateProgramme.mvc$controller.OnClickVideo.JavaScript1JS", "OutSystemsUI.model$ST_660adb7a9db48bff1b12c6e03515b415Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "OutSystemsUI.model$ST_7d99fd1de65649f174aff6854b052539Structure", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent", "PartnersHub.model$EN_5a50b1207c66825bfc9e9688dde972baEntityRecord", "PartnersHub.model$RC_f096f7fd8261c816438bbe7b5d4454b4", "PartnersHub.model$RL_cb813e01813ea34c8f66a8be7f90e6b0"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Home_AffiliateProgramme_mvc_TranslationsResources, PartnersHub_Home_AffiliateProgramme_mvc_controller_OnClickLearnMore_JavaScript1JS, PartnersHub_Home_AffiliateProgramme_mvc_controller_OnSlideMove_AttachClickHandlersToCarouselClonesJS, PartnersHub_Home_AffiliateProgramme_mvc_controller_OnClickVideo_JavaScript1JS) {
+define("PartnersHub.Home.AffiliateProgramme.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Home.AffiliateProgramme.mvc$translationsResources", "PartnersHub.Home.AffiliateProgramme.mvc$controller.OnClickSeeAllVideo.JavaScript1JS", "PartnersHub.Home.AffiliateProgramme.mvc$controller.OnSlideMove.AttachClickHandlersToCarouselClonesJS", "PartnersHub.Home.AffiliateProgramme.mvc$controller.OnClickVideo.JavaScript1JS", "OutSystemsUI.model$ST_660adb7a9db48bff1b12c6e03515b415Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "OutSystemsUI.model$ST_7d99fd1de65649f174aff6854b052539Structure", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent", "PartnersHub.model$EN_5a50b1207c66825bfc9e9688dde972baEntityRecord", "PartnersHub.model$RC_f096f7fd8261c816438bbe7b5d4454b4", "PartnersHub.model$RL_cb813e01813ea34c8f66a8be7f90e6b0"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Home_AffiliateProgramme_mvc_TranslationsResources, PartnersHub_Home_AffiliateProgramme_mvc_controller_OnClickSeeAllVideo_JavaScript1JS, PartnersHub_Home_AffiliateProgramme_mvc_controller_OnSlideMove_AttachClickHandlersToCarouselClonesJS, PartnersHub_Home_AffiliateProgramme_mvc_controller_OnClickVideo_JavaScript1JS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -450,15 +450,15 @@ define("PartnersHub.Home.AffiliateProgramme.mvc$controller", ["@outsystems/runti
             }
 
             // Client Actions - Methods
-            get _onClickLearnMore$Action() {
-                if (!(this.hasOwnProperty("__onClickLearnMore$Action"))) {
-                    this.__onClickLearnMore$Action = function(callContext) {
+            get _onClickSeeAllVideo$Action() {
+                if (!(this.hasOwnProperty("__onClickSeeAllVideo$Action"))) {
+                    this.__onClickSeeAllVideo$Action = function(callContext) {
                         var model = this.model;
                         var controller = this.controller;
                         var idService = this.idService;
-                        return OS.Logger.startActiveSpan("OnClickLearnMore", function(span) {
+                        return OS.Logger.startActiveSpan("OnClickSeeAllVideo", function(span) {
                             if (span) {
-                                span.setAttribute("code.function", "OnClickLearnMore");
+                                span.setAttribute("code.function", "OnClickSeeAllVideo");
                                 span.setAttribute("outsystems.function.key", "5ec8c717-2ae8-4f70-ae06-253260196a65");
                                 span.setAttribute("outsystems.function.owner.name", "PartnersHub");
                                 span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
@@ -466,13 +466,13 @@ define("PartnersHub.Home.AffiliateProgramme.mvc$controller", ["@outsystems/runti
                             }
 
                             try {
-                                controller.ensureControllerAlive("OnClickLearnMore");
+                                controller.ensureControllerAlive("OnClickSeeAllVideo");
                                 callContext = controller.callContext(callContext);
                                 // Execute Action: RudderstackTrackEvent
                                 PartnersHubController.default.rudderstackTrackEvent$Action(function() {
                                     var rec = new PartnersHubModel.ST_23ff1d290ec4691b1c668ad437100cd0Structure();
                                     rec.actionAttr = "click_cta";
-                                    rec.cta_nameAttr = "Learn more";
+                                    rec.cta_nameAttr = "See all Videos";
                                     rec.cta_placementAttr = "affiliate programme youtube section";
                                     return rec;
                                 }(), "ce_partnershub_form", callContext);
@@ -486,7 +486,7 @@ define("PartnersHub.Home.AffiliateProgramme.mvc$controller", ["@outsystems/runti
                                     }
 
                                     try {
-                                        return controller.safeExecuteJSNode(PartnersHub_Home_AffiliateProgramme_mvc_controller_OnClickLearnMore_JavaScript1JS, "JavaScript1", "OnClickLearnMore", null, function($parameters) {}, {}, {});
+                                        return controller.safeExecuteJSNode(PartnersHub_Home_AffiliateProgramme_mvc_controller_OnClickSeeAllVideo_JavaScript1JS, "JavaScript1", "OnClickSeeAllVideo", null, function($parameters) {}, {}, {});
                                     } finally {
                                         if (span) {
                                             span.end();
@@ -506,10 +506,10 @@ define("PartnersHub.Home.AffiliateProgramme.mvc$controller", ["@outsystems/runti
                     };
                 }
 
-                return this.__onClickLearnMore$Action;
+                return this.__onClickSeeAllVideo$Action;
             }
-            set _onClickLearnMore$Action(value) {
-                this.__onClickLearnMore$Action = value;
+            set _onClickSeeAllVideo$Action(value) {
+                this.__onClickSeeAllVideo$Action = value;
             }
 
             get _onSlideMove$Action() {
@@ -637,11 +637,11 @@ define("PartnersHub.Home.AffiliateProgramme.mvc$controller", ["@outsystems/runti
             }
 
 
-            onClickLearnMore$Action(callContext) {
+            onClickSeeAllVideo$Action(callContext) {
                 var controller = this.controller;
-                return OS.Logger.startActiveSpan("OnClickLearnMore__proxy", function(span) {
+                return OS.Logger.startActiveSpan("OnClickSeeAllVideo__proxy", function(span) {
                     if (span) {
-                        span.setAttribute("code.function", "OnClickLearnMore");
+                        span.setAttribute("code.function", "OnClickSeeAllVideo");
                         span.setAttribute("outsystems.function.key", "5ec8c717-2ae8-4f70-ae06-253260196a65");
                         span.setAttribute("outsystems.function.owner.name", "PartnersHub");
                         span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
@@ -649,7 +649,7 @@ define("PartnersHub.Home.AffiliateProgramme.mvc$controller", ["@outsystems/runti
                     }
 
                     try {
-                        return controller.safeExecuteClientAction(controller._onClickLearnMore$Action, callContext);
+                        return controller.safeExecuteClientAction(controller._onClickSeeAllVideo$Action, callContext);
                     } finally {
                         if (span) {
                             span.end();
@@ -815,7 +815,7 @@ define("PartnersHub.Home.AffiliateProgramme.mvc$controller", ["@outsystems/runti
     return new OS.Controller.ControllerFactory(Controller, PartnersHubLanguageResources);
 });
 
-define("PartnersHub.Home.AffiliateProgramme.mvc$controller.OnClickLearnMore.JavaScript1JS", [], function() {
+define("PartnersHub.Home.AffiliateProgramme.mvc$controller.OnClickSeeAllVideo.JavaScript1JS", [], function() {
     return function($actions, $roles, $public) {
         window.open("https://www.youtube.com/@Deriv.partners")
     };
@@ -854,6 +854,84 @@ define("PartnersHub.Home.AffiliateProgramme.mvc$controller.OnClickVideo.JavaScri
 });
 
 
-define("PartnersHub.Home.AffiliateProgramme.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Home.AffiliateProgramme.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "hKoas_JkdUqaXBT9HahADw#Value": "Alle Videos ansehen",
+        "T7D85Ou3vE61yWtLCd1Qjw#Value": "Videobibliothek"
+    };
+});
+
+define("PartnersHub.Home.AffiliateProgramme.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "hKoas_JkdUqaXBT9HahADw#Value": "Ver todos los videos",
+        "T7D85Ou3vE61yWtLCd1Qjw#Value": "Biblioteca de videos"
+    };
+});
+
+define("PartnersHub.Home.AffiliateProgramme.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "hKoas_JkdUqaXBT9HahADw#Value": "Voir toutes les vidéos",
+        "T7D85Ou3vE61yWtLCd1Qjw#Value": "Bibliothèque vidéo"
+    };
+});
+
+define("PartnersHub.Home.AffiliateProgramme.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "hKoas_JkdUqaXBT9HahADw#Value": "Vedi tutti i video",
+        "T7D85Ou3vE61yWtLCd1Qjw#Value": "Biblioteca video"
+    };
+});
+
+define("PartnersHub.Home.AffiliateProgramme.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "hKoas_JkdUqaXBT9HahADw#Value": "Zobacz wszystkie filmy",
+        "T7D85Ou3vE61yWtLCd1Qjw#Value": "Biblioteka wideo"
+    };
+});
+
+define("PartnersHub.Home.AffiliateProgramme.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "hKoas_JkdUqaXBT9HahADw#Value": "Ver todos os vídeos",
+        "T7D85Ou3vE61yWtLCd1Qjw#Value": "Biblioteca de vídeos"
+    };
+});
+
+define("PartnersHub.Home.AffiliateProgramme.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "hKoas_JkdUqaXBT9HahADw#Value": "Посмотреть все видео",
+        "T7D85Ou3vE61yWtLCd1Qjw#Value": "Видеотека"
+    };
+});
+
+define("PartnersHub.Home.AffiliateProgramme.mvc$translationsResources", ["exports", "PartnersHub.Home.AffiliateProgramme.mvc$translationsResources.de-DE", "PartnersHub.Home.AffiliateProgramme.mvc$translationsResources.es-ES", "PartnersHub.Home.AffiliateProgramme.mvc$translationsResources.fr-FR", "PartnersHub.Home.AffiliateProgramme.mvc$translationsResources.it-IT", "PartnersHub.Home.AffiliateProgramme.mvc$translationsResources.pl-PL", "PartnersHub.Home.AffiliateProgramme.mvc$translationsResources.pt-PT", "PartnersHub.Home.AffiliateProgramme.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Home_AffiliateProgramme_mvc_translationsResources_deDE, PartnersHub_Home_AffiliateProgramme_mvc_translationsResources_esES, PartnersHub_Home_AffiliateProgramme_mvc_translationsResources_frFR, PartnersHub_Home_AffiliateProgramme_mvc_translationsResources_itIT, PartnersHub_Home_AffiliateProgramme_mvc_translationsResources_plPL, PartnersHub_Home_AffiliateProgramme_mvc_translationsResources_ptPT, PartnersHub_Home_AffiliateProgramme_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Home_AffiliateProgramme_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Home_AffiliateProgramme_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Home_AffiliateProgramme_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Home_AffiliateProgramme_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Home_AffiliateProgramme_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Home_AffiliateProgramme_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Home_AffiliateProgramme_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

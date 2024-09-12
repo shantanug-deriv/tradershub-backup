@@ -249,7 +249,7 @@ define("PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$view", ["@outsystems/r
                             inputType: /*Password*/ 1,
                             mandatory: true,
                             maxLength: 0,
-                            prompt: "Enter your password ",
+                            prompt: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("+512wBgDnUWwPwxRl_kTfg#ValueExpression.-1310854240.1", "Enter your password "),
                             style: model.getCachedValue(idService.getId("NewPasswordField.Style"), function() {
                                 return (((OS.BuiltinFunctions.length(model.variables.newPasswordVar.passwordAttr) === 0)) ? ("password-input__field") : (((model.variables.isPasswordValidVar) ? ("password-input__field password-input__field--success") : ("password-input__field password-input__field--failure"))));
                             }, function() {
@@ -340,7 +340,7 @@ define("PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$view", ["@outsystems/r
                 extendedProperties: {
                     style: "color: #fcfcfc; font-weight: bold;"
                 },
-                text: ["Reset my password"],
+                text: [$text(getTranslation("tHI2NXdZ20KpxxsrLfXSaA#Value", "Reset my password"))],
                 _idProps: {
                     service: idService,
                     uuid: "8"
@@ -901,6 +901,84 @@ define("PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$controller", ["@outsys
 });
 
 
-define("PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "tHI2NXdZ20KpxxsrLfXSaA#Value": "Setzen Sie mein Passwort zurück",
+        "+512wBgDnUWwPwxRl_kTfg#ValueExpression.-1310854240.1": "Geben Sie Ihr Passwort ein"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "tHI2NXdZ20KpxxsrLfXSaA#Value": "Restablecer mi contraseña",
+        "+512wBgDnUWwPwxRl_kTfg#ValueExpression.-1310854240.1": "Introduzca su contraseña"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "tHI2NXdZ20KpxxsrLfXSaA#Value": "Réinitialiser mon mot de passe",
+        "+512wBgDnUWwPwxRl_kTfg#ValueExpression.-1310854240.1": "Entrez votre mot de passe"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "tHI2NXdZ20KpxxsrLfXSaA#Value": "Reimposta la mia password",
+        "+512wBgDnUWwPwxRl_kTfg#ValueExpression.-1310854240.1": "Inserisci la tua password"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "tHI2NXdZ20KpxxsrLfXSaA#Value": "Zresetuj moje hasło",
+        "+512wBgDnUWwPwxRl_kTfg#ValueExpression.-1310854240.1": "Wprowadź swoje hasło"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "tHI2NXdZ20KpxxsrLfXSaA#Value": "Redefinir a minha palavra-passe",
+        "+512wBgDnUWwPwxRl_kTfg#ValueExpression.-1310854240.1": "Insira a sua senha"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "tHI2NXdZ20KpxxsrLfXSaA#Value": "Сбросить мой пароль",
+        "+512wBgDnUWwPwxRl_kTfg#ValueExpression.-1310854240.1": "Введите ваш пароль"
+    };
+});
+
+define("PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$translationsResources", ["exports", "PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$translationsResources.de-DE", "PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$translationsResources.es-ES", "PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$translationsResources.fr-FR", "PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$translationsResources.it-IT", "PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$translationsResources.pl-PL", "PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$translationsResources.pt-PT", "PartnersHub.ForgotPassword.ResetPasswordBlock.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_ForgotPassword_ResetPasswordBlock_mvc_translationsResources_deDE, PartnersHub_ForgotPassword_ResetPasswordBlock_mvc_translationsResources_esES, PartnersHub_ForgotPassword_ResetPasswordBlock_mvc_translationsResources_frFR, PartnersHub_ForgotPassword_ResetPasswordBlock_mvc_translationsResources_itIT, PartnersHub_ForgotPassword_ResetPasswordBlock_mvc_translationsResources_plPL, PartnersHub_ForgotPassword_ResetPasswordBlock_mvc_translationsResources_ptPT, PartnersHub_ForgotPassword_ResetPasswordBlock_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_ForgotPassword_ResetPasswordBlock_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_ForgotPassword_ResetPasswordBlock_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_ForgotPassword_ResetPasswordBlock_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_ForgotPassword_ResetPasswordBlock_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_ForgotPassword_ResetPasswordBlock_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_ForgotPassword_ResetPasswordBlock_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_ForgotPassword_ResetPasswordBlock_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

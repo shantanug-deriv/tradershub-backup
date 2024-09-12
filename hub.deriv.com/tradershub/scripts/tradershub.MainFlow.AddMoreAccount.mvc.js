@@ -1,12 +1,41 @@
-define("tradershub.MainFlow.AddMoreAccount.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.Layouts.MainLayout.mvc$model", "tradershub.controller$DerivApiSendMessage", "tradershub.model$EN_bf87ce2ee46f8f5bc73889fe14426739EntityRecord", "tradershub.model$RL_7f0ff0d0a70a4e41424efbf5ef899b8d"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershub_Layouts_MainLayout_mvcModel) {
+define("tradershub.MainFlow.AddMoreAccount.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.Layouts.MainLayout.mvc$model", "tradershub.controller$DerivApiSendMessage", "tradershub.model$RC_6a44851bc01e80a885c4aa0ae740b8fc", "tradershub.model$RL_5ee36d8deb03b51810340e621ea66d4b"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershub_Layouts_MainLayout_mvcModel) {
     var OS = OSRuntimeCore;
+    {
+        class GetCurrenciesAggrRecInner extends
+        OS.Model.AggregateRecord {
+            static attributesToDeclare() {
+                return [].concat(OS.Model.AggregateRecord.attributesToDeclare.call(this));
+            }
+
+            static fromStructure(str) {
+                return new GetCurrenciesAggrRec(new GetCurrenciesAggrRec.RecordClass({
+                    RecordListType: OS.DataTypes.ImmutableBase.getData(str)
+                }));
+            }
+
+        }
+
+        GetCurrenciesAggrRecInner.RecordListType = tradershubModel.RL_5ee36d8deb03b51810340e621ea66d4b;
+        var GetCurrenciesAggrRec = GetCurrenciesAggrRecInner;
+        GetCurrenciesAggrRec.init();
+    }
 
 
     {
         class VariablesRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
-                return [].concat(OS.DataTypes.GenericRecord.attributesToDeclare.call(this));
+                return [
+                    this.attr("GetCurrencies", "getCurrenciesAggr", "GetCurrencies", true, true, OS.DataTypes.DataTypes.Record, function() {
+                        return OS.DataTypes.ImmutableBase.getData(new GetCurrenciesAggrRec());
+                    }, true, GetCurrenciesAggrRec)
+                ].concat(OS.DataTypes.GenericRecord.attributesToDeclare.call(this));
+            }
+
+            static fromStructure(str) {
+                return new VariablesRecord(new VariablesRecord.RecordClass({
+                    getCurrenciesAggr: OS.DataTypes.ImmutableBase.getData(str)
+                }));
             }
 
         }
@@ -23,7 +52,7 @@ define("tradershub.MainFlow.AddMoreAccount.mvc$model", ["@outsystems/runtime-cor
     }
 
     class Model extends
-    OS.Model.VariablelessViewModel {
+    OS.Model.BaseViewModel {
         static getVariablesRecordConstructor() {
             return VariablesRecord;
         }
@@ -47,7 +76,7 @@ define("tradershub.MainFlow.AddMoreAccount.mvc$model", ["@outsystems/runtime-cor
     return new OS.Model.ModelFactory(Model);
 });
 
-define("tradershub.MainFlow.AddMoreAccount.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "react", "@outsystems/runtime-view-js", "tradershub.MainFlow.AddMoreAccount.mvc$model", "tradershub.MainFlow.AddMoreAccount.mvc$controller", "tradershub.clientVariables", "tradershub.Layouts.MainLayout.mvc$view", "@outsystems/runtime-widgets-js", "tradershub.controller$DerivApiSendMessage", "tradershub.model$EN_bf87ce2ee46f8f5bc73889fe14426739EntityRecord", "tradershub.model$RL_7f0ff0d0a70a4e41424efbf5ef899b8d"], function(OSRuntimeCore, tradershubModel, tradershubController, React, OSView, tradershub_MainFlow_AddMoreAccount_mvc_model, tradershub_MainFlow_AddMoreAccount_mvc_controller, tradershubClientVariables, tradershub_Layouts_MainLayout_mvc_view, OSWidgets) {
+define("tradershub.MainFlow.AddMoreAccount.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "react", "@outsystems/runtime-view-js", "tradershub.MainFlow.AddMoreAccount.mvc$model", "tradershub.MainFlow.AddMoreAccount.mvc$controller", "tradershub.clientVariables", "tradershub.Layouts.MainLayout.mvc$view", "@outsystems/runtime-widgets-js", "tradershub.controller$DerivApiSendMessage", "tradershub.model$RC_6a44851bc01e80a885c4aa0ae740b8fc", "tradershub.model$RL_5ee36d8deb03b51810340e621ea66d4b"], function(OSRuntimeCore, tradershubModel, tradershubController, React, OSView, tradershub_MainFlow_AddMoreAccount_mvc_model, tradershub_MainFlow_AddMoreAccount_mvc_controller, tradershubClientVariables, tradershub_Layouts_MainLayout_mvc_view, OSWidgets) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -217,7 +246,7 @@ define("tradershub.MainFlow.AddMoreAccount.mvc$view", ["@outsystems/runtime-core
 
     return View;
 });
-define("tradershub.MainFlow.AddMoreAccount.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.MainFlow.controller", "tradershub.MainFlow.AddMoreAccount.mvc$controller.OnReady.ModifyLandingCompanyJS", "tradershub.MainFlow.AddMoreAccount.mvc$controller.OnReady.LandingCompanyPayloadJS", "tradershub.controller$DerivApiSendMessage", "tradershub.model$EN_bf87ce2ee46f8f5bc73889fe14426739EntityRecord", "tradershub.model$RL_7f0ff0d0a70a4e41424efbf5ef899b8d"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_MainFlowController, tradershub_MainFlow_AddMoreAccount_mvc_controller_OnReady_ModifyLandingCompanyJS, tradershub_MainFlow_AddMoreAccount_mvc_controller_OnReady_LandingCompanyPayloadJS) {
+define("tradershub.MainFlow.AddMoreAccount.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.MainFlow.controller", "tradershub.MainFlow.AddMoreAccount.mvc$controller.GetCurrenciesOnAfterFetch.ModifyLandingCompanyJS", "tradershub.MainFlow.AddMoreAccount.mvc$controller.GetCurrenciesOnAfterFetch.LandingCompanyPayloadJS", "tradershub.controller$DerivApiSendMessage", "tradershub.model$RC_6a44851bc01e80a885c4aa0ae740b8fc", "tradershub.model$RL_5ee36d8deb03b51810340e621ea66d4b"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_MainFlowController, tradershub_MainFlow_AddMoreAccount_mvc_controller_GetCurrenciesOnAfterFetch_ModifyLandingCompanyJS, tradershub_MainFlow_AddMoreAccount_mvc_controller_GetCurrenciesOnAfterFetch_LandingCompanyPayloadJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -226,31 +255,44 @@ define("tradershub.MainFlow.AddMoreAccount.mvc$controller", ["@outsystems/runtim
                 super(model, messagesProvider, idService);
                 var controller = this.controller;
                 this.clientActionProxies = {};
-                this.dataFetchDependenciesOriginal = {};
-                this.dataFetchDependentsGraph = {};
+                this.dataFetchDependenciesOriginal = {
+                    getCurrencies$AggrRefresh: 0
+                };
+                this.dataFetchDependentsGraph = {
+                    getCurrencies$AggrRefresh: []
+                };
                 this.shouldSendClientVarsToDataSources = false;
             }
 
             // Server Actions - Methods
-            get currenciesList$ServerAction() {
-                if (!(this.hasOwnProperty("_currenciesList$ServerAction"))) {
-                    this._currenciesList$ServerAction = function(callContext) {
-                        var controller = this.controller;
-                        return OS.Logger.startActiveSpan("CurrenciesList", function(span) {
+
+            // Aggregates and Data Actions
+            get getCurrencies$AggrRefresh() {
+                if (!(this.hasOwnProperty("_getCurrencies$AggrRefresh"))) {
+                    this._getCurrencies$AggrRefresh = function() {
+                        var innerBody = function(maxRecords, startIndex, callContext) {
+                            var model = this.model;
+                            var controller = this.controller;
+                            var callContext = controller.callContext(callContext);
+                            return controller.callAggregateWithStartIndexAndClientVars("ScreenDataSetGetCurrencies", "screenservices/tradershub/MainFlow/AddMoreAccount/ScreenDataSetGetCurrencies", "npjMYW44GFvhkxw14gO3vA", maxRecords, startIndex, function(b) {
+                                model.variables.getCurrenciesAggr.dataFetchStatusAttr = b;
+                            }, function(json) {
+                                model.variables.getCurrenciesAggr.replaceWith(OS.DataConversion.ServerDataConverter.from(json, model.variables.getCurrenciesAggr.constructor));
+                            }, undefined, undefined, undefined, callContext, undefined, false).then(function() {
+                                return controller._getCurrenciesOnAfterFetch$Action(controller.callContext(callContext));
+                            });
+                        }.bind(this);
+                        return OS.Logger.startActiveSpan("GetCurrencies", function(span) {
                             if (span) {
-                                span.setAttribute("code.function", "CurrenciesList");
-                                span.setAttribute("outsystems.function.key", "f15c4591-9739-418f-bc8d-14d275e849d1");
+                                span.setAttribute("code.function", "GetCurrencies");
+                                span.setAttribute("outsystems.function.key", "e98bf6f8-4bd0-4468-bbc4-fe8d9d5e50ee");
                                 span.setAttribute("outsystems.function.owner.name", "tradershub");
                                 span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
-                                span.setAttribute("outsystems.function.type", "SCREEN_SERVICE_SERVER_ACTION_CALL");
+                                span.setAttribute("outsystems.function.type", "SCREEN_SERVICE_AGGREGATE_CALL");
                             }
 
                             return OS.Flow.tryFinally(function() {
-                                return controller.callServerAction("CurrenciesList", "screenservices/tradershub/MainFlow/AddMoreAccount/ActionCurrenciesList", "P9KvWybXyhlQu_4RCM97cg", {}, controller.callContext(callContext), undefined, undefined, false).then(function(outputs) {
-                                    var executeServerActionResult = new(controller.constructor.getVariableGroupType("tradershub.MainFlow.AddMoreAccount$ActionCurrenciesList"))();
-                                    executeServerActionResult.currenciesListOut = OS.DataConversion.ServerDataConverter.from(outputs.CurrenciesList, tradershubModel.RL_7f0ff0d0a70a4e41424efbf5ef899b8d);
-                                    return executeServerActionResult;
-                                });
+                                return innerBody();
                             }, function() {
                                 if (span) {
                                     span.end();
@@ -258,21 +300,20 @@ define("tradershub.MainFlow.AddMoreAccount.mvc$controller", ["@outsystems/runtim
 
                             });
                         }, 0);
+
                     };
                 }
 
-                return this._currenciesList$ServerAction;
+                return this._getCurrencies$AggrRefresh;
             }
-            set currenciesList$ServerAction(value) {
-                this._currenciesList$ServerAction = value;
+            set getCurrencies$AggrRefresh(value) {
+                this._getCurrencies$AggrRefresh = value;
             }
 
-
-            // Aggregates and Data Actions
 
             get dataFetchActionNames() {
                 if (!(this.hasOwnProperty("_dataFetchActionNames"))) {
-                    this._dataFetchActionNames = [];
+                    this._dataFetchActionNames = ["getCurrencies$AggrRefresh"];
                 }
 
                 return this._dataFetchActionNames;
@@ -282,80 +323,74 @@ define("tradershub.MainFlow.AddMoreAccount.mvc$controller", ["@outsystems/runtim
             }
 
             // Client Actions - Methods
-            get _onReady$Action() {
-                if (!(this.hasOwnProperty("__onReady$Action"))) {
-                    this.__onReady$Action = function(callContext) {
+            get _getCurrenciesOnAfterFetch$Action() {
+                if (!(this.hasOwnProperty("__getCurrenciesOnAfterFetch$Action"))) {
+                    this.__getCurrenciesOnAfterFetch$Action = function(callContext) {
                         var model = this.model;
                         var controller = this.controller;
                         var idService = this.idService;
-                        return OS.Logger.startActiveSpan("OnReady", function(span) {
+                        return OS.Logger.startActiveSpan("GetCurrenciesOnAfterFetch", function(span) {
                             if (span) {
-                                span.setAttribute("code.function", "OnReady");
-                                span.setAttribute("outsystems.function.key", "d8eb43fc-bd20-44f4-8ba5-b6ccc2280069");
+                                span.setAttribute("code.function", "GetCurrenciesOnAfterFetch");
+                                span.setAttribute("outsystems.function.key", "8de83533-827d-451e-ab13-9096f373dc85");
                                 span.setAttribute("outsystems.function.owner.name", "tradershub");
                                 span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
                                 span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
                             }
 
                             return OS.Flow.tryFinally(function() {
-                                controller.ensureControllerAlive("OnReady");
+                                controller.ensureControllerAlive("GetCurrenciesOnAfterFetch");
                                 callContext = controller.callContext(callContext);
-                                var currenciesListVar = new OS.DataTypes.VariableHolder();
                                 var derivApiSendMessageVar = new OS.DataTypes.VariableHolder();
                                 var landingCompanyPayloadJSResult = new OS.DataTypes.VariableHolder();
                                 var jSONSerializeCurrencyListVar = new OS.DataTypes.VariableHolder(new OS.DataTypes.JSONSerializeOutputType());
                                 return OS.Flow.executeAsyncFlow(function() {
-                                    // Execute Action: CurrenciesList
-                                    model.flush();
-                                    return controller.currenciesList$ServerAction(callContext).then(function(value) {
-                                        currenciesListVar.value = value;
-                                    }).then(function() {
-                                        // JSON Serialize: JSONSerializeCurrencyList
-                                        jSONSerializeCurrencyListVar.value.jSONOut = OS.JSONUtils.serializeToJSON(currenciesListVar.value.currenciesListOut, false, false);
-                                        landingCompanyPayloadJSResult.value = OS.Logger.startActiveSpan("LandingCompanyPayload", function(span) {
+                                    // JSON Serialize: JSONSerializeCurrencyList
+                                    jSONSerializeCurrencyListVar.value.jSONOut = OS.JSONUtils.serializeToJSON(model.variables.getCurrenciesAggr.listOut, false, false);
+                                    landingCompanyPayloadJSResult.value = OS.Logger.startActiveSpan("LandingCompanyPayload", function(span) {
+                                        if (span) {
+                                            span.setAttribute("code.function", "LandingCompanyPayload");
+                                            span.setAttribute("outsystems.function.key", "65f33765-e518-4edb-abb8-5ae61901ad74");
+                                            span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                            span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                            span.setAttribute("outsystems.function.type", "JAVASCRIPT");
+                                        }
+
+                                        try {
+                                            return controller.safeExecuteJSNode(tradershub_MainFlow_AddMoreAccount_mvc_controller_GetCurrenciesOnAfterFetch_LandingCompanyPayloadJS, "LandingCompanyPayload", "GetCurrenciesOnAfterFetch", {
+                                                CountryCode: OS.DataConversion.JSNodeParamConverter.to(tradershubClientVariables.getClientCountry(), OS.DataTypes.DataTypes.Text),
+                                                Payload: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text)
+                                            }, function($parameters) {
+                                                var jsNodeResult = new(controller.constructor.getVariableGroupType("tradershub.MainFlow.AddMoreAccount.GetCurrenciesOnAfterFetch$landingCompanyPayloadJSResult"))();
+                                                jsNodeResult.payloadOut = OS.DataConversion.JSNodeParamConverter.from($parameters.Payload, OS.DataTypes.DataTypes.Text);
+                                                return jsNodeResult;
+                                            }, {}, {});
+                                        } finally {
                                             if (span) {
-                                                span.setAttribute("code.function", "LandingCompanyPayload");
-                                                span.setAttribute("outsystems.function.key", "ed3c1ad0-c637-496d-b948-7db64241a34e");
-                                                span.setAttribute("outsystems.function.owner.name", "tradershub");
-                                                span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
-                                                span.setAttribute("outsystems.function.type", "JAVASCRIPT");
+                                                span.end();
                                             }
 
-                                            try {
-                                                return controller.safeExecuteJSNode(tradershub_MainFlow_AddMoreAccount_mvc_controller_OnReady_LandingCompanyPayloadJS, "LandingCompanyPayload", "OnReady", {
-                                                    CountryCode: OS.DataConversion.JSNodeParamConverter.to(tradershubClientVariables.getClientCountry(), OS.DataTypes.DataTypes.Text),
-                                                    Payload: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text)
-                                                }, function($parameters) {
-                                                    var jsNodeResult = new(controller.constructor.getVariableGroupType("tradershub.MainFlow.AddMoreAccount.OnReady$landingCompanyPayloadJSResult"))();
-                                                    jsNodeResult.payloadOut = OS.DataConversion.JSNodeParamConverter.from($parameters.Payload, OS.DataTypes.DataTypes.Text);
-                                                    return jsNodeResult;
-                                                }, {}, {});
-                                            } finally {
-                                                if (span) {
-                                                    span.end();
-                                                }
+                                        }
 
-                                            }
-
-                                        }, 1);
-                                        // Execute Action: DerivApiSendMessage
-                                        model.flush();
-                                        return tradershubController.default.derivApiSendMessage$Action(landingCompanyPayloadJSResult.value.payloadOut, "", false, callContext).then(function(value) {
-                                            derivApiSendMessageVar.value = value;
-                                        });
+                                    }, 1);
+                                    // Execute Action: DerivApiSendMessage
+                                    model.flush();
+                                    return tradershubController.default.derivApiSendMessage$Action(landingCompanyPayloadJSResult.value.payloadOut, "", false, callContext).then(function(value) {
+                                        derivApiSendMessageVar.value = value;
                                     }).then(function() {
                                         if ((!(derivApiSendMessageVar.value.isErrorOut))) {
                                             OS.Logger.startActiveSpan("ModifyLandingCompany", function(span) {
                                                 if (span) {
                                                     span.setAttribute("code.function", "ModifyLandingCompany");
-                                                    span.setAttribute("outsystems.function.key", "056c2fab-0c99-4db6-97fc-14920a2b5b9e");
+                                                    span.setAttribute("outsystems.function.key", "4d2041af-1890-4c5f-aa14-bad80046937f");
                                                     span.setAttribute("outsystems.function.owner.name", "tradershub");
                                                     span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
                                                     span.setAttribute("outsystems.function.type", "JAVASCRIPT");
                                                 }
 
                                                 try {
-                                                    return controller.safeExecuteJSNode(tradershub_MainFlow_AddMoreAccount_mvc_controller_OnReady_ModifyLandingCompanyJS, "ModifyLandingCompany", "OnReady", {
+                                                    return controller.safeExecuteJSNode(tradershub_MainFlow_AddMoreAccount_mvc_controller_GetCurrenciesOnAfterFetch_ModifyLandingCompanyJS, "ModifyLandingCompany", "GetCurrenciesOnAfterFetch", {
+                                                        WebsiteStatus: OS.DataConversion.JSNodeParamConverter.to(tradershubClientVariables.getRawWebsiteStatusResponse(), OS.DataTypes.DataTypes.Text),
                                                         CurrenciesList: OS.DataConversion.JSNodeParamConverter.to(jSONSerializeCurrencyListVar.value.jSONOut, OS.DataTypes.DataTypes.Text),
                                                         LandingCompany: OS.DataConversion.JSNodeParamConverter.to(derivApiSendMessageVar.value.responseOut, OS.DataTypes.DataTypes.Text)
                                                     }, function($parameters) {}, {}, {});
@@ -381,26 +416,26 @@ define("tradershub.MainFlow.AddMoreAccount.mvc$controller", ["@outsystems/runtim
                     };
                 }
 
-                return this.__onReady$Action;
+                return this.__getCurrenciesOnAfterFetch$Action;
             }
-            set _onReady$Action(value) {
-                this.__onReady$Action = value;
+            set _getCurrenciesOnAfterFetch$Action(value) {
+                this.__getCurrenciesOnAfterFetch$Action = value;
             }
 
 
-            onReady$Action(callContext) {
+            getCurrenciesOnAfterFetch$Action(callContext) {
                 var controller = this.controller;
-                return OS.Logger.startActiveSpan("OnReady__proxy", function(span) {
+                return OS.Logger.startActiveSpan("GetCurrenciesOnAfterFetch__proxy", function(span) {
                     if (span) {
-                        span.setAttribute("code.function", "OnReady");
-                        span.setAttribute("outsystems.function.key", "d8eb43fc-bd20-44f4-8ba5-b6ccc2280069");
+                        span.setAttribute("code.function", "GetCurrenciesOnAfterFetch");
+                        span.setAttribute("outsystems.function.key", "8de83533-827d-451e-ab13-9096f373dc85");
                         span.setAttribute("outsystems.function.owner.name", "tradershub");
                         span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
                         span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
                     }
 
                     return OS.Flow.tryFinally(function() {
-                        return controller.safeExecuteClientAction(controller._onReady$Action, callContext);
+                        return controller.safeExecuteClientAction(controller._getCurrenciesOnAfterFetch$Action, callContext);
                     }, function() {
                         if (span) {
                             span.end();
@@ -426,14 +461,7 @@ define("tradershub.MainFlow.AddMoreAccount.mvc$controller", ["@outsystems/runtim
 
             get onReadyEventHandler() {
                 if (!(this.hasOwnProperty("_onReadyEventHandler"))) {
-                    this._onReadyEventHandler = function(callContext) {
-                        var controller = this.controller;
-                        var model = this.model;
-                        var idService = this.idService;
-
-                        return controller.onReady$Action(callContext);
-
-                    };
+                    this._onReadyEventHandler = null;
                 }
 
                 return this._onReadyEventHandler;
@@ -498,19 +526,9 @@ define("tradershub.MainFlow.AddMoreAccount.mvc$controller", ["@outsystems/runtim
 
         var Controller = ControllerInner;
         // Server Actions - Variables
-        Controller.registerVariableGroupType("tradershub.MainFlow.AddMoreAccount$ActionCurrenciesList", [{
-            name: "CurrenciesList",
-            attrName: "currenciesListOut",
-            mandatory: false,
-            dataType: OS.DataTypes.DataTypes.RecordList,
-            defaultValue: function() {
-                return new tradershubModel.RL_7f0ff0d0a70a4e41424efbf5ef899b8d();
-            },
-            complexType: tradershubModel.RL_7f0ff0d0a70a4e41424efbf5ef899b8d
-        }]);
 
         // Client Actions - Variables
-        Controller.registerVariableGroupType("tradershub.MainFlow.AddMoreAccount.OnReady$landingCompanyPayloadJSResult", [{
+        Controller.registerVariableGroupType("tradershub.MainFlow.AddMoreAccount.GetCurrenciesOnAfterFetch$landingCompanyPayloadJSResult", [{
             name: "Payload",
             attrName: "payloadOut",
             mandatory: true,
@@ -524,22 +542,27 @@ define("tradershub.MainFlow.AddMoreAccount.mvc$controller", ["@outsystems/runtim
     return new OS.Controller.ControllerFactory(Controller, tradershubLanguageResources);
 });
 
-define("tradershub.MainFlow.AddMoreAccount.mvc$controller.OnReady.ModifyLandingCompanyJS", [], function() {
+define("tradershub.MainFlow.AddMoreAccount.mvc$controller.GetCurrenciesOnAfterFetch.ModifyLandingCompanyJS", [], function() {
     return function($parameters, $actions, $roles, $public) {
         const currenciesList = JSON.parse($parameters.CurrenciesList);
+        const WebsiteStatus = JSON.parse($parameters.WebsiteStatus);
+        const LandingCompany = JSON.parse($parameters.LandingCompany);
 
         const getCurrencyIcon = (code) => {
             const currencyArray = currenciesList.filter((currency) => currency.Code === code);
             return currencyArray[0]?.Icon ?? '';
         }
 
-        const LandingCompany = JSON.parse($parameters.LandingCompany);
-
-        console.log('data: ', LandingCompany)
+        if (LandingCompany & WebsiteStatus) {
+            const legalAllowedCurrencies = LandingCompany.landing_company?.financial_company?.legal_allowed_currencies;
+            const currenciesConfig = WebsiteStatus?.website_status?.currencies_config;
+            console.log('legalAllowedCurrencies: ', legalAllowedCurrencies)
+            console.log('WebsiteStatus: ', currenciesConfig)
+        }
     };
 });
 
-define("tradershub.MainFlow.AddMoreAccount.mvc$controller.OnReady.LandingCompanyPayloadJS", [], function() {
+define("tradershub.MainFlow.AddMoreAccount.mvc$controller.GetCurrenciesOnAfterFetch.LandingCompanyPayloadJS", [], function() {
     return function($parameters, $actions, $roles, $public) {
         $parameters.Payload = JSON.stringify({
             "landing_company": $parameters.CountryCode

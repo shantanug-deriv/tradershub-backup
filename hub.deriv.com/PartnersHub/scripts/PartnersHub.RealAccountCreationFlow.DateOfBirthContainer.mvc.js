@@ -153,7 +153,7 @@ define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$view", ["@o
                     uuid: "3"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Date of birth", React.createElement(OSWidgets.Text, {
+            }, $text(getTranslation("bAVdkOUNBUG_U9GkVV0i6Q#Value", "Date of birth")), React.createElement(OSWidgets.Text, {
                 extendedProperties: {
                     style: "color: #bf333a; margin-left: 2px;"
                 },
@@ -175,7 +175,8 @@ define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$view", ["@o
                     OptionalConfigs: model.getCachedValue(idService.getId("DatePicker.OptionalConfigs"), function() {
                         return function() {
                             var rec = new OutSystemsUIModel.ST_bc4abb4233d9ce894e855c520a20c76fStructure();
-                            rec.maxDateAttr = OS.BuiltinFunctions.currDate();
+                            rec.initialDateAttr = OS.BuiltinFunctions.addYears(OS.BuiltinFunctions.currDate(), -18);
+                            rec.maxDateAttr = OS.BuiltinFunctions.addYears(OS.BuiltinFunctions.currDate(), -18);
                             return rec;
                         }();
                     }),
@@ -211,7 +212,7 @@ define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$view", ["@o
                             },
                             enabled: true,
                             extendedProperties: {
-                                "aria-label": "Select a date"
+                                "aria-label": OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("1wIXIAE1yUC7CgI2awV25w#Value.1002767249.1", "Select a date")
                             },
                             gridProperties: {
                                 classes: "OSFillParent"
@@ -219,7 +220,7 @@ define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$view", ["@o
                             inputType: /*Date*/ 4,
                             mandatory: true,
                             maxLength: 0,
-                            prompt: "dd-mm-yyyy",
+                            prompt: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("w5xC+s7g0UaCuq6+6RZViA#ValueExpression.-591733248.1", "dd-mm-yyyy"),
                             style: "form-control",
                             variable: model.createVariable(OS.DataTypes.DataTypes.Date, PartnersHubClientVariables.getRealSignupDateofBirth(), function(value) {
                                 PartnersHubClientVariables.setRealSignupDateofBirth(value);
@@ -279,7 +280,7 @@ define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$view", ["@o
                 extendedProperties: {
                     style: "margin-right: 4px;"
                 },
-                text: ["Enter your"],
+                text: [$text(getTranslation("QI2aTs_TxE6cIF7ETUf9sg#Value", "Enter your"))],
                 _idProps: {
                     service: idService,
                     uuid: "10"
@@ -289,13 +290,13 @@ define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$view", ["@o
                 extendedProperties: {
                     style: "font-weight: bold; margin-right: 4px;"
                 },
-                text: ["date of birth"],
+                text: [$text(getTranslation("R6QvSSYpZUKx2eKCmm6T+g#Value", "date of birth"))],
                 _idProps: {
                     service: idService,
                     uuid: "11"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }), "exactly as it appears on your identity document.")), React.createElement(OSWidgets.Image, {
+            }), $text(getTranslation("CmBHFZFxMUKb6n_wooOCMQ#Value", "exactly as it appears on your identity document.")))), React.createElement(OSWidgets.Image, {
                 gridProperties: {
                     marginLeft: "0"
                 },
@@ -334,7 +335,7 @@ define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$view", ["@o
                 extendedProperties: {
                     style: "color: #f3f6f8; font-size: 16px; font-weight: bold;"
                 },
-                text: ["Next"],
+                text: [$text(getTranslation("Rqe+i_NNF0udVEY3a2YZnA#Value", "Next"))],
                 _idProps: {
                     service: idService,
                     uuid: "14"
@@ -474,7 +475,7 @@ define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$controller"
                                 model.widgets.get(idService.getId("Input_DateofBirth2")).validationMessageAttr = jSONDeserializePersonalDetailsValidationErrorVar.value.dataOut.dateOfBirthAttr;
                                 if ((model.widgets.get(idService.getId("Form2")).validAttr)) {
                                     // Execute Action: NextStepReal
-                                    PartnersHubController.default.nextStepReal$Action(((PartnersHubClientVariables.getRealSignupIsIDVSupported()) ? (1) : (2)), OS.BuiltinFunctions.decimalToInteger(OS.BuiltinFunctions.trunc(((PartnersHubClientVariables.getRealSignupIsIDVSupported()) ? ((new OS.DataTypes.Decimal("12.5"))) : (OS.BuiltinFunctions.integerToDecimal(25))))), callContext);
+                                    PartnersHubController.default.nextStepReal$Action(1, 12, callContext);
                                 }
 
                             } finally {
@@ -704,6 +705,119 @@ define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$controller.
 });
 
 
-define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "Rqe+i_NNF0udVEY3a2YZnA#Value": "Nächste",
+        "CmBHFZFxMUKb6n_wooOCMQ#Value": "genau wie es auf Ihrem Ausweisdokument erscheint.",
+        "R6QvSSYpZUKx2eKCmm6T+g#Value": "Geburtsdatum",
+        "QI2aTs_TxE6cIF7ETUf9sg#Value": "Geben Sie Ihre",
+        "1wIXIAE1yUC7CgI2awV25w#Value.1002767249.1": "Select a date",
+        "w5xC+s7g0UaCuq6+6RZViA#ValueExpression.-591733248.1": "tt-mm-jjjj",
+        "bAVdkOUNBUG_U9GkVV0i6Q#Value": "Geburtsdatum"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "Rqe+i_NNF0udVEY3a2YZnA#Value": "Siguiente",
+        "CmBHFZFxMUKb6n_wooOCMQ#Value": "exactamente como aparece en su documento de identidad.",
+        "R6QvSSYpZUKx2eKCmm6T+g#Value": "fecha de nacimiento",
+        "QI2aTs_TxE6cIF7ETUf9sg#Value": "Introduzca su",
+        "1wIXIAE1yUC7CgI2awV25w#Value.1002767249.1": "Select a date",
+        "w5xC+s7g0UaCuq6+6RZViA#ValueExpression.-591733248.1": "dd-mm-yyyy",
+        "bAVdkOUNBUG_U9GkVV0i6Q#Value": "Fecha de nacimiento"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "Rqe+i_NNF0udVEY3a2YZnA#Value": "Suivant",
+        "CmBHFZFxMUKb6n_wooOCMQ#Value": "exactement comme il apparaît sur votre document d\'identité.",
+        "R6QvSSYpZUKx2eKCmm6T+g#Value": "date de naissance",
+        "QI2aTs_TxE6cIF7ETUf9sg#Value": "Entrez votre",
+        "1wIXIAE1yUC7CgI2awV25w#Value.1002767249.1": "Select a date",
+        "w5xC+s7g0UaCuq6+6RZViA#ValueExpression.-591733248.1": "jj-mm-aaaa",
+        "bAVdkOUNBUG_U9GkVV0i6Q#Value": "Date de naissance"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "Rqe+i_NNF0udVEY3a2YZnA#Value": "Prossimo",
+        "CmBHFZFxMUKb6n_wooOCMQ#Value": "esattamente come appare sul tuo documento d\'identità.",
+        "R6QvSSYpZUKx2eKCmm6T+g#Value": "data di nascita",
+        "QI2aTs_TxE6cIF7ETUf9sg#Value": "Inserisci il tuo",
+        "1wIXIAE1yUC7CgI2awV25w#Value.1002767249.1": "Select a date",
+        "w5xC+s7g0UaCuq6+6RZViA#ValueExpression.-591733248.1": "gg-mm-aaaa",
+        "bAVdkOUNBUG_U9GkVV0i6Q#Value": "Data di nascita"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "Rqe+i_NNF0udVEY3a2YZnA#Value": "Następny",
+        "CmBHFZFxMUKb6n_wooOCMQ#Value": "dokładnie tak, jak jest to napisane w Twoim dokumencie tożsamości.",
+        "R6QvSSYpZUKx2eKCmm6T+g#Value": "data urodzenia",
+        "QI2aTs_TxE6cIF7ETUf9sg#Value": "Wprowadź swój",
+        "1wIXIAE1yUC7CgI2awV25w#Value.1002767249.1": "Select a date",
+        "w5xC+s7g0UaCuq6+6RZViA#ValueExpression.-591733248.1": "dd-mm-rrrr",
+        "bAVdkOUNBUG_U9GkVV0i6Q#Value": "Data urodzenia"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "Rqe+i_NNF0udVEY3a2YZnA#Value": "Próximo",
+        "CmBHFZFxMUKb6n_wooOCMQ#Value": "exatamente como aparece no seu documento de identidade.",
+        "R6QvSSYpZUKx2eKCmm6T+g#Value": "data de nascimento",
+        "QI2aTs_TxE6cIF7ETUf9sg#Value": "Insira o seu",
+        "1wIXIAE1yUC7CgI2awV25w#Value.1002767249.1": "Select a date",
+        "w5xC+s7g0UaCuq6+6RZViA#ValueExpression.-591733248.1": "dd-mm-aaaa",
+        "bAVdkOUNBUG_U9GkVV0i6Q#Value": "Data de nascimento"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "Rqe+i_NNF0udVEY3a2YZnA#Value": "Следующий",
+        "CmBHFZFxMUKb6n_wooOCMQ#Value": "точно так, как указано в вашем удостоверении личности.",
+        "R6QvSSYpZUKx2eKCmm6T+g#Value": "дата рождения",
+        "QI2aTs_TxE6cIF7ETUf9sg#Value": "Введите ваш",
+        "1wIXIAE1yUC7CgI2awV25w#Value.1002767249.1": "Select a date",
+        "w5xC+s7g0UaCuq6+6RZViA#ValueExpression.-591733248.1": "дд-мм-гггг",
+        "bAVdkOUNBUG_U9GkVV0i6Q#Value": "Дата рождения"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources", ["exports", "PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources.de-DE", "PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources.es-ES", "PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources.fr-FR", "PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources.it-IT", "PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources.pl-PL", "PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources.pt-PT", "PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_RealAccountCreationFlow_DateOfBirthContainer_mvc_translationsResources_deDE, PartnersHub_RealAccountCreationFlow_DateOfBirthContainer_mvc_translationsResources_esES, PartnersHub_RealAccountCreationFlow_DateOfBirthContainer_mvc_translationsResources_frFR, PartnersHub_RealAccountCreationFlow_DateOfBirthContainer_mvc_translationsResources_itIT, PartnersHub_RealAccountCreationFlow_DateOfBirthContainer_mvc_translationsResources_plPL, PartnersHub_RealAccountCreationFlow_DateOfBirthContainer_mvc_translationsResources_ptPT, PartnersHub_RealAccountCreationFlow_DateOfBirthContainer_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_RealAccountCreationFlow_DateOfBirthContainer_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_RealAccountCreationFlow_DateOfBirthContainer_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_RealAccountCreationFlow_DateOfBirthContainer_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_RealAccountCreationFlow_DateOfBirthContainer_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_RealAccountCreationFlow_DateOfBirthContainer_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_RealAccountCreationFlow_DateOfBirthContainer_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_RealAccountCreationFlow_DateOfBirthContainer_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

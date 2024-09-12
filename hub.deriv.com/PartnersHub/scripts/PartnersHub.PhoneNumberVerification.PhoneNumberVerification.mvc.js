@@ -1,4 +1,4 @@
-define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "OutSystemsUI.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "PartnersHub.Layouts.LayoutDashboard.mvc$model", "PartnersHub.Layouts.DeviceLayout.mvc$model", "PartnersHub.PhoneNumberVerification.PhoneNumberVerificationBlock.mvc$model", "PartnersHub.Common.AlertBlock.mvc$model", "PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$model", "PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$model", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "PartnersHub.model$RL_c0f17d75c546075264f5d075e00ba65b", "PartnersHub.model$ST_e61d85f6aadd57329cc664ba1d0e64c1Structure", "PartnersHub.model$ST_4286a56d180b6bb5649e20efadd675fdStructure", "PartnersHub.model$ST_6e5c732e48bd98c4d439ed63bb1fb9c4Structure", "PartnersHub.model$ST_b04713a56316d52deeb5eab31f0fde62Structure", "PartnersHub.controller$SendPhoneNumberChallenge", "PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "PartnersHub.referencesHealth$RESTAPIWebsocket", "PartnersHub.controller$SendAuthorize", "PartnersHub.controller$UseDevice", "PartnersHub.controller$SendWebsiteStatus", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.controller$SendResidenceList", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure", "PartnersHub.controller$SendGetSettings", "PartnersHub.model$ST_9f80c4e8dbd08377be883c073be1c044Structure", "PartnersHub.model$ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructure", "PartnersHub.model$RL_ad0d7e810e49e61265e2d337c04416fc"], function(OSRuntimeCore, PartnersHubModel, OutSystemsUIModel, PartnersHubController, RESTAPIWebsocketModel, PartnersHub_Layouts_LayoutDashboard_mvcModel, PartnersHub_Layouts_DeviceLayout_mvcModel, PartnersHub_PhoneNumberVerification_PhoneNumberVerificationBlock_mvcModel, PartnersHub_Common_AlertBlock_mvcModel, PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvcModel, PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvcModel) {
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "OutSystemsUI.model", "RESTAPIWebsocket.model", "PartnersHub.controller", "RESTAPIWebsocket.controller", "PartnersHub.Layouts.LayoutDashboard.mvc$model", "PartnersHub.Layouts.DeviceLayout.mvc$model", "PartnersHub.PhoneNumberVerification.PhoneNumberVerificationBlock.mvc$model", "PartnersHub.Common.AlertBlock.mvc$model", "PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$model", "PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$model", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "PartnersHub.model$RL_c0f17d75c546075264f5d075e00ba65b", "RESTAPIWebsocket.model$ST_c864353821feed79663806f3e445d40eStructure", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.model$ST_6e5c732e48bd98c4d439ed63bb1fb9c4Structure", "PartnersHub.model$ST_b04713a56316d52deeb5eab31f0fde62Structure", "PartnersHub.controller$SendPhoneNumberChallenge", "PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "PartnersHub.controller$SendAuthorize", "PartnersHub.controller$UseDevice", "RESTAPIWebsocket.controller$GetWebsiteStatus", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.controller$SendResidenceList", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.model$ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructure", "PartnersHub.model$RL_ad0d7e810e49e61265e2d337c04416fc"], function(OSRuntimeCore, PartnersHubModel, OutSystemsUIModel, RESTAPIWebsocketModel, PartnersHubController, RESTAPIWebsocketController, PartnersHub_Layouts_LayoutDashboard_mvcModel, PartnersHub_Layouts_DeviceLayout_mvcModel, PartnersHub_PhoneNumberVerification_PhoneNumberVerificationBlock_mvcModel, PartnersHub_Common_AlertBlock_mvcModel, PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvcModel, PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvcModel) {
     var OS = OSRuntimeCore;
 
 
@@ -11,8 +11,8 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$model", 
                         return OS.DataTypes.ImmutableBase.getData(new PartnersHubModel.RL_c0f17d75c546075264f5d075e00ba65b());
                     }, false, PartnersHubModel.RL_c0f17d75c546075264f5d075e00ba65b),
                     this.attr("WebsiteStatusResponse", "websiteStatusResponseVar", "WebsiteStatusResponse", true, false, OS.DataTypes.DataTypes.Record, function() {
-                        return OS.DataTypes.ImmutableBase.getData(new PartnersHubModel.ST_e61d85f6aadd57329cc664ba1d0e64c1Structure());
-                    }, false, PartnersHubModel.ST_e61d85f6aadd57329cc664ba1d0e64c1Structure),
+                        return OS.DataTypes.ImmutableBase.getData(new RESTAPIWebsocketModel.ST_c864353821feed79663806f3e445d40eStructure());
+                    }, false, RESTAPIWebsocketModel.ST_c864353821feed79663806f3e445d40eStructure),
                     this.attr("SelectedCarrier", "selectedCarrierVar", "SelectedCarrier", true, false, OS.DataTypes.DataTypes.Text, function() {
                         return "";
                     }, false),
@@ -20,8 +20,8 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$model", 
                         return "EmailVerificationBlock";
                     }, false),
                     this.attr("GetSettingsResponse", "getSettingsResponseVar", "GetSettingsResponse", true, false, OS.DataTypes.DataTypes.Record, function() {
-                        return OS.DataTypes.ImmutableBase.getData(new PartnersHubModel.ST_4286a56d180b6bb5649e20efadd675fdStructure());
-                    }, false, PartnersHubModel.ST_4286a56d180b6bb5649e20efadd675fdStructure),
+                        return OS.DataTypes.ImmutableBase.getData(new RESTAPIWebsocketModel.ST_5fc2e4a935064c1413d6e989e87decd2Structure());
+                    }, false, RESTAPIWebsocketModel.ST_5fc2e4a935064c1413d6e989e87decd2Structure),
                     this.attr("IsResendCodePopupOpen", "isResendCodePopupOpenVar", "IsResendCodePopupOpen", true, false, OS.DataTypes.DataTypes.Boolean, function() {
                         return false;
                     }, false),
@@ -83,7 +83,7 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$model", 
     return new OS.Model.ModelFactory(Model);
 });
 
-define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "RESTAPIWebsocket.model", "react", "@outsystems/runtime-view-js", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$model", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controller", "PartnersHub.clientVariables", "@outsystems/runtime-widgets-js", "PartnersHub.Layouts.LayoutDashboard.mvc$view", "PartnersHub.Layouts.DeviceLayout.mvc$view", "PartnersHub.PhoneNumberVerification.PhoneNumberVerificationBlock.mvc$view", "PartnersHub.Common.AlertBlock.mvc$view", "PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$view", "PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$view", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "PartnersHub.model$RL_c0f17d75c546075264f5d075e00ba65b", "PartnersHub.model$ST_e61d85f6aadd57329cc664ba1d0e64c1Structure", "PartnersHub.model$ST_4286a56d180b6bb5649e20efadd675fdStructure", "PartnersHub.model$ST_6e5c732e48bd98c4d439ed63bb1fb9c4Structure", "PartnersHub.model$ST_b04713a56316d52deeb5eab31f0fde62Structure", "PartnersHub.controller$SendPhoneNumberChallenge", "PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "PartnersHub.referencesHealth$RESTAPIWebsocket", "PartnersHub.controller$SendAuthorize", "PartnersHub.controller$UseDevice", "PartnersHub.controller$SendWebsiteStatus", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.controller$SendResidenceList", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure", "PartnersHub.controller$SendGetSettings", "PartnersHub.model$ST_9f80c4e8dbd08377be883c073be1c044Structure", "PartnersHub.model$ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructure", "PartnersHub.model$RL_ad0d7e810e49e61265e2d337c04416fc"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, RESTAPIWebsocketModel, React, OSView, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_model, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_controller, PartnersHubClientVariables, OSWidgets, PartnersHub_Layouts_LayoutDashboard_mvc_view, PartnersHub_Layouts_DeviceLayout_mvc_view, PartnersHub_PhoneNumberVerification_PhoneNumberVerificationBlock_mvc_view, PartnersHub_Common_AlertBlock_mvc_view, PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_view, PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_view) {
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "react", "@outsystems/runtime-view-js", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$model", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controller", "PartnersHub.clientVariables", "@outsystems/runtime-widgets-js", "PartnersHub.Layouts.LayoutDashboard.mvc$view", "PartnersHub.Layouts.DeviceLayout.mvc$view", "PartnersHub.PhoneNumberVerification.PhoneNumberVerificationBlock.mvc$view", "PartnersHub.Common.AlertBlock.mvc$view", "PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$view", "PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$view", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "PartnersHub.model$RL_c0f17d75c546075264f5d075e00ba65b", "RESTAPIWebsocket.model$ST_c864353821feed79663806f3e445d40eStructure", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.model$ST_6e5c732e48bd98c4d439ed63bb1fb9c4Structure", "PartnersHub.model$ST_b04713a56316d52deeb5eab31f0fde62Structure", "PartnersHub.controller$SendPhoneNumberChallenge", "PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "PartnersHub.controller$SendAuthorize", "PartnersHub.controller$UseDevice", "RESTAPIWebsocket.controller$GetWebsiteStatus", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.controller$SendResidenceList", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.model$ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructure", "PartnersHub.model$RL_ad0d7e810e49e61265e2d337c04416fc"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, RESTAPIWebsocketModel, RESTAPIWebsocketController, React, OSView, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_model, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_controller, PartnersHubClientVariables, OSWidgets, PartnersHub_Layouts_LayoutDashboard_mvc_view, PartnersHub_Layouts_DeviceLayout_mvc_view, PartnersHub_PhoneNumberVerification_PhoneNumberVerificationBlock_mvc_view, PartnersHub_Common_AlertBlock_mvc_view, PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_view, PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_view) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -186,7 +186,7 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$view", [
                 extendedProperties: {
                     style: "color: #222; font-size: 20px; font-weight: bold;"
                 },
-                text: ["Didn\'t get the code?"],
+                text: [$text(getTranslation("RYVAczoYXECSCahgdN7k2A#Value", "Didn\'t get the code?"))],
                 _idProps: {
                     service: idService,
                     uuid: "4"
@@ -249,7 +249,7 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$view", [
                     uuid: "7"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Resend code"), React.createElement(OSWidgets.Button, {
+            }, $text(getTranslation("vpWbo8hIQkeivsYLl_TX1g#Value", "Resend code"))), React.createElement(OSWidgets.Button, {
                 enabled: true,
                 extendedProperties: {
                     style: "border-radius: 100px;"
@@ -306,7 +306,7 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$view", [
                 extendedProperties: {
                     style: "color: #222; cursor: pointer; font-weight: bold; text-decoration: underline;"
                 },
-                text: ["Change phone number"],
+                text: [$text(getTranslation("AFr8LldAKEmkCdYd8s7AKQ#Value", "Change phone number"))],
                 _idProps: {
                     service: idService,
                     uuid: "11"
@@ -402,7 +402,7 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$view", [
                                             _widgetRecordProvider: widgetsRecordProvider
                                         }), React.createElement(OSWidgets.Text, {
                                             style: "font-bold margin-left-m font-size-h6",
-                                            text: ["Phone number verification"],
+                                            text: [$text(getTranslation("ZqV91Ha8kkKN5dNRhl1kXg#Value", "Phone number verification"))],
                                             _idProps: {
                                                 service: idService,
                                                 uuid: "17"
@@ -619,7 +619,7 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$view", [
                                             _widgetRecordProvider: widgetsRecordProvider
                                         }), React.createElement(OSWidgets.Text, {
                                             style: "font-bold margin-left-m font-size-h6",
-                                            text: ["Phone number verification"],
+                                            text: [$text(getTranslation("inbT8RrhZ0eoCD8KpnEccQ#Value", "Phone number verification"))],
                                             _idProps: {
                                                 service: idService,
                                                 uuid: "25"
@@ -815,7 +815,7 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$view", [
 
     return View;
 });
-define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "RESTAPIWebsocket.model", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources", "PartnersHub.PhoneNumberVerification.controller", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controller.OnReady.CheckQueryParamJS", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controller.OnReady.JavaScript1JS", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "PartnersHub.model$RL_c0f17d75c546075264f5d075e00ba65b", "PartnersHub.model$ST_e61d85f6aadd57329cc664ba1d0e64c1Structure", "PartnersHub.model$ST_4286a56d180b6bb5649e20efadd675fdStructure", "PartnersHub.model$ST_6e5c732e48bd98c4d439ed63bb1fb9c4Structure", "PartnersHub.model$ST_b04713a56316d52deeb5eab31f0fde62Structure", "PartnersHub.controller$SendPhoneNumberChallenge", "PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "PartnersHub.referencesHealth$RESTAPIWebsocket", "PartnersHub.controller$SendAuthorize", "PartnersHub.controller$UseDevice", "PartnersHub.controller$SendWebsiteStatus", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.controller$SendResidenceList", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure", "PartnersHub.controller$SendGetSettings", "PartnersHub.model$ST_9f80c4e8dbd08377be883c073be1c044Structure", "PartnersHub.model$ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructure", "PartnersHub.model$RL_ad0d7e810e49e61265e2d337c04416fc"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, RESTAPIWebsocketModel, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_TranslationsResources, PartnersHub_PhoneNumberVerificationController, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_controller_OnReady_CheckQueryParamJS, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_controller_OnReady_JavaScript1JS) {
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources", "PartnersHub.PhoneNumberVerification.controller", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controller.OnReady.CheckQueryParamJS", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controller.OnReady.GetAuthTokenJS", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controller.OnChallengeEmail.GetAuthTokenJS", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "PartnersHub.model$RL_c0f17d75c546075264f5d075e00ba65b", "RESTAPIWebsocket.model$ST_c864353821feed79663806f3e445d40eStructure", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.model$ST_6e5c732e48bd98c4d439ed63bb1fb9c4Structure", "PartnersHub.model$ST_b04713a56316d52deeb5eab31f0fde62Structure", "PartnersHub.controller$SendPhoneNumberChallenge", "PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "PartnersHub.controller$SendAuthorize", "PartnersHub.controller$UseDevice", "RESTAPIWebsocket.controller$GetWebsiteStatus", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.controller$SendResidenceList", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.model$ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructure", "PartnersHub.model$RL_ad0d7e810e49e61265e2d337c04416fc"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_TranslationsResources, PartnersHub_PhoneNumberVerificationController, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_controller_OnReady_CheckQueryParamJS, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_controller_OnReady_GetAuthTokenJS, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_controller_OnChallengeEmail_GetAuthTokenJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -926,15 +926,15 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controll
                                 callContext = controller.callContext(callContext);
                                 var sendPhoneNumberChallengeVar = new OS.DataTypes.VariableHolder();
                                 var sendAuthorizeVar = new OS.DataTypes.VariableHolder();
-                                var sendWebsiteStatusVar = new OS.DataTypes.VariableHolder();
+                                var getWebsiteStatusVar = new OS.DataTypes.VariableHolder();
                                 var sendResidenceListVar = new OS.DataTypes.VariableHolder();
-                                var sendGetSettingsVar = new OS.DataTypes.VariableHolder();
+                                var getSettingsVar = new OS.DataTypes.VariableHolder();
                                 var checkQueryParamJSResult = new OS.DataTypes.VariableHolder();
-                                var javaScript1JSResult = new OS.DataTypes.VariableHolder();
+                                var getAuthTokenJSResult = new OS.DataTypes.VariableHolder();
                                 return OS.Flow.executeAsyncFlow(function() {
-                                    javaScript1JSResult.value = OS.Logger.startActiveSpan("JavaScript1", function(span) {
+                                    getAuthTokenJSResult.value = OS.Logger.startActiveSpan("GetAuthToken", function(span) {
                                         if (span) {
-                                            span.setAttribute("code.function", "JavaScript1");
+                                            span.setAttribute("code.function", "GetAuthToken");
                                             span.setAttribute("outsystems.function.key", "8ad8c89a-5e8d-45d8-a827-7ab20b6a93e7");
                                             span.setAttribute("outsystems.function.owner.name", "PartnersHub");
                                             span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
@@ -942,10 +942,10 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controll
                                         }
 
                                         try {
-                                            return controller.safeExecuteJSNode(PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_controller_OnReady_JavaScript1JS, "JavaScript1", "OnReady", {
+                                            return controller.safeExecuteJSNode(PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_controller_OnReady_GetAuthTokenJS, "GetAuthToken", "OnReady", {
                                                 token: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text)
                                             }, function($parameters) {
-                                                var jsNodeResult = new(controller.constructor.getVariableGroupType("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.OnReady$javaScript1JSResult"))();
+                                                var jsNodeResult = new(controller.constructor.getVariableGroupType("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.OnReady$getAuthTokenJSResult"))();
                                                 jsNodeResult.tokenOut = OS.DataConversion.JSNodeParamConverter.from($parameters.token, OS.DataTypes.DataTypes.Text);
                                                 return jsNodeResult;
                                             }, {}, {});
@@ -961,7 +961,7 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controll
                                     model.flush();
                                     return PartnersHubController.default.sendAuthorize$Action(function() {
                                         var rec = new PartnersHubModel.ST_e00c986a2a7690520557f1ea58ae1d82Structure();
-                                        rec.authorizeAttr = javaScript1JSResult.value.tokenOut;
+                                        rec.authorizeAttr = getAuthTokenJSResult.value.tokenOut;
                                         return rec;
                                     }(), callContext).then(function(value) {
                                         sendAuthorizeVar.value = value;
@@ -974,10 +974,10 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controll
                                             sendResidenceListVar.value = value;
                                         });
                                     }).then(function() {
-                                        // Execute Action: SendWebsiteStatus
+                                        // Execute Action: GetWebsiteStatus
                                         model.flush();
-                                        return PartnersHubController.default.sendWebsiteStatus$Action(callContext).then(function(value) {
-                                            sendWebsiteStatusVar.value = value;
+                                        return RESTAPIWebsocketController.default.getWebsiteStatus$Action(PartnersHubClientVariables.getServer(), PartnersHubClientVariables.getAppId(), "EN", callContext).then(function(value) {
+                                            getWebsiteStatusVar.value = value;
                                         });
                                     }).then(function() {
                                         checkQueryParamJSResult.value = OS.Logger.startActiveSpan("CheckQueryParam", function(span) {
@@ -1031,10 +1031,10 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controll
 
                                         });
                                     }).then(function() {
-                                        // Execute Action: SendGetSettings
+                                        // Execute Action: GetSettings
                                         model.flush();
-                                        return PartnersHubController.default.sendGetSettings$Action(callContext).then(function(value) {
-                                            sendGetSettingsVar.value = value;
+                                        return RESTAPIWebsocketController.default.getSettings$Action(PartnersHubClientVariables.getServer(), getAuthTokenJSResult.value.tokenOut, PartnersHubClientVariables.getAppId(), "EN", callContext).then(function(value) {
+                                            getSettingsVar.value = value;
                                         }).then(function() {
                                             // PhoneNumberList = SendResidenceList.ResidenceListResponse.Residence_list
                                             model.variables.phoneNumberListVar = OS.DataConversion.JSConversions.typeConvertRecordList(sendResidenceListVar.value.residenceListResponseOut.residence_listAttr, new PartnersHubModel.RL_c0f17d75c546075264f5d075e00ba65b(), function(source, target) {
@@ -1042,47 +1042,10 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controll
                                                 target.labelAttr = (((source.textAttr + " ") + "+") + source.phone_iddAttr);
                                                 return target;
                                             });
-                                            // WebsiteStatusResponse = SendWebsiteStatus.WebsiteStatusResponse
-                                            model.variables.websiteStatusResponseVar = sendWebsiteStatusVar.value.websiteStatusResponseOut;
-                                            // GetSettingsResponse = SendGetSettings.GetSettingsResponse
-                                            model.variables.getSettingsResponseVar = OS.DataConversion.JSConversions.typeConvertRecord(sendGetSettingsVar.value.getSettingsResponseOut, new PartnersHubModel.ST_4286a56d180b6bb5649e20efadd675fdStructure(), function(source, target) {
-                                                target.get_settingsAttr.account_opening_reasonAttr = source.account_opening_reasonAttr;
-                                                target.get_settingsAttr.address_cityAttr = source.address_cityAttr;
-                                                target.get_settingsAttr.address_line_1Attr = source.address_line_1Attr;
-                                                target.get_settingsAttr.address_line_2Attr = source.address_line_2Attr;
-                                                target.get_settingsAttr.address_postcodeAttr = source.address_postcodeAttr;
-                                                target.get_settingsAttr.address_stateAttr = source.address_stateAttr;
-                                                target.get_settingsAttr.allow_copiersAttr = source.allow_copiersAttr;
-                                                target.get_settingsAttr.citizenAttr = source.citizenAttr;
-                                                target.get_settingsAttr.client_tnc_statusAttr = source.client_tnc_statusAttr;
-                                                target.get_settingsAttr.cooling_off_expiration_dateAttr = source.cooling_off_expiration_dateAttr;
-                                                target.get_settingsAttr.countryAttr = source.countryAttr;
-                                                target.get_settingsAttr.country_codeAttr = source.country_codeAttr;
-                                                target.get_settingsAttr.date_of_birthAttr = source.date_of_birthAttr;
-                                                target.get_settingsAttr.dxtrade_user_exceptionAttr = source.dxtrade_user_exceptionAttr;
-                                                target.get_settingsAttr.emailAttr = source.emailAttr;
-                                                target.get_settingsAttr.email_consentAttr = source.email_consentAttr;
-                                                target.get_settingsAttr.employment_statusAttr = source.employment_statusAttr;
-                                                target.get_settingsAttr.fatca_declarationAttr = source.fatca_declarationAttr;
-                                                target.get_settingsAttr.first_nameAttr = source.first_nameAttr;
-                                                target.get_settingsAttr.has_secret_answerAttr = source.has_secret_answerAttr;
-                                                target.get_settingsAttr.immutable_fieldsAttr = source.immutable_fieldsAttr;
-                                                target.get_settingsAttr.is_authenticated_payment_agentAttr = source.is_authenticated_payment_agentAttr;
-                                                target.get_settingsAttr.last_nameAttr = source.last_nameAttr;
-                                                target.get_settingsAttr.non_pep_declarationAttr = source.non_pep_declarationAttr;
-                                                target.get_settingsAttr.phoneAttr = source.phoneAttr;
-                                                target.get_settingsAttr.place_of_birthAttr = source.place_of_birthAttr;
-                                                target.get_settingsAttr.preferred_languageAttr = source.preferred_languageAttr;
-                                                target.get_settingsAttr.request_professional_statusAttr = source.request_professional_statusAttr;
-                                                target.get_settingsAttr.residenceAttr = source.residenceAttr;
-                                                target.get_settingsAttr.salutationAttr = source.salutationAttr;
-                                                target.get_settingsAttr.tax_identification_numberAttr = source.tax_identification_numberAttr;
-                                                target.get_settingsAttr.tax_residenceAttr = source.tax_residenceAttr;
-                                                target.get_settingsAttr.trading_hubAttr = source.trading_hubAttr;
-                                                target.get_settingsAttr.user_hashAttr = source.user_hashAttr;
-                                                target.get_settingsAttr.phone_number_verificationAttr = source.phone_number_verificationAttr;
-                                                return target;
-                                            });
+                                            // WebsiteStatusResponse = GetWebsiteStatus.Response
+                                            model.variables.websiteStatusResponseVar = getWebsiteStatusVar.value.responseOut;
+                                            // GetSettingsResponse = GetSettings.Response
+                                            model.variables.getSettingsResponseVar = getSettingsVar.value.responseOut;
                                         });
                                     });
                                 });
@@ -1270,11 +1233,37 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controll
                                 callContext = controller.callContext(callContext);
                                 var vars = new OS.DataTypes.VariableHolder(new(controller.constructor.getVariableGroupType("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.OnChallengeEmail$vars"))());
                                 vars.value.emailCodeArgInLocal = emailCodeArgIn;
-                                var sendGetSettingsVar = new OS.DataTypes.VariableHolder();
+                                var getSettingsVar = new OS.DataTypes.VariableHolder();
                                 var sendPhoneNumberChallengeVar = new OS.DataTypes.VariableHolder();
+                                var getAuthTokenJSResult = new OS.DataTypes.VariableHolder();
                                 return OS.Flow.executeAsyncFlow(function() {
                                     // UserEmailCode = EmailCodeArg
                                     model.variables.userEmailCodeVar = vars.value.emailCodeArgInLocal;
+                                    getAuthTokenJSResult.value = OS.Logger.startActiveSpan("GetAuthToken", function(span) {
+                                        if (span) {
+                                            span.setAttribute("code.function", "GetAuthToken");
+                                            span.setAttribute("outsystems.function.key", "905c2158-4145-49ec-92ec-aec33e1bb546");
+                                            span.setAttribute("outsystems.function.owner.name", "PartnersHub");
+                                            span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
+                                            span.setAttribute("outsystems.function.type", "JAVASCRIPT");
+                                        }
+
+                                        try {
+                                            return controller.safeExecuteJSNode(PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_controller_OnChallengeEmail_GetAuthTokenJS, "GetAuthToken", "OnChallengeEmail", {
+                                                Token: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text)
+                                            }, function($parameters) {
+                                                var jsNodeResult = new(controller.constructor.getVariableGroupType("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.OnChallengeEmail$getAuthTokenJSResult"))();
+                                                jsNodeResult.tokenOut = OS.DataConversion.JSNodeParamConverter.from($parameters.Token, OS.DataTypes.DataTypes.Text);
+                                                return jsNodeResult;
+                                            }, {}, {});
+                                        } finally {
+                                            if (span) {
+                                                span.end();
+                                            }
+
+                                        }
+
+                                    }, 1);
                                     // Execute Action: SendPhoneNumberChallenge
                                     model.flush();
                                     return PartnersHubController.default.sendPhoneNumberChallenge$Action(function() {
@@ -1293,10 +1282,10 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controll
                                             OS.FeedbackMessageService.showFeedbackMessage("Your email is verified.", /*Success*/ 1);
                                         }
 
-                                        // Execute Action: SendGetSettings
+                                        // Execute Action: GetSettings
                                         model.flush();
-                                        return PartnersHubController.default.sendGetSettings$Action(callContext).then(function(value) {
-                                            sendGetSettingsVar.value = value;
+                                        return RESTAPIWebsocketController.default.getSettings$Action(PartnersHubClientVariables.getServer(), getAuthTokenJSResult.value.tokenOut, PartnersHubClientVariables.getAppId(), "EN", callContext).then(function(value) {
+                                            getSettingsVar.value = value;
                                         });
                                     });
                                 });
@@ -1718,7 +1707,7 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controll
                 return "";
             }
         }]);
-        Controller.registerVariableGroupType("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.OnReady$javaScript1JSResult", [{
+        Controller.registerVariableGroupType("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.OnReady$getAuthTokenJSResult", [{
             name: "token",
             attrName: "tokenOut",
             mandatory: true,
@@ -1731,6 +1720,15 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controll
             name: "EmailCodeArg",
             attrName: "emailCodeArgInLocal",
             mandatory: false,
+            dataType: OS.DataTypes.DataTypes.Text,
+            defaultValue: function() {
+                return "";
+            }
+        }]);
+        Controller.registerVariableGroupType("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.OnChallengeEmail$getAuthTokenJSResult", [{
+            name: "Token",
+            attrName: "tokenOut",
+            mandatory: true,
             dataType: OS.DataTypes.DataTypes.Text,
             defaultValue: function() {
                 return "";
@@ -1751,14 +1749,119 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controll
     };
 });
 
-define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controller.OnReady.JavaScript1JS", [], function() {
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controller.OnReady.GetAuthTokenJS", [], function() {
     return function($parameters, $actions, $roles, $public) {
         const token = localStorage.getItem('token')
         $parameters.token = token;
     };
 });
 
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$controller.OnChallengeEmail.GetAuthTokenJS", [], function() {
+    return function($parameters, $actions, $roles, $public) {
+        $parameters.Token = localStorage.getItem("token")
+    };
+});
 
-define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "inbT8RrhZ0eoCD8KpnEccQ#Value": "Telefonnummernüberprüfung",
+        "ZqV91Ha8kkKN5dNRhl1kXg#Value": "Telefonnummernüberprüfung",
+        "AFr8LldAKEmkCdYd8s7AKQ#Value": "Telefonnummer ändern",
+        "vpWbo8hIQkeivsYLl_TX1g#Value": "Code erneut senden",
+        "RYVAczoYXECSCahgdN7k2A#Value": "Hast du den Code nicht erhalten?"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "inbT8RrhZ0eoCD8KpnEccQ#Value": "Verificación del número de teléfono",
+        "ZqV91Ha8kkKN5dNRhl1kXg#Value": "Verificación del número de teléfono",
+        "AFr8LldAKEmkCdYd8s7AKQ#Value": "Cambiar número de teléfono",
+        "vpWbo8hIQkeivsYLl_TX1g#Value": "Reenviar código",
+        "RYVAczoYXECSCahgdN7k2A#Value": "¿No recibiste el código?"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "inbT8RrhZ0eoCD8KpnEccQ#Value": "Vérification du numéro de téléphone",
+        "ZqV91Ha8kkKN5dNRhl1kXg#Value": "Vérification du numéro de téléphone",
+        "AFr8LldAKEmkCdYd8s7AKQ#Value": "Changer le numéro de téléphone",
+        "vpWbo8hIQkeivsYLl_TX1g#Value": "Renvoyer le code",
+        "RYVAczoYXECSCahgdN7k2A#Value": "Vous n\'avez pas reçu le code ?"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "inbT8RrhZ0eoCD8KpnEccQ#Value": "Verifica del numero di telefono",
+        "ZqV91Ha8kkKN5dNRhl1kXg#Value": "Verifica del numero di telefono",
+        "AFr8LldAKEmkCdYd8s7AKQ#Value": "Cambiare il numero di telefono",
+        "vpWbo8hIQkeivsYLl_TX1g#Value": "Invia nuovamente il codice",
+        "RYVAczoYXECSCahgdN7k2A#Value": "Non hai ricevuto il codice?"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "inbT8RrhZ0eoCD8KpnEccQ#Value": "Weryfikacja numeru telefonu",
+        "ZqV91Ha8kkKN5dNRhl1kXg#Value": "Weryfikacja numeru telefonu",
+        "AFr8LldAKEmkCdYd8s7AKQ#Value": "Zmień numer telefonu",
+        "vpWbo8hIQkeivsYLl_TX1g#Value": "Wyślij kod ponownie",
+        "RYVAczoYXECSCahgdN7k2A#Value": "Nie otrzymałeś kodu?"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "inbT8RrhZ0eoCD8KpnEccQ#Value": "Verificação do número de telefone",
+        "ZqV91Ha8kkKN5dNRhl1kXg#Value": "Verificação do número de telefone",
+        "AFr8LldAKEmkCdYd8s7AKQ#Value": "Alterar número de telefone",
+        "vpWbo8hIQkeivsYLl_TX1g#Value": "Reenviar código",
+        "RYVAczoYXECSCahgdN7k2A#Value": "Não recebeu o código?"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "inbT8RrhZ0eoCD8KpnEccQ#Value": "Верификация номера телефона",
+        "ZqV91Ha8kkKN5dNRhl1kXg#Value": "Проверка номера телефона",
+        "AFr8LldAKEmkCdYd8s7AKQ#Value": "Изменить номер телефона",
+        "vpWbo8hIQkeivsYLl_TX1g#Value": "Повторно отправить код",
+        "RYVAczoYXECSCahgdN7k2A#Value": "Не получили код?"
+    };
+});
+
+define("PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources", ["exports", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources.de-DE", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources.es-ES", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources.fr-FR", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources.it-IT", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources.pl-PL", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources.pt-PT", "PartnersHub.PhoneNumberVerification.PhoneNumberVerification.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_translationsResources_deDE, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_translationsResources_esES, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_translationsResources_frFR, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_translationsResources_itIT, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_translationsResources_plPL, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_translationsResources_ptPT, PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_PhoneNumberVerification_PhoneNumberVerification_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

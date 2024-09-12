@@ -173,7 +173,7 @@ define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$view", ["@outsyst
                     uuid: "3"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Address"), React.createElement(OSWidgets.Input, {
+            }, $text(getTranslation("zHHcoTVxk0CRNWD9hfFEWA#Value", "Address"))), React.createElement(OSWidgets.Input, {
                 _validationProps: {
                     validationService: validationService,
                     validationParentId: idService.getId("Form1")
@@ -216,7 +216,7 @@ define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$view", ["@outsyst
                     uuid: "6"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Town/City"), React.createElement(OSWidgets.Input, {
+            }, $text(getTranslation("vMrtBlSaikylH2KAcEW6IA#Value", "Town/City"))), React.createElement(OSWidgets.Input, {
                 _validationProps: {
                     validationService: validationService,
                     validationParentId: idService.getId("Form1")
@@ -260,7 +260,7 @@ define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$view", ["@outsyst
                         uuid: "9"
                     },
                     _widgetRecordProvider: widgetsRecordProvider
-                }, "State/Province (optional)"), React.createElement(OSWidgets.Dropdown, {
+                }, $text(getTranslation("oXf1D8XdYEu4kkW1oi+PEQ#Value", "State/Province (optional)"))), React.createElement(OSWidgets.Dropdown, {
                     _validationProps: {
                         validationService: validationService,
                         validationParentId: idService.getId("Form1")
@@ -319,7 +319,7 @@ define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$view", ["@outsyst
                         uuid: "13"
                     },
                     _widgetRecordProvider: widgetsRecordProvider
-                }, "State/Province (optional)"), React.createElement(OutSystemsUI_Interaction_InputWithIcon_mvc_view, {
+                }, $text(getTranslation("VflU1Ll_2kKj16bUwcatLA#Value", "State/Province (optional)"))), React.createElement(OutSystemsUI_Interaction_InputWithIcon_mvc_view, {
                     getOwnerSpan: function() {
                         return _this.getChildSpan("render");
                     },
@@ -415,7 +415,7 @@ define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$view", ["@outsyst
                     uuid: "18"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Postal/ZIP code (optional)"), React.createElement(OSWidgets.Input, {
+            }, $text(getTranslation("k8QD9Tu5pEKxQ8W5PhXhZg#Value", "Postal/ZIP code (optional)"))), React.createElement(OSWidgets.Input, {
                 _validationProps: {
                     validationService: validationService,
                     validationParentId: idService.getId("Form1")
@@ -475,7 +475,7 @@ define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$view", ["@outsyst
                 extendedProperties: {
                     style: "color: #f3f6f8; font-weight: bold;"
                 },
-                text: ["Next"],
+                text: [$text(getTranslation("CF8ZgUr5U06MNfq+GKepag#Value", "Next"))],
                 _idProps: {
                     service: idService,
                     uuid: "22"
@@ -736,6 +736,112 @@ define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$controller", ["@o
 });
 
 
-define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "CF8ZgUr5U06MNfq+GKepag#Value": "Nächste",
+        "k8QD9Tu5pEKxQ8W5PhXhZg#Value": "Postleitzahl (optional)",
+        "VflU1Ll_2kKj16bUwcatLA#Value": "Bundesland (optional)",
+        "oXf1D8XdYEu4kkW1oi+PEQ#Value": "Bundesland (optional)",
+        "vMrtBlSaikylH2KAcEW6IA#Value": "Stadt",
+        "zHHcoTVxk0CRNWD9hfFEWA#Value": "Adresse"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "CF8ZgUr5U06MNfq+GKepag#Value": "Siguiente",
+        "k8QD9Tu5pEKxQ8W5PhXhZg#Value": "Código postal (opcional)",
+        "VflU1Ll_2kKj16bUwcatLA#Value": "Estado/Provincia (opcional)",
+        "oXf1D8XdYEu4kkW1oi+PEQ#Value": "Estado/Provincia (opcional)",
+        "vMrtBlSaikylH2KAcEW6IA#Value": "Ciudad",
+        "zHHcoTVxk0CRNWD9hfFEWA#Value": "Dirección"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "CF8ZgUr5U06MNfq+GKepag#Value": "Suivant",
+        "k8QD9Tu5pEKxQ8W5PhXhZg#Value": "Code postal (facultatif)",
+        "VflU1Ll_2kKj16bUwcatLA#Value": "État/Province (optionnel)",
+        "oXf1D8XdYEu4kkW1oi+PEQ#Value": "État/Province (optionnel)",
+        "vMrtBlSaikylH2KAcEW6IA#Value": "Ville",
+        "zHHcoTVxk0CRNWD9hfFEWA#Value": "Adresse"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "CF8ZgUr5U06MNfq+GKepag#Value": "Successivo",
+        "k8QD9Tu5pEKxQ8W5PhXhZg#Value": "Codice postale (opzionale)",
+        "VflU1Ll_2kKj16bUwcatLA#Value": "Stato/Provincia (opzionale)",
+        "oXf1D8XdYEu4kkW1oi+PEQ#Value": "Stato/Provincia (opzionale)",
+        "vMrtBlSaikylH2KAcEW6IA#Value": "Città",
+        "zHHcoTVxk0CRNWD9hfFEWA#Value": "Indirizzo"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "CF8ZgUr5U06MNfq+GKepag#Value": "Następny",
+        "k8QD9Tu5pEKxQ8W5PhXhZg#Value": "Kod pocztowy (opcjonalnie)",
+        "VflU1Ll_2kKj16bUwcatLA#Value": "Stan/Województwo (opcjonalnie)",
+        "oXf1D8XdYEu4kkW1oi+PEQ#Value": "Stan/Provincia (opcjonalnie)",
+        "vMrtBlSaikylH2KAcEW6IA#Value": "Miasto",
+        "zHHcoTVxk0CRNWD9hfFEWA#Value": "Adres"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "CF8ZgUr5U06MNfq+GKepag#Value": "Próximo",
+        "k8QD9Tu5pEKxQ8W5PhXhZg#Value": "Código postal (opcional)",
+        "VflU1Ll_2kKj16bUwcatLA#Value": "Estado/Província (opcional)",
+        "oXf1D8XdYEu4kkW1oi+PEQ#Value": "Estado/Província (opcional)",
+        "vMrtBlSaikylH2KAcEW6IA#Value": "Cidade",
+        "zHHcoTVxk0CRNWD9hfFEWA#Value": "Endereço"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "CF8ZgUr5U06MNfq+GKepag#Value": "Далее",
+        "k8QD9Tu5pEKxQ8W5PhXhZg#Value": "Почтовый индекс (по желанию)",
+        "VflU1Ll_2kKj16bUwcatLA#Value": "Штат/Провинция (по желанию)",
+        "oXf1D8XdYEu4kkW1oi+PEQ#Value": "Штат/Провинция (необязательно)",
+        "vMrtBlSaikylH2KAcEW6IA#Value": "Город",
+        "zHHcoTVxk0CRNWD9hfFEWA#Value": "Адрес"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources", ["exports", "PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources.de-DE", "PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources.es-ES", "PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources.fr-FR", "PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources.it-IT", "PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources.pl-PL", "PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources.pt-PT", "PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_translationsResources_deDE, PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_translationsResources_esES, PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_translationsResources_frFR, PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_translationsResources_itIT, PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_translationsResources_plPL, PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_translationsResources_ptPT, PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

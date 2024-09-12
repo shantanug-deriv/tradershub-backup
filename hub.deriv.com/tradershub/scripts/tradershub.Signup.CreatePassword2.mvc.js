@@ -1,4 +1,4 @@
-define("tradershub.Signup.CreatePassword2.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.controller$PostSignupActions", "tradershub.controller$CleanupAfterRealSignup", "tradershub.controller$DerivApiSendMessage", "tradershub.model$ST_eb286c497eeb9a2ab2c838f3628b06e8Structure"], function(OSRuntimeCore, tradershubModel, tradershubController) {
+define("tradershub.Signup.CreatePassword2.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.controller$DerivApiSendMessage", "tradershub.controller$PostSignupActions", "tradershub.controller$CleanupAfterRealSignup", "tradershub.model$ST_eb286c497eeb9a2ab2c838f3628b06e8Structure"], function(OSRuntimeCore, tradershubModel, tradershubController) {
     var OS = OSRuntimeCore;
 
 
@@ -56,7 +56,7 @@ define("tradershub.Signup.CreatePassword2.mvc$model", ["@outsystems/runtime-core
     return new OS.Model.ModelFactory(Model);
 });
 
-define("tradershub.Signup.CreatePassword2.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "react", "@outsystems/runtime-view-js", "tradershub.Signup.CreatePassword2.mvc$model", "tradershub.Signup.CreatePassword2.mvc$controller", "tradershub.clientVariables", "tradershub.Layouts.SignupLayoutTopMenu.mvc$view", "@outsystems/runtime-widgets-js", "tradershub.Common.PasswordPolicy.mvc$view", "tradershub.controller$PostSignupActions", "tradershub.controller$CleanupAfterRealSignup", "tradershub.controller$DerivApiSendMessage", "tradershub.model$ST_eb286c497eeb9a2ab2c838f3628b06e8Structure"], function(OSRuntimeCore, tradershubModel, tradershubController, React, OSView, tradershub_Signup_CreatePassword2_mvc_model, tradershub_Signup_CreatePassword2_mvc_controller, tradershubClientVariables, tradershub_Layouts_SignupLayoutTopMenu_mvc_view, OSWidgets, tradershub_Common_PasswordPolicy_mvc_view) {
+define("tradershub.Signup.CreatePassword2.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "react", "@outsystems/runtime-view-js", "tradershub.Signup.CreatePassword2.mvc$model", "tradershub.Signup.CreatePassword2.mvc$controller", "tradershub.clientVariables", "tradershub.Layouts.SignupLayoutTopMenu.mvc$view", "@outsystems/runtime-widgets-js", "tradershub.Common.PasswordPolicy.mvc$view", "tradershub.controller$DerivApiSendMessage", "tradershub.controller$PostSignupActions", "tradershub.controller$CleanupAfterRealSignup", "tradershub.model$ST_eb286c497eeb9a2ab2c838f3628b06e8Structure"], function(OSRuntimeCore, tradershubModel, tradershubController, React, OSView, tradershub_Signup_CreatePassword2_mvc_model, tradershub_Signup_CreatePassword2_mvc_controller, tradershubClientVariables, tradershub_Layouts_SignupLayoutTopMenu_mvc_view, OSWidgets, tradershub_Common_PasswordPolicy_mvc_view) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -562,7 +562,7 @@ define("tradershub.Signup.CreatePassword2.mvc$view", ["@outsystems/runtime-core-
 
     return View;
 });
-define("tradershub.Signup.CreatePassword2.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.Signup.controller", "tradershub.Signup.CreatePassword2.mvc$controller.CreatePasswordOnClick.RudderStackJS", "tradershub.Signup.CreatePassword2.mvc$controller.OnReady.RudderStackJS", "tradershub.Signup.CreatePassword2.mvc$controller.CreateVirtualAccount.GetFlagFromGrowthbookJS", "tradershub.Signup.CreatePassword2.mvc$controller.CreateVirtualAccount.RudderStackErrorJS", "tradershub.Signup.CreatePassword2.mvc$controller.CreateVirtualAccount.RudderStackSuccessJS", "tradershub.Signup.CreatePassword2.mvc$controller.CreateVirtualAccount.NewAccountVirtualPayloadJS", "tradershub.controller$PostSignupActions", "tradershub.controller$CleanupAfterRealSignup", "tradershub.controller$DerivApiSendMessage", "tradershub.model$ST_eb286c497eeb9a2ab2c838f3628b06e8Structure"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_SignupController, tradershub_Signup_CreatePassword2_mvc_controller_CreatePasswordOnClick_RudderStackJS, tradershub_Signup_CreatePassword2_mvc_controller_OnReady_RudderStackJS, tradershub_Signup_CreatePassword2_mvc_controller_CreateVirtualAccount_GetFlagFromGrowthbookJS, tradershub_Signup_CreatePassword2_mvc_controller_CreateVirtualAccount_RudderStackErrorJS, tradershub_Signup_CreatePassword2_mvc_controller_CreateVirtualAccount_RudderStackSuccessJS, tradershub_Signup_CreatePassword2_mvc_controller_CreateVirtualAccount_NewAccountVirtualPayloadJS) {
+define("tradershub.Signup.CreatePassword2.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.Signup.controller", "tradershub.Signup.CreatePassword2.mvc$controller.CreatePasswordOnClick.RudderStackJS", "tradershub.Signup.CreatePassword2.mvc$controller.OnReady.RudderStackJS", "tradershub.Signup.CreatePassword2.mvc$controller.CreateVirtualAccount.LandingCompanyPayloadJS", "tradershub.Signup.CreatePassword2.mvc$controller.CreateVirtualAccount.RudderStackErrorJS", "tradershub.Signup.CreatePassword2.mvc$controller.CreateVirtualAccount.GetFlagFromGrowthbookJS", "tradershub.Signup.CreatePassword2.mvc$controller.CreateVirtualAccount.NewAccountVirtualPayloadJS", "tradershub.Signup.CreatePassword2.mvc$controller.CreateVirtualAccount.RudderStackSuccessJS", "tradershub.controller$DerivApiSendMessage", "tradershub.controller$PostSignupActions", "tradershub.controller$CleanupAfterRealSignup", "tradershub.model$ST_eb286c497eeb9a2ab2c838f3628b06e8Structure"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_SignupController, tradershub_Signup_CreatePassword2_mvc_controller_CreatePasswordOnClick_RudderStackJS, tradershub_Signup_CreatePassword2_mvc_controller_OnReady_RudderStackJS, tradershub_Signup_CreatePassword2_mvc_controller_CreateVirtualAccount_LandingCompanyPayloadJS, tradershub_Signup_CreatePassword2_mvc_controller_CreateVirtualAccount_RudderStackErrorJS, tradershub_Signup_CreatePassword2_mvc_controller_CreateVirtualAccount_GetFlagFromGrowthbookJS, tradershub_Signup_CreatePassword2_mvc_controller_CreateVirtualAccount_NewAccountVirtualPayloadJS, tradershub_Signup_CreatePassword2_mvc_controller_CreateVirtualAccount_RudderStackSuccessJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -715,10 +715,7 @@ define("tradershub.Signup.CreatePassword2.mvc$controller", ["@outsystems/runtime
                                     return OS.Flow.executeSequence(function() {
                                         if ((model.variables.isPasswordValidVar)) {
                                             // Execute Action: CreateVirtualAccount
-                                            return controller._createVirtualAccount$Action(model.variables.passwordVar, callContext).then(function() {
-                                                // Destination: /tradershub/CompletedSignup2
-                                                return OS.Flow.returnAsync(OS.Navigation.navigateTo(OS.Navigation.generateScreenURL("tradershub", "completed-signup2", {}), OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default), callContext, true));
-                                            });
+                                            return controller._createVirtualAccount$Action(model.variables.passwordVar, callContext);
                                         } else {
                                             if (((model.variables.passwordVar === ""))) {
                                                 // Input_password.Valid = False
@@ -850,7 +847,7 @@ define("tradershub.Signup.CreatePassword2.mvc$controller", ["@outsystems/runtime
                         return OS.Logger.startActiveSpan("CreateVirtualAccount", function(span) {
                             if (span) {
                                 span.setAttribute("code.function", "CreateVirtualAccount");
-                                span.setAttribute("outsystems.function.key", "fdcc22bd-585c-4ec6-b7b1-2ccd07051969");
+                                span.setAttribute("outsystems.function.key", "fef0ab0b-acbd-4605-b251-3e71d13468d7");
                                 span.setAttribute("outsystems.function.owner.name", "tradershub");
                                 span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
                                 span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
@@ -861,8 +858,11 @@ define("tradershub.Signup.CreatePassword2.mvc$controller", ["@outsystems/runtime
                                 callContext = controller.callContext(callContext);
                                 var vars = new OS.DataTypes.VariableHolder(new(controller.constructor.getVariableGroupType("tradershub.Signup.CreatePassword2.CreateVirtualAccount$vars"))());
                                 vars.value.newPasswordInLocal = newPasswordIn;
+                                var newAccountVirtualAPIVar = new OS.DataTypes.VariableHolder();
+                                var postSignupActions2Var = new OS.DataTypes.VariableHolder();
                                 var postSignupActionsVar = new OS.DataTypes.VariableHolder();
-                                var derivApiSendMessageVar = new OS.DataTypes.VariableHolder();
+                                var landingCompanyAPIVar = new OS.DataTypes.VariableHolder();
+                                var landingCompanyPayloadJSResult = new OS.DataTypes.VariableHolder();
                                 var getFlagFromGrowthbookJSResult = new OS.DataTypes.VariableHolder();
                                 var newAccountVirtualPayloadJSResult = new OS.DataTypes.VariableHolder();
                                 var jSONDeserializeNewAccountVirtualResponseVar = new OS.DataTypes.VariableHolder(new(OS.Controller.BaseController.getJSONDeserializeOutputType(tradershubModel.ST_eb286c497eeb9a2ab2c838f3628b06e8Structure))());
@@ -870,7 +870,7 @@ define("tradershub.Signup.CreatePassword2.mvc$controller", ["@outsystems/runtime
                                     newAccountVirtualPayloadJSResult.value = OS.Logger.startActiveSpan("NewAccountVirtualPayload", function(span) {
                                         if (span) {
                                             span.setAttribute("code.function", "NewAccountVirtualPayload");
-                                            span.setAttribute("outsystems.function.key", "f21e2e3b-36dc-402b-8a7a-b7158ea61094");
+                                            span.setAttribute("outsystems.function.key", "c240fa35-2e55-4d39-8665-fdd45d281eb1");
                                             span.setAttribute("outsystems.function.owner.name", "tradershub");
                                             span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
                                             span.setAttribute("outsystems.function.type", "JAVASCRIPT");
@@ -878,9 +878,9 @@ define("tradershub.Signup.CreatePassword2.mvc$controller", ["@outsystems/runtime
 
                                         try {
                                             return controller.safeExecuteJSNode(tradershub_Signup_CreatePassword2_mvc_controller_CreateVirtualAccount_NewAccountVirtualPayloadJS, "NewAccountVirtualPayload", "CreateVirtualAccount", {
+                                                VerificationCode: OS.DataConversion.JSNodeParamConverter.to(tradershubClientVariables.getCode(), OS.DataTypes.DataTypes.Text),
+                                                Residence: OS.DataConversion.JSNodeParamConverter.to(tradershubClientVariables.getSelectedResidence(), OS.DataTypes.DataTypes.Text),
                                                 NewPassword: OS.DataConversion.JSNodeParamConverter.to(vars.value.newPasswordInLocal, OS.DataTypes.DataTypes.Text),
-                                                verification_code: OS.DataConversion.JSNodeParamConverter.to(tradershubClientVariables.getCode(), OS.DataTypes.DataTypes.Text),
-                                                residence: OS.DataConversion.JSNodeParamConverter.to(tradershubClientVariables.getSelectedResidence(), OS.DataTypes.DataTypes.Text),
                                                 Payload: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text)
                                             }, function($parameters) {
                                                 var jsNodeResult = new(controller.constructor.getVariableGroupType("tradershub.Signup.CreatePassword2.CreateVirtualAccount$newAccountVirtualPayloadJSResult"))();
@@ -895,20 +895,20 @@ define("tradershub.Signup.CreatePassword2.mvc$controller", ["@outsystems/runtime
                                         }
 
                                     }, 1);
-                                    // Execute Action: DerivApiSendMessage
+                                    // Execute Action: NewAccountVirtualAPI
                                     model.flush();
                                     return tradershubController.default.derivApiSendMessage$Action(newAccountVirtualPayloadJSResult.value.payloadOut, "new_account_virtual", false, callContext).then(function(value) {
-                                        derivApiSendMessageVar.value = value;
+                                        newAccountVirtualAPIVar.value = value;
                                     }).then(function() {
                                         // JSON Deserialize: JSONDeserializeNewAccountVirtualResponse
-                                        jSONDeserializeNewAccountVirtualResponseVar.value.dataOut = OS.JSONUtils.deserializeFromJSON(derivApiSendMessageVar.value.responseOut, tradershubModel.ST_eb286c497eeb9a2ab2c838f3628b06e8Structure, false);
+                                        jSONDeserializeNewAccountVirtualResponseVar.value.dataOut = OS.JSONUtils.deserializeFromJSON(newAccountVirtualAPIVar.value.responseOut, tradershubModel.ST_eb286c497eeb9a2ab2c838f3628b06e8Structure, false);
                                     }).then(function() {
                                         return OS.Flow.executeSequence(function() {
-                                            if ((derivApiSendMessageVar.value.isErrorOut)) {
+                                            if ((newAccountVirtualAPIVar.value.isErrorOut)) {
                                                 OS.Logger.startActiveSpan("RudderStackError", function(span) {
                                                     if (span) {
                                                         span.setAttribute("code.function", "RudderStackError");
-                                                        span.setAttribute("outsystems.function.key", "1f7914e6-fd7d-4220-8c6e-40d18ce3008d");
+                                                        span.setAttribute("outsystems.function.key", "5509e190-bb09-412a-906c-105e94c5fed3");
                                                         span.setAttribute("outsystems.function.owner.name", "tradershub");
                                                         span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
                                                         span.setAttribute("outsystems.function.type", "JAVASCRIPT");
@@ -930,7 +930,7 @@ define("tradershub.Signup.CreatePassword2.mvc$controller", ["@outsystems/runtime
                                                 OS.Logger.startActiveSpan("RudderStackSuccess", function(span) {
                                                     if (span) {
                                                         span.setAttribute("code.function", "RudderStackSuccess");
-                                                        span.setAttribute("outsystems.function.key", "e2b9af24-d6d1-4935-bc92-4e1065bddf17");
+                                                        span.setAttribute("outsystems.function.key", "c9324433-36a6-47e2-8ca0-1669d169409e");
                                                         span.setAttribute("outsystems.function.owner.name", "tradershub");
                                                         span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
                                                         span.setAttribute("outsystems.function.type", "JAVASCRIPT");
@@ -955,7 +955,7 @@ define("tradershub.Signup.CreatePassword2.mvc$controller", ["@outsystems/runtime
                                                 getFlagFromGrowthbookJSResult.value = OS.Logger.startActiveSpan("GetFlagFromGrowthbook", function(span) {
                                                     if (span) {
                                                         span.setAttribute("code.function", "GetFlagFromGrowthbook");
-                                                        span.setAttribute("outsystems.function.key", "000de0f7-124c-4291-ae38-06f8279d748e");
+                                                        span.setAttribute("outsystems.function.key", "c2209b82-4473-4da2-bde9-ba93772b2508");
                                                         span.setAttribute("outsystems.function.owner.name", "tradershub");
                                                         span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
                                                         span.setAttribute("outsystems.function.type", "JAVASCRIPT");
@@ -979,14 +979,63 @@ define("tradershub.Signup.CreatePassword2.mvc$controller", ["@outsystems/runtime
                                                 }, 1);
                                                 return OS.Flow.executeSequence(function() {
                                                     if ((getFlagFromGrowthbookJSResult.value.redirectToDerivAppOut)) {
+                                                        // InitializeRealSignup = False
+                                                        tradershubClientVariables.setInitializeRealSignup(false);
                                                         // Execute Action: PostSignupActions
                                                         model.flush();
                                                         return tradershubController.default.postSignupActions$Action(true, callContext).then(function(value) {
                                                             postSignupActionsVar.value = value;
                                                         });
                                                     } else {
-                                                        // Destination: /tradershub/CompletedSignup2
-                                                        return OS.Flow.returnAsync(OS.Navigation.navigateTo(OS.Navigation.generateScreenURL("tradershub", "completed-signup2", {}), OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default), callContext, true));
+                                                        // Execute Action: PostSignupActions2
+                                                        model.flush();
+                                                        return tradershubController.default.postSignupActions$Action(false, callContext).then(function(value) {
+                                                            postSignupActions2Var.value = value;
+                                                        }).then(function() {
+                                                            return OS.Flow.executeSequence(function() {
+                                                                if ((!(postSignupActions2Var.value.isEUOut))) {
+                                                                    landingCompanyPayloadJSResult.value = OS.Logger.startActiveSpan("LandingCompanyPayload", function(span) {
+                                                                        if (span) {
+                                                                            span.setAttribute("code.function", "LandingCompanyPayload");
+                                                                            span.setAttribute("outsystems.function.key", "299b6e27-7ef5-4310-92c8-fb45540f579b");
+                                                                            span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                                                            span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                                                            span.setAttribute("outsystems.function.type", "JAVASCRIPT");
+                                                                        }
+
+                                                                        try {
+                                                                            return controller.safeExecuteJSNode(tradershub_Signup_CreatePassword2_mvc_controller_CreateVirtualAccount_LandingCompanyPayloadJS, "LandingCompanyPayload", "CreateVirtualAccount", {
+                                                                                CountryCode: OS.DataConversion.JSNodeParamConverter.to(tradershubClientVariables.getSelectedResidence(), OS.DataTypes.DataTypes.Text),
+                                                                                Payload: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text)
+                                                                            }, function($parameters) {
+                                                                                var jsNodeResult = new(controller.constructor.getVariableGroupType("tradershub.Signup.CreatePassword2.CreateVirtualAccount$landingCompanyPayloadJSResult"))();
+                                                                                jsNodeResult.payloadOut = OS.DataConversion.JSNodeParamConverter.from($parameters.Payload, OS.DataTypes.DataTypes.Text);
+                                                                                return jsNodeResult;
+                                                                            }, {}, {});
+                                                                        } finally {
+                                                                            if (span) {
+                                                                                span.end();
+                                                                            }
+
+                                                                        }
+
+                                                                    }, 1);
+                                                                    // Execute Action: LandingCompanyAPI
+                                                                    model.flush();
+                                                                    return tradershubController.default.derivApiSendMessage$Action(landingCompanyPayloadJSResult.value.payloadOut, "", false, callContext).then(function(value) {
+                                                                        landingCompanyAPIVar.value = value;
+                                                                    }).then(function() {
+                                                                        // RawLandingCompanyResponse = LandingCompanyAPI.Response
+                                                                        tradershubClientVariables.setRawLandingCompanyResponse(landingCompanyAPIVar.value.responseOut);
+                                                                        // InitializeRealSignup = True
+                                                                        tradershubClientVariables.setInitializeRealSignup(true);
+                                                                        // Destination: /tradershub/CurrencySelection
+                                                                        return OS.Flow.returnAsync(OS.Navigation.navigateTo(OS.Navigation.generateScreenURL("tradershub", "currency-selection", {}), OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default), callContext, true));
+                                                                    });
+                                                                }
+
+                                                            });
+                                                        });
                                                     }
 
                                                 });
@@ -1136,7 +1185,7 @@ define("tradershub.Signup.CreatePassword2.mvc$controller", ["@outsystems/runtime
                 return OS.Logger.startActiveSpan("CreateVirtualAccount__proxy", function(span) {
                     if (span) {
                         span.setAttribute("code.function", "CreateVirtualAccount");
-                        span.setAttribute("outsystems.function.key", "fdcc22bd-585c-4ec6-b7b1-2ccd07051969");
+                        span.setAttribute("outsystems.function.key", "fef0ab0b-acbd-4605-b251-3e71d13468d7");
                         span.setAttribute("outsystems.function.owner.name", "tradershub");
                         span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
                         span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
@@ -1268,6 +1317,15 @@ define("tradershub.Signup.CreatePassword2.mvc$controller", ["@outsystems/runtime
                 return "";
             }
         }]);
+        Controller.registerVariableGroupType("tradershub.Signup.CreatePassword2.CreateVirtualAccount$landingCompanyPayloadJSResult", [{
+            name: "Payload",
+            attrName: "payloadOut",
+            mandatory: true,
+            dataType: OS.DataTypes.DataTypes.Text,
+            defaultValue: function() {
+                return "";
+            }
+        }]);
         Controller.registerVariableGroupType("tradershub.Signup.CreatePassword2.CreateVirtualAccount$getFlagFromGrowthbookJSResult", [{
             name: "RedirectToDerivApp",
             attrName: "redirectToDerivAppOut",
@@ -1307,27 +1365,30 @@ define("tradershub.Signup.CreatePassword2.mvc$controller.OnReady.RudderStackJS",
     };
 });
 
-define("tradershub.Signup.CreatePassword2.mvc$controller.CreateVirtualAccount.GetFlagFromGrowthbookJS", [], function() {
+define("tradershub.Signup.CreatePassword2.mvc$controller.CreateVirtualAccount.LandingCompanyPayloadJS", [], function() {
     return function($parameters, $actions, $roles, $public) {
-        if (window.Analytics) {
-            $parameters.RedirectToDerivApp = Analytics.Analytics?.getFeatureValue("trigger_real_account_creation_highcode") ?? false
-        }
+        $parameters.Payload = JSON.stringify({
+            landing_company: $parameters.CountryCode
+        });
+
     };
 });
 
 define("tradershub.Signup.CreatePassword2.mvc$controller.CreateVirtualAccount.RudderStackErrorJS", [], function() {
     return function($actions, $roles, $public) {
-        Analytics.Analytics.trackEvent({
-            action: "signup_flow_error_os",
+        Analytics.Analytics.trackEvent("ce_virtual_signup_form", {
+            action: "signup_flow_error",
+            form_name: "virtual_signup_form_outsystems",
+            error_message: "account_creation_failed"
         })
     };
 });
 
-define("tradershub.Signup.CreatePassword2.mvc$controller.CreateVirtualAccount.RudderStackSuccessJS", [], function() {
-    return function($actions, $roles, $public) {
-        Analytics.Analytics.trackEvent({
-            action: "signup_done_os",
-        })
+define("tradershub.Signup.CreatePassword2.mvc$controller.CreateVirtualAccount.GetFlagFromGrowthbookJS", [], function() {
+    return function($parameters, $actions, $roles, $public) {
+        if (window.Analytics) {
+            $parameters.RedirectToDerivApp = Analytics.Analytics?.getFeatureValue("trigger_real_account_creation_highcode") ?? false
+        }
     };
 });
 
@@ -1340,12 +1401,22 @@ define("tradershub.Signup.CreatePassword2.mvc$controller.CreateVirtualAccount.Ne
 
         $parameters.Payload = JSON.stringify({
             client_password: $parameters.NewPassword,
-            verification_code: $parameters.verification_code,
+            verification_code: $parameters.VerificationCode,
             type: "trading",
-            residence: $parameters.residence,
+            residence: $parameters.Residence,
             affiliate_token,
             ...cookies_value
         });
 
+    };
+});
+
+define("tradershub.Signup.CreatePassword2.mvc$controller.CreateVirtualAccount.RudderStackSuccessJS", [], function() {
+    return function($actions, $roles, $public) {
+        Analytics.Analytics.trackEvent("ce_virtual_signup_form", {
+            action: "signup_done",
+            signup_provider: "email",
+            form_name: "virtual_signup_form_outsystems"
+        })
     };
 });

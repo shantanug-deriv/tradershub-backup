@@ -1,4 +1,4 @@
-define("tradershub.Layouts.RealAccountCreationLayout.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "OutSystemsUI.model", "tradershub.controller", "OutSystemsUI.controller", "OutSystemsUI.Navigation.Wizard.mvc$model", "OutSystemsUI.Navigation.WizardItem.mvc$model", "OutSystemsUI.Numbers.ProgressBar.mvc$model", "OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.controller$GetWebsiteStatus", "tradershub.model$ST_1eac13b44db3d2db577291973f4a7e96Structure", "tradershub.controller$SendResidenceList", "tradershub.controller$InitGrowthbookAndRudderStack", "tradershub.controller$RudderstackIdentifyEvent", "tradershub.controller$SyncAccountInfo", "tradershub.controller$CleanupAfterRealSignup", "tradershub.controller$MountDerivApi", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "OutSystemsUI.controller$AddFavicon"], function(OSRuntimeCore, tradershubModel, OutSystemsUIModel, tradershubController, OutSystemsUIController, OutSystemsUI_Navigation_Wizard_mvcModel, OutSystemsUI_Navigation_WizardItem_mvcModel, OutSystemsUI_Numbers_ProgressBar_mvcModel) {
+define("tradershub.Layouts.RealAccountCreationLayout.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "OutSystemsUI.model", "BrowserConsoleLogging.controller", "tradershub.controller", "OutSystemsUI.controller", "OutSystemsUI.Navigation.Wizard.mvc$model", "OutSystemsUI.Navigation.WizardItem.mvc$model", "OutSystemsUI.Numbers.ProgressBar.mvc$model", "tradershub.Common.LoaderBlock.mvc$model", "OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "BrowserConsoleLogging.controller$ConsoleLog", "tradershub.referencesHealth$BrowserConsoleLogging", "tradershub.controller$GetWebsiteStatus", "tradershub.model$ST_1eac13b44db3d2db577291973f4a7e96Structure", "tradershub.controller$SendResidenceList", "tradershub.controller$InitGrowthbookAndRudderStack", "tradershub.controller$RudderstackIdentifyEvent", "tradershub.controller$InitizalizeDerivApi", "tradershub.controller$SyncAccountInfo", "tradershub.controller$CleanupAfterRealSignup", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "OutSystemsUI.controller$AddFavicon"], function(OSRuntimeCore, tradershubModel, OutSystemsUIModel, BrowserConsoleLoggingController, tradershubController, OutSystemsUIController, OutSystemsUI_Navigation_Wizard_mvcModel, OutSystemsUI_Navigation_WizardItem_mvcModel, OutSystemsUI_Numbers_ProgressBar_mvcModel, tradershub_Common_LoaderBlock_mvcModel) {
     var OS = OSRuntimeCore;
 
 
@@ -8,6 +8,9 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$model", ["@outsystems/r
             static attributesToDeclare() {
                 return [
                     this.attr("ShowCloseModal", "showCloseModalVar", "ShowCloseModal", true, false, OS.DataTypes.DataTypes.Boolean, function() {
+                        return false;
+                    }, false),
+                    this.attr("IsLoading", "isLoadingVar", "IsLoading", true, false, OS.DataTypes.DataTypes.Boolean, function() {
                         return false;
                     }, false),
                     this.attr("Title", "titleIn", "Title", true, false, OS.DataTypes.DataTypes.Text, function() {
@@ -50,7 +53,7 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$model", ["@outsystems/r
 
         static get hasValidationWidgets() {
             if ((Model._hasValidationWidgetsValue === undefined)) {
-                Model._hasValidationWidgetsValue = ((OutSystemsUI_Navigation_Wizard_mvcModel.hasValidationWidgets || OutSystemsUI_Navigation_WizardItem_mvcModel.hasValidationWidgets) || OutSystemsUI_Numbers_ProgressBar_mvcModel.hasValidationWidgets);
+                Model._hasValidationWidgetsValue = (((OutSystemsUI_Navigation_Wizard_mvcModel.hasValidationWidgets || OutSystemsUI_Navigation_WizardItem_mvcModel.hasValidationWidgets) || OutSystemsUI_Numbers_ProgressBar_mvcModel.hasValidationWidgets) || tradershub_Common_LoaderBlock_mvcModel.hasValidationWidgets);
             }
 
             return Model._hasValidationWidgetsValue;
@@ -80,7 +83,7 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$model", ["@outsystems/r
     return new OS.Model.ModelFactory(Model);
 });
 
-define("tradershub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.model", "OutSystemsUI.controller", "react", "@outsystems/runtime-view-js", "tradershub.Layouts.RealAccountCreationLayout.mvc$model", "tradershub.Layouts.RealAccountCreationLayout.mvc$controller", "tradershub.clientVariables", "@outsystems/runtime-widgets-js", "OutSystemsUI.Navigation.Wizard.mvc$view", "OutSystemsUI.Navigation.WizardItem.mvc$view", "OutSystemsUI.Numbers.ProgressBar.mvc$view", "OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.controller$GetWebsiteStatus", "tradershub.model$ST_1eac13b44db3d2db577291973f4a7e96Structure", "tradershub.controller$SendResidenceList", "tradershub.controller$InitGrowthbookAndRudderStack", "tradershub.controller$RudderstackIdentifyEvent", "tradershub.controller$SyncAccountInfo", "tradershub.controller$CleanupAfterRealSignup", "tradershub.controller$MountDerivApi", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "OutSystemsUI.controller$AddFavicon"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIModel, OutSystemsUIController, React, OSView, tradershub_Layouts_RealAccountCreationLayout_mvc_model, tradershub_Layouts_RealAccountCreationLayout_mvc_controller, tradershubClientVariables, OSWidgets, OutSystemsUI_Navigation_Wizard_mvc_view, OutSystemsUI_Navigation_WizardItem_mvc_view, OutSystemsUI_Numbers_ProgressBar_mvc_view) {
+define("tradershub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.model", "BrowserConsoleLogging.controller", "OutSystemsUI.controller", "react", "@outsystems/runtime-view-js", "tradershub.Layouts.RealAccountCreationLayout.mvc$model", "tradershub.Layouts.RealAccountCreationLayout.mvc$controller", "tradershub.clientVariables", "@outsystems/runtime-widgets-js", "OutSystemsUI.Navigation.Wizard.mvc$view", "OutSystemsUI.Navigation.WizardItem.mvc$view", "OutSystemsUI.Numbers.ProgressBar.mvc$view", "tradershub.Common.LoaderBlock.mvc$view", "OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "BrowserConsoleLogging.controller$ConsoleLog", "tradershub.referencesHealth$BrowserConsoleLogging", "tradershub.controller$GetWebsiteStatus", "tradershub.model$ST_1eac13b44db3d2db577291973f4a7e96Structure", "tradershub.controller$SendResidenceList", "tradershub.controller$InitGrowthbookAndRudderStack", "tradershub.controller$RudderstackIdentifyEvent", "tradershub.controller$InitizalizeDerivApi", "tradershub.controller$SyncAccountInfo", "tradershub.controller$CleanupAfterRealSignup", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "OutSystemsUI.controller$AddFavicon"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIModel, BrowserConsoleLoggingController, OutSystemsUIController, React, OSView, tradershub_Layouts_RealAccountCreationLayout_mvc_model, tradershub_Layouts_RealAccountCreationLayout_mvc_controller, tradershubClientVariables, OSWidgets, OutSystemsUI_Navigation_Wizard_mvc_view, OutSystemsUI_Navigation_WizardItem_mvc_view, OutSystemsUI_Numbers_ProgressBar_mvc_view, tradershub_Common_LoaderBlock_mvc_view) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -111,7 +114,7 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/ru
         }
 
         static getBlocks() {
-            return [OutSystemsUI_Navigation_Wizard_mvc_view, OutSystemsUI_Navigation_WizardItem_mvc_view, OutSystemsUI_Numbers_ProgressBar_mvc_view];
+            return [OutSystemsUI_Navigation_Wizard_mvc_view, OutSystemsUI_Navigation_WizardItem_mvc_view, OutSystemsUI_Numbers_ProgressBar_mvc_view, tradershub_Common_LoaderBlock_mvc_view];
         }
 
         get modelFactory() {
@@ -1138,14 +1141,10 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/ru
                 return [React.createElement(OSWidgets.Link, {
                     enabled: true,
                     onClick: function() {
-                        try {
-                            OS.Navigation.navigateBack(null, null, true);
-                        } catch (ex) {
-                            if (((ex.name) !== ("RedirectOccurredException"))) {
-                                throw ex;
-                            }
+                        var eventHandlerContext = callContext.clone();
+                        controller.previousScreen$Action(controller.callContext(eventHandlerContext));
 
-                        };
+                        ;
                     },
                     style: "display-flex",
                     visible: true,
@@ -1278,14 +1277,10 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/ru
                 return [React.createElement(OSWidgets.Link, {
                     enabled: true,
                     onClick: function() {
-                        try {
-                            OS.Navigation.navigateBack(null, null, true);
-                        } catch (ex) {
-                            if (((ex.name) !== ("RedirectOccurredException"))) {
-                                throw ex;
-                            }
+                        var eventHandlerContext = callContext.clone();
+                        controller.previousScreen$Action(controller.callContext(eventHandlerContext));
 
-                        };
+                        ;
                     },
                     visible: true,
                     _idProps: {
@@ -1347,15 +1342,42 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/ru
                     uuid: "69"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            })), React.createElement(OSWidgets.Placeholder, {
-                align: /*Default*/ 0,
-                content: _this.props.placeholders.content,
-                style: "real-account-signup-layout__placeholder",
-                _idProps: {
-                    service: idService,
-                    name: "Content"
-                },
-                _widgetRecordProvider: widgetsRecordProvider
+            })), $if(model.variables.isLoadingVar, false, this, function() {
+                return [React.createElement(tradershub_Common_LoaderBlock_mvc_view, {
+                    getOwnerSpan: function() {
+                        return _this.getChildSpan("render");
+                    },
+                    getOwnerDisposeSpan: function() {
+                        return _this.getChildSpan("destroy");
+                    },
+                    inputs: {},
+                    events: {
+                        _handleError: function(ex) {
+                            controller.handleError(ex);
+                        }
+                    },
+                    _validationProps: {
+                        validationService: validationService
+                    },
+                    _idProps: {
+                        service: idService,
+                        uuid: "70",
+                        alias: "14"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider,
+                    _dependencies: []
+                })];
+            }, function() {
+                return [React.createElement(OSWidgets.Placeholder, {
+                    align: /*Default*/ 0,
+                    content: _this.props.placeholders.content,
+                    style: "real-account-signup-layout__placeholder",
+                    _idProps: {
+                        service: idService,
+                        name: "Content"
+                    },
+                    _widgetRecordProvider: widgetsRecordProvider
+                })];
             }))), React.createElement(OSWidgets.Popup, {
                 extendedProperties: {
                     style: "border-radius: 8px; padding: 16px;"
@@ -1364,7 +1386,7 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/ru
                 style: "popup-dialog",
                 _idProps: {
                     service: idService,
-                    uuid: "71"
+                    uuid: "72"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
             }, React.createElement(OSWidgets.Container, {
@@ -1384,7 +1406,7 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/ru
                 text: ["Exit profile setup"],
                 _idProps: {
                     service: idService,
-                    uuid: "73"
+                    uuid: "74"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
             }), React.createElement(OSWidgets.Image, {
@@ -1404,7 +1426,7 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/ru
                 type: /*Static*/ 0,
                 _idProps: {
                     service: idService,
-                    uuid: "74"
+                    uuid: "75"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
             })), React.createElement(OSWidgets.Container, {
@@ -1427,7 +1449,7 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/ru
                 text: ["You will lose your progress."],
                 _idProps: {
                     service: idService,
-                    uuid: "76"
+                    uuid: "77"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
             }), React.createElement(OSWidgets.Button, {
@@ -1450,7 +1472,7 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/ru
                 visible: true,
                 _idProps: {
                     service: idService,
-                    uuid: "77"
+                    uuid: "78"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
             }, React.createElement(OSWidgets.Text, {
@@ -1460,7 +1482,7 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/ru
                 text: ["Continue setup"],
                 _idProps: {
                     service: idService,
-                    uuid: "78"
+                    uuid: "79"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
             })), React.createElement(OSWidgets.Button, {
@@ -1483,7 +1505,7 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/ru
                 visible: true,
                 _idProps: {
                     service: idService,
-                    uuid: "79"
+                    uuid: "80"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
             }, React.createElement(OSWidgets.Text, {
@@ -1493,7 +1515,7 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/ru
                 text: ["Go to demo"],
                 _idProps: {
                     service: idService,
-                    uuid: "80"
+                    uuid: "81"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
             }))))));
@@ -1502,7 +1524,7 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$view", ["@outsystems/ru
 
     return View;
 });
-define("tradershub.Layouts.RealAccountCreationLayout.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.model", "OutSystemsUI.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.Layouts.RealAccountCreationLayout.mvc$controller.OnReady.LoadDerivAppIframeJS", "tradershub.Layouts.RealAccountCreationLayout.mvc$controller.OnReady.FlatpickrJS", "OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.controller$GetWebsiteStatus", "tradershub.model$ST_1eac13b44db3d2db577291973f4a7e96Structure", "tradershub.controller$SendResidenceList", "tradershub.controller$InitGrowthbookAndRudderStack", "tradershub.controller$RudderstackIdentifyEvent", "tradershub.controller$SyncAccountInfo", "tradershub.controller$CleanupAfterRealSignup", "tradershub.controller$MountDerivApi", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "OutSystemsUI.controller$AddFavicon"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIModel, OutSystemsUIController, tradershubLanguageResources, tradershubClientVariables, tradershub_Layouts_RealAccountCreationLayout_mvc_controller_OnReady_LoadDerivAppIframeJS, tradershub_Layouts_RealAccountCreationLayout_mvc_controller_OnReady_FlatpickrJS) {
+define("tradershub.Layouts.RealAccountCreationLayout.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.model", "BrowserConsoleLogging.controller", "OutSystemsUI.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.Layouts.RealAccountCreationLayout.mvc$controller.OnReady.LoadDerivAppIframeJS", "tradershub.Layouts.RealAccountCreationLayout.mvc$controller.OnReady.FlatpickrJS", "tradershub.Layouts.RealAccountCreationLayout.mvc$controller.OnOpenModal.RudderStackJS", "tradershub.Layouts.RealAccountCreationLayout.mvc$controller.PreviousScreen.RudderStackJS", "OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "BrowserConsoleLogging.controller$ConsoleLog", "tradershub.referencesHealth$BrowserConsoleLogging", "tradershub.controller$GetWebsiteStatus", "tradershub.model$ST_1eac13b44db3d2db577291973f4a7e96Structure", "tradershub.controller$SendResidenceList", "tradershub.controller$InitGrowthbookAndRudderStack", "tradershub.controller$RudderstackIdentifyEvent", "tradershub.controller$InitizalizeDerivApi", "tradershub.controller$SyncAccountInfo", "tradershub.controller$CleanupAfterRealSignup", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "OutSystemsUI.controller$AddFavicon"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIModel, BrowserConsoleLoggingController, OutSystemsUIController, tradershubLanguageResources, tradershubClientVariables, tradershub_Layouts_RealAccountCreationLayout_mvc_controller_OnReady_LoadDerivAppIframeJS, tradershub_Layouts_RealAccountCreationLayout_mvc_controller_OnReady_FlatpickrJS, tradershub_Layouts_RealAccountCreationLayout_mvc_controller_OnOpenModal_RudderStackJS, tradershub_Layouts_RealAccountCreationLayout_mvc_controller_PreviousScreen_RudderStackJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -1567,6 +1589,45 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$controller", ["@outsyst
             }
             set _onCloseModal$Action(value) {
                 this.__onCloseModal$Action = value;
+            }
+
+            get _onParametersChanged$Action() {
+                if (!(this.hasOwnProperty("__onParametersChanged$Action"))) {
+                    this.__onParametersChanged$Action = function(callContext) {
+                        var model = this.model;
+                        var controller = this.controller;
+                        var idService = this.idService;
+                        return OS.Logger.startActiveSpan("OnParametersChanged", function(span) {
+                            if (span) {
+                                span.setAttribute("code.function", "OnParametersChanged");
+                                span.setAttribute("outsystems.function.key", "5449c50e-6b44-4a68-baa7-a2c71a9d15b1");
+                                span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                            }
+
+                            try {
+                                controller.ensureControllerAlive("OnParametersChanged");
+                                callContext = controller.callContext(callContext);
+                                // Execute Action: ConsoleLog
+                                BrowserConsoleLoggingController.default.consoleLog$Action((model.variables.isLoadingVar ? "True" : "False"), 0, callContext);
+                                // IsLoading = IsLoading
+                                model.variables.isLoadingVar = model.variables.isLoadingVar;
+                            } finally {
+                                if (span) {
+                                    span.end();
+                                }
+
+                            }
+
+                        }, 1);
+                    };
+                }
+
+                return this.__onParametersChanged$Action;
+            }
+            set _onParametersChanged$Action(value) {
+                this.__onParametersChanged$Action = value;
             }
 
             get _onRender$Action() {
@@ -1645,6 +1706,8 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$controller", ["@outsyst
                                 callContext = controller.callContext(callContext);
                                 var sendResidenceListVar = new OS.DataTypes.VariableHolder();
                                 return OS.Flow.executeAsyncFlow(function() {
+                                    // Execute Action: InitizalizeDerivApi
+                                    tradershubController.default.initizalizeDerivApi$Action(callContext);
                                     // Execute Action: GetWebsiteStatus
                                     model.flush();
                                     return tradershubController.default.getWebsiteStatus$Action(callContext).then(function() {
@@ -1809,11 +1872,25 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$controller", ["@outsyst
                                 controller.ensureControllerAlive("OnInitialize");
                                 callContext = controller.callContext(callContext);
                                 var addFaviconVar = new OS.DataTypes.VariableHolder();
-                                // Execute Action: AddFavicon
-                                addFaviconVar.value = OutSystemsUIController.default.addFavicon$Action("/tradershub/favicon.png", callContext);
+                                // IsLoading = True
+                                model.variables.isLoadingVar = true;
+                                if ((((tradershubClientVariables.getAuthToken() === OS.BuiltinFunctions.nullTextIdentifier()) || (tradershubClientVariables.getActiveLoginId() === (OS.BuiltinFunctions.nullIdentifier()).toString())))) {
+                                    // Destination: /tradershub/
+                                    return OS.Navigation.navigateTo(OS.Navigation.generateScreenURL("https://app.deriv.com", {}), OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default), callContext, true);
+                                } else {
+                                    if ((((OS.BuiltinFunctions.index(tradershubClientVariables.getActiveLoginId(), "VRTC", 0, false, true) === -1) || !(tradershubClientVariables.getInitializeRealSignup())))) {
+                                        // Execute Action: SyncAccountInfo
+                                        tradershubController.default.syncAccountInfo$Action(callContext);
+                                    } else {
+                                        // IsLoading = False
+                                        model.variables.isLoadingVar = false;
+                                        // Execute Action: AddFavicon
+                                        addFaviconVar.value = OutSystemsUIController.default.addFavicon$Action("/tradershub/favicon.png", callContext);
 
-                                // Execute Action: MountDerivApi
-                                tradershubController.default.mountDerivApi$Action(callContext);
+                                    }
+
+                                }
+
                             } finally {
                                 if (span) {
                                     span.end();
@@ -1851,6 +1928,27 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$controller", ["@outsyst
                                 callContext = controller.callContext(callContext);
                                 // ShowCloseModal = True
                                 model.variables.showCloseModalVar = true;
+                                OS.Logger.startActiveSpan("RudderStack", function(span) {
+                                    if (span) {
+                                        span.setAttribute("code.function", "RudderStack");
+                                        span.setAttribute("outsystems.function.key", "4f1ff538-7659-4b43-8fa5-2f0b7a87efbd");
+                                        span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                        span.setAttribute("outsystems.function.type", "JAVASCRIPT");
+                                    }
+
+                                    try {
+                                        return controller.safeExecuteJSNode(tradershub_Layouts_RealAccountCreationLayout_mvc_controller_OnOpenModal_RudderStackJS, "RudderStack", "OnOpenModal", {
+                                            step: OS.DataConversion.JSNodeParamConverter.to((tradershubClientVariables.getRealSignupCurrentStep() - 1), OS.DataTypes.DataTypes.Integer)
+                                        }, function($parameters) {}, {}, {});
+                                    } finally {
+                                        if (span) {
+                                            span.end();
+                                        }
+
+                                    }
+
+                                }, 1);
                             } finally {
                                 if (span) {
                                     span.end();
@@ -1868,6 +1966,64 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$controller", ["@outsyst
                 this.__onOpenModal$Action = value;
             }
 
+            get _previousScreen$Action() {
+                if (!(this.hasOwnProperty("__previousScreen$Action"))) {
+                    this.__previousScreen$Action = function(callContext) {
+                        var model = this.model;
+                        var controller = this.controller;
+                        var idService = this.idService;
+                        return OS.Logger.startActiveSpan("PreviousScreen", function(span) {
+                            if (span) {
+                                span.setAttribute("code.function", "PreviousScreen");
+                                span.setAttribute("outsystems.function.key", "d76b8eda-0191-4207-84af-7d33624c28ee");
+                                span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                            }
+
+                            try {
+                                controller.ensureControllerAlive("PreviousScreen");
+                                callContext = controller.callContext(callContext);
+                                OS.Logger.startActiveSpan("RudderStack", function(span) {
+                                    if (span) {
+                                        span.setAttribute("code.function", "RudderStack");
+                                        span.setAttribute("outsystems.function.key", "63d6c700-05e1-4e5e-a929-8b8fa06321e2");
+                                        span.setAttribute("outsystems.function.owner.name", "tradershub");
+                                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                                        span.setAttribute("outsystems.function.type", "JAVASCRIPT");
+                                    }
+
+                                    try {
+                                        return controller.safeExecuteJSNode(tradershub_Layouts_RealAccountCreationLayout_mvc_controller_PreviousScreen_RudderStackJS, "RudderStack", "PreviousScreen", {
+                                            step: OS.DataConversion.JSNodeParamConverter.to((tradershubClientVariables.getRealSignupCurrentStep() - 1), OS.DataTypes.DataTypes.Integer)
+                                        }, function($parameters) {}, {}, {});
+                                    } finally {
+                                        if (span) {
+                                            span.end();
+                                        }
+
+                                    }
+
+                                }, 1);
+                                // Destination: (PreviousScreen)
+                                return OS.Navigation.navigateBack(null, callContext, true);
+                            } finally {
+                                if (span) {
+                                    span.end();
+                                }
+
+                            }
+
+                        }, 1);
+                    };
+                }
+
+                return this.__previousScreen$Action;
+            }
+            set _previousScreen$Action(value) {
+                this.__previousScreen$Action = value;
+            }
+
 
             onCloseModal$Action(callContext) {
                 var controller = this.controller;
@@ -1882,6 +2038,30 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$controller", ["@outsyst
 
                     try {
                         return controller.safeExecuteClientAction(controller._onCloseModal$Action, callContext);
+                    } finally {
+                        if (span) {
+                            span.end();
+                        }
+
+                    }
+
+                }, 0);
+
+            }
+
+            onParametersChanged$Action(callContext) {
+                var controller = this.controller;
+                return OS.Logger.startActiveSpan("OnParametersChanged__proxy", function(span) {
+                    if (span) {
+                        span.setAttribute("code.function", "OnParametersChanged");
+                        span.setAttribute("outsystems.function.key", "5449c50e-6b44-4a68-baa7-a2c71a9d15b1");
+                        span.setAttribute("outsystems.function.owner.name", "tradershub");
+                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                        span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                    }
+
+                    try {
+                        return controller.safeExecuteClientAction(controller._onParametersChanged$Action, callContext);
                     } finally {
                         if (span) {
                             span.end();
@@ -2035,6 +2215,30 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$controller", ["@outsyst
 
             }
 
+            previousScreen$Action(callContext) {
+                var controller = this.controller;
+                return OS.Logger.startActiveSpan("PreviousScreen__proxy", function(span) {
+                    if (span) {
+                        span.setAttribute("code.function", "PreviousScreen");
+                        span.setAttribute("outsystems.function.key", "d76b8eda-0191-4207-84af-7d33624c28ee");
+                        span.setAttribute("outsystems.function.owner.name", "tradershub");
+                        span.setAttribute("outsystems.function.owner.key", "2ad446d5-32d7-4fbf-959d-82d8325bcfbc");
+                        span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                    }
+
+                    try {
+                        return controller.safeExecuteClientAction(controller._previousScreen$Action, callContext);
+                    } finally {
+                        if (span) {
+                            span.end();
+                        }
+
+                    }
+
+                }, 0);
+
+            }
+
 
             // Event Handler Actions
             get onInitializeEventHandler() {
@@ -2111,7 +2315,14 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$controller", ["@outsyst
 
             get onParametersChangedEventHandler() {
                 if (!(this.hasOwnProperty("_onParametersChangedEventHandler"))) {
-                    this._onParametersChangedEventHandler = null;
+                    this._onParametersChangedEventHandler = function(callContext) {
+                        var controller = this.controller;
+                        var model = this.model;
+                        var idService = this.idService;
+
+                        return controller.onParametersChanged$Action(callContext);
+
+                    };
                 }
 
                 return this._onParametersChangedEventHandler;
@@ -2191,6 +2402,80 @@ define("tradershub.Layouts.RealAccountCreationLayout.mvc$controller.OnReady.Flat
             document.head.appendChild(link);
             // document.head.appendChild(script);
         }
+
+
+    };
+});
+
+define("tradershub.Layouts.RealAccountCreationLayout.mvc$controller.OnOpenModal.RudderStackJS", [], function() {
+    return function($parameters, $actions, $roles, $public) {
+        let set_name;
+
+        switch ($parameters.step) {
+            case 0:
+                set_name = "account_currency";
+                break;
+            case 1:
+                set_name = "personal_details";
+                break;
+            case 2:
+                set_name = "employment_details";
+                break;
+            case 3:
+                set_name = "address_details";
+                break;
+            case 4:
+                set_name = "terms_of_use";
+                break;
+            default:
+                set_name = "";
+
+                return set_name;
+        }
+
+        Analytics.Analytics.trackEvent("ce_real_account_signup_form", {
+            action: "close",
+            step_num: $parameters.step,
+            step_codename: set_name,
+            form_name: "real_account_signup_form_outsystems"
+        });
+
+
+    };
+});
+
+define("tradershub.Layouts.RealAccountCreationLayout.mvc$controller.PreviousScreen.RudderStackJS", [], function() {
+    return function($parameters, $actions, $roles, $public) {
+        let set_name;
+
+        switch ($parameters.step) {
+            case 0:
+                set_name = "account_currency";
+                break;
+            case 1:
+                set_name = "personal_details";
+                break;
+            case 2:
+                set_name = "employment_details";
+                break;
+            case 3:
+                set_name = "address_details";
+                break;
+            case 4:
+                set_name = "terms_of_use";
+                break;
+            default:
+                set_name = "";
+
+                return set_name;
+        }
+
+        Analytics.Analytics.trackEvent("ce_real_account_signup_form", {
+            action: "step_back",
+            step_num: $parameters.step,
+            step_codename: set_name,
+            form_name: "real_account_signup_form_outsystems"
+        });
 
 
     };

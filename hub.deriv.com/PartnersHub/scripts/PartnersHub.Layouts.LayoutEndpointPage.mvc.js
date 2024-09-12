@@ -197,7 +197,7 @@ define("PartnersHub.Layouts.LayoutEndpointPage.mvc$view", ["@outsystems/runtime-
                 extendedProperties: {
                     style: "font-size: 16px; font-weight: bold;"
                 },
-                text: ["Are you sure you want to log out?"],
+                text: [$text(getTranslation("RzfRPsfq0U+UE_D6UKErng#Value", "Are you sure you want to log out?"))],
                 _idProps: {
                     service: idService,
                     uuid: "3"
@@ -245,6 +245,15 @@ define("PartnersHub.Layouts.LayoutEndpointPage.mvc$view", ["@outsystems/runtime-
                     uuid: "5"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
+            }, React.createElement(OSWidgets.Container, {
+                align: /*Default*/ 0,
+                animate: false,
+                visible: true,
+                _idProps: {
+                    service: idService,
+                    uuid: "6"
+                },
+                _widgetRecordProvider: widgetsRecordProvider
             }, React.createElement(CustomComponents_ButtonVariants_PrimaryButton_mvc_view, {
                 getOwnerSpan: function() {
                     return _this.getChildSpan("render");
@@ -253,9 +262,9 @@ define("PartnersHub.Layouts.LayoutEndpointPage.mvc$view", ["@outsystems/runtime-
                     return _this.getChildSpan("destroy");
                 },
                 inputs: {
+                    Width: "100%",
                     height: "40px",
-                    title: "Yes, log out",
-                    Width: "100%"
+                    title: "Yes, log out"
                 },
                 events: {
                     _handleError: function(ex) {
@@ -273,12 +282,21 @@ define("PartnersHub.Layouts.LayoutEndpointPage.mvc$view", ["@outsystems/runtime-
                 },
                 _idProps: {
                     service: idService,
-                    uuid: "6",
+                    uuid: "7",
                     alias: "1"
                 },
                 _widgetRecordProvider: widgetsRecordProvider,
                 _dependencies: []
-            }), React.createElement(CustomComponents_ButtonVariants_SecondaryButton_mvc_view, {
+            })), React.createElement(OSWidgets.Container, {
+                align: /*Default*/ 0,
+                animate: false,
+                visible: true,
+                _idProps: {
+                    service: idService,
+                    uuid: "8"
+                },
+                _widgetRecordProvider: widgetsRecordProvider
+            }, React.createElement(CustomComponents_ButtonVariants_SecondaryButton_mvc_view, {
                 getOwnerSpan: function() {
                     return _this.getChildSpan("render");
                 },
@@ -286,11 +304,11 @@ define("PartnersHub.Layouts.LayoutEndpointPage.mvc$view", ["@outsystems/runtime-
                     return _this.getChildSpan("destroy");
                 },
                 inputs: {
-                    borderRadius: "100px",
+                    BorderColor: "#FF444F",
                     title: "Cancel",
                     height: "40px",
-                    BorderColor: "#FF444F",
-                    Width: "100%"
+                    Width: "100%",
+                    borderRadius: "100px"
                 },
                 events: {
                     _handleError: function(ex) {
@@ -308,16 +326,16 @@ define("PartnersHub.Layouts.LayoutEndpointPage.mvc$view", ["@outsystems/runtime-
                 },
                 _idProps: {
                     service: idService,
-                    uuid: "7",
+                    uuid: "9",
                     alias: "2"
                 },
                 _widgetRecordProvider: widgetsRecordProvider,
                 _dependencies: []
-            })))), React.createElement(OSWidgets.Container, {
+            }))))), React.createElement(OSWidgets.Container, {
                 align: /*Default*/ 0,
                 animate: false,
                 style: model.getCachedValue(idService.getId("LayoutWrapper.Style"), function() {
-                    return ((("layout layout-blank" + ((model.variables.hasFixedHeaderIn) ? (" fixed-header") : (""))) + ((!(model.variables.enableAccessibilityFeaturesIn)) ? ("") : (" has-accessible-features"))) + (((model.variables.extendedClassIn === "")) ? ("") : ((" " + model.variables.extendedClassIn))));
+                    return (((OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("dbxxueEmnEKv5372e5NktQ#ValueExpression.-1770855897.1", "layout layout-blank") + ((model.variables.hasFixedHeaderIn) ? (" fixed-header") : (""))) + ((!(model.variables.enableAccessibilityFeaturesIn)) ? ("") : (" has-accessible-features"))) + (((model.variables.extendedClassIn === "")) ? ("") : ((" " + model.variables.extendedClassIn))));
                 }, function() {
                     return model.variables.hasFixedHeaderIn;
                 }, function() {
@@ -335,11 +353,11 @@ define("PartnersHub.Layouts.LayoutEndpointPage.mvc$view", ["@outsystems/runtime-
             }, React.createElement(OSWidgets.Container, {
                 align: /*Default*/ 0,
                 animate: false,
-                style: "main",
+                style: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("5tk6rybKDkWIIZMcBm5xRw#ValueExpression.3343801.1", "main"),
                 visible: true,
                 _idProps: {
                     service: idService,
-                    uuid: "9"
+                    uuid: "11"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
             }, React.createElement(OSWidgets.AdvancedHtml, {
@@ -367,7 +385,7 @@ define("PartnersHub.Layouts.LayoutEndpointPage.mvc$view", ["@outsystems/runtime-
                 visible: true,
                 _idProps: {
                     service: idService,
-                    uuid: "11"
+                    uuid: "13"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
             }, React.createElement(OSWidgets.Container, {
@@ -380,7 +398,7 @@ define("PartnersHub.Layouts.LayoutEndpointPage.mvc$view", ["@outsystems/runtime-
                 visible: true,
                 _idProps: {
                     service: idService,
-                    uuid: "12"
+                    uuid: "14"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
             }, React.createElement(OSWidgets.Image, {
@@ -403,7 +421,7 @@ define("PartnersHub.Layouts.LayoutEndpointPage.mvc$view", ["@outsystems/runtime-
                 type: /*Static*/ 0,
                 _idProps: {
                     service: idService,
-                    uuid: "13"
+                    uuid: "15"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
             })), $if(model.variables.isLoggedinVar, false, this, function() {
@@ -417,162 +435,120 @@ define("PartnersHub.Layouts.LayoutEndpointPage.mvc$view", ["@outsystems/runtime-
                     visible: true,
                     _idProps: {
                         service: idService,
-                        uuid: "14"
+                        uuid: "16"
                     },
                     _widgetRecordProvider: widgetsRecordProvider
-                }, React.createElement(OutSystemsUI_Content_Tooltip_mvc_view, {
-                    getOwnerSpan: function() {
-                        return _this.getChildSpan("render");
-                    },
-                    getOwnerDisposeSpan: function() {
-                        return _this.getChildSpan("destroy");
-                    },
-                    inputs: {
-                        Position: PartnersHubModel.staticEntities.position.bottom,
-                        ExtendedClass: "tooltip"
-                    },
-                    events: {
-                        _handleError: function(ex) {
-                            controller.handleError(ex);
-                        }
-                    },
-                    _validationProps: {
-                        validationService: validationService
-                    },
-                    _idProps: {
-                        service: idService,
-                        uuid: "15",
-                        alias: "3"
-                    },
-                    _widgetRecordProvider: widgetsRecordProvider,
-                    placeholders: {
-                        content: new PlaceholderContent(function() {
-                            return [React.createElement(OSWidgets.Container, {
-                                align: /*Default*/ 0,
-                                animate: false,
-                                extendedProperties: {
-                                    style: "cursor: pointer;"
-                                },
-                                visible: true,
-                                _idProps: {
-                                    service: idService,
-                                    uuid: "16"
-                                },
-                                _widgetRecordProvider: widgetsRecordProvider
-                            }, React.createElement(OSWidgets.Image, {
-                                extendedEvents: {
-                                    onClick: function() {
-                                        var eventHandlerContext = callContext.clone();
-                                        controller.onClickOpenLiveChat$Action(controller.callContext(eventHandlerContext));
+                }, $if(PartnersHubClientVariables.getIsDesktop(), false, this, function() {
+                    return [React.createElement(OutSystemsUI_Content_Tooltip_mvc_view, {
+                        getOwnerSpan: function() {
+                            return _this.getChildSpan("render");
+                        },
+                        getOwnerDisposeSpan: function() {
+                            return _this.getChildSpan("destroy");
+                        },
+                        inputs: {
+                            Position: PartnersHubModel.staticEntities.position.bottom
+                        },
+                        events: {
+                            _handleError: function(ex) {
+                                controller.handleError(ex);
+                            }
+                        },
+                        _validationProps: {
+                            validationService: validationService
+                        },
+                        _idProps: {
+                            service: idService,
+                            uuid: "17",
+                            alias: "3"
+                        },
+                        _widgetRecordProvider: widgetsRecordProvider,
+                        placeholders: {
+                            content: new PlaceholderContent(function() {
+                                return [React.createElement(OSWidgets.Container, {
+                                    align: /*Default*/ 0,
+                                    animate: false,
+                                    extendedEvents: {
+                                        onClick: function() {
+                                            var eventHandlerContext = callContext.clone();
+                                            controller.openLogoutModal$Action(controller.callContext(eventHandlerContext));
 
-                                        ;
-                                    }
-                                },
-                                gridProperties: {
-                                    width: "28px"
-                                },
-                                image: OS.Navigation.VersionedURL.getVersionedUrl("img/PartnersHub.livechat2.svg"),
-                                type: /*Static*/ 0,
-                                _idProps: {
-                                    service: idService,
-                                    uuid: "17"
-                                },
-                                _widgetRecordProvider: widgetsRecordProvider
-                            }))];
-                        }),
-                        tooltip: new PlaceholderContent(function() {
-                            return [React.createElement(OSWidgets.Container, {
-                                align: /*Default*/ 0,
-                                animate: false,
-                                extendedProperties: {
-                                    style: "text-align: center;"
-                                },
-                                visible: true,
-                                _idProps: {
-                                    service: idService,
-                                    uuid: "18"
-                                },
-                                _widgetRecordProvider: widgetsRecordProvider
-                            }, "Live chat")];
-                        })
-                    },
-                    _dependencies: []
-                }), React.createElement(OutSystemsUI_Content_Tooltip_mvc_view, {
-                    getOwnerSpan: function() {
-                        return _this.getChildSpan("render");
-                    },
-                    getOwnerDisposeSpan: function() {
-                        return _this.getChildSpan("destroy");
-                    },
-                    inputs: {
-                        Position: PartnersHubModel.staticEntities.position.bottom
-                    },
-                    events: {
-                        _handleError: function(ex) {
-                            controller.handleError(ex);
-                        }
-                    },
-                    _validationProps: {
-                        validationService: validationService
-                    },
-                    _idProps: {
-                        service: idService,
-                        uuid: "19",
-                        alias: "4"
-                    },
-                    _widgetRecordProvider: widgetsRecordProvider,
-                    placeholders: {
-                        content: new PlaceholderContent(function() {
-                            return [React.createElement(OSWidgets.Container, {
-                                align: /*Default*/ 0,
-                                animate: false,
-                                extendedEvents: {
-                                    onClick: function() {
-                                        var eventHandlerContext = callContext.clone();
-                                        controller.openLogoutModal$Action(controller.callContext(eventHandlerContext));
+                                            ;
+                                        }
+                                    },
+                                    extendedProperties: {
+                                        style: "cursor: pointer;"
+                                    },
+                                    visible: true,
+                                    _idProps: {
+                                        service: idService,
+                                        uuid: "18"
+                                    },
+                                    _widgetRecordProvider: widgetsRecordProvider
+                                }, React.createElement(OSWidgets.Image, {
+                                    gridProperties: {
+                                        width: "22px"
+                                    },
+                                    image: OS.Navigation.VersionedURL.getVersionedUrl("img/PartnersHub.logout.svg"),
+                                    type: /*Static*/ 0,
+                                    _idProps: {
+                                        service: idService,
+                                        uuid: "19"
+                                    },
+                                    _widgetRecordProvider: widgetsRecordProvider
+                                }))];
+                            }),
+                            tooltip: new PlaceholderContent(function() {
+                                return [React.createElement(OSWidgets.Container, {
+                                    align: /*Default*/ 0,
+                                    animate: false,
+                                    extendedProperties: {
+                                        style: "text-align: center;"
+                                    },
+                                    visible: true,
+                                    _idProps: {
+                                        service: idService,
+                                        uuid: "20"
+                                    },
+                                    _widgetRecordProvider: widgetsRecordProvider
+                                }, $text(getTranslation("oiMnGVHyYUyzhvGIqB3aNQ#Value", "Log out")))];
+                            })
+                        },
+                        _dependencies: []
+                    })];
+                }, function() {
+                    return [React.createElement(OSWidgets.Container, {
+                        align: /*Default*/ 0,
+                        animate: false,
+                        extendedEvents: {
+                            onClick: function() {
+                                var eventHandlerContext = callContext.clone();
+                                controller.openLogoutModal$Action(controller.callContext(eventHandlerContext));
 
-                                        ;
-                                    }
-                                },
-                                extendedProperties: {
-                                    style: "cursor: pointer;"
-                                },
-                                visible: true,
-                                _idProps: {
-                                    service: idService,
-                                    uuid: "20"
-                                },
-                                _widgetRecordProvider: widgetsRecordProvider
-                            }, React.createElement(OSWidgets.Image, {
-                                gridProperties: {
-                                    width: "22px"
-                                },
-                                image: OS.Navigation.VersionedURL.getVersionedUrl("img/PartnersHub.logout.svg"),
-                                type: /*Static*/ 0,
-                                _idProps: {
-                                    service: idService,
-                                    uuid: "21"
-                                },
-                                _widgetRecordProvider: widgetsRecordProvider
-                            }))];
-                        }),
-                        tooltip: new PlaceholderContent(function() {
-                            return [React.createElement(OSWidgets.Container, {
-                                align: /*Default*/ 0,
-                                animate: false,
-                                extendedProperties: {
-                                    style: "text-align: center;"
-                                },
-                                visible: true,
-                                _idProps: {
-                                    service: idService,
-                                    uuid: "22"
-                                },
-                                _widgetRecordProvider: widgetsRecordProvider
-                            }, "Log out")];
-                        })
-                    },
-                    _dependencies: []
+                                ;
+                            }
+                        },
+                        extendedProperties: {
+                            style: "cursor: pointer;"
+                        },
+                        visible: true,
+                        _idProps: {
+                            service: idService,
+                            uuid: "21"
+                        },
+                        _widgetRecordProvider: widgetsRecordProvider
+                    }, React.createElement(OSWidgets.Image, {
+                        gridProperties: {
+                            width: "22px"
+                        },
+                        image: OS.Navigation.VersionedURL.getVersionedUrl("img/PartnersHub.logout.svg"),
+                        type: /*Static*/ 0,
+                        _idProps: {
+                            service: idService,
+                            uuid: "22"
+                        },
+                        _widgetRecordProvider: widgetsRecordProvider
+                    }))];
                 }))];
             }, function() {
                 return [React.createElement(OSWidgets.Container, {
@@ -608,7 +584,7 @@ define("PartnersHub.Layouts.LayoutEndpointPage.mvc$view", ["@outsystems/runtime-
                     extendedProperties: {
                         style: "color: #FF444F; font-weight: bold;"
                     },
-                    text: ["Log in"],
+                    text: [$text(getTranslation("W7Kh4ThM_UWNlBaPdD6URg#Value", "Log in"))],
                     _idProps: {
                         service: idService,
                         uuid: "25"
@@ -632,7 +608,7 @@ define("PartnersHub.Layouts.LayoutEndpointPage.mvc$view", ["@outsystems/runtime-
                 align: /*Default*/ 0,
                 animate: false,
                 extendedProperties: {
-                    role: "main",
+                    role: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("GEy4JXgKwEmTE4e9nNrJBw#Value.3343801.1", "main"),
                     style: "height: 100%;"
                 },
                 style: "main-content",
@@ -645,7 +621,7 @@ define("PartnersHub.Layouts.LayoutEndpointPage.mvc$view", ["@outsystems/runtime-
             }, React.createElement(OSWidgets.Placeholder, {
                 align: /*Default*/ 0,
                 content: _this.props.placeholders.mainContent,
-                style: "dashboard",
+                style: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("0EZftxQS8kG6pOMo6NM6Gg#Style.-1047860588.1", "dashboard"),
                 _idProps: {
                     service: idService,
                     name: "MainContent"
@@ -1371,6 +1347,119 @@ define("PartnersHub.Layouts.LayoutEndpointPage.mvc$controller.OnClickLogout.Java
 });
 
 
-define("PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "GEy4JXgKwEmTE4e9nNrJBw#Value.3343801.1": "main",
+        "0EZftxQS8kG6pOMo6NM6Gg#Style.-1047860588.1": "Dashboard",
+        "W7Kh4ThM_UWNlBaPdD6URg#Value": "Anmelden",
+        "oiMnGVHyYUyzhvGIqB3aNQ#Value": "Abmelden",
+        "5tk6rybKDkWIIZMcBm5xRw#ValueExpression.3343801.1": "main",
+        "dbxxueEmnEKv5372e5NktQ#ValueExpression.-1770855897.1": "layout layout-blank",
+        "RzfRPsfq0U+UE_D6UKErng#Value": "Bist du sicher, dass du dich abmelden möchtest?"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "GEy4JXgKwEmTE4e9nNrJBw#Value.3343801.1": "main",
+        "0EZftxQS8kG6pOMo6NM6Gg#Style.-1047860588.1": "Panel de control",
+        "W7Kh4ThM_UWNlBaPdD6URg#Value": "Iniciar sesión",
+        "oiMnGVHyYUyzhvGIqB3aNQ#Value": "Cerrar sesión",
+        "5tk6rybKDkWIIZMcBm5xRw#ValueExpression.3343801.1": "main",
+        "dbxxueEmnEKv5372e5NktQ#ValueExpression.-1770855897.1": "layout layout-blank",
+        "RzfRPsfq0U+UE_D6UKErng#Value": "¿Estás seguro de que quieres cerrar sesión?"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "GEy4JXgKwEmTE4e9nNrJBw#Value.3343801.1": "main",
+        "0EZftxQS8kG6pOMo6NM6Gg#Style.-1047860588.1": "Tableau de bord",
+        "W7Kh4ThM_UWNlBaPdD6URg#Value": "Se connecter",
+        "oiMnGVHyYUyzhvGIqB3aNQ#Value": "Se déconnecter",
+        "5tk6rybKDkWIIZMcBm5xRw#ValueExpression.3343801.1": "main",
+        "dbxxueEmnEKv5372e5NktQ#ValueExpression.-1770855897.1": "layout layout-blank",
+        "RzfRPsfq0U+UE_D6UKErng#Value": "Êtes-vous sûr de vouloir vous déconnecter ?"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "GEy4JXgKwEmTE4e9nNrJBw#Value.3343801.1": "main",
+        "0EZftxQS8kG6pOMo6NM6Gg#Style.-1047860588.1": "Cruscotto",
+        "W7Kh4ThM_UWNlBaPdD6URg#Value": "Accedi",
+        "oiMnGVHyYUyzhvGIqB3aNQ#Value": "Disconnettersi",
+        "5tk6rybKDkWIIZMcBm5xRw#ValueExpression.3343801.1": "main",
+        "dbxxueEmnEKv5372e5NktQ#ValueExpression.-1770855897.1": "layout layout-blank",
+        "RzfRPsfq0U+UE_D6UKErng#Value": "Sei sicuro di voler disconnetterti?"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "GEy4JXgKwEmTE4e9nNrJBw#Value.3343801.1": "main",
+        "0EZftxQS8kG6pOMo6NM6Gg#Style.-1047860588.1": "Panel sterowania",
+        "W7Kh4ThM_UWNlBaPdD6URg#Value": "Zaloguj się",
+        "oiMnGVHyYUyzhvGIqB3aNQ#Value": "Wyloguj się",
+        "5tk6rybKDkWIIZMcBm5xRw#ValueExpression.3343801.1": "main",
+        "dbxxueEmnEKv5372e5NktQ#ValueExpression.-1770855897.1": "layout layout-blank",
+        "RzfRPsfq0U+UE_D6UKErng#Value": "Czy na pewno chcesz się wylogować?"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "GEy4JXgKwEmTE4e9nNrJBw#Value.3343801.1": "main",
+        "0EZftxQS8kG6pOMo6NM6Gg#Style.-1047860588.1": "Painel de controle",
+        "W7Kh4ThM_UWNlBaPdD6URg#Value": "Iniciar sessão",
+        "oiMnGVHyYUyzhvGIqB3aNQ#Value": "Sair",
+        "5tk6rybKDkWIIZMcBm5xRw#ValueExpression.3343801.1": "main",
+        "dbxxueEmnEKv5372e5NktQ#ValueExpression.-1770855897.1": "layout layout-blank",
+        "RzfRPsfq0U+UE_D6UKErng#Value": "Tem certeza de que deseja sair?"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "GEy4JXgKwEmTE4e9nNrJBw#Value.3343801.1": "main",
+        "0EZftxQS8kG6pOMo6NM6Gg#Style.-1047860588.1": "Панель управления",
+        "W7Kh4ThM_UWNlBaPdD6URg#Value": "Войти",
+        "oiMnGVHyYUyzhvGIqB3aNQ#Value": "Выйти",
+        "5tk6rybKDkWIIZMcBm5xRw#ValueExpression.3343801.1": "main",
+        "dbxxueEmnEKv5372e5NktQ#ValueExpression.-1770855897.1": "layout layout-blank",
+        "RzfRPsfq0U+UE_D6UKErng#Value": "Вы уверены, что хотите выйти?"
+    };
+});
+
+define("PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources", ["exports", "PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources.de-DE", "PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources.es-ES", "PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources.fr-FR", "PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources.it-IT", "PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources.pl-PL", "PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources.pt-PT", "PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Layouts_LayoutEndpointPage_mvc_translationsResources_deDE, PartnersHub_Layouts_LayoutEndpointPage_mvc_translationsResources_esES, PartnersHub_Layouts_LayoutEndpointPage_mvc_translationsResources_frFR, PartnersHub_Layouts_LayoutEndpointPage_mvc_translationsResources_itIT, PartnersHub_Layouts_LayoutEndpointPage_mvc_translationsResources_plPL, PartnersHub_Layouts_LayoutEndpointPage_mvc_translationsResources_ptPT, PartnersHub_Layouts_LayoutEndpointPage_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Layouts_LayoutEndpointPage_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Layouts_LayoutEndpointPage_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Layouts_LayoutEndpointPage_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Layouts_LayoutEndpointPage_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Layouts_LayoutEndpointPage_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Layouts_LayoutEndpointPage_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Layouts_LayoutEndpointPage_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

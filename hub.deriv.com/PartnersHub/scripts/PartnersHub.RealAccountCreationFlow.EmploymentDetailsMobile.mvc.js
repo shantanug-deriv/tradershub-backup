@@ -1,4 +1,4 @@
-define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStepProgressBar", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.model$RC_4535b2a68fa04382d8868d60004b6438", "PartnersHub.model$RL_117c7b7da327962152f7a4113c25ca3f"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController) {
+define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStepProgressBar", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.controller$NextStepReal", "PartnersHub.model$RC_4535b2a68fa04382d8868d60004b6438", "PartnersHub.model$RL_117c7b7da327962152f7a4113c25ca3f"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController) {
     var OS = OSRuntimeCore;
     {
         class GetEmploymentStatusesAggrRecInner extends
@@ -74,7 +74,7 @@ define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$model", 
     return new OS.Model.ModelFactory(Model);
 });
 
-define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "react", "@outsystems/runtime-view-js", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$model", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$controller", "PartnersHub.clientVariables", "@outsystems/runtime-widgets-js", "OutSystemsUI.Interaction.InputWithIcon.mvc$view", "CustomComponents.ButtonVariants.PrimaryButton.mvc$view", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStepProgressBar", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.model$RC_4535b2a68fa04382d8868d60004b6438", "PartnersHub.model$RL_117c7b7da327962152f7a4113c25ca3f"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, React, OSView, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_model, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_controller, PartnersHubClientVariables, OSWidgets, OutSystemsUI_Interaction_InputWithIcon_mvc_view, CustomComponents_ButtonVariants_PrimaryButton_mvc_view) {
+define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "react", "@outsystems/runtime-view-js", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$model", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$controller", "PartnersHub.clientVariables", "@outsystems/runtime-widgets-js", "OutSystemsUI.Interaction.InputWithIcon.mvc$view", "CustomComponents.ButtonVariants.PrimaryButton.mvc$view", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStepProgressBar", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.controller$NextStepReal", "PartnersHub.model$RC_4535b2a68fa04382d8868d60004b6438", "PartnersHub.model$RL_117c7b7da327962152f7a4113c25ca3f"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, React, OSView, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_model, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_controller, PartnersHubClientVariables, OSWidgets, OutSystemsUI_Interaction_InputWithIcon_mvc_view, CustomComponents_ButtonVariants_PrimaryButton_mvc_view) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -162,7 +162,7 @@ define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$view", [
                 extendedProperties: {
                     style: "font-size: 16px; font-weight: bold;"
                 },
-                text: ["Tax information"],
+                text: [$text(getTranslation("aqBSd0vY4UeCYB0sG+khyQ#Value", "Tax information"))],
                 _idProps: {
                     service: idService,
                     uuid: "2"
@@ -199,7 +199,7 @@ define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$view", [
                     uuid: "4"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Do you have a tax indentification?"), React.createElement(OSWidgets.Container, {
+            }, $text(getTranslation("3CQLlTqfj0y2blXOAjEJGg#Value", "Do you have a tax indentification?"))), React.createElement(OSWidgets.Container, {
                 align: /*Default*/ 0,
                 animate: false,
                 extendedProperties: {
@@ -238,7 +238,7 @@ define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$view", [
                 extendedProperties: {
                     style: "color: #f3f6f8; font-weight: bold;"
                 },
-                text: ["Yes"],
+                text: [$text(getTranslation("B_WVXdWSW0CDoXZVQhgRCQ#Value", "Yes"))],
                 _idProps: {
                     service: idService,
                     uuid: "7"
@@ -256,7 +256,7 @@ define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$view", [
                 isDefault: false,
                 onClick: function() {
                     var eventHandlerContext = callContext.clone();
-                    controller.nextStep$Action(controller.callContext(eventHandlerContext));
+                    controller.goToAddressDetails$Action(controller.callContext(eventHandlerContext));
 
                     ;
                 },
@@ -271,7 +271,7 @@ define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$view", [
                 extendedProperties: {
                     style: "color: #FF444F;"
                 },
-                text: ["No"],
+                text: [$text(getTranslation("t0UTM6piu0C_k9PNxfLJww#Value", "No"))],
                 _idProps: {
                     service: idService,
                     uuid: "9"
@@ -287,7 +287,7 @@ define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$view", [
                     name: "EmploymentStatusList"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Select your employment status", React.createElement(OSWidgets.List, {
+            }, $text(getTranslation("8jg4xfrK_EuVY+QGVDSwmg#Value", "Select your employment status")), React.createElement(OSWidgets.List, {
                 animateItems: true,
                 extendedProperties: {
                     style: "display: flex; flex-direction: column; gap: 16px;"
@@ -421,7 +421,7 @@ define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$view", [
                     uuid: "19"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Country of tax residence"), React.createElement(OutSystemsUI_Interaction_InputWithIcon_mvc_view, {
+            }, $text(getTranslation("494abvAK6kWbEPLJhBBb+Q#Value", "Country of tax residence"))), React.createElement(OutSystemsUI_Interaction_InputWithIcon_mvc_view, {
                 getOwnerSpan: function() {
                     return _this.getChildSpan("render");
                 },
@@ -532,7 +532,7 @@ define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$view", [
                     uuid: "24"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }, "Tax identification number (optional)"), React.createElement(OSWidgets.Input, {
+            }, $text(getTranslation("ymFzQmrOoEemwDnHQ8ikYA#Value", "Tax identification number (optional)"))), React.createElement(OSWidgets.Input, {
                 _validationProps: {
                     validationService: validationService,
                     validationParentId: idService.getId("TaxInfoForm")
@@ -591,7 +591,7 @@ define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$view", [
                     name: "Checkbox1"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }), "I confirm that my tax information is accurate and complete. "), React.createElement(OSWidgets.Container, {
+            }), $text(getTranslation("mA3HrdNMnEKRV9EzarHiKg#Value", "I confirm that my tax information is accurate and complete. "))), React.createElement(OSWidgets.Container, {
                 align: /*Default*/ 0,
                 animate: true,
                 visible: (PartnersHubClientVariables.getRealSignupisCheckboxError() === true),
@@ -604,7 +604,7 @@ define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$view", [
                 extendedProperties: {
                     style: "color: #DC2020;"
                 },
-                text: ["This is required."],
+                text: [$text(getTranslation("RVR81evqbk+z+FPlOC+lXA#Value", "This is required."))],
                 _idProps: {
                     service: idService,
                     uuid: "29"
@@ -658,7 +658,7 @@ define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$view", [
 
     return View;
 });
-define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStepProgressBar", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.model$RC_4535b2a68fa04382d8868d60004b6438", "PartnersHub.model$RL_117c7b7da327962152f7a4113c25ca3f"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_TranslationsResources) {
+define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources", "PartnersHub.controller$GetHeaderTitle", "PartnersHub.controller$RealSignupNextStepProgressBar", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.controller$NextStepReal", "PartnersHub.model$RC_4535b2a68fa04382d8868d60004b6438", "PartnersHub.model$RL_117c7b7da327962152f7a4113c25ca3f"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_TranslationsResources) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -899,6 +899,43 @@ define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$controll
                 this.__nextStep$Action = value;
             }
 
+            get _goToAddressDetails$Action() {
+                if (!(this.hasOwnProperty("__goToAddressDetails$Action"))) {
+                    this.__goToAddressDetails$Action = function(callContext) {
+                        var model = this.model;
+                        var controller = this.controller;
+                        var idService = this.idService;
+                        return OS.Logger.startActiveSpan("GoToAddressDetails", function(span) {
+                            if (span) {
+                                span.setAttribute("code.function", "GoToAddressDetails");
+                                span.setAttribute("outsystems.function.key", "a6b46e4c-03b6-4299-ad9c-1b03a1863687");
+                                span.setAttribute("outsystems.function.owner.name", "PartnersHub");
+                                span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
+                                span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                            }
+
+                            try {
+                                controller.ensureControllerAlive("GoToAddressDetails");
+                                callContext = controller.callContext(callContext);
+                                // Execute Action: NextStepReal
+                                PartnersHubController.default.nextStepReal$Action(1, 12, callContext);
+                            } finally {
+                                if (span) {
+                                    span.end();
+                                }
+
+                            }
+
+                        }, 1);
+                    };
+                }
+
+                return this.__goToAddressDetails$Action;
+            }
+            set _goToAddressDetails$Action(value) {
+                this.__goToAddressDetails$Action = value;
+            }
+
             get _closeTaxInfoModal$Action() {
                 if (!(this.hasOwnProperty("__closeTaxInfoModal$Action"))) {
                     this.__closeTaxInfoModal$Action = function(callContext) {
@@ -1080,6 +1117,30 @@ define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$controll
 
             }
 
+            goToAddressDetails$Action(callContext) {
+                var controller = this.controller;
+                return OS.Logger.startActiveSpan("GoToAddressDetails__proxy", function(span) {
+                    if (span) {
+                        span.setAttribute("code.function", "GoToAddressDetails");
+                        span.setAttribute("outsystems.function.key", "a6b46e4c-03b6-4299-ad9c-1b03a1863687");
+                        span.setAttribute("outsystems.function.owner.name", "PartnersHub");
+                        span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
+                        span.setAttribute("outsystems.function.type", "CLIENT_SCREEN_ACTION");
+                    }
+
+                    try {
+                        return controller.safeExecuteClientAction(controller._goToAddressDetails$Action, callContext);
+                    } finally {
+                        if (span) {
+                            span.end();
+                        }
+
+                    }
+
+                }, 0);
+
+            }
+
             closeTaxInfoModal$Action(callContext) {
                 var controller = this.controller;
                 return OS.Logger.startActiveSpan("CloseTaxInfoModal__proxy", function(span) {
@@ -1225,6 +1286,133 @@ define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$controll
 });
 
 
-define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "RVR81evqbk+z+FPlOC+lXA#Value": "Dies ist erforderlich.",
+        "mA3HrdNMnEKRV9EzarHiKg#Value": "Ich bestätige, dass meine Steuerinformationen genau und vollständig sind.",
+        "ymFzQmrOoEemwDnHQ8ikYA#Value": "Steueridentifikationsnummer (optional)",
+        "494abvAK6kWbEPLJhBBb+Q#Value": "Wohnsitzland für steuerliche Zwecke",
+        "8jg4xfrK_EuVY+QGVDSwmg#Value": "Wählen Sie Ihren Beschäftigungsstatus aus",
+        "t0UTM6piu0C_k9PNxfLJww#Value": "Nein",
+        "B_WVXdWSW0CDoXZVQhgRCQ#Value": "Ja",
+        "3CQLlTqfj0y2blXOAjEJGg#Value": "Haben Sie eine Steueridentifikationsnummer?",
+        "aqBSd0vY4UeCYB0sG+khyQ#Value": "Steuerinformationen"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "RVR81evqbk+z+FPlOC+lXA#Value": "Esto es requerido.",
+        "mA3HrdNMnEKRV9EzarHiKg#Value": "Confirmo que mi información fiscal es precisa y completa.",
+        "ymFzQmrOoEemwDnHQ8ikYA#Value": "Número de identificación fiscal (opcional)",
+        "494abvAK6kWbEPLJhBBb+Q#Value": "País de residencia fiscal",
+        "8jg4xfrK_EuVY+QGVDSwmg#Value": "Seleccione su estado de empleo",
+        "t0UTM6piu0C_k9PNxfLJww#Value": "No",
+        "B_WVXdWSW0CDoXZVQhgRCQ#Value": "Sí",
+        "3CQLlTqfj0y2blXOAjEJGg#Value": "¿Tiene un número de identificación fiscal?",
+        "aqBSd0vY4UeCYB0sG+khyQ#Value": "Información fiscal"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "RVR81evqbk+z+FPlOC+lXA#Value": "Ceci est requis.",
+        "mA3HrdNMnEKRV9EzarHiKg#Value": "Je confirme que mes informations fiscales sont exactes et complètes.",
+        "ymFzQmrOoEemwDnHQ8ikYA#Value": "Numéro d\'identification fiscale (facultatif)",
+        "494abvAK6kWbEPLJhBBb+Q#Value": "Pays de résidence fiscale",
+        "8jg4xfrK_EuVY+QGVDSwmg#Value": "Sélectionnez votre statut d\'emploi",
+        "t0UTM6piu0C_k9PNxfLJww#Value": "Non",
+        "B_WVXdWSW0CDoXZVQhgRCQ#Value": "Oui",
+        "3CQLlTqfj0y2blXOAjEJGg#Value": "Avez-vous un numéro d\'identification fiscale ?",
+        "aqBSd0vY4UeCYB0sG+khyQ#Value": "Informations fiscales"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "RVR81evqbk+z+FPlOC+lXA#Value": "Questo è richiesto.",
+        "mA3HrdNMnEKRV9EzarHiKg#Value": "Confermo che le mie informazioni fiscali sono accurate e complete.",
+        "ymFzQmrOoEemwDnHQ8ikYA#Value": "Numero di identificazione fiscale (opzionale)",
+        "494abvAK6kWbEPLJhBBb+Q#Value": "Paese di residenza fiscale",
+        "8jg4xfrK_EuVY+QGVDSwmg#Value": "Seleziona il tuo stato di occupazione",
+        "t0UTM6piu0C_k9PNxfLJww#Value": "No",
+        "B_WVXdWSW0CDoXZVQhgRCQ#Value": "Sì",
+        "3CQLlTqfj0y2blXOAjEJGg#Value": "Hai un numero di identificazione fiscale?",
+        "aqBSd0vY4UeCYB0sG+khyQ#Value": "Informazioni fiscali"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "RVR81evqbk+z+FPlOC+lXA#Value": "To jest wymagane.",
+        "mA3HrdNMnEKRV9EzarHiKg#Value": "Potwierdzam, że moje informacje podatkowe są dokładne i kompletne.",
+        "ymFzQmrOoEemwDnHQ8ikYA#Value": "Numer identyfikacji podatkowej (opcjonalnie)",
+        "494abvAK6kWbEPLJhBBb+Q#Value": "Kraj rezydencji podatkowej",
+        "8jg4xfrK_EuVY+QGVDSwmg#Value": "Wybierz swój status zatrudnienia",
+        "t0UTM6piu0C_k9PNxfLJww#Value": "Nie",
+        "B_WVXdWSW0CDoXZVQhgRCQ#Value": "Tak",
+        "3CQLlTqfj0y2blXOAjEJGg#Value": "Czy masz numer identyfikacji podatkowej?",
+        "aqBSd0vY4UeCYB0sG+khyQ#Value": "Informacje podatkowe"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "RVR81evqbk+z+FPlOC+lXA#Value": "Isto é necessário.",
+        "mA3HrdNMnEKRV9EzarHiKg#Value": "Confirmo que a minha informação fiscal é precisa e completa.",
+        "ymFzQmrOoEemwDnHQ8ikYA#Value": "Número de identificação fiscal (opcional)",
+        "494abvAK6kWbEPLJhBBb+Q#Value": "País de residência fiscal",
+        "8jg4xfrK_EuVY+QGVDSwmg#Value": "Selecione o seu estado de emprego",
+        "t0UTM6piu0C_k9PNxfLJww#Value": "Não",
+        "B_WVXdWSW0CDoXZVQhgRCQ#Value": "Sim",
+        "3CQLlTqfj0y2blXOAjEJGg#Value": "Você tem um número de identificação fiscal?",
+        "aqBSd0vY4UeCYB0sG+khyQ#Value": "Informação fiscal"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "RVR81evqbk+z+FPlOC+lXA#Value": "Это требуется.",
+        "mA3HrdNMnEKRV9EzarHiKg#Value": "Я подтверждаю, что моя налоговая информация точна и полна.",
+        "ymFzQmrOoEemwDnHQ8ikYA#Value": "Идентификационный номер налогоплательщика (по желанию)",
+        "494abvAK6kWbEPLJhBBb+Q#Value": "Страна налогового резиденства",
+        "8jg4xfrK_EuVY+QGVDSwmg#Value": "Выберите свой статус занятости",
+        "t0UTM6piu0C_k9PNxfLJww#Value": "Нет",
+        "B_WVXdWSW0CDoXZVQhgRCQ#Value": "Да",
+        "3CQLlTqfj0y2blXOAjEJGg#Value": "У вас есть налоговый идентификатор?",
+        "aqBSd0vY4UeCYB0sG+khyQ#Value": "Налоговая информация"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources", ["exports", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources.de-DE", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources.es-ES", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources.fr-FR", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources.it-IT", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources.pl-PL", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources.pt-PT", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsMobile.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_translationsResources_deDE, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_translationsResources_esES, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_translationsResources_frFR, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_translationsResources_itIT, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_translationsResources_plPL, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_translationsResources_ptPT, PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_RealAccountCreationFlow_EmploymentDetailsMobile_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

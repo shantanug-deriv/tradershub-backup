@@ -234,7 +234,7 @@ define("PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$view", ["@outsy
 
                                 ;
                             },
-                            prompt: "Search",
+                            prompt: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("zcf3NBTGL0CMeabI9yNT_g#ValueExpression.-1822469688.1", "Search"),
                             style: "form-control",
                             variable: model.createVariable(OS.DataTypes.DataTypes.Text, model.variables.searchedResidenceVar, function(value) {
                                 model.variables.searchedResidenceVar = value;
@@ -560,7 +560,7 @@ define("PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$view", ["@outsy
                     extendedProperties: {
                         style: "color: #222; font-size: 16px;"
                     },
-                    text: ["Services not available"],
+                    text: [$text(getTranslation("NTn7X7AkMU+QdTPvRjMMCQ#Value", "Services not available"))],
                     _idProps: {
                         service: idService,
                         uuid: "24"
@@ -987,6 +987,84 @@ define("PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$controller.OnRe
 });
 
 
-define("PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "NTn7X7AkMU+QdTPvRjMMCQ#Value": "Dienste nicht verfügbar",
+        "zcf3NBTGL0CMeabI9yNT_g#ValueExpression.-1822469688.1": "Suche"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "NTn7X7AkMU+QdTPvRjMMCQ#Value": "Servicios no disponibles",
+        "zcf3NBTGL0CMeabI9yNT_g#ValueExpression.-1822469688.1": "Buscar"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "NTn7X7AkMU+QdTPvRjMMCQ#Value": "Services non disponibles",
+        "zcf3NBTGL0CMeabI9yNT_g#ValueExpression.-1822469688.1": "Recherche"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "NTn7X7AkMU+QdTPvRjMMCQ#Value": "Servizi non disponibili",
+        "zcf3NBTGL0CMeabI9yNT_g#ValueExpression.-1822469688.1": "Cerca"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "NTn7X7AkMU+QdTPvRjMMCQ#Value": "Usługi niedostępne",
+        "zcf3NBTGL0CMeabI9yNT_g#ValueExpression.-1822469688.1": "Szukaj"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "NTn7X7AkMU+QdTPvRjMMCQ#Value": "Serviços não disponíveis",
+        "zcf3NBTGL0CMeabI9yNT_g#ValueExpression.-1822469688.1": "Pesquisar"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "NTn7X7AkMU+QdTPvRjMMCQ#Value": "Услуги недоступны",
+        "zcf3NBTGL0CMeabI9yNT_g#ValueExpression.-1822469688.1": "Поиск"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$translationsResources", ["exports", "PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$translationsResources.de-DE", "PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$translationsResources.es-ES", "PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$translationsResources.fr-FR", "PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$translationsResources.it-IT", "PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$translationsResources.pl-PL", "PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$translationsResources.pt-PT", "PartnersHub.VirtualAccountCreation.ResidenceSelector.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_VirtualAccountCreation_ResidenceSelector_mvc_translationsResources_deDE, PartnersHub_VirtualAccountCreation_ResidenceSelector_mvc_translationsResources_esES, PartnersHub_VirtualAccountCreation_ResidenceSelector_mvc_translationsResources_frFR, PartnersHub_VirtualAccountCreation_ResidenceSelector_mvc_translationsResources_itIT, PartnersHub_VirtualAccountCreation_ResidenceSelector_mvc_translationsResources_plPL, PartnersHub_VirtualAccountCreation_ResidenceSelector_mvc_translationsResources_ptPT, PartnersHub_VirtualAccountCreation_ResidenceSelector_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_VirtualAccountCreation_ResidenceSelector_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_VirtualAccountCreation_ResidenceSelector_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_VirtualAccountCreation_ResidenceSelector_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_VirtualAccountCreation_ResidenceSelector_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_VirtualAccountCreation_ResidenceSelector_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_VirtualAccountCreation_ResidenceSelector_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_VirtualAccountCreation_ResidenceSelector_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

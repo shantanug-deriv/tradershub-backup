@@ -6,10 +6,6 @@ define("tradershub.referencesHealth$CommonPlugin", [], function() {
     // Reference to producer 'CommonPlugin' is OK.
 });
 
-define("tradershub.referencesHealth$ConsoleLogMessages", [], function() {
-    // Reference to producer 'ConsoleLogMessages' is OK.
-});
-
 define("tradershub.referencesHealth$CustomComponents", [], function() {
     // Reference to producer 'CustomComponents' is OK.
 });

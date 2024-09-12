@@ -229,7 +229,7 @@ define("PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$view", ["@out
                             inputType: /*Password*/ 1,
                             mandatory: true,
                             maxLength: 0,
-                            prompt: "Password",
+                            prompt: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("HGRdi3QCaE6JIdJ3CeVYKA#ValueExpression.1281629883.1", "Password"),
                             style: model.getCachedValue(idService.getId("MobilePasswordField.Style"), function() {
                                 return (((OS.BuiltinFunctions.length(model.variables.createPasswordVar.passwordAttr) === 0)) ? ("password-input__field") : (((model.variables.isPasswordValidVar) ? ("password-input__field password-input__field--success") : ("password-input__field password-input__field--failure"))));
                             }, function() {
@@ -716,6 +716,77 @@ define("PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$controller", 
 });
 
 
-define("PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "HGRdi3QCaE6JIdJ3CeVYKA#ValueExpression.1281629883.1": "Passwort"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "HGRdi3QCaE6JIdJ3CeVYKA#ValueExpression.1281629883.1": "Contraseña"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "HGRdi3QCaE6JIdJ3CeVYKA#ValueExpression.1281629883.1": "Mot de passe"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "HGRdi3QCaE6JIdJ3CeVYKA#ValueExpression.1281629883.1": "Password"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "HGRdi3QCaE6JIdJ3CeVYKA#ValueExpression.1281629883.1": "Hasło"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "HGRdi3QCaE6JIdJ3CeVYKA#ValueExpression.1281629883.1": "Palavra-passe"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "HGRdi3QCaE6JIdJ3CeVYKA#ValueExpression.1281629883.1": "Пароль"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$translationsResources", ["exports", "PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$translationsResources.de-DE", "PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$translationsResources.es-ES", "PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$translationsResources.fr-FR", "PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$translationsResources.it-IT", "PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$translationsResources.pl-PL", "PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$translationsResources.pt-PT", "PartnersHub.VirtualAccountCreation.CreatePasswordBlock.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_VirtualAccountCreation_CreatePasswordBlock_mvc_translationsResources_deDE, PartnersHub_VirtualAccountCreation_CreatePasswordBlock_mvc_translationsResources_esES, PartnersHub_VirtualAccountCreation_CreatePasswordBlock_mvc_translationsResources_frFR, PartnersHub_VirtualAccountCreation_CreatePasswordBlock_mvc_translationsResources_itIT, PartnersHub_VirtualAccountCreation_CreatePasswordBlock_mvc_translationsResources_plPL, PartnersHub_VirtualAccountCreation_CreatePasswordBlock_mvc_translationsResources_ptPT, PartnersHub_VirtualAccountCreation_CreatePasswordBlock_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_VirtualAccountCreation_CreatePasswordBlock_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_VirtualAccountCreation_CreatePasswordBlock_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_VirtualAccountCreation_CreatePasswordBlock_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_VirtualAccountCreation_CreatePasswordBlock_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_VirtualAccountCreation_CreatePasswordBlock_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_VirtualAccountCreation_CreatePasswordBlock_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_VirtualAccountCreation_CreatePasswordBlock_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

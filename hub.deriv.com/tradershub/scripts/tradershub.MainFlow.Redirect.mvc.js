@@ -1,4 +1,4 @@
-define("tradershub.MainFlow.Redirect.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model"], function(OSRuntimeCore, tradershubModel) {
+define("tradershub.MainFlow.Redirect.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.controller$FeatureFlagValueByName"], function(OSRuntimeCore, tradershubModel, tradershubController) {
     var OS = OSRuntimeCore;
 
 
@@ -43,7 +43,7 @@ define("tradershub.MainFlow.Redirect.mvc$model", ["@outsystems/runtime-core-js",
     return new OS.Model.ModelFactory(Model);
 });
 
-define("tradershub.MainFlow.Redirect.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "react", "@outsystems/runtime-view-js", "tradershub.MainFlow.Redirect.mvc$model", "tradershub.MainFlow.Redirect.mvc$controller", "tradershub.clientVariables"], function(OSRuntimeCore, tradershubModel, tradershubController, React, OSView, tradershub_MainFlow_Redirect_mvc_model, tradershub_MainFlow_Redirect_mvc_controller, tradershubClientVariables) {
+define("tradershub.MainFlow.Redirect.mvc$view", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "react", "@outsystems/runtime-view-js", "tradershub.MainFlow.Redirect.mvc$model", "tradershub.MainFlow.Redirect.mvc$controller", "tradershub.clientVariables", "tradershub.controller$FeatureFlagValueByName"], function(OSRuntimeCore, tradershubModel, tradershubController, React, OSView, tradershub_MainFlow_Redirect_mvc_model, tradershub_MainFlow_Redirect_mvc_controller, tradershubClientVariables) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -119,7 +119,7 @@ define("tradershub.MainFlow.Redirect.mvc$view", ["@outsystems/runtime-core-js", 
 
     return View;
 });
-define("tradershub.MainFlow.Redirect.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.MainFlow.controller", "tradershub.MainFlow.Redirect.mvc$controller.OnReady.GetURLParamsJS"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_MainFlowController, tradershub_MainFlow_Redirect_mvc_controller_OnReady_GetURLParamsJS) {
+define("tradershub.MainFlow.Redirect.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.MainFlow.controller", "tradershub.MainFlow.Redirect.mvc$controller.OnReady.GetURLParamsJS", "tradershub.controller$FeatureFlagValueByName"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_MainFlowController, tradershub_MainFlow_Redirect_mvc_controller_OnReady_GetURLParamsJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -202,6 +202,7 @@ define("tradershub.MainFlow.Redirect.mvc$controller", ["@outsystems/runtime-core
                             try {
                                 controller.ensureControllerAlive("OnReady");
                                 callContext = controller.callContext(callContext);
+                                var featureFlagValueByNameVar = new OS.DataTypes.VariableHolder();
                                 var getURLParamsJSResult = new OS.DataTypes.VariableHolder();
                                 getURLParamsJSResult.value = OS.Logger.startActiveSpan("GetURLParams", function(span) {
                                     if (span) {
@@ -258,8 +259,17 @@ define("tradershub.MainFlow.Redirect.mvc$controller", ["@outsystems/runtime-core
                                         tradershubClientVariables.setSelectedResidenceLabel(OS.BuiltinFunctions.nullTextIdentifier());
                                         // SelectedCitizenship = NullTextIdentifier
                                         tradershubClientVariables.setSelectedCitizenship(OS.BuiltinFunctions.nullTextIdentifier());
-                                        // Destination: /tradershub/CountryOfResidence
-                                        return OS.Navigation.navigateTo(OS.Navigation.generateScreenURL("tradershub", "country-of-residence", {}), OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default), callContext, true);
+                                        // Execute Action: FeatureFlagValueByName
+                                        featureFlagValueByNameVar.value = tradershubController.default.featureFlagValueByName$Action("NewSignupUI", callContext);
+
+                                        if ((featureFlagValueByNameVar.value.isEnabledOut)) {
+                                            // Destination: /tradershub/CountryOfResidence2
+                                            return OS.Navigation.navigateTo(OS.Navigation.generateScreenURL("tradershub", "country-of-residence2", {}), OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default), callContext, true);
+                                        } else {
+                                            // Destination: /tradershub/CountryOfResidence
+                                            return OS.Navigation.navigateTo(OS.Navigation.generateScreenURL("tradershub", "country-of-residence", {}), OS.Transitions.createTransition(OS.Transitions.TransitionAnimation.Default), callContext, true);
+                                        }
+
                                     }
 
                                 }

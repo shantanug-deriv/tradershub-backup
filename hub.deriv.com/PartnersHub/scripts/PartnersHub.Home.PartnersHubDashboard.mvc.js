@@ -1,4 +1,4 @@
-define("PartnersHub.Home.PartnersHubDashboard.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.Layouts.LayoutDashboard.mvc$model", "PartnersHub.Common.LoaderBlock.mvc$model", "PartnersHub.Home.ReferralLinksReports.mvc$model", "PartnersHub.Home.CompleteMyProfile.mvc$model", "PartnersHub.Home.CommissionBanner.mvc$model", "PartnersHub.Home.PartnersAcademy.mvc$model", "PartnersHub.Home.AffiliateProgramme.mvc$model", "PartnersHub.model$ST_4286a56d180b6bb5649e20efadd675fdStructure", "PartnersHub.model$ST_e61d85f6aadd57329cc664ba1d0e64c1Structure", "PartnersHub.controller$InitGTM", "PartnersHub.controller$RudderstackIdentifyEvent", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent", "PartnersHub.controller$UseDevice", "PartnersHub.controller$SetDefaultAppId", "PartnersHub.controller$SendWebsiteStatus", "PartnersHub.controller$MountLiveChat", "PartnersHub.controller$InitGrowthbook", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure", "PartnersHub.controller$SendGetSettings", "PartnersHub.controller$HandleRedirectOnLogin", "PartnersHub.controller$IFrameLogout", "PartnersHub.controller$GTMPushDataLayer", "PartnersHub.model$ST_9f80c4e8dbd08377be883c073be1c044Structure", "PartnersHub.controller$MountDerivAPIClient"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHub_Layouts_LayoutDashboard_mvcModel, PartnersHub_Common_LoaderBlock_mvcModel, PartnersHub_Home_ReferralLinksReports_mvcModel, PartnersHub_Home_CompleteMyProfile_mvcModel, PartnersHub_Home_CommissionBanner_mvcModel, PartnersHub_Home_PartnersAcademy_mvcModel, PartnersHub_Home_AffiliateProgramme_mvcModel) {
+define("PartnersHub.Home.PartnersHubDashboard.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "RESTAPIWebsocket.model", "PartnersHub.controller", "RESTAPIWebsocket.controller", "PartnersHub.Layouts.LayoutDashboard.mvc$model", "PartnersHub.Common.LoaderBlock.mvc$model", "PartnersHub.Home.ReferralLinksReports.mvc$model", "PartnersHub.Home.CompleteMyProfile.mvc$model", "PartnersHub.Home.CommissionPlans.mvc$model", "PartnersHub.Home.CommissionBanner.mvc$model", "PartnersHub.Home.PartnersAcademy.mvc$model", "PartnersHub.Home.AffiliateProgramme.mvc$model", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.model$ST_c864353821feed79663806f3e445d40eStructure", "PartnersHub.controller$InitGTM", "PartnersHub.controller$RudderstackIdentifyEvent", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent", "PartnersHub.controller$UseDevice", "PartnersHub.controller$SetDefaultAppId", "PartnersHub.controller$MountLiveChat", "PartnersHub.controller$InitGrowthbook", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.controller$HandleRedirectOnLogin", "PartnersHub.controller$IFrameLogout", "RESTAPIWebsocket.controller$GetWebsiteStatus", "PartnersHub.controller$GTMPushDataLayer", "PartnersHub.controller$MountDerivAPIClient"], function(OSRuntimeCore, PartnersHubModel, RESTAPIWebsocketModel, PartnersHubController, RESTAPIWebsocketController, PartnersHub_Layouts_LayoutDashboard_mvcModel, PartnersHub_Common_LoaderBlock_mvcModel, PartnersHub_Home_ReferralLinksReports_mvcModel, PartnersHub_Home_CompleteMyProfile_mvcModel, PartnersHub_Home_CommissionPlans_mvcModel, PartnersHub_Home_CommissionBanner_mvcModel, PartnersHub_Home_PartnersAcademy_mvcModel, PartnersHub_Home_AffiliateProgramme_mvcModel) {
     var OS = OSRuntimeCore;
 
 
@@ -8,18 +8,21 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$model", ["@outsystems/runtime-
             static attributesToDeclare() {
                 return [
                     this.attr("GetSettingsResponse", "getSettingsResponseVar", "GetSettingsResponse", true, false, OS.DataTypes.DataTypes.Record, function() {
-                        return OS.DataTypes.ImmutableBase.getData(new PartnersHubModel.ST_4286a56d180b6bb5649e20efadd675fdStructure());
-                    }, false, PartnersHubModel.ST_4286a56d180b6bb5649e20efadd675fdStructure),
-                    this.attr("isPhoneNumberVerified", "isPhoneNumberVerifiedVar", "isPhoneNumberVerified", true, false, OS.DataTypes.DataTypes.Integer, function() {
-                        return 0;
+                        return OS.DataTypes.ImmutableBase.getData(new RESTAPIWebsocketModel.ST_5fc2e4a935064c1413d6e989e87decd2Structure());
+                    }, false, RESTAPIWebsocketModel.ST_5fc2e4a935064c1413d6e989e87decd2Structure),
+                    this.attr("isPhoneNumberVerified", "isPhoneNumberVerifiedVar", "isPhoneNumberVerified", true, false, OS.DataTypes.DataTypes.LongInteger, function() {
+                        return OS.DataTypes.LongInteger.defaultValue;
                     }, false),
                     this.attr("IsLoading", "isLoadingVar", "IsLoading", true, false, OS.DataTypes.DataTypes.Boolean, function() {
                         return true;
                     }, false),
                     this.attr("WebsiteStatusResponse", "websiteStatusResponseVar", "WebsiteStatusResponse", true, false, OS.DataTypes.DataTypes.Record, function() {
-                        return OS.DataTypes.ImmutableBase.getData(new PartnersHubModel.ST_e61d85f6aadd57329cc664ba1d0e64c1Structure());
-                    }, false, PartnersHubModel.ST_e61d85f6aadd57329cc664ba1d0e64c1Structure),
+                        return OS.DataTypes.ImmutableBase.getData(new RESTAPIWebsocketModel.ST_c864353821feed79663806f3e445d40eStructure());
+                    }, false, RESTAPIWebsocketModel.ST_c864353821feed79663806f3e445d40eStructure),
                     this.attr("isCompleteMyProfileEnabledGB", "isCompleteMyProfileEnabledGBVar", "isCompleteMyProfileEnabledGB", true, false, OS.DataTypes.DataTypes.Boolean, function() {
+                        return false;
+                    }, false),
+                    this.attr("isCommisionsPlansEnabled", "isCommisionsPlansEnabledVar", "isCommisionsPlansEnabled", true, false, OS.DataTypes.DataTypes.Boolean, function() {
                         return false;
                     }, false)
                 ].concat(OS.DataTypes.GenericRecord.attributesToDeclare.call(this));
@@ -50,7 +53,7 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$model", ["@outsystems/runtime-
 
         static get hasValidationWidgets() {
             if ((Model._hasValidationWidgetsValue === undefined)) {
-                Model._hasValidationWidgetsValue = ((((((PartnersHub_Layouts_LayoutDashboard_mvcModel.hasValidationWidgets || PartnersHub_Common_LoaderBlock_mvcModel.hasValidationWidgets) || PartnersHub_Home_ReferralLinksReports_mvcModel.hasValidationWidgets) || PartnersHub_Home_CompleteMyProfile_mvcModel.hasValidationWidgets) || PartnersHub_Home_CommissionBanner_mvcModel.hasValidationWidgets) || PartnersHub_Home_PartnersAcademy_mvcModel.hasValidationWidgets) || PartnersHub_Home_AffiliateProgramme_mvcModel.hasValidationWidgets);
+                Model._hasValidationWidgetsValue = (((((((PartnersHub_Layouts_LayoutDashboard_mvcModel.hasValidationWidgets || PartnersHub_Common_LoaderBlock_mvcModel.hasValidationWidgets) || PartnersHub_Home_ReferralLinksReports_mvcModel.hasValidationWidgets) || PartnersHub_Home_CompleteMyProfile_mvcModel.hasValidationWidgets) || PartnersHub_Home_CommissionPlans_mvcModel.hasValidationWidgets) || PartnersHub_Home_CommissionBanner_mvcModel.hasValidationWidgets) || PartnersHub_Home_PartnersAcademy_mvcModel.hasValidationWidgets) || PartnersHub_Home_AffiliateProgramme_mvcModel.hasValidationWidgets);
             }
 
             return Model._hasValidationWidgetsValue;
@@ -63,7 +66,7 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$model", ["@outsystems/runtime-
     return new OS.Model.ModelFactory(Model);
 });
 
-define("PartnersHub.Home.PartnersHubDashboard.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "react", "@outsystems/runtime-view-js", "PartnersHub.Home.PartnersHubDashboard.mvc$model", "PartnersHub.Home.PartnersHubDashboard.mvc$controller", "PartnersHub.clientVariables", "PartnersHub.Layouts.LayoutDashboard.mvc$view", "@outsystems/runtime-widgets-js", "PartnersHub.Common.LoaderBlock.mvc$view", "PartnersHub.Home.ReferralLinksReports.mvc$view", "PartnersHub.Home.CompleteMyProfile.mvc$view", "PartnersHub.Home.CommissionBanner.mvc$view", "PartnersHub.Home.PartnersAcademy.mvc$view", "PartnersHub.Home.AffiliateProgramme.mvc$view", "PartnersHub.model$ST_4286a56d180b6bb5649e20efadd675fdStructure", "PartnersHub.model$ST_e61d85f6aadd57329cc664ba1d0e64c1Structure", "PartnersHub.controller$InitGTM", "PartnersHub.controller$RudderstackIdentifyEvent", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent", "PartnersHub.controller$UseDevice", "PartnersHub.controller$SetDefaultAppId", "PartnersHub.controller$SendWebsiteStatus", "PartnersHub.controller$MountLiveChat", "PartnersHub.controller$InitGrowthbook", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure", "PartnersHub.controller$SendGetSettings", "PartnersHub.controller$HandleRedirectOnLogin", "PartnersHub.controller$IFrameLogout", "PartnersHub.controller$GTMPushDataLayer", "PartnersHub.model$ST_9f80c4e8dbd08377be883c073be1c044Structure", "PartnersHub.controller$MountDerivAPIClient"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, React, OSView, PartnersHub_Home_PartnersHubDashboard_mvc_model, PartnersHub_Home_PartnersHubDashboard_mvc_controller, PartnersHubClientVariables, PartnersHub_Layouts_LayoutDashboard_mvc_view, OSWidgets, PartnersHub_Common_LoaderBlock_mvc_view, PartnersHub_Home_ReferralLinksReports_mvc_view, PartnersHub_Home_CompleteMyProfile_mvc_view, PartnersHub_Home_CommissionBanner_mvc_view, PartnersHub_Home_PartnersAcademy_mvc_view, PartnersHub_Home_AffiliateProgramme_mvc_view) {
+define("PartnersHub.Home.PartnersHubDashboard.mvc$view", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "react", "@outsystems/runtime-view-js", "PartnersHub.Home.PartnersHubDashboard.mvc$model", "PartnersHub.Home.PartnersHubDashboard.mvc$controller", "PartnersHub.clientVariables", "PartnersHub.Layouts.LayoutDashboard.mvc$view", "@outsystems/runtime-widgets-js", "PartnersHub.Common.LoaderBlock.mvc$view", "PartnersHub.Home.ReferralLinksReports.mvc$view", "PartnersHub.Home.CompleteMyProfile.mvc$view", "PartnersHub.Home.CommissionPlans.mvc$view", "PartnersHub.Home.CommissionBanner.mvc$view", "PartnersHub.Home.PartnersAcademy.mvc$view", "PartnersHub.Home.AffiliateProgramme.mvc$view", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.model$ST_c864353821feed79663806f3e445d40eStructure", "PartnersHub.controller$InitGTM", "PartnersHub.controller$RudderstackIdentifyEvent", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent", "PartnersHub.controller$UseDevice", "PartnersHub.controller$SetDefaultAppId", "PartnersHub.controller$MountLiveChat", "PartnersHub.controller$InitGrowthbook", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.controller$HandleRedirectOnLogin", "PartnersHub.controller$IFrameLogout", "RESTAPIWebsocket.controller$GetWebsiteStatus", "PartnersHub.controller$GTMPushDataLayer", "PartnersHub.controller$MountDerivAPIClient"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, React, OSView, PartnersHub_Home_PartnersHubDashboard_mvc_model, PartnersHub_Home_PartnersHubDashboard_mvc_controller, PartnersHubClientVariables, PartnersHub_Layouts_LayoutDashboard_mvc_view, OSWidgets, PartnersHub_Common_LoaderBlock_mvc_view, PartnersHub_Home_ReferralLinksReports_mvc_view, PartnersHub_Home_CompleteMyProfile_mvc_view, PartnersHub_Home_CommissionPlans_mvc_view, PartnersHub_Home_CommissionBanner_mvc_view, PartnersHub_Home_PartnersAcademy_mvc_view, PartnersHub_Home_AffiliateProgramme_mvc_view) {
     var OS = OSRuntimeCore;
     var PlaceholderContent = OSView.Widget.PlaceholderContent;
     var IteratorPlaceholderContent = OSView.Widget.IteratorPlaceholderContent;
@@ -94,7 +97,7 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$view", ["@outsystems/runtime-c
         }
 
         static getBlocks() {
-            return [PartnersHub_Layouts_LayoutDashboard_mvc_view, PartnersHub_Common_LoaderBlock_mvc_view, PartnersHub_Home_ReferralLinksReports_mvc_view, PartnersHub_Home_CompleteMyProfile_mvc_view, PartnersHub_Home_CommissionBanner_mvc_view, PartnersHub_Home_PartnersAcademy_mvc_view, PartnersHub_Home_AffiliateProgramme_mvc_view];
+            return [PartnersHub_Layouts_LayoutDashboard_mvc_view, PartnersHub_Common_LoaderBlock_mvc_view, PartnersHub_Home_ReferralLinksReports_mvc_view, PartnersHub_Home_CompleteMyProfile_mvc_view, PartnersHub_Home_CommissionPlans_mvc_view, PartnersHub_Home_CommissionBanner_mvc_view, PartnersHub_Home_PartnersAcademy_mvc_view, PartnersHub_Home_AffiliateProgramme_mvc_view];
         }
 
         get modelFactory() {
@@ -209,7 +212,14 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$view", ["@outsystems/runtime-c
                                     uuid: "3"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
-                            }, React.createElement(OSWidgets.Container, {
+                            }, React.createElement(OSWidgets.AdvancedHtml, {
+                                tag: "span",
+                                _idProps: {
+                                    service: idService,
+                                    uuid: "4"
+                                },
+                                _widgetRecordProvider: widgetsRecordProvider
+                            }), React.createElement(OSWidgets.Container, {
                                 align: /*Default*/ 0,
                                 animate: false,
                                 style: "partners-hub-title-container",
@@ -228,7 +238,7 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$view", ["@outsystems/runtime-c
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "5"
+                                    uuid: "6"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Text, {
@@ -238,7 +248,7 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$view", ["@outsystems/runtime-c
                                 text: [$text(getTranslation("6QftVDCBCUOUp+OG1UYZ_A#Value", "Partner\'s Hub"))],
                                 _idProps: {
                                     service: idService,
-                                    uuid: "6"
+                                    uuid: "7"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }))), React.createElement(OSWidgets.Container, {
@@ -251,7 +261,7 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$view", ["@outsystems/runtime-c
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "7"
+                                    uuid: "8"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Container, {
@@ -264,7 +274,7 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$view", ["@outsystems/runtime-c
                                 visible: true,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "8"
+                                    uuid: "9"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(PartnersHub_Home_ReferralLinksReports_mvc_view, {
@@ -285,7 +295,7 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$view", ["@outsystems/runtime-c
                                 },
                                 _idProps: {
                                     service: idService,
-                                    uuid: "9",
+                                    uuid: "10",
                                     alias: "3"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider,
@@ -306,15 +316,15 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$view", ["@outsystems/runtime-c
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(OSWidgets.Container, {
                                 align: /*Default*/ 0,
-                                animate: true,
+                                animate: false,
                                 gridProperties: {
                                     classes: "OSInline",
                                     width: "100%"
                                 },
-                                visible: (PartnersHubClientVariables.getisCompleteMyProfileEnabled() || model.variables.isCompleteMyProfileEnabledGBVar),
+                                visible: false,
                                 _idProps: {
                                     service: idService,
-                                    uuid: "11"
+                                    uuid: "12"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider
                             }, React.createElement(PartnersHub_Home_CompleteMyProfile_mvc_view, {
@@ -335,48 +345,88 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$view", ["@outsystems/runtime-c
                                 },
                                 _idProps: {
                                     service: idService,
-                                    uuid: "12",
+                                    uuid: "13",
                                     alias: "4"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider,
                                 _dependencies: []
+                            })), $if(model.variables.isCommisionsPlansEnabledVar, false, this, function() {
+                                return [React.createElement(OSWidgets.Container, {
+                                    align: /*Default*/ 0,
+                                    animate: false,
+                                    gridProperties: {
+                                        classes: "OSInline",
+                                        width: "100%"
+                                    },
+                                    visible: true,
+                                    _idProps: {
+                                        service: idService,
+                                        uuid: "14"
+                                    },
+                                    _widgetRecordProvider: widgetsRecordProvider
+                                }, React.createElement(PartnersHub_Home_CommissionPlans_mvc_view, {
+                                    getOwnerSpan: function() {
+                                        return _this.getChildSpan("render");
+                                    },
+                                    getOwnerDisposeSpan: function() {
+                                        return _this.getChildSpan("destroy");
+                                    },
+                                    inputs: {},
+                                    events: {
+                                        _handleError: function(ex) {
+                                            controller.handleError(ex);
+                                        }
+                                    },
+                                    _validationProps: {
+                                        validationService: validationService
+                                    },
+                                    _idProps: {
+                                        service: idService,
+                                        uuid: "15",
+                                        alias: "5"
+                                    },
+                                    _widgetRecordProvider: widgetsRecordProvider,
+                                    _dependencies: []
+                                }))];
+                            }, function() {
+                                return [React.createElement(OSWidgets.Container, {
+                                    align: /*Default*/ 0,
+                                    animate: false,
+                                    gridProperties: {
+                                        classes: "OSInline",
+                                        width: "100%"
+                                    },
+                                    visible: true,
+                                    _idProps: {
+                                        service: idService,
+                                        uuid: "16"
+                                    },
+                                    _widgetRecordProvider: widgetsRecordProvider
+                                }, React.createElement(PartnersHub_Home_CommissionBanner_mvc_view, {
+                                    getOwnerSpan: function() {
+                                        return _this.getChildSpan("render");
+                                    },
+                                    getOwnerDisposeSpan: function() {
+                                        return _this.getChildSpan("destroy");
+                                    },
+                                    inputs: {},
+                                    events: {
+                                        _handleError: function(ex) {
+                                            controller.handleError(ex);
+                                        }
+                                    },
+                                    _validationProps: {
+                                        validationService: validationService
+                                    },
+                                    _idProps: {
+                                        service: idService,
+                                        uuid: "17",
+                                        alias: "6"
+                                    },
+                                    _widgetRecordProvider: widgetsRecordProvider,
+                                    _dependencies: []
+                                }))];
                             })), React.createElement(OSWidgets.Container, {
-                                align: /*Default*/ 0,
-                                animate: false,
-                                gridProperties: {
-                                    classes: "OSInline",
-                                    width: "100%"
-                                },
-                                visible: true,
-                                _idProps: {
-                                    service: idService,
-                                    uuid: "13"
-                                },
-                                _widgetRecordProvider: widgetsRecordProvider
-                            }, React.createElement(PartnersHub_Home_CommissionBanner_mvc_view, {
-                                getOwnerSpan: function() {
-                                    return _this.getChildSpan("render");
-                                },
-                                getOwnerDisposeSpan: function() {
-                                    return _this.getChildSpan("destroy");
-                                },
-                                inputs: {},
-                                events: {
-                                    _handleError: function(ex) {
-                                        controller.handleError(ex);
-                                    }
-                                },
-                                _validationProps: {
-                                    validationService: validationService
-                                },
-                                _idProps: {
-                                    service: idService,
-                                    uuid: "14",
-                                    alias: "5"
-                                },
-                                _widgetRecordProvider: widgetsRecordProvider,
-                                _dependencies: []
-                            }))), React.createElement(OSWidgets.Container, {
                                 align: /*Default*/ 0,
                                 animate: false,
                                 extendedProperties: {
@@ -406,8 +456,8 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$view", ["@outsystems/runtime-c
                                 },
                                 _idProps: {
                                     service: idService,
-                                    uuid: "16",
-                                    alias: "6"
+                                    uuid: "19",
+                                    alias: "7"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider,
                                 _dependencies: []
@@ -442,8 +492,8 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$view", ["@outsystems/runtime-c
                                 },
                                 _idProps: {
                                     service: idService,
-                                    uuid: "18",
-                                    alias: "7"
+                                    uuid: "21",
+                                    alias: "8"
                                 },
                                 _widgetRecordProvider: widgetsRecordProvider,
                                 _dependencies: []
@@ -451,14 +501,14 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$view", ["@outsystems/runtime-c
                         })];
                     })
                 },
-                _dependencies: [asPrimitiveValue(model.variables.isCompleteMyProfileEnabledGBVar), asPrimitiveValue(PartnersHubClientVariables.getisCompleteMyProfileEnabled()), asPrimitiveValue(model.variables.isLoadingVar)]
+                _dependencies: [asPrimitiveValue(model.variables.isCommisionsPlansEnabledVar), asPrimitiveValue(model.variables.isLoadingVar)]
             }));
         }
     }
 
     return View;
 });
-define("PartnersHub.Home.PartnersHubDashboard.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources", "PartnersHub.Home.controller", "PartnersHub.Home.PartnersHubDashboard.mvc$controller.OnReady.isCompleteMyProfileEnabledGBScriptJS", "PartnersHub.model$ST_4286a56d180b6bb5649e20efadd675fdStructure", "PartnersHub.model$ST_e61d85f6aadd57329cc664ba1d0e64c1Structure", "PartnersHub.controller$InitGTM", "PartnersHub.controller$RudderstackIdentifyEvent", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent", "PartnersHub.controller$UseDevice", "PartnersHub.controller$SetDefaultAppId", "PartnersHub.controller$SendWebsiteStatus", "PartnersHub.controller$MountLiveChat", "PartnersHub.controller$InitGrowthbook", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure", "PartnersHub.controller$SendGetSettings", "PartnersHub.controller$HandleRedirectOnLogin", "PartnersHub.controller$IFrameLogout", "PartnersHub.controller$GTMPushDataLayer", "PartnersHub.model$ST_9f80c4e8dbd08377be883c073be1c044Structure", "PartnersHub.controller$MountDerivAPIClient"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Home_PartnersHubDashboard_mvc_TranslationsResources, PartnersHub_HomeController, PartnersHub_Home_PartnersHubDashboard_mvc_controller_OnReady_isCompleteMyProfileEnabledGBScriptJS) {
+define("PartnersHub.Home.PartnersHubDashboard.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources", "PartnersHub.Home.controller", "PartnersHub.Home.PartnersHubDashboard.mvc$controller.OnReady.GetAuthTokenJS", "PartnersHub.Home.PartnersHubDashboard.mvc$controller.OnReady.GrowthBookFlagsVariablesJS", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.model$ST_c864353821feed79663806f3e445d40eStructure", "PartnersHub.controller$InitGTM", "PartnersHub.controller$RudderstackIdentifyEvent", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent", "PartnersHub.controller$UseDevice", "PartnersHub.controller$SetDefaultAppId", "PartnersHub.controller$MountLiveChat", "PartnersHub.controller$InitGrowthbook", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.controller$HandleRedirectOnLogin", "PartnersHub.controller$IFrameLogout", "RESTAPIWebsocket.controller$GetWebsiteStatus", "PartnersHub.controller$GTMPushDataLayer", "PartnersHub.controller$MountDerivAPIClient"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Home_PartnersHubDashboard_mvc_TranslationsResources, PartnersHub_HomeController, PartnersHub_Home_PartnersHubDashboard_mvc_controller_OnReady_GetAuthTokenJS, PartnersHub_Home_PartnersHubDashboard_mvc_controller_OnReady_GrowthBookFlagsVariablesJS) {
     var OS = OSRuntimeCore;
     {
         class ControllerInner extends
@@ -506,20 +556,27 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$controller", ["@outsystems/run
                             return OS.Flow.tryFinally(function() {
                                 controller.ensureControllerAlive("OnReady");
                                 callContext = controller.callContext(callContext);
-                                var sendWebsiteStatusVar = new OS.DataTypes.VariableHolder();
-                                var sendGetSettingsVar = new OS.DataTypes.VariableHolder();
+                                var getSettingsVar = new OS.DataTypes.VariableHolder();
                                 var handleRedirectOnLoginVar = new OS.DataTypes.VariableHolder();
-                                var isCompleteMyProfileEnabledGBScriptJSResult = new OS.DataTypes.VariableHolder();
+                                var getWebsiteStatusVar = new OS.DataTypes.VariableHolder();
+                                var getAuthTokenJSResult = new OS.DataTypes.VariableHolder();
+                                var growthBookFlagsVariablesJSResult = new OS.DataTypes.VariableHolder();
                                 return OS.Flow.executeAsyncFlow(function() {
                                     // IsLoading = True
                                     model.variables.isLoadingVar = true;
                                     // Execute Action: UseDevice
                                     PartnersHubController.default.useDevice$Action(callContext);
-                                    // Execute Action: InitGrowthbook
+                                    // Execute Action: SetDefaultAppId
+                                    PartnersHubController.default.setDefaultAppId$Action(false, callContext);
+                                    // Execute Action: GetWebsiteStatus
                                     model.flush();
-                                    return PartnersHubController.default.initGrowthbook$Action(model.variables.websiteStatusResponseVar.website_statusAttr.clients_countryAttr, PartnersHubClientVariables.getIsMobile(), callContext).then(function() {
-                                        // Execute Action: SetDefaultAppId
-                                        PartnersHubController.default.setDefaultAppId$Action(false, callContext);
+                                    return RESTAPIWebsocketController.default.getWebsiteStatus$Action(PartnersHubClientVariables.getServer(), PartnersHubClientVariables.getAppId(), "EN", callContext).then(function(value) {
+                                        getWebsiteStatusVar.value = value;
+                                    }).then(function() {
+                                        // Execute Action: InitGrowthbook
+                                        model.flush();
+                                        return PartnersHubController.default.initGrowthbook$Action(getWebsiteStatusVar.value.responseOut.website_statusAttr.clients_countryAttr, PartnersHubClientVariables.getIsMobile(), callContext);
+                                    }).then(function() {
                                         // Execute Action: HandleRedirectOnLogin
                                         model.flush();
                                         return PartnersHubController.default.handleRedirectOnLogin$Action(callContext).then(function(value) {
@@ -536,65 +593,47 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$controller", ["@outsystems/run
                                                 PartnersHubController.default.gTMPushDataLayer$Action("page_load", callContext);
                                                 // Execute Action: RudderstackIdentifyEvent
                                                 PartnersHubController.default.rudderstackIdentifyEvent$Action(callContext);
-                                                // Execute Action: SendWebsiteStatus
+                                                getAuthTokenJSResult.value = OS.Logger.startActiveSpan("GetAuthToken", function(span) {
+                                                    if (span) {
+                                                        span.setAttribute("code.function", "GetAuthToken");
+                                                        span.setAttribute("outsystems.function.key", "0493bfc5-739f-406c-978c-d154b26d228c");
+                                                        span.setAttribute("outsystems.function.owner.name", "PartnersHub");
+                                                        span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
+                                                        span.setAttribute("outsystems.function.type", "JAVASCRIPT");
+                                                    }
+
+                                                    try {
+                                                        return controller.safeExecuteJSNode(PartnersHub_Home_PartnersHubDashboard_mvc_controller_OnReady_GetAuthTokenJS, "GetAuthToken", "OnReady", {
+                                                            Token: OS.DataConversion.JSNodeParamConverter.to("", OS.DataTypes.DataTypes.Text)
+                                                        }, function($parameters) {
+                                                            var jsNodeResult = new(controller.constructor.getVariableGroupType("PartnersHub.Home.PartnersHubDashboard.OnReady$getAuthTokenJSResult"))();
+                                                            jsNodeResult.tokenOut = OS.DataConversion.JSNodeParamConverter.from($parameters.Token, OS.DataTypes.DataTypes.Text);
+                                                            return jsNodeResult;
+                                                        }, {}, {});
+                                                    } finally {
+                                                        if (span) {
+                                                            span.end();
+                                                        }
+
+                                                    }
+
+                                                }, 1);
+                                                // Execute Action: GetSettings
                                                 model.flush();
-                                                return PartnersHubController.default.sendWebsiteStatus$Action(callContext).then(function(value) {
-                                                    sendWebsiteStatusVar.value = value;
-                                                }).then(function() {
-                                                    // Execute Action: SendGetSettings
-                                                    model.flush();
-                                                    return PartnersHubController.default.sendGetSettings$Action(callContext).then(function(value) {
-                                                        sendGetSettingsVar.value = value;
-                                                    });
+                                                return RESTAPIWebsocketController.default.getSettings$Action(PartnersHubClientVariables.getServer(), getAuthTokenJSResult.value.tokenOut, PartnersHubClientVariables.getAppId(), "EN", callContext).then(function(value) {
+                                                    getSettingsVar.value = value;
                                                 }).then(function() {
                                                     // Execute Action: MountLiveChat
-                                                    PartnersHubController.default.mountLiveChat$Action(OS.DataConversion.JSConversions.typeConvertRecord(sendGetSettingsVar.value.getSettingsResponseOut, new PartnersHubModel.ST_4286a56d180b6bb5649e20efadd675fdStructure(), function(source, target) {
-                                                        target.get_settingsAttr.account_opening_reasonAttr = source.account_opening_reasonAttr;
-                                                        target.get_settingsAttr.address_cityAttr = source.address_cityAttr;
-                                                        target.get_settingsAttr.address_line_1Attr = source.address_line_1Attr;
-                                                        target.get_settingsAttr.address_line_2Attr = source.address_line_2Attr;
-                                                        target.get_settingsAttr.address_postcodeAttr = source.address_postcodeAttr;
-                                                        target.get_settingsAttr.address_stateAttr = source.address_stateAttr;
-                                                        target.get_settingsAttr.allow_copiersAttr = source.allow_copiersAttr;
-                                                        target.get_settingsAttr.citizenAttr = source.citizenAttr;
-                                                        target.get_settingsAttr.client_tnc_statusAttr = source.client_tnc_statusAttr;
-                                                        target.get_settingsAttr.cooling_off_expiration_dateAttr = source.cooling_off_expiration_dateAttr;
-                                                        target.get_settingsAttr.countryAttr = source.countryAttr;
-                                                        target.get_settingsAttr.country_codeAttr = source.country_codeAttr;
-                                                        target.get_settingsAttr.date_of_birthAttr = source.date_of_birthAttr;
-                                                        target.get_settingsAttr.dxtrade_user_exceptionAttr = source.dxtrade_user_exceptionAttr;
-                                                        target.get_settingsAttr.emailAttr = source.emailAttr;
-                                                        target.get_settingsAttr.email_consentAttr = source.email_consentAttr;
-                                                        target.get_settingsAttr.employment_statusAttr = source.employment_statusAttr;
-                                                        target.get_settingsAttr.fatca_declarationAttr = source.fatca_declarationAttr;
-                                                        target.get_settingsAttr.first_nameAttr = source.first_nameAttr;
-                                                        target.get_settingsAttr.has_secret_answerAttr = source.has_secret_answerAttr;
-                                                        target.get_settingsAttr.immutable_fieldsAttr = source.immutable_fieldsAttr;
-                                                        target.get_settingsAttr.is_authenticated_payment_agentAttr = source.is_authenticated_payment_agentAttr;
-                                                        target.get_settingsAttr.last_nameAttr = source.last_nameAttr;
-                                                        target.get_settingsAttr.non_pep_declarationAttr = source.non_pep_declarationAttr;
-                                                        target.get_settingsAttr.phoneAttr = source.phoneAttr;
-                                                        target.get_settingsAttr.place_of_birthAttr = source.place_of_birthAttr;
-                                                        target.get_settingsAttr.preferred_languageAttr = source.preferred_languageAttr;
-                                                        target.get_settingsAttr.request_professional_statusAttr = source.request_professional_statusAttr;
-                                                        target.get_settingsAttr.residenceAttr = source.residenceAttr;
-                                                        target.get_settingsAttr.salutationAttr = source.salutationAttr;
-                                                        target.get_settingsAttr.tax_identification_numberAttr = source.tax_identification_numberAttr;
-                                                        target.get_settingsAttr.tax_residenceAttr = source.tax_residenceAttr;
-                                                        target.get_settingsAttr.trading_hubAttr = source.trading_hubAttr;
-                                                        target.get_settingsAttr.user_hashAttr = source.user_hashAttr;
-                                                        target.get_settingsAttr.phone_number_verificationAttr = source.phone_number_verificationAttr;
-                                                        return target;
-                                                    }), callContext);
+                                                    PartnersHubController.default.mountLiveChat$Action(getSettingsVar.value.responseOut, callContext);
                                                     // Execute Action: RudderstackTrackEvent
                                                     PartnersHubController.default.rudderstackTrackEvent$Action(function() {
                                                         var rec = new PartnersHubModel.ST_23ff1d290ec4691b1c668ad437100cd0Structure();
                                                         rec.actionAttr = "homepage_open";
                                                         return rec;
                                                     }(), "ce_partnershub_form", callContext);
-                                                    isCompleteMyProfileEnabledGBScriptJSResult.value = OS.Logger.startActiveSpan("isCompleteMyProfileEnabledGBScript", function(span) {
+                                                    growthBookFlagsVariablesJSResult.value = OS.Logger.startActiveSpan("GrowthBookFlagsVariables", function(span) {
                                                         if (span) {
-                                                            span.setAttribute("code.function", "isCompleteMyProfileEnabledGBScript");
+                                                            span.setAttribute("code.function", "GrowthBookFlagsVariables");
                                                             span.setAttribute("outsystems.function.key", "ae9af235-2483-4180-87f9-cde34842487a");
                                                             span.setAttribute("outsystems.function.owner.name", "PartnersHub");
                                                             span.setAttribute("outsystems.function.owner.key", "9587f849-ee05-428a-81d2-3be0a1b1dccc");
@@ -602,11 +641,13 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$controller", ["@outsystems/run
                                                         }
 
                                                         try {
-                                                            return controller.safeExecuteJSNode(PartnersHub_Home_PartnersHubDashboard_mvc_controller_OnReady_isCompleteMyProfileEnabledGBScriptJS, "isCompleteMyProfileEnabledGBScript", "OnReady", {
-                                                                isCompleteMyProfileEnabledGB: OS.DataConversion.JSNodeParamConverter.to(false, OS.DataTypes.DataTypes.Boolean)
+                                                            return controller.safeExecuteJSNode(PartnersHub_Home_PartnersHubDashboard_mvc_controller_OnReady_GrowthBookFlagsVariablesJS, "GrowthBookFlagsVariables", "OnReady", {
+                                                                isCompleteMyProfileEnabledGB: OS.DataConversion.JSNodeParamConverter.to(false, OS.DataTypes.DataTypes.Boolean),
+                                                                isCommissionPlansEnabled: OS.DataConversion.JSNodeParamConverter.to(false, OS.DataTypes.DataTypes.Boolean)
                                                             }, function($parameters) {
-                                                                var jsNodeResult = new(controller.constructor.getVariableGroupType("PartnersHub.Home.PartnersHubDashboard.OnReady$isCompleteMyProfileEnabledGBScriptJSResult"))();
+                                                                var jsNodeResult = new(controller.constructor.getVariableGroupType("PartnersHub.Home.PartnersHubDashboard.OnReady$growthBookFlagsVariablesJSResult"))();
                                                                 jsNodeResult.isCompleteMyProfileEnabledGBOut = OS.DataConversion.JSNodeParamConverter.from($parameters.isCompleteMyProfileEnabledGB, OS.DataTypes.DataTypes.Boolean);
+                                                                jsNodeResult.isCommissionPlansEnabledOut = OS.DataConversion.JSNodeParamConverter.from($parameters.isCommissionPlansEnabled, OS.DataTypes.DataTypes.Boolean);
                                                                 return jsNodeResult;
                                                             }, {}, {});
                                                         } finally {
@@ -617,53 +658,18 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$controller", ["@outsystems/run
                                                         }
 
                                                     }, 1);
-                                                    // InitialGetSettingsEmail = SendGetSettings.GetSettingsResponse.Email
-                                                    PartnersHubClientVariables.setInitialGetSettingsEmail(sendGetSettingsVar.value.getSettingsResponseOut.emailAttr);
-                                                    // GetSettingsResponse = SendGetSettings.GetSettingsResponse
-                                                    model.variables.getSettingsResponseVar = OS.DataConversion.JSConversions.typeConvertRecord(sendGetSettingsVar.value.getSettingsResponseOut, new PartnersHubModel.ST_4286a56d180b6bb5649e20efadd675fdStructure(), function(source, target) {
-                                                        target.get_settingsAttr.account_opening_reasonAttr = source.account_opening_reasonAttr;
-                                                        target.get_settingsAttr.address_cityAttr = source.address_cityAttr;
-                                                        target.get_settingsAttr.address_line_1Attr = source.address_line_1Attr;
-                                                        target.get_settingsAttr.address_line_2Attr = source.address_line_2Attr;
-                                                        target.get_settingsAttr.address_postcodeAttr = source.address_postcodeAttr;
-                                                        target.get_settingsAttr.address_stateAttr = source.address_stateAttr;
-                                                        target.get_settingsAttr.allow_copiersAttr = source.allow_copiersAttr;
-                                                        target.get_settingsAttr.citizenAttr = source.citizenAttr;
-                                                        target.get_settingsAttr.client_tnc_statusAttr = source.client_tnc_statusAttr;
-                                                        target.get_settingsAttr.cooling_off_expiration_dateAttr = source.cooling_off_expiration_dateAttr;
-                                                        target.get_settingsAttr.countryAttr = source.countryAttr;
-                                                        target.get_settingsAttr.country_codeAttr = source.country_codeAttr;
-                                                        target.get_settingsAttr.date_of_birthAttr = source.date_of_birthAttr;
-                                                        target.get_settingsAttr.dxtrade_user_exceptionAttr = source.dxtrade_user_exceptionAttr;
-                                                        target.get_settingsAttr.emailAttr = source.emailAttr;
-                                                        target.get_settingsAttr.email_consentAttr = source.email_consentAttr;
-                                                        target.get_settingsAttr.employment_statusAttr = source.employment_statusAttr;
-                                                        target.get_settingsAttr.fatca_declarationAttr = source.fatca_declarationAttr;
-                                                        target.get_settingsAttr.first_nameAttr = source.first_nameAttr;
-                                                        target.get_settingsAttr.has_secret_answerAttr = source.has_secret_answerAttr;
-                                                        target.get_settingsAttr.immutable_fieldsAttr = source.immutable_fieldsAttr;
-                                                        target.get_settingsAttr.is_authenticated_payment_agentAttr = source.is_authenticated_payment_agentAttr;
-                                                        target.get_settingsAttr.last_nameAttr = source.last_nameAttr;
-                                                        target.get_settingsAttr.non_pep_declarationAttr = source.non_pep_declarationAttr;
-                                                        target.get_settingsAttr.phoneAttr = source.phoneAttr;
-                                                        target.get_settingsAttr.place_of_birthAttr = source.place_of_birthAttr;
-                                                        target.get_settingsAttr.preferred_languageAttr = source.preferred_languageAttr;
-                                                        target.get_settingsAttr.request_professional_statusAttr = source.request_professional_statusAttr;
-                                                        target.get_settingsAttr.residenceAttr = source.residenceAttr;
-                                                        target.get_settingsAttr.salutationAttr = source.salutationAttr;
-                                                        target.get_settingsAttr.tax_identification_numberAttr = source.tax_identification_numberAttr;
-                                                        target.get_settingsAttr.tax_residenceAttr = source.tax_residenceAttr;
-                                                        target.get_settingsAttr.trading_hubAttr = source.trading_hubAttr;
-                                                        target.get_settingsAttr.user_hashAttr = source.user_hashAttr;
-                                                        target.get_settingsAttr.phone_number_verificationAttr = source.phone_number_verificationAttr;
-                                                        return target;
-                                                    });
-                                                    // isPhoneNumberVerified = SendGetSettings.GetSettingsResponse.Phone_number_verification.Properties.Verified
-                                                    model.variables.isPhoneNumberVerifiedVar = sendGetSettingsVar.value.getSettingsResponseOut.phone_number_verificationAttr.propertiesAttr.verifiedAttr;
-                                                    // isCompleteMyProfileEnabledGB = isCompleteMyProfileEnabledGBScript.isCompleteMyProfileEnabledGB
-                                                    model.variables.isCompleteMyProfileEnabledGBVar = isCompleteMyProfileEnabledGBScriptJSResult.value.isCompleteMyProfileEnabledGBOut;
-                                                    // WebsiteStatusResponse = SendWebsiteStatus.WebsiteStatusResponse
-                                                    model.variables.websiteStatusResponseVar = sendWebsiteStatusVar.value.websiteStatusResponseOut;
+                                                    // InitialGetSettingsEmail = GetSettings.Response.Get_settings.Email
+                                                    PartnersHubClientVariables.setInitialGetSettingsEmail(getSettingsVar.value.responseOut.get_settingsAttr.emailAttr);
+                                                    // GetSettingsResponse = GetSettings.Response
+                                                    model.variables.getSettingsResponseVar = getSettingsVar.value.responseOut;
+                                                    // isPhoneNumberVerified = GetSettings.Response.Get_settings.Phone_number_verification.Verified
+                                                    model.variables.isPhoneNumberVerifiedVar = getSettingsVar.value.responseOut.get_settingsAttr.phone_number_verificationAttr.verifiedAttr;
+                                                    // isCompleteMyProfileEnabledGB = GrowthBookFlagsVariables.isCompleteMyProfileEnabledGB
+                                                    model.variables.isCompleteMyProfileEnabledGBVar = growthBookFlagsVariablesJSResult.value.isCompleteMyProfileEnabledGBOut;
+                                                    // WebsiteStatusResponse = GetWebsiteStatus.Response
+                                                    model.variables.websiteStatusResponseVar = getWebsiteStatusVar.value.responseOut;
+                                                    // isCommisionsPlansEnabled = GrowthBookFlagsVariables.isCommissionPlansEnabled
+                                                    model.variables.isCommisionsPlansEnabledVar = growthBookFlagsVariablesJSResult.value.isCommissionPlansEnabledOut;
                                                 });
                                             } else {
                                                 // Execute Action: IFrameLogout
@@ -932,9 +938,26 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$controller", ["@outsystems/run
         // Server Actions - Variables
 
         // Client Actions - Variables
-        Controller.registerVariableGroupType("PartnersHub.Home.PartnersHubDashboard.OnReady$isCompleteMyProfileEnabledGBScriptJSResult", [{
+        Controller.registerVariableGroupType("PartnersHub.Home.PartnersHubDashboard.OnReady$getAuthTokenJSResult", [{
+            name: "Token",
+            attrName: "tokenOut",
+            mandatory: true,
+            dataType: OS.DataTypes.DataTypes.Text,
+            defaultValue: function() {
+                return "";
+            }
+        }]);
+        Controller.registerVariableGroupType("PartnersHub.Home.PartnersHubDashboard.OnReady$growthBookFlagsVariablesJSResult", [{
             name: "isCompleteMyProfileEnabledGB",
             attrName: "isCompleteMyProfileEnabledGBOut",
+            mandatory: true,
+            dataType: OS.DataTypes.DataTypes.Boolean,
+            defaultValue: function() {
+                return false;
+            }
+        }, {
+            name: "isCommissionPlansEnabled",
+            attrName: "isCommissionPlansEnabledOut",
             mandatory: true,
             dataType: OS.DataTypes.DataTypes.Boolean,
             defaultValue: function() {
@@ -946,26 +969,93 @@ define("PartnersHub.Home.PartnersHubDashboard.mvc$controller", ["@outsystems/run
     return new OS.Controller.ControllerFactory(Controller, PartnersHubLanguageResources);
 });
 
-define("PartnersHub.Home.PartnersHubDashboard.mvc$controller.OnReady.isCompleteMyProfileEnabledGBScriptJS", [], function() {
+define("PartnersHub.Home.PartnersHubDashboard.mvc$controller.OnReady.GetAuthTokenJS", [], function() {
     return function($parameters, $actions, $roles, $public) {
-        const isCompleteMyProfileEnabledGB = window.Analytics.Analytics.getFeatureValue("enable-dashboard-stepper");
-
-
-        $parameters.isCompleteMyProfileEnabledGB = isCompleteMyProfileEnabledGB ?? false
+        $parameters.Token = localStorage.getItem('token')
     };
 });
 
+define("PartnersHub.Home.PartnersHubDashboard.mvc$controller.OnReady.GrowthBookFlagsVariablesJS", [], function() {
+    return function($parameters, $actions, $roles, $public) {
+        const isCompleteMyProfileEnabledGB = window.Analytics.Analytics.getFeatureValue("enable-dashboard-stepper");
+        const isCommissionPlansEnabled = window.Analytics.Analytics.getFeatureValue("enable-commission-plan");
+
+        $parameters.isCompleteMyProfileEnabledGB = isCompleteMyProfileEnabledGB ?? false
+        $parameters.isCommissionPlansEnabled = isCommissionPlansEnabled ?? false
+    };
+});
+
+
+define("PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "6QftVDCBCUOUp+OG1UYZ_A#Value": "Partner-Hub"
+    };
+});
 
 define("PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources.es-ES", [], function() {
     return {
-        "6QftVDCBCUOUp+OG1UYZ_A#Value": "Centro de socios"
+        "6QftVDCBCUOUp+OG1UYZ_A#Value": "Hub del Socio"
     };
 });
 
-define("PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources", ["exports", "PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources.es-ES"], function(exports, PartnersHub_Home_PartnersHubDashboard_mvc_translationsResources_esES) {
+define("PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources.fr-FR", [], function() {
     return {
+        "6QftVDCBCUOUp+OG1UYZ_A#Value": "Hub Partenaire"
+    };
+});
+
+define("PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "6QftVDCBCUOUp+OG1UYZ_A#Value": "Hub del Partner"
+    };
+});
+
+define("PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "6QftVDCBCUOUp+OG1UYZ_A#Value": "Hub Partnera"
+    };
+});
+
+define("PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "6QftVDCBCUOUp+OG1UYZ_A#Value": "Hub do Parceiro"
+    };
+});
+
+define("PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "6QftVDCBCUOUp+OG1UYZ_A#Value": "Хаб Партнера"
+    };
+});
+
+define("PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources", ["exports", "PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources.de-DE", "PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources.es-ES", "PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources.fr-FR", "PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources.it-IT", "PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources.pl-PL", "PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources.pt-PT", "PartnersHub.Home.PartnersHubDashboard.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Home_PartnersHubDashboard_mvc_translationsResources_deDE, PartnersHub_Home_PartnersHubDashboard_mvc_translationsResources_esES, PartnersHub_Home_PartnersHubDashboard_mvc_translationsResources_frFR, PartnersHub_Home_PartnersHubDashboard_mvc_translationsResources_itIT, PartnersHub_Home_PartnersHubDashboard_mvc_translationsResources_plPL, PartnersHub_Home_PartnersHubDashboard_mvc_translationsResources_ptPT, PartnersHub_Home_PartnersHubDashboard_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Home_PartnersHubDashboard_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
         "es-ES": {
             "translations": PartnersHub_Home_PartnersHubDashboard_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Home_PartnersHubDashboard_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Home_PartnersHubDashboard_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Home_PartnersHubDashboard_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Home_PartnersHubDashboard_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Home_PartnersHubDashboard_mvc_translationsResources_ruRU,
             "isRTL": false
         }
     };

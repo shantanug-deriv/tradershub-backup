@@ -217,7 +217,7 @@ define("PartnersHub.Common.ResidenceList.mvc$view", ["@outsystems/runtime-core-j
 
                                 ;
                             },
-                            prompt: "Search",
+                            prompt: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("9UB8EXBBqUa1vQHHfJbvyA#ValueExpression.-1822469688.1", "Search"),
                             style: "form-control",
                             variable: model.createVariable(OS.DataTypes.DataTypes.Text, model.variables.searchedResidenceVar, function(value) {
                                 model.variables.searchedResidenceVar = value;
@@ -793,6 +793,77 @@ define("PartnersHub.Common.ResidenceList.mvc$controller.OnSearch.JavaScript1JS",
 });
 
 
-define("PartnersHub.Common.ResidenceList.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Common.ResidenceList.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "9UB8EXBBqUa1vQHHfJbvyA#ValueExpression.-1822469688.1": "Suche"
+    };
+});
+
+define("PartnersHub.Common.ResidenceList.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "9UB8EXBBqUa1vQHHfJbvyA#ValueExpression.-1822469688.1": "Buscar"
+    };
+});
+
+define("PartnersHub.Common.ResidenceList.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "9UB8EXBBqUa1vQHHfJbvyA#ValueExpression.-1822469688.1": "Rechercher"
+    };
+});
+
+define("PartnersHub.Common.ResidenceList.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "9UB8EXBBqUa1vQHHfJbvyA#ValueExpression.-1822469688.1": "Cerca"
+    };
+});
+
+define("PartnersHub.Common.ResidenceList.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "9UB8EXBBqUa1vQHHfJbvyA#ValueExpression.-1822469688.1": "Szukaj"
+    };
+});
+
+define("PartnersHub.Common.ResidenceList.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "9UB8EXBBqUa1vQHHfJbvyA#ValueExpression.-1822469688.1": "Pesquisar"
+    };
+});
+
+define("PartnersHub.Common.ResidenceList.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "9UB8EXBBqUa1vQHHfJbvyA#ValueExpression.-1822469688.1": "Поиск"
+    };
+});
+
+define("PartnersHub.Common.ResidenceList.mvc$translationsResources", ["exports", "PartnersHub.Common.ResidenceList.mvc$translationsResources.de-DE", "PartnersHub.Common.ResidenceList.mvc$translationsResources.es-ES", "PartnersHub.Common.ResidenceList.mvc$translationsResources.fr-FR", "PartnersHub.Common.ResidenceList.mvc$translationsResources.it-IT", "PartnersHub.Common.ResidenceList.mvc$translationsResources.pl-PL", "PartnersHub.Common.ResidenceList.mvc$translationsResources.pt-PT", "PartnersHub.Common.ResidenceList.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Common_ResidenceList_mvc_translationsResources_deDE, PartnersHub_Common_ResidenceList_mvc_translationsResources_esES, PartnersHub_Common_ResidenceList_mvc_translationsResources_frFR, PartnersHub_Common_ResidenceList_mvc_translationsResources_itIT, PartnersHub_Common_ResidenceList_mvc_translationsResources_plPL, PartnersHub_Common_ResidenceList_mvc_translationsResources_ptPT, PartnersHub_Common_ResidenceList_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Common_ResidenceList_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Common_ResidenceList_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Common_ResidenceList_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Common_ResidenceList_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Common_ResidenceList_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Common_ResidenceList_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Common_ResidenceList_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

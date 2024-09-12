@@ -462,6 +462,14 @@ define("tradershub.clientVariables", ["@outsystems/runtime-core-js"], function(O
             return clientVarsService.setVariable("RealSignupSkippedIDV", "tradershub", OS.DataTypes.DataTypes.Boolean, value);
         }
 
+        getInitializeRealSignup() {
+            return clientVarsService.getVariable("InitializeRealSignup", "tradershub", OS.DataTypes.DataTypes.Boolean);
+        }
+
+        setInitializeRealSignup(value) {
+            return clientVarsService.setVariable("InitializeRealSignup", "tradershub", OS.DataTypes.DataTypes.Boolean, value);
+        }
+
         getRealSignupIDVDocumentName() {
             return clientVarsService.getVariable("RealSignupIDVDocumentName", "tradershub", OS.DataTypes.DataTypes.Text);
         }
@@ -537,6 +545,7 @@ define("tradershub.clientVariables", ["@outsystems/runtime-core-js"], function(O
                 FinancialAssessmentEducationLevel: OS.DataConversion.ServerDataConverter.to(this.getFinancialAssessmentEducationLevel(), OS.DataTypes.DataTypes.Text),
                 FinancialAssessmentAccountTurnover: OS.DataConversion.ServerDataConverter.to(this.getFinancialAssessmentAccountTurnover(), OS.DataTypes.DataTypes.Text),
                 RealSignupSkippedIDV: OS.DataConversion.ServerDataConverter.to(this.getRealSignupSkippedIDV(), OS.DataTypes.DataTypes.Boolean),
+                InitializeRealSignup: OS.DataConversion.ServerDataConverter.to(this.getInitializeRealSignup(), OS.DataTypes.DataTypes.Boolean),
                 RealSignupIDVDocumentName: OS.DataConversion.ServerDataConverter.to(this.getRealSignupIDVDocumentName(), OS.DataTypes.DataTypes.Text),
                 RealSignupIDVAdditionalDocumentNumber: OS.DataConversion.ServerDataConverter.to(this.getRealSignupIDVAdditionalDocumentNumber(), OS.DataTypes.DataTypes.Text)
             };

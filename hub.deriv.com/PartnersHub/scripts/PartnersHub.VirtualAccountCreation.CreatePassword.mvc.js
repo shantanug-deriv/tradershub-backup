@@ -316,7 +316,7 @@ define("PartnersHub.VirtualAccountCreation.CreatePassword.mvc$view", ["@outsyste
                                         extendedProperties: {
                                             style: "font-size: 28px; font-weight: bold; margin-top: 0px; width: ;"
                                         },
-                                        text: ["Password"],
+                                        text: [$text(getTranslation("yALQS6L4p0ikr4zVTXq2zw#Value", "Password"))],
                                         _idProps: {
                                             service: idService,
                                             uuid: "10"
@@ -365,7 +365,7 @@ define("PartnersHub.VirtualAccountCreation.CreatePassword.mvc$view", ["@outsyste
                                             return _this.getChildSpan("destroy");
                                         },
                                         inputs: {
-                                            Title: "Password",
+                                            Title: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("PghFF2QVRE+U4U_KSD7QhA#Value.1281629883.1", "Password"),
                                             HasBackButton: true,
                                             HasCloseIcon: false
                                         },
@@ -584,23 +584,23 @@ define("PartnersHub.VirtualAccountCreation.CreatePassword.mvc$controller", ["@ou
                                     model.variables.isLoadingVar = true;
                                     // Execute Action: NewAccountVirtual
                                     model.flush();
-                                    return RESTAPIWebsocketController.default.newAccountVirtual$Action(PartnersHubClientVariables.getAppId(), "EN", function() {
+                                    return RESTAPIWebsocketController.default.newAccountVirtual$Action(function() {
                                         var rec = new RESTAPIWebsocketModel.ST_d4ed48681c55954edc02f19b0ed492e7Structure();
                                         rec.typeAttr = "trading";
                                         rec.client_passwordAttr = vars.value.passwordInLocal;
                                         rec.residenceAttr = model.variables.residenceIn;
                                         rec.verification_codeAttr = PartnersHubClientVariables.getCode();
                                         return rec;
-                                    }(), PartnersHubClientVariables.getServer(), callContext).then(function(value) {
+                                    }(), PartnersHubClientVariables.getServer(), PartnersHubClientVariables.getAppId(), "EN", callContext).then(function(value) {
                                         newAccountVirtualVar.value = value;
                                     }).then(function() {
                                         // Execute Action: Authorize
                                         model.flush();
-                                        return RESTAPIWebsocketController.default.authorize$Action(PartnersHubClientVariables.getAppId(), "EN", function() {
+                                        return RESTAPIWebsocketController.default.authorize$Action(function() {
                                             var rec = new RESTAPIWebsocketModel.ST_450f06937a42e6bd68832beac9fd4297Structure();
                                             rec.authorizeAttr = newAccountVirtualVar.value.responseOut.new_account_virtualAttr.oauth_tokenAttr;
                                             return rec;
-                                        }(), PartnersHubClientVariables.getServer(), callContext).then(function(value) {
+                                        }(), PartnersHubClientVariables.getServer(), PartnersHubClientVariables.getAppId(), "EN", callContext).then(function(value) {
                                             authorizeVar.value = value;
                                         });
                                     }).then(function() {
@@ -832,6 +832,84 @@ define("PartnersHub.VirtualAccountCreation.CreatePassword.mvc$controller.OnSubmi
 });
 
 
-define("PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "PghFF2QVRE+U4U_KSD7QhA#Value.1281629883.1": "Password",
+        "yALQS6L4p0ikr4zVTXq2zw#Value": "Passwort"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "PghFF2QVRE+U4U_KSD7QhA#Value.1281629883.1": "Password",
+        "yALQS6L4p0ikr4zVTXq2zw#Value": "Contraseña"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "PghFF2QVRE+U4U_KSD7QhA#Value.1281629883.1": "Password",
+        "yALQS6L4p0ikr4zVTXq2zw#Value": "Mot de passe"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "PghFF2QVRE+U4U_KSD7QhA#Value.1281629883.1": "Password",
+        "yALQS6L4p0ikr4zVTXq2zw#Value": "Password"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "PghFF2QVRE+U4U_KSD7QhA#Value.1281629883.1": "Password",
+        "yALQS6L4p0ikr4zVTXq2zw#Value": "Hasło"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "PghFF2QVRE+U4U_KSD7QhA#Value.1281629883.1": "Password",
+        "yALQS6L4p0ikr4zVTXq2zw#Value": "Palavra-passe"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "PghFF2QVRE+U4U_KSD7QhA#Value.1281629883.1": "Password",
+        "yALQS6L4p0ikr4zVTXq2zw#Value": "Пароль"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources", ["exports", "PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources.de-DE", "PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources.es-ES", "PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources.fr-FR", "PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources.it-IT", "PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources.pl-PL", "PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources.pt-PT", "PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_VirtualAccountCreation_CreatePassword_mvc_translationsResources_deDE, PartnersHub_VirtualAccountCreation_CreatePassword_mvc_translationsResources_esES, PartnersHub_VirtualAccountCreation_CreatePassword_mvc_translationsResources_frFR, PartnersHub_VirtualAccountCreation_CreatePassword_mvc_translationsResources_itIT, PartnersHub_VirtualAccountCreation_CreatePassword_mvc_translationsResources_plPL, PartnersHub_VirtualAccountCreation_CreatePassword_mvc_translationsResources_ptPT, PartnersHub_VirtualAccountCreation_CreatePassword_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_VirtualAccountCreation_CreatePassword_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_VirtualAccountCreation_CreatePassword_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_VirtualAccountCreation_CreatePassword_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_VirtualAccountCreation_CreatePassword_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_VirtualAccountCreation_CreatePassword_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_VirtualAccountCreation_CreatePassword_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_VirtualAccountCreation_CreatePassword_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

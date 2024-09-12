@@ -144,7 +144,7 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                     extendedProperties: {
                         style: "color: #222; font-size: 20px; font-weight: bold;"
                     },
-                    text: ["Partner\'s Academy"],
+                    text: [$text(getTranslation("O5WMN_I+K0mefv7hd8Ehnw#Value", "Partner\'s Academy"))],
                     _idProps: {
                         service: idService,
                         uuid: "2"
@@ -202,7 +202,7 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                     extendedProperties: {
                         style: "font-size: 20px; font-weight: bold;"
                     },
-                    text: ["Listen, Learn, Read."],
+                    text: [$text(getTranslation("sse4z6h_sU6gso1w6w59LA#Value", "Listen, Learn, Read."))],
                     _idProps: {
                         service: idService,
                         uuid: "6"
@@ -288,7 +288,7 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                     extendedProperties: {
                         style: "font-size: 14px;"
                     },
-                    text: ["Courses"],
+                    text: [$text(getTranslation("uHFImDRVWE2MA_64Li66Ww#Value", "Courses"))],
                     _idProps: {
                         service: idService,
                         uuid: "13"
@@ -326,7 +326,7 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                     extendedProperties: {
                         style: "font-size: 14px;"
                     },
-                    text: ["Marketing handbooks"],
+                    text: [$text(getTranslation("bM7PjZ4q_EuS25rccTySQg#Value", "Marketing handbooks"))],
                     _idProps: {
                         service: idService,
                         uuid: "16"
@@ -364,7 +364,7 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                     extendedProperties: {
                         style: "font-size: 14px;"
                     },
-                    text: ["Marketing brochures"],
+                    text: [$text(getTranslation("FLk8QSyiOkuIqtmBfVo4Yw#Value", "Marketing brochures"))],
                     _idProps: {
                         service: idService,
                         uuid: "19"
@@ -402,7 +402,7 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                     extendedProperties: {
                         style: "font-size: 14px;"
                     },
-                    text: ["E-books"],
+                    text: [$text(getTranslation("QNt3K4z9s0mjesfDRLpl7A#Value", "E-books"))],
                     _idProps: {
                         service: idService,
                         uuid: "22"
@@ -440,13 +440,13 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                     extendedProperties: {
                         style: "font-size: 14px;"
                     },
-                    text: ["Infographics"],
+                    text: [$text(getTranslation("DZSAqbT4jkWfN4OqxOKCFA#Value", "Infographics"))],
                     _idProps: {
                         service: idService,
                         uuid: "25"
                     },
                     _widgetRecordProvider: widgetsRecordProvider
-                })))), "Everything you need for successful partner marketing."), React.createElement(OSWidgets.Container, {
+                })))), $text(getTranslation("1adaFkSs6Eu8LQA1B4Z56w#Value", "Everything you need for successful partner marketing."))), React.createElement(OSWidgets.Container, {
                     align: /*Default*/ 0,
                     animate: false,
                     extendedProperties: {
@@ -481,7 +481,7 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                         uuid: "28"
                     },
                     _widgetRecordProvider: widgetsRecordProvider
-                }, "Scan to download mobile app"))))];
+                }, $text(getTranslation("4rZxxhDTVUWABiMTNsEpdQ#Value", "Scan to download mobile app"))))))];
             }, function() {
                 return [React.createElement(OSWidgets.Container, {
                     align: /*Default*/ 0,
@@ -512,7 +512,7 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                     extendedProperties: {
                         style: "color: #222; font-size: 20px; font-weight: bold;"
                     },
-                    text: ["Partner\'s Academy"],
+                    text: [$text(getTranslation("naoFGO4guEidXmQftx8rZg#Value", "Partner\'s Academy"))],
                     _idProps: {
                         service: idService,
                         uuid: "31"
@@ -554,7 +554,7 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                     extendedProperties: {
                         style: "font-size: 20px; font-weight: bold;"
                     },
-                    text: ["Listen, Learn, Read."],
+                    text: [$text(getTranslation("kwwc0W9pKE64IAQBhqqlsg#Value", "Listen, Learn, Read."))],
                     _idProps: {
                         service: idService,
                         uuid: "34"
@@ -625,7 +625,7 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                     extendedProperties: {
                         style: "font-size: 14px;"
                     },
-                    text: ["Courses"],
+                    text: [$text(getTranslation("83dGwifhKk+YOiXkvULi4A#Value", "Courses"))],
                     _idProps: {
                         service: idService,
                         uuid: "40"
@@ -663,7 +663,7 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                     extendedProperties: {
                         style: "font-size: 14px;"
                     },
-                    text: ["Marketing handbooks"],
+                    text: [$text(getTranslation("FweTDdT9dkSF1or4BJf5JA#Value", "Marketing handbooks"))],
                     _idProps: {
                         service: idService,
                         uuid: "43"
@@ -701,7 +701,7 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                     extendedProperties: {
                         style: "font-size: 14px;"
                     },
-                    text: ["E-books"],
+                    text: [$text(getTranslation("C987V+27QE+VKjDqaJ0p2w#Value", "E-books"))],
                     _idProps: {
                         service: idService,
                         uuid: "46"
@@ -739,7 +739,7 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                     extendedProperties: {
                         style: "font-size: 14px;"
                     },
-                    text: ["Marketing brochures"],
+                    text: [$text(getTranslation("uS0lZPuU6kOmtCwieNWUtg#Value", "Marketing brochures"))],
                     _idProps: {
                         service: idService,
                         uuid: "49"
@@ -777,13 +777,13 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                     extendedProperties: {
                         style: "font-size: 14px;"
                     },
-                    text: ["Infographics"],
+                    text: [$text(getTranslation("bDqMK2mJ7kacvPDTaOF8rg#Value", "Infographics"))],
                     _idProps: {
                         service: idService,
                         uuid: "52"
                     },
                     _widgetRecordProvider: widgetsRecordProvider
-                })))), "Everything you need for successful partner marketing.", React.createElement(OSWidgets.Button, {
+                })))), $text(getTranslation("mxqBfVnviEmFswLgQBO7ug#Value", "Everything you need for successful partner marketing.")), React.createElement(OSWidgets.Button, {
                     enabled: true,
                     extendedProperties: {
                         style: "background-color: inherit; border-radius: 50px; color: #ff4450;"
@@ -825,7 +825,7 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                         },
                         icon: "apple",
                         iconSize: /*Twotimes*/ 1,
-                        style: "icon",
+                        style: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("7+ncbqUIq02UA4ZzRWsvCw#ValueExpression.3226745.1", "icon"),
                         visible: true,
                         _idProps: {
                             service: idService,
@@ -852,7 +852,7 @@ define("PartnersHub.Home.PartnersAcademy.mvc$view", ["@outsystems/runtime-core-j
                     }, function() {
                         return [];
                     })];
-                }), "Open Academy app")))];
+                }), $text(getTranslation("zkMPCyO8E0aYnIYzzJSMng#Value", "Open Academy app")))))];
             }));
         }
     }
@@ -1287,6 +1287,203 @@ define("PartnersHub.Home.PartnersAcademy.mvc$controller.CheckOS.JavaScript1JS", 
 });
 
 
-define("PartnersHub.Home.PartnersAcademy.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.Home.PartnersAcademy.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "zkMPCyO8E0aYnIYzzJSMng#Value": "Open Academy App",
+        "7+ncbqUIq02UA4ZzRWsvCw#ValueExpression.3226745.1": "icon",
+        "mxqBfVnviEmFswLgQBO7ug#Value": "Alles, was Sie für erfolgreiches Partner-Marketing benötigen.",
+        "bDqMK2mJ7kacvPDTaOF8rg#Value": "Infografiken",
+        "uS0lZPuU6kOmtCwieNWUtg#Value": "Marketingbroschüren",
+        "C987V+27QE+VKjDqaJ0p2w#Value": "E-Books",
+        "FweTDdT9dkSF1or4BJf5JA#Value": "Marketinghandbücher",
+        "83dGwifhKk+YOiXkvULi4A#Value": "Kurse",
+        "kwwc0W9pKE64IAQBhqqlsg#Value": "Hören, Lernen, Lesen.",
+        "naoFGO4guEidXmQftx8rZg#Value": "Partnerakademie",
+        "4rZxxhDTVUWABiMTNsEpdQ#Value": "Scannen, um die mobile App herunterzuladen",
+        "1adaFkSs6Eu8LQA1B4Z56w#Value": "Alles, was Sie für erfolgreiches Partner-Marketing benötigen.",
+        "DZSAqbT4jkWfN4OqxOKCFA#Value": "Infografiken",
+        "QNt3K4z9s0mjesfDRLpl7A#Value": "E-Books",
+        "FLk8QSyiOkuIqtmBfVo4Yw#Value": "Marketingbroschüren",
+        "bM7PjZ4q_EuS25rccTySQg#Value": "Marketinghandbücher",
+        "uHFImDRVWE2MA_64Li66Ww#Value": "Kurse",
+        "sse4z6h_sU6gso1w6w59LA#Value": "Hören, Lernen, Lesen.",
+        "O5WMN_I+K0mefv7hd8Ehnw#Value": "Partnerakademie"
+    };
+});
+
+define("PartnersHub.Home.PartnersAcademy.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "zkMPCyO8E0aYnIYzzJSMng#Value": "Open Academy App",
+        "7+ncbqUIq02UA4ZzRWsvCw#ValueExpression.3226745.1": "icon",
+        "mxqBfVnviEmFswLgQBO7ug#Value": "Todo lo que necesitas para un marketing de socios exitoso.",
+        "bDqMK2mJ7kacvPDTaOF8rg#Value": "Infografías",
+        "uS0lZPuU6kOmtCwieNWUtg#Value": "Folletos de marketing",
+        "C987V+27QE+VKjDqaJ0p2w#Value": "E-books",
+        "FweTDdT9dkSF1or4BJf5JA#Value": "Manuales de marketing",
+        "83dGwifhKk+YOiXkvULi4A#Value": "Cursos",
+        "kwwc0W9pKE64IAQBhqqlsg#Value": "Escuchar, Aprender, Leer.",
+        "naoFGO4guEidXmQftx8rZg#Value": "Academia del Socio",
+        "4rZxxhDTVUWABiMTNsEpdQ#Value": "Escanea para descargar la aplicación móvil",
+        "1adaFkSs6Eu8LQA1B4Z56w#Value": "Todo lo que necesitas para un marketing de partners exitoso.",
+        "DZSAqbT4jkWfN4OqxOKCFA#Value": "Infografías",
+        "QNt3K4z9s0mjesfDRLpl7A#Value": "Libros electrónicos",
+        "FLk8QSyiOkuIqtmBfVo4Yw#Value": "Folletos de marketing",
+        "bM7PjZ4q_EuS25rccTySQg#Value": "Manuales de marketing",
+        "uHFImDRVWE2MA_64Li66Ww#Value": "Cursos",
+        "sse4z6h_sU6gso1w6w59LA#Value": "Escuchar, Aprender, Leer.",
+        "O5WMN_I+K0mefv7hd8Ehnw#Value": "Academia de Socios"
+    };
+});
+
+define("PartnersHub.Home.PartnersAcademy.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "zkMPCyO8E0aYnIYzzJSMng#Value": "Open Academy App",
+        "7+ncbqUIq02UA4ZzRWsvCw#ValueExpression.3226745.1": "icon",
+        "mxqBfVnviEmFswLgQBO7ug#Value": "Tout ce dont vous avez besoin pour un marketing de partenaires réussi.",
+        "bDqMK2mJ7kacvPDTaOF8rg#Value": "Infographies",
+        "uS0lZPuU6kOmtCwieNWUtg#Value": "Brochures marketing",
+        "C987V+27QE+VKjDqaJ0p2w#Value": "E-books",
+        "FweTDdT9dkSF1or4BJf5JA#Value": "Manuels de marketing",
+        "83dGwifhKk+YOiXkvULi4A#Value": "Cours",
+        "kwwc0W9pKE64IAQBhqqlsg#Value": "Écouter, Apprendre, Lire.",
+        "naoFGO4guEidXmQftx8rZg#Value": "Académie des Partenaires",
+        "4rZxxhDTVUWABiMTNsEpdQ#Value": "Scannez pour télécharger l\'application mobile",
+        "1adaFkSs6Eu8LQA1B4Z56w#Value": "Tout ce dont vous avez besoin pour un marketing partenaire réussi.",
+        "DZSAqbT4jkWfN4OqxOKCFA#Value": "Infographies",
+        "QNt3K4z9s0mjesfDRLpl7A#Value": "E-books",
+        "FLk8QSyiOkuIqtmBfVo4Yw#Value": "Brochures marketing",
+        "bM7PjZ4q_EuS25rccTySQg#Value": "Manuels de marketing",
+        "uHFImDRVWE2MA_64Li66Ww#Value": "Cours",
+        "sse4z6h_sU6gso1w6w59LA#Value": "Écouter, Apprendre, Lire.",
+        "O5WMN_I+K0mefv7hd8Ehnw#Value": "Académie des Partenaires"
+    };
+});
+
+define("PartnersHub.Home.PartnersAcademy.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "zkMPCyO8E0aYnIYzzJSMng#Value": "Open Academy App",
+        "7+ncbqUIq02UA4ZzRWsvCw#ValueExpression.3226745.1": "icon",
+        "mxqBfVnviEmFswLgQBO7ug#Value": "Tutto ciò di cui hai bisogno per un marketing di partner di successo.",
+        "bDqMK2mJ7kacvPDTaOF8rg#Value": "Infografiche",
+        "uS0lZPuU6kOmtCwieNWUtg#Value": "Brochure di marketing",
+        "C987V+27QE+VKjDqaJ0p2w#Value": "E-book",
+        "FweTDdT9dkSF1or4BJf5JA#Value": "Manuali di marketing",
+        "83dGwifhKk+YOiXkvULi4A#Value": "Corsi",
+        "kwwc0W9pKE64IAQBhqqlsg#Value": "Ascoltare, Imparare, Leggere.",
+        "naoFGO4guEidXmQftx8rZg#Value": "Accademia dei Partner",
+        "4rZxxhDTVUWABiMTNsEpdQ#Value": "Scansiona per scaricare l\'app mobile",
+        "1adaFkSs6Eu8LQA1B4Z56w#Value": "Tutto ciò di cui hai bisogno per un marketing partner di successo.",
+        "DZSAqbT4jkWfN4OqxOKCFA#Value": "Infografiche",
+        "QNt3K4z9s0mjesfDRLpl7A#Value": "E-book",
+        "FLk8QSyiOkuIqtmBfVo4Yw#Value": "Brochure di marketing",
+        "bM7PjZ4q_EuS25rccTySQg#Value": "Manuali di marketing",
+        "uHFImDRVWE2MA_64Li66Ww#Value": "Corsi",
+        "sse4z6h_sU6gso1w6w59LA#Value": "Ascoltare, Imparare, Leggere.",
+        "O5WMN_I+K0mefv7hd8Ehnw#Value": "Accademia dei Partner"
+    };
+});
+
+define("PartnersHub.Home.PartnersAcademy.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "zkMPCyO8E0aYnIYzzJSMng#Value": "Open Academy App",
+        "7+ncbqUIq02UA4ZzRWsvCw#ValueExpression.3226745.1": "icon",
+        "mxqBfVnviEmFswLgQBO7ug#Value": "Wszystko, czego potrzebujesz do udanego marketingu partnerskiego.",
+        "bDqMK2mJ7kacvPDTaOF8rg#Value": "Infografiki",
+        "uS0lZPuU6kOmtCwieNWUtg#Value": "Broszury marketingowe",
+        "C987V+27QE+VKjDqaJ0p2w#Value": "E-booki",
+        "FweTDdT9dkSF1or4BJf5JA#Value": "Podręczniki marketingowe",
+        "83dGwifhKk+YOiXkvULi4A#Value": "Kursy",
+        "kwwc0W9pKE64IAQBhqqlsg#Value": "Słuchaj, Ucz się, Czytaj.",
+        "naoFGO4guEidXmQftx8rZg#Value": "Akademia Partnerów",
+        "4rZxxhDTVUWABiMTNsEpdQ#Value": "Skanuj, aby pobrać aplikację mobilną",
+        "1adaFkSs6Eu8LQA1B4Z56w#Value": "Wszystko, czego potrzebujesz do udanego marketingu partnerskiego.",
+        "DZSAqbT4jkWfN4OqxOKCFA#Value": "Infografiki",
+        "QNt3K4z9s0mjesfDRLpl7A#Value": "E-booki",
+        "FLk8QSyiOkuIqtmBfVo4Yw#Value": "Broszury marketingowe",
+        "bM7PjZ4q_EuS25rccTySQg#Value": "Podręczniki marketingowe",
+        "uHFImDRVWE2MA_64Li66Ww#Value": "Kursy",
+        "sse4z6h_sU6gso1w6w59LA#Value": "Słuchaj, Ucz się, Czytaj.",
+        "O5WMN_I+K0mefv7hd8Ehnw#Value": "Akademia Partnerów"
+    };
+});
+
+define("PartnersHub.Home.PartnersAcademy.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "zkMPCyO8E0aYnIYzzJSMng#Value": "Open Academy App",
+        "7+ncbqUIq02UA4ZzRWsvCw#ValueExpression.3226745.1": "icon",
+        "mxqBfVnviEmFswLgQBO7ug#Value": "Tudo o que você precisa para um marketing de parceiros bem-sucedido.",
+        "bDqMK2mJ7kacvPDTaOF8rg#Value": "Infografias",
+        "uS0lZPuU6kOmtCwieNWUtg#Value": "Brochuras de marketing",
+        "C987V+27QE+VKjDqaJ0p2w#Value": "E-books",
+        "FweTDdT9dkSF1or4BJf5JA#Value": "Manuais de marketing",
+        "83dGwifhKk+YOiXkvULi4A#Value": "Cursos",
+        "kwwc0W9pKE64IAQBhqqlsg#Value": "Ouvir, Aprender, Ler.",
+        "naoFGO4guEidXmQftx8rZg#Value": "Academia do Parceiro",
+        "4rZxxhDTVUWABiMTNsEpdQ#Value": "Digitalize para descarregar a aplicação móvel",
+        "1adaFkSs6Eu8LQA1B4Z56w#Value": "Tudo o que você precisa para um marketing de parceiros bem-sucedido.",
+        "DZSAqbT4jkWfN4OqxOKCFA#Value": "Infografias",
+        "QNt3K4z9s0mjesfDRLpl7A#Value": "E-books",
+        "FLk8QSyiOkuIqtmBfVo4Yw#Value": "Brochuras de marketing",
+        "bM7PjZ4q_EuS25rccTySQg#Value": "Manuais de marketing",
+        "uHFImDRVWE2MA_64Li66Ww#Value": "Cursos",
+        "sse4z6h_sU6gso1w6w59LA#Value": "Ouvir, Aprender, Ler.",
+        "O5WMN_I+K0mefv7hd8Ehnw#Value": "Academia de Parceiros"
+    };
+});
+
+define("PartnersHub.Home.PartnersAcademy.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "zkMPCyO8E0aYnIYzzJSMng#Value": "Open Academy App",
+        "7+ncbqUIq02UA4ZzRWsvCw#ValueExpression.3226745.1": "icon",
+        "mxqBfVnviEmFswLgQBO7ug#Value": "Всё, что вам нужно для успешного партнерского маркетинга.",
+        "bDqMK2mJ7kacvPDTaOF8rg#Value": "Инфографика",
+        "uS0lZPuU6kOmtCwieNWUtg#Value": "Маркетинговые брошюры",
+        "C987V+27QE+VKjDqaJ0p2w#Value": "Электронные книги",
+        "FweTDdT9dkSF1or4BJf5JA#Value": "Руководства по маркетингу",
+        "83dGwifhKk+YOiXkvULi4A#Value": "Курсы",
+        "kwwc0W9pKE64IAQBhqqlsg#Value": "Слушать, Учиться, Читать.",
+        "naoFGO4guEidXmQftx8rZg#Value": "Академия Партнера",
+        "4rZxxhDTVUWABiMTNsEpdQ#Value": "Сканируйте, чтобы скачать мобильное приложение",
+        "1adaFkSs6Eu8LQA1B4Z56w#Value": "Всё, что вам нужно для успешного партнерского маркетинга.",
+        "DZSAqbT4jkWfN4OqxOKCFA#Value": "Инфографика",
+        "QNt3K4z9s0mjesfDRLpl7A#Value": "Электронные книги",
+        "FLk8QSyiOkuIqtmBfVo4Yw#Value": "Маркетинговые брошюры",
+        "bM7PjZ4q_EuS25rccTySQg#Value": "Руководства по маркетингу",
+        "uHFImDRVWE2MA_64Li66Ww#Value": "Курсы",
+        "sse4z6h_sU6gso1w6w59LA#Value": "Слушать, Учиться, Читать.",
+        "O5WMN_I+K0mefv7hd8Ehnw#Value": "Академия Партнеров"
+    };
+});
+
+define("PartnersHub.Home.PartnersAcademy.mvc$translationsResources", ["exports", "PartnersHub.Home.PartnersAcademy.mvc$translationsResources.de-DE", "PartnersHub.Home.PartnersAcademy.mvc$translationsResources.es-ES", "PartnersHub.Home.PartnersAcademy.mvc$translationsResources.fr-FR", "PartnersHub.Home.PartnersAcademy.mvc$translationsResources.it-IT", "PartnersHub.Home.PartnersAcademy.mvc$translationsResources.pl-PL", "PartnersHub.Home.PartnersAcademy.mvc$translationsResources.pt-PT", "PartnersHub.Home.PartnersAcademy.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_Home_PartnersAcademy_mvc_translationsResources_deDE, PartnersHub_Home_PartnersAcademy_mvc_translationsResources_esES, PartnersHub_Home_PartnersAcademy_mvc_translationsResources_frFR, PartnersHub_Home_PartnersAcademy_mvc_translationsResources_itIT, PartnersHub_Home_PartnersAcademy_mvc_translationsResources_plPL, PartnersHub_Home_PartnersAcademy_mvc_translationsResources_ptPT, PartnersHub_Home_PartnersAcademy_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_Home_PartnersAcademy_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_Home_PartnersAcademy_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_Home_PartnersAcademy_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_Home_PartnersAcademy_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_Home_PartnersAcademy_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_Home_PartnersAcademy_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_Home_PartnersAcademy_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

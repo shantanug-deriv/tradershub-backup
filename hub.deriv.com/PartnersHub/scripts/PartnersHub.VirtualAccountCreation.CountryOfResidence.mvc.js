@@ -255,7 +255,7 @@ define("PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$view", ["@outs
                                             classes: "OSInline",
                                             width: "352px"
                                         },
-                                        style: "country-of-residence-dropdown",
+                                        style: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("LD6+WYiDz0WM9S4YDB1rlQ#ValueExpression.958017463.1", "country-of-residence-dropdown"),
                                         visible: true,
                                         _idProps: {
                                             service: idService,
@@ -266,7 +266,7 @@ define("PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$view", ["@outs
                                         extendedProperties: {
                                             style: "font-size: 28px; font-weight: bold; margin-top: 0px; width: ;"
                                         },
-                                        text: ["Country of residence"],
+                                        text: [$text(getTranslation("Ed8Do_sIpk+7UdUSVVE0Iw#Value", "Country of residence"))],
                                         _idProps: {
                                             service: idService,
                                             uuid: "7"
@@ -280,7 +280,7 @@ define("PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$view", ["@outs
                                             return _this.getChildSpan("destroy");
                                         },
                                         inputs: {
-                                            Prompt: "Select your country of residence",
+                                            Prompt: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("tIWqM2ADqkWSsmlZwXgmXQ#Value.830386192.1", "Select your country of residence"),
                                             OptionsList: model.getCachedValue(idService.getId("BqrgSmLasUGqq9xf5lIGuQ.OptionsList"), function() {
                                                 return OS.DataConversion.JSConversions.typeConvertRecordList(model.variables.residenceListResponseVar.residence_listAttr, new PartnersHubModel.RL_c0f17d75c546075264f5d075e00ba65b(), function(source, target) {
                                                     target.valueAttr = source.valueAttr;
@@ -293,8 +293,8 @@ define("PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$view", ["@outs
                                             OptionalConfigs: model.getCachedValue(idService.getId("BqrgSmLasUGqq9xf5lIGuQ.OptionalConfigs"), function() {
                                                 return function() {
                                                     var rec = new OutSystemsUIModel.ST_4e53cb8815b86020ced1d2f2652c9b1dStructure();
-                                                    rec.noResultsTextAttr = "Services not available";
-                                                    rec.noOptionsTextAttr = "Services not available";
+                                                    rec.noResultsTextAttr = OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("T3pPwyl00k64JlPCc3h4ug#Value.-1726996070.1", "Services not available");
+                                                    rec.noOptionsTextAttr = OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("sr4xc85gqU+3m+jC+yrRCw#Value.-1726996070.1", "Services not available");
                                                     return rec;
                                                 }();
                                             })
@@ -375,7 +375,7 @@ define("PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$view", ["@outs
                                         },
                                         inputs: {
                                             HasCloseIcon: false,
-                                            Title: "Country of residence",
+                                            Title: OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("pbfCjWYiFUygNJAPjiikDg#Value.-925459353.1", "Country of residence"),
                                             HasBackButton: false
                                         },
                                         events: {
@@ -907,6 +907,112 @@ define("PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$controller.OnR
 });
 
 
-define("PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "pbfCjWYiFUygNJAPjiikDg#Value.-925459353.1": "Country of residence",
+        "sr4xc85gqU+3m+jC+yrRCw#Value.-1726996070.1": "Dienste nicht verfügbar",
+        "T3pPwyl00k64JlPCc3h4ug#Value.-1726996070.1": "Dienste nicht verfügbar",
+        "tIWqM2ADqkWSsmlZwXgmXQ#Value.830386192.1": "Select your country of residence",
+        "Ed8Do_sIpk+7UdUSVVE0Iw#Value": "Wohnsitzland",
+        "LD6+WYiDz0WM9S4YDB1rlQ#ValueExpression.958017463.1": "country-of-residence-dropdown"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "pbfCjWYiFUygNJAPjiikDg#Value.-925459353.1": "Country of residence",
+        "sr4xc85gqU+3m+jC+yrRCw#Value.-1726996070.1": "Servicios no disponibles",
+        "T3pPwyl00k64JlPCc3h4ug#Value.-1726996070.1": "Servicios no disponibles",
+        "tIWqM2ADqkWSsmlZwXgmXQ#Value.830386192.1": "Select your country of residence",
+        "Ed8Do_sIpk+7UdUSVVE0Iw#Value": "País de residencia",
+        "LD6+WYiDz0WM9S4YDB1rlQ#ValueExpression.958017463.1": "country-of-residence-dropdown"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "pbfCjWYiFUygNJAPjiikDg#Value.-925459353.1": "Country of residence",
+        "sr4xc85gqU+3m+jC+yrRCw#Value.-1726996070.1": "Services non disponibles",
+        "T3pPwyl00k64JlPCc3h4ug#Value.-1726996070.1": "Services non disponibles",
+        "tIWqM2ADqkWSsmlZwXgmXQ#Value.830386192.1": "Select your country of residence",
+        "Ed8Do_sIpk+7UdUSVVE0Iw#Value": "Pays de résidence",
+        "LD6+WYiDz0WM9S4YDB1rlQ#ValueExpression.958017463.1": "country-of-residence-dropdown"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "pbfCjWYiFUygNJAPjiikDg#Value.-925459353.1": "Country of residence",
+        "sr4xc85gqU+3m+jC+yrRCw#Value.-1726996070.1": "Servizi non disponibili",
+        "T3pPwyl00k64JlPCc3h4ug#Value.-1726996070.1": "Servizi non disponibili",
+        "tIWqM2ADqkWSsmlZwXgmXQ#Value.830386192.1": "Select your country of residence",
+        "Ed8Do_sIpk+7UdUSVVE0Iw#Value": "Paese di residenza",
+        "LD6+WYiDz0WM9S4YDB1rlQ#ValueExpression.958017463.1": "country-of-residence-dropdown"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "pbfCjWYiFUygNJAPjiikDg#Value.-925459353.1": "Country of residence",
+        "sr4xc85gqU+3m+jC+yrRCw#Value.-1726996070.1": "Usługi niedostępne",
+        "T3pPwyl00k64JlPCc3h4ug#Value.-1726996070.1": "Usługi niedostępne",
+        "tIWqM2ADqkWSsmlZwXgmXQ#Value.830386192.1": "Select your country of residence",
+        "Ed8Do_sIpk+7UdUSVVE0Iw#Value": "Kraj zamieszkania",
+        "LD6+WYiDz0WM9S4YDB1rlQ#ValueExpression.958017463.1": "country-of-residence-dropdown"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "pbfCjWYiFUygNJAPjiikDg#Value.-925459353.1": "Country of residence",
+        "sr4xc85gqU+3m+jC+yrRCw#Value.-1726996070.1": "Serviços não disponíveis",
+        "T3pPwyl00k64JlPCc3h4ug#Value.-1726996070.1": "Serviços não disponíveis",
+        "tIWqM2ADqkWSsmlZwXgmXQ#Value.830386192.1": "Select your country of residence",
+        "Ed8Do_sIpk+7UdUSVVE0Iw#Value": "País de residência",
+        "LD6+WYiDz0WM9S4YDB1rlQ#ValueExpression.958017463.1": "country-of-residence-dropdown"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "pbfCjWYiFUygNJAPjiikDg#Value.-925459353.1": "Country of residence",
+        "sr4xc85gqU+3m+jC+yrRCw#Value.-1726996070.1": "Услуги недоступны",
+        "T3pPwyl00k64JlPCc3h4ug#Value.-1726996070.1": "Услуги недоступны",
+        "tIWqM2ADqkWSsmlZwXgmXQ#Value.830386192.1": "Select your country of residence",
+        "Ed8Do_sIpk+7UdUSVVE0Iw#Value": "Страна проживания",
+        "LD6+WYiDz0WM9S4YDB1rlQ#ValueExpression.958017463.1": "country-of-residence-dropdown"
+    };
+});
+
+define("PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$translationsResources", ["exports", "PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$translationsResources.de-DE", "PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$translationsResources.es-ES", "PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$translationsResources.fr-FR", "PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$translationsResources.it-IT", "PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$translationsResources.pl-PL", "PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$translationsResources.pt-PT", "PartnersHub.VirtualAccountCreation.CountryOfResidence.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_VirtualAccountCreation_CountryOfResidence_mvc_translationsResources_deDE, PartnersHub_VirtualAccountCreation_CountryOfResidence_mvc_translationsResources_esES, PartnersHub_VirtualAccountCreation_CountryOfResidence_mvc_translationsResources_frFR, PartnersHub_VirtualAccountCreation_CountryOfResidence_mvc_translationsResources_itIT, PartnersHub_VirtualAccountCreation_CountryOfResidence_mvc_translationsResources_plPL, PartnersHub_VirtualAccountCreation_CountryOfResidence_mvc_translationsResources_ptPT, PartnersHub_VirtualAccountCreation_CountryOfResidence_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_VirtualAccountCreation_CountryOfResidence_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_VirtualAccountCreation_CountryOfResidence_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_VirtualAccountCreation_CountryOfResidence_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_VirtualAccountCreation_CountryOfResidence_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_VirtualAccountCreation_CountryOfResidence_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_VirtualAccountCreation_CountryOfResidence_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_VirtualAccountCreation_CountryOfResidence_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });

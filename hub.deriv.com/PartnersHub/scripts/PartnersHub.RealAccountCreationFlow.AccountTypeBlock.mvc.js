@@ -133,7 +133,7 @@ define("PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$view", ["@outsy
                     }
                 },
                 style: model.getCachedValue(idService.getId("IndividualAccount.Style"), function() {
-                    return (((PartnersHubClientVariables.getSelectedAccountType() === "Individual")) ? ("accountType-selected") : ("accountType"));
+                    return (((PartnersHubClientVariables.getSelectedAccountType() === OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("UDSRgRGzUUiUwUiJn6CoqA#ValueExpression.1947172537.1", "Individual"))) ? ("accountType-selected") : ("accountType"));
                 }, function() {
                     return PartnersHubClientVariables.getSelectedAccountType();
                 }),
@@ -184,13 +184,13 @@ define("PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$view", ["@outsy
                 extendedProperties: {
                     style: "font-weight: bold;"
                 },
-                text: ["Individual"],
+                text: [$text(getTranslation("BHu16PA31k+_xbV8XRVSxg#Value", "Individual"))],
                 _idProps: {
                     service: idService,
                     uuid: "5"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }))), $if((PartnersHubClientVariables.getSelectedAccountType() === "Individual"), false, this, function() {
+            }))), $if((PartnersHubClientVariables.getSelectedAccountType() === OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("PP959Y1b3E+P+uig8CMpHg#Condition.1947172537.1", "Individual")), false, this, function() {
                 return [React.createElement(OSWidgets.Image, {
                     image: OS.Navigation.VersionedURL.getVersionedUrl("img/PartnersHub.roundedblackcheckmark.png"),
                     type: /*Static*/ 0,
@@ -222,7 +222,7 @@ define("PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$view", ["@outsy
                     }
                 },
                 style: model.getCachedValue(idService.getId("CompanyAccount.Style"), function() {
-                    return (((PartnersHubClientVariables.getSelectedAccountType() === "Company")) ? ("accountType-selected") : ("accountType"));
+                    return (((PartnersHubClientVariables.getSelectedAccountType() === OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.-1679829923.1", "Company"))) ? (OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.432258721.1", "accountType-selected")) : (OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.866168583.1", "accountType")));
                 }, function() {
                     return PartnersHubClientVariables.getSelectedAccountType();
                 }),
@@ -273,13 +273,13 @@ define("PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$view", ["@outsy
                 extendedProperties: {
                     style: "font-weight: bold;"
                 },
-                text: ["Company"],
+                text: [$text(getTranslation("jee0rhaeF0i47BhZaur4XQ#Value", "Company"))],
                 _idProps: {
                     service: idService,
                     uuid: "12"
                 },
                 _widgetRecordProvider: widgetsRecordProvider
-            }))), $if((PartnersHubClientVariables.getSelectedAccountType() === "Company"), false, this, function() {
+            }))), $if((PartnersHubClientVariables.getSelectedAccountType() === OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("9NaN8+TFmUSsrAHuQcHGQw#Condition.-1679829923.1", "Company")), false, this, function() {
                 return [React.createElement(OSWidgets.Image, {
                     image: OS.Navigation.VersionedURL.getVersionedUrl("img/PartnersHub.roundedblackcheckmark.png"),
                     type: /*Static*/ 0,
@@ -355,7 +355,7 @@ define("PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$controller", ["
                                 callContext = controller.callContext(callContext);
                                 return OS.Flow.executeAsyncFlow(function() {
                                     // SelectedAccountType = "Company"
-                                    PartnersHubClientVariables.setSelectedAccountType("Company");
+                                    PartnersHubClientVariables.setSelectedAccountType(OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("2mcqCxIKFE2Z9g7oZ9rFSQ#Value.-1679829923.1", "Company"));
                                     // Trigger Event: OnClickEvent
                                     return controller.onClickEvent$Action(callContext);
                                 });
@@ -395,7 +395,7 @@ define("PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$controller", ["
                                 callContext = controller.callContext(callContext);
                                 return OS.Flow.executeAsyncFlow(function() {
                                     // SelectedAccountType = "Individual"
-                                    PartnersHubClientVariables.setSelectedAccountType("Individual");
+                                    PartnersHubClientVariables.setSelectedAccountType(OS.Injector.resolve(OS.ServiceNames.TranslationsService).getMessage("CLODEFLXaEKn9l9vYuDccA#Value.1947172537.1", "Individual"));
                                     // Trigger Event: OnClickEvent
                                     return controller.onClickEvent$Action(callContext);
                                 });
@@ -563,6 +563,140 @@ define("PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$controller", ["
 });
 
 
-define("PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$translationsResources", ["exports"], function(exports) {
-    return {};
+define("PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$translationsResources.de-DE", [], function() {
+    return {
+        "9NaN8+TFmUSsrAHuQcHGQw#Condition.-1679829923.1": "Unternehmen",
+        "jee0rhaeF0i47BhZaur4XQ#Value": "Unternehmen",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.-1679829923.1": "Company",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.432258721.1": "accountType-selected",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.866168583.1": "accountType",
+        "PP959Y1b3E+P+uig8CMpHg#Condition.1947172537.1": "Individuum",
+        "BHu16PA31k+_xbV8XRVSxg#Value": "Individuum",
+        "UDSRgRGzUUiUwUiJn6CoqA#ValueExpression.1947172537.1": "Individual",
+        "CLODEFLXaEKn9l9vYuDccA#Value.1947172537.1": "Individuum",
+        "2mcqCxIKFE2Z9g7oZ9rFSQ#Value.-1679829923.1": "Unternehmen"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$translationsResources.es-ES", [], function() {
+    return {
+        "9NaN8+TFmUSsrAHuQcHGQw#Condition.-1679829923.1": "Empresa",
+        "jee0rhaeF0i47BhZaur4XQ#Value": "Empresa",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.-1679829923.1": "Company",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.432258721.1": "accountType-selected",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.866168583.1": "accountType",
+        "PP959Y1b3E+P+uig8CMpHg#Condition.1947172537.1": "Individual",
+        "BHu16PA31k+_xbV8XRVSxg#Value": "Individual",
+        "UDSRgRGzUUiUwUiJn6CoqA#ValueExpression.1947172537.1": "Individual",
+        "CLODEFLXaEKn9l9vYuDccA#Value.1947172537.1": "Individual",
+        "2mcqCxIKFE2Z9g7oZ9rFSQ#Value.-1679829923.1": "Empresa"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$translationsResources.fr-FR", [], function() {
+    return {
+        "9NaN8+TFmUSsrAHuQcHGQw#Condition.-1679829923.1": "Entreprise",
+        "jee0rhaeF0i47BhZaur4XQ#Value": "Société",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.-1679829923.1": "Company",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.432258721.1": "accountType-selected",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.866168583.1": "accountType",
+        "PP959Y1b3E+P+uig8CMpHg#Condition.1947172537.1": "Individu",
+        "BHu16PA31k+_xbV8XRVSxg#Value": "Individu",
+        "UDSRgRGzUUiUwUiJn6CoqA#ValueExpression.1947172537.1": "Individual",
+        "CLODEFLXaEKn9l9vYuDccA#Value.1947172537.1": "Individuel",
+        "2mcqCxIKFE2Z9g7oZ9rFSQ#Value.-1679829923.1": "Entreprise"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$translationsResources.it-IT", [], function() {
+    return {
+        "9NaN8+TFmUSsrAHuQcHGQw#Condition.-1679829923.1": "Azienda",
+        "jee0rhaeF0i47BhZaur4XQ#Value": "Azienda",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.-1679829923.1": "Company",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.432258721.1": "accountType-selected",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.866168583.1": "accountType",
+        "PP959Y1b3E+P+uig8CMpHg#Condition.1947172537.1": "Individuo",
+        "BHu16PA31k+_xbV8XRVSxg#Value": "Individuo",
+        "UDSRgRGzUUiUwUiJn6CoqA#ValueExpression.1947172537.1": "Individual",
+        "CLODEFLXaEKn9l9vYuDccA#Value.1947172537.1": "Individuale",
+        "2mcqCxIKFE2Z9g7oZ9rFSQ#Value.-1679829923.1": "Azienda"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$translationsResources.pl-PL", [], function() {
+    return {
+        "9NaN8+TFmUSsrAHuQcHGQw#Condition.-1679829923.1": "Firma",
+        "jee0rhaeF0i47BhZaur4XQ#Value": "Firma",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.-1679829923.1": "Company",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.432258721.1": "accountType-selected",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.866168583.1": "accountType",
+        "PP959Y1b3E+P+uig8CMpHg#Condition.1947172537.1": "Indywidualny",
+        "BHu16PA31k+_xbV8XRVSxg#Value": "Osoba",
+        "UDSRgRGzUUiUwUiJn6CoqA#ValueExpression.1947172537.1": "Individual",
+        "CLODEFLXaEKn9l9vYuDccA#Value.1947172537.1": "Osoba",
+        "2mcqCxIKFE2Z9g7oZ9rFSQ#Value.-1679829923.1": "Firma"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$translationsResources.pt-PT", [], function() {
+    return {
+        "9NaN8+TFmUSsrAHuQcHGQw#Condition.-1679829923.1": "Empresa",
+        "jee0rhaeF0i47BhZaur4XQ#Value": "Empresa",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.-1679829923.1": "Company",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.432258721.1": "accountType-selected",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.866168583.1": "accountType",
+        "PP959Y1b3E+P+uig8CMpHg#Condition.1947172537.1": "Individual",
+        "BHu16PA31k+_xbV8XRVSxg#Value": "Indivíduo",
+        "UDSRgRGzUUiUwUiJn6CoqA#ValueExpression.1947172537.1": "Individual",
+        "CLODEFLXaEKn9l9vYuDccA#Value.1947172537.1": "Indivíduo",
+        "2mcqCxIKFE2Z9g7oZ9rFSQ#Value.-1679829923.1": "Empresa"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$translationsResources.ru-RU", [], function() {
+    return {
+        "9NaN8+TFmUSsrAHuQcHGQw#Condition.-1679829923.1": "Компания",
+        "jee0rhaeF0i47BhZaur4XQ#Value": "Компания",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.-1679829923.1": "Company",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.432258721.1": "accountType-selected",
+        "SW2UP1DiwU+LXUSM9CTPNQ#ValueExpression.866168583.1": "accountType",
+        "PP959Y1b3E+P+uig8CMpHg#Condition.1947172537.1": "Индивидуум",
+        "BHu16PA31k+_xbV8XRVSxg#Value": "Индивидуум",
+        "UDSRgRGzUUiUwUiJn6CoqA#ValueExpression.1947172537.1": "Individual",
+        "CLODEFLXaEKn9l9vYuDccA#Value.1947172537.1": "Индивид",
+        "2mcqCxIKFE2Z9g7oZ9rFSQ#Value.-1679829923.1": "Компания"
+    };
+});
+
+define("PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$translationsResources", ["exports", "PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$translationsResources.de-DE", "PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$translationsResources.es-ES", "PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$translationsResources.fr-FR", "PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$translationsResources.it-IT", "PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$translationsResources.pl-PL", "PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$translationsResources.pt-PT", "PartnersHub.RealAccountCreationFlow.AccountTypeBlock.mvc$translationsResources.ru-RU"], function(exports, PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvc_translationsResources_deDE, PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvc_translationsResources_esES, PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvc_translationsResources_frFR, PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvc_translationsResources_itIT, PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvc_translationsResources_plPL, PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvc_translationsResources_ptPT, PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvc_translationsResources_ruRU) {
+    return {
+        "de-DE": {
+            "translations": PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvc_translationsResources_deDE,
+            "isRTL": false
+        },
+        "es-ES": {
+            "translations": PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvc_translationsResources_esES,
+            "isRTL": false
+        },
+        "fr-FR": {
+            "translations": PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvc_translationsResources_frFR,
+            "isRTL": false
+        },
+        "it-IT": {
+            "translations": PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvc_translationsResources_itIT,
+            "isRTL": false
+        },
+        "pl-PL": {
+            "translations": PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvc_translationsResources_plPL,
+            "isRTL": false
+        },
+        "pt-PT": {
+            "translations": PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvc_translationsResources_ptPT,
+            "isRTL": false
+        },
+        "ru-RU": {
+            "translations": PartnersHub_RealAccountCreationFlow_AccountTypeBlock_mvc_translationsResources_ruRU,
+            "isRTL": false
+        }
+    };
 });
