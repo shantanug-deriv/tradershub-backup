@@ -257,8 +257,7 @@ define("tradershub.RealAccountCreationBlocks.IDVDocumentSelectionMobileBlock.mvc
     return View;
 });
 define("tradershub.RealAccountCreationBlocks.IDVDocumentSelectionMobileBlock.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreationBlocks.IDVDocumentSelectionMobileBlock.mvc$controller.OnReady.GetIDVCountryJS", "tradershub.RealAccountCreationBlocks.IDVDocumentSelectionMobileBlock.mvc$controller.ListItemOnClick.RudderStackJS", "tradershub.RealAccountCreationBlocks.IDVDocumentSelectionMobileBlock.mvc$controller.ListItemOnClick.JavaScript1JS", "tradershub.model$ST_81244dbb8e72a05a708e9a449198444eStructure", "tradershub.model$RL_9103c933715345647d34a3ebfe5f38fd"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationBlocks_IDVDocumentSelectionMobileBlock_mvc_controller_OnReady_GetIDVCountryJS, tradershub_RealAccountCreationBlocks_IDVDocumentSelectionMobileBlock_mvc_controller_ListItemOnClick_RudderStackJS, tradershub_RealAccountCreationBlocks_IDVDocumentSelectionMobileBlock_mvc_controller_ListItemOnClick_JavaScript1JS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

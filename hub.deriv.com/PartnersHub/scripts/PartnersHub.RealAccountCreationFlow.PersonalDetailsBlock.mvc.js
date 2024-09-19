@@ -756,8 +756,7 @@ define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$view", ["@o
     return View;
 });
 define("PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$translationsResources", "PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$controller.OpenDateOfBirthContainer.ValidateFirstandLastNameJS", "PartnersHub.RealAccountCreationFlow.PersonalDetailsBlock.mvc$controller.ButtonOnClick.ValidateJS", "OutSystemsUI.model$ST_bc4abb4233d9ce894e855c520a20c76fStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "PartnersHub.model$ST_b5010cf570b4e39f4aa14db0ae11cfbfStructure", "PartnersHub.model$ST_24f25c56883af3fb98f750bd4c11bbdcStructure", "PartnersHub.controller$UseDevice", "PartnersHub.controller$NextStepReal"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_TranslationsResources, PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_controller_OpenDateOfBirthContainer_ValidateFirstandLastNameJS, PartnersHub_RealAccountCreationFlow_PersonalDetailsBlock_mvc_controller_ButtonOnClick_ValidateJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

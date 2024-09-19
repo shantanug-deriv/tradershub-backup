@@ -687,8 +687,7 @@ define("CustomComponents.PasswordPolicy.PasswordPolicy.mvc$view", ["@outsystems/
     return View;
 });
 define("CustomComponents.PasswordPolicy.PasswordPolicy.mvc$controller", ["@outsystems/runtime-core-js", "CustomComponents.model", "CustomComponents.controller", "System_.model", "CustomComponents.languageResources", "CustomComponents.PasswordPolicy.PasswordPolicy.mvc$controller.OnParametersChanged.checkValidJS", "System_.model$PasswordValidationResultRec", "CustomComponents.referencesHealth", "CustomComponents.referencesHealth$System_", "System_.model$PasswordComplexityPolicyRec"], function(OSRuntimeCore, CustomComponentsModel, CustomComponentsController, System_Model, CustomComponentsLanguageResources, CustomComponents_PasswordPolicy_PasswordPolicy_mvc_controller_OnParametersChanged_checkValidJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

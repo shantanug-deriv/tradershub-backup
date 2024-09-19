@@ -13885,7 +13885,7 @@
             }
         }
     }, hf = lf(nf, (function(e, t) {
-        var n = of("GetId"),
+        var n = of ("GetId"),
             r = JSON.stringify(e);
         return sf(t, n, r)
     }), (function(e) {
@@ -14014,7 +14014,7 @@
             Expiration: new Date(1e3 * e.Expiration)
         }
     }, mf = lf(nf, (function(e, t) {
-        var n = of("GetCredentialsForIdentity"),
+        var n = of ("GetCredentialsForIdentity"),
             r = JSON.stringify(e);
         return sf(t, n, r)
     }), (function(e) {
@@ -15106,7 +15106,7 @@
                     for (i = n; i < a; i++)
                         if (c(e, i) === c(t, -1 === l ? 0 : i - l)) {
                             if (-1 === l && (l = i), i - l + 1 === u) return l * s
-                        } else - 1 !== l && (i -= i - l), l = -1
+                        } else -1 !== l && (i -= i - l), l = -1
                 } else
                     for (n + u > a && (n = a - u), i = n; i >= 0; i--) {
                         for (var d = !0, f = 0; f < u; f++)
@@ -20320,8 +20320,7 @@
             return c(this, void 0, void 0, (function*() {
                 var e;
                 const t = this.authData.readEndpoints();
-                if (t) return t;
-                {
+                if (t) return t; {
                     const t = yield this.httpClient.get({
                         url: k(this, Gv, "f")
                     });

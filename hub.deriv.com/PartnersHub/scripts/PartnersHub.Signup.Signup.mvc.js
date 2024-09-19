@@ -1040,8 +1040,7 @@ define("PartnersHub.Signup.Signup.mvc$view", ["@outsystems/runtime-core-js", "Pa
     return View;
 });
 define("PartnersHub.Signup.Signup.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Signup.Signup.mvc$translationsResources", "PartnersHub.Signup.controller", "PartnersHub.Signup.Signup.mvc$controller.CreatePartnerAccountOnClick.EmailCheckJS", "RESTAPIWebsocket.model$ST_178833eaf81da5980f461500f3f98736Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.model$ST_6e1c5ab117f6599aeb50c68a9a2fa65aStructure", "RESTAPIWebsocket.controller$VerifyEmail", "PartnersHub.controller$RedirectToOauth", "PartnersHub.controller$UseDevice"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Signup_Signup_mvc_TranslationsResources, PartnersHub_SignupController, PartnersHub_Signup_Signup_mvc_controller_CreatePartnerAccountOnClick_EmailCheckJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

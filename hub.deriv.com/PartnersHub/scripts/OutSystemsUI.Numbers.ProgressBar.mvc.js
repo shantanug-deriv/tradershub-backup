@@ -242,8 +242,7 @@ define("OutSystemsUI.Numbers.ProgressBar.mvc$view", ["@outsystems/runtime-core-j
     return View;
 });
 define("OutSystemsUI.Numbers.ProgressBar.mvc$controller", ["@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.controller", "OutSystemsUI.languageResources", "OutSystemsUI.Numbers.ProgressBar.mvc$translationsResources", "OutSystemsUI.Numbers.ProgressBar.mvc$controller.RegisterCallbacks.GetCallbackHandlersJS", "OutSystemsUI.model$ST_b29bdecfa7956bb3d5bee97678e39fb0Structure", "OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", "OutSystemsUI.controller$LogEvent", "OutSystemsUI.controller$GenerateUniqueId", "OutSystemsUI.controller$ProgressBarCreate", "OutSystemsUI.controller$ProgressChangeIntegerProperty", "OutSystemsUI.controller$ProgressChangeTextProperty", "OutSystemsUI.controller$ProgressDestroy", "OutSystemsUI.controller$ProgressInitialize", "OutSystemsUI.controller$ProgressRegisterCallback"], function(OSRuntimeCore, OutSystemsUIModel, OutSystemsUIController, OutSystemsUILanguageResources, OutSystemsUI_Numbers_ProgressBar_mvc_TranslationsResources, OutSystemsUI_Numbers_ProgressBar_mvc_controller_RegisterCallbacks_GetCallbackHandlersJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

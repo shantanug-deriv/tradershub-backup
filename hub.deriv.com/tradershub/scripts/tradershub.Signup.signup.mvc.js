@@ -708,8 +708,7 @@ define("tradershub.Signup.signup.mvc$view", ["@outsystems/runtime-core-js", "tra
     return View;
 });
 define("tradershub.Signup.signup.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.Signup.controller", "tradershub.Signup.signup.mvc$controller.OnReady.CheckAuthURLParamJS", "tradershub.Signup.signup.mvc$controller.OnReady.RudderStackJS", "tradershub.Signup.signup.mvc$controller.SendVerifyEmail.RudderStackJS", "tradershub.Signup.signup.mvc$controller.SendVerifyEmail.VerifyEmailPayloadJS", "tradershub.Signup.signup.mvc$controller.Validate.ValidateEmailJS", "tradershub.Signup.signup.mvc$controller.SubmitOnClick.RudderStackJS", "tradershub.Signup.signup.mvc$controller.OnInitialize.CheckAuthURLParamJS", "OutSystemsUI.controller$IsDesktop", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.controller$DerivApiSendMessage"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIController, tradershubLanguageResources, tradershubClientVariables, tradershub_SignupController, tradershub_Signup_signup_mvc_controller_OnReady_CheckAuthURLParamJS, tradershub_Signup_signup_mvc_controller_OnReady_RudderStackJS, tradershub_Signup_signup_mvc_controller_SendVerifyEmail_RudderStackJS, tradershub_Signup_signup_mvc_controller_SendVerifyEmail_VerifyEmailPayloadJS, tradershub_Signup_signup_mvc_controller_Validate_ValidateEmailJS, tradershub_Signup_signup_mvc_controller_SubmitOnClick_RudderStackJS, tradershub_Signup_signup_mvc_controller_OnInitialize_CheckAuthURLParamJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

@@ -2335,82 +2335,101 @@ var OSFramework;
                 OperatingSystemKeyword["Windows"] = "windows";
             })(OperatingSystemKeyword || (OperatingSystemKeyword = {}));
             const iphoneDevices = [{
-                width: 1125,
-                height: 2436,
-                description: 'iphone x/xs'
-            }, {
-                width: 828,
-                height: 1792,
-                description: 'iphone xr'
-            }, {
-                width: 750,
-                height: 1624,
-                description: 'iphone xr scaled'
-            }, {
-                width: 1242,
-                height: 2688,
-                description: 'iphone xs max'
-            }, {
-                width: 828,
-                height: 1792,
-                description: 'iphone 11'
-            }, {
-                width: 1125,
-                height: 2436,
-                description: 'iphone 11 pro'
-            }, {
-                width: 1242,
-                height: 2688,
-                description: 'iphone 11 pro max'
-            }, {
-                width: 1125,
-                height: 2436,
-                description: 'iphone 12 mini'
-            }, {
-                width: 1170,
-                height: 2532,
-                description: 'iphone 12'
-            }, {
-                width: 1170,
-                height: 2532,
-                description: 'iphone 12 pro'
-            }, {
-                width: 1284,
-                height: 2778,
-                description: 'iphone 12 pro max'
-            }, {
-                width: 1125,
-                height: 2436,
-                description: 'iphone 13 mini'
-            }, {
-                width: 1170,
-                height: 2532,
-                description: 'iphone 13'
-            }, {
-                width: 1170,
-                height: 2532,
-                description: 'iphone 13 pro'
-            }, {
-                width: 1284,
-                height: 2778,
-                description: 'iphone 13 pro max'
-            }, {
-                width: 1170,
-                height: 2532,
-                description: 'iphone 14'
-            }, {
-                width: 1284,
-                height: 2778,
-                description: 'iphone 14 plus'
-            }, {
-                width: 1179,
-                height: 2556,
-                description: 'iphone 14 pro'
-            }, {
-                width: 1290,
-                height: 2796,
-                description: 'iphone 14 pro max'
-            }, ];
+                    width: 1125,
+                    height: 2436,
+                    description: 'iphone x/xs'
+                },
+                {
+                    width: 828,
+                    height: 1792,
+                    description: 'iphone xr'
+                },
+                {
+                    width: 750,
+                    height: 1624,
+                    description: 'iphone xr scaled'
+                },
+                {
+                    width: 1242,
+                    height: 2688,
+                    description: 'iphone xs max'
+                },
+                {
+                    width: 828,
+                    height: 1792,
+                    description: 'iphone 11'
+                },
+                {
+                    width: 1125,
+                    height: 2436,
+                    description: 'iphone 11 pro'
+                },
+                {
+                    width: 1242,
+                    height: 2688,
+                    description: 'iphone 11 pro max'
+                },
+                {
+                    width: 1125,
+                    height: 2436,
+                    description: 'iphone 12 mini'
+                },
+                {
+                    width: 1170,
+                    height: 2532,
+                    description: 'iphone 12'
+                },
+                {
+                    width: 1170,
+                    height: 2532,
+                    description: 'iphone 12 pro'
+                },
+                {
+                    width: 1284,
+                    height: 2778,
+                    description: 'iphone 12 pro max'
+                },
+                {
+                    width: 1125,
+                    height: 2436,
+                    description: 'iphone 13 mini'
+                },
+                {
+                    width: 1170,
+                    height: 2532,
+                    description: 'iphone 13'
+                },
+                {
+                    width: 1170,
+                    height: 2532,
+                    description: 'iphone 13 pro'
+                },
+                {
+                    width: 1284,
+                    height: 2778,
+                    description: 'iphone 13 pro max'
+                },
+                {
+                    width: 1170,
+                    height: 2532,
+                    description: 'iphone 14'
+                },
+                {
+                    width: 1284,
+                    height: 2778,
+                    description: 'iphone 14 plus'
+                },
+                {
+                    width: 1179,
+                    height: 2556,
+                    description: 'iphone 14 pro'
+                },
+                {
+                    width: 1290,
+                    height: 2796,
+                    description: 'iphone 14 pro max'
+                },
+            ];
             class DeviceInfo {
                 static _getOperatingSystem(userAgent = '') {
                     const userAgentLocal = DeviceInfo._getUserAgent(userAgent);
@@ -21084,10 +21103,12 @@ var Providers;
                         }
                         setA11YProperties() {
                             this.noUiSliderOpts.handleAttributes = [{
-                                'aria-label': RangeSlider.NoUiSlider.Enum.NoUISliderLabels.Lower
-                            }, {
-                                'aria-label': RangeSlider.NoUiSlider.Enum.NoUISliderLabels.Upper
-                            }, ];
+                                    'aria-label': RangeSlider.NoUiSlider.Enum.NoUISliderLabels.Lower
+                                },
+                                {
+                                    'aria-label': RangeSlider.NoUiSlider.Enum.NoUISliderLabels.Upper
+                                },
+                            ];
                         }
                         setCallbacks() {
                             this.eventProviderValueChanged = this._valueChangeCallback.bind(this);
@@ -21156,10 +21177,12 @@ var Providers;
                         getProviderConfig() {
                             let rangeSliderOptions = {
                                 handleAttributes: [{
-                                    'aria-label': RangeSlider.NoUiSlider.Enum.NoUISliderLabels.Handle
-                                }, {
-                                    'aria-label': RangeSlider.NoUiSlider.Enum.NoUISliderLabels.Handle
-                                }, ],
+                                        'aria-label': RangeSlider.NoUiSlider.Enum.NoUISliderLabels.Handle
+                                    },
+                                    {
+                                        'aria-label': RangeSlider.NoUiSlider.Enum.NoUISliderLabels.Handle
+                                    },
+                                ],
                                 start: [this.StartingValueFrom, this.StartingValueTo],
                                 connect: true,
                             };
@@ -21383,30 +21406,34 @@ var Providers;
                 class UpdateZindex {
                     constructor(picker) {
                         this._patternExceptions = [{
-                            name: 'BottomSheet',
-                            class: {
-                                get: 'osui-bottom-sheet',
-                                set: 'inside-bottom-sheet'
-                            }
-                        }, {
-                            name: 'Notification',
-                            class: {
-                                get: 'osui-notification',
-                                set: 'inside-notification'
-                            }
-                        }, {
-                            name: 'Popup',
-                            class: {
-                                get: 'popup-backdrop',
-                                set: 'inside-popup'
-                            }
-                        }, {
-                            name: 'Sidebar',
-                            class: {
-                                get: 'osui-sidebar',
-                                set: 'inside-sidebar'
-                            }
-                        }, ];
+                                name: 'BottomSheet',
+                                class: {
+                                    get: 'osui-bottom-sheet',
+                                    set: 'inside-bottom-sheet'
+                                }
+                            },
+                            {
+                                name: 'Notification',
+                                class: {
+                                    get: 'osui-notification',
+                                    set: 'inside-notification'
+                                }
+                            },
+                            {
+                                name: 'Popup',
+                                class: {
+                                    get: 'popup-backdrop',
+                                    set: 'inside-popup'
+                                }
+                            },
+                            {
+                                name: 'Sidebar',
+                                class: {
+                                    get: 'osui-sidebar',
+                                    set: 'inside-sidebar'
+                                }
+                            },
+                        ];
                         this._picker = picker;
                         this._updateZindex();
                     }

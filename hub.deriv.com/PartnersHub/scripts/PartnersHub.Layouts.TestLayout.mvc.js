@@ -120,8 +120,7 @@ define("PartnersHub.Layouts.TestLayout.mvc$view", ["@outsystems/runtime-core-js"
     return View;
 });
 define("PartnersHub.Layouts.TestLayout.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Layouts.TestLayout.mvc$translationsResources"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Layouts_TestLayout_mvc_TranslationsResources) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

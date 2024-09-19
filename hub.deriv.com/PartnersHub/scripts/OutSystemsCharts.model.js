@@ -1,6 +1,5 @@
 define("OutSystemsCharts.model$ST_f281012c72a5f666adafe0a5edc16938Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_f281012c72a5f666adafe0a5edc16938StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -33,8 +32,7 @@ define("OutSystemsCharts.model$ST_f281012c72a5f666adafe0a5edc16938Structure", ["
 });
 
 define("OutSystemsCharts.model$ST_58245655fd14aecad2b52faf6ef8f39bStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_f281012c72a5f666adafe0a5edc16938Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_58245655fd14aecad2b52faf6ef8f39bStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -67,8 +65,7 @@ define("OutSystemsCharts.model$ST_58245655fd14aecad2b52faf6ef8f39bStructure", ["
 });
 
 define("OutSystemsCharts.model$RC_00179e46ad196fea946536d51a4dedf6", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_58245655fd14aecad2b52faf6ef8f39bStructure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_00179e46ad196fea946536d51a4dedf6Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -97,8 +94,7 @@ define("OutSystemsCharts.model$RC_00179e46ad196fea946536d51a4dedf6", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_5552d23a1ca6c55fb342792127e6be05Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_5552d23a1ca6c55fb342792127e6be05StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -170,8 +166,7 @@ define("OutSystemsCharts.model$ST_5552d23a1ca6c55fb342792127e6be05Structure", ["
 });
 
 define("OutSystemsCharts.model$RC_024e2239e97c5f6d0bb80b2851c02e49", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_5552d23a1ca6c55fb342792127e6be05Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_024e2239e97c5f6d0bb80b2851c02e49Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -200,8 +195,7 @@ define("OutSystemsCharts.model$RC_024e2239e97c5f6d0bb80b2851c02e49", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_ac4a98d5209ff3cbf055ac67e03c6463Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ac4a98d5209ff3cbf055ac67e03c6463StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -242,8 +236,7 @@ define("OutSystemsCharts.model$RL_039003cd3465e421b831537459c44187", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_0398a87aaf5fccfd4503642b3b7d1dc0Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_0398a87aaf5fccfd4503642b3b7d1dc0StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -270,8 +263,7 @@ define("OutSystemsCharts.model$ST_0398a87aaf5fccfd4503642b3b7d1dc0Structure", ["
 });
 
 define("OutSystemsCharts.model$ST_9695772c3b8ae4caa8a4e3fb1dfb5bb8Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_9695772c3b8ae4caa8a4e3fb1dfb5bb8StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -295,8 +287,7 @@ define("OutSystemsCharts.model$ST_9695772c3b8ae4caa8a4e3fb1dfb5bb8Structure", ["
 });
 
 define("OutSystemsCharts.model$ST_223dfcdc1e3c93bfb0e422a434fb180fStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_9695772c3b8ae4caa8a4e3fb1dfb5bb8Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_223dfcdc1e3c93bfb0e422a434fb180fStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -352,8 +343,7 @@ define("OutSystemsCharts.model$RL_050b01c364c9df98c9aff37d97787da6", ["exports",
 });
 
 define("OutSystemsCharts.model$EN_c09810fe22e8a6a144d75dbd4ee5e70eEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_c09810fe22e8a6a144d75dbd4ee5e70eEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -380,8 +370,7 @@ define("OutSystemsCharts.model$EN_c09810fe22e8a6a144d75dbd4ee5e70eEntityRecord",
 });
 
 define("OutSystemsCharts.model$RC_054139ee1b4e118a0de0bda9edde9b3e", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_c09810fe22e8a6a144d75dbd4ee5e70eEntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_054139ee1b4e118a0de0bda9edde9b3eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -410,8 +399,7 @@ define("OutSystemsCharts.model$RC_054139ee1b4e118a0de0bda9edde9b3e", ["exports",
 });
 
 define("OutSystemsCharts.model$EN_0aaaca7207138bf7860a19b299026910EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_0aaaca7207138bf7860a19b299026910EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -438,8 +426,7 @@ define("OutSystemsCharts.model$EN_0aaaca7207138bf7860a19b299026910EntityRecord",
 });
 
 define("OutSystemsCharts.model$EN_0c0b103cba961483054afffbc30b3066EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_0c0b103cba961483054afffbc30b3066EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -466,8 +453,7 @@ define("OutSystemsCharts.model$EN_0c0b103cba961483054afffbc30b3066EntityRecord",
 });
 
 define("OutSystemsCharts.model$EN_0e1d37c640439329e5a37a201fe5ef06EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_0e1d37c640439329e5a37a201fe5ef06EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -494,8 +480,7 @@ define("OutSystemsCharts.model$EN_0e1d37c640439329e5a37a201fe5ef06EntityRecord",
 });
 
 define("OutSystemsCharts.model$ST_24000c8fde24da45a0d83940a64dbbafStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_24000c8fde24da45a0d83940a64dbbafStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -522,8 +507,7 @@ define("OutSystemsCharts.model$ST_24000c8fde24da45a0d83940a64dbbafStructure", ["
 });
 
 define("OutSystemsCharts.model$RC_c38769c4e3f53c55790e6a4b2c81b7ff", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_24000c8fde24da45a0d83940a64dbbafStructure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c38769c4e3f53c55790e6a4b2c81b7ffInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -566,8 +550,7 @@ define("OutSystemsCharts.model$RL_0f73e10e5d9541713603d0a98a57b9d8", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_0facb06834084a9f1a55e2bf7cbbfcf1Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_0facb06834084a9f1a55e2bf7cbbfcf1StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -642,8 +625,7 @@ define("OutSystemsCharts.model$ST_0facb06834084a9f1a55e2bf7cbbfcf1Structure", ["
 });
 
 define("OutSystemsCharts.model$ST_4bdf4d0ba65c5e31172d7b508a740391Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_4bdf4d0ba65c5e31172d7b508a740391StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -667,8 +649,7 @@ define("OutSystemsCharts.model$ST_4bdf4d0ba65c5e31172d7b508a740391Structure", ["
 });
 
 define("OutSystemsCharts.model$RC_11e12158254e5be6bde5f4ba88bacb32", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_4bdf4d0ba65c5e31172d7b508a740391Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_11e12158254e5be6bde5f4ba88bacb32Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -697,8 +678,7 @@ define("OutSystemsCharts.model$RC_11e12158254e5be6bde5f4ba88bacb32", ["exports",
 });
 
 define("OutSystemsCharts.model$EN_12004a480323e1caa1d0e9cb95ddd993EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_12004a480323e1caa1d0e9cb95ddd993EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -725,8 +705,7 @@ define("OutSystemsCharts.model$EN_12004a480323e1caa1d0e9cb95ddd993EntityRecord",
 });
 
 define("OutSystemsCharts.model$ST_73d23e1a8b3eeebfe9bad962b0689dfcStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_73d23e1a8b3eeebfe9bad962b0689dfcStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -753,8 +732,7 @@ define("OutSystemsCharts.model$ST_73d23e1a8b3eeebfe9bad962b0689dfcStructure", ["
 });
 
 define("OutSystemsCharts.model$RC_1566355ec5faf3138acdd10ae68fb068", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_73d23e1a8b3eeebfe9bad962b0689dfcStructure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_1566355ec5faf3138acdd10ae68fb068Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -783,8 +761,7 @@ define("OutSystemsCharts.model$RC_1566355ec5faf3138acdd10ae68fb068", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_5f03a71663878a59bb35497ebf79ae21Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_5f03a71663878a59bb35497ebf79ae21StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -831,8 +808,7 @@ define("OutSystemsCharts.model$RL_16d1d7be8bdee511276e135660ca682a", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_e5a78fd1ee745d24f58f7ce224fde0f0Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e5a78fd1ee745d24f58f7ce224fde0f0StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -856,8 +832,7 @@ define("OutSystemsCharts.model$ST_e5a78fd1ee745d24f58f7ce224fde0f0Structure", ["
 });
 
 define("OutSystemsCharts.model$RC_d614572f93a79200a3235ee26034df62", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_e5a78fd1ee745d24f58f7ce224fde0f0Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d614572f93a79200a3235ee26034df62Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -914,8 +889,7 @@ define("OutSystemsCharts.model$BasicTypeList<Text>", ["exports", "@outsystems/ru
 });
 
 define("OutSystemsCharts.model$ST_7eaeb3ff8676da7994fdf13c6a5a2bffStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_7eaeb3ff8676da7994fdf13c6a5a2bffStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -939,8 +913,7 @@ define("OutSystemsCharts.model$ST_7eaeb3ff8676da7994fdf13c6a5a2bffStructure", ["
 });
 
 define("OutSystemsCharts.model$RC_a193d684326814a4a15e932d0cccd250", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_7eaeb3ff8676da7994fdf13c6a5a2bffStructure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a193d684326814a4a15e932d0cccd250Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -983,8 +956,7 @@ define("OutSystemsCharts.model$RL_1acc6ead75cf05d5d64a0e1585d65072", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_1ae4a810d4cabfbdad2f5a6ea4ed9737Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_1ae4a810d4cabfbdad2f5a6ea4ed9737StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1011,8 +983,7 @@ define("OutSystemsCharts.model$ST_1ae4a810d4cabfbdad2f5a6ea4ed9737Structure", ["
 });
 
 define("OutSystemsCharts.model$ST_1bc129a4ddcba67fb3de5717d1aad835Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_1bc129a4ddcba67fb3de5717d1aad835StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1053,8 +1024,7 @@ define("OutSystemsCharts.model$RL_1c28901efde3032d217fafbbe1ebcdba", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_499ab2dc67e078b5441ac528549f73d9Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_499ab2dc67e078b5441ac528549f73d9StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1090,8 +1060,7 @@ define("OutSystemsCharts.model$ST_499ab2dc67e078b5441ac528549f73d9Structure", ["
 });
 
 define("OutSystemsCharts.model$ST_639b8c480159ce740702f0a0cf3b55a5Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_639b8c480159ce740702f0a0cf3b55a5StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1115,8 +1084,7 @@ define("OutSystemsCharts.model$ST_639b8c480159ce740702f0a0cf3b55a5Structure", ["
 });
 
 define("OutSystemsCharts.model$ST_87973ae5f6c07db6193b59603f29dce6Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_87973ae5f6c07db6193b59603f29dce6StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1149,8 +1117,7 @@ define("OutSystemsCharts.model$ST_87973ae5f6c07db6193b59603f29dce6Structure", ["
 });
 
 define("OutSystemsCharts.model$ST_80a54fdc5a44237df505b3e5b63ad0feStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_80a54fdc5a44237df505b3e5b63ad0feStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1186,8 +1153,7 @@ define("OutSystemsCharts.model$ST_80a54fdc5a44237df505b3e5b63ad0feStructure", ["
 });
 
 define("OutSystemsCharts.model$ST_c4b262744850a3b08ce7036d0595a8dfStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_c4b262744850a3b08ce7036d0595a8dfStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1220,8 +1186,7 @@ define("OutSystemsCharts.model$ST_c4b262744850a3b08ce7036d0595a8dfStructure", ["
 });
 
 define("OutSystemsCharts.model$ST_69d759501e759b3aa378b0f06e6de282Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_499ab2dc67e078b5441ac528549f73d9Structure", "OutSystemsCharts.model$ST_639b8c480159ce740702f0a0cf3b55a5Structure", "OutSystemsCharts.model$ST_87973ae5f6c07db6193b59603f29dce6Structure", "OutSystemsCharts.model$ST_80a54fdc5a44237df505b3e5b63ad0feStructure", "OutSystemsCharts.model$ST_c4b262744850a3b08ce7036d0595a8dfStructure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_69d759501e759b3aa378b0f06e6de282StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1283,8 +1248,7 @@ define("OutSystemsCharts.model$RL_1d037414aa3694f17d0340fda139b00a", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_b3834d7ed62611267b2b87b3fd352441Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b3834d7ed62611267b2b87b3fd352441StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1311,8 +1275,7 @@ define("OutSystemsCharts.model$ST_b3834d7ed62611267b2b87b3fd352441Structure", ["
 });
 
 define("OutSystemsCharts.model$RC_65ec7e7c1193943ac7d316b6ce7d97cc", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_b3834d7ed62611267b2b87b3fd352441Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_65ec7e7c1193943ac7d316b6ce7d97ccInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1355,8 +1318,7 @@ define("OutSystemsCharts.model$RL_1d8b3d5b48dbe9440703b14a3e969bae", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_f3000856fa7c3354ce371360ce2db23a", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_5f03a71663878a59bb35497ebf79ae21Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f3000856fa7c3354ce371360ce2db23aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1399,8 +1361,7 @@ define("OutSystemsCharts.model$RL_2010e40590918539b1d6aa694f83204c", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_8921a71e9062659e96a587c9434dca93Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_9695772c3b8ae4caa8a4e3fb1dfb5bb8Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_8921a71e9062659e96a587c9434dca93StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1468,8 +1429,7 @@ define("OutSystemsCharts.model$RL_20f420181e8d6572dc90698942655c6c", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_73b5287c34f36a04fe003585368d6e1bStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_73b5287c34f36a04fe003585368d6e1bStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1505,8 +1465,7 @@ define("OutSystemsCharts.model$ST_73b5287c34f36a04fe003585368d6e1bStructure", ["
 });
 
 define("OutSystemsCharts.model$RC_23f04252aed9962b8ebdb251db000b96", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_73b5287c34f36a04fe003585368d6e1bStructure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_23f04252aed9962b8ebdb251db000b96Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1535,8 +1494,7 @@ define("OutSystemsCharts.model$RC_23f04252aed9962b8ebdb251db000b96", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_7c45885429f626cd0775ccbea11ace15Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_7c45885429f626cd0775ccbea11ace15StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1566,8 +1524,7 @@ define("OutSystemsCharts.model$ST_7c45885429f626cd0775ccbea11ace15Structure", ["
 });
 
 define("OutSystemsCharts.model$RC_d64ed7ef21079464b9daea706fb2c2b4", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_7c45885429f626cd0775ccbea11ace15Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d64ed7ef21079464b9daea706fb2c2b4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1610,8 +1567,7 @@ define("OutSystemsCharts.model$RL_242f8462babd3a752e896659b32eeb6c", ["exports",
 });
 
 define("OutSystemsCharts.model$EN_adefbfd7e853fa2cb46e2f151738d1b5EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_adefbfd7e853fa2cb46e2f151738d1b5EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1666,8 +1622,7 @@ define("OutSystemsCharts.model$RL_2486f6833a6be16aa4e796d4596cbf53", ["exports",
 });
 
 define("OutSystemsCharts.model$EN_f2ce8f552d142202c9a955104f8986e7EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_f2ce8f552d142202c9a955104f8986e7EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1694,8 +1649,7 @@ define("OutSystemsCharts.model$EN_f2ce8f552d142202c9a955104f8986e7EntityRecord",
 });
 
 define("OutSystemsCharts.model$RC_250abb7806127d6d6c565bcd6bd8fd6f", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_f2ce8f552d142202c9a955104f8986e7EntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_250abb7806127d6d6c565bcd6bd8fd6fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1724,8 +1678,7 @@ define("OutSystemsCharts.model$RC_250abb7806127d6d6c565bcd6bd8fd6f", ["exports",
 });
 
 define("OutSystemsCharts.model$EN_dd503b13df684d7ec8cc34d86edadd21EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_dd503b13df684d7ec8cc34d86edadd21EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1752,8 +1705,7 @@ define("OutSystemsCharts.model$EN_dd503b13df684d7ec8cc34d86edadd21EntityRecord",
 });
 
 define("OutSystemsCharts.model$RC_d2362d0d0bb36623a5f0020a47954dfc", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_dd503b13df684d7ec8cc34d86edadd21EntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d2362d0d0bb36623a5f0020a47954dfcInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1796,8 +1748,7 @@ define("OutSystemsCharts.model$RL_257ff75163dcb7f5df49442c867d608a", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_268a48d1c903fcee31c2d9b87f8f364f", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_1bc129a4ddcba67fb3de5717d1aad835Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_268a48d1c903fcee31c2d9b87f8f364fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1826,8 +1777,7 @@ define("OutSystemsCharts.model$RC_268a48d1c903fcee31c2d9b87f8f364f", ["exports",
 });
 
 define("OutSystemsCharts.model$EN_b204725747cd7cf563ecf5a8b8d794e0EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_b204725747cd7cf563ecf5a8b8d794e0EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1868,8 +1818,7 @@ define("OutSystemsCharts.model$RL_26d345a20c798307b7e957ba8cd7e3bb", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_2b9e41428d5c5ca3b04a80be4ce98f53", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_639b8c480159ce740702f0a0cf3b55a5Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2b9e41428d5c5ca3b04a80be4ce98f53Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1926,8 +1875,7 @@ define("OutSystemsCharts.model$RL_2d8295065e00df34d4c74c380fd9cf47", ["exports",
 });
 
 define("OutSystemsCharts.model$EN_c206e072354abd28c734a686a107801eEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_c206e072354abd28c734a686a107801eEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1954,8 +1902,7 @@ define("OutSystemsCharts.model$EN_c206e072354abd28c734a686a107801eEntityRecord",
 });
 
 define("OutSystemsCharts.model$RC_700a042c18a52538bbda09226917700a", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_c206e072354abd28c734a686a107801eEntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_700a042c18a52538bbda09226917700aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1998,8 +1945,7 @@ define("OutSystemsCharts.model$RL_2ed820148ec0066544c2529736074c83", ["exports",
 });
 
 define("OutSystemsCharts.model$EN_88376fed4a3ecf20e3b58a99fb8820c0EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_88376fed4a3ecf20e3b58a99fb8820c0EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2026,8 +1972,7 @@ define("OutSystemsCharts.model$EN_88376fed4a3ecf20e3b58a99fb8820c0EntityRecord",
 });
 
 define("OutSystemsCharts.model$RC_2ef79bd810cdf6d872efd5fb430d0cec", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_88376fed4a3ecf20e3b58a99fb8820c0EntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2ef79bd810cdf6d872efd5fb430d0cecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2056,8 +2001,7 @@ define("OutSystemsCharts.model$RC_2ef79bd810cdf6d872efd5fb430d0cec", ["exports",
 });
 
 define("OutSystemsCharts.model$EN_e3e66f92a97b1d29d00b88c019c33babEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_e3e66f92a97b1d29d00b88c019c33babEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2084,8 +2028,7 @@ define("OutSystemsCharts.model$EN_e3e66f92a97b1d29d00b88c019c33babEntityRecord",
 });
 
 define("OutSystemsCharts.model$RC_ace3a46bceb2ccb5db97f9bdb5d49f20", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_e3e66f92a97b1d29d00b88c019c33babEntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ace3a46bceb2ccb5db97f9bdb5d49f20Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2128,8 +2071,7 @@ define("OutSystemsCharts.model$RL_30d3f6cc8e52b0c767d068f23649e54e", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_34313c5cf94d7ce3c5404858c22fafd9Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_34313c5cf94d7ce3c5404858c22fafd9StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2162,8 +2104,7 @@ define("OutSystemsCharts.model$ST_34313c5cf94d7ce3c5404858c22fafd9Structure", ["
 });
 
 define("OutSystemsCharts.model$RC_34d5d5ab5565b38a57ae5f2563a8c466", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_1ae4a810d4cabfbdad2f5a6ea4ed9737Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_34d5d5ab5565b38a57ae5f2563a8c466Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2192,8 +2133,7 @@ define("OutSystemsCharts.model$RC_34d5d5ab5565b38a57ae5f2563a8c466", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_35e37489cb29f7a304d512a403000665", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_0c0b103cba961483054afffbc30b3066EntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_35e37489cb29f7a304d512a403000665Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2264,8 +2204,7 @@ define("OutSystemsCharts.model$RL_3d3acfa79e82ad633c83009eac2033d6", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_76c0cdc972cd99ba5628cbffcee3234a", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_f281012c72a5f666adafe0a5edc16938Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_76c0cdc972cd99ba5628cbffcee3234aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2308,8 +2247,7 @@ define("OutSystemsCharts.model$RL_4025de551529030bc6dab3b7e625efb9", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_424d57a2d666c8edb0343600d6705eee", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_87973ae5f6c07db6193b59603f29dce6Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_424d57a2d666c8edb0343600d6705eeeInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2338,8 +2276,7 @@ define("OutSystemsCharts.model$RC_424d57a2d666c8edb0343600d6705eee", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_60c0eb9676746216236a33a6fde51bea", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_499ab2dc67e078b5441ac528549f73d9Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_60c0eb9676746216236a33a6fde51beaInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2382,8 +2319,7 @@ define("OutSystemsCharts.model$RL_444933f3bd90c65af4b0dbb5addda529", ["exports",
 });
 
 define("OutSystemsCharts.model$EN_46b2d81a8018ce98d89b836ab78051f0EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_46b2d81a8018ce98d89b836ab78051f0EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2424,8 +2360,7 @@ define("OutSystemsCharts.model$RL_47f3ae0e3a771af284bc005aecd805c5", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_6bed431434274b65c17cd0339b1ecaa5Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_6bed431434274b65c17cd0339b1ecaa5StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2469,8 +2404,7 @@ define("OutSystemsCharts.model$RL_48d4c629d7b0e572d393ee61d6511e0d", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_4b22cda3b03d150ad8e37c82029c7e70Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_4b22cda3b03d150ad8e37c82029c7e70StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2512,8 +2446,7 @@ define("OutSystemsCharts.model$ST_4b22cda3b03d150ad8e37c82029c7e70Structure", ["
 });
 
 define("OutSystemsCharts.model$RC_d4877c3ce032067b5e79d1ff12e3ea33", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_0398a87aaf5fccfd4503642b3b7d1dc0Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d4877c3ce032067b5e79d1ff12e3ea33Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2556,8 +2489,7 @@ define("OutSystemsCharts.model$RL_4baf2ad963b01441a599b98b0c84efd8", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_4c0c00419258d867de6c9a39d39cbd40", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_c4b262744850a3b08ce7036d0595a8dfStructure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4c0c00419258d867de6c9a39d39cbd40Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2600,8 +2532,7 @@ define("OutSystemsCharts.model$RL_4e53ade62caaa844df4a59d80245f6bc", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_50c794173b7ac3485b1cda7be99f6b43Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_50c794173b7ac3485b1cda7be99f6b43StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2625,8 +2556,7 @@ define("OutSystemsCharts.model$ST_50c794173b7ac3485b1cda7be99f6b43Structure", ["
 });
 
 define("OutSystemsCharts.model$RC_8bfcc1d381d104953fbf01fd54a56e45", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_12004a480323e1caa1d0e9cb95ddd993EntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8bfcc1d381d104953fbf01fd54a56e45Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2669,8 +2599,7 @@ define("OutSystemsCharts.model$RL_5183695f922445931daf051508280c46", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_9498db02a236485a96a27db0bd61b81eStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_9498db02a236485a96a27db0bd61b81eStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2717,8 +2646,7 @@ define("OutSystemsCharts.model$RL_52a96e0500b1d6d23d93e10409e37890", ["exports",
 });
 
 define("OutSystemsCharts.model$EN_91855acd6e96303d3e1dafe035c00f0fEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_91855acd6e96303d3e1dafe035c00f0fEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2745,8 +2673,7 @@ define("OutSystemsCharts.model$EN_91855acd6e96303d3e1dafe035c00f0fEntityRecord",
 });
 
 define("OutSystemsCharts.model$RC_5411a63fb30fbc2379b448666b5ca564", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_91855acd6e96303d3e1dafe035c00f0fEntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5411a63fb30fbc2379b448666b5ca564Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2775,8 +2702,7 @@ define("OutSystemsCharts.model$RC_5411a63fb30fbc2379b448666b5ca564", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_f012f1f96abab76663b00566b2d7923c", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_8921a71e9062659e96a587c9434dca93Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f012f1f96abab76663b00566b2d7923cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2819,8 +2745,7 @@ define("OutSystemsCharts.model$RL_5536ec464968b36acf9bf64db701ad28", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_9d592254256b14619af5d64d439cbb46", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_223dfcdc1e3c93bfb0e422a434fb180fStructure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9d592254256b14619af5d64d439cbb46Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2863,8 +2788,7 @@ define("OutSystemsCharts.model$RL_5548bb2b7b5f256577c9bf216c5ac7ea", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_c9cf2667636b777abbc288cec73d1375", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_46b2d81a8018ce98d89b836ab78051f0EntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c9cf2667636b777abbc288cec73d1375Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2935,8 +2859,7 @@ define("OutSystemsCharts.model$RL_571b103d9a95a8c3a2deb1712897dca8", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_b433f1b3ae72f9da85b20eb8b0abb0e8", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_6bed431434274b65c17cd0339b1ecaa5Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b433f1b3ae72f9da85b20eb8b0abb0e8Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2993,8 +2916,7 @@ define("OutSystemsCharts.model$RL_5cace3a1ee80bf29b67e9cad96754231", ["exports",
 });
 
 define("OutSystemsCharts.model$EN_a32084c8b56857b20a4251c6881d59f4EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_a32084c8b56857b20a4251c6881d59f4EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3021,8 +2943,7 @@ define("OutSystemsCharts.model$EN_a32084c8b56857b20a4251c6881d59f4EntityRecord",
 });
 
 define("OutSystemsCharts.model$RC_a84b998a9c71257a390215ab520c29fb", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_a32084c8b56857b20a4251c6881d59f4EntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a84b998a9c71257a390215ab520c29fbInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3093,8 +3014,7 @@ define("OutSystemsCharts.model$RL_61c070ad804e002429f0acebd8410bdf", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_8ceac0b3cf282b6c0c3a95ffb4156762Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_8ceac0b3cf282b6c0c3a95ffb4156762StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3118,8 +3038,7 @@ define("OutSystemsCharts.model$ST_8ceac0b3cf282b6c0c3a95ffb4156762Structure", ["
 });
 
 define("OutSystemsCharts.model$RC_e3eb18969a1d0856d6aa6db7946dac4d", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_8ceac0b3cf282b6c0c3a95ffb4156762Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e3eb18969a1d0856d6aa6db7946dac4dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3162,8 +3081,7 @@ define("OutSystemsCharts.model$RL_65d3df966a7e3cf88a00a473fc2b09d2", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_6e662d2b0dd947976d5cb296cc0f82e2", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_adefbfd7e853fa2cb46e2f151738d1b5EntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6e662d2b0dd947976d5cb296cc0f82e2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3206,8 +3124,7 @@ define("OutSystemsCharts.model$RL_698742e3982d0d37b0c57727d333bd38", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_87ab3d0b80938e4e95dcb616c8a9232e", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_34313c5cf94d7ce3c5404858c22fafd9Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_87ab3d0b80938e4e95dcb616c8a9232eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3250,8 +3167,7 @@ define("OutSystemsCharts.model$RL_6a352f2318cfd62ff903ae77454721c8", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_6ceb0a54ddbc92446ab66e8c847870c1", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_9498db02a236485a96a27db0bd61b81eStructure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6ceb0a54ddbc92446ab66e8c847870c1Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3280,8 +3196,7 @@ define("OutSystemsCharts.model$RC_6ceb0a54ddbc92446ab66e8c847870c1", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_6d8d0ab8b7a86a24d5f4b91570ad61d9", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_50c794173b7ac3485b1cda7be99f6b43Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6d8d0ab8b7a86a24d5f4b91570ad61d9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3380,8 +3295,7 @@ define("OutSystemsCharts.model$RL_7598c106c4297d60093649fe28189119", ["exports",
 });
 
 define("OutSystemsCharts.model$EN_784e6c50710f45bd3a06ee5a6d088c04EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_784e6c50710f45bd3a06ee5a6d088c04EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3408,8 +3322,7 @@ define("OutSystemsCharts.model$EN_784e6c50710f45bd3a06ee5a6d088c04EntityRecord",
 });
 
 define("OutSystemsCharts.model$ST_e76d7672809d02d24c5a5adfeacd07eeStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_9498db02a236485a96a27db0bd61b81eStructure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e76d7672809d02d24c5a5adfeacd07eeStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3447,8 +3360,7 @@ define("OutSystemsCharts.model$RL_7917133dcbda5cd4a6decab71f2048c1", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_7d371655b20786958d20c377072ad1b6", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_0e1d37c640439329e5a37a201fe5ef06EntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7d371655b20786958d20c377072ad1b6Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3491,8 +3403,7 @@ define("OutSystemsCharts.model$RL_7943cd4d9c1c74c7e292c49057d08cbe", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_d907e71360b734aa1ce657185862bd8bStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_d907e71360b734aa1ce657185862bd8bStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3519,8 +3430,7 @@ define("OutSystemsCharts.model$ST_d907e71360b734aa1ce657185862bd8bStructure", ["
 });
 
 define("OutSystemsCharts.model$RC_83bc3ae4c5fec64bfa528e6320384107", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_d907e71360b734aa1ce657185862bd8bStructure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_83bc3ae4c5fec64bfa528e6320384107Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3577,8 +3487,7 @@ define("OutSystemsCharts.model$RL_7c036597cf3d8c9e8050976e7b9cd21a", ["exports",
 });
 
 define("OutSystemsCharts.model$EN_7ca2e7b2fec6f75cfb759c1832790d39EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_7ca2e7b2fec6f75cfb759c1832790d39EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3619,8 +3528,7 @@ define("OutSystemsCharts.model$RL_7d9c239ab2336eba85802eb00151e260", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_7ff33d136acf80fa7561894fec32ad32", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_0facb06834084a9f1a55e2bf7cbbfcf1Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7ff33d136acf80fa7561894fec32ad32Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3649,8 +3557,7 @@ define("OutSystemsCharts.model$RC_7ff33d136acf80fa7561894fec32ad32", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_83e1e05cd8ef028076aede930ba833d7", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_0aaaca7207138bf7860a19b299026910EntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_83e1e05cd8ef028076aede930ba833d7Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3707,8 +3614,7 @@ define("OutSystemsCharts.model$RL_8516b8318b6fd8234aa6a4c975cfced5", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_860a186f93e9fe7fe0d42f4282c2ec00", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_e76d7672809d02d24c5a5adfeacd07eeStructure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_860a186f93e9fe7fe0d42f4282c2ec00Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3793,8 +3699,7 @@ define("OutSystemsCharts.model$RL_8906b8c65e0702bdf7509e7a0ac0f2d2", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_baca360b74d4e65535b809cab5137ca4", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_7ca2e7b2fec6f75cfb759c1832790d39EntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_baca360b74d4e65535b809cab5137ca4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3851,8 +3756,7 @@ define("OutSystemsCharts.model$RL_a401bbc515f324607832f48e5f845362", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_934e7357fa36babd8aa5d2585785fd1aStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_e76d7672809d02d24c5a5adfeacd07eeStructure", "OutSystemsCharts.model$RL_7917133dcbda5cd4a6decab71f2048c1", "OutSystemsCharts.model$ST_8ceac0b3cf282b6c0c3a95ffb4156762Structure", "OutSystemsCharts.model$RL_a401bbc515f324607832f48e5f845362"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_934e7357fa36babd8aa5d2585785fd1aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3885,8 +3789,7 @@ define("OutSystemsCharts.model$ST_934e7357fa36babd8aa5d2585785fd1aStructure", ["
 });
 
 define("OutSystemsCharts.model$RC_8bd0ab07a3f3c2d2a572a84134c564bd", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_934e7357fa36babd8aa5d2585785fd1aStructure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8bd0ab07a3f3c2d2a572a84134c564bdInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3943,8 +3846,7 @@ define("OutSystemsCharts.model$RL_8ed647be048e617fa817eb8a6da1f2ef", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_9ac3a73b5c3ddd8f3923cd00427e8e10", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_80a54fdc5a44237df505b3e5b63ad0feStructure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9ac3a73b5c3ddd8f3923cd00427e8e10Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3987,8 +3889,7 @@ define("OutSystemsCharts.model$RL_8ed7a0e74bf62a56d225f393fa1fdf35", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_ec5ba0dcae2fdbb0747c672da6bec9fd", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_784e6c50710f45bd3a06ee5a6d088c04EntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ec5ba0dcae2fdbb0747c672da6bec9fdInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4073,8 +3974,7 @@ define("OutSystemsCharts.model$RL_96c910d11089048c052793c7ed737383", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_c64cd01e4ffc5de737f0f40dc852d3f7", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_9695772c3b8ae4caa8a4e3fb1dfb5bb8Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c64cd01e4ffc5de737f0f40dc852d3f7Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4145,8 +4045,7 @@ define("OutSystemsCharts.model$RL_9eb78a2b8052aacf06d974f1c25ff438", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_de2d35ebb3feae706b5313bdafc14f70", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$EN_b204725747cd7cf563ecf5a8b8d794e0EntityRecord"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_de2d35ebb3feae706b5313bdafc14f70Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4217,8 +4116,7 @@ define("OutSystemsCharts.model$RL_a30d98f2bfb144ef6e1a6a7d9e196137", ["exports",
 });
 
 define("OutSystemsCharts.model$ST_d908e2b0c36bde785653d79e6507d073Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_d908e2b0c36bde785653d79e6507d073StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4242,8 +4140,7 @@ define("OutSystemsCharts.model$ST_d908e2b0c36bde785653d79e6507d073Structure", ["
 });
 
 define("OutSystemsCharts.model$RC_a36f33fd75edf3ca18b53fc02b778c00", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_d908e2b0c36bde785653d79e6507d073Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a36f33fd75edf3ca18b53fc02b778c00Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4384,8 +4281,7 @@ define("OutSystemsCharts.model$RL_b5eeed2f3935fba13bc2ba0379e9ecb2", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_b9cc97d4f5ca6625f6d31d4e7e643874", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_69d759501e759b3aa378b0f06e6de282Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b9cc97d4f5ca6625f6d31d4e7e643874Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4442,8 +4338,7 @@ define("OutSystemsCharts.model$RL_c00a35e05574e8e9007aafcec77ad537", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_c15b65896c08df0c893eb8f103ad3409", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_4b22cda3b03d150ad8e37c82029c7e70Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c15b65896c08df0c893eb8f103ad3409Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4514,8 +4409,7 @@ define("OutSystemsCharts.model$RL_c5c0654c1652bc3a4b3d6451c97793d1", ["exports",
 });
 
 define("OutSystemsCharts.model$RC_d03145ab43f2fed21bf254f98c38e8cb", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "OutSystemsCharts.model$ST_ac4a98d5209ff3cbf055ac67e03c6463Structure"], function(exports, OSRuntimeCore, OutSystemsChartsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d03145ab43f2fed21bf254f98c38e8cbInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {

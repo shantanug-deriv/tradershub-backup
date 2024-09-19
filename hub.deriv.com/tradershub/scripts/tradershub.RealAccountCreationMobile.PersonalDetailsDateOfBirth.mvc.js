@@ -177,8 +177,7 @@ define("tradershub.RealAccountCreationMobile.PersonalDetailsDateOfBirth.mvc$view
     return View;
 });
 define("tradershub.RealAccountCreationMobile.PersonalDetailsDateOfBirth.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreationMobile.controller"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationMobileController) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

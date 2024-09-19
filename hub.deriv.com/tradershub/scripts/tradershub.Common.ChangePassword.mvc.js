@@ -1,6 +1,5 @@
 define("tradershub.Common.ChangePassword.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "System_.model", "OutSystemsUI.model", "OutSystemsUI.controller", "System_.model$ChangePasswordResultRec", "tradershub.referencesHealth", "tradershub.referencesHealth$System_", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "tradershub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$ShowPassword", "tradershub.model$RC_ced013358a82a813f1d9a5108f17ce79", "tradershub.model$RL_8430333e95ceffc00def96d8abb01f75"], function(OSRuntimeCore, tradershubModel, System_Model, OutSystemsUIModel, OutSystemsUIController) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class GetUserDetailAggrRecInner extends
         OS.Model.AggregateRecord {
             static attributesToDeclare() {
@@ -780,8 +779,7 @@ define("tradershub.Common.ChangePassword.mvc$view", ["@outsystems/runtime-core-j
     return View;
 });
 define("tradershub.Common.ChangePassword.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "System_.model", "OutSystemsUI.model", "OutSystemsUI.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.Common.controller", "System_.model$ChangePasswordResultRec", "tradershub.referencesHealth", "tradershub.referencesHealth$System_", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "tradershub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$ShowPassword", "tradershub.model$RC_ced013358a82a813f1d9a5108f17ce79", "tradershub.model$RL_8430333e95ceffc00def96d8abb01f75"], function(OSRuntimeCore, tradershubModel, tradershubController, System_Model, OutSystemsUIModel, OutSystemsUIController, tradershubLanguageResources, tradershubClientVariables, tradershub_CommonController) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

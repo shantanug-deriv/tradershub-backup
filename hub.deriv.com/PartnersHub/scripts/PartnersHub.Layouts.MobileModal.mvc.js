@@ -146,8 +146,7 @@ define("PartnersHub.Layouts.MobileModal.mvc$view", ["@outsystems/runtime-core-js
     return View;
 });
 define("PartnersHub.Layouts.MobileModal.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "SleepClientSide.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Layouts.MobileModal.mvc$translationsResources", "PartnersHub.Layouts.MobileModal.mvc$controller.OnParametersChanged.AttachHideAnimsJS", "PartnersHub.Layouts.MobileModal.mvc$controller.OnReady.OnClickOutsideJS", "SleepClientSide.controller$Sleep", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$SleepClientSide"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, SleepClientSideController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Layouts_MobileModal_mvc_TranslationsResources, PartnersHub_Layouts_MobileModal_mvc_controller_OnParametersChanged_AttachHideAnimsJS, PartnersHub_Layouts_MobileModal_mvc_controller_OnReady_OnClickOutsideJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

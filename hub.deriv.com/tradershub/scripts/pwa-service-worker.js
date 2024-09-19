@@ -2165,8 +2165,7 @@
                             errorCode: e
                         }), s
                     }
-                    if (yield r(this, To, "f").call(this, !0)) return l();
-                    {
+                    if (yield r(this, To, "f").call(this, !0)) return l(); {
                         const o = new Error("Unable to retrieve an authorization token");
                         throw null === (u = null === (e = r(this, bo, "f")) || void 0 === e ? void 0 : e.error) || void 0 === u || u.call(e, {
                             error: o,
@@ -2966,8 +2965,7 @@
                         arguments: e,
                         target: t,
                         type: di.Invocation
-                    };
-                    {
+                    }; {
                         const r = this._invocationId;
                         return this._invocationId++, 0 !== n.length ? {
                             arguments: e,
@@ -8335,7 +8333,7 @@
                 }
                 var _f = da,
                     mf = Xp,
-                    bf = of,
+                    bf = of ,
                     Tf = vf;
 
                 function wf(t, e) {
@@ -9917,8 +9915,7 @@
                                 T = Fg("fetchTaskScheduling"),
                                 w = sy(l, "send", (() => function(t, r) {
                                     if (!0 === e.current[T]) return w.apply(t, r);
-                                    if (t[n]) return w.apply(t, r);
-                                    {
+                                    if (t[n]) return w.apply(t, r); {
                                         const e = {
                                                 target: t,
                                                 url: t[s],
@@ -12533,8 +12530,7 @@
                             for (const {
                                     message: e,
                                     options: r
-                                }
-                                of o(this, Nm, "f")) null === (t = o(this, jm, "f")) || void 0 === t || t.postMessage(e, r);
+                                } of o(this, Nm, "f")) null === (t = o(this, jm, "f")) || void 0 === t || t.postMessage(e, r);
                             i(this, Nm, [], "f")
                         } else this.waitForSW()
                     }

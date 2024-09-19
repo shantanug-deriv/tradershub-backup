@@ -397,8 +397,7 @@ define("PartnersHub.Common.ResidenceList.mvc$view", ["@outsystems/runtime-core-j
     return View;
 });
 define("PartnersHub.Common.ResidenceList.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Common.ResidenceList.mvc$translationsResources", "PartnersHub.Common.ResidenceList.mvc$controller.OnReady.JavaScript1JS", "PartnersHub.Common.ResidenceList.mvc$controller.OnSearch.JavaScript1JS", "PartnersHub.model$ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructure", "PartnersHub.model$RL_ad0d7e810e49e61265e2d337c04416fc", "PartnersHub.model$ST_4fc107f3f00705667fa092c970065f35Structure", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Common_ResidenceList_mvc_TranslationsResources, PartnersHub_Common_ResidenceList_mvc_controller_OnReady_JavaScript1JS, PartnersHub_Common_ResidenceList_mvc_controller_OnSearch_JavaScript1JS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

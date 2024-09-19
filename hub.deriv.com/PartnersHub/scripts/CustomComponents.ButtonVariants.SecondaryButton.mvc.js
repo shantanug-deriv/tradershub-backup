@@ -248,8 +248,7 @@ define("CustomComponents.ButtonVariants.SecondaryButton.mvc$view", ["@outsystems
     return View;
 });
 define("CustomComponents.ButtonVariants.SecondaryButton.mvc$controller", ["@outsystems/runtime-core-js", "CustomComponents.model", "CustomComponents.controller", "CustomComponents.languageResources"], function(OSRuntimeCore, CustomComponentsModel, CustomComponentsController, CustomComponentsLanguageResources) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

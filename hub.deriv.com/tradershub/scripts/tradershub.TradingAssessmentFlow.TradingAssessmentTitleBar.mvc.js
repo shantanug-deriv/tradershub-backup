@@ -161,8 +161,7 @@ define("tradershub.TradingAssessmentFlow.TradingAssessmentTitleBar.mvc$view", ["
     return View;
 });
 define("tradershub.TradingAssessmentFlow.TradingAssessmentTitleBar.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

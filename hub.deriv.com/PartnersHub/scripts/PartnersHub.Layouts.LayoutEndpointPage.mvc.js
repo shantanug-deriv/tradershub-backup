@@ -634,8 +634,7 @@ define("PartnersHub.Layouts.LayoutEndpointPage.mvc$view", ["@outsystems/runtime-
     return View;
 });
 define("PartnersHub.Layouts.LayoutEndpointPage.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "OutSystemsUI.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Layouts.LayoutEndpointPage.mvc$translationsResources", "PartnersHub.Layouts.LayoutEndpointPage.mvc$controller.OnRender.JavaScript1JS", "PartnersHub.Layouts.LayoutEndpointPage.mvc$controller.OnClickLogout.JavaScript1JS", "PartnersHub.controller$RedirectToOauth", "PartnersHub.controller$ShowLiveChat", "PartnersHub.controller$UseDevice", "PartnersHub.controller$IsUserLoggedIn", "PartnersHub.controller$MountDerivAPIClient", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$AddFavicon"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, OutSystemsUIController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Layouts_LayoutEndpointPage_mvc_TranslationsResources, PartnersHub_Layouts_LayoutEndpointPage_mvc_controller_OnRender_JavaScript1JS, PartnersHub_Layouts_LayoutEndpointPage_mvc_controller_OnClickLogout_JavaScript1JS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

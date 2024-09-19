@@ -488,8 +488,7 @@ define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$view", ["@outsyst
     return View;
 });
 define("PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.RealAccountCreationFlow.Addressdetails.mvc$translationsResources", "PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure", "PartnersHub.controller$NextStepReal"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_RealAccountCreationFlow_Addressdetails_mvc_TranslationsResources) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

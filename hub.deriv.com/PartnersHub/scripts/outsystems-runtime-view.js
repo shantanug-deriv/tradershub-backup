@@ -1117,8 +1117,7 @@
         for (const {
                 beforeElement: e,
                 element: t
-            }
-            of i) tt("Adding", t.id), e ? n.insertBefore(t, e) : n.appendChild(t);
+            } of i) tt("Adding", t.id), e ? n.insertBefore(t, e) : n.appendChild(t);
         Ye += 1;
         const a = function(e, t, n) {
             return () => {
@@ -3908,8 +3907,7 @@
                 var t;
                 if (e) return {
                     model: e
-                };
-                {
+                }; {
                     if (!i) throw new Error("No model was provided, and the controllerFactory was not set.");
                     if (!o) throw new Error("No model was provided, and the modelFactory was not set.");
                     const e = i.activeScreenController,

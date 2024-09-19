@@ -1983,8 +1983,7 @@
                     errorCode: n
                 }), a;
             }
-            if (yield t(this, Sr, "f").call(this, !0)) return l();
-            {
+            if (yield t(this, Sr, "f").call(this, !0)) return l(); {
                 const r = new Error("Unable to retrieve an authorization token");
                 throw null === (u = null === (e = t(this, wr, "f")) || void 0 === e ? void 0 : e.error) || void 0 === u || u.call(e, {
                     error: r,
@@ -2804,8 +2803,7 @@
                 arguments: t,
                 target: e,
                 type: hn.Invocation
-            };
-            {
+            }; {
                 const o = this._invocationId;
                 return this._invocationId++, 0 !== r.length ? {
                     arguments: t,

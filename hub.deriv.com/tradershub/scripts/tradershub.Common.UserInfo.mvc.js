@@ -284,8 +284,7 @@ define("tradershub.Common.UserInfo.mvc$view", ["@outsystems/runtime-core-js", "t
     return View;
 });
 define("tradershub.Common.UserInfo.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "System_.model", "tradershub.languageResources", "tradershub.clientVariables", "System_.model$UserInfoRec", "tradershub.referencesHealth", "tradershub.referencesHealth$System_"], function(OSRuntimeCore, tradershubModel, tradershubController, System_Model, tradershubLanguageResources, tradershubClientVariables) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

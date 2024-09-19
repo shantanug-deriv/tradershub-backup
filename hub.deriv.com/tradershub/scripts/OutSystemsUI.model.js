@@ -1,6 +1,5 @@
 define("OutSystemsUI.model$EN_bc915b2fa9297a72fb4d1b227ebe2573EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_bc915b2fa9297a72fb4d1b227ebe2573EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -24,8 +23,7 @@ define("OutSystemsUI.model$EN_bc915b2fa9297a72fb4d1b227ebe2573EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_9589ecc0629788c2aca6b47bcbae782c", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_bc915b2fa9297a72fb4d1b227ebe2573EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9589ecc0629788c2aca6b47bcbae782cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -68,8 +66,7 @@ define("OutSystemsUI.model$RL_021cf4e3f37562560ed722ed4a5446c1", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_1e2af88601c0491260411e1369eb104cEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_1e2af88601c0491260411e1369eb104cEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -107,8 +104,7 @@ define("OutSystemsUI.model$RL_024c65775fda4a7c95336ab422a752c4", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_0262e6910ebecc922f633b08db78d688Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_0262e6910ebecc922f633b08db78d688StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -132,8 +128,7 @@ define("OutSystemsUI.model$ST_0262e6910ebecc922f633b08db78d688Structure", ["expo
 });
 
 define("OutSystemsUI.model$ST_6af81a2c1989c9b6ed62295dfa4c4e65Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_6af81a2c1989c9b6ed62295dfa4c4e65StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -163,8 +158,7 @@ define("OutSystemsUI.model$ST_6af81a2c1989c9b6ed62295dfa4c4e65Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_30bb0fd6be769d5d6630c4c9fbd19c43", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_6af81a2c1989c9b6ed62295dfa4c4e65Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_30bb0fd6be769d5d6630c4c9fbd19c43Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -207,8 +201,7 @@ define("OutSystemsUI.model$RL_026daaa16d9a7c82ba45988292e548e6", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_8d4f783227026ce93d50126c7f028443EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_8d4f783227026ce93d50126c7f028443EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -249,8 +242,7 @@ define("OutSystemsUI.model$RL_028be7f802152b5f25a868ed964b5ea2", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_6b2a66e5a0a888e952c1a6f0d254d48aEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_6b2a66e5a0a888e952c1a6f0d254d48aEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -277,8 +269,7 @@ define("OutSystemsUI.model$EN_6b2a66e5a0a888e952c1a6f0d254d48aEntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_fb5d22b1003cff234a588ab54b5367f0", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_6b2a66e5a0a888e952c1a6f0d254d48aEntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_fb5d22b1003cff234a588ab54b5367f0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -321,8 +312,7 @@ define("OutSystemsUI.model$RL_02cff45c25b99caaf51dba44a0e0b754", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_75c9c074bd528ecee8df4d2a3299b5a1EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_75c9c074bd528ecee8df4d2a3299b5a1EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -349,8 +339,7 @@ define("OutSystemsUI.model$EN_75c9c074bd528ecee8df4d2a3299b5a1EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_03619642a06de09478f0b8f506c364eb", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_75c9c074bd528ecee8df4d2a3299b5a1EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_03619642a06de09478f0b8f506c364ebInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -379,8 +368,7 @@ define("OutSystemsUI.model$RC_03619642a06de09478f0b8f506c364eb", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_50814454e481dd1773c2250bc248da5eEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_50814454e481dd1773c2250bc248da5eEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -404,8 +392,7 @@ define("OutSystemsUI.model$EN_50814454e481dd1773c2250bc248da5eEntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_070998dc6b3dc951b52d8108550fe380", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_50814454e481dd1773c2250bc248da5eEntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_070998dc6b3dc951b52d8108550fe380Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -434,8 +421,7 @@ define("OutSystemsUI.model$RC_070998dc6b3dc951b52d8108550fe380", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_1b42e9a925bffd384f525d6adac8fe8eEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_1b42e9a925bffd384f525d6adac8fe8eEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -462,8 +448,7 @@ define("OutSystemsUI.model$EN_1b42e9a925bffd384f525d6adac8fe8eEntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_210f541f43ec6384ba59bfd8fe4b8837", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_1b42e9a925bffd384f525d6adac8fe8eEntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_210f541f43ec6384ba59bfd8fe4b8837Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -506,8 +491,7 @@ define("OutSystemsUI.model$RL_073741b4a94a52714ff12683c5a2ca93", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_e373082a732833044c6d132d736b9a20Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e373082a732833044c6d132d736b9a20StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -531,8 +515,7 @@ define("OutSystemsUI.model$ST_e373082a732833044c6d132d736b9a20Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_6806bcabed8c9a627c64e2f22fd43e7d", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_e373082a732833044c6d132d736b9a20Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6806bcabed8c9a627c64e2f22fd43e7dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -575,8 +558,7 @@ define("OutSystemsUI.model$RL_078368f87c33aa8427e5634fd132a359", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_e168de2e23691f28c2b57a8300aa4d06EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_e168de2e23691f28c2b57a8300aa4d06EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -603,8 +585,7 @@ define("OutSystemsUI.model$EN_e168de2e23691f28c2b57a8300aa4d06EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_0832b315fa435e0ff97aca2a0ca6bd44", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_e168de2e23691f28c2b57a8300aa4d06EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0832b315fa435e0ff97aca2a0ca6bd44Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -633,8 +614,7 @@ define("OutSystemsUI.model$RC_0832b315fa435e0ff97aca2a0ca6bd44", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_09173c1b0f41f719b9efd6430c2e737dStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_09173c1b0f41f719b9efd6430c2e737dStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -658,8 +638,7 @@ define("OutSystemsUI.model$ST_09173c1b0f41f719b9efd6430c2e737dStructure", ["expo
 });
 
 define("OutSystemsUI.model$ST_0f0a5319963cb5bf3b0eab53b2781088Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_0f0a5319963cb5bf3b0eab53b2781088StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -686,8 +665,7 @@ define("OutSystemsUI.model$ST_0f0a5319963cb5bf3b0eab53b2781088Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_34326cf8cbe6cf38d907603fa07c4c09", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_0f0a5319963cb5bf3b0eab53b2781088Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_34326cf8cbe6cf38d907603fa07c4c09Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -730,8 +708,7 @@ define("OutSystemsUI.model$RL_092cda9d13f093285c4b5f836ca5d119", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_736a0a0e931f1e6cffc1de4b3ad94539Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_736a0a0e931f1e6cffc1de4b3ad94539StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -785,8 +762,7 @@ define("OutSystemsUI.model$ST_736a0a0e931f1e6cffc1de4b3ad94539Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_098ae17f520233165dd0526529ff8852", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_736a0a0e931f1e6cffc1de4b3ad94539Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_098ae17f520233165dd0526529ff8852Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -815,8 +791,7 @@ define("OutSystemsUI.model$RC_098ae17f520233165dd0526529ff8852", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_0995bd60993005a912f016117c0f5fd9Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_0995bd60993005a912f016117c0f5fd9StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -846,8 +821,7 @@ define("OutSystemsUI.model$ST_0995bd60993005a912f016117c0f5fd9Structure", ["expo
 });
 
 define("OutSystemsUI.model$ST_a783e375273068e4b8f9c122c1661a6aStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_a783e375273068e4b8f9c122c1661a6aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -874,8 +848,7 @@ define("OutSystemsUI.model$ST_a783e375273068e4b8f9c122c1661a6aStructure", ["expo
 });
 
 define("OutSystemsUI.model$RC_5eb5daa2af512be51806b390378b7c9a", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_a783e375273068e4b8f9c122c1661a6aStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5eb5daa2af512be51806b390378b7c9aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -918,8 +891,7 @@ define("OutSystemsUI.model$RL_0a025b5603931b44884451ed1f6c9b3c", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_3b9304e9875ccc71ec31b003d76d44c7Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_3b9304e9875ccc71ec31b003d76d44c7StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -949,8 +921,7 @@ define("OutSystemsUI.model$ST_3b9304e9875ccc71ec31b003d76d44c7Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_0a10b180e32034e48747aceb3ee25eef", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_3b9304e9875ccc71ec31b003d76d44c7Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0a10b180e32034e48747aceb3ee25eefInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -979,8 +950,7 @@ define("OutSystemsUI.model$RC_0a10b180e32034e48747aceb3ee25eef", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_69c22c095aca285f3fb706e10e473ba5Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_69c22c095aca285f3fb706e10e473ba5StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1030,8 +1000,7 @@ define("OutSystemsUI.model$RL_0a4cc67046f3ef5e3ecf39d571c1b1e6", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_d11562be18a7e40ca777aa336c946163EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_d11562be18a7e40ca777aa336c946163EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1055,8 +1024,7 @@ define("OutSystemsUI.model$EN_d11562be18a7e40ca777aa336c946163EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_0a89eeb60fa1f44b6316ca69b462007b", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_d11562be18a7e40ca777aa336c946163EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0a89eeb60fa1f44b6316ca69b462007bInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1085,8 +1053,7 @@ define("OutSystemsUI.model$RC_0a89eeb60fa1f44b6316ca69b462007b", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_0d18385ed976d2d74e8cea1d77078409Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_0d18385ed976d2d74e8cea1d77078409StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1116,8 +1083,7 @@ define("OutSystemsUI.model$ST_0d18385ed976d2d74e8cea1d77078409Structure", ["expo
 });
 
 define("OutSystemsUI.model$EN_7441573ccf264d27ef548a39a846bd68EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_7441573ccf264d27ef548a39a846bd68EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1144,8 +1110,7 @@ define("OutSystemsUI.model$EN_7441573ccf264d27ef548a39a846bd68EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_0d776a4e191faf321030d5ce57aa4167", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_7441573ccf264d27ef548a39a846bd68EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0d776a4e191faf321030d5ce57aa4167Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1174,8 +1139,7 @@ define("OutSystemsUI.model$RC_0d776a4e191faf321030d5ce57aa4167", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_106b6e385f5e89b0a7d76e23b14f61a0Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_106b6e385f5e89b0a7d76e23b14f61a0StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1205,8 +1169,7 @@ define("OutSystemsUI.model$ST_106b6e385f5e89b0a7d76e23b14f61a0Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_dae4b4e9efc938bf677d8f92dec29722", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_0995bd60993005a912f016117c0f5fd9Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_dae4b4e9efc938bf677d8f92dec29722Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1249,8 +1212,7 @@ define("OutSystemsUI.model$RL_1088f1545d2e7aa029bcf18435e48f7c", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_963c357dbc45b19fade654e21b1521d0Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_963c357dbc45b19fade654e21b1521d0StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1286,8 +1248,7 @@ define("OutSystemsUI.model$ST_963c357dbc45b19fade654e21b1521d0Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_11d8167e3fa15e3043cb2afdd0778cf2", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_963c357dbc45b19fade654e21b1521d0Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_11d8167e3fa15e3043cb2afdd0778cf2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1316,8 +1277,7 @@ define("OutSystemsUI.model$RC_11d8167e3fa15e3043cb2afdd0778cf2", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_b29bdecfa7956bb3d5bee97678e39fb0Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b29bdecfa7956bb3d5bee97678e39fb0StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1365,8 +1325,7 @@ define("OutSystemsUI.model$ST_b29bdecfa7956bb3d5bee97678e39fb0Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_12cb0160c5b908b286f2418f6f00a5eb", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_b29bdecfa7956bb3d5bee97678e39fb0Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_12cb0160c5b908b286f2418f6f00a5ebInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1395,8 +1354,7 @@ define("OutSystemsUI.model$RC_12cb0160c5b908b286f2418f6f00a5eb", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_2fd97622d01b72b1af62467b00f1da8eStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_2fd97622d01b72b1af62467b00f1da8eStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1447,8 +1405,7 @@ define("OutSystemsUI.model$ST_2fd97622d01b72b1af62467b00f1da8eStructure", ["expo
 });
 
 define("OutSystemsUI.model$RC_b6f4f6f58cf9d7e93da0322d7951765a", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_2fd97622d01b72b1af62467b00f1da8eStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b6f4f6f58cf9d7e93da0322d7951765aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1491,8 +1448,7 @@ define("OutSystemsUI.model$RL_12ed4bb13edbb334bdf47b5f3e8430f7", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_841c1f1485f51831db9f4b37a6d551d5Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_841c1f1485f51831db9f4b37a6d551d5StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1530,8 +1486,7 @@ define("OutSystemsUI.model$RL_b290214900b73d49f11f1fe32c57a145", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_af087c80f6ec63e7de4ff7926f7da7d0Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_841c1f1485f51831db9f4b37a6d551d5Structure", "OutSystemsUI.model$RL_b290214900b73d49f11f1fe32c57a145"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_af087c80f6ec63e7de4ff7926f7da7d0StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1585,8 +1540,7 @@ define("OutSystemsUI.model$ST_af087c80f6ec63e7de4ff7926f7da7d0Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_1310596a4ac4ae2b0319b38dd9472639", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_af087c80f6ec63e7de4ff7926f7da7d0Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_1310596a4ac4ae2b0319b38dd9472639Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1615,8 +1569,7 @@ define("OutSystemsUI.model$RC_1310596a4ac4ae2b0319b38dd9472639", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_13c131829a33cb5bedb5c64aa6f4add2Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_13c131829a33cb5bedb5c64aa6f4add2StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1646,8 +1599,7 @@ define("OutSystemsUI.model$ST_13c131829a33cb5bedb5c64aa6f4add2Structure", ["expo
 });
 
 define("OutSystemsUI.model$EN_8aa0a121c98b5f44394f59c96ffee853EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_8aa0a121c98b5f44394f59c96ffee853EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1674,8 +1626,7 @@ define("OutSystemsUI.model$EN_8aa0a121c98b5f44394f59c96ffee853EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_78b6d6ed7d52800a8a68e7d796ec6850", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_8aa0a121c98b5f44394f59c96ffee853EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_78b6d6ed7d52800a8a68e7d796ec6850Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1718,8 +1669,7 @@ define("OutSystemsUI.model$RL_13dce2cada552f2b003eedebc4cfbf64", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_14b00646f6cd842655571448758d0a23Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_14b00646f6cd842655571448758d0a23StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1802,8 +1752,7 @@ define("OutSystemsUI.model$RL_157fced35d515bf7b615f06f3ed59864", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_ede7f8abbe990a3b2c1a9cfd79dc5b0fEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_ede7f8abbe990a3b2c1a9cfd79dc5b0fEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1830,8 +1779,7 @@ define("OutSystemsUI.model$EN_ede7f8abbe990a3b2c1a9cfd79dc5b0fEntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_1583be5d90a94b6a73170ffa868eecc5", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_ede7f8abbe990a3b2c1a9cfd79dc5b0fEntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_1583be5d90a94b6a73170ffa868eecc5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1860,8 +1808,7 @@ define("OutSystemsUI.model$RC_1583be5d90a94b6a73170ffa868eecc5", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_3ba1d238c8e0f0c3e875fb37f0381cc6", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_8d4f783227026ce93d50126c7f028443EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3ba1d238c8e0f0c3e875fb37f0381cc6Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1918,8 +1865,7 @@ define("OutSystemsUI.model$RL_166d9c488ed75ab70d02b1e5d330558b", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_d3d7d244571ed038dbfee008e77e8c11", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d3d7d244571ed038dbfee008e77e8c11Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1974,8 +1920,7 @@ define("OutSystemsUI.model$RL_1729600b673fd0870291732dd16f0147", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_182bd2d69e3f1edb7f1fb76efcbcae87EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_182bd2d69e3f1edb7f1fb76efcbcae87EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2002,8 +1947,7 @@ define("OutSystemsUI.model$EN_182bd2d69e3f1edb7f1fb76efcbcae87EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$EN_189b647ddc5c60c1aa5290bb6481a72dEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_189b647ddc5c60c1aa5290bb6481a72dEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2027,8 +1971,7 @@ define("OutSystemsUI.model$EN_189b647ddc5c60c1aa5290bb6481a72dEntityRecord", ["e
 });
 
 define("OutSystemsUI.model$EN_1967a79b0bc6b1bdc38ff87eefe0b127EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_1967a79b0bc6b1bdc38ff87eefe0b127EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2055,8 +1998,7 @@ define("OutSystemsUI.model$EN_1967a79b0bc6b1bdc38ff87eefe0b127EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$EN_52e55d60c515b6016f81404afb220594EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_52e55d60c515b6016f81404afb220594EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2097,8 +2039,7 @@ define("OutSystemsUI.model$RL_19efe67c3ea3fa4b4b07aaa801b42f8c", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_c3a2475ae6370a2f746040280495b4a2EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_c3a2475ae6370a2f746040280495b4a2EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2125,8 +2066,7 @@ define("OutSystemsUI.model$EN_c3a2475ae6370a2f746040280495b4a2EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_c6831d06e579de4edbcf59e128b60b13", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_c3a2475ae6370a2f746040280495b4a2EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c6831d06e579de4edbcf59e128b60b13Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2169,8 +2109,7 @@ define("OutSystemsUI.model$RL_1a211c52d9450d4da06f34c1b8aa3b76", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_1f7daead8658b6d9bc2681468edc5e3fEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_1f7daead8658b6d9bc2681468edc5e3fEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2211,8 +2150,7 @@ define("OutSystemsUI.model$RL_1cbee159281ed82f6e5bc7a8b9325c58", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_87ed820dae13f311d79f7f394fc3790aStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_87ed820dae13f311d79f7f394fc3790aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2263,8 +2201,7 @@ define("OutSystemsUI.model$ST_87ed820dae13f311d79f7f394fc3790aStructure", ["expo
 });
 
 define("OutSystemsUI.model$RC_824809bf8c57cb0db3f5d42bbea4d2cf", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_87ed820dae13f311d79f7f394fc3790aStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_824809bf8c57cb0db3f5d42bbea4d2cfInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2307,8 +2244,7 @@ define("OutSystemsUI.model$RL_1cf429e8bab27b0a835794d4d352252f", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_256310aee13520906f2ba115af101f62Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_256310aee13520906f2ba115af101f62StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2356,8 +2292,7 @@ define("OutSystemsUI.model$ST_256310aee13520906f2ba115af101f62Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_1d16add6c65a995967ac402e66fde3ff", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_256310aee13520906f2ba115af101f62Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_1d16add6c65a995967ac402e66fde3ffInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2386,8 +2321,7 @@ define("OutSystemsUI.model$RC_1d16add6c65a995967ac402e66fde3ff", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_bc9955d62033e77475d9540bd4940593Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_bc9955d62033e77475d9540bd4940593StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2428,8 +2362,7 @@ define("OutSystemsUI.model$RL_1d5d9a16261edaf52587231a41469a09", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_4f86046673de081f9834eb306850ab22EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_4f86046673de081f9834eb306850ab22EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2456,8 +2389,7 @@ define("OutSystemsUI.model$EN_4f86046673de081f9834eb306850ab22EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_95c473136722ba7379611f73a3471de3", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_4f86046673de081f9834eb306850ab22EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_95c473136722ba7379611f73a3471de3Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2500,8 +2432,7 @@ define("OutSystemsUI.model$RL_1ea3e84bcb11dff20d44cc2dd9bb0fe2", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_1ea63146d7f1d969afc206832e751192", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_1e2af88601c0491260411e1369eb104cEntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_1ea63146d7f1d969afc206832e751192Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2530,8 +2461,7 @@ define("OutSystemsUI.model$RC_1ea63146d7f1d969afc206832e751192", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_28a47f2e64dd49f0d3d29e55f70be394Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_28a47f2e64dd49f0d3d29e55f70be394StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2555,8 +2485,7 @@ define("OutSystemsUI.model$ST_28a47f2e64dd49f0d3d29e55f70be394Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_5b37cd2bc5a279c3cc9b8640efcc6427", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_28a47f2e64dd49f0d3d29e55f70be394Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5b37cd2bc5a279c3cc9b8640efcc6427Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2599,8 +2528,7 @@ define("OutSystemsUI.model$RL_22f5579f76e7c8900c0e0ea6a0d13792", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_7f8fd02aa7ee2ac6182b6b36e46460d9EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_7f8fd02aa7ee2ac6182b6b36e46460d9EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2641,8 +2569,7 @@ define("OutSystemsUI.model$RL_230328260e3d7a695b9562201483a549", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_235f8a24bba710c13f14db6b69a566bbStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_235f8a24bba710c13f14db6b69a566bbStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2684,8 +2611,7 @@ define("OutSystemsUI.model$ST_235f8a24bba710c13f14db6b69a566bbStructure", ["expo
 });
 
 define("OutSystemsUI.model$ST_ffc6ac6eac2c99bcdbe1dc79ecc6377fStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ffc6ac6eac2c99bcdbe1dc79ecc6377fStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2712,8 +2638,7 @@ define("OutSystemsUI.model$ST_ffc6ac6eac2c99bcdbe1dc79ecc6377fStructure", ["expo
 });
 
 define("OutSystemsUI.model$RC_23e4ac7b03ba2050af5811737c8cc89f", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_ffc6ac6eac2c99bcdbe1dc79ecc6377fStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_23e4ac7b03ba2050af5811737c8cc89fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2756,8 +2681,7 @@ define("OutSystemsUI.model$RL_2434a812d9c1801fbc8d36150d23329c", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_7aeb6b0becaab355b4a3ae2d0ba331eaStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_7aeb6b0becaab355b4a3ae2d0ba331eaStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2795,8 +2719,7 @@ define("OutSystemsUI.model$RL_254e9acf50e8fbb70295a333c7fc6cd2", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_261685da2c799bcc3b4873485e008694", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_182bd2d69e3f1edb7f1fb76efcbcae87EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_261685da2c799bcc3b4873485e008694Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2825,8 +2748,7 @@ define("OutSystemsUI.model$RC_261685da2c799bcc3b4873485e008694", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_5c08eaa15b890a2d617cabe547c34f0bStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_5c08eaa15b890a2d617cabe547c34f0bStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2850,8 +2772,7 @@ define("OutSystemsUI.model$ST_5c08eaa15b890a2d617cabe547c34f0bStructure", ["expo
 });
 
 define("OutSystemsUI.model$ST_6f97d9724e66f51b47133aa003a9e610Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_5c08eaa15b890a2d617cabe547c34f0bStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_6f97d9724e66f51b47133aa003a9e610StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2901,8 +2822,7 @@ define("OutSystemsUI.model$RL_264e480af17fa239d591aa03fb53347c", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_a2f63a3e27000ea7c800cf727f8ecfba", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_106b6e385f5e89b0a7d76e23b14f61a0Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a2f63a3e27000ea7c800cf727f8ecfbaInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2945,8 +2865,7 @@ define("OutSystemsUI.model$RL_26fe7e35cc8af3671f82a7f722857f76", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_ef80898cf0e45bb0e0895a62dd0c45b1Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ef80898cf0e45bb0e0895a62dd0c45b1StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2982,8 +2901,7 @@ define("OutSystemsUI.model$ST_ef80898cf0e45bb0e0895a62dd0c45b1Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_28eb7999f57ca2adfa805d40364c85b5", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_ef80898cf0e45bb0e0895a62dd0c45b1Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_28eb7999f57ca2adfa805d40364c85b5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3026,8 +2944,7 @@ define("OutSystemsUI.model$RL_26fff94a649decd44865005d77fa1ed8", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_a14a98f7fea6a66cbe59ce2905b45c09EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_a14a98f7fea6a66cbe59ce2905b45c09EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3054,8 +2971,7 @@ define("OutSystemsUI.model$EN_a14a98f7fea6a66cbe59ce2905b45c09EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_ca426fec0751e5b6dcf015e9fdc2120e", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_a14a98f7fea6a66cbe59ce2905b45c09EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ca426fec0751e5b6dcf015e9fdc2120eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3098,8 +3014,7 @@ define("OutSystemsUI.model$RL_27a81319ef1cef112a91632cbf388562", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_27b48af5cc16a3b2165fd73e0270cad1Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_27b48af5cc16a3b2165fd73e0270cad1StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3123,8 +3038,7 @@ define("OutSystemsUI.model$ST_27b48af5cc16a3b2165fd73e0270cad1Structure", ["expo
 });
 
 define("OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b7d405ca4407e572da091e54d07e3bd1StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3148,8 +3062,7 @@ define("OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_27b5a164e828de9b90686831c7908b4a", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_27b5a164e828de9b90686831c7908b4aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3192,8 +3105,7 @@ define("OutSystemsUI.model$RL_2995190cb5b8004126c835c4dd6dec76", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_52888c3e6f33b11b7d6288dd268a26dcStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_52888c3e6f33b11b7d6288dd268a26dcStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3245,8 +3157,7 @@ define("OutSystemsUI.model$RL_2a0eb2112b6bdaac280617c2b6e06a2f", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_4e53cb8815b86020ced1d2f2652c9b1dStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_4e53cb8815b86020ced1d2f2652c9b1dStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3279,8 +3190,7 @@ define("OutSystemsUI.model$ST_4e53cb8815b86020ced1d2f2652c9b1dStructure", ["expo
 });
 
 define("OutSystemsUI.model$RC_2ac88c51f2d9ed908454e6a06ffe188e", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_4e53cb8815b86020ced1d2f2652c9b1dStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2ac88c51f2d9ed908454e6a06ffe188eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3309,8 +3219,7 @@ define("OutSystemsUI.model$RC_2ac88c51f2d9ed908454e6a06ffe188e", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_2b510eefd88959a00bf486cfc856fa96Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_2b510eefd88959a00bf486cfc856fa96StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3340,8 +3249,7 @@ define("OutSystemsUI.model$ST_2b510eefd88959a00bf486cfc856fa96Structure", ["expo
 });
 
 define("OutSystemsUI.model$EN_2c43e02ff45af9d6dc9d417ea3304062EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_2c43e02ff45af9d6dc9d417ea3304062EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3368,8 +3276,7 @@ define("OutSystemsUI.model$EN_2c43e02ff45af9d6dc9d417ea3304062EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_63c659b6dc554b0b4f81d60382bf5fd6", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_189b647ddc5c60c1aa5290bb6481a72dEntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_63c659b6dc554b0b4f81d60382bf5fd6Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3412,8 +3319,7 @@ define("OutSystemsUI.model$RL_2c7706a8fd91e45cb8a8b97418bcf4d0", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_f43f179caddf7f7b68b18272d67285d6EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_f43f179caddf7f7b68b18272d67285d6EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3440,8 +3346,7 @@ define("OutSystemsUI.model$EN_f43f179caddf7f7b68b18272d67285d6EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_954cd1231210e70f33f184017bf580ac", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_f43f179caddf7f7b68b18272d67285d6EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_954cd1231210e70f33f184017bf580acInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3484,8 +3389,7 @@ define("OutSystemsUI.model$RL_2cadeb0c6f7df3cfbe06d89edb556615", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_b247924e01b5d93a7cb0164b4482d4b5EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_b247924e01b5d93a7cb0164b4482d4b5EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3526,8 +3430,7 @@ define("OutSystemsUI.model$RL_2dafb734b3fa8f00d09ad3d0c3a077e6", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_ba5b17ae5b3fdd9318ea2b4cf18c7d4dStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ba5b17ae5b3fdd9318ea2b4cf18c7d4dStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3563,8 +3466,7 @@ define("OutSystemsUI.model$ST_ba5b17ae5b3fdd9318ea2b4cf18c7d4dStructure", ["expo
 });
 
 define("OutSystemsUI.model$RC_310dae2b4d3a1f1ded7570a6ee74f16e", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_ba5b17ae5b3fdd9318ea2b4cf18c7d4dStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_310dae2b4d3a1f1ded7570a6ee74f16eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3593,8 +3495,7 @@ define("OutSystemsUI.model$RC_310dae2b4d3a1f1ded7570a6ee74f16e", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_34444d0742578c128ebc8b2594439346Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_34444d0742578c128ebc8b2594439346StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3624,8 +3525,7 @@ define("OutSystemsUI.model$ST_34444d0742578c128ebc8b2594439346Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_4d01ba747615bc6dc01c586f0b43450a", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_34444d0742578c128ebc8b2594439346Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4d01ba747615bc6dc01c586f0b43450aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3668,8 +3568,7 @@ define("OutSystemsUI.model$RL_3168a7a1678dfe8f6720ee5fb1eb68a1", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_bc4abb4233d9ce894e855c520a20c76fStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_bc4abb4233d9ce894e855c520a20c76fStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3702,8 +3601,7 @@ define("OutSystemsUI.model$ST_bc4abb4233d9ce894e855c520a20c76fStructure", ["expo
 });
 
 define("OutSystemsUI.model$RC_327e36bc408edd046ca40df8a4e734bb", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_bc4abb4233d9ce894e855c520a20c76fStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_327e36bc408edd046ca40df8a4e734bbInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3732,8 +3630,7 @@ define("OutSystemsUI.model$RC_327e36bc408edd046ca40df8a4e734bb", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_6e6632cfd831e4e0f6a401872bea6eccStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_6e6632cfd831e4e0f6a401872bea6eccStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3763,8 +3660,7 @@ define("OutSystemsUI.model$ST_6e6632cfd831e4e0f6a401872bea6eccStructure", ["expo
 });
 
 define("OutSystemsUI.model$RC_b12957472059fa384384c2ddc449560e", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_6e6632cfd831e4e0f6a401872bea6eccStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b12957472059fa384384c2ddc449560eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3821,8 +3717,7 @@ define("OutSystemsUI.model$RL_331fdaa66f00c258aa64e18fe67ccb9e", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_92679525739afa328c09890d25f5ac45EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_92679525739afa328c09890d25f5ac45EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3863,8 +3758,7 @@ define("OutSystemsUI.model$RL_3325417b3e1ae27173e1161b12a2b345", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_8391f9d0c6b78f74493c47987669deecStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3888,8 +3782,7 @@ define("OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", ["expo
 });
 
 define("OutSystemsUI.model$RC_3554b1e2806a5b827c457cdecc492d4a", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3554b1e2806a5b827c457cdecc492d4aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3918,8 +3811,7 @@ define("OutSystemsUI.model$RC_3554b1e2806a5b827c457cdecc492d4a", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_35ce9df1ad7a89533b2e8a49a8413520", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_35ce9df1ad7a89533b2e8a49a8413520Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3975,8 +3867,7 @@ define("OutSystemsUI.model$RC_35ce9df1ad7a89533b2e8a49a8413520", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_ef2257119ab36e2c35ddd0bb3d7ac544EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_ef2257119ab36e2c35ddd0bb3d7ac544EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4017,8 +3908,7 @@ define("OutSystemsUI.model$RL_362950b7d5d9798e12950648533599a1", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_3693d4da8f8fc784e4048b7b08e34c39EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_3693d4da8f8fc784e4048b7b08e34c39EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4045,8 +3935,7 @@ define("OutSystemsUI.model$EN_3693d4da8f8fc784e4048b7b08e34c39EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$EN_59aacee1cb91627a0f497366b24e4500EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_59aacee1cb91627a0f497366b24e4500EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4073,8 +3962,7 @@ define("OutSystemsUI.model$EN_59aacee1cb91627a0f497366b24e4500EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_373fec8a2329a8b1ecd55cf717893131", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_59aacee1cb91627a0f497366b24e4500EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_373fec8a2329a8b1ecd55cf717893131Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4103,8 +3991,7 @@ define("OutSystemsUI.model$RC_373fec8a2329a8b1ecd55cf717893131", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_3a1bf32d2ff94c720f1efbdad7281777EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_3a1bf32d2ff94c720f1efbdad7281777EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4131,8 +4018,7 @@ define("OutSystemsUI.model$EN_3a1bf32d2ff94c720f1efbdad7281777EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$ST_cd3e064c4ee8b37ab96945c09d5d2155Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_cd3e064c4ee8b37ab96945c09d5d2155StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4180,8 +4066,7 @@ define("OutSystemsUI.model$ST_cd3e064c4ee8b37ab96945c09d5d2155Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_3af5daa8009f6f7f8a09f38255a62078", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_cd3e064c4ee8b37ab96945c09d5d2155Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3af5daa8009f6f7f8a09f38255a62078Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4210,8 +4095,7 @@ define("OutSystemsUI.model$RC_3af5daa8009f6f7f8a09f38255a62078", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_f9178b4aae1879ea388b92402c64db4cEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_f9178b4aae1879ea388b92402c64db4cEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4238,8 +4122,7 @@ define("OutSystemsUI.model$EN_f9178b4aae1879ea388b92402c64db4cEntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_3bbfc6c91fcd8a2dd97847564be30682", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_f9178b4aae1879ea388b92402c64db4cEntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3bbfc6c91fcd8a2dd97847564be30682Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4268,8 +4151,7 @@ define("OutSystemsUI.model$RC_3bbfc6c91fcd8a2dd97847564be30682", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_d383eada98ae47b51248dfe934bb4fabEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_d383eada98ae47b51248dfe934bb4fabEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4310,8 +4192,7 @@ define("OutSystemsUI.model$RL_3be527befbeca9c3042c1440ecab7d56", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_3cb059eb7f6ed8c9a730f87011d5c0e0Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_3cb059eb7f6ed8c9a730f87011d5c0e0StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4349,8 +4230,7 @@ define("OutSystemsUI.model$RL_3cfea1a1e933b75750f570ea368d3da2", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_3d7c5be4055c8fe2c227afc40d8dee2f", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_1967a79b0bc6b1bdc38ff87eefe0b127EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3d7c5be4055c8fe2c227afc40d8dee2fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4379,8 +4259,7 @@ define("OutSystemsUI.model$RC_3d7c5be4055c8fe2c227afc40d8dee2f", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_8ccec918bf91fdb79e42a7e1e178b4beStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_8ccec918bf91fdb79e42a7e1e178b4beStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4404,8 +4283,7 @@ define("OutSystemsUI.model$ST_8ccec918bf91fdb79e42a7e1e178b4beStructure", ["expo
 });
 
 define("OutSystemsUI.model$RC_3dc2f7b3c292c64f7476a99f4086df98", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_8ccec918bf91fdb79e42a7e1e178b4beStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3dc2f7b3c292c64f7476a99f4086df98Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4434,8 +4312,7 @@ define("OutSystemsUI.model$RC_3dc2f7b3c292c64f7476a99f4086df98", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_3e7155b32546681d96eaaf8aa39a4f6e", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_235f8a24bba710c13f14db6b69a566bbStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3e7155b32546681d96eaaf8aa39a4f6eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4464,8 +4341,7 @@ define("OutSystemsUI.model$RC_3e7155b32546681d96eaaf8aa39a4f6e", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_f318de02ad2d00bca70ecb5d73f27ec9EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_f318de02ad2d00bca70ecb5d73f27ec9EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4492,8 +4368,7 @@ define("OutSystemsUI.model$EN_f318de02ad2d00bca70ecb5d73f27ec9EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_3f6426aeecbfa4af19e279847df746cc", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_f318de02ad2d00bca70ecb5d73f27ec9EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3f6426aeecbfa4af19e279847df746ccInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4522,8 +4397,7 @@ define("OutSystemsUI.model$RC_3f6426aeecbfa4af19e279847df746cc", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_3fbb4babd0ba48852fecc04be37d3c0e", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_841c1f1485f51831db9f4b37a6d551d5Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3fbb4babd0ba48852fecc04be37d3c0eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4552,8 +4426,7 @@ define("OutSystemsUI.model$RC_3fbb4babd0ba48852fecc04be37d3c0e", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_3fe78d74e319e2ce842fd51dd2d67caaStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_3fe78d74e319e2ce842fd51dd2d67caaStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4691,8 +4564,7 @@ define("OutSystemsUI.model$ST_3fe78d74e319e2ce842fd51dd2d67caaStructure", ["expo
 });
 
 define("OutSystemsUI.model$ST_7d99fd1de65649f174aff6854b052539Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_7d99fd1de65649f174aff6854b052539StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4725,8 +4597,7 @@ define("OutSystemsUI.model$ST_7d99fd1de65649f174aff6854b052539Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_4028c83435ff8f3fa19c27e5a3252dd5", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_7d99fd1de65649f174aff6854b052539Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4028c83435ff8f3fa19c27e5a3252dd5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4755,8 +4626,7 @@ define("OutSystemsUI.model$RC_4028c83435ff8f3fa19c27e5a3252dd5", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_40ff37b8719fa708a2bb67c839d296b2", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_52888c3e6f33b11b7d6288dd268a26dcStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_40ff37b8719fa708a2bb67c839d296b2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4785,8 +4655,7 @@ define("OutSystemsUI.model$RC_40ff37b8719fa708a2bb67c839d296b2", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_bbab5f70da1d7251909f44ce9efe20fa", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_bbab5f70da1d7251909f44ce9efe20faInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4869,8 +4738,7 @@ define("OutSystemsUI.model$RL_4438108cb3e8b9ed9e8aaff799663860", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_f0a0dc1163bf03e1d7bb0d253808f956EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_f0a0dc1163bf03e1d7bb0d253808f956EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4897,8 +4765,7 @@ define("OutSystemsUI.model$EN_f0a0dc1163bf03e1d7bb0d253808f956EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_73fae6920f82113320dccc89ef073c01", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_f0a0dc1163bf03e1d7bb0d253808f956EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_73fae6920f82113320dccc89ef073c01Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4941,8 +4808,7 @@ define("OutSystemsUI.model$RL_452bae0381b3504e486b471d2123e658", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_45a33caf5ebb3dedd109c21fe6ae3d86", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_b247924e01b5d93a7cb0164b4482d4b5EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_45a33caf5ebb3dedd109c21fe6ae3d86Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4985,8 +4851,7 @@ define("OutSystemsUI.model$RL_4645896d20bae069726fdb473c154d2d", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_46bd5f77d899939eaf145ae01d3efd6bStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_46bd5f77d899939eaf145ae01d3efd6bStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5039,8 +4904,7 @@ define("OutSystemsUI.model$RL_478659cf4d50eb426ae425e9399ed35f", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_f3c2b7b3f72abb115f72c934f4368624", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_14b00646f6cd842655571448758d0a23Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f3c2b7b3f72abb115f72c934f4368624Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5083,8 +4947,7 @@ define("OutSystemsUI.model$RL_47cfc8da94abd6a57dcb42f40bcbe06e", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_4835a3b0a2d4ab28e154f8a8831a00ef", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_5c08eaa15b890a2d617cabe547c34f0bStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4835a3b0a2d4ab28e154f8a8831a00efInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5113,8 +4976,7 @@ define("OutSystemsUI.model$RC_4835a3b0a2d4ab28e154f8a8831a00ef", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_486a35159c95750661e012cbe99a555f", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_27b48af5cc16a3b2165fd73e0270cad1Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_486a35159c95750661e012cbe99a555fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5143,8 +5005,7 @@ define("OutSystemsUI.model$RC_486a35159c95750661e012cbe99a555f", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_48a3ab8db598b5be6bef9add20e71bbbEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_48a3ab8db598b5be6bef9add20e71bbbEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5182,8 +5043,7 @@ define("OutSystemsUI.model$RL_4aa1509142da7c0b9e4be414c8f7c6f5", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_b4e36c9529d7446e086560192df48d7cEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_b4e36c9529d7446e086560192df48d7cEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5224,8 +5084,7 @@ define("OutSystemsUI.model$RL_4ac7560fd222f165e8fbfd92d25d984e", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_4c3ee0d0ad514546e23495b0186f9086", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4c3ee0d0ad514546e23495b0186f9086Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5297,8 +5156,7 @@ define("OutSystemsUI.model$RL_4d67a428caaa9d0a9cf0257d7fce0e9b", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_4d77cfdd567b208680377834fc8205a2", ["exports", "@outsystems/runtime-core-js", "System_.model", "OutSystemsUI.model", "System_.model$PasswordComplexityPolicyRec", "OutSystemsUI.referencesHealth", "OutSystemsUI.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4d77cfdd567b208680377834fc8205a2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5355,8 +5213,7 @@ define("OutSystemsUI.model$RL_4f6dde27a1d6ecd82e9d6a4d041d32f3", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_4f70c42b393d853a53e093e196f4b683Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_4f70c42b393d853a53e093e196f4b683StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5380,8 +5237,7 @@ define("OutSystemsUI.model$ST_4f70c42b393d853a53e093e196f4b683Structure", ["expo
 });
 
 define("OutSystemsUI.model$ST_7167810326c75456a7ce120ed2dbd76bStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_7167810326c75456a7ce120ed2dbd76bStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5414,8 +5270,7 @@ define("OutSystemsUI.model$ST_7167810326c75456a7ce120ed2dbd76bStructure", ["expo
 });
 
 define("OutSystemsUI.model$RC_4fc16da695108ad1b034b7256ffa868d", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_7167810326c75456a7ce120ed2dbd76bStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4fc16da695108ad1b034b7256ffa868dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5486,8 +5341,7 @@ define("OutSystemsUI.model$RL_50d3e0774fce43a1ce1cf3a9009855f8", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_9cac82fc47e32e1503b2dbc00140aa98Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_9cac82fc47e32e1503b2dbc00140aa98StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5534,8 +5388,7 @@ define("OutSystemsUI.model$RL_51838c970a5f5ffd90e6f16dae1511f6", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_51b1c15949308af5f9b2dba7043d5ae6", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_b4e36c9529d7446e086560192df48d7cEntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_51b1c15949308af5f9b2dba7043d5ae6Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5564,8 +5417,7 @@ define("OutSystemsUI.model$RC_51b1c15949308af5f9b2dba7043d5ae6", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_e828cdbd51e0c1ef095bd323f6e2875aStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e828cdbd51e0c1ef095bd323f6e2875aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5637,8 +5489,7 @@ define("OutSystemsUI.model$RL_52688881ccfed8dc2d89a4eb45a2498e", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_546a3060996e070a522a708cd2d94c23Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_546a3060996e070a522a708cd2d94c23StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5688,8 +5539,7 @@ define("OutSystemsUI.model$RL_549974f3b4457a3de60891ae7d23d2bc", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_56805fdef6332e01f13c0f9217357dbc", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_3cb059eb7f6ed8c9a730f87011d5c0e0Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_56805fdef6332e01f13c0f9217357dbcInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5760,8 +5610,7 @@ define("OutSystemsUI.model$RL_5a2f2aff27f92e4dd93b1f922d1a7262", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_5abb10cad8e1029cd3a5a677a5bd89aeStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_5abb10cad8e1029cd3a5a677a5bd89aeStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5824,8 +5673,7 @@ define("OutSystemsUI.model$ST_5abb10cad8e1029cd3a5a677a5bd89aeStructure", ["expo
 });
 
 define("OutSystemsUI.model$EN_5d1279724e719322292e34ef3c5500a0EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_5d1279724e719322292e34ef3c5500a0EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5852,8 +5700,7 @@ define("OutSystemsUI.model$EN_5d1279724e719322292e34ef3c5500a0EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_5f28219a5e30fb90023fcbc295513e7c", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_5d1279724e719322292e34ef3c5500a0EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5f28219a5e30fb90023fcbc295513e7cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5896,8 +5743,7 @@ define("OutSystemsUI.model$RL_5ba41fd2555db2daaba8da89df34a9b8", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_5be8b31925746693c09b3f64c4898006EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_5be8b31925746693c09b3f64c4898006EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5921,8 +5767,7 @@ define("OutSystemsUI.model$EN_5be8b31925746693c09b3f64c4898006EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$ST_b96c67f06fdfae580256b7081d85460dStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b96c67f06fdfae580256b7081d85460dStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5960,8 +5805,7 @@ define("OutSystemsUI.model$RL_5f1eb42ec5e25a70109aeb71587a7f0b", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_60ed22b1487b1e18edb2fceb277aa5d1", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_3693d4da8f8fc784e4048b7b08e34c39EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_60ed22b1487b1e18edb2fceb277aa5d1Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5990,8 +5834,7 @@ define("OutSystemsUI.model$RC_60ed22b1487b1e18edb2fceb277aa5d1", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_60f22bd2e9b10a22278b8afe6d7f601aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6024,8 +5867,7 @@ define("OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", ["expo
 });
 
 define("OutSystemsUI.model$RC_60f7027c05b269e64f9c4c41640d4643", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_6f97d9724e66f51b47133aa003a9e610Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_60f7027c05b269e64f9c4c41640d4643Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6054,8 +5896,7 @@ define("OutSystemsUI.model$RC_60f7027c05b269e64f9c4c41640d4643", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_613242ff7dd22d356200cb1f89298a39Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_613242ff7dd22d356200cb1f89298a39StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6122,8 +5963,7 @@ define("OutSystemsUI.model$RL_63ccb429e57f95e7ed9716b41b4e2342", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_eb161a8909408fbd30eac1833398f018Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_eb161a8909408fbd30eac1833398f018StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6147,8 +5987,7 @@ define("OutSystemsUI.model$ST_eb161a8909408fbd30eac1833398f018Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_646e6c02297b69c2ac8936bd87cff545", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_eb161a8909408fbd30eac1833398f018Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_646e6c02297b69c2ac8936bd87cff545Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6177,8 +6016,7 @@ define("OutSystemsUI.model$RC_646e6c02297b69c2ac8936bd87cff545", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_6510d2524fe77fcc6c285159d4000cfbStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_6510d2524fe77fcc6c285159d4000cfbStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6208,8 +6046,7 @@ define("OutSystemsUI.model$ST_6510d2524fe77fcc6c285159d4000cfbStructure", ["expo
 });
 
 define("OutSystemsUI.model$RC_ab84a98a3ac9de80e9278e5b21681a23", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_52e55d60c515b6016f81404afb220594EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ab84a98a3ac9de80e9278e5b21681a23Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6280,8 +6117,7 @@ define("OutSystemsUI.model$RL_65d9a4311a8786a7162dbd4fc605ecd0", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_660adb7a9db48bff1b12c6e03515b415Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_660adb7a9db48bff1b12c6e03515b415StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6336,8 +6172,7 @@ define("OutSystemsUI.model$RL_67211e5ef9090bf1006a3e1da6767024", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_ac6f62956e278d5390a5f27c607338d0EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_ac6f62956e278d5390a5f27c607338d0EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6361,8 +6196,7 @@ define("OutSystemsUI.model$EN_ac6f62956e278d5390a5f27c607338d0EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_673cc0a63dbc3f5836f7732ba0712544", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_ac6f62956e278d5390a5f27c607338d0EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_673cc0a63dbc3f5836f7732ba0712544Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6405,8 +6239,7 @@ define("OutSystemsUI.model$RL_6753b1849ff4bc19e62c553317f17751", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_f01d650db89cbacd8f4a32786da5428e", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f01d650db89cbacd8f4a32786da5428eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6476,8 +6309,7 @@ define("OutSystemsUI.model$RL_6dd55341acb0c4f5e43d780f071bf981", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_f4b8704cebd53b0a2ed361a846fc1b0e", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_2b510eefd88959a00bf486cfc856fa96Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f4b8704cebd53b0a2ed361a846fc1b0eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6534,8 +6366,7 @@ define("OutSystemsUI.model$RL_6e83700adc6fcd665137daf94937dfd4", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_df70a614ae02fde4029645a728b2909cEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_df70a614ae02fde4029645a728b2909cEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6562,8 +6393,7 @@ define("OutSystemsUI.model$EN_df70a614ae02fde4029645a728b2909cEntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_b2eeb8f69cd26079c0c421f6fd8d6d1f", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_df70a614ae02fde4029645a728b2909cEntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b2eeb8f69cd26079c0c421f6fd8d6d1fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6606,8 +6436,7 @@ define("OutSystemsUI.model$RL_6ee4774b8ebf7f4bd9b3c05eedd6dd87", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_abb6a3eba8583e4ab0625de8f38fb719", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_0262e6910ebecc922f633b08db78d688Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_abb6a3eba8583e4ab0625de8f38fb719Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6664,8 +6493,7 @@ define("OutSystemsUI.model$RL_718bfa5485b42466fae8f4ad1fc16180", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_71bc196daedd9ac0648bfd56a713859dStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_71bc196daedd9ac0648bfd56a713859dStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6692,8 +6520,7 @@ define("OutSystemsUI.model$ST_71bc196daedd9ac0648bfd56a713859dStructure", ["expo
 });
 
 define("OutSystemsUI.model$RC_967cb65710fd1a346ebf0b0d8dbea56b", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_92679525739afa328c09890d25f5ac45EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_967cb65710fd1a346ebf0b0d8dbea56bInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6750,8 +6577,7 @@ define("OutSystemsUI.model$RL_73cbe97ff08da4924df6411aaaf55e68", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_7c416001ce979a5857a1237e54d11a88", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_bc9955d62033e77475d9540bd4940593Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7c416001ce979a5857a1237e54d11a88Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6794,8 +6620,7 @@ define("OutSystemsUI.model$RL_74a608cd4da094ed2430bedab2c84160", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_e14f3c77ad4f7c2d7fcad14fc0ab9bf1", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_71bc196daedd9ac0648bfd56a713859dStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e14f3c77ad4f7c2d7fcad14fc0ab9bf1Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6866,8 +6691,7 @@ define("OutSystemsUI.model$RL_c0f17d75c546075264f5d075e00ba65b", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_936f99e69df60f5aa2563bbd38e49c98Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", "OutSystemsUI.model$RL_c0f17d75c546075264f5d075e00ba65b"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_936f99e69df60f5aa2563bbd38e49c98StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6915,8 +6739,7 @@ define("OutSystemsUI.model$ST_936f99e69df60f5aa2563bbd38e49c98Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_7925a19e6fd0a09e9058a96c7f19b104", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_936f99e69df60f5aa2563bbd38e49c98Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7925a19e6fd0a09e9058a96c7f19b104Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6959,8 +6782,7 @@ define("OutSystemsUI.model$RL_799b7146a2a08781a419c46b161fba52", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_79dd905420a035342bdbafd506073863EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_79dd905420a035342bdbafd506073863EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6984,8 +6806,7 @@ define("OutSystemsUI.model$EN_79dd905420a035342bdbafd506073863EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_85af8fa7a4c9fca4ade94e1edb0d5f7d", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_6510d2524fe77fcc6c285159d4000cfbStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_85af8fa7a4c9fca4ade94e1edb0d5f7dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7028,8 +6849,7 @@ define("OutSystemsUI.model$RL_7a204c55a54d7fc5a49ee67743d390cb", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_7a28bfa00272cf999603d060780d47ecEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_7a28bfa00272cf999603d060780d47ecEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7084,8 +6904,7 @@ define("OutSystemsUI.model$RL_7afe2e3802b1138fe7c019f238334de4", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_de4b3bacd4ec5ee23880b64e848f90da", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_13c131829a33cb5bedb5c64aa6f4add2Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_de4b3bacd4ec5ee23880b64e848f90daInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7128,8 +6947,7 @@ define("OutSystemsUI.model$RL_7b51ea73c091c181cde3054c500bd942", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_c521eea762e9dd37e04340f2864e8aa0EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_c521eea762e9dd37e04340f2864e8aa0EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7184,8 +7002,7 @@ define("OutSystemsUI.model$RL_7c155d6f9991d43524221e40a2ecb02b", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_e5ad8f04c38047441643c6868992c277", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_09173c1b0f41f719b9efd6430c2e737dStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e5ad8f04c38047441643c6868992c277Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7228,8 +7045,7 @@ define("OutSystemsUI.model$RL_7d09eb138f7abf181049d020e739a58f", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_7d9f2e2bc8ad21193b3b806a3a092d80", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_0d18385ed976d2d74e8cea1d77078409Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7d9f2e2bc8ad21193b3b806a3a092d80Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7258,8 +7074,7 @@ define("OutSystemsUI.model$RC_7d9f2e2bc8ad21193b3b806a3a092d80", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_7e19f04989174b13ab8c3badf82f69b4EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_7e19f04989174b13ab8c3badf82f69b4EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7286,8 +7101,7 @@ define("OutSystemsUI.model$EN_7e19f04989174b13ab8c3badf82f69b4EntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_b5f68720e8ed79c9aa70970bcdd12b24", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_7aeb6b0becaab355b4a3ae2d0ba331eaStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b5f68720e8ed79c9aa70970bcdd12b24Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7330,8 +7144,7 @@ define("OutSystemsUI.model$RL_7e9847cbd460e629ebec5413d11b35ed", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_7f56ea63061432843ab4dd16f4578b32", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_7a28bfa00272cf999603d060780d47ecEntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7f56ea63061432843ab4dd16f4578b32Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7402,8 +7215,7 @@ define("OutSystemsUI.model$RL_813e0996d705e3c45deaefe05bef3a22", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_81cffcb474124022b5e4e9bef9a608da", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_4f70c42b393d853a53e093e196f4b683Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_81cffcb474124022b5e4e9bef9a608daInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7460,8 +7272,7 @@ define("OutSystemsUI.model$RL_843bbe6b5508d5a1ce4c6547db1f1385", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_849d11ab47adc426b5ce8d8c815c4fbfEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_849d11ab47adc426b5ce8d8c815c4fbfEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7527,8 +7338,7 @@ define("OutSystemsUI.model$RL_86a710fa3061d711a5a3426a0542a93a", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_87351e3b0fa2ca59cf6c6749c6405006", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_849d11ab47adc426b5ce8d8c815c4fbfEntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_87351e3b0fa2ca59cf6c6749c6405006Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7571,8 +7381,7 @@ define("OutSystemsUI.model$RL_88055e7d64e095cc2917570a8093617e", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_98ce383abd92f0f4c51d49a4fcc3bfcc", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_98ce383abd92f0f4c51d49a4fcc3bfccInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7626,8 +7435,7 @@ define("OutSystemsUI.model$RL_8add23b891a53c086b7017fd4cdd211b", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_f52343ea94aab4a44927e9cbc0e79a19", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_46bd5f77d899939eaf145ae01d3efd6bStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f52343ea94aab4a44927e9cbc0e79a19Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7670,8 +7478,7 @@ define("OutSystemsUI.model$RL_8b3d3d8dfdc8305db5da1ea630a7c3be", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_8d60218511e7c5a6826e7f1bde0eda29", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_3a1bf32d2ff94c720f1efbdad7281777EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8d60218511e7c5a6826e7f1bde0eda29Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7714,8 +7521,7 @@ define("OutSystemsUI.model$RL_8e0fc5c9e799d27970a97b6552ea83ed", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_8f31728044d1321864213488837bc67a", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_613242ff7dd22d356200cb1f89298a39Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8f31728044d1321864213488837bc67aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7772,8 +7578,7 @@ define("OutSystemsUI.model$RL_90540fb356a9f06dc487d0623c648999", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_c3613394da5ea68f302177112ad784ed", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c3613394da5ea68f302177112ad784edInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7952,8 +7757,7 @@ define("OutSystemsUI.model$RL_990ec909aac501b1bcb3004f4a88bfe6", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_ab72f035aa34ddb5ec313dc02adb1f18", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_7f8fd02aa7ee2ac6182b6b36e46460d9EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ab72f035aa34ddb5ec313dc02adb1f18Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8010,8 +7814,7 @@ define("OutSystemsUI.model$RL_9af508c2bc49a313fc433219cb3052d0", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_c506c74ca8aaa04b11f3b2041bb6669f", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_9cac82fc47e32e1503b2dbc00140aa98Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c506c74ca8aaa04b11f3b2041bb6669fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8068,8 +7871,7 @@ define("OutSystemsUI.model$RL_9c28fba2ad5d9bbe6b5a769d4094590b", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_adf11bcbc411b5a0f498d25dd0ea882fEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_adf11bcbc411b5a0f498d25dd0ea882fEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8096,8 +7898,7 @@ define("OutSystemsUI.model$EN_adf11bcbc411b5a0f498d25dd0ea882fEntityRecord", ["e
 });
 
 define("OutSystemsUI.model$RC_9ca6a18cc49ca7246c44c0f7c2cef62a", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_adf11bcbc411b5a0f498d25dd0ea882fEntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9ca6a18cc49ca7246c44c0f7c2cef62aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8126,8 +7927,7 @@ define("OutSystemsUI.model$RC_9ca6a18cc49ca7246c44c0f7c2cef62a", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_e3f9af4171d5e4a41700770295d05c77Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e3f9af4171d5e4a41700770295d05c77StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8151,8 +7951,7 @@ define("OutSystemsUI.model$ST_e3f9af4171d5e4a41700770295d05c77Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_b7283e2c6e9c6bcb5286d1ae04959554", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_e3f9af4171d5e4a41700770295d05c77Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b7283e2c6e9c6bcb5286d1ae04959554Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8251,8 +8050,7 @@ define("OutSystemsUI.model$BasicTypeList<Text>", ["exports", "@outsystems/runtim
 });
 
 define("OutSystemsUI.model$ST_ee4d16d56cd7c489ec094cc9fa0cd607Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ee4d16d56cd7c489ec094cc9fa0cd607StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8423,8 +8221,7 @@ define("OutSystemsUI.model$ST_ee4d16d56cd7c489ec094cc9fa0cd607Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_a34c029579f872c2fbb90741544ea7c6", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_ee4d16d56cd7c489ec094cc9fa0cd607Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a34c029579f872c2fbb90741544ea7c6Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8467,8 +8264,7 @@ define("OutSystemsUI.model$RL_a3746675e7afa0a411750081849db606", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_e092deacf9bc8885dd34714ac00f33e4", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_5be8b31925746693c09b3f64c4898006EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e092deacf9bc8885dd34714ac00f33e4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8511,8 +8307,7 @@ define("OutSystemsUI.model$RL_a48ae6e6aedeec60d7b351d47494aa56", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_b31d17ba3ccc14eaadd4d2faf9371f2d", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_1f7daead8658b6d9bc2681468edc5e3fEntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b31d17ba3ccc14eaadd4d2faf9371f2dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8555,8 +8350,7 @@ define("OutSystemsUI.model$RL_a4d3e7059d940ae293c84c03c23eb5be", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_a52e1739b8f4600af03587813c6346bb", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_5abb10cad8e1029cd3a5a677a5bd89aeStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a52e1739b8f4600af03587813c6346bbInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8599,8 +8393,7 @@ define("OutSystemsUI.model$RL_a500b87435ba92088f423cd3cb985687", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_a5018402fa6c90c5e826e54b2748cedc", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_48a3ab8db598b5be6bef9add20e71bbbEntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a5018402fa6c90c5e826e54b2748cedcInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8629,8 +8422,7 @@ define("OutSystemsUI.model$RC_a5018402fa6c90c5e826e54b2748cedc", ["exports", "@o
 });
 
 define("OutSystemsUI.model$ST_f2d4817754eec123207470e41d7a01d7Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", "OutSystemsUI.model$RL_c0f17d75c546075264f5d075e00ba65b"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_f2d4817754eec123207470e41d7a01d7StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8675,8 +8467,7 @@ define("OutSystemsUI.model$ST_f2d4817754eec123207470e41d7a01d7Structure", ["expo
 });
 
 define("OutSystemsUI.model$RC_e3b67119e4a2ce2c95244e08a29b21aa", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_f2d4817754eec123207470e41d7a01d7Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e3b67119e4a2ce2c95244e08a29b21aaInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8719,8 +8510,7 @@ define("OutSystemsUI.model$RL_a5b4786090b04fa97abef703025f0e41", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_a784fb81632458d6690327bfa77675d9", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_3fe78d74e319e2ce842fd51dd2d67caaStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a784fb81632458d6690327bfa77675d9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8749,8 +8539,7 @@ define("OutSystemsUI.model$RC_a784fb81632458d6690327bfa77675d9", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_c47826b7e4232fbf890784243715f5a8", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_d383eada98ae47b51248dfe934bb4fabEntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c47826b7e4232fbf890784243715f5a8Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8821,8 +8610,7 @@ define("OutSystemsUI.model$RL_a9a9108148017b3108e7788d5e0b597c", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_aa6f2a469018f20449b52bedd4074e46", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$RC_4c3ee0d0ad514546e23495b0186f9086", "OutSystemsUI.model$RL_52688881ccfed8dc2d89a4eb45a2498e"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_aa6f2a469018f20449b52bedd4074e46Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8992,8 +8780,7 @@ define("OutSystemsUI.model$RL_af7f649b9a00c07af59590b0760c28af", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_cc83188402b0c2897ce694332899ab49", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_79dd905420a035342bdbafd506073863EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_cc83188402b0c2897ce694332899ab49Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9036,8 +8823,7 @@ define("OutSystemsUI.model$RL_afde32c02d31aa9dc9d1d570d8226b0f", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_e03a49308bfaca02257d451178bbf041", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e03a49308bfaca02257d451178bbf041Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9094,8 +8880,7 @@ define("OutSystemsUI.model$RL_b17d2ee19e721e639857531d2bbc81c0", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_b1f70cd6a745b5879d66249a8c483fef", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_e828cdbd51e0c1ef095bd323f6e2875aStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b1f70cd6a745b5879d66249a8c483fefInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9124,8 +8909,7 @@ define("OutSystemsUI.model$RC_b1f70cd6a745b5879d66249a8c483fef", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_b6adbbf4e08bad2975a6f8f796279b71", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_ef2257119ab36e2c35ddd0bb3d7ac544EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b6adbbf4e08bad2975a6f8f796279b71Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9168,8 +8952,7 @@ define("OutSystemsUI.model$RL_b2003a063523641b68ecff9e50755bc3", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_b27f0b968b0f7cea61506ac9d6ee7c27", ["exports", "@outsystems/runtime-core-js", "System_.model", "OutSystemsUI.model", "System_.model$PasswordValidationResultRec", "OutSystemsUI.referencesHealth", "OutSystemsUI.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b27f0b968b0f7cea61506ac9d6ee7c27Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9310,8 +9093,7 @@ define("OutSystemsUI.model$RL_bb23cfabef259372d4ccc6deba43b63b", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_bb80a04f7ea6a5bb3d33db9b2bca4c88", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_b96c67f06fdfae580256b7081d85460dStructure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_bb80a04f7ea6a5bb3d33db9b2bca4c88Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9396,8 +9178,7 @@ define("OutSystemsUI.model$RL_bf3bc554c395cc3dd0ab1a5b6ac5d91f", ["exports", "@o
 });
 
 define("OutSystemsUI.model$EN_c1e622743b79c1510fd62a0adf89686bEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_c1e622743b79c1510fd62a0adf89686bEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9648,8 +9429,7 @@ define("OutSystemsUI.model$RL_cfb818c964fb3ae8dde06e9177a0c998", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_d15ba8cc56cc5ee58bd8acaffd974239", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_2c43e02ff45af9d6dc9d417ea3304062EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d15ba8cc56cc5ee58bd8acaffd974239Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9748,8 +9528,7 @@ define("OutSystemsUI.model$RL_d2c71de812e44763974172e04508cef5", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_d5f1a8119489aabce0fbd0fa422c2185", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_69c22c095aca285f3fb706e10e473ba5Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d5f1a8119489aabce0fbd0fa422c2185Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9820,8 +9599,7 @@ define("OutSystemsUI.model$RL_d6c0b448038896edf0289bb81122c411", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_f332a0a4298f66d209888b6f5c56f633", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_7e19f04989174b13ab8c3badf82f69b4EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f332a0a4298f66d209888b6f5c56f633Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9920,8 +9698,7 @@ define("OutSystemsUI.model$RL_da293bf48581f98e964af95ac114b752", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_dac62773434cf92b52368fd089bbfc2a", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_660adb7a9db48bff1b12c6e03515b415Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_dac62773434cf92b52368fd089bbfc2aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9978,8 +9755,7 @@ define("OutSystemsUI.model$RL_dce3f06b54239d1a341b332bfbc48ec2", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_dd0070f225e242673216fed1481d0a20", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$ST_546a3060996e070a522a708cd2d94c23Structure"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_dd0070f225e242673216fed1481d0a20Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10008,8 +9784,7 @@ define("OutSystemsUI.model$RC_dd0070f225e242673216fed1481d0a20", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_de3deb221a4b1656cc37f0db973c4e9a", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_c521eea762e9dd37e04340f2864e8aa0EntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_de3deb221a4b1656cc37f0db973c4e9aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10038,8 +9813,7 @@ define("OutSystemsUI.model$RC_de3deb221a4b1656cc37f0db973c4e9a", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_edb482045d64b0cbbcbf62278fb73c32", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$RC_d3d7d244571ed038dbfee008e77e8c11", "OutSystemsUI.model$RL_1729600b673fd0870291732dd16f0147", "OutSystemsUI.model$RC_bbab5f70da1d7251909f44ce9efe20fa", "OutSystemsUI.model$RL_4260c6c2a6b32d80f4d763c795bd8980", "OutSystemsUI.model$RC_35ce9df1ad7a89533b2e8a49a8413520", "OutSystemsUI.model$RL_aec2af9ce70ea7e7bfe1e63d0f657cf5"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_edb482045d64b0cbbcbf62278fb73c32Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10111,8 +9885,7 @@ define("OutSystemsUI.model$RL_e3429d51e0fc95e173d2cbcfc5f6b446", ["exports", "@o
 });
 
 define("OutSystemsUI.model$RC_e3607d6b92545e5793fbeb99fc16b7e7", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.model$EN_c1e622743b79c1510fd62a0adf89686bEntityRecord"], function(exports, OSRuntimeCore, OutSystemsUIModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e3607d6b92545e5793fbeb99fc16b7e7Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {

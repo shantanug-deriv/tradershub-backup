@@ -366,8 +366,7 @@ define("tradershub.RealAccountCreationBlocks.PersonalDetailsMobileDOBForm.mvc$vi
     return View;
 });
 define("tradershub.RealAccountCreationBlocks.PersonalDetailsMobileDOBForm.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreationBlocks.PersonalDetailsMobileDOBForm.mvc$controller.SaveOnClick.ValidateJS", "tradershub.RealAccountCreationBlocks.PersonalDetailsMobileDOBForm.mvc$controller.SaveOnClick.RudderStackJS", "tradershub.RealAccountCreationBlocks.PersonalDetailsMobileDOBForm.mvc$controller.OnClick.OpenDatePickerJS", "tradershub.RealAccountCreationBlocks.PersonalDetailsMobileDOBForm.mvc$controller.OnReady.InitializeFlatpickrJS", "tradershub.model$ST_3a6e5c84ccd1db0dd256408ff639cec5Structure", "tradershub.model$ST_89997516e5fa7eccf341304acb63651bStructure"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationBlocks_PersonalDetailsMobileDOBForm_mvc_controller_SaveOnClick_ValidateJS, tradershub_RealAccountCreationBlocks_PersonalDetailsMobileDOBForm_mvc_controller_SaveOnClick_RudderStackJS, tradershub_RealAccountCreationBlocks_PersonalDetailsMobileDOBForm_mvc_controller_OnClick_OpenDatePickerJS, tradershub_RealAccountCreationBlocks_PersonalDetailsMobileDOBForm_mvc_controller_OnReady_InitializeFlatpickrJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

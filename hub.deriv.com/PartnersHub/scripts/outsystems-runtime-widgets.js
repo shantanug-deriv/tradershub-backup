@@ -1372,8 +1372,7 @@
                 placeholderContent: this.props.placeholders.content,
                 fillWithParentProperties: t => this.fillWithBuiltinProperties(t),
                 classProperty: this.props.style
-            });
-            {
+            }); {
                 const i = {
                     extendedProperties: null !== (t = this.props.extendedProperties) && void 0 !== t ? t : {},
                     visibilityThreshold: 35,

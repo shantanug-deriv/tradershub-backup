@@ -1,6 +1,5 @@
 define("System_.model$ENEntityEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENEntityEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -47,8 +46,7 @@ define("System_.model$RLEntityList", ["exports", "@outsystems/runtime-core-js", 
 });
 
 define("System_.model$RC_05f199cf8f734662fa6eaa91568947ff", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENEntityEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_05f199cf8f734662fa6eaa91568947ffInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -77,8 +75,7 @@ define("System_.model$RC_05f199cf8f734662fa6eaa91568947ff", ["exports", "@outsys
 });
 
 define("System_.model$PasswordComplexityPolicyRec", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class PasswordComplexityPolicyRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -111,8 +108,7 @@ define("System_.model$PasswordComplexityPolicyRec", ["exports", "@outsystems/run
 });
 
 define("System_.model$StartUserRegistrationFailureReasonRec", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class StartUserRegistrationFailureReasonRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -139,8 +135,7 @@ define("System_.model$StartUserRegistrationFailureReasonRec", ["exports", "@outs
 });
 
 define("System_.model$RC_3c619bc2cefd7ed268d81977413e1480", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$StartUserRegistrationFailureReasonRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3c619bc2cefd7ed268d81977413e1480Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -183,8 +178,7 @@ define("System_.model$RL_089f77c93d3ce6afa3f16b6014987fb9", ["exports", "@outsys
 });
 
 define("System_.model$ENRoleEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENRoleEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -217,8 +211,7 @@ define("System_.model$ENRoleEntityRecord", ["exports", "@outsystems/runtime-core
 });
 
 define("System_.model$ENActivityOutputEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENActivityOutputEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -260,8 +253,7 @@ define("System_.model$ENActivityOutputEntityRecord", ["exports", "@outsystems/ru
 });
 
 define("System_.model$ENTenantEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENTenantEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -285,8 +277,7 @@ define("System_.model$ENTenantEntityRecord", ["exports", "@outsystems/runtime-co
 });
 
 define("System_.model$RC_40d0f5c5ba630b105850cead15ae2223", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENTenantEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_40d0f5c5ba630b105850cead15ae2223Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -329,8 +320,7 @@ define("System_.model$RL_1021a34c12afbc1ae6d31ca4929b6091", ["exports", "@outsys
 });
 
 define("System_.model$ENActivityKindEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENActivityKindEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -354,8 +344,7 @@ define("System_.model$ENActivityKindEntityRecord", ["exports", "@outsystems/runt
 });
 
 define("System_.model$RC_99e7afb0bae555fcf70d1cd06f23ae14", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENActivityKindEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_99e7afb0bae555fcf70d1cd06f23ae14Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -398,8 +387,7 @@ define("System_.model$RL_12438f333dd1f8c1a50e2396d5890dd1", ["exports", "@outsys
 });
 
 define("System_.model$RC_13630884b629a3a59e929e1cdea42eb1", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENRoleEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_13630884b629a3a59e929e1cdea42eb1Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -428,8 +416,7 @@ define("System_.model$RC_13630884b629a3a59e929e1cdea42eb1", ["exports", "@outsys
 });
 
 define("System_.model$UserLoginFailureReasonRec", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class UserLoginFailureReasonRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -453,8 +440,7 @@ define("System_.model$UserLoginFailureReasonRec", ["exports", "@outsystems/runti
 });
 
 define("System_.model$UserLoginResultRec", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$UserLoginFailureReasonRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class UserLoginResultRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -484,8 +470,7 @@ define("System_.model$UserLoginResultRec", ["exports", "@outsystems/runtime-core
 });
 
 define("System_.model$RC_f9a589fe5b81c3bda7db0e574d5d11fb", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$UserLoginResultRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f9a589fe5b81c3bda7db0e574d5d11fbInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -542,8 +527,7 @@ define("System_.model$RLActivityOutputList", ["exports", "@outsystems/runtime-co
 });
 
 define("System_.model$UserInfoRec", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class UserInfoRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -570,8 +554,7 @@ define("System_.model$UserInfoRec", ["exports", "@outsystems/runtime-core-js", "
 });
 
 define("System_.model$RC_79f003baa030e546826ed42c3962f582", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$UserInfoRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_79f003baa030e546826ed42c3962f582Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -614,8 +597,7 @@ define("System_.model$RL_1503951706c05a1675ae923dc239c757", ["exports", "@outsys
 });
 
 define("System_.model$FinishResetPasswordFailureReasonRec", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class FinishResetPasswordFailureReasonRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -642,8 +624,7 @@ define("System_.model$FinishResetPasswordFailureReasonRec", ["exports", "@outsys
 });
 
 define("System_.model$RC_1ba3db8c7175cd095b4f1a36c3a1e53d", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$FinishResetPasswordFailureReasonRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_1ba3db8c7175cd095b4f1a36c3a1e53dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -672,8 +653,7 @@ define("System_.model$RC_1ba3db8c7175cd095b4f1a36c3a1e53d", ["exports", "@outsys
 });
 
 define("System_.model$UpdateUserFailureReasonRec", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class UpdateUserFailureReasonRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -700,8 +680,7 @@ define("System_.model$UpdateUserFailureReasonRec", ["exports", "@outsystems/runt
 });
 
 define("System_.model$UpdateUserResultRec", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$UpdateUserFailureReasonRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class UpdateUserResultRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -728,8 +707,7 @@ define("System_.model$UpdateUserResultRec", ["exports", "@outsystems/runtime-cor
 });
 
 define("System_.model$RC_bd573fb2cb521691dc6a8c4b02eeb054", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$UpdateUserResultRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_bd573fb2cb521691dc6a8c4b02eeb054Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -772,8 +750,7 @@ define("System_.model$RL_201410915258bdd92387bbd4bec2a7bb", ["exports", "@outsys
 });
 
 define("System_.model$ENActivityStatusEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENActivityStatusEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -797,8 +774,7 @@ define("System_.model$ENActivityStatusEntityRecord", ["exports", "@outsystems/ru
 });
 
 define("System_.model$RC_36a7d48575a55c39ace8b7f6b0cd3ac4", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENActivityStatusEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_36a7d48575a55c39ace8b7f6b0cd3ac4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -841,8 +817,7 @@ define("System_.model$RL_20bf822013f9723d57d50b23f1a33f26", ["exports", "@outsys
 });
 
 define("System_.model$ENActivityOutputDefinitionEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENActivityOutputDefinitionEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -907,8 +882,7 @@ define("System_.model$RLActivityOutputDefinitionList", ["exports", "@outsystems/
 });
 
 define("System_.model$ENProcessInstanceEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENProcessInstanceEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -941,8 +915,7 @@ define("System_.model$ENProcessInstanceEntityRecord", ["exports", "@outsystems/r
 });
 
 define("System_.model$RC_c2c51a49c601586c1a143904ac6893f9", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENProcessInstanceEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c2c51a49c601586c1a143904ac6893f9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -985,8 +958,7 @@ define("System_.model$RL_247a9c7809b4893cc7a21d0914d69e61", ["exports", "@outsys
 });
 
 define("System_.model$RC_24e87e1f1de297ca8a691099e40c22ed", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENActivityOutputEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_24e87e1f1de297ca8a691099e40c22edInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1015,8 +987,7 @@ define("System_.model$RC_24e87e1f1de297ca8a691099e40c22ed", ["exports", "@outsys
 });
 
 define("System_.model$ENActivityDefinitionRoleEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENActivityDefinitionRoleEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1071,8 +1042,7 @@ define("System_.model$RL_28fc2381cbc1135b5eb41ae627dcd287", ["exports", "@outsys
 });
 
 define("System_.model$ENEntityAttributeEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENEntityAttributeEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1123,8 +1093,7 @@ define("System_.model$ENEntityAttributeEntityRecord", ["exports", "@outsystems/r
 });
 
 define("System_.model$RC_2efffbee03fccc31484e893e007e6c9a", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENEntityAttributeEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2efffbee03fccc31484e893e007e6c9aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1153,8 +1122,7 @@ define("System_.model$RC_2efffbee03fccc31484e893e007e6c9a", ["exports", "@outsys
 });
 
 define("System_.model$ENProcessStatusEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENProcessStatusEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1206,8 +1174,7 @@ define("System_.model$RL_31d7615454c0155a64f826d4e0cf4cb5", ["exports", "@outsys
 });
 
 define("System_.model$ENRuntimeTypeEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENRuntimeTypeEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1237,8 +1204,7 @@ define("System_.model$ENRuntimeTypeEntityRecord", ["exports", "@outsystems/runti
 });
 
 define("System_.model$RC_3251af6c799b185d408b7cad31be3454", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENRuntimeTypeEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3251af6c799b185d408b7cad31be3454Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1267,8 +1233,7 @@ define("System_.model$RC_3251af6c799b185d408b7cad31be3454", ["exports", "@outsys
 });
 
 define("System_.model$ENEmailEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENEmailEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1306,8 +1271,7 @@ define("System_.model$RLEmailList", ["exports", "@outsystems/runtime-core-js", "
 });
 
 define("System_.model$ENProcessDefinitionEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENProcessDefinitionEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1351,8 +1315,7 @@ define("System_.model$RLRuntimeTypeList", ["exports", "@outsystems/runtime-core-
 });
 
 define("System_.model$ChangePasswordFailureReasonRec", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ChangePasswordFailureReasonRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1379,8 +1342,7 @@ define("System_.model$ChangePasswordFailureReasonRec", ["exports", "@outsystems/
 });
 
 define("System_.model$ChangePasswordResultRec", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ChangePasswordFailureReasonRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ChangePasswordResultRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1418,8 +1380,7 @@ define("System_.model$RL_36d4d7e2109bafadf398450826580bed", ["exports", "@outsys
 });
 
 define("System_.model$ENActivityDefinitionLinkEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENActivityDefinitionLinkEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1466,8 +1427,7 @@ define("System_.model$RLActivityDefinitionLinkList", ["exports", "@outsystems/ru
 });
 
 define("System_.model$StartUserRegistrationResultRec", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$StartUserRegistrationFailureReasonRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class StartUserRegistrationResultRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1497,8 +1457,7 @@ define("System_.model$StartUserRegistrationResultRec", ["exports", "@outsystems/
 });
 
 define("System_.model$RC_37cfc11aad68902b9d78f57915b7ae79", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$StartUserRegistrationResultRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_37cfc11aad68902b9d78f57915b7ae79Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1527,8 +1486,7 @@ define("System_.model$RC_37cfc11aad68902b9d78f57915b7ae79", ["exports", "@outsys
 });
 
 define("System_.model$RC_8535fa70cf0bfd6fa50f69a53d3b4ae1", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENActivityOutputDefinitionEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8535fa70cf0bfd6fa50f69a53d3b4ae1Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1585,8 +1543,7 @@ define("System_.model$RL_3b8feaa11cc930133dbb7eecb085b527", ["exports", "@outsys
 });
 
 define("System_.model$ENApplicationEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENApplicationEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1613,8 +1570,7 @@ define("System_.model$ENApplicationEntityRecord", ["exports", "@outsystems/runti
 });
 
 define("System_.model$ENActivityDefinitionEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENActivityDefinitionEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1647,8 +1603,7 @@ define("System_.model$ENActivityDefinitionEntityRecord", ["exports", "@outsystem
 });
 
 define("System_.model$RC_a04f94cfd410c813b8dee156f64b6537", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENActivityDefinitionEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a04f94cfd410c813b8dee156f64b6537Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1691,8 +1646,7 @@ define("System_.model$RL_3e3c312f4b244ea01713a0fa4a15518a", ["exports", "@outsys
 });
 
 define("System_.model$FinishResetPasswordResultRec", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$FinishResetPasswordFailureReasonRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class FinishResetPasswordResultRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1716,8 +1670,7 @@ define("System_.model$FinishResetPasswordResultRec", ["exports", "@outsystems/ru
 });
 
 define("System_.model$RC_9817a5747e4b09aa3a6a7eb35ce9f66e", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$FinishResetPasswordResultRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9817a5747e4b09aa3a6a7eb35ce9f66eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1760,8 +1713,7 @@ define("System_.model$RL_3f7b36d8bbcf12054b7e2f49497f214f", ["exports", "@outsys
 });
 
 define("System_.model$ENActivityDefinitionLanguageEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENActivityDefinitionLanguageEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1808,8 +1760,7 @@ define("System_.model$RLActivityDefinitionLanguageList", ["exports", "@outsystem
 });
 
 define("System_.model$ENProcessInputEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENProcessInputEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1879,8 +1830,7 @@ define("System_.model$RL_47595c6744be14d2bd677fd05324180f", ["exports", "@outsys
 });
 
 define("System_.model$ENProcessDefinitionLanguageEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENProcessDefinitionLanguageEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1910,8 +1860,7 @@ define("System_.model$ENProcessDefinitionLanguageEntityRecord", ["exports", "@ou
 });
 
 define("System_.model$RC_b1f889a35d23518bfa5ab890a96efb52", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENProcessDefinitionLanguageEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b1f889a35d23518bfa5ab890a96efb52Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1954,8 +1903,7 @@ define("System_.model$RL_4bc987bb2bbc5a9c083569aa81631f7e", ["exports", "@outsys
 });
 
 define("System_.model$RC_4d77cfdd567b208680377834fc8205a2", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$PasswordComplexityPolicyRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4d77cfdd567b208680377834fc8205a2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1984,8 +1932,7 @@ define("System_.model$RC_4d77cfdd567b208680377834fc8205a2", ["exports", "@outsys
 });
 
 define("System_.model$StartResetPasswordResultRec", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class StartResetPasswordResultRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2037,8 +1984,7 @@ define("System_.model$RLActivityDefinitionList", ["exports", "@outsystems/runtim
 });
 
 define("System_.model$ENProcessOutputDefinitionEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENProcessOutputDefinitionEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2080,8 +2026,7 @@ define("System_.model$ENProcessOutputDefinitionEntityRecord", ["exports", "@outs
 });
 
 define("System_.model$RC_fd7c0ec5e9d4fd6a4a9a332d3e175dd4", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENProcessOutputDefinitionEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_fd7c0ec5e9d4fd6a4a9a332d3e175dd4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2124,8 +2069,7 @@ define("System_.model$RL_52acedf8b6208b104cbd689064facc6a", ["exports", "@outsys
 });
 
 define("System_.model$RC_53d491417faf149f9fb8a0dda9c12d06", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ChangePasswordResultRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_53d491417faf149f9fb8a0dda9c12d06Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2210,8 +2154,7 @@ define("System_.model$RL_599ab6c06883c99851f6aa769853530c", ["exports", "@outsys
 });
 
 define("System_.model$RC_5d4c0a98b9773e489e7e27bfe5360793", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$UpdateUserFailureReasonRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5d4c0a98b9773e489e7e27bfe5360793Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2240,8 +2183,7 @@ define("System_.model$RC_5d4c0a98b9773e489e7e27bfe5360793", ["exports", "@outsys
 });
 
 define("System_.model$ENProcessOutputEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENProcessOutputEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2297,8 +2239,7 @@ define("System_.model$RLProcessOutputList", ["exports", "@outsystems/runtime-cor
 });
 
 define("System_.model$FinishUserRegistrationFailureReasonRec", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class FinishUserRegistrationFailureReasonRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2367,8 +2308,7 @@ define("System_.model$RLProcessDefinitionList", ["exports", "@outsystems/runtime
 });
 
 define("System_.model$ENUserEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENUserEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2398,8 +2338,7 @@ define("System_.model$ENUserEntityRecord", ["exports", "@outsystems/runtime-core
 });
 
 define("System_.model$FinishUserRegistrationResultRec", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$FinishUserRegistrationFailureReasonRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class FinishUserRegistrationResultRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2482,8 +2421,7 @@ define("System_.model$RLProcessDefinitionLanguageList", ["exports", "@outsystems
 });
 
 define("System_.model$RC_a702e171772a9b89c17e2544ab6d1d29", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENApplicationEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a702e171772a9b89c17e2544ab6d1d29Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2526,8 +2464,7 @@ define("System_.model$RL_77de0cb9f6a169c5c7917faf23aa1522", ["exports", "@outsys
 });
 
 define("System_.model$ENActivityInstanceEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENActivityInstanceEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2580,8 +2517,7 @@ define("System_.model$RLActivityInstanceList", ["exports", "@outsystems/runtime-
 });
 
 define("System_.model$RC_78fc3f34c3c68c7b3604ba4da3920682", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$FinishUserRegistrationFailureReasonRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_78fc3f34c3c68c7b3604ba4da3920682Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2610,8 +2546,7 @@ define("System_.model$RC_78fc3f34c3c68c7b3604ba4da3920682", ["exports", "@outsys
 });
 
 define("System_.model$ENProcessInputDefinitionEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENProcessInputDefinitionEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2659,8 +2594,7 @@ define("System_.model$ENProcessInputDefinitionEntityRecord", ["exports", "@outsy
 });
 
 define("System_.model$RC_cbc07de8251245064bd8f80b6b35c7f6", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENProcessInputDefinitionEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_cbc07de8251245064bd8f80b6b35c7f6Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2703,8 +2637,7 @@ define("System_.model$RL_7a20bba9a4dcbce87cc868fa1eaca840", ["exports", "@outsys
 });
 
 define("System_.model$RC_80c865ccf1b0df95391817b0ddc45e18", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENProcessDefinitionEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_80c865ccf1b0df95391817b0ddc45e18Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2733,8 +2666,7 @@ define("System_.model$RC_80c865ccf1b0df95391817b0ddc45e18", ["exports", "@outsys
 });
 
 define("System_.model$RC_ced013358a82a813f1d9a5108f17ce79", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENUserEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ced013358a82a813f1d9a5108f17ce79Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2777,8 +2709,7 @@ define("System_.model$RL_8430333e95ceffc00def96d8abb01f75", ["exports", "@outsys
 });
 
 define("System_.model$RC_eb90da5b34724818e84008409205001c", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENActivityDefinitionLanguageEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_eb90da5b34724818e84008409205001cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2835,8 +2766,7 @@ define("System_.model$RLRoleList", ["exports", "@outsystems/runtime-core-js", "S
 });
 
 define("System_.model$ENHumanActivityInstanceEntityRecord", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ENHumanActivityInstanceEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2866,8 +2796,7 @@ define("System_.model$ENHumanActivityInstanceEntityRecord", ["exports", "@outsys
 });
 
 define("System_.model$RC_880f0b08a77c1575f19f408e1fddc8c6", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENHumanActivityInstanceEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_880f0b08a77c1575f19f408e1fddc8c6Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2896,8 +2825,7 @@ define("System_.model$RC_880f0b08a77c1575f19f408e1fddc8c6", ["exports", "@outsys
 });
 
 define("System_.model$RC_8a5dc374bf936f41e6af63789db6143f", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$FinishUserRegistrationResultRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8a5dc374bf936f41e6af63789db6143fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2940,8 +2868,7 @@ define("System_.model$RL_8b34cec2d3a4e3170e329009c7e2bef8", ["exports", "@outsys
 });
 
 define("System_.model$RC_8f8c9b77bcc0996564febb7d38ea930a", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$StartResetPasswordResultRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8f8c9b77bcc0996564febb7d38ea930aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2998,8 +2925,7 @@ define("System_.model$RL_919d8bc896529858c8cc8f0f3e5cb019", ["exports", "@outsys
 });
 
 define("System_.model$RC_c97a9c0cb896c874168b02efa3e48866", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENActivityDefinitionLinkEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c97a9c0cb896c874168b02efa3e48866Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3056,8 +2982,7 @@ define("System_.model$RLHumanActivityInstanceList", ["exports", "@outsystems/run
 });
 
 define("System_.model$RC_e6ef33ef6256e74a2c6e9f5dbfecc6ae", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENActivityDefinitionRoleEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e6ef33ef6256e74a2c6e9f5dbfecc6aeInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3100,8 +3025,7 @@ define("System_.model$RL_998b7e962bf7fec9cf03c9baf25fb2da", ["exports", "@outsys
 });
 
 define("System_.model$UserUpdateInfoRec", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class UserUpdateInfoRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3181,8 +3105,7 @@ define("System_.model$RL_9eba70ecf7dd38d3ed1fcfec91b187a8", ["exports", "@outsys
 });
 
 define("System_.model$RC_a582d84634a30a3a3b1e61cbfd3db9de", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$UserUpdateInfoRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a582d84634a30a3a3b1e61cbfd3db9deInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3239,8 +3162,7 @@ define("System_.model$RL_a60626c1780bfe250dcef75d5dfa5fd1", ["exports", "@outsys
 });
 
 define("System_.model$RC_a7be5795c4af08fa8098110e55d36aff", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENProcessStatusEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a7be5795c4af08fa8098110e55d36affInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3311,8 +3233,7 @@ define("System_.model$RL_b1951e6718fee0cfdfe159a4bfc6a006", ["exports", "@outsys
 });
 
 define("System_.model$PasswordValidationResultRec", ["exports", "@outsystems/runtime-core-js", "System_.model"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class PasswordValidationResultRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3348,8 +3269,7 @@ define("System_.model$PasswordValidationResultRec", ["exports", "@outsystems/run
 });
 
 define("System_.model$RC_b27f0b968b0f7cea61506ac9d6ee7c27", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$PasswordValidationResultRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b27f0b968b0f7cea61506ac9d6ee7c27Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3378,8 +3298,7 @@ define("System_.model$RC_b27f0b968b0f7cea61506ac9d6ee7c27", ["exports", "@outsys
 });
 
 define("System_.model$RC_e5c662d406f83f7f791bd7e5c8b0c543", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ChangePasswordFailureReasonRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e5c662d406f83f7f791bd7e5c8b0c543Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3436,8 +3355,7 @@ define("System_.model$RLEntityAttributeList", ["exports", "@outsystems/runtime-c
 });
 
 define("System_.model$RC_d5e6f13d187b5006f9f88b20f576700b", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENProcessOutputEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d5e6f13d187b5006f9f88b20f576700bInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3494,8 +3412,7 @@ define("System_.model$RL_bfe5e088b2f6df6ae697d4a263069bca", ["exports", "@outsys
 });
 
 define("System_.model$RC_c25115a84bc21f80350d8ea6536353ed", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENEmailEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c25115a84bc21f80350d8ea6536353edInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3566,8 +3483,7 @@ define("System_.model$RLProcessOutputDefinitionList", ["exports", "@outsystems/r
 });
 
 define("System_.model$RC_d43fed74d1678e954ae3786a22cd1029", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENProcessInputEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d43fed74d1678e954ae3786a22cd1029Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3652,8 +3568,7 @@ define("System_.model$RL_e03caeb3051b63201fbde73f1c69f75b", ["exports", "@outsys
 });
 
 define("System_.model$RC_faf38c2d2aeee71f293ad23cd32fa7e2", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$ENActivityInstanceEntityRecord"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_faf38c2d2aeee71f293ad23cd32fa7e2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3794,8 +3709,7 @@ define("System_.model$RL_f50879d0da007880fcd304f3378f0a9e", ["exports", "@outsys
 });
 
 define("System_.model$RC_f61c868ef053db94121ce89ee15a14fe", ["exports", "@outsystems/runtime-core-js", "System_.model", "System_.model$UserLoginFailureReasonRec"], function(exports, OSRuntimeCore, System_Model) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f61c868ef053db94121ce89ee15a14feInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {

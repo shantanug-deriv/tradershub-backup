@@ -348,8 +348,7 @@ define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$view", ["@o
     return View;
 });
 define("PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$translationsResources", "PartnersHub.RealAccountCreationFlow.DateOfBirthContainer.mvc$controller.NextOnClick.ValidateJS", "OutSystemsUI.model$ST_bc4abb4233d9ce894e855c520a20c76fStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "PartnersHub.controller$NextStepReal", "PartnersHub.model$ST_b5010cf570b4e39f4aa14db0ae11cfbfStructure", "PartnersHub.model$ST_24f25c56883af3fb98f750bd4c11bbdcStructure"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_RealAccountCreationFlow_DateOfBirthContainer_mvc_TranslationsResources, PartnersHub_RealAccountCreationFlow_DateOfBirthContainer_mvc_controller_NextOnClick_ValidateJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

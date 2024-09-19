@@ -1,6 +1,5 @@
 define("BrowserConsoleLogging.model$EN_95096fd7ce0528eba549110f4ff009ffEntityRecord", ["exports", "@outsystems/runtime-core-js", "BrowserConsoleLogging.model"], function(exports, OSRuntimeCore, BrowserConsoleLoggingModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_95096fd7ce0528eba549110f4ff009ffEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -30,8 +29,7 @@ define("BrowserConsoleLogging.model$EN_95096fd7ce0528eba549110f4ff009ffEntityRec
 });
 
 define("BrowserConsoleLogging.model$RC_5e259c61591c72343b5887d8b4ce62b5", ["exports", "@outsystems/runtime-core-js", "BrowserConsoleLogging.model", "BrowserConsoleLogging.model$EN_95096fd7ce0528eba549110f4ff009ffEntityRecord"], function(exports, OSRuntimeCore, BrowserConsoleLoggingModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5e259c61591c72343b5887d8b4ce62b5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {

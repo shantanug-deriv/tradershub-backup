@@ -257,8 +257,7 @@ define("OutSystemsUI.Numbers.Rating.mvc$view", ["@outsystems/runtime-core-js", "
     return View;
 });
 define("OutSystemsUI.Numbers.Rating.mvc$controller", ["@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.controller", "OutSystemsUI.languageResources", "OutSystemsUI.Numbers.Rating.mvc$translationsResources", "OutSystemsUI.Numbers.Rating.mvc$controller.RegisterCallback.GetCallbackHandlerJS", "OutSystemsUI.model$ST_69c22c095aca285f3fb706e10e473ba5Structure", "OutSystemsUI.controller$RatingRegisterCallback", "OutSystemsUI.controller$RatingCreate", "OutSystemsUI.controller$GenerateUniqueId", "OutSystemsUI.controller$LogEvent", "OutSystemsUI.controller$RatingInitialize", "OutSystemsUI.controller$RatingDestroy", "OutSystemsUI.controller$RatingChangeSize", "OutSystemsUI.controller$RatingChangeRatingValue", "OutSystemsUI.controller$RatingChangeRatingScale", "OutSystemsUI.controller$RatingChangeIsEdit", "OutSystemsUI.controller$RatingChangeExtendedClass"], function(OSRuntimeCore, OutSystemsUIModel, OutSystemsUIController, OutSystemsUILanguageResources, OutSystemsUI_Numbers_Rating_mvc_TranslationsResources, OutSystemsUI_Numbers_Rating_mvc_controller_RegisterCallback_GetCallbackHandlerJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

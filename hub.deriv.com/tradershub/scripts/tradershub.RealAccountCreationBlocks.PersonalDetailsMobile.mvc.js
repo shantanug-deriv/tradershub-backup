@@ -406,8 +406,7 @@ define("tradershub.RealAccountCreationBlocks.PersonalDetailsMobile.mvc$view", ["
     return View;
 });
 define("tradershub.RealAccountCreationBlocks.PersonalDetailsMobile.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreationBlocks.PersonalDetailsMobile.mvc$controller.OnClickNext.ValidateJS", "tradershub.RealAccountCreationBlocks.PersonalDetailsMobile.mvc$controller.OnClickNext.RudderStackJS", "tradershub.model$ST_3a6e5c84ccd1db0dd256408ff639cec5Structure", "tradershub.model$ST_89997516e5fa7eccf341304acb63651bStructure"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationBlocks_PersonalDetailsMobile_mvc_controller_OnClickNext_ValidateJS, tradershub_RealAccountCreationBlocks_PersonalDetailsMobile_mvc_controller_OnClickNext_RudderStackJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

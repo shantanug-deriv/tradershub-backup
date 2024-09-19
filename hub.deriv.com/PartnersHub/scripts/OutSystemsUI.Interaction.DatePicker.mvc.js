@@ -212,8 +212,7 @@ define("OutSystemsUI.Interaction.DatePicker.mvc$view", ["@outsystems/runtime-cor
     return View;
 });
 define("OutSystemsUI.Interaction.DatePicker.mvc$controller", ["@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.controller", "OutSystemsUI.languageResources", "OutSystemsUI.Interaction.DatePicker.mvc$translationsResources", "OutSystemsUI.Interaction.DatePicker.mvc$controller.RegisterCallbacks.GetCallbackHandlersJS", "OutSystemsUI.model$ST_cd3e064c4ee8b37ab96945c09d5d2155Structure", "OutSystemsUI.model$ST_bc4abb4233d9ce894e855c520a20c76fStructure", "OutSystemsUI.controller$SetServerDateFormat", "OutSystemsUI.controller$SetLocalLanguage", "OutSystemsUI.controller$LogEvent", "OutSystemsUI.controller$GenerateUniqueId", "OutSystemsUI.controller$DatePickerCreate", "OutSystemsUI.controller$DatePickerInitialize", "OutSystemsUI.controller$DatePickerDestroy", "OutSystemsUI.controller$DatePickerChangeIntegerProperty", "OutSystemsUI.controller$DatePickerChangeDateTimeProperty", "OutSystemsUI.controller$DatePickerChangeTextProperty", "OutSystemsUI.controller$DatePickerChangeBooleanProperty", "OutSystemsUI.controller$DatePickerRegisterCallback"], function(OSRuntimeCore, OutSystemsUIModel, OutSystemsUIController, OutSystemsUILanguageResources, OutSystemsUI_Interaction_DatePicker_mvc_TranslationsResources, OutSystemsUI_Interaction_DatePicker_mvc_controller_RegisterCallbacks_GetCallbackHandlersJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

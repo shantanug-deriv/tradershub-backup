@@ -420,8 +420,7 @@ define("tradershub.Layouts.SignupLayoutTopMenu.mvc$view", ["@outsystems/runtime-
     return View;
 });
 define("tradershub.Layouts.SignupLayoutTopMenu.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.controller", "OutSystemsUI.model", "tradershub.languageResources", "tradershub.clientVariables", "OutSystemsUI.controller$LayoutDestroy", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.model$ST_1eac13b44db3d2db577291973f4a7e96Structure", "tradershub.controller$SendResidenceList", "tradershub.controller$GetWebsiteStatus", "tradershub.controller$RudderstackIdentifyEvent", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "OutSystemsUI.controller$AddFavicon", "OutSystemsUI.controller$SetLang", "tradershub.controller$InitGrowthbookAndRudderStack", "OutSystemsUI.controller$LayoutReady", "tradershub.controller$InitizalizeDerivApi"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIController, OutSystemsUIModel, tradershubLanguageResources, tradershubClientVariables) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

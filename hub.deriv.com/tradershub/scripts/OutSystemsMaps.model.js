@@ -1,6 +1,5 @@
 define("OutSystemsMaps.model$ST_b2c05afcf4810ad0d4384a01306bb0f3Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b2c05afcf4810ad0d4384a01306bb0f3StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -24,8 +23,7 @@ define("OutSystemsMaps.model$ST_b2c05afcf4810ad0d4384a01306bb0f3Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_003de7652ef70684ee40ecb9c31ff117", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_b2c05afcf4810ad0d4384a01306bb0f3Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_003de7652ef70684ee40ecb9c31ff117Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -54,8 +52,7 @@ define("OutSystemsMaps.model$RC_003de7652ef70684ee40ecb9c31ff117", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_c2a46cf64d2acc4b38d805712495224cStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_c2a46cf64d2acc4b38d805712495224cStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -82,8 +79,7 @@ define("OutSystemsMaps.model$ST_c2a46cf64d2acc4b38d805712495224cStructure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_80cb2a4451da1d8d8f25a688259024cd", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_c2a46cf64d2acc4b38d805712495224cStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_80cb2a4451da1d8d8f25a688259024cdInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -126,8 +122,7 @@ define("OutSystemsMaps.model$RL_01101873132d33b7b76cda4800cadf1d", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_4d96f69748c4f35fb433f7995d061407Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_4d96f69748c4f35fb433f7995d061407StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -178,8 +173,7 @@ define("OutSystemsMaps.model$ST_4d96f69748c4f35fb433f7995d061407Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_d566c0a27b8928cd9ecc06f062d869f4", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_4d96f69748c4f35fb433f7995d061407Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d566c0a27b8928cd9ecc06f062d869f4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -222,8 +216,7 @@ define("OutSystemsMaps.model$RL_026241dd021d92fba8dbd1e2ecd28058", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_7f8762cb0c77867d9f9e3b82fd927c7bStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_7f8762cb0c77867d9f9e3b82fd927c7bStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -247,8 +240,7 @@ define("OutSystemsMaps.model$ST_7f8762cb0c77867d9f9e3b82fd927c7bStructure", ["ex
 });
 
 define("OutSystemsMaps.model$ST_fbded4e930a61a57761a37f0b1ea8d40Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_c2a46cf64d2acc4b38d805712495224cStructure", "OutSystemsMaps.model$ST_7f8762cb0c77867d9f9e3b82fd927c7bStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_fbded4e930a61a57761a37f0b1ea8d40StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -278,8 +270,7 @@ define("OutSystemsMaps.model$ST_fbded4e930a61a57761a37f0b1ea8d40Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_a11b90f038b532a4625b14a0974b03a2", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_fbded4e930a61a57761a37f0b1ea8d40Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a11b90f038b532a4625b14a0974b03a2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -322,8 +313,7 @@ define("OutSystemsMaps.model$RL_031760b0a286b19e96249006302a6d77", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_30625b4ad0f3e10abf82b61ea58e8644Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_30625b4ad0f3e10abf82b61ea58e8644StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -353,8 +343,7 @@ define("OutSystemsMaps.model$ST_30625b4ad0f3e10abf82b61ea58e8644Structure", ["ex
 });
 
 define("OutSystemsMaps.model$ST_be62cc31fbe4705834275960beeb55e2Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_be62cc31fbe4705834275960beeb55e2StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -378,8 +367,7 @@ define("OutSystemsMaps.model$ST_be62cc31fbe4705834275960beeb55e2Structure", ["ex
 });
 
 define("OutSystemsMaps.model$ST_d609eacb476c603df8b92eb374da99faStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_30625b4ad0f3e10abf82b61ea58e8644Structure", "OutSystemsMaps.model$ST_be62cc31fbe4705834275960beeb55e2Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_d609eacb476c603df8b92eb374da99faStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -424,8 +412,7 @@ define("OutSystemsMaps.model$ST_d609eacb476c603df8b92eb374da99faStructure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_d761bc5f1b0fe2debf1c3edffd0efd3c", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_d609eacb476c603df8b92eb374da99faStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d761bc5f1b0fe2debf1c3edffd0efd3cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -468,8 +455,7 @@ define("OutSystemsMaps.model$RL_0352d07492c0bc1610ae95bac5df94b5", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_03e1c2ea04d7f49cbc09fc7d6f681f53EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_03e1c2ea04d7f49cbc09fc7d6f681f53EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -510,8 +496,7 @@ define("OutSystemsMaps.model$RL_0407be818a2fac09cd5cb9fba665bce7", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_597877eac22877030461f6d98995be4aStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_be62cc31fbe4705834275960beeb55e2Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_597877eac22877030461f6d98995be4aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -541,8 +526,7 @@ define("OutSystemsMaps.model$ST_597877eac22877030461f6d98995be4aStructure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_708103c95439cc3f1448414527622b7c", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_597877eac22877030461f6d98995be4aStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_708103c95439cc3f1448414527622b7cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -585,8 +569,7 @@ define("OutSystemsMaps.model$RL_072e9a99378a3fe4c1e19c5a7956268f", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_ca9f1e36e4f2b1c8cabc0fd0c956ac77Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ca9f1e36e4f2b1c8cabc0fd0c956ac77StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -641,8 +624,7 @@ define("OutSystemsMaps.model$BasicTypeList<Text>", ["exports", "@outsystems/runt
 });
 
 define("OutSystemsMaps.model$ST_ca5fecbdf222b72d179909c1f030119cStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_ca9f1e36e4f2b1c8cabc0fd0c956ac77Structure", "OutSystemsMaps.model$RL_3e9d003efe19bfd5edf008a600c8d3af"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ca5fecbdf222b72d179909c1f030119cStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -692,8 +674,7 @@ define("OutSystemsMaps.model$RL_077ade80c9c35d6a29f94ecd2102a671", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_e7686de199fbd20281899419f0b6ff11EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_e7686de199fbd20281899419f0b6ff11EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -743,8 +724,7 @@ define("OutSystemsMaps.model$RL_07e65f4cc3491f918636e1711890abb8", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_f8c2d1b69d03ea90c73e9f07e7d98bf0Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_f8c2d1b69d03ea90c73e9f07e7d98bf0StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -768,8 +748,7 @@ define("OutSystemsMaps.model$ST_f8c2d1b69d03ea90c73e9f07e7d98bf0Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_098b5b5f4bf19fe0ddbe136503d3bd5a", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_f8c2d1b69d03ea90c73e9f07e7d98bf0Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_098b5b5f4bf19fe0ddbe136503d3bd5aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -812,8 +791,7 @@ define("OutSystemsMaps.model$RL_08e6ffa61762e97d642011e69cfed7f8", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_d5303c5dfa3a0e0e964776dce02c36f0EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_d5303c5dfa3a0e0e964776dce02c36f0EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -840,8 +818,7 @@ define("OutSystemsMaps.model$EN_d5303c5dfa3a0e0e964776dce02c36f0EntityRecord", [
 });
 
 define("OutSystemsMaps.model$RC_098c46906c1c0c7e7b39f1210fb64f78", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_d5303c5dfa3a0e0e964776dce02c36f0EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_098c46906c1c0c7e7b39f1210fb64f78Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -870,8 +847,7 @@ define("OutSystemsMaps.model$RC_098c46906c1c0c7e7b39f1210fb64f78", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_31cb630f5fdaa3aa4d3dbfd37cbf9e56Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_31cb630f5fdaa3aa4d3dbfd37cbf9e56StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -901,8 +877,7 @@ define("OutSystemsMaps.model$ST_31cb630f5fdaa3aa4d3dbfd37cbf9e56Structure", ["ex
 });
 
 define("OutSystemsMaps.model$ST_d4721898ae8c007cd938074f575e2979Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_31cb630f5fdaa3aa4d3dbfd37cbf9e56Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_d4721898ae8c007cd938074f575e2979StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -932,8 +907,7 @@ define("OutSystemsMaps.model$ST_d4721898ae8c007cd938074f575e2979Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_5b713573f61d6f7da10c24ba6dcff0a5", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_d4721898ae8c007cd938074f575e2979Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5b713573f61d6f7da10c24ba6dcff0a5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -976,8 +950,7 @@ define("OutSystemsMaps.model$RL_0a6dff1b0ed70563da6da4dc764c9f20", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_6a1434d5022d0c0b07dda84f17d8b42fEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_6a1434d5022d0c0b07dda84f17d8b42fEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1018,8 +991,7 @@ define("OutSystemsMaps.model$RL_0ab39bc0b00a63aa72a84e5a53caeac0", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_c3a74b883bf36717c1c549a2bbfbc0daEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_c3a74b883bf36717c1c549a2bbfbc0daEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1046,8 +1018,7 @@ define("OutSystemsMaps.model$EN_c3a74b883bf36717c1c549a2bbfbc0daEntityRecord", [
 });
 
 define("OutSystemsMaps.model$RC_0b102c453446be3ebcb793be90d6b209", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_c3a74b883bf36717c1c549a2bbfbc0daEntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0b102c453446be3ebcb793be90d6b209Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1090,8 +1061,7 @@ define("OutSystemsMaps.model$RL_0bcd3c98d22adfc3203704c950fffba0", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_793e574f3ddb64f39831eacf8a4462b0Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_793e574f3ddb64f39831eacf8a4462b0StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1118,8 +1088,7 @@ define("OutSystemsMaps.model$ST_793e574f3ddb64f39831eacf8a4462b0Structure", ["ex
 });
 
 define("OutSystemsMaps.model$ST_1a3d048e7bc3b165cd3ddc45ef640b18Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_793e574f3ddb64f39831eacf8a4462b0Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_1a3d048e7bc3b165cd3ddc45ef640b18StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1143,8 +1112,7 @@ define("OutSystemsMaps.model$ST_1a3d048e7bc3b165cd3ddc45ef640b18Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_0cc9882276464f8a42abc2516db92c70", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_1a3d048e7bc3b165cd3ddc45ef640b18Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0cc9882276464f8a42abc2516db92c70Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1173,8 +1141,7 @@ define("OutSystemsMaps.model$RC_0cc9882276464f8a42abc2516db92c70", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_b3f640c8758c66e2b436da510a8dfe3cStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b3f640c8758c66e2b436da510a8dfe3cStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1198,8 +1165,7 @@ define("OutSystemsMaps.model$ST_b3f640c8758c66e2b436da510a8dfe3cStructure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_0d7cc7bed68e0cd9bac246a9a398426e", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_b3f640c8758c66e2b436da510a8dfe3cStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0d7cc7bed68e0cd9bac246a9a398426eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1228,8 +1194,7 @@ define("OutSystemsMaps.model$RC_0d7cc7bed68e0cd9bac246a9a398426e", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_0df198ce2d64e9aa6113403a9d3f7309EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_0df198ce2d64e9aa6113403a9d3f7309EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1256,8 +1221,7 @@ define("OutSystemsMaps.model$EN_0df198ce2d64e9aa6113403a9d3f7309EntityRecord", [
 });
 
 define("OutSystemsMaps.model$ST_0e474756a4be14d378c73cd05f602bcdStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_0e474756a4be14d378c73cd05f602bcdStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1281,8 +1245,7 @@ define("OutSystemsMaps.model$ST_0e474756a4be14d378c73cd05f602bcdStructure", ["ex
 });
 
 define("OutSystemsMaps.model$ST_5fb6f64676b0133fcb572480a766fc9cStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_5fb6f64676b0133fcb572480a766fc9cStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1312,8 +1275,7 @@ define("OutSystemsMaps.model$ST_5fb6f64676b0133fcb572480a766fc9cStructure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_fdf568550fb18a6ec270df7466fa0d20", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_5fb6f64676b0133fcb572480a766fc9cStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_fdf568550fb18a6ec270df7466fa0d20Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1370,8 +1332,7 @@ define("OutSystemsMaps.model$RL_117c109748f839c6db14d3cec441846b", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_d25262c67f1be04c1df274811b8c7ee4Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_d25262c67f1be04c1df274811b8c7ee4StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1410,8 +1371,7 @@ define("OutSystemsMaps.model$ST_d25262c67f1be04c1df274811b8c7ee4Structure", ["ex
 });
 
 define("OutSystemsMaps.model$ST_5d8d0b250562ec29250400c2b0c3eb66Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_d25262c67f1be04c1df274811b8c7ee4Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_5d8d0b250562ec29250400c2b0c3eb66StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1449,8 +1409,7 @@ define("OutSystemsMaps.model$RL_1189c558de808bdc52d9d085e792f236", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_120b6e3e471666b0ae15ac3a8f34340fEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_120b6e3e471666b0ae15ac3a8f34340fEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1474,8 +1433,7 @@ define("OutSystemsMaps.model$EN_120b6e3e471666b0ae15ac3a8f34340fEntityRecord", [
 });
 
 define("OutSystemsMaps.model$ST_f021741499f997a32540fab3dfcdbbfaStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_c2a46cf64d2acc4b38d805712495224cStructure", "OutSystemsMaps.model$ST_7f8762cb0c77867d9f9e3b82fd927c7bStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_f021741499f997a32540fab3dfcdbbfaStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1505,8 +1463,7 @@ define("OutSystemsMaps.model$ST_f021741499f997a32540fab3dfcdbbfaStructure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_f413938d99b2f109b9b51d646a4937af", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_f021741499f997a32540fab3dfcdbbfaStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f413938d99b2f109b9b51d646a4937afInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1563,8 +1520,7 @@ define("OutSystemsMaps.model$RL_13ca00363f7e33ac6324e85dfb3d658d", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_468bdef36a83c5e44a35aa87e6093ad0", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_ca5fecbdf222b72d179909c1f030119cStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_468bdef36a83c5e44a35aa87e6093ad0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1635,8 +1591,7 @@ define("OutSystemsMaps.model$RL_1638668ea76502df056543656d2e89d1", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_51ef6a78944132edc56aa7bf7c4ea240Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_51ef6a78944132edc56aa7bf7c4ea240StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1675,8 +1630,7 @@ define("OutSystemsMaps.model$ST_51ef6a78944132edc56aa7bf7c4ea240Structure", ["ex
 });
 
 define("OutSystemsMaps.model$ST_3d593ae1aad35ac58e1616049bb8da2cStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_51ef6a78944132edc56aa7bf7c4ea240Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_3d593ae1aad35ac58e1616049bb8da2cStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1714,8 +1668,7 @@ define("OutSystemsMaps.model$RL_1740c5fc4f19037173051d750651a4c3", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_3f16cd459ccd861deffd4483bc1bbac3Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_3f16cd459ccd861deffd4483bc1bbac3StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1756,8 +1709,7 @@ define("OutSystemsMaps.model$RL_18137c78c83e8eb0c8f8ec08bffbb968", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_7595bf81d0b29040f5ad1b9eff7896b0EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_7595bf81d0b29040f5ad1b9eff7896b0EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1798,8 +1750,7 @@ define("OutSystemsMaps.model$RL_1aaab832ae3d87080f837b1b09d93572", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_1b25d6a078a2b54dc46acf86c7e61fc3", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_7f8762cb0c77867d9f9e3b82fd927c7bStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_1b25d6a078a2b54dc46acf86c7e61fc3Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1842,8 +1793,7 @@ define("OutSystemsMaps.model$RL_1dd9beeca9296fa7b8e0dda894601f07", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_97843bcb52146db1681dfc816cff70a0", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_e7686de199fbd20281899419f0b6ff11EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_97843bcb52146db1681dfc816cff70a0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1886,8 +1836,7 @@ define("OutSystemsMaps.model$RL_1e8f93f5e9d6c1aa9b732c047fc0e7d0", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_f2c047cd8082950bd1961446a5ec1949Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_ca5fecbdf222b72d179909c1f030119cStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_f2c047cd8082950bd1961446a5ec1949StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1939,8 +1888,7 @@ define("OutSystemsMaps.model$RL_2041355d498997d1657fdf428c3b452d", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_9f8ac95fe4e47e327de12de1b56bed45Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_9f8ac95fe4e47e327de12de1b56bed45StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1970,8 +1918,7 @@ define("OutSystemsMaps.model$ST_9f8ac95fe4e47e327de12de1b56bed45Structure", ["ex
 });
 
 define("OutSystemsMaps.model$ST_5baae74ed57e3bb61180aff1dadec4e1Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_be62cc31fbe4705834275960beeb55e2Structure", "OutSystemsMaps.model$ST_9f8ac95fe4e47e327de12de1b56bed45Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_5baae74ed57e3bb61180aff1dadec4e1StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2028,8 +1975,7 @@ define("OutSystemsMaps.model$ST_5baae74ed57e3bb61180aff1dadec4e1Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_3f581e27c2f72d4f78b5674dc475102b", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_5baae74ed57e3bb61180aff1dadec4e1Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3f581e27c2f72d4f78b5674dc475102bInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2072,8 +2018,7 @@ define("OutSystemsMaps.model$RL_212aa4d4c8fbd8bd92eb665c5f5a19bc", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_21369035d43ec8805ca548830e8c3c98", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_6a1434d5022d0c0b07dda84f17d8b42fEntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_21369035d43ec8805ca548830e8c3c98Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2102,8 +2047,7 @@ define("OutSystemsMaps.model$RC_21369035d43ec8805ca548830e8c3c98", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_e5ca0002e0338a827923cc311de3f95cEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_e5ca0002e0338a827923cc311de3f95cEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2130,8 +2074,7 @@ define("OutSystemsMaps.model$EN_e5ca0002e0338a827923cc311de3f95cEntityRecord", [
 });
 
 define("OutSystemsMaps.model$RC_227974ef92f7b64b18b95570fef9abe3", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_e5ca0002e0338a827923cc311de3f95cEntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_227974ef92f7b64b18b95570fef9abe3Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2174,8 +2117,7 @@ define("OutSystemsMaps.model$RL_22a46c31cc29b485a4a09782f08327cb", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_2c6551904cfa95c93fa24da37b55d320Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_0e474756a4be14d378c73cd05f602bcdStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_2c6551904cfa95c93fa24da37b55d320StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2219,8 +2161,7 @@ define("OutSystemsMaps.model$RL_23d0968d2ab1f8eb693cff9d043fd342", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_f121435b3edb481ee03ab7ef58e5b805Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_f121435b3edb481ee03ab7ef58e5b805StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2244,8 +2185,7 @@ define("OutSystemsMaps.model$ST_f121435b3edb481ee03ab7ef58e5b805Structure", ["ex
 });
 
 define("OutSystemsMaps.model$ST_60018fad8b9768f5644ffadf96040a85Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_f121435b3edb481ee03ab7ef58e5b805Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_60018fad8b9768f5644ffadf96040a85StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2283,8 +2223,7 @@ define("OutSystemsMaps.model$RL_252f0b4b2d4c4c22097e3688bd1ee0c6", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_8a068e43cce18c5870b845073fb713c1EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_8a068e43cce18c5870b845073fb713c1EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2325,8 +2264,7 @@ define("OutSystemsMaps.model$RL_25b09e54ba65c9a859d9dfa5fd79e171", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_7cd861eaa819851d6fba6d8150ed8cc1Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_31cb630f5fdaa3aa4d3dbfd37cbf9e56Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_7cd861eaa819851d6fba6d8150ed8cc1StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2353,8 +2291,7 @@ define("OutSystemsMaps.model$ST_7cd861eaa819851d6fba6d8150ed8cc1Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_27d8031b19e05deba9a159874d88bc75", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_7cd861eaa819851d6fba6d8150ed8cc1Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_27d8031b19e05deba9a159874d88bc75Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2383,8 +2320,7 @@ define("OutSystemsMaps.model$RC_27d8031b19e05deba9a159874d88bc75", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_f85923824a33f65ded14770af5377402Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_c2a46cf64d2acc4b38d805712495224cStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_f85923824a33f65ded14770af5377402StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2411,8 +2347,7 @@ define("OutSystemsMaps.model$ST_f85923824a33f65ded14770af5377402Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_3836c6494dc01a6dca1bf0597beb32bb", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_f85923824a33f65ded14770af5377402Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3836c6494dc01a6dca1bf0597beb32bbInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2455,8 +2390,7 @@ define("OutSystemsMaps.model$RL_28b1907e8293683af0c45f54c4d2b8d8", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_ddceb9a0506316e12e8b49777be81ba4EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_ddceb9a0506316e12e8b49777be81ba4EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2480,8 +2414,7 @@ define("OutSystemsMaps.model$EN_ddceb9a0506316e12e8b49777be81ba4EntityRecord", [
 });
 
 define("OutSystemsMaps.model$RC_28b5debce9c04e64c6dd40275449bf6c", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_ddceb9a0506316e12e8b49777be81ba4EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_28b5debce9c04e64c6dd40275449bf6cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2510,8 +2443,7 @@ define("OutSystemsMaps.model$RC_28b5debce9c04e64c6dd40275449bf6c", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_9590e411027a378334a242a620d3f27e", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_793e574f3ddb64f39831eacf8a4462b0Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9590e411027a378334a242a620d3f27eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2554,8 +2486,7 @@ define("OutSystemsMaps.model$RL_29bde35723297e54bb4953d87ba5d82b", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_2a64cd2fe4a253e65ea352434a6d389aEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_2a64cd2fe4a253e65ea352434a6d389aEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2582,8 +2513,7 @@ define("OutSystemsMaps.model$EN_2a64cd2fe4a253e65ea352434a6d389aEntityRecord", [
 });
 
 define("OutSystemsMaps.model$ST_9df57e801e7478aaf703933c17abb4f6Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_d25262c67f1be04c1df274811b8c7ee4Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_9df57e801e7478aaf703933c17abb4f6StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2607,8 +2537,7 @@ define("OutSystemsMaps.model$ST_9df57e801e7478aaf703933c17abb4f6Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_2afa68ebeade43c502f553bf208d417d", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_9df57e801e7478aaf703933c17abb4f6Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2afa68ebeade43c502f553bf208d417dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2637,8 +2566,7 @@ define("OutSystemsMaps.model$RC_2afa68ebeade43c502f553bf208d417d", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_2b877a58494bdf7ca89c3ea2061b88c8EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_2b877a58494bdf7ca89c3ea2061b88c8EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2665,8 +2593,7 @@ define("OutSystemsMaps.model$EN_2b877a58494bdf7ca89c3ea2061b88c8EntityRecord", [
 });
 
 define("OutSystemsMaps.model$ST_2bb06e37aea9715ba999f70106cf37a5Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_2bb06e37aea9715ba999f70106cf37a5StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2690,8 +2617,7 @@ define("OutSystemsMaps.model$ST_2bb06e37aea9715ba999f70106cf37a5Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_2d18bab1b72b271dc15dda249e871290", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_7595bf81d0b29040f5ad1b9eff7896b0EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2d18bab1b72b271dc15dda249e871290Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2720,8 +2646,7 @@ define("OutSystemsMaps.model$RC_2d18bab1b72b271dc15dda249e871290", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_832344699c82a4f799a423f89bbe7297Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_832344699c82a4f799a423f89bbe7297StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2748,8 +2673,7 @@ define("OutSystemsMaps.model$ST_832344699c82a4f799a423f89bbe7297Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_2e794e9950648fb781740aa3223ba10d", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_832344699c82a4f799a423f89bbe7297Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2e794e9950648fb781740aa3223ba10dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2778,8 +2702,7 @@ define("OutSystemsMaps.model$RC_2e794e9950648fb781740aa3223ba10d", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_2f373495341cd6d1bc0753ee5c713769", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_f2c047cd8082950bd1961446a5ec1949Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2f373495341cd6d1bc0753ee5c713769Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2808,8 +2731,7 @@ define("OutSystemsMaps.model$RC_2f373495341cd6d1bc0753ee5c713769", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_2f5ec17a6f7c3827bc8a33107ce38ec9Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_4d96f69748c4f35fb433f7995d061407Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_2f5ec17a6f7c3827bc8a33107ce38ec9StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2833,8 +2755,7 @@ define("OutSystemsMaps.model$ST_2f5ec17a6f7c3827bc8a33107ce38ec9Structure", ["ex
 });
 
 define("OutSystemsMaps.model$ST_44bc2bbbb8592f02bc88a9fdf25bb951Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_44bc2bbbb8592f02bc88a9fdf25bb951StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2861,8 +2782,7 @@ define("OutSystemsMaps.model$ST_44bc2bbbb8592f02bc88a9fdf25bb951Structure", ["ex
 });
 
 define("OutSystemsMaps.model$ST_87d89cf32a40d309845674355a1bd4e1Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_44bc2bbbb8592f02bc88a9fdf25bb951Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_87d89cf32a40d309845674355a1bd4e1StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2898,8 +2818,7 @@ define("OutSystemsMaps.model$ST_87d89cf32a40d309845674355a1bd4e1Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_2fa6ec01db1a6b09e6b59fa237f21deb", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_87d89cf32a40d309845674355a1bd4e1Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2fa6ec01db1a6b09e6b59fa237f21debInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2928,8 +2847,7 @@ define("OutSystemsMaps.model$RC_2fa6ec01db1a6b09e6b59fa237f21deb", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_b0933bf7957301c22e5d9229ad792ac0Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_d4721898ae8c007cd938074f575e2979Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b0933bf7957301c22e5d9229ad792ac0StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2953,8 +2871,7 @@ define("OutSystemsMaps.model$ST_b0933bf7957301c22e5d9229ad792ac0Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_31c29444fafad199d1156f5f03b41f57", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_b0933bf7957301c22e5d9229ad792ac0Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_31c29444fafad199d1156f5f03b41f57Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2983,8 +2900,7 @@ define("OutSystemsMaps.model$RC_31c29444fafad199d1156f5f03b41f57", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_e8edeefe38d8112c39e64ad89dac6f44EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_e8edeefe38d8112c39e64ad89dac6f44EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3011,8 +2927,7 @@ define("OutSystemsMaps.model$EN_e8edeefe38d8112c39e64ad89dac6f44EntityRecord", [
 });
 
 define("OutSystemsMaps.model$RC_3201d1384957542debf3cb5808f51144", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_e8edeefe38d8112c39e64ad89dac6f44EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3201d1384957542debf3cb5808f51144Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3041,8 +2956,7 @@ define("OutSystemsMaps.model$RC_3201d1384957542debf3cb5808f51144", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_480235a969b3f42eac91ad5813fe9bf9EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_480235a969b3f42eac91ad5813fe9bf9EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3083,8 +2997,7 @@ define("OutSystemsMaps.model$RL_34e3285764324083bc72bd04bd7ad877", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_4d0e07d9538530f68924ab612d15f82bEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_4d0e07d9538530f68924ab612d15f82bEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3122,8 +3035,7 @@ define("OutSystemsMaps.model$RL_37db3dabed0bf7582173dae36f4afeae", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_a3e0d02178b078a960ae427dd1751cbc", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_be62cc31fbe4705834275960beeb55e2Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a3e0d02178b078a960ae427dd1751cbcInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3166,8 +3078,7 @@ define("OutSystemsMaps.model$RL_37ebca9cc7a640553fda76d301ad4a68", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_86d2610e9625abf0ecb7241e6d8099fbStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_86d2610e9625abf0ecb7241e6d8099fbStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3200,8 +3111,7 @@ define("OutSystemsMaps.model$ST_86d2610e9625abf0ecb7241e6d8099fbStructure", ["ex
 });
 
 define("OutSystemsMaps.model$ST_5223ca706bfb3de574fb0b39ebba3fb6Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_86d2610e9625abf0ecb7241e6d8099fbStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_5223ca706bfb3de574fb0b39ebba3fb6StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3253,8 +3163,7 @@ define("OutSystemsMaps.model$RL_3b9b74504238c1837b79b58dfe494b5b", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_a9d3f6b226a37f22bb219f2bf72cf852", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_60018fad8b9768f5644ffadf96040a85Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a9d3f6b226a37f22bb219f2bf72cf852Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3297,8 +3206,7 @@ define("OutSystemsMaps.model$RL_3c18a06a0b0cb2ff9323e9e683293f73", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_7f3fab599cac29adb40d23996cbe5a3b", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_3d593ae1aad35ac58e1616049bb8da2cStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7f3fab599cac29adb40d23996cbe5a3bInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3341,8 +3249,7 @@ define("OutSystemsMaps.model$RL_3cd1e9f4dc129b616317a614e87a04d1", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_f6b05f1cc2ae707d67f7da7ba2f4fd22EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_f6b05f1cc2ae707d67f7da7ba2f4fd22EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3383,8 +3290,7 @@ define("OutSystemsMaps.model$RL_3ceaf8c75f7341cd8a52e0037549736f", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_3d151c63adf137bd3c85eaa462bbbe0c", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_4d0e07d9538530f68924ab612d15f82bEntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3d151c63adf137bd3c85eaa462bbbe0cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3427,8 +3333,7 @@ define("OutSystemsMaps.model$RL_3d15fde051d0f445d11317bbc8751458", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_ac174f96b960b9152d73b4583f3f4d43", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_5223ca706bfb3de574fb0b39ebba3fb6Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ac174f96b960b9152d73b4583f3f4d43Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3471,8 +3376,7 @@ define("OutSystemsMaps.model$RL_3d32ef0bcad58dedcfa8b601d0da2302", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_78fd8c130caeaf241d821392d1010014Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_78fd8c130caeaf241d821392d1010014StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3499,8 +3403,7 @@ define("OutSystemsMaps.model$ST_78fd8c130caeaf241d821392d1010014Structure", ["ex
 });
 
 define("OutSystemsMaps.model$ST_78b0cd1737b6725aac7ae45759769b93Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_78fd8c130caeaf241d821392d1010014Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_78b0cd1737b6725aac7ae45759769b93StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3536,8 +3439,7 @@ define("OutSystemsMaps.model$ST_78b0cd1737b6725aac7ae45759769b93Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_8cdaa87184301dfa944cee1224e04604", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_78b0cd1737b6725aac7ae45759769b93Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8cdaa87184301dfa944cee1224e04604Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3580,8 +3482,7 @@ define("OutSystemsMaps.model$RL_3d74d9d326e1af4e0ef57c8e7b6106e5", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_6b2476596efdad1a294f5d1a6e21f7e1EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_6b2476596efdad1a294f5d1a6e21f7e1EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3636,8 +3537,7 @@ define("OutSystemsMaps.model$RL_3edf9b671d971f98015ab6b1b5f47187", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_a0cdfbad52e32bc69efd7ec23c40fc2fStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_a0cdfbad52e32bc69efd7ec23c40fc2fStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3675,8 +3575,7 @@ define("OutSystemsMaps.model$RL_41f69bc5f164eef25227510b7af86bed", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_b426a0d7aa8f7cff1977eb04da864b0f", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_6b2476596efdad1a294f5d1a6e21f7e1EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b426a0d7aa8f7cff1977eb04da864b0fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3719,8 +3618,7 @@ define("OutSystemsMaps.model$RL_42ccc6dea7262d1c5960d9d9edeca153", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_707b1ead9a0d000606d8b9e0cca3c3f9Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_d25262c67f1be04c1df274811b8c7ee4Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_707b1ead9a0d000606d8b9e0cca3c3f9StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3772,8 +3670,7 @@ define("OutSystemsMaps.model$RL_45b1a00767a21a6d36e72bda469c2b5a", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_c81197f1ff862582a2342ed17a50f086", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_78fd8c130caeaf241d821392d1010014Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c81197f1ff862582a2342ed17a50f086Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3830,8 +3727,7 @@ define("OutSystemsMaps.model$RL_4805e15f00dc12c56ca2c04862bba5ec", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_49045fb6574dc7f29ee1f97116ecb1f6Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_c2a46cf64d2acc4b38d805712495224cStructure", "OutSystemsMaps.model$ST_7f8762cb0c77867d9f9e3b82fd927c7bStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_49045fb6574dc7f29ee1f97116ecb1f6StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3861,8 +3757,7 @@ define("OutSystemsMaps.model$ST_49045fb6574dc7f29ee1f97116ecb1f6Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_48d7c166849f4c26288a543a51543b8d", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_49045fb6574dc7f29ee1f97116ecb1f6Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_48d7c166849f4c26288a543a51543b8dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3891,8 +3786,7 @@ define("OutSystemsMaps.model$RC_48d7c166849f4c26288a543a51543b8d", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_91019cdb14b7c30434c481d431eb9bf2EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_91019cdb14b7c30434c481d431eb9bf2EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3919,8 +3813,7 @@ define("OutSystemsMaps.model$EN_91019cdb14b7c30434c481d431eb9bf2EntityRecord", [
 });
 
 define("OutSystemsMaps.model$RC_499414721b608cf3d3b8f99fae961f52", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_91019cdb14b7c30434c481d431eb9bf2EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_499414721b608cf3d3b8f99fae961f52Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3949,8 +3842,7 @@ define("OutSystemsMaps.model$RC_499414721b608cf3d3b8f99fae961f52", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_499511b992975daa9639159d76f69e74", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_8a068e43cce18c5870b845073fb713c1EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_499511b992975daa9639159d76f69e74Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3979,8 +3871,7 @@ define("OutSystemsMaps.model$RC_499511b992975daa9639159d76f69e74", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_6cdb4a5361f01d77ad1b8152ec45fc2a", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_44bc2bbbb8592f02bc88a9fdf25bb951Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6cdb4a5361f01d77ad1b8152ec45fc2aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4037,8 +3928,7 @@ define("OutSystemsMaps.model$RL_4d00fb3ac308ea1d2891835aef38e4fd", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_ee9e4164abf6fbb75acecf37ce2b6aee", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_2c6551904cfa95c93fa24da37b55d320Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ee9e4164abf6fbb75acecf37ce2b6aeeInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4095,8 +3985,7 @@ define("OutSystemsMaps.model$RL_524f6964155c0065c42f035c25e7b580", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_8d1df0845b207a514a87b62b89a2f0f9EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_8d1df0845b207a514a87b62b89a2f0f9EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4123,8 +4012,7 @@ define("OutSystemsMaps.model$EN_8d1df0845b207a514a87b62b89a2f0f9EntityRecord", [
 });
 
 define("OutSystemsMaps.model$RC_e2e4078a68f051b01b0e49ed4f3f6e07", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_8d1df0845b207a514a87b62b89a2f0f9EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e2e4078a68f051b01b0e49ed4f3f6e07Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4167,8 +4055,7 @@ define("OutSystemsMaps.model$RL_5428fe7a3573eea99d91fc6654eda2fe", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_bf75694d8016688134fa555a2fd4f5d7", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_2b877a58494bdf7ca89c3ea2061b88c8EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_bf75694d8016688134fa555a2fd4f5d7Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4211,8 +4098,7 @@ define("OutSystemsMaps.model$RL_5544cfc15f95ff239b7f04e7101e83bb", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_e3355f6b7ba3051c4a4a9a00634d68d0", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_0e474756a4be14d378c73cd05f602bcdStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e3355f6b7ba3051c4a4a9a00634d68d0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4269,8 +4155,7 @@ define("OutSystemsMaps.model$RL_592eaf1c99729dad11d69819a0523b2c", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_c84e2ea85c3f77e3b083b2b79806c17aStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_c84e2ea85c3f77e3b083b2b79806c17aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4303,8 +4188,7 @@ define("OutSystemsMaps.model$ST_c84e2ea85c3f77e3b083b2b79806c17aStructure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_59608f6fdf263bd270d8edd0a1db0f3c", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_c84e2ea85c3f77e3b083b2b79806c17aStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_59608f6fdf263bd270d8edd0a1db0f3cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4333,8 +4217,7 @@ define("OutSystemsMaps.model$RC_59608f6fdf263bd270d8edd0a1db0f3c", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_992836b5ddde04d0d91f0c87e7233524", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_0df198ce2d64e9aa6113403a9d3f7309EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_992836b5ddde04d0d91f0c87e7233524Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4405,8 +4288,7 @@ define("OutSystemsMaps.model$RL_5a159bcaeb1a211c3c97752d6b3cfae5", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_5a7ef7acf3b11e0c41074aefa2466f75Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_5a7ef7acf3b11e0c41074aefa2466f75StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4433,8 +4315,7 @@ define("OutSystemsMaps.model$ST_5a7ef7acf3b11e0c41074aefa2466f75Structure", ["ex
 });
 
 define("OutSystemsMaps.model$ST_bbc1ca6a16af45dbf463953c280f2bf7Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_a0cdfbad52e32bc69efd7ec23c40fc2fStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_bbc1ca6a16af45dbf463953c280f2bf7StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4467,8 +4348,7 @@ define("OutSystemsMaps.model$ST_bbc1ca6a16af45dbf463953c280f2bf7Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_dfb836f467b00be2b3ce838401b340cc", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_bbc1ca6a16af45dbf463953c280f2bf7Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_dfb836f467b00be2b3ce838401b340ccInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4525,8 +4405,7 @@ define("OutSystemsMaps.model$RL_5e5ee9ae0fcac1f142b0849f5cd91a60", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_61db11323cabca5a5fb3b6c7b9d63842Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_3f16cd459ccd861deffd4483bc1bbac3Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_61db11323cabca5a5fb3b6c7b9d63842StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4592,8 +4471,7 @@ define("OutSystemsMaps.model$RL_624b2d57a77bb97d27ae6a8a9d8e8ee6", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_79a82b77f95346f2348912e0d4ee0bf1EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_79a82b77f95346f2348912e0d4ee0bf1EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4617,8 +4495,7 @@ define("OutSystemsMaps.model$EN_79a82b77f95346f2348912e0d4ee0bf1EntityRecord", [
 });
 
 define("OutSystemsMaps.model$RC_a9d171af5978fe3e4b7ef9f38c0c5a39", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_79a82b77f95346f2348912e0d4ee0bf1EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a9d171af5978fe3e4b7ef9f38c0c5a39Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4689,8 +4566,7 @@ define("OutSystemsMaps.model$RL_65a208a4b9c539b70f4154cb275ecc23", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_6633adb48f346ff9147637b286666408", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_120b6e3e471666b0ae15ac3a8f34340fEntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6633adb48f346ff9147637b286666408Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4719,8 +4595,7 @@ define("OutSystemsMaps.model$RC_6633adb48f346ff9147637b286666408", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_66bd367690762fecfd8fe2f2e4080f5dEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_66bd367690762fecfd8fe2f2e4080f5dEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4761,8 +4636,7 @@ define("OutSystemsMaps.model$RL_6897c0b9a465b6b8e75080159ed1a0ba", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_68b38ef52a6c43d6a00c9748c6ced1ca", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_f121435b3edb481ee03ab7ef58e5b805Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_68b38ef52a6c43d6a00c9748c6ced1caInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4833,8 +4707,7 @@ define("OutSystemsMaps.model$RL_6b78ac86ffea73d6add846eee29f8299", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_6beef079e29e7256385ac77b93f8d4bb", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_2f5ec17a6f7c3827bc8a33107ce38ec9Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6beef079e29e7256385ac77b93f8d4bbInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4863,8 +4736,7 @@ define("OutSystemsMaps.model$RC_6beef079e29e7256385ac77b93f8d4bb", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_6e989af6610cf33b5d07b40b7d0a9306", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_5d8d0b250562ec29250400c2b0c3eb66Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6e989af6610cf33b5d07b40b7d0a9306Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4893,8 +4765,7 @@ define("OutSystemsMaps.model$RC_6e989af6610cf33b5d07b40b7d0a9306", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_7c2c1d82e3a31f1ec5d5faa260c033b7", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_86d2610e9625abf0ecb7241e6d8099fbStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7c2c1d82e3a31f1ec5d5faa260c033b7Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4937,8 +4808,7 @@ define("OutSystemsMaps.model$RL_70b91cf4f57884d5f12e0e5564148afa", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_714295b6f712e509405abbf66debf617EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_714295b6f712e509405abbf66debf617EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4979,8 +4849,7 @@ define("OutSystemsMaps.model$RL_724d63befe29e32e7a03e32f4cd42851", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_7f069279f39dd7c7d2e7b5637a5b25c9Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_a0cdfbad52e32bc69efd7ec23c40fc2fStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_7f069279f39dd7c7d2e7b5637a5b25c9StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5027,8 +4896,7 @@ define("OutSystemsMaps.model$RL_72d1939a3c0be1d010649f2d48d51148", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_f6c2f142af073709395973c555ac9ddc", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_ca9f1e36e4f2b1c8cabc0fd0c956ac77Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f6c2f142af073709395973c555ac9ddcInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5071,8 +4939,7 @@ define("OutSystemsMaps.model$RL_73ee209cf0a78b1590dcc8cc4fe17b9e", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_c97612a27be85a5532e2b3b5ddfcfa27", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_7f069279f39dd7c7d2e7b5637a5b25c9Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c97612a27be85a5532e2b3b5ddfcfa27Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5115,8 +4982,7 @@ define("OutSystemsMaps.model$RL_745f22a3ada550afdd2fd2cbc8fe0793", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_cdd94bc434e873b4d04598ac1e187543Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_cdd94bc434e873b4d04598ac1e187543StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5143,8 +5009,7 @@ define("OutSystemsMaps.model$ST_cdd94bc434e873b4d04598ac1e187543Structure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_7511ee1a86159a139a2f21acdabfee5b", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_cdd94bc434e873b4d04598ac1e187543Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7511ee1a86159a139a2f21acdabfee5bInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5173,8 +5038,7 @@ define("OutSystemsMaps.model$RC_7511ee1a86159a139a2f21acdabfee5b", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_d9c97e718205f8627d74b06df54e3543EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_d9c97e718205f8627d74b06df54e3543EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5201,8 +5065,7 @@ define("OutSystemsMaps.model$EN_d9c97e718205f8627d74b06df54e3543EntityRecord", [
 });
 
 define("OutSystemsMaps.model$RC_d18425d8035234c443ecbdefa0da8210", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_d9c97e718205f8627d74b06df54e3543EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d18425d8035234c443ecbdefa0da8210Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5245,8 +5108,7 @@ define("OutSystemsMaps.model$RL_768ac2f95f2438d51b1f08cac04338dd", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_7848ef17b87824c24f6e707b82dac222", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_9f8ac95fe4e47e327de12de1b56bed45Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7848ef17b87824c24f6e707b82dac222Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5289,8 +5151,7 @@ define("OutSystemsMaps.model$RL_78b384ffc67b2b6c5ffe17e2f3a3c3b2", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_78d3133d124713193d703c2644ecd39bStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_5baae74ed57e3bb61180aff1dadec4e1Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_78d3133d124713193d703c2644ecd39bStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5323,8 +5184,7 @@ define("OutSystemsMaps.model$ST_78d3133d124713193d703c2644ecd39bStructure", ["ex
 });
 
 define("OutSystemsMaps.model$RC_794e39fc977eff2817cb99ab6af38d57", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_d25262c67f1be04c1df274811b8c7ee4Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_794e39fc977eff2817cb99ab6af38d57Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5353,8 +5213,7 @@ define("OutSystemsMaps.model$RC_794e39fc977eff2817cb99ab6af38d57", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_a7db230a655a3c54e1e9a992db69e805", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_707b1ead9a0d000606d8b9e0cca3c3f9Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a7db230a655a3c54e1e9a992db69e805Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5439,8 +5298,7 @@ define("OutSystemsMaps.model$RL_7d169bd7c22bd4fc5143477f3a7cef9a", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_7d204fba4e0a277c99c007d6b7af7b72", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_61db11323cabca5a5fb3b6c7b9d63842Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7d204fba4e0a277c99c007d6b7af7b72Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5469,8 +5327,7 @@ define("OutSystemsMaps.model$RC_7d204fba4e0a277c99c007d6b7af7b72", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_7e9e7e47a56960855c31bd37116d68abStructure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_0e474756a4be14d378c73cd05f602bcdStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_7e9e7e47a56960855c31bd37116d68abStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5508,8 +5365,7 @@ define("OutSystemsMaps.model$RL_80b90c5e418abe587bc307d0e11b1e76", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_80e81fddca0089d3f29f81106c0bee34", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_480235a969b3f42eac91ad5813fe9bf9EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_80e81fddca0089d3f29f81106c0bee34Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5566,8 +5422,7 @@ define("OutSystemsMaps.model$RL_815d85007a1f216f0067d3825a34d1a7", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_bff46e9299d53c31f52181ed865bd729", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_5a7ef7acf3b11e0c41074aefa2466f75Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_bff46e9299d53c31f52181ed865bd729Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5624,8 +5479,7 @@ define("OutSystemsMaps.model$RL_8261860bc5d9da142a31f73ae9b497b1", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_d186ae1becb56f86c126b4768e3f70d2", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_2a64cd2fe4a253e65ea352434a6d389aEntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d186ae1becb56f86c126b4768e3f70d2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5668,8 +5522,7 @@ define("OutSystemsMaps.model$RL_848d56b8d953088a0f1dbc9b1b919b2e", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_afeb3af87221b535eb5e95ea10936666", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_78d3133d124713193d703c2644ecd39bStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_afeb3af87221b535eb5e95ea10936666Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5726,8 +5579,7 @@ define("OutSystemsMaps.model$RL_868ad2e44e97acf04f8f693101df5e0d", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_86c442a46c095f494cab514734ffc71c", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_3f16cd459ccd861deffd4483bc1bbac3Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_86c442a46c095f494cab514734ffc71cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5756,8 +5608,7 @@ define("OutSystemsMaps.model$RC_86c442a46c095f494cab514734ffc71c", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_dc7b093401bf134dc8399c003cfc6bc0", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_03e1c2ea04d7f49cbc09fc7d6f681f53EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_dc7b093401bf134dc8399c003cfc6bc0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5842,8 +5693,7 @@ define("OutSystemsMaps.model$RL_8da67595edc06c9fadd5ecd2611bc025", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_8fe01ec881aca02efe3d0db98080a5e2EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_8fe01ec881aca02efe3d0db98080a5e2EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5884,8 +5734,7 @@ define("OutSystemsMaps.model$RL_93b6a88c9c2da7119b9466c342ffdb20", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_f1764d7c40e4f0543f1781c01f8cbcf5", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_8fe01ec881aca02efe3d0db98080a5e2EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f1764d7c40e4f0543f1781c01f8cbcf5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5942,8 +5791,7 @@ define("OutSystemsMaps.model$RL_96898bc542883716a6d11da0115bf734", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_96c340f5ac620f54674641c63eb91876", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_a0cdfbad52e32bc69efd7ec23c40fc2fStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_96c340f5ac620f54674641c63eb91876Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5972,8 +5820,7 @@ define("OutSystemsMaps.model$RC_96c340f5ac620f54674641c63eb91876", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_da8d5af471adea3d9064074b1a40d8c2EntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_da8d5af471adea3d9064074b1a40d8c2EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6017,8 +5864,7 @@ define("OutSystemsMaps.model$RL_99fb577a5b3c7e3c7a449a321d07bd30", ["exports", "
 });
 
 define("OutSystemsMaps.model$ST_9a87c036f8540c84242b92bb54609014Structure", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_c2a46cf64d2acc4b38d805712495224cStructure", "OutSystemsMaps.model$ST_7f8762cb0c77867d9f9e3b82fd927c7bStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_9a87c036f8540c84242b92bb54609014StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6062,8 +5908,7 @@ define("OutSystemsMaps.model$RL_9ab0c2094cafdfad27b30d8f4aaeb896", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_9c493adade9ae0a5806b7a20eb12f1e0", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_714295b6f712e509405abbf66debf617EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9c493adade9ae0a5806b7a20eb12f1e0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6092,8 +5937,7 @@ define("OutSystemsMaps.model$RC_9c493adade9ae0a5806b7a20eb12f1e0", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_df0786951d2357ea5f13ac02dccd68c2", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_df0786951d2357ea5f13ac02dccd68c2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6147,8 +5991,7 @@ define("OutSystemsMaps.model$RL_9d995883b5323069f271add818c11d4e", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_c52fa927f09489f1c90f3a0526a1c8c9", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_f6b05f1cc2ae707d67f7da7ba2f4fd22EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c52fa927f09489f1c90f3a0526a1c8c9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6219,8 +6062,7 @@ define("OutSystemsMaps.model$RL_a0d33d282a082e36edde3e445101c333", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_a13c14b9ba27332cf1eb1f7147c42c92", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_2bb06e37aea9715ba999f70106cf37a5Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a13c14b9ba27332cf1eb1f7147c42c92Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6249,8 +6091,7 @@ define("OutSystemsMaps.model$RC_a13c14b9ba27332cf1eb1f7147c42c92", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_a4e8f80d0a21edea3a71318677a15130", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_7e9e7e47a56960855c31bd37116d68abStructure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a4e8f80d0a21edea3a71318677a15130Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6293,8 +6134,7 @@ define("OutSystemsMaps.model$RL_a6093ab8c4c3fe4e765d6d53e363d26f", ["exports", "
 });
 
 define("OutSystemsMaps.model$EN_bb81f40812568e1c8d85e64e62cfe06cEntityRecord", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_bb81f40812568e1c8d85e64e62cfe06cEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6321,8 +6161,7 @@ define("OutSystemsMaps.model$EN_bb81f40812568e1c8d85e64e62cfe06cEntityRecord", [
 });
 
 define("OutSystemsMaps.model$RC_edb1f7bb91ddbc761736a4f9fe9ed955", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_bb81f40812568e1c8d85e64e62cfe06cEntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_edb1f7bb91ddbc761736a4f9fe9ed955Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6365,8 +6204,7 @@ define("OutSystemsMaps.model$RL_a63434523705ad5af804bdbeb8b187a0", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_d687bfbe104d17346737149645109738", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_30625b4ad0f3e10abf82b61ea58e8644Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d687bfbe104d17346737149645109738Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6437,8 +6275,7 @@ define("OutSystemsMaps.model$RL_ad31d0654019e3768ba1be8893ecd1bf", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_fd916ed3e439afbf2b3a8036c2de75ba", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_66bd367690762fecfd8fe2f2e4080f5dEntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_fd916ed3e439afbf2b3a8036c2de75baInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6509,8 +6346,7 @@ define("OutSystemsMaps.model$RL_b06b1ca48ce3e669f6d11bd7bb1c0609", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_b32e755d03dd085a4b975b8c0c7d4454", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$EN_da8d5af471adea3d9064074b1a40d8c2EntityRecord"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b32e755d03dd085a4b975b8c0c7d4454Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6609,8 +6445,7 @@ define("OutSystemsMaps.model$RL_b9b66c74d55f9ac4e9a13b2ed98048a5", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_ba003b5de3d2da83898f81e428002fdb", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_9a87c036f8540c84242b92bb54609014Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ba003b5de3d2da83898f81e428002fdbInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6709,8 +6544,7 @@ define("OutSystemsMaps.model$RL_c741a57cf499ba291dad3ca452914290", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_fc0e8940fcfc7ecaecb548b5cf8eab5d", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_51ef6a78944132edc56aa7bf7c4ea240Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_fc0e8940fcfc7ecaecb548b5cf8eab5dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6809,8 +6643,7 @@ define("OutSystemsMaps.model$RL_d15db589ea4d1a0a05d21cda4e2f9db2", ["exports", "
 });
 
 define("OutSystemsMaps.model$RC_f5926d9764d9dfa431e4fc134e2e6a98", ["exports", "@outsystems/runtime-core-js", "OutSystemsMaps.model", "OutSystemsMaps.model$ST_31cb630f5fdaa3aa4d3dbfd37cbf9e56Structure"], function(exports, OSRuntimeCore, OutSystemsMapsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f5926d9764d9dfa431e4fc134e2e6a98Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {

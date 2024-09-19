@@ -283,8 +283,7 @@ define("OutSystemsUI.Content.UserAvatar.mvc$view", ["@outsystems/runtime-core-js
     return View;
 });
 define("OutSystemsUI.Content.UserAvatar.mvc$controller", ["@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.controller", "OutSystemsUI.languageResources", "OutSystemsUI.Content.UserAvatar.mvc$translationsResources"], function(OSRuntimeCore, OutSystemsUIModel, OutSystemsUIController, OutSystemsUILanguageResources, OutSystemsUI_Content_UserAvatar_mvc_TranslationsResources) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

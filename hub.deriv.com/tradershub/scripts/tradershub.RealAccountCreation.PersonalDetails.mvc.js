@@ -596,8 +596,7 @@ define("tradershub.RealAccountCreation.PersonalDetails.mvc$view", ["@outsystems/
     return View;
 });
 define("tradershub.RealAccountCreation.PersonalDetails.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreation.controller", "tradershub.RealAccountCreation.PersonalDetails.mvc$controller.IconOnClick.OpenDatePickerJS", "tradershub.RealAccountCreation.PersonalDetails.mvc$controller.OnReady.InitializeFlatpickrJS", "tradershub.RealAccountCreation.PersonalDetails.mvc$controller.SaveOnClick.RudderStackJS", "tradershub.RealAccountCreation.PersonalDetails.mvc$controller.SaveOnClick.ValidateJS", "tradershub.model$ST_3a6e5c84ccd1db0dd256408ff639cec5Structure", "tradershub.model$ST_89997516e5fa7eccf341304acb63651bStructure"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationController, tradershub_RealAccountCreation_PersonalDetails_mvc_controller_IconOnClick_OpenDatePickerJS, tradershub_RealAccountCreation_PersonalDetails_mvc_controller_OnReady_InitializeFlatpickrJS, tradershub_RealAccountCreation_PersonalDetails_mvc_controller_SaveOnClick_RudderStackJS, tradershub_RealAccountCreation_PersonalDetails_mvc_controller_SaveOnClick_ValidateJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

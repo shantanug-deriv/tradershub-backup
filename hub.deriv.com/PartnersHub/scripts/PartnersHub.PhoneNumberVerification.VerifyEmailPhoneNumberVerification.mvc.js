@@ -317,8 +317,7 @@ define("PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.m
     return View;
 });
 define("PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$translationsResources", "PartnersHub.PhoneNumberVerification.VerifyEmailPhoneNumberVerification.mvc$controller.OnClickResendEmail.StartTimerJS", "PartnersHub.model$ST_8ae1180ce44995afc567de3f72e5c712Structure", "PartnersHub.controller$SendVerifyEmail"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_TranslationsResources, PartnersHub_PhoneNumberVerification_VerifyEmailPhoneNumberVerification_mvc_controller_OnClickResendEmail_StartTimerJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

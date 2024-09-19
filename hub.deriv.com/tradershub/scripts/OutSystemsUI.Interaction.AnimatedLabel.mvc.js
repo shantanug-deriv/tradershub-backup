@@ -161,8 +161,7 @@ define("OutSystemsUI.Interaction.AnimatedLabel.mvc$view", ["@outsystems/runtime-
     return View;
 });
 define("OutSystemsUI.Interaction.AnimatedLabel.mvc$controller", ["@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.controller", "OutSystemsUI.languageResources", "OutSystemsUI.Interaction.AnimatedLabel.mvc$translationsResources", "OutSystemsUI.Interaction.AnimatedLabel.mvc$controller.RegisterCallbacks.GetCallbackHandlersJS", "OutSystemsUI.model$ST_52888c3e6f33b11b7d6288dd268a26dcStructure", "OutSystemsUI.controller$AnimatedLabelInitialize", "OutSystemsUI.controller$LogEvent", "OutSystemsUI.controller$AnimatedLabelChangeTextProperty", "OutSystemsUI.controller$AnimatedLabelCreate", "OutSystemsUI.controller$GenerateUniqueId", "OutSystemsUI.controller$AnimatedLabelDestroy", "OutSystemsUI.controller$AnimatedLabelRegisterCallback", "OutSystemsUI.controller$AnimatedLabelUpdateOnRender"], function(OSRuntimeCore, OutSystemsUIModel, OutSystemsUIController, OutSystemsUILanguageResources, OutSystemsUI_Interaction_AnimatedLabel_mvc_TranslationsResources, OutSystemsUI_Interaction_AnimatedLabel_mvc_controller_RegisterCallbacks_GetCallbackHandlersJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

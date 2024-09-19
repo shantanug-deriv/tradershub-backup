@@ -157,8 +157,7 @@ define("OutSystemsUI.Adaptive.DisplayOnDevice.mvc$view", ["@outsystems/runtime-c
     return View;
 });
 define("OutSystemsUI.Adaptive.DisplayOnDevice.mvc$controller", ["@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.controller", "OutSystemsUI.languageResources", "OutSystemsUI.Adaptive.DisplayOnDevice.mvc$translationsResources", "OutSystemsUI.Adaptive.DisplayOnDevice.mvc$controller.OnReady.SetMutationObserverJS", "OutSystemsUI.Adaptive.DisplayOnDevice.mvc$controller.OnDestroy.StopObserverJS", "OutSystemsUI.controller$GetDeviceType"], function(OSRuntimeCore, OutSystemsUIModel, OutSystemsUIController, OutSystemsUILanguageResources, OutSystemsUI_Adaptive_DisplayOnDevice_mvc_TranslationsResources, OutSystemsUI_Adaptive_DisplayOnDevice_mvc_controller_OnReady_SetMutationObserverJS, OutSystemsUI_Adaptive_DisplayOnDevice_mvc_controller_OnDestroy_StopObserverJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

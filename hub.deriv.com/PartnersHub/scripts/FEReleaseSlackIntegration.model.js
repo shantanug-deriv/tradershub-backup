@@ -1,6 +1,5 @@
 define("FEReleaseSlackIntegration.model$ST_ff6fa4367123aaf1ab10608dcb16ba43Structure", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ff6fa4367123aaf1ab10608dcb16ba43StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -41,8 +40,7 @@ define("FEReleaseSlackIntegration.model$RL_04d46e2886f2b55aae00a9596448295c", ["
 });
 
 define("FEReleaseSlackIntegration.model$ST_074de63327cc6281abd591a06ac7a3ebStructure", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_074de63327cc6281abd591a06ac7a3ebStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -66,8 +64,7 @@ define("FEReleaseSlackIntegration.model$ST_074de63327cc6281abd591a06ac7a3ebStruc
 });
 
 define("FEReleaseSlackIntegration.model$ST_3782d35f5f28ff9dd18fb6881ab471a9Structure", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_3782d35f5f28ff9dd18fb6881ab471a9StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -120,8 +117,7 @@ define("FEReleaseSlackIntegration.model$RL_7674e0699bf7786228f1b11887afe770", ["
 });
 
 define("FEReleaseSlackIntegration.model$ST_0a66c582c77592abee52988e6d0524e2Structure", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "FEReleaseSlackIntegration.model$ST_3782d35f5f28ff9dd18fb6881ab471a9Structure", "FEReleaseSlackIntegration.model$RL_7674e0699bf7786228f1b11887afe770"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_0a66c582c77592abee52988e6d0524e2StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -162,8 +158,7 @@ define("FEReleaseSlackIntegration.model$BasicTypeList<Text>", ["exports", "@outs
 });
 
 define("FEReleaseSlackIntegration.model$ST_a7c2d4fb0a81e8416c70379886c39274Structure", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "FEReleaseSlackIntegration.model$ST_3782d35f5f28ff9dd18fb6881ab471a9Structure", "FEReleaseSlackIntegration.model$ST_ff6fa4367123aaf1ab10608dcb16ba43Structure"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_a7c2d4fb0a81e8416c70379886c39274StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -258,8 +253,7 @@ define("FEReleaseSlackIntegration.model$RL_0aa9e930032976c41db5078db1705487", ["
 });
 
 define("FEReleaseSlackIntegration.model$ST_a01186a03a6c4b831d48748ff6ff136bStructure", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "FEReleaseSlackIntegration.model$ST_a7c2d4fb0a81e8416c70379886c39274Structure"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_a01186a03a6c4b831d48748ff6ff136bStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -283,8 +277,7 @@ define("FEReleaseSlackIntegration.model$ST_a01186a03a6c4b831d48748ff6ff136bStruc
 });
 
 define("FEReleaseSlackIntegration.model$RC_e3b64ee76991773d7381701280e3c6d4", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "FEReleaseSlackIntegration.model$ST_a01186a03a6c4b831d48748ff6ff136bStructure"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e3b64ee76991773d7381701280e3c6d4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -327,8 +320,7 @@ define("FEReleaseSlackIntegration.model$RL_11d5fc250d09046167baedb6f3c2fb4b", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_f9a589fe5b81c3bda7db0e574d5d11fb", ["exports", "@outsystems/runtime-core-js", "System_.model", "FEReleaseSlackIntegration.model", "System_.model$UserLoginResultRec", "FEReleaseSlackIntegration.referencesHealth", "FEReleaseSlackIntegration.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f9a589fe5b81c3bda7db0e574d5d11fbInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -371,8 +363,7 @@ define("FEReleaseSlackIntegration.model$RL_137c1fde2390fc7845ae92a0265be990", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_79f003baa030e546826ed42c3962f582", ["exports", "@outsystems/runtime-core-js", "System_.model", "FEReleaseSlackIntegration.model", "System_.model$UserInfoRec", "FEReleaseSlackIntegration.referencesHealth", "FEReleaseSlackIntegration.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_79f003baa030e546826ed42c3962f582Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -415,8 +406,7 @@ define("FEReleaseSlackIntegration.model$RL_1503951706c05a1675ae923dc239c757", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_1ba3db8c7175cd095b4f1a36c3a1e53d", ["exports", "@outsystems/runtime-core-js", "System_.model", "FEReleaseSlackIntegration.model", "System_.model$FinishResetPasswordFailureReasonRec", "FEReleaseSlackIntegration.referencesHealth", "FEReleaseSlackIntegration.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_1ba3db8c7175cd095b4f1a36c3a1e53dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -445,8 +435,7 @@ define("FEReleaseSlackIntegration.model$RC_1ba3db8c7175cd095b4f1a36c3a1e53d", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_bd573fb2cb521691dc6a8c4b02eeb054", ["exports", "@outsystems/runtime-core-js", "System_.model", "FEReleaseSlackIntegration.model", "System_.model$UpdateUserResultRec", "FEReleaseSlackIntegration.referencesHealth", "FEReleaseSlackIntegration.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_bd573fb2cb521691dc6a8c4b02eeb054Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -489,8 +478,7 @@ define("FEReleaseSlackIntegration.model$RL_201410915258bdd92387bbd4bec2a7bb", ["
 });
 
 define("FEReleaseSlackIntegration.model$ST_29a5f7e0895363cf669089952b2fb1edStructure", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_29a5f7e0895363cf669089952b2fb1edStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -531,8 +519,7 @@ define("FEReleaseSlackIntegration.model$RL_31d7615454c0155a64f826d4e0cf4cb5", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_3375dbdf42120d4cd74942f1cc4f9d88", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "FEReleaseSlackIntegration.model$ST_0a66c582c77592abee52988e6d0524e2Structure"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3375dbdf42120d4cd74942f1cc4f9d88Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -561,8 +548,7 @@ define("FEReleaseSlackIntegration.model$RC_3375dbdf42120d4cd74942f1cc4f9d88", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_3391a407605c2903e72042e67177aeae", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "FEReleaseSlackIntegration.model$ST_ff6fa4367123aaf1ab10608dcb16ba43Structure"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3391a407605c2903e72042e67177aeaeInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -619,8 +605,7 @@ define("FEReleaseSlackIntegration.model$RL_3b8feaa11cc930133dbb7eecb085b527", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_9817a5747e4b09aa3a6a7eb35ce9f66e", ["exports", "@outsystems/runtime-core-js", "System_.model", "FEReleaseSlackIntegration.model", "System_.model$FinishResetPasswordResultRec", "FEReleaseSlackIntegration.referencesHealth", "FEReleaseSlackIntegration.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9817a5747e4b09aa3a6a7eb35ce9f66eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -663,8 +648,7 @@ define("FEReleaseSlackIntegration.model$RL_3f7b36d8bbcf12054b7e2f49497f214f", ["
 });
 
 define("FEReleaseSlackIntegration.model$EN_59cbb1e0f8f4f8703edc130b04d7ed9bEntityRecord", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_59cbb1e0f8f4f8703edc130b04d7ed9bEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -694,8 +678,7 @@ define("FEReleaseSlackIntegration.model$EN_59cbb1e0f8f4f8703edc130b04d7ed9bEntit
 });
 
 define("FEReleaseSlackIntegration.model$RC_46c6b5bdd731651b9786fe924a54842b", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "FEReleaseSlackIntegration.model$EN_59cbb1e0f8f4f8703edc130b04d7ed9bEntityRecord"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_46c6b5bdd731651b9786fe924a54842bInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -738,8 +721,7 @@ define("FEReleaseSlackIntegration.model$RL_47595c6744be14d2bd677fd05324180f", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_9bd05b4ddb4909b9d4caa679f6e81971", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "FEReleaseSlackIntegration.model$ST_a7c2d4fb0a81e8416c70379886c39274Structure"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9bd05b4ddb4909b9d4caa679f6e81971Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -782,8 +764,7 @@ define("FEReleaseSlackIntegration.model$RL_47e7c934a3575d224a082efe32355ab7", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_4bcbc21404fd7a9dc5a38b7c1900a113", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "FEReleaseSlackIntegration.model$ST_29a5f7e0895363cf669089952b2fb1edStructure"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4bcbc21404fd7a9dc5a38b7c1900a113Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -812,8 +793,7 @@ define("FEReleaseSlackIntegration.model$RC_4bcbc21404fd7a9dc5a38b7c1900a113", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_4d77cfdd567b208680377834fc8205a2", ["exports", "@outsystems/runtime-core-js", "System_.model", "FEReleaseSlackIntegration.model", "System_.model$PasswordComplexityPolicyRec", "FEReleaseSlackIntegration.referencesHealth", "FEReleaseSlackIntegration.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4d77cfdd567b208680377834fc8205a2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -842,8 +822,7 @@ define("FEReleaseSlackIntegration.model$RC_4d77cfdd567b208680377834fc8205a2", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_4e0347af69e49e93f28b4b0de4bcad85", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "FEReleaseSlackIntegration.model$ST_074de63327cc6281abd591a06ac7a3ebStructure"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4e0347af69e49e93f28b4b0de4bcad85Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -886,8 +865,7 @@ define("FEReleaseSlackIntegration.model$RL_4e4931d865c8789e9e6ef1d8540ae228", ["
 });
 
 define("FEReleaseSlackIntegration.model$ST_92400cc7724ed583cb86d67e1fc7e7c5Structure", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_92400cc7724ed583cb86d67e1fc7e7c5StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -928,8 +906,7 @@ define("FEReleaseSlackIntegration.model$RL_4ffd9ff6b5fa667b88d79ba8f3c6640e", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_53d491417faf149f9fb8a0dda9c12d06", ["exports", "@outsystems/runtime-core-js", "System_.model", "FEReleaseSlackIntegration.model", "System_.model$ChangePasswordResultRec", "FEReleaseSlackIntegration.referencesHealth", "FEReleaseSlackIntegration.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_53d491417faf149f9fb8a0dda9c12d06Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -972,8 +949,7 @@ define("FEReleaseSlackIntegration.model$RL_54fab648630d41e343fad35c1143481d", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_5d4c0a98b9773e489e7e27bfe5360793", ["exports", "@outsystems/runtime-core-js", "System_.model", "FEReleaseSlackIntegration.model", "System_.model$UpdateUserFailureReasonRec", "FEReleaseSlackIntegration.referencesHealth", "FEReleaseSlackIntegration.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5d4c0a98b9773e489e7e27bfe5360793Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1002,8 +978,7 @@ define("FEReleaseSlackIntegration.model$RC_5d4c0a98b9773e489e7e27bfe5360793", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_645e6d99c62950d533c673c938aae9c2", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "FEReleaseSlackIntegration.model$ST_92400cc7724ed583cb86d67e1fc7e7c5Structure"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_645e6d99c62950d533c673c938aae9c2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1102,8 +1077,7 @@ define("FEReleaseSlackIntegration.model$RL_8b34cec2d3a4e3170e329009c7e2bef8", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_8f8c9b77bcc0996564febb7d38ea930a", ["exports", "@outsystems/runtime-core-js", "System_.model", "FEReleaseSlackIntegration.model", "System_.model$StartResetPasswordResultRec", "FEReleaseSlackIntegration.referencesHealth", "FEReleaseSlackIntegration.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8f8c9b77bcc0996564febb7d38ea930aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1230,8 +1204,7 @@ define("FEReleaseSlackIntegration.model$RL_9cb7bfaaafb49f2d821d7361f41fe71b", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_a582d84634a30a3a3b1e61cbfd3db9de", ["exports", "@outsystems/runtime-core-js", "System_.model", "FEReleaseSlackIntegration.model", "System_.model$UserUpdateInfoRec", "FEReleaseSlackIntegration.referencesHealth", "FEReleaseSlackIntegration.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a582d84634a30a3a3b1e61cbfd3db9deInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1288,8 +1261,7 @@ define("FEReleaseSlackIntegration.model$RL_a60626c1780bfe250dcef75d5dfa5fd1", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_b27f0b968b0f7cea61506ac9d6ee7c27", ["exports", "@outsystems/runtime-core-js", "System_.model", "FEReleaseSlackIntegration.model", "System_.model$PasswordValidationResultRec", "FEReleaseSlackIntegration.referencesHealth", "FEReleaseSlackIntegration.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b27f0b968b0f7cea61506ac9d6ee7c27Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1318,8 +1290,7 @@ define("FEReleaseSlackIntegration.model$RC_b27f0b968b0f7cea61506ac9d6ee7c27", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_e5c662d406f83f7f791bd7e5c8b0c543", ["exports", "@outsystems/runtime-core-js", "System_.model", "FEReleaseSlackIntegration.model", "System_.model$ChangePasswordFailureReasonRec", "FEReleaseSlackIntegration.referencesHealth", "FEReleaseSlackIntegration.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e5c662d406f83f7f791bd7e5c8b0c543Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1362,8 +1333,7 @@ define("FEReleaseSlackIntegration.model$RL_b6f4bbf36a4770c53788c60d2b555d3c", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_d4817385d3db168633301f8c73e2d828", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "FEReleaseSlackIntegration.model$ST_3782d35f5f28ff9dd18fb6881ab471a9Structure"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d4817385d3db168633301f8c73e2d828Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1518,8 +1488,7 @@ define("FEReleaseSlackIntegration.model$RL_f50879d0da007880fcd304f3378f0a9e", ["
 });
 
 define("FEReleaseSlackIntegration.model$RC_f61c868ef053db94121ce89ee15a14fe", ["exports", "@outsystems/runtime-core-js", "System_.model", "FEReleaseSlackIntegration.model", "System_.model$UserLoginFailureReasonRec", "FEReleaseSlackIntegration.referencesHealth", "FEReleaseSlackIntegration.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, FEReleaseSlackIntegrationModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f61c868ef053db94121ce89ee15a14feInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {

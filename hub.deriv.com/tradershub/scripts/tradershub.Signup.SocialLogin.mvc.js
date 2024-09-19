@@ -233,8 +233,7 @@ define("tradershub.Signup.SocialLogin.mvc$view", ["@outsystems/runtime-core-js",
     return View;
 });
 define("tradershub.Signup.SocialLogin.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.Signup.SocialLogin.mvc$controller.AppleAction.RudderStackJS", "tradershub.Signup.SocialLogin.mvc$controller.GoogleAction.RudderStackJS", "tradershub.Signup.SocialLogin.mvc$controller.FacebookAction.RudderStackJS", "tradershub.Signup.SocialLogin.mvc$controller.OnReady.InitGooglePlatformJS", "tradershub.controller$GetSocialLoginRedirectURL"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_Signup_SocialLogin_mvc_controller_AppleAction_RudderStackJS, tradershub_Signup_SocialLogin_mvc_controller_GoogleAction_RudderStackJS, tradershub_Signup_SocialLogin_mvc_controller_FacebookAction_RudderStackJS, tradershub_Signup_SocialLogin_mvc_controller_OnReady_InitGooglePlatformJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

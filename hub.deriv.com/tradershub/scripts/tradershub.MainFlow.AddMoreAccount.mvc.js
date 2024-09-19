@@ -1,6 +1,5 @@
 define("tradershub.MainFlow.AddMoreAccount.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.Layouts.MainLayout.mvc$model", "tradershub.controller$DerivApiSendMessage", "tradershub.model$RC_6a44851bc01e80a885c4aa0ae740b8fc", "tradershub.model$RL_5ee36d8deb03b51810340e621ea66d4b"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershub_Layouts_MainLayout_mvcModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class GetCurrenciesAggrRecInner extends
         OS.Model.AggregateRecord {
             static attributesToDeclare() {
@@ -247,8 +246,7 @@ define("tradershub.MainFlow.AddMoreAccount.mvc$view", ["@outsystems/runtime-core
     return View;
 });
 define("tradershub.MainFlow.AddMoreAccount.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.MainFlow.controller", "tradershub.MainFlow.AddMoreAccount.mvc$controller.GetCurrenciesOnAfterFetch.ModifyLandingCompanyJS", "tradershub.MainFlow.AddMoreAccount.mvc$controller.GetCurrenciesOnAfterFetch.LandingCompanyPayloadJS", "tradershub.controller$DerivApiSendMessage", "tradershub.model$RC_6a44851bc01e80a885c4aa0ae740b8fc", "tradershub.model$RL_5ee36d8deb03b51810340e621ea66d4b"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_MainFlowController, tradershub_MainFlow_AddMoreAccount_mvc_controller_GetCurrenciesOnAfterFetch_ModifyLandingCompanyJS, tradershub_MainFlow_AddMoreAccount_mvc_controller_GetCurrenciesOnAfterFetch_LandingCompanyPayloadJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

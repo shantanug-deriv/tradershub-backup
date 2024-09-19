@@ -111,8 +111,7 @@ define("PartnersHub.Developer.redirect.mvc$view", ["@outsystems/runtime-core-js"
     return View;
 });
 define("PartnersHub.Developer.redirect.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Developer.redirect.mvc$translationsResources", "PartnersHub.Developer.controller", "PartnersHub.Developer.redirect.mvc$controller.RedirectCheck.CheckRedirectTypeJS"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Developer_redirect_mvc_TranslationsResources, PartnersHub_DeveloperController, PartnersHub_Developer_redirect_mvc_controller_RedirectCheck_CheckRedirectTypeJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

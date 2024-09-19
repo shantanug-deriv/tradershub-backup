@@ -215,8 +215,7 @@ define("OutSystemsUI.Interaction.DropdownSearch.mvc$view", ["@outsystems/runtime
     return View;
 });
 define("OutSystemsUI.Interaction.DropdownSearch.mvc$controller", ["@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.controller", "OutSystemsUI.languageResources", "OutSystemsUI.Interaction.DropdownSearch.mvc$translationsResources", "OutSystemsUI.Interaction.DropdownSearch.mvc$controller.RegisterCallbacks.GetCallbackHandlersJS", "OutSystemsUI.model$ST_936f99e69df60f5aa2563bbd38e49c98Structure", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", "OutSystemsUI.model$RL_c0f17d75c546075264f5d075e00ba65b", "OutSystemsUI.model$ST_4e53cb8815b86020ced1d2f2652c9b1dStructure", "OutSystemsUI.controller$DropdownDestroy", "OutSystemsUI.controller$GenerateUniqueId", "OutSystemsUI.controller$LogEvent", "OutSystemsUI.controller$DropdownCreate", "OutSystemsUI.controller$DropdownInitialize", "OutSystemsUI.controller$DropdownChangeTextProperty", "OutSystemsUI.controller$DropdownChangeBooleanProperty", "OutSystemsUI.controller$DropdownRegisterCallback"], function(OSRuntimeCore, OutSystemsUIModel, OutSystemsUIController, OutSystemsUILanguageResources, OutSystemsUI_Interaction_DropdownSearch_mvc_TranslationsResources, OutSystemsUI_Interaction_DropdownSearch_mvc_controller_RegisterCallbacks_GetCallbackHandlersJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

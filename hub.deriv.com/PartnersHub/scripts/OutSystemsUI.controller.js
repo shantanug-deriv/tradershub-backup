@@ -15952,15 +15952,18 @@ define("OutSystemsUI.controller$GetOS_Legacy.DetectIphoneXJS", [], function() {
                     width: 1125,
                     height: 2436,
                     description: "iphone x/xs"
-                }, {
+                },
+                {
                     width: 828,
                     height: 1792,
                     description: "iphone xr"
-                }, {
+                },
+                {
                     width: 750,
                     height: 1624,
                     description: "iphone xr scaled"
-                }, {
+                },
+                {
                     width: 1242,
                     height: 2688,
                     description: "iphone xs max"
@@ -15971,7 +15974,8 @@ define("OutSystemsUI.controller$GetOS_Legacy.DetectIphoneXJS", [], function() {
                     width: 1170,
                     height: 2532,
                     description: "iphone 12"
-                }, {
+                },
+                {
                     width: 1284,
                     height: 2778,
                     description: "iphone 12 pro max"
@@ -15982,15 +15986,18 @@ define("OutSystemsUI.controller$GetOS_Legacy.DetectIphoneXJS", [], function() {
                     width: 1170,
                     height: 2532,
                     description: "iphone 13"
-                }, {
+                },
+                {
                     width: 1125,
                     height: 2436,
                     description: "iphone 13 mini"
-                }, {
+                },
+                {
                     width: 1170,
                     height: 2532,
                     description: "iphone 13 pro"
-                }, {
+                },
+                {
                     width: 1284,
                     height: 2778,
                     description: "iphone 13 pro max"

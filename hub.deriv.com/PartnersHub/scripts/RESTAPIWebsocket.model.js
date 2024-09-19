@@ -13,8 +13,7 @@ define("RESTAPIWebsocket.model$BasicTypeList<Text>", ["exports", "@outsystems/ru
 });
 
 define("RESTAPIWebsocket.model$ST_9b4c1d7f5790df008534dfd8d1c97a7cStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_9b4c1d7f5790df008534dfd8d1c97a7cStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -41,8 +40,7 @@ define("RESTAPIWebsocket.model$ST_9b4c1d7f5790df008534dfd8d1c97a7cStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_15693c4dffeb1c18ce04ec8c251678cfStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_9b4c1d7f5790df008534dfd8d1c97a7cStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_15693c4dffeb1c18ce04ec8c251678cfStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -66,8 +64,7 @@ define("RESTAPIWebsocket.model$ST_15693c4dffeb1c18ce04ec8c251678cfStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_41688d261db663d4544900081e65767bStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_15693c4dffeb1c18ce04ec8c251678cfStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_41688d261db663d4544900081e65767bStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -91,8 +88,7 @@ define("RESTAPIWebsocket.model$ST_41688d261db663d4544900081e65767bStructure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_3183b1f3faf6969c32d1f8eb3c0f8d02", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_41688d261db663d4544900081e65767bStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3183b1f3faf6969c32d1f8eb3c0f8d02Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -135,8 +131,7 @@ define("RESTAPIWebsocket.model$RL_004e51f9bad0ff9671e9f54d029f6acd", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_178833eaf81da5980f461500f3f98736Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_178833eaf81da5980f461500f3f98736StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -160,8 +155,7 @@ define("RESTAPIWebsocket.model$ST_178833eaf81da5980f461500f3f98736Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_8517d9c8b73e866553a1a7b806af5079Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_8517d9c8b73e866553a1a7b806af5079StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -185,8 +179,7 @@ define("RESTAPIWebsocket.model$ST_8517d9c8b73e866553a1a7b806af5079Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_6e1c5ab117f6599aeb50c68a9a2fa65aStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_178833eaf81da5980f461500f3f98736Structure", "RESTAPIWebsocket.model$ST_8517d9c8b73e866553a1a7b806af5079Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_6e1c5ab117f6599aeb50c68a9a2fa65aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -216,8 +209,7 @@ define("RESTAPIWebsocket.model$ST_6e1c5ab117f6599aeb50c68a9a2fa65aStructure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_009f057acdc45a698d784f1d33cd022c", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_6e1c5ab117f6599aeb50c68a9a2fa65aStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_009f057acdc45a698d784f1d33cd022cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -246,8 +238,7 @@ define("RESTAPIWebsocket.model$RC_009f057acdc45a698d784f1d33cd022c", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_333caa433a680d581b2dfdf80dcbab60Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_333caa433a680d581b2dfdf80dcbab60StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -274,8 +265,7 @@ define("RESTAPIWebsocket.model$ST_333caa433a680d581b2dfdf80dcbab60Structure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_012b2720fb0dcd442416908af4498cef", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_333caa433a680d581b2dfdf80dcbab60Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_012b2720fb0dcd442416908af4498cefInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -304,8 +294,7 @@ define("RESTAPIWebsocket.model$RC_012b2720fb0dcd442416908af4498cef", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_02211ece4f8ea033ae9a7fa2710f4a32Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_02211ece4f8ea033ae9a7fa2710f4a32StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -353,8 +342,7 @@ define("RESTAPIWebsocket.model$ST_02211ece4f8ea033ae9a7fa2710f4a32Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_ae69fbe61d3588d5f7a813905e5dc3aeStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ae69fbe61d3588d5f7a813905e5dc3aeStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -422,8 +410,7 @@ define("RESTAPIWebsocket.model$RL_0253348eb22ed9882ec1d8af3ef0b76e", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_746d074ddcc08e0df3b269ffb1933d5aStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_41688d261db663d4544900081e65767bStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_746d074ddcc08e0df3b269ffb1933d5aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -464,8 +451,7 @@ define("RESTAPIWebsocket.model$RL_02995be0d4089fecb83f5ff06bf3de7f", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_2aa6b158772e078b381113da0ab825f8Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_2aa6b158772e078b381113da0ab825f8StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -492,8 +478,7 @@ define("RESTAPIWebsocket.model$ST_2aa6b158772e078b381113da0ab825f8Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_709b151c5172b8ff1042e5fecf4be0ecStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_709b151c5172b8ff1042e5fecf4be0ecStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -523,8 +508,7 @@ define("RESTAPIWebsocket.model$ST_709b151c5172b8ff1042e5fecf4be0ecStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_3b8df1b0da2c2bbfdff9bb6416b86701Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_709b151c5172b8ff1042e5fecf4be0ecStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_3b8df1b0da2c2bbfdff9bb6416b86701StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -551,8 +535,7 @@ define("RESTAPIWebsocket.model$ST_3b8df1b0da2c2bbfdff9bb6416b86701Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_803bffb999fad6a38040b2086877902eStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_709b151c5172b8ff1042e5fecf4be0ecStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_803bffb999fad6a38040b2086877902eStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -579,8 +562,7 @@ define("RESTAPIWebsocket.model$ST_803bffb999fad6a38040b2086877902eStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_e9350867621f419f78bd47d2bb88d9ceStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_709b151c5172b8ff1042e5fecf4be0ecStructure", "RESTAPIWebsocket.model$ST_803bffb999fad6a38040b2086877902eStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e9350867621f419f78bd47d2bb88d9ceStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -634,8 +616,7 @@ define("RESTAPIWebsocket.model$ST_e9350867621f419f78bd47d2bb88d9ceStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_30cf47a274820f1ac96cf412803888fdStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_3b8df1b0da2c2bbfdff9bb6416b86701Structure", "RESTAPIWebsocket.model$ST_e9350867621f419f78bd47d2bb88d9ceStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_30cf47a274820f1ac96cf412803888fdStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -665,8 +646,7 @@ define("RESTAPIWebsocket.model$ST_30cf47a274820f1ac96cf412803888fdStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_628e5221d510e98bcfe00cce5f107d21Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_30cf47a274820f1ac96cf412803888fdStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_628e5221d510e98bcfe00cce5f107d21StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -696,8 +676,7 @@ define("RESTAPIWebsocket.model$ST_628e5221d510e98bcfe00cce5f107d21Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_9adaf3e13b31a4c3f4ee4c0b223b00bcStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_9adaf3e13b31a4c3f4ee4c0b223b00bcStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -724,8 +703,7 @@ define("RESTAPIWebsocket.model$ST_9adaf3e13b31a4c3f4ee4c0b223b00bcStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_5ba9c80e587385c94102779d8eab301cStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_9adaf3e13b31a4c3f4ee4c0b223b00bcStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_5ba9c80e587385c94102779d8eab301cStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -752,8 +730,7 @@ define("RESTAPIWebsocket.model$ST_5ba9c80e587385c94102779d8eab301cStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_ddeabbcab252c99fc5f083425434b2a7Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ddeabbcab252c99fc5f083425434b2a7StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -777,8 +754,7 @@ define("RESTAPIWebsocket.model$ST_ddeabbcab252c99fc5f083425434b2a7Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_b47d3155c531939aabdd10ec3a99049dStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b47d3155c531939aabdd10ec3a99049dStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -802,8 +778,7 @@ define("RESTAPIWebsocket.model$ST_b47d3155c531939aabdd10ec3a99049dStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_5b838c70a2bbb273d7a479efa1e8ea87Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_b47d3155c531939aabdd10ec3a99049dStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_5b838c70a2bbb273d7a479efa1e8ea87StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -851,8 +826,7 @@ define("RESTAPIWebsocket.model$ST_5b838c70a2bbb273d7a479efa1e8ea87Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_72e91b438c2e206bca7398a7a69902dfStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_5b838c70a2bbb273d7a479efa1e8ea87Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_72e91b438c2e206bca7398a7a69902dfStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -885,8 +859,7 @@ define("RESTAPIWebsocket.model$ST_72e91b438c2e206bca7398a7a69902dfStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_77d1f9105abe302fa373f146c295ea17Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_77d1f9105abe302fa373f146c295ea17StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -913,8 +886,7 @@ define("RESTAPIWebsocket.model$ST_77d1f9105abe302fa373f146c295ea17Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_83fbd707f872e92b597918150eff1f3eStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_83fbd707f872e92b597918150eff1f3eStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -938,8 +910,7 @@ define("RESTAPIWebsocket.model$ST_83fbd707f872e92b597918150eff1f3eStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_98319758945048a72386b9e9466c220aStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_77d1f9105abe302fa373f146c295ea17Structure", "RESTAPIWebsocket.model$ST_83fbd707f872e92b597918150eff1f3eStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_98319758945048a72386b9e9466c220aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -969,8 +940,7 @@ define("RESTAPIWebsocket.model$ST_98319758945048a72386b9e9466c220aStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_6cf1ba858957788c000fe8d27578f9c1Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_ddeabbcab252c99fc5f083425434b2a7Structure", "RESTAPIWebsocket.model$ST_72e91b438c2e206bca7398a7a69902dfStructure", "RESTAPIWebsocket.model$ST_98319758945048a72386b9e9466c220aStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_6cf1ba858957788c000fe8d27578f9c1StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1027,8 +997,7 @@ define("RESTAPIWebsocket.model$ST_6cf1ba858957788c000fe8d27578f9c1Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_cea376e9e95ae6d491d188174483cdceStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_6cf1ba858957788c000fe8d27578f9c1Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_cea376e9e95ae6d491d188174483cdceStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1055,8 +1024,7 @@ define("RESTAPIWebsocket.model$ST_cea376e9e95ae6d491d188174483cdceStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_6168fd7b9ba43ed0f5fe1ccbd8f82e90Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_b47d3155c531939aabdd10ec3a99049dStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_6168fd7b9ba43ed0f5fe1ccbd8f82e90StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1083,8 +1051,7 @@ define("RESTAPIWebsocket.model$ST_6168fd7b9ba43ed0f5fe1ccbd8f82e90Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_bccc1fae1833449eea329fa137ba885aStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_6168fd7b9ba43ed0f5fe1ccbd8f82e90Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_bccc1fae1833449eea329fa137ba885aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1111,8 +1078,7 @@ define("RESTAPIWebsocket.model$ST_bccc1fae1833449eea329fa137ba885aStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_159cd2ead3b4ce7cf017e33699885453Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_98319758945048a72386b9e9466c220aStructure", "RESTAPIWebsocket.model$ST_bccc1fae1833449eea329fa137ba885aStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_159cd2ead3b4ce7cf017e33699885453StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1166,8 +1132,7 @@ define("RESTAPIWebsocket.model$ST_159cd2ead3b4ce7cf017e33699885453Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_60a5d7a279694c475c6cf2585b652410Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_6cf1ba858957788c000fe8d27578f9c1Structure", "RESTAPIWebsocket.model$ST_159cd2ead3b4ce7cf017e33699885453Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_60a5d7a279694c475c6cf2585b652410StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1191,8 +1156,7 @@ define("RESTAPIWebsocket.model$ST_60a5d7a279694c475c6cf2585b652410Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_8ddbf1b6e2eccc5a160b5fab6b9b9b86Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_6cf1ba858957788c000fe8d27578f9c1Structure", "RESTAPIWebsocket.model$ST_159cd2ead3b4ce7cf017e33699885453Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_8ddbf1b6e2eccc5a160b5fab6b9b9b86StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1216,8 +1180,7 @@ define("RESTAPIWebsocket.model$ST_8ddbf1b6e2eccc5a160b5fab6b9b9b86Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_d12f6a9e29cbb97250918a3fc7bc632aStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_628e5221d510e98bcfe00cce5f107d21Structure", "RESTAPIWebsocket.model$ST_5ba9c80e587385c94102779d8eab301cStructure", "RESTAPIWebsocket.model$ST_cea376e9e95ae6d491d188174483cdceStructure", "RESTAPIWebsocket.model$ST_6cf1ba858957788c000fe8d27578f9c1Structure", "RESTAPIWebsocket.model$ST_60a5d7a279694c475c6cf2585b652410Structure", "RESTAPIWebsocket.model$ST_8ddbf1b6e2eccc5a160b5fab6b9b9b86Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_d12f6a9e29cbb97250918a3fc7bc632aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1280,8 +1243,7 @@ define("RESTAPIWebsocket.model$ST_d12f6a9e29cbb97250918a3fc7bc632aStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_55477c48be760e041c4dbfa365f63009Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_2aa6b158772e078b381113da0ab825f8Structure", "RESTAPIWebsocket.model$ST_d12f6a9e29cbb97250918a3fc7bc632aStructure", "RESTAPIWebsocket.model$ST_8517d9c8b73e866553a1a7b806af5079Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_55477c48be760e041c4dbfa365f63009StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1311,8 +1273,7 @@ define("RESTAPIWebsocket.model$ST_55477c48be760e041c4dbfa365f63009Structure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_e16346b05b03d5a8388d39bb24b7660c", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_55477c48be760e041c4dbfa365f63009Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e16346b05b03d5a8388d39bb24b7660cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1355,8 +1316,7 @@ define("RESTAPIWebsocket.model$RL_02c7187c7ba98cee9be98803b8e6dc25", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_433eb5ffcea5c3c69d4be061c9113711Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_433eb5ffcea5c3c69d4be061c9113711StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1380,8 +1340,7 @@ define("RESTAPIWebsocket.model$ST_433eb5ffcea5c3c69d4be061c9113711Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_ec58aaccd7b190d47a2dd7159fa0d866Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ec58aaccd7b190d47a2dd7159fa0d866StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1405,8 +1364,7 @@ define("RESTAPIWebsocket.model$ST_ec58aaccd7b190d47a2dd7159fa0d866Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_50afbe86b1f98695d7a2eacc451587a7Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_433eb5ffcea5c3c69d4be061c9113711Structure", "RESTAPIWebsocket.model$ST_ec58aaccd7b190d47a2dd7159fa0d866Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_50afbe86b1f98695d7a2eacc451587a7StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1430,8 +1388,7 @@ define("RESTAPIWebsocket.model$ST_50afbe86b1f98695d7a2eacc451587a7Structure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_f5490f87f20f20000a36a875dced4a8f", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_50afbe86b1f98695d7a2eacc451587a7Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f5490f87f20f20000a36a875dced4a8fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1488,8 +1445,7 @@ define("RESTAPIWebsocket.model$RL_03ad86d8c1630b012ffc7d14eb428cff", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_b8e5132e8639404a10bb651dc17997bcStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b8e5132e8639404a10bb651dc17997bcStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1513,8 +1469,7 @@ define("RESTAPIWebsocket.model$ST_b8e5132e8639404a10bb651dc17997bcStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_d15d22dc3a60a2e6365116c61a16aaa0Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_d15d22dc3a60a2e6365116c61a16aaa0StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1538,8 +1493,7 @@ define("RESTAPIWebsocket.model$ST_d15d22dc3a60a2e6365116c61a16aaa0Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_4e063a3cef8e9e085284fb57c1326006Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_ae69fbe61d3588d5f7a813905e5dc3aeStructure", "RESTAPIWebsocket.model$ST_d15d22dc3a60a2e6365116c61a16aaa0Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_4e063a3cef8e9e085284fb57c1326006StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1575,8 +1529,7 @@ define("RESTAPIWebsocket.model$ST_4e063a3cef8e9e085284fb57c1326006Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_04eaf04e4147681bc07ba614af4e7e78Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_b8e5132e8639404a10bb651dc17997bcStructure", "RESTAPIWebsocket.model$ST_4e063a3cef8e9e085284fb57c1326006Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_04eaf04e4147681bc07ba614af4e7e78StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1621,8 +1574,7 @@ define("RESTAPIWebsocket.model$ST_04eaf04e4147681bc07ba614af4e7e78Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_0543ba6e58ccc819d0ba65db33df025eStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_0543ba6e58ccc819d0ba65db33df025eStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1649,8 +1601,7 @@ define("RESTAPIWebsocket.model$ST_0543ba6e58ccc819d0ba65db33df025eStructure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_e70e907746052ce92e691c25e5a4ffd3", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_746d074ddcc08e0df3b269ffb1933d5aStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e70e907746052ce92e691c25e5a4ffd3Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1693,8 +1644,7 @@ define("RESTAPIWebsocket.model$RL_05831c3634322d723355d086c3117149", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_349094d98d9594831ba9e5194411246fStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_349094d98d9594831ba9e5194411246fStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1721,8 +1671,7 @@ define("RESTAPIWebsocket.model$ST_349094d98d9594831ba9e5194411246fStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_55ea19c18b42991c3f5575c063ad7ca7Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_349094d98d9594831ba9e5194411246fStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_55ea19c18b42991c3f5575c063ad7ca7StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1746,8 +1695,7 @@ define("RESTAPIWebsocket.model$ST_55ea19c18b42991c3f5575c063ad7ca7Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_1c923b28044712e7268167783ecfdfbeStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_1c923b28044712e7268167783ecfdfbeStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1777,8 +1725,7 @@ define("RESTAPIWebsocket.model$ST_1c923b28044712e7268167783ecfdfbeStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_b5282edb36283adb40969ef7004c3e79Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_55ea19c18b42991c3f5575c063ad7ca7Structure", "RESTAPIWebsocket.model$ST_333caa433a680d581b2dfdf80dcbab60Structure", "RESTAPIWebsocket.model$ST_1c923b28044712e7268167783ecfdfbeStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b5282edb36283adb40969ef7004c3e79StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1805,8 +1752,7 @@ define("RESTAPIWebsocket.model$ST_b5282edb36283adb40969ef7004c3e79Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_c4a5ea0056d7d4d64b0630a9fc26f60bStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_c4a5ea0056d7d4d64b0630a9fc26f60bStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1833,8 +1779,7 @@ define("RESTAPIWebsocket.model$ST_c4a5ea0056d7d4d64b0630a9fc26f60bStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_2aef4efdcc8a8ad935c2f051f3051327Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_c4a5ea0056d7d4d64b0630a9fc26f60bStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_2aef4efdcc8a8ad935c2f051f3051327StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1882,8 +1827,7 @@ define("RESTAPIWebsocket.model$ST_2aef4efdcc8a8ad935c2f051f3051327Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_10e78341d21be3a7dc573dcf4252c9dbStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_2aef4efdcc8a8ad935c2f051f3051327Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_10e78341d21be3a7dc573dcf4252c9dbStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1907,8 +1851,7 @@ define("RESTAPIWebsocket.model$ST_10e78341d21be3a7dc573dcf4252c9dbStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_6669f981cb8653c55787de44bdd42a18Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_30cf47a274820f1ac96cf412803888fdStructure", "RESTAPIWebsocket.model$ST_10e78341d21be3a7dc573dcf4252c9dbStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_6669f981cb8653c55787de44bdd42a18StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1932,8 +1875,7 @@ define("RESTAPIWebsocket.model$ST_6669f981cb8653c55787de44bdd42a18Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_8812c3cbc0a0d322acb5354526a670b4Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_6669f981cb8653c55787de44bdd42a18Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_8812c3cbc0a0d322acb5354526a670b4StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1960,8 +1902,7 @@ define("RESTAPIWebsocket.model$ST_8812c3cbc0a0d322acb5354526a670b4Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_a37989da54adde60afe7657f5bc1d06eStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_a37989da54adde60afe7657f5bc1d06eStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1985,8 +1926,7 @@ define("RESTAPIWebsocket.model$ST_a37989da54adde60afe7657f5bc1d06eStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_d845e9af38689337f2bff5d766253a88Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_d845e9af38689337f2bff5d766253a88StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2013,8 +1953,7 @@ define("RESTAPIWebsocket.model$ST_d845e9af38689337f2bff5d766253a88Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_c77c7364c5e093c1d601fe854bbf1fd7Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_d845e9af38689337f2bff5d766253a88Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_c77c7364c5e093c1d601fe854bbf1fd7StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2038,8 +1977,7 @@ define("RESTAPIWebsocket.model$ST_c77c7364c5e093c1d601fe854bbf1fd7Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_113226709b84b71c70ebd50296313568Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_113226709b84b71c70ebd50296313568StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2066,8 +2004,7 @@ define("RESTAPIWebsocket.model$ST_113226709b84b71c70ebd50296313568Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_9eb2d1268b055c9ba20852d2758a5050Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_a37989da54adde60afe7657f5bc1d06eStructure", "RESTAPIWebsocket.model$ST_c77c7364c5e093c1d601fe854bbf1fd7Structure", "RESTAPIWebsocket.model$ST_113226709b84b71c70ebd50296313568Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_9eb2d1268b055c9ba20852d2758a5050StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2094,8 +2031,7 @@ define("RESTAPIWebsocket.model$ST_9eb2d1268b055c9ba20852d2758a5050Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_bf5d4ab423fae3ff38a977653adc8398Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_b5282edb36283adb40969ef7004c3e79Structure", "RESTAPIWebsocket.model$ST_8812c3cbc0a0d322acb5354526a670b4Structure", "RESTAPIWebsocket.model$ST_9eb2d1268b055c9ba20852d2758a5050Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_bf5d4ab423fae3ff38a977653adc8398StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2160,8 +2096,7 @@ define("RESTAPIWebsocket.model$RL_071a5687136a6dbeecb0a0d193c188a2", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_63a473e932ef99f5271718b62399e682Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_bf5d4ab423fae3ff38a977653adc8398Structure", "RESTAPIWebsocket.model$RL_071a5687136a6dbeecb0a0d193c188a2"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_63a473e932ef99f5271718b62399e682StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2188,8 +2123,7 @@ define("RESTAPIWebsocket.model$ST_63a473e932ef99f5271718b62399e682Structure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_0a5ac3085c044e0c9df151a275033fc0", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_63a473e932ef99f5271718b62399e682Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0a5ac3085c044e0c9df151a275033fc0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2232,8 +2166,7 @@ define("RESTAPIWebsocket.model$RL_06044e18a6adcb4a057162249eab9621", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_ae40a5e8008c1f0252b9952ccf57ee94Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ae40a5e8008c1f0252b9952ccf57ee94StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2260,8 +2193,7 @@ define("RESTAPIWebsocket.model$ST_ae40a5e8008c1f0252b9952ccf57ee94Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_bc9f0cd5cd952aeeadf59ee9a5dfb79aStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_ae40a5e8008c1f0252b9952ccf57ee94Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_bc9f0cd5cd952aeeadf59ee9a5dfb79aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2302,8 +2234,7 @@ define("RESTAPIWebsocket.model$RL_06622fbce6cdd9c0cef8e5e1e42d7483", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_7501a1e5933671743a2bbef56326a047", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_b5282edb36283adb40969ef7004c3e79Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7501a1e5933671743a2bbef56326a047Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2346,8 +2277,7 @@ define("RESTAPIWebsocket.model$RL_06ad8081ecdd4854820e95cbc9df15a8", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_08d13aa30e14041e8a414b5d62b51845", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_4e063a3cef8e9e085284fb57c1326006Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_08d13aa30e14041e8a414b5d62b51845Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2390,8 +2320,7 @@ define("RESTAPIWebsocket.model$RL_0706637a7e12b34ea54e4ad5e3fa7774", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_d4ed48681c55954edc02f19b0ed492e7Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_d4ed48681c55954edc02f19b0ed492e7StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2424,8 +2353,7 @@ define("RESTAPIWebsocket.model$ST_d4ed48681c55954edc02f19b0ed492e7Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_94d54d268b2cff4f4ed014a5df48da20Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_94d54d268b2cff4f4ed014a5df48da20StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2467,8 +2395,7 @@ define("RESTAPIWebsocket.model$ST_94d54d268b2cff4f4ed014a5df48da20Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_72900159fa859d96c9b5e8531e637a4cStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_d4ed48681c55954edc02f19b0ed492e7Structure", "RESTAPIWebsocket.model$ST_94d54d268b2cff4f4ed014a5df48da20Structure", "RESTAPIWebsocket.model$ST_8517d9c8b73e866553a1a7b806af5079Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_72900159fa859d96c9b5e8531e637a4cStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2540,8 +2467,7 @@ define("RESTAPIWebsocket.model$RL_085f95fe6d8c0993316da931c0bd457a", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_b654e7cd3dd9ac2b1fbdd9af9d59a56a", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_ec58aaccd7b190d47a2dd7159fa0d866Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b654e7cd3dd9ac2b1fbdd9af9d59a56aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2584,8 +2510,7 @@ define("RESTAPIWebsocket.model$RL_08d09f34c86e6f5622489301d79ff8a8", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_39c69c310b1fed6e6a637381cf367162Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_39c69c310b1fed6e6a637381cf367162StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2612,8 +2537,7 @@ define("RESTAPIWebsocket.model$ST_39c69c310b1fed6e6a637381cf367162Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_ac4f1b4870aba80de82d4c04f7b530ceStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ac4f1b4870aba80de82d4c04f7b530ceStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2637,8 +2561,7 @@ define("RESTAPIWebsocket.model$ST_ac4f1b4870aba80de82d4c04f7b530ceStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_e9af53f34f5d2c71a49407f1ed42d7f7Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e9af53f34f5d2c71a49407f1ed42d7f7StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2665,8 +2588,7 @@ define("RESTAPIWebsocket.model$ST_e9af53f34f5d2c71a49407f1ed42d7f7Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_af8134183a4bd7e3eec97ada0cf46b5eStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_ac4f1b4870aba80de82d4c04f7b530ceStructure", "RESTAPIWebsocket.model$ST_e9af53f34f5d2c71a49407f1ed42d7f7Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_af8134183a4bd7e3eec97ada0cf46b5eStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2696,8 +2618,7 @@ define("RESTAPIWebsocket.model$ST_af8134183a4bd7e3eec97ada0cf46b5eStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_6eafdf6bd9852632690d0672a511a98fStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_b8e5132e8639404a10bb651dc17997bcStructure", "RESTAPIWebsocket.model$ST_4e063a3cef8e9e085284fb57c1326006Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_6eafdf6bd9852632690d0672a511a98fStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2742,8 +2663,7 @@ define("RESTAPIWebsocket.model$ST_6eafdf6bd9852632690d0672a511a98fStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_4fa180d49a839964a4a640104b10a272Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_6eafdf6bd9852632690d0672a511a98fStructure", "RESTAPIWebsocket.model$ST_04eaf04e4147681bc07ba614af4e7e78Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_4fa180d49a839964a4a640104b10a272StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2797,8 +2717,7 @@ define("RESTAPIWebsocket.model$ST_4fa180d49a839964a4a640104b10a272Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_977d84487e32bee2c1a14da15d247b5fStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_977d84487e32bee2c1a14da15d247b5fStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2825,8 +2744,7 @@ define("RESTAPIWebsocket.model$ST_977d84487e32bee2c1a14da15d247b5fStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_cd83fe90bac6d8f5fe1d8e3dce9729c1Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_cd83fe90bac6d8f5fe1d8e3dce9729c1StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2873,8 +2791,7 @@ define("RESTAPIWebsocket.model$RL_593060ea0fb9fd453ef904bd5780284a", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_9d2eeec2f5ab741e3d87ce62bfe442ffStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_cd83fe90bac6d8f5fe1d8e3dce9729c1Structure", "RESTAPIWebsocket.model$RL_593060ea0fb9fd453ef904bd5780284a"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_9d2eeec2f5ab741e3d87ce62bfe442ffStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2898,8 +2815,7 @@ define("RESTAPIWebsocket.model$ST_9d2eeec2f5ab741e3d87ce62bfe442ffStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_af97180714ce3993e80d246ca4429825Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_af97180714ce3993e80d246ca4429825StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2950,8 +2866,7 @@ define("RESTAPIWebsocket.model$ST_af97180714ce3993e80d246ca4429825Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_d331548db274235fee458e1a8f950858Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_af97180714ce3993e80d246ca4429825Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_d331548db274235fee458e1a8f950858StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2978,8 +2893,7 @@ define("RESTAPIWebsocket.model$ST_d331548db274235fee458e1a8f950858Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_bbf8c5d47c5db3fd5346cb42e483a9fdStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_af8134183a4bd7e3eec97ada0cf46b5eStructure", "RESTAPIWebsocket.model$ST_4fa180d49a839964a4a640104b10a272Structure", "RESTAPIWebsocket.model$ST_977d84487e32bee2c1a14da15d247b5fStructure", "RESTAPIWebsocket.model$ST_9d2eeec2f5ab741e3d87ce62bfe442ffStructure", "RESTAPIWebsocket.model$ST_d331548db274235fee458e1a8f950858Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_bbf8c5d47c5db3fd5346cb42e483a9fdStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3024,8 +2938,7 @@ define("RESTAPIWebsocket.model$ST_bbf8c5d47c5db3fd5346cb42e483a9fdStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_c864353821feed79663806f3e445d40eStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_39c69c310b1fed6e6a637381cf367162Structure", "RESTAPIWebsocket.model$ST_bbf8c5d47c5db3fd5346cb42e483a9fdStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_c864353821feed79663806f3e445d40eStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3052,8 +2965,7 @@ define("RESTAPIWebsocket.model$ST_c864353821feed79663806f3e445d40eStructure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_091244483290da7633fe64666de188c0", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_c864353821feed79663806f3e445d40eStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_091244483290da7633fe64666de188c0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3082,8 +2994,7 @@ define("RESTAPIWebsocket.model$RC_091244483290da7633fe64666de188c0", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_24b97ac8060a9349e09da2d88e1dea00Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_24b97ac8060a9349e09da2d88e1dea00StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3110,8 +3021,7 @@ define("RESTAPIWebsocket.model$ST_24b97ac8060a9349e09da2d88e1dea00Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_b8e1602bee02fb2422c9742384775a7bStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_24b97ac8060a9349e09da2d88e1dea00Structure", "RESTAPIWebsocket.model$ST_8517d9c8b73e866553a1a7b806af5079Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b8e1602bee02fb2422c9742384775a7bStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3155,8 +3065,7 @@ define("RESTAPIWebsocket.model$RL_098222569d614b59c720a7d15f2e16c6", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_8e2ccc4cb2bbc580c7d8c36277a3970f", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_349094d98d9594831ba9e5194411246fStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8e2ccc4cb2bbc580c7d8c36277a3970fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3199,8 +3108,7 @@ define("RESTAPIWebsocket.model$RL_09aadf2f3a6cc14ff58d7e91ed9aa591", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_0af1f162a4f117f1f3e8ae4dce5af0db", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_cea376e9e95ae6d491d188174483cdceStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0af1f162a4f117f1f3e8ae4dce5af0dbInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3229,8 +3137,7 @@ define("RESTAPIWebsocket.model$RC_0af1f162a4f117f1f3e8ae4dce5af0db", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_1e4e8e93f82bd7d0c82446a55ed8dee2Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_1e4e8e93f82bd7d0c82446a55ed8dee2StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3257,8 +3164,7 @@ define("RESTAPIWebsocket.model$ST_1e4e8e93f82bd7d0c82446a55ed8dee2Structure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_177ce791066fe3e52ef3d9c99be27198", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_1e4e8e93f82bd7d0c82446a55ed8dee2Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_177ce791066fe3e52ef3d9c99be27198Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3301,8 +3207,7 @@ define("RESTAPIWebsocket.model$RL_0b481988946c6f5bbb65b67a84007644", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_fbe47240f7e3e38042a8c23b7b2b02e0", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_2aa6b158772e078b381113da0ab825f8Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_fbe47240f7e3e38042a8c23b7b2b02e0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3359,8 +3264,7 @@ define("RESTAPIWebsocket.model$RL_0c71b2fc045fad5c4e0f7f80c50bd453", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_26b581032ad004235c0d5c566e39b1dcStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_26b581032ad004235c0d5c566e39b1dcStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3387,8 +3291,7 @@ define("RESTAPIWebsocket.model$ST_26b581032ad004235c0d5c566e39b1dcStructure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_0d71b623ce5a409adf80e6d9d4a7031e", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_26b581032ad004235c0d5c566e39b1dcStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0d71b623ce5a409adf80e6d9d4a7031eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3417,8 +3320,7 @@ define("RESTAPIWebsocket.model$RC_0d71b623ce5a409adf80e6d9d4a7031e", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_5a174d6874253917600b578d844943be", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_709b151c5172b8ff1042e5fecf4be0ecStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5a174d6874253917600b578d844943beInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3461,8 +3363,7 @@ define("RESTAPIWebsocket.model$RL_0ebbc09ab880f9576c75a250e0dd80b4", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_6e7638d850b78b46a75a04e2dcd58f58Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_6e7638d850b78b46a75a04e2dcd58f58StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3489,8 +3390,7 @@ define("RESTAPIWebsocket.model$ST_6e7638d850b78b46a75a04e2dcd58f58Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_123df4fc5615aac2800d1fa4847bc440Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_6e7638d850b78b46a75a04e2dcd58f58Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_123df4fc5615aac2800d1fa4847bc440StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3531,8 +3431,7 @@ define("RESTAPIWebsocket.model$RL_126434276122aa915715df7da7c75609", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_812466b8d5a9a4a768bb1404c7c0b0e5Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_812466b8d5a9a4a768bb1404c7c0b0e5StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3559,8 +3458,7 @@ define("RESTAPIWebsocket.model$ST_812466b8d5a9a4a768bb1404c7c0b0e5Structure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_127d33c3734e3f0cecd53087584e156c", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_812466b8d5a9a4a768bb1404c7c0b0e5Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_127d33c3734e3f0cecd53087584e156cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3589,8 +3487,7 @@ define("RESTAPIWebsocket.model$RC_127d33c3734e3f0cecd53087584e156c", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_13505e54da5ba49238f8f2a40834f63fStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_13505e54da5ba49238f8f2a40834f63fStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3634,8 +3531,7 @@ define("RESTAPIWebsocket.model$RL_12d1ba6d0f7dc76efbcc2fac29abf585", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_334ec8eb11cbb1f900eb82a622de6be5", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_b47d3155c531939aabdd10ec3a99049dStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_334ec8eb11cbb1f900eb82a622de6be5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3678,8 +3574,7 @@ define("RESTAPIWebsocket.model$RL_130306c98b85aa803514000e3331edb0", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_131ec4afe292e50694c2940b1e3c9a73", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_bccc1fae1833449eea329fa137ba885aStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_131ec4afe292e50694c2940b1e3c9a73Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3708,8 +3603,7 @@ define("RESTAPIWebsocket.model$RC_131ec4afe292e50694c2940b1e3c9a73", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_d54336ec6049dff9c99f14fd62e782c4", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_94d54d268b2cff4f4ed014a5df48da20Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d54336ec6049dff9c99f14fd62e782c4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3822,8 +3716,7 @@ define("RESTAPIWebsocket.model$RL_18994bd1cd31a465f2635a0d68fa478a", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_84a0cd0731252abf8ed782a87ccaad58Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_84a0cd0731252abf8ed782a87ccaad58StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3850,8 +3743,7 @@ define("RESTAPIWebsocket.model$ST_84a0cd0731252abf8ed782a87ccaad58Structure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_d748f9b2c2050386449473bdb4b3b0cb", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_84a0cd0731252abf8ed782a87ccaad58Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d748f9b2c2050386449473bdb4b3b0cbInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3894,8 +3786,7 @@ define("RESTAPIWebsocket.model$RL_18e77429a52b049bf869659c0cf9f64f", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_191172c94e64292c8bf1a2dce4b5e876", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_977d84487e32bee2c1a14da15d247b5fStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_191172c94e64292c8bf1a2dce4b5e876Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3924,8 +3815,7 @@ define("RESTAPIWebsocket.model$RC_191172c94e64292c8bf1a2dce4b5e876", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_19aa89641c7398ceacf4370c69126f64", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_1c923b28044712e7268167783ecfdfbeStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_19aa89641c7398ceacf4370c69126f64Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3954,8 +3844,7 @@ define("RESTAPIWebsocket.model$RC_19aa89641c7398ceacf4370c69126f64", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_39bf756e3f1604202cf1d7ac5fb3b260", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_8ddbf1b6e2eccc5a160b5fab6b9b9b86Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_39bf756e3f1604202cf1d7ac5fb3b260Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3998,8 +3887,7 @@ define("RESTAPIWebsocket.model$RL_1a2d97d3def0e6b808795f4f98a3a588", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_1b2532ef629f2b3259beb09a3dc495b4", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_0543ba6e58ccc819d0ba65db33df025eStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_1b2532ef629f2b3259beb09a3dc495b4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4028,8 +3916,7 @@ define("RESTAPIWebsocket.model$RC_1b2532ef629f2b3259beb09a3dc495b4", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_ea9565ddc265550c2d38c39dc154035f", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_113226709b84b71c70ebd50296313568Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ea9565ddc265550c2d38c39dc154035fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4086,8 +3973,7 @@ define("RESTAPIWebsocket.model$RL_1dc527401e57829601dc86609514b95f", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_f643b3acfc27a4fecd1e2e4d216ea947", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_cd83fe90bac6d8f5fe1d8e3dce9729c1Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f643b3acfc27a4fecd1e2e4d216ea947Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4130,8 +4016,7 @@ define("RESTAPIWebsocket.model$RL_1dea2ab8630085ef26828f80f7648065", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_96047f3e265fbed2401212ad81dfa1f4Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_96047f3e265fbed2401212ad81dfa1f4StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4158,8 +4043,7 @@ define("RESTAPIWebsocket.model$ST_96047f3e265fbed2401212ad81dfa1f4Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_35e76a2e1583feb611523ac6c760c8a9Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_35e76a2e1583feb611523ac6c760c8a9StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4237,8 +4121,7 @@ define("RESTAPIWebsocket.model$ST_35e76a2e1583feb611523ac6c760c8a9Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_ef2ca9573c3bd1e27b35145a902be10bStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ef2ca9573c3bd1e27b35145a902be10bStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4271,8 +4154,7 @@ define("RESTAPIWebsocket.model$ST_ef2ca9573c3bd1e27b35145a902be10bStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_ccbd4ab860fdf3c4690e46bb49937de5Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_0543ba6e58ccc819d0ba65db33df025eStructure", "RESTAPIWebsocket.model$ST_35e76a2e1583feb611523ac6c760c8a9Structure", "RESTAPIWebsocket.model$ST_ef2ca9573c3bd1e27b35145a902be10bStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ccbd4ab860fdf3c4690e46bb49937de5StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4395,8 +4277,7 @@ define("RESTAPIWebsocket.model$ST_ccbd4ab860fdf3c4690e46bb49937de5Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_96047f3e265fbed2401212ad81dfa1f4Structure", "RESTAPIWebsocket.model$ST_ccbd4ab860fdf3c4690e46bb49937de5Structure", "RESTAPIWebsocket.model$ST_8517d9c8b73e866553a1a7b806af5079Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_5fc2e4a935064c1413d6e989e87decd2StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4426,8 +4307,7 @@ define("RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_a1310fc4b6664d1d807ee5336bf20c28", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a1310fc4b6664d1d807ee5336bf20c28Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4484,8 +4364,7 @@ define("RESTAPIWebsocket.model$RL_1ee2701fb233e597575036a6d1cfcb5b", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_a336dc96fafc2e7ffdb88fdcc24fe482", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_77d1f9105abe302fa373f146c295ea17Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a336dc96fafc2e7ffdb88fdcc24fe482Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4528,8 +4407,7 @@ define("RESTAPIWebsocket.model$RL_2083bc83b9d077075ef50c2bd63b6965", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_6da37637b0593f4ec39cbdb7fca0818f", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_10e78341d21be3a7dc573dcf4252c9dbStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6da37637b0593f4ec39cbdb7fca0818fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4572,8 +4450,7 @@ define("RESTAPIWebsocket.model$RL_21aa582dbaa7e503639ee59cca230a00", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_30490951290854c2926b2cf8ec7b4a20", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_9eb2d1268b055c9ba20852d2758a5050Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_30490951290854c2926b2cf8ec7b4a20Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4616,8 +4493,7 @@ define("RESTAPIWebsocket.model$RL_222c4cca834a8b261e24304f207bc884", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_224fc9970e9693b073b49748bfa1459a", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_e9af53f34f5d2c71a49407f1ed42d7f7Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_224fc9970e9693b073b49748bfa1459aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4646,8 +4522,7 @@ define("RESTAPIWebsocket.model$RC_224fc9970e9693b073b49748bfa1459a", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_2296852fb68ffc0d98bf144361127c38", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_b8e5132e8639404a10bb651dc17997bcStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2296852fb68ffc0d98bf144361127c38Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4676,8 +4551,7 @@ define("RESTAPIWebsocket.model$RC_2296852fb68ffc0d98bf144361127c38", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_605da9a1009ce00d8c64718f9c13e284Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_605da9a1009ce00d8c64718f9c13e284StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4746,8 +4620,7 @@ define("RESTAPIWebsocket.model$ST_605da9a1009ce00d8c64718f9c13e284Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_b3b8308da7c5dcdc42b3f87ca949eb8cStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_13505e54da5ba49238f8f2a40834f63fStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b3b8308da7c5dcdc42b3f87ca949eb8cStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4774,8 +4647,7 @@ define("RESTAPIWebsocket.model$ST_b3b8308da7c5dcdc42b3f87ca949eb8cStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_b96e8d04448b693f79e4aebf0b6ee4fbStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b96e8d04448b693f79e4aebf0b6ee4fbStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4805,8 +4677,7 @@ define("RESTAPIWebsocket.model$ST_b96e8d04448b693f79e4aebf0b6ee4fbStructure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_2361699202fda01d7c8ade7cab583650Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_605da9a1009ce00d8c64718f9c13e284Structure", "RESTAPIWebsocket.model$ST_b3b8308da7c5dcdc42b3f87ca949eb8cStructure", "RESTAPIWebsocket.model$ST_b96e8d04448b693f79e4aebf0b6ee4fbStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_2361699202fda01d7c8ade7cab583650StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4887,8 +4758,7 @@ define("RESTAPIWebsocket.model$ST_2361699202fda01d7c8ade7cab583650Structure", ["
 });
 
 define("RESTAPIWebsocket.model$ST_450f06937a42e6bd68832beac9fd4297Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_450f06937a42e6bd68832beac9fd4297StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4915,8 +4785,7 @@ define("RESTAPIWebsocket.model$ST_450f06937a42e6bd68832beac9fd4297Structure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_236b9780ed98eefd23c7d452d5b32785", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_450f06937a42e6bd68832beac9fd4297Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_236b9780ed98eefd23c7d452d5b32785Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4973,8 +4842,7 @@ define("RESTAPIWebsocket.model$RL_25008888c069155597e1a02e1b9ea813", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_96175866bef7bdbf74965597575b319c", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_72900159fa859d96c9b5e8531e637a4cStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_96175866bef7bdbf74965597575b319cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5017,8 +4885,7 @@ define("RESTAPIWebsocket.model$RL_2567d50fd0e540a33e71ee0dd4edef5d", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_e1b3eaedbd133d4ebfdb497dc119e9c1", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_d12f6a9e29cbb97250918a3fc7bc632aStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e1b3eaedbd133d4ebfdb497dc119e9c1Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5075,8 +4942,7 @@ define("RESTAPIWebsocket.model$RL_260232560d4d04c2013fce278e787f24", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_b5731219a4e422dad77e0fd7d6ee0cdfStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b5731219a4e422dad77e0fd7d6ee0cdfStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5100,8 +4966,7 @@ define("RESTAPIWebsocket.model$ST_b5731219a4e422dad77e0fd7d6ee0cdfStructure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_264d82ff29428f3cd43ebe0810111d5a", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_b5731219a4e422dad77e0fd7d6ee0cdfStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_264d82ff29428f3cd43ebe0810111d5aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5130,8 +4995,7 @@ define("RESTAPIWebsocket.model$RC_264d82ff29428f3cd43ebe0810111d5a", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_2827a9b1879137deb3aaa08d45397068", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_4fa180d49a839964a4a640104b10a272Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2827a9b1879137deb3aaa08d45397068Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5160,8 +5024,7 @@ define("RESTAPIWebsocket.model$RC_2827a9b1879137deb3aaa08d45397068", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_d5a14f6db075b658d013dc3ad63d0c60Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_d5a14f6db075b658d013dc3ad63d0c60StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5202,8 +5065,7 @@ define("RESTAPIWebsocket.model$RL_96ea0e5dbed7b91dda2061420ea7817a", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_870defcbb5bf4a58a2a009971edc7d07Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_d5a14f6db075b658d013dc3ad63d0c60Structure", "RESTAPIWebsocket.model$RL_96ea0e5dbed7b91dda2061420ea7817a", "RESTAPIWebsocket.model$ST_812466b8d5a9a4a768bb1404c7c0b0e5Structure", "RESTAPIWebsocket.model$ST_8517d9c8b73e866553a1a7b806af5079Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_870defcbb5bf4a58a2a009971edc7d07StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5233,8 +5095,7 @@ define("RESTAPIWebsocket.model$ST_870defcbb5bf4a58a2a009971edc7d07Structure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_2838f738beb90761e9ec634e42207f58", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_870defcbb5bf4a58a2a009971edc7d07Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2838f738beb90761e9ec634e42207f58Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5263,8 +5124,7 @@ define("RESTAPIWebsocket.model$RC_2838f738beb90761e9ec634e42207f58", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_82e915cb61269c2e1fb30ed84469e07b", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_c4a5ea0056d7d4d64b0630a9fc26f60bStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_82e915cb61269c2e1fb30ed84469e07bInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5307,8 +5167,7 @@ define("RESTAPIWebsocket.model$RL_29080a69ee1ce69b9b697bf94281f9ff", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_cd5e42a0793d8eb69fbc5056fff3f372", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_55ea19c18b42991c3f5575c063ad7ca7Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_cd5e42a0793d8eb69fbc5056fff3f372Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5379,8 +5238,7 @@ define("RESTAPIWebsocket.model$RL_d214456dc511920f517885542ecb318a", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_2f457e0a5b13526850516eea23ae0e9aStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_1e4e8e93f82bd7d0c82446a55ed8dee2Structure", "RESTAPIWebsocket.model$ST_2361699202fda01d7c8ade7cab583650Structure", "RESTAPIWebsocket.model$RL_d214456dc511920f517885542ecb318a"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_2f457e0a5b13526850516eea23ae0e9aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5407,8 +5265,7 @@ define("RESTAPIWebsocket.model$ST_2f457e0a5b13526850516eea23ae0e9aStructure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_5c073669af4d1bb9a059222c06ae3a49", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_2f457e0a5b13526850516eea23ae0e9aStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5c073669af4d1bb9a059222c06ae3a49Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5451,8 +5308,7 @@ define("RESTAPIWebsocket.model$RL_2bc6600c37d3f99d4190f0fccf1bad67", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_2bf25d62d530e43a49ce5fb7ed436ea0", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_d5a14f6db075b658d013dc3ad63d0c60Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2bf25d62d530e43a49ce5fb7ed436ea0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5481,8 +5337,7 @@ define("RESTAPIWebsocket.model$RC_2bf25d62d530e43a49ce5fb7ed436ea0", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_441f684d3efba387356554fe17c62bec", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_d15d22dc3a60a2e6365116c61a16aaa0Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_441f684d3efba387356554fe17c62becInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5539,8 +5394,7 @@ define("RESTAPIWebsocket.model$RL_2e550e70d4f60fcf474568418d9dcf73", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_2e6da4a898d55ae96aab51b6e09d6a22", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_6eafdf6bd9852632690d0672a511a98fStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2e6da4a898d55ae96aab51b6e09d6a22Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5569,8 +5423,7 @@ define("RESTAPIWebsocket.model$RC_2e6da4a898d55ae96aab51b6e09d6a22", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_4820561c523dc84c471446a46147a065Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_50afbe86b1f98695d7a2eacc451587a7Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_4820561c523dc84c471446a46147a065StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5597,8 +5450,7 @@ define("RESTAPIWebsocket.model$ST_4820561c523dc84c471446a46147a065Structure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_98e502ffc9bd24401241ef277fce403c", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_4820561c523dc84c471446a46147a065Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_98e502ffc9bd24401241ef277fce403cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5641,8 +5493,7 @@ define("RESTAPIWebsocket.model$RL_2f1c969e24c9ba731c5c1c39ceea50ec", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_71e7722a7761502e1fc1ee9175838bd9", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_ac4f1b4870aba80de82d4c04f7b530ceStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_71e7722a7761502e1fc1ee9175838bd9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5685,8 +5536,7 @@ define("RESTAPIWebsocket.model$RL_2f43bfa975a498b49479ea4ecbc98b48", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_7a9f1d8fcf08e196ae4fcb70fce3ae4d", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_9d2eeec2f5ab741e3d87ce62bfe442ffStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7a9f1d8fcf08e196ae4fcb70fce3ae4dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5729,8 +5579,7 @@ define("RESTAPIWebsocket.model$RL_30996d47f459830cdd860ac4090ef40a", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_30f7e77f4f85f62f55a749d558899db1", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_b8e1602bee02fb2422c9742384775a7bStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_30f7e77f4f85f62f55a749d558899db1Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5759,8 +5608,7 @@ define("RESTAPIWebsocket.model$RC_30f7e77f4f85f62f55a749d558899db1", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_e693c35b48131a7d9d296aba5185b8c6", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_98319758945048a72386b9e9466c220aStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e693c35b48131a7d9d296aba5185b8c6Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5817,8 +5665,7 @@ define("RESTAPIWebsocket.model$RL_357030bc20ba450abe6756927d50ad98", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_95720c0132c7c8b07166d48790a0a129Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_95720c0132c7c8b07166d48790a0a129StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5862,8 +5709,7 @@ define("RESTAPIWebsocket.model$RL_360fcdf4e596d82c75762f808854a5a1", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_cc81504e70ca274810f96237dd739de9", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_178833eaf81da5980f461500f3f98736Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_cc81504e70ca274810f96237dd739de9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5920,8 +5766,7 @@ define("RESTAPIWebsocket.model$RL_36ff7df6547fc6551e99dc50dec2ec00", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_60071085ccdc1a939c98b76e05aec53e", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_433eb5ffcea5c3c69d4be061c9113711Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_60071085ccdc1a939c98b76e05aec53eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5992,8 +5837,7 @@ define("RESTAPIWebsocket.model$RL_39e0a2148c652f14154e90634eb14b80", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_3a2d986a770a9c3e6f1096b16961e5a9", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_af8134183a4bd7e3eec97ada0cf46b5eStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3a2d986a770a9c3e6f1096b16961e5a9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6022,8 +5866,7 @@ define("RESTAPIWebsocket.model$RC_3a2d986a770a9c3e6f1096b16961e5a9", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_3c60a1846470070c1bbae2a1d22163d2", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_628e5221d510e98bcfe00cce5f107d21Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3c60a1846470070c1bbae2a1d22163d2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6094,8 +5937,7 @@ define("RESTAPIWebsocket.model$RL_3ddab8163c31ef065226c1ec689ad1e9", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_3f4d741c30bd5473dc9c679433c442c3", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_2aef4efdcc8a8ad935c2f051f3051327Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3f4d741c30bd5473dc9c679433c442c3Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6166,8 +6008,7 @@ define("RESTAPIWebsocket.model$RL_d03621281d953210a5f7643c5f395ddc", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_42e091eee706086ba45ab77d0ef6821fStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_02211ece4f8ea033ae9a7fa2710f4a32Structure", "RESTAPIWebsocket.model$RL_d03621281d953210a5f7643c5f395ddc", "RESTAPIWebsocket.model$ST_84a0cd0731252abf8ed782a87ccaad58Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_42e091eee706086ba45ab77d0ef6821fStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6194,8 +6035,7 @@ define("RESTAPIWebsocket.model$ST_42e091eee706086ba45ab77d0ef6821fStructure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_725766536428f47602ca54f05f55b577", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_04eaf04e4147681bc07ba614af4e7e78Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_725766536428f47602ca54f05f55b577Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6238,8 +6078,7 @@ define("RESTAPIWebsocket.model$RL_43065d40fb42cf2e1c75ff4cebf95a65", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_655de439743f6ef66e4c426b009f58b1", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_e9350867621f419f78bd47d2bb88d9ceStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_655de439743f6ef66e4c426b009f58b1Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6296,8 +6135,7 @@ define("RESTAPIWebsocket.model$RL_43c33c0f3b9a2eb3199ef87eb6b6c7b3", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_d5f1faf2f682624c1c27e7a932faee50", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_a37989da54adde60afe7657f5bc1d06eStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d5f1faf2f682624c1c27e7a932faee50Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6354,8 +6192,7 @@ define("RESTAPIWebsocket.model$RL_45f425cbfe3f41d3fac973fe3238818f", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_47772cad80dc4a787d65fd52470ca2cd", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_ccbd4ab860fdf3c4690e46bb49937de5Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_47772cad80dc4a787d65fd52470ca2cdInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6384,8 +6221,7 @@ define("RESTAPIWebsocket.model$RC_47772cad80dc4a787d65fd52470ca2cd", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_d4bf765df28dc44cfc977eebedb13ed3", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_ddeabbcab252c99fc5f083425434b2a7Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d4bf765df28dc44cfc977eebedb13ed3Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6442,8 +6278,7 @@ define("RESTAPIWebsocket.model$RL_4887faff529164a4e041bdf0dc5e469f", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_5e1b44d038654ac19cd218a2a7d6a6b8", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_30cf47a274820f1ac96cf412803888fdStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5e1b44d038654ac19cd218a2a7d6a6b8Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6486,8 +6321,7 @@ define("RESTAPIWebsocket.model$RL_49a4d531de393d17563dea4ec0d88883", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_4a76c214f34feb841d0c1a2d8cdbec01", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_35e76a2e1583feb611523ac6c760c8a9Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4a76c214f34feb841d0c1a2d8cdbec01Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6558,8 +6392,7 @@ define("RESTAPIWebsocket.model$RL_4f9f1230897f0a3e8b129024e1de623d", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_5044465528c94ee468cc97cee02c2f31", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_af97180714ce3993e80d246ca4429825Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5044465528c94ee468cc97cee02c2f31Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6616,8 +6449,7 @@ define("RESTAPIWebsocket.model$RL_508855d25108765122be317d42e36c82", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_a77cae619f7a824ffaa6e30caf3829e5", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_ae69fbe61d3588d5f7a813905e5dc3aeStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a77cae619f7a824ffaa6e30caf3829e5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6660,8 +6492,7 @@ define("RESTAPIWebsocket.model$RL_51c36384638fb46b29235e79e23007b4", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_51c73f641f2d05540b68c15e7660196f", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_8812c3cbc0a0d322acb5354526a670b4Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_51c73f641f2d05540b68c15e7660196fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6718,8 +6549,7 @@ define("RESTAPIWebsocket.model$RL_53248a1b8ab3b0462ffd76c73f4f1eba", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_9d1062fa4257a03d2f3c4e1f302af3d7Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_9d1062fa4257a03d2f3c4e1f302af3d7StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6771,8 +6601,7 @@ define("RESTAPIWebsocket.model$RL_538ff2f1d030482c84c803644c8c1240", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_cb3c04d88b114a075539728cafcde6e0", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_60a5d7a279694c475c6cf2585b652410Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_cb3c04d88b114a075539728cafcde6e0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6815,8 +6644,7 @@ define("RESTAPIWebsocket.model$RL_53c372dc61bea6ee9ca5f8120f4350e8", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_9156a578055ce3e905fa78bea04b423e", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_39c69c310b1fed6e6a637381cf367162Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9156a578055ce3e905fa78bea04b423eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6901,8 +6729,7 @@ define("RESTAPIWebsocket.model$RL_5615c834166e52223964bada9f9f6329", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_56c6ce1b0108db2c43eb2e512b9aa7da", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_d331548db274235fee458e1a8f950858Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_56c6ce1b0108db2c43eb2e512b9aa7daInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6987,8 +6814,7 @@ define("RESTAPIWebsocket.model$RL_617ce086b197e1cd7e2af2a1c0d1c20b", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_61df84f9969928991e575f5d3cdeb6cf", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_123df4fc5615aac2800d1fa4847bc440Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_61df84f9969928991e575f5d3cdeb6cfInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7017,8 +6843,7 @@ define("RESTAPIWebsocket.model$RC_61df84f9969928991e575f5d3cdeb6cf", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_61e849a6b27c65d4f84da11bc7fcd961", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_b3b8308da7c5dcdc42b3f87ca949eb8cStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_61e849a6b27c65d4f84da11bc7fcd961Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7047,8 +6872,7 @@ define("RESTAPIWebsocket.model$RC_61e849a6b27c65d4f84da11bc7fcd961", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_623a04a7e1c688b7ec133f2b7ca28f8e", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_96047f3e265fbed2401212ad81dfa1f4Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_623a04a7e1c688b7ec133f2b7ca28f8eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7105,8 +6929,7 @@ define("RESTAPIWebsocket.model$RL_66079fd510547022662fad21af9161f1", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_f481c39b6dc571441408fc418f17e793", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_02211ece4f8ea033ae9a7fa2710f4a32Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f481c39b6dc571441408fc418f17e793Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7149,8 +6972,7 @@ define("RESTAPIWebsocket.model$RL_6611d2d9fcbfcbfe8fb57800c9eecc82", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_e184b5e893ff6633d3c7357dd29941faStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_95720c0132c7c8b07166d48790a0a129Structure", "RESTAPIWebsocket.model$ST_8517d9c8b73e866553a1a7b806af5079Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e184b5e893ff6633d3c7357dd29941faStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7180,8 +7002,7 @@ define("RESTAPIWebsocket.model$ST_e184b5e893ff6633d3c7357dd29941faStructure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_6ff4ee45dfc92afe92e4874530f95001", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_e184b5e893ff6633d3c7357dd29941faStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6ff4ee45dfc92afe92e4874530f95001Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7224,8 +7045,7 @@ define("RESTAPIWebsocket.model$RL_66125dc2e07150403638a7f77e4d88ff", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_fb91f9eab17d134884b2213f47fb4a68", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_9adaf3e13b31a4c3f4ee4c0b223b00bcStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_fb91f9eab17d134884b2213f47fb4a68Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7324,8 +7144,7 @@ define("RESTAPIWebsocket.model$RL_6aefb6b34ff9f8b6e1084c5b438522bb", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_6afb7faf6b2a5fdc14e3fd34318f5ba5", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_15693c4dffeb1c18ce04ec8c251678cfStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6afb7faf6b2a5fdc14e3fd34318f5ba5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7354,8 +7173,7 @@ define("RESTAPIWebsocket.model$RC_6afb7faf6b2a5fdc14e3fd34318f5ba5", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_6bf0b0ffc6301cb068818135121fba90", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_bbf8c5d47c5db3fd5346cb42e483a9fdStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6bf0b0ffc6301cb068818135121fba90Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7468,8 +7286,7 @@ define("RESTAPIWebsocket.model$RL_6e4709c964d7b46a3afebff315d0d559", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_7096ca0099728124fcaff6ac0bf8440c", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_6669f981cb8653c55787de44bdd42a18Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7096ca0099728124fcaff6ac0bf8440cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7498,8 +7315,7 @@ define("RESTAPIWebsocket.model$RC_7096ca0099728124fcaff6ac0bf8440c", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_72deccc4588dd4c59ea212c47055f933", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_bf5d4ab423fae3ff38a977653adc8398Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_72deccc4588dd4c59ea212c47055f933Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7528,8 +7344,7 @@ define("RESTAPIWebsocket.model$RC_72deccc4588dd4c59ea212c47055f933", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_769b74cf243bca7e23f6d8b3e094aafe", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_83fbd707f872e92b597918150eff1f3eStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_769b74cf243bca7e23f6d8b3e094aafeInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7558,8 +7373,7 @@ define("RESTAPIWebsocket.model$RC_769b74cf243bca7e23f6d8b3e094aafe", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_854dbd2804fbb731b1468b879331bbde", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_8517d9c8b73e866553a1a7b806af5079Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_854dbd2804fbb731b1468b879331bbdeInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7658,8 +7472,7 @@ define("RESTAPIWebsocket.model$RL_7aafab926cc9835b50687e3590d16e83", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_7b274cb5f96a8ac297db685000547ab1", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_9d1062fa4257a03d2f3c4e1f302af3d7Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7b274cb5f96a8ac297db685000547ab1Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7688,8 +7501,7 @@ define("RESTAPIWebsocket.model$RC_7b274cb5f96a8ac297db685000547ab1", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_7c67e52a2329c05d78ed79fcc452835e", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_13505e54da5ba49238f8f2a40834f63fStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7c67e52a2329c05d78ed79fcc452835eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7802,8 +7614,7 @@ define("RESTAPIWebsocket.model$RL_81d2bc71eb1c605f53ae134ad3caa1c0", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_890f16fe63a6b66b2130ac1a285dc1bf", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_d845e9af38689337f2bff5d766253a88Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_890f16fe63a6b66b2130ac1a285dc1bfInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7944,8 +7755,7 @@ define("RESTAPIWebsocket.model$RL_8b3193777919a00b12740a1aa0e7a669", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_8b362302b5966cedd4e8c7c42d7e46f8", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_ae40a5e8008c1f0252b9952ccf57ee94Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8b362302b5966cedd4e8c7c42d7e46f8Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7974,8 +7784,7 @@ define("RESTAPIWebsocket.model$RC_8b362302b5966cedd4e8c7c42d7e46f8", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_8ccc091579545400bb5558b597337647", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_803bffb999fad6a38040b2086877902eStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8ccc091579545400bb5558b597337647Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8018,8 +7827,7 @@ define("RESTAPIWebsocket.model$RL_8e38afd3984d04ce643edcb181b91ae7", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_8f3efc29bef911e74df222fdba36c135", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_605da9a1009ce00d8c64718f9c13e284Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8f3efc29bef911e74df222fdba36c135Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8202,8 +8010,7 @@ define("RESTAPIWebsocket.model$RL_9b5ff325fa2b1963afc7ac5fe1fefcac", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_fed8226e055119cda9775f74ac223ef2", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_72e91b438c2e206bca7398a7a69902dfStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_fed8226e055119cda9775f74ac223ef2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8246,8 +8053,7 @@ define("RESTAPIWebsocket.model$RL_9b9241a2f74aae5dad6a96c423cf89d8", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_e5081373b9c17bf97c001a46f1739ffeStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_02211ece4f8ea033ae9a7fa2710f4a32Structure", "RESTAPIWebsocket.model$RL_d03621281d953210a5f7643c5f395ddc", "RESTAPIWebsocket.model$ST_123df4fc5615aac2800d1fa4847bc440Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e5081373b9c17bf97c001a46f1739ffeStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8366,8 +8172,7 @@ define("RESTAPIWebsocket.model$RL_9f7e64e3acb92ada6c7cc1def60ee7ce", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_9fdefb1423ae0af9c1d321109b8695e4", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_ef2ca9573c3bd1e27b35145a902be10bStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9fdefb1423ae0af9c1d321109b8695e4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8410,8 +8215,7 @@ define("RESTAPIWebsocket.model$RL_a2a3d623cff8db0b23d39b4d88a9486f", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_a5fc3d62312a89b32ae393e0571bcad7", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_d4ed48681c55954edc02f19b0ed492e7Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a5fc3d62312a89b32ae393e0571bcad7Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8468,8 +8272,7 @@ define("RESTAPIWebsocket.model$RL_a85951adc11db15827205a4c30d6e88f", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_a8681099a96d9738667779eaaccedc4a", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_6e7638d850b78b46a75a04e2dcd58f58Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a8681099a96d9738667779eaaccedc4aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8512,8 +8315,7 @@ define("RESTAPIWebsocket.model$RL_a8b7c276560c35af141714ac8a51d257", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_a9755f38b0542dfb6acdd8617637c169", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_24b97ac8060a9349e09da2d88e1dea00Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a9755f38b0542dfb6acdd8617637c169Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8556,8 +8358,7 @@ define("RESTAPIWebsocket.model$RL_a9ea31b939f652b4b427fa383c80cdbb", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_d1246d83c419f598cf8e4e18d5276097Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_d1246d83c419f598cf8e4e18d5276097StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8584,8 +8385,7 @@ define("RESTAPIWebsocket.model$ST_d1246d83c419f598cf8e4e18d5276097Structure", ["
 });
 
 define("RESTAPIWebsocket.model$RC_b7ccb1d374819fabb1f3fad7a6c0dd99", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_d1246d83c419f598cf8e4e18d5276097Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b7ccb1d374819fabb1f3fad7a6c0dd99Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8642,8 +8442,7 @@ define("RESTAPIWebsocket.model$RL_abbb06caa2dc3007694c8b499e93ac42", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_aca073df88d40d31252fa904cba1bb39", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_6cf1ba858957788c000fe8d27578f9c1Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_aca073df88d40d31252fa904cba1bb39Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8672,8 +8471,7 @@ define("RESTAPIWebsocket.model$RC_aca073df88d40d31252fa904cba1bb39", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_ada7ae2f7fcadfe9ad4cb9dbd1c4caf8", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_159cd2ead3b4ce7cf017e33699885453Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ada7ae2f7fcadfe9ad4cb9dbd1c4caf8Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8702,8 +8500,7 @@ define("RESTAPIWebsocket.model$RC_ada7ae2f7fcadfe9ad4cb9dbd1c4caf8", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_e62fa91ce8ed0a38e810cad8c726da2f", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_5b838c70a2bbb273d7a479efa1e8ea87Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e62fa91ce8ed0a38e810cad8c726da2fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8760,8 +8557,7 @@ define("RESTAPIWebsocket.model$RL_b12f7a71666929e6ceec6559f200d213", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_b17c3526d6deec2ea51fe6ca6895e3ea", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_95720c0132c7c8b07166d48790a0a129Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b17c3526d6deec2ea51fe6ca6895e3eaInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8790,8 +8586,7 @@ define("RESTAPIWebsocket.model$RC_b17c3526d6deec2ea51fe6ca6895e3ea", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_b1f9a62aa1eb0e7979aaceb89243cea9", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_5ba9c80e587385c94102779d8eab301cStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b1f9a62aa1eb0e7979aaceb89243cea9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8890,8 +8685,7 @@ define("RESTAPIWebsocket.model$RL_b7a05579761da982186db0cb56ca5900", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_b8272ebcb560c4fc5c96482b705582ba", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_9b4c1d7f5790df008534dfd8d1c97a7cStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b8272ebcb560c4fc5c96482b705582baInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8934,8 +8728,7 @@ define("RESTAPIWebsocket.model$RL_b88c0ed17712805463deb6be1a1ca760", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_e3b9823599cdef8012785f8875d8da38Structure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_26b581032ad004235c0d5c566e39b1dcStructure", "RESTAPIWebsocket.model$ST_9d1062fa4257a03d2f3c4e1f302af3d7Structure", "RESTAPIWebsocket.model$RL_535207a4cf1e4bc1dcc85faad9d4014e"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e3b9823599cdef8012785f8875d8da38StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9032,8 +8825,7 @@ define("RESTAPIWebsocket.model$RL_c229edfd5a861b3989c3898b88a89f90", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_e3b76e5c6918ce63091acb36b11f3fe2", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_2361699202fda01d7c8ade7cab583650Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e3b76e5c6918ce63091acb36b11f3fe2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9104,8 +8896,7 @@ define("RESTAPIWebsocket.model$RL_c35bbded731f8ecb695157b429b6b213", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_c567cbac2969babec31508d5ba9b8248", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_42e091eee706086ba45ab77d0ef6821fStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c567cbac2969babec31508d5ba9b8248Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9176,8 +8967,7 @@ define("RESTAPIWebsocket.model$RL_cb7f36c20c1100a526f054e4bd5ee331", ["exports",
 });
 
 define("RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_e5081373b9c17bf97c001a46f1739ffeStructure", "RESTAPIWebsocket.model$ST_450f06937a42e6bd68832beac9fd4297Structure", "RESTAPIWebsocket.model$ST_8517d9c8b73e866553a1a7b806af5079Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_f502318fbe2f943e6cfbba125766780aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9319,8 +9109,7 @@ define("RESTAPIWebsocket.model$RL_d3a7744852f4b782bcbb3dc9b2b5a3a2", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_da31320f88166d864fc396c0fddbecc9", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_c77c7364c5e093c1d601fe854bbf1fd7Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_da31320f88166d864fc396c0fddbecc9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9363,8 +9152,7 @@ define("RESTAPIWebsocket.model$RL_d40367d2d21dcbcbaa0f7166365925a3", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_d509bf89cda09ba78055eb96d496078b", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_6168fd7b9ba43ed0f5fe1ccbd8f82e90Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d509bf89cda09ba78055eb96d496078bInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9393,8 +9181,7 @@ define("RESTAPIWebsocket.model$RC_d509bf89cda09ba78055eb96d496078b", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_f0c73e6dbd84280986cd2f30c5ab1891", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_bc9f0cd5cd952aeeadf59ee9a5dfb79aStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f0c73e6dbd84280986cd2f30c5ab1891Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9521,8 +9308,7 @@ define("RESTAPIWebsocket.model$RL_dba1429f774712c36d3ea0b48ab6b63d", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_dd79bf27114cbc810592c451d8bd2280", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_b96e8d04448b693f79e4aebf0b6ee4fbStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_dd79bf27114cbc810592c451d8bd2280Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9565,8 +9351,7 @@ define("RESTAPIWebsocket.model$RL_dfdebdca8e822b537628659338ad0660", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_dfe43d1a19f2f910938805ce519a6be0", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_dfe43d1a19f2f910938805ce519a6be0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9595,8 +9380,7 @@ define("RESTAPIWebsocket.model$RC_dfe43d1a19f2f910938805ce519a6be0", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_e0e41cb94b033378d9153e95b9660ef9", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_3b8df1b0da2c2bbfdff9bb6416b86701Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e0e41cb94b033378d9153e95b9660ef9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9737,8 +9521,7 @@ define("RESTAPIWebsocket.model$RL_e76c00ddf7abece102174559911adf6e", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_ee239f88c5d7794fe9f69be69a94411a", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_e3b9823599cdef8012785f8875d8da38Structure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ee239f88c5d7794fe9f69be69a94411aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9907,8 +9690,7 @@ define("RESTAPIWebsocket.model$RL_f8eb431cfa3719b526bb3d4eaa81a60a", ["exports",
 });
 
 define("RESTAPIWebsocket.model$RC_f92c9dfdeaaba0d06f3a62c3b604cf58", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "RESTAPIWebsocket.model$ST_e5081373b9c17bf97c001a46f1739ffeStructure"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f92c9dfdeaaba0d06f3a62c3b604cf58Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {

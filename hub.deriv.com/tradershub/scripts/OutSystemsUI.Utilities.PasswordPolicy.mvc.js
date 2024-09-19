@@ -545,8 +545,7 @@ define("OutSystemsUI.Utilities.PasswordPolicy.mvc$view", ["@outsystems/runtime-c
     return View;
 });
 define("OutSystemsUI.Utilities.PasswordPolicy.mvc$controller", ["@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.controller", "System_.model", "OutSystemsUI.languageResources", "OutSystemsUI.Utilities.PasswordPolicy.mvc$translationsResources", "System_.model$PasswordComplexityPolicyRec", "OutSystemsUI.referencesHealth", "OutSystemsUI.referencesHealth$System_", "System_.model$PasswordValidationResultRec"], function(OSRuntimeCore, OutSystemsUIModel, OutSystemsUIController, System_Model, OutSystemsUILanguageResources, OutSystemsUI_Utilities_PasswordPolicy_mvc_TranslationsResources) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

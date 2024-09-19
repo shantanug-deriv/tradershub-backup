@@ -343,8 +343,7 @@ define("PartnersHub.Layouts.MobileHeaderDashboard.mvc$view", ["@outsystems/runti
     return View;
 });
 define("PartnersHub.Layouts.MobileHeaderDashboard.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "OutSystemsUI.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Layouts.MobileHeaderDashboard.mvc$translationsResources", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$MenuShow", "OutSystemsUI.controller$LayoutDestroy", "OutSystemsUI.controller$SetLang", "OutSystemsUI.controller$AddFavicon", "OutSystemsUI.controller$LayoutReady"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, OutSystemsUIController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Layouts_MobileHeaderDashboard_mvc_TranslationsResources) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

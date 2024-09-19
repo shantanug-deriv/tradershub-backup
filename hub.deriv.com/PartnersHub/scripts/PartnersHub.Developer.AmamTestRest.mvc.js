@@ -355,8 +355,7 @@ define("PartnersHub.Developer.AmamTestRest.mvc$view", ["@outsystems/runtime-core
     return View;
 });
 define("PartnersHub.Developer.AmamTestRest.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Developer.AmamTestRest.mvc$translationsResources", "PartnersHub.Developer.controller", "PartnersHub.Developer.AmamTestRest.mvc$controller.ResetEndpoint.JavaScript1JS", "PartnersHub.controller$SetDefaultAppId", "PartnersHub.controller$SetServer", "RESTAPIWebsocket.model$ST_450f06937a42e6bd68832beac9fd4297Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "RESTAPIWebsocket.controller$Authorize", "PartnersHub.controller$InitGrowthbook"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Developer_AmamTestRest_mvc_TranslationsResources, PartnersHub_DeveloperController, PartnersHub_Developer_AmamTestRest_mvc_controller_ResetEndpoint_JavaScript1JS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

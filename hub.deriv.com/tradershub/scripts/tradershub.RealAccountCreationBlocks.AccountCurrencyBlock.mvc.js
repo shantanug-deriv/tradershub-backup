@@ -492,8 +492,7 @@ define("tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$view", ["@
     return View;
 });
 define("tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$controller.FilterCurrenciesFunction.JavaScript1JS", "tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$controller.RecommendedListItemOnClick.RudderStackJS", "tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$controller.OtherCurrenciesItemOnClick.RudderStackJS", "tradershub.RealAccountCreationBlocks.AccountCurrencyBlock.mvc$controller.OnReady.LandingCompanyPayloadJS", "tradershub.model$ST_8929e3c9fca60443ab65fcc0c5318922Structure", "tradershub.model$EN_bf87ce2ee46f8f5bc73889fe14426739EntityRecord", "tradershub.model$RL_7f0ff0d0a70a4e41424efbf5ef899b8d", "tradershub.controller$DerivApiSendMessage", "tradershub.model$ST_bd2236af041a218c8fde06ca0065cfd9Structure", "tradershub.controller$SendGetSetting"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationBlocks_AccountCurrencyBlock_mvc_controller_FilterCurrenciesFunction_JavaScript1JS, tradershub_RealAccountCreationBlocks_AccountCurrencyBlock_mvc_controller_RecommendedListItemOnClick_RudderStackJS, tradershub_RealAccountCreationBlocks_AccountCurrencyBlock_mvc_controller_OtherCurrenciesItemOnClick_RudderStackJS, tradershub_RealAccountCreationBlocks_AccountCurrencyBlock_mvc_controller_OnReady_LandingCompanyPayloadJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

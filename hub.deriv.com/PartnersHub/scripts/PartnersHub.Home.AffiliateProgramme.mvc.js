@@ -1,6 +1,5 @@
 define("PartnersHub.Home.AffiliateProgramme.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "OutSystemsUI.model", "PartnersHub.controller", "OutSystemsUI.Interaction.Carousel.mvc$model", "OutSystemsUI.model$ST_660adb7a9db48bff1b12c6e03515b415Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "OutSystemsUI.model$ST_7d99fd1de65649f174aff6854b052539Structure", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent", "PartnersHub.model$EN_5a50b1207c66825bfc9e9688dde972baEntityRecord", "PartnersHub.model$RC_f096f7fd8261c816438bbe7b5d4454b4", "PartnersHub.model$RL_cb813e01813ea34c8f66a8be7f90e6b0"], function(OSRuntimeCore, PartnersHubModel, OutSystemsUIModel, PartnersHubController, OutSystemsUI_Interaction_Carousel_mvcModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class GetAffiliateLinksAggrRecInner extends
         OS.Model.AggregateRecord {
             static attributesToDeclare() {
@@ -376,8 +375,7 @@ define("PartnersHub.Home.AffiliateProgramme.mvc$view", ["@outsystems/runtime-cor
     return View;
 });
 define("PartnersHub.Home.AffiliateProgramme.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Home.AffiliateProgramme.mvc$translationsResources", "PartnersHub.Home.AffiliateProgramme.mvc$controller.OnClickSeeAllVideo.JavaScript1JS", "PartnersHub.Home.AffiliateProgramme.mvc$controller.OnSlideMove.AttachClickHandlersToCarouselClonesJS", "PartnersHub.Home.AffiliateProgramme.mvc$controller.OnClickVideo.JavaScript1JS", "OutSystemsUI.model$ST_660adb7a9db48bff1b12c6e03515b415Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "OutSystemsUI.model$ST_7d99fd1de65649f174aff6854b052539Structure", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent", "PartnersHub.model$EN_5a50b1207c66825bfc9e9688dde972baEntityRecord", "PartnersHub.model$RC_f096f7fd8261c816438bbe7b5d4454b4", "PartnersHub.model$RL_cb813e01813ea34c8f66a8be7f90e6b0"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Home_AffiliateProgramme_mvc_TranslationsResources, PartnersHub_Home_AffiliateProgramme_mvc_controller_OnClickSeeAllVideo_JavaScript1JS, PartnersHub_Home_AffiliateProgramme_mvc_controller_OnSlideMove_AttachClickHandlersToCarouselClonesJS, PartnersHub_Home_AffiliateProgramme_mvc_controller_OnClickVideo_JavaScript1JS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

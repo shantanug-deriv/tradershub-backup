@@ -172,8 +172,7 @@ define("PartnersHub.Layouts.DeviceLayout.mvc$view", ["@outsystems/runtime-core-j
     return View;
 });
 define("PartnersHub.Layouts.DeviceLayout.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Layouts.DeviceLayout.mvc$translationsResources", "PartnersHub.controller$UseDevice"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Layouts_DeviceLayout_mvc_TranslationsResources) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

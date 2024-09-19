@@ -580,8 +580,7 @@ define("tradershub.Common.PasswordPolicy.mvc$view", ["@outsystems/runtime-core-j
     return View;
 });
 define("tradershub.Common.PasswordPolicy.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "System_.model", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.Common.PasswordPolicy.mvc$controller.OnParametersChanged.checkValidJS", "System_.model$PasswordValidationResultRec", "tradershub.referencesHealth", "tradershub.referencesHealth$System_", "System_.model$PasswordComplexityPolicyRec"], function(OSRuntimeCore, tradershubModel, tradershubController, System_Model, tradershubLanguageResources, tradershubClientVariables, tradershub_Common_PasswordPolicy_mvc_controller_OnParametersChanged_checkValidJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

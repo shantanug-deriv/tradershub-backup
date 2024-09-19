@@ -193,8 +193,7 @@ define("PartnersHub.RealAccountCreationFlow.StatesListScreen.mvc$view", ["@outsy
     return View;
 });
 define("PartnersHub.RealAccountCreationFlow.StatesListScreen.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.RealAccountCreationFlow.StatesListScreen.mvc$translationsResources", "PartnersHub.RealAccountCreationFlow.controller"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_RealAccountCreationFlow_StatesListScreen_mvc_TranslationsResources, PartnersHub_RealAccountCreationFlowController) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

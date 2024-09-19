@@ -198,8 +198,7 @@ define("OutSystemsUI.Adaptive.Columns2.mvc$view", ["@outsystems/runtime-core-js"
     return View;
 });
 define("OutSystemsUI.Adaptive.Columns2.mvc$controller", ["@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.controller", "OutSystemsUI.languageResources", "OutSystemsUI.Adaptive.Columns2.mvc$translationsResources"], function(OSRuntimeCore, OutSystemsUIModel, OutSystemsUIController, OutSystemsUILanguageResources, OutSystemsUI_Adaptive_Columns2_mvc_TranslationsResources) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {
