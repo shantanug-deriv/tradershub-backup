@@ -698,8 +698,7 @@ define("tradershub.ForgotAndResetPassword.ForgotPassword.mvc$view", ["@outsystem
     return View;
 });
 define("tradershub.ForgotAndResetPassword.ForgotPassword.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.ForgotAndResetPassword.controller", "tradershub.ForgotAndResetPassword.ForgotPassword.mvc$controller.SendEmailOnClick.ValidateEmailJS", "tradershub.ForgotAndResetPassword.ForgotPassword.mvc$controller.SendResetPasswordEmail.verify_email_payloadJS", "tradershub.controller$DerivApiSendMessage"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_ForgotAndResetPasswordController, tradershub_ForgotAndResetPassword_ForgotPassword_mvc_controller_SendEmailOnClick_ValidateEmailJS, tradershub_ForgotAndResetPassword_ForgotPassword_mvc_controller_SendResetPasswordEmail_verify_email_payloadJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

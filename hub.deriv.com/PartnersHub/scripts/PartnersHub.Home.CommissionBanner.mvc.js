@@ -217,8 +217,7 @@ define("PartnersHub.Home.CommissionBanner.mvc$view", ["@outsystems/runtime-core-
     return View;
 });
 define("PartnersHub.Home.CommissionBanner.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Home.CommissionBanner.mvc$translationsResources", "PartnersHub.Home.CommissionBanner.mvc$controller.OnClickLearnMore.JavaScript1JS", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Home_CommissionBanner_mvc_TranslationsResources, PartnersHub_Home_CommissionBanner_mvc_controller_OnClickLearnMore_JavaScript1JS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

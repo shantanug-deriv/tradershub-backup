@@ -180,8 +180,7 @@ define("tradershub.Layouts.LayoutBlank.mvc$view", ["@outsystems/runtime-core-js"
     return View;
 });
 define("tradershub.Layouts.LayoutBlank.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.model", "OutSystemsUI.controller", "tradershub.languageResources", "tradershub.clientVariables", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$SetLang", "OutSystemsUI.controller$AddFavicon", "OutSystemsUI.controller$LayoutReady", "OutSystemsUI.controller$LayoutDestroy"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIModel, OutSystemsUIController, tradershubLanguageResources, tradershubClientVariables) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

@@ -1095,8 +1095,7 @@ n = this, t = function() {
                     go: function(n, t, i) {
                         var r;
                         I() || -1 < (r = A(n = function(n) {
-                            var t = x;
-                            {
+                            var t = x; {
                                 var i, r;
                                 C(n) ? (r = n.match(/([+\-<>])(\d+)?/) || [], i = r[1], r = r[2], "+" === i || "-" === i ? t = O(x + +("" + i + (+r || 1)), x) : ">" === i ? t = r ? z(+r) : b(!0) : "<" === i && (t = w(!0))) : t = m ? n : q(n, 0, c)
                             }

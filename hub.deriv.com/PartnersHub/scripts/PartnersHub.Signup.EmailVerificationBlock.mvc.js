@@ -312,8 +312,7 @@ define("PartnersHub.Signup.EmailVerificationBlock.mvc$view", ["@outsystems/runti
     return View;
 });
 define("PartnersHub.Signup.EmailVerificationBlock.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Signup.EmailVerificationBlock.mvc$translationsResources", "PartnersHub.Signup.EmailVerificationBlock.mvc$controller.OnClickTimer.JavaScript1JS"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Signup_EmailVerificationBlock_mvc_TranslationsResources, PartnersHub_Signup_EmailVerificationBlock_mvc_controller_OnClickTimer_JavaScript1JS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

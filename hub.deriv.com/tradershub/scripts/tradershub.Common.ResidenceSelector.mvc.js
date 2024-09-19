@@ -436,8 +436,7 @@ define("tradershub.Common.ResidenceSelector.mvc$view", ["@outsystems/runtime-cor
     return View;
 });
 define("tradershub.Common.ResidenceSelector.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.Common.ResidenceSelector.mvc$controller.OnReady.JavaScript1JS", "tradershub.Common.ResidenceSelector.mvc$controller.OnSearch.SearchCountryJS", "tradershub.model$ST_1eac13b44db3d2db577291973f4a7e96Structure", "tradershub.model$RL_10436c71a703b5c08e6ed74c34052e0a", "tradershub.model$ST_1a4f07e6c8d6ea2e2ddfeb34b9b7a3c8Structure", "tradershub.model$ST_3d5602677826d8c01775c21c1065c8ceStructure"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_Common_ResidenceSelector_mvc_controller_OnReady_JavaScript1JS, tradershub_Common_ResidenceSelector_mvc_controller_OnSearch_SearchCountryJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

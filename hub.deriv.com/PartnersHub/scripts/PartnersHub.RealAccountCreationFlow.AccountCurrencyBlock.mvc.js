@@ -499,8 +499,7 @@ define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$view", ["@o
     return View;
 });
 define("PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$translationsResources", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller.FilterCurrenciesFunction.JavaScript1JS", "PartnersHub.RealAccountCreationFlow.AccountCurrencyBlock.mvc$controller.OnReady.GetTokenJS", "RESTAPIWebsocket.model$ST_55477c48be760e041c4dbfa365f63009Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "PartnersHub.model$EN_8476f8009941f077eecf6fb67b7e9001EntityRecord", "PartnersHub.model$RL_f11f2783845d109e2716e7158d803ceb", "RESTAPIWebsocket.model$ST_2aa6b158772e078b381113da0ab825f8Structure", "RESTAPIWebsocket.controller$LandingCompany", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "RESTAPIWebsocket.controller$GetSettings"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_TranslationsResources, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_controller_FilterCurrenciesFunction_JavaScript1JS, PartnersHub_RealAccountCreationFlow_AccountCurrencyBlock_mvc_controller_OnReady_GetTokenJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

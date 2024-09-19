@@ -332,8 +332,7 @@ define("PartnersHub.ForgotPassword.VerificationEmailSent.mvc$view", ["@outsystem
     return View;
 });
 define("PartnersHub.ForgotPassword.VerificationEmailSent.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.ForgotPassword.VerificationEmailSent.mvc$translationsResources", "PartnersHub.ForgotPassword.controller", "PartnersHub.controller$MountDerivAPIClient", "PartnersHub.controller$UseDevice", "PartnersHub.model$ST_8ae1180ce44995afc567de3f72e5c712Structure", "PartnersHub.controller$SendVerifyEmail"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_ForgotPassword_VerificationEmailSent_mvc_TranslationsResources, PartnersHub_ForgotPasswordController) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

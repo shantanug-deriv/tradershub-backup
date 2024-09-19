@@ -1,6 +1,5 @@
 define("tradershub.RealAccountCreationBlocks.EmploymentDetailsMobileBlock.mvc$model", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.model$RC_36f2cdc7fc2c30db68dab6767886090d", "tradershub.model$RL_d05ad81e70a826256d161d2b9afc0f03"], function(OSRuntimeCore, tradershubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class GetEmploymentStatusesAggrRecInner extends
         OS.Model.AggregateRecord {
             static attributesToDeclare() {
@@ -357,8 +356,7 @@ define("tradershub.RealAccountCreationBlocks.EmploymentDetailsMobileBlock.mvc$vi
     return View;
 });
 define("tradershub.RealAccountCreationBlocks.EmploymentDetailsMobileBlock.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.model$RC_36f2cdc7fc2c30db68dab6767886090d", "tradershub.model$RL_d05ad81e70a826256d161d2b9afc0f03"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

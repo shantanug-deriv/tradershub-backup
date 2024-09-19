@@ -358,8 +358,7 @@ define("OutSystemsUI.Interaction.Carousel.mvc$view", ["@outsystems/runtime-core-
     return View;
 });
 define("OutSystemsUI.Interaction.Carousel.mvc$controller", ["@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.controller", "OutSystemsUI.languageResources", "OutSystemsUI.Interaction.Carousel.mvc$translationsResources", "OutSystemsUI.Interaction.Carousel.mvc$controller.RegisterCallbacks.GetCallbackHandlersJS", "OutSystemsUI.model$ST_736a0a0e931f1e6cffc1de4b3ad94539Structure", "OutSystemsUI.model$ST_660adb7a9db48bff1b12c6e03515b415Structure", "OutSystemsUI.model$ST_7d99fd1de65649f174aff6854b052539Structure", "OutSystemsUI.controller$CarouselDestroy", "OutSystemsUI.controller$CarouselChangeTextProperty", "OutSystemsUI.controller$CarouselChangeBooleanProperty", "OutSystemsUI.controller$CarouselChangeIntegerProp", "OutSystemsUI.controller$LogEvent", "OutSystemsUI.controller$CarouselInitialize", "OutSystemsUI.controller$GenerateUniqueId", "OutSystemsUI.controller$CarouselCreate", "OutSystemsUI.controller$CarouselRegisterCallback", "OutSystemsUI.controller$CarouselUpdateOnRender"], function(OSRuntimeCore, OutSystemsUIModel, OutSystemsUIController, OutSystemsUILanguageResources, OutSystemsUI_Interaction_Carousel_mvc_TranslationsResources, OutSystemsUI_Interaction_Carousel_mvc_controller_RegisterCallbacks_GetCallbackHandlersJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

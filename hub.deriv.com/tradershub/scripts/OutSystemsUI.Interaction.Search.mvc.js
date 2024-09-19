@@ -157,8 +157,7 @@ define("OutSystemsUI.Interaction.Search.mvc$view", ["@outsystems/runtime-core-js
     return View;
 });
 define("OutSystemsUI.Interaction.Search.mvc$controller", ["@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.controller", "OutSystemsUI.languageResources", "OutSystemsUI.Interaction.Search.mvc$translationsResources", "OutSystemsUI.Interaction.Search.mvc$controller.RegisterCallback.GetCallbackHandlersJS", "OutSystemsUI.model$ST_8ccec918bf91fdb79e42a7e1e178b4beStructure", "OutSystemsUI.controller$GenerateUniqueId", "OutSystemsUI.controller$LogEvent", "OutSystemsUI.controller$SearchCreate", "OutSystemsUI.controller$SearchInitialize", "OutSystemsUI.controller$SearchRegisterCallback", "OutSystemsUI.controller$SearchChangeTextProperty", "OutSystemsUI.controller$SearchDestroy"], function(OSRuntimeCore, OutSystemsUIModel, OutSystemsUIController, OutSystemsUILanguageResources, OutSystemsUI_Interaction_Search_mvc_TranslationsResources, OutSystemsUI_Interaction_Search_mvc_controller_RegisterCallback_GetCallbackHandlersJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

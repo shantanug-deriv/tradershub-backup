@@ -233,8 +233,7 @@ define("OutSystemsUI.Content.Tooltip.mvc$view", ["@outsystems/runtime-core-js", 
     return View;
 });
 define("OutSystemsUI.Content.Tooltip.mvc$controller", ["@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.controller", "OutSystemsUI.languageResources", "OutSystemsUI.Content.Tooltip.mvc$translationsResources", "OutSystemsUI.Content.Tooltip.mvc$controller.RegisterCallbacks.GetCallbackHandlersJS", "OutSystemsUI.model$ST_9cac82fc47e32e1503b2dbc00140aa98Structure", "OutSystemsUI.controller$TooltipRegisterCallback", "OutSystemsUI.controller$TooltipInitialize", "OutSystemsUI.controller$LogEvent", "OutSystemsUI.controller$TooltipChangeTextProperty", "OutSystemsUI.controller$TooltipChangeBooleanProperty", "OutSystemsUI.controller$IsPhone", "OutSystemsUI.controller$TooltipDestroy", "OutSystemsUI.controller$TooltipCreate", "OutSystemsUI.controller$GenerateUniqueId"], function(OSRuntimeCore, OutSystemsUIModel, OutSystemsUIController, OutSystemsUILanguageResources, OutSystemsUI_Content_Tooltip_mvc_TranslationsResources, OutSystemsUI_Content_Tooltip_mvc_controller_RegisterCallbacks_GetCallbackHandlersJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

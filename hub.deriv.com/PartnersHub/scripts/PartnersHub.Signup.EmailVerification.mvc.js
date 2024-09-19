@@ -296,8 +296,7 @@ define("PartnersHub.Signup.EmailVerification.mvc$view", ["@outsystems/runtime-co
     return View;
 });
 define("PartnersHub.Signup.EmailVerification.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Signup.EmailVerification.mvc$translationsResources", "PartnersHub.Signup.controller", "PartnersHub.controller$MountDerivAPIClient"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Signup_EmailVerification_mvc_TranslationsResources, PartnersHub_SignupController) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

@@ -305,8 +305,7 @@ define("PartnersHub.Common.AlertBlock.mvc$view", ["@outsystems/runtime-core-js",
     return View;
 });
 define("PartnersHub.Common.AlertBlock.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Common.AlertBlock.mvc$translationsResources", "PartnersHub.model$ST_6e5c732e48bd98c4d439ed63bb1fb9c4Structure"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Common_AlertBlock_mvc_TranslationsResources) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

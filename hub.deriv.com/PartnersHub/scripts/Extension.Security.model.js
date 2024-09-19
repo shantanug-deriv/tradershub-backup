@@ -1,6 +1,5 @@
 define("Extension.Security.model$CustomClaimRec", ["exports", "@outsystems/runtime-core-js", "Extension.Security.model"], function(exports, OSRuntimeCore, Extension_SecurityModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class CustomClaimRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -38,8 +37,7 @@ define("Extension.Security.model$RLCustomClaimList", ["exports", "@outsystems/ru
 });
 
 define("Extension.Security.model$RCCustomClaimRecord", ["exports", "@outsystems/runtime-core-js", "Extension.Security.model", "Extension.Security.model$CustomClaimRec"], function(exports, OSRuntimeCore, Extension_SecurityModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RCCustomClaimRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -82,8 +80,7 @@ define("Extension.Security.model$RLCustomClaimRecordList", ["exports", "@outsyst
 });
 
 define("Extension.Security.model$TokenPayloadRec", ["exports", "@outsystems/runtime-core-js", "Extension.Security.model", "Extension.Security.model$RCCustomClaimRecord", "Extension.Security.model$RLCustomClaimRecordList"], function(exports, OSRuntimeCore, Extension_SecurityModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class TokenPayloadRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -125,8 +122,7 @@ define("Extension.Security.model$TokenPayloadRec", ["exports", "@outsystems/runt
 });
 
 define("Extension.Security.model$RCTokenPayloadRecord", ["exports", "@outsystems/runtime-core-js", "Extension.Security.model", "Extension.Security.model$TokenPayloadRec"], function(exports, OSRuntimeCore, Extension_SecurityModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RCTokenPayloadRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -155,8 +151,7 @@ define("Extension.Security.model$RCTokenPayloadRecord", ["exports", "@outsystems
 });
 
 define("Extension.Security.model$ValidationParametersRec", ["exports", "@outsystems/runtime-core-js", "Extension.Security.model"], function(exports, OSRuntimeCore, Extension_SecurityModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ValidationParametersRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -192,8 +187,7 @@ define("Extension.Security.model$ValidationParametersRec", ["exports", "@outsyst
 });
 
 define("Extension.Security.model$RCValidationParametersRecord", ["exports", "@outsystems/runtime-core-js", "Extension.Security.model", "Extension.Security.model$ValidationParametersRec"], function(exports, OSRuntimeCore, Extension_SecurityModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RCValidationParametersRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {

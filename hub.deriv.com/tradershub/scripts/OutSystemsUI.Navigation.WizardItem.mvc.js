@@ -237,8 +237,7 @@ define("OutSystemsUI.Navigation.WizardItem.mvc$view", ["@outsystems/runtime-core
     return View;
 });
 define("OutSystemsUI.Navigation.WizardItem.mvc$controller", ["@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.controller", "OutSystemsUI.languageResources", "OutSystemsUI.Navigation.WizardItem.mvc$translationsResources", "OutSystemsUI.Navigation.WizardItem.mvc$controller.OnReady.SetAriaLabelJS", "OutSystemsUI.Navigation.WizardItem.mvc$controller.WizardItemOnKeypress.OnKeyPress_CheckEnterJS"], function(OSRuntimeCore, OutSystemsUIModel, OutSystemsUIController, OutSystemsUILanguageResources, OutSystemsUI_Navigation_WizardItem_mvc_TranslationsResources, OutSystemsUI_Navigation_WizardItem_mvc_controller_OnReady_SetAriaLabelJS, OutSystemsUI_Navigation_WizardItem_mvc_controller_WizardItemOnKeypress_OnKeyPress_CheckEnterJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

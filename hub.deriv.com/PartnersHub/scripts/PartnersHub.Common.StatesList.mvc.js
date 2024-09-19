@@ -368,8 +368,7 @@ define("PartnersHub.Common.StatesList.mvc$view", ["@outsystems/runtime-core-js",
     return View;
 });
 define("PartnersHub.Common.StatesList.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Common.StatesList.mvc$translationsResources", "PartnersHub.Common.StatesList.mvc$controller.OnSearch.JavaScript1JS", "PartnersHub.Common.StatesList.mvc$controller.OnReady.GetAuthTokenJS", "PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.model$ST_8401e8b399f219fdd97b12284d97703eStructure", "PartnersHub.controller$SendStatesList", "PartnersHub.controller$MountDerivAPIClient"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Common_StatesList_mvc_TranslationsResources, PartnersHub_Common_StatesList_mvc_controller_OnSearch_JavaScript1JS, PartnersHub_Common_StatesList_mvc_controller_OnReady_GetAuthTokenJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

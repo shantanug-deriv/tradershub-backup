@@ -1,6 +1,5 @@
 define("CustomComponents.model$RC_4d77cfdd567b208680377834fc8205a2", ["exports", "@outsystems/runtime-core-js", "System_.model", "CustomComponents.model", "System_.model$PasswordComplexityPolicyRec", "CustomComponents.referencesHealth", "CustomComponents.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, CustomComponentsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4d77cfdd567b208680377834fc8205a2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -43,8 +42,7 @@ define("CustomComponents.model$RL_919d8bc896529858c8cc8f0f3e5cb019", ["exports",
 });
 
 define("CustomComponents.model$RC_b27f0b968b0f7cea61506ac9d6ee7c27", ["exports", "@outsystems/runtime-core-js", "System_.model", "CustomComponents.model", "System_.model$PasswordValidationResultRec", "CustomComponents.referencesHealth", "CustomComponents.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, CustomComponentsModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b27f0b968b0f7cea61506ac9d6ee7c27Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {

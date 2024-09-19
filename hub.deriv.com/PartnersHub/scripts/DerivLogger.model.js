@@ -1,6 +1,5 @@
 define("DerivLogger.model$EN_aff9922b432a86fca9eedb69e5493ac3EntityRecord", ["exports", "@outsystems/runtime-core-js", "DerivLogger.model"], function(exports, OSRuntimeCore, DerivLoggerModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_aff9922b432a86fca9eedb69e5493ac3EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -44,8 +43,7 @@ define("DerivLogger.model$RL_389fedb389f062cabae44513c3a5330f", ["exports", "@ou
 });
 
 define("DerivLogger.model$RC_f045d5e7dbbffce86c51999e90634954", ["exports", "@outsystems/runtime-core-js", "DerivLogger.model", "DerivLogger.model$EN_aff9922b432a86fca9eedb69e5493ac3EntityRecord"], function(exports, OSRuntimeCore, DerivLoggerModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f045d5e7dbbffce86c51999e90634954Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {

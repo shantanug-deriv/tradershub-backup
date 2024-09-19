@@ -1,6 +1,5 @@
 define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsBlock.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.controller$NextStepReal", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.controller$UseDevice", "PartnersHub.model$RC_4535b2a68fa04382d8868d60004b6438", "PartnersHub.model$RL_117c7b7da327962152f7a4113c25ca3f"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class GetEmploymentStatusesAggrRecInner extends
         OS.Model.AggregateRecord {
             static attributesToDeclare() {
@@ -512,8 +511,7 @@ define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsBlock.mvc$view", ["
     return View;
 });
 define("PartnersHub.RealAccountCreationFlow.EmploymentDetailsBlock.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.RealAccountCreationFlow.EmploymentDetailsBlock.mvc$translationsResources", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "PartnersHub.controller$NextStepReal", "PartnersHub.controller$RealSignupNextStep", "PartnersHub.controller$UseDevice", "PartnersHub.model$RC_4535b2a68fa04382d8868d60004b6438", "PartnersHub.model$RL_117c7b7da327962152f7a4113c25ca3f"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_RealAccountCreationFlow_EmploymentDetailsBlock_mvc_TranslationsResources) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

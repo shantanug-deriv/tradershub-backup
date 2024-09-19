@@ -13,8 +13,7 @@ define("PartnersHub.model$BasicTypeList<Text>", ["exports", "@outsystems/runtime
 });
 
 define("PartnersHub.model$RC_3183b1f3faf6969c32d1f8eb3c0f8d02", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_41688d261db663d4544900081e65767bStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3183b1f3faf6969c32d1f8eb3c0f8d02Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -57,8 +56,7 @@ define("PartnersHub.model$RL_004e51f9bad0ff9671e9f54d029f6acd", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_ce3665169ee165087a4fa593347f539dStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ce3665169ee165087a4fa593347f539dStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -82,8 +80,7 @@ define("PartnersHub.model$ST_ce3665169ee165087a4fa593347f539dStructure", ["expor
 });
 
 define("PartnersHub.model$ST_0a849d490938e0e6be2b66ff11091523Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_ce3665169ee165087a4fa593347f539dStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_0a849d490938e0e6be2b66ff11091523StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -121,8 +118,7 @@ define("PartnersHub.model$RL_008b350b8469d88f8d9de8d4f0175b3c", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_009f057acdc45a698d784f1d33cd022c", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_6e1c5ab117f6599aeb50c68a9a2fa65aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_009f057acdc45a698d784f1d33cd022cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -165,8 +161,7 @@ define("PartnersHub.model$BasicTypeList<LongInteger>", ["exports", "@outsystems/
 });
 
 define("PartnersHub.model$ST_4087e2614b3e169a49eb4d5e4388f847Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_4087e2614b3e169a49eb4d5e4388f847StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -207,8 +202,7 @@ define("PartnersHub.model$RL_00cdc15bf4b56ecced31398a6b36a9ce", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_c2546146ca44bb59a2a2de5acfe0b484Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_c2546146ca44bb59a2a2de5acfe0b484StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -232,8 +226,7 @@ define("PartnersHub.model$ST_c2546146ca44bb59a2a2de5acfe0b484Structure", ["expor
 });
 
 define("PartnersHub.model$RC_7ff1313a5ad2d5f992c5208ece4f2c29", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_c2546146ca44bb59a2a2de5acfe0b484Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7ff1313a5ad2d5f992c5208ece4f2c29Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -276,8 +269,7 @@ define("PartnersHub.model$RL_00dbabde250f433c717b63003f893b2f", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_24f25c56883af3fb98f750bd4c11bbdcStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_24f25c56883af3fb98f750bd4c11bbdcStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -304,8 +296,7 @@ define("PartnersHub.model$ST_24f25c56883af3fb98f750bd4c11bbdcStructure", ["expor
 });
 
 define("PartnersHub.model$RC_00f5a4717da5984b840092143f716896", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_24f25c56883af3fb98f750bd4c11bbdcStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_00f5a4717da5984b840092143f716896Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -334,8 +325,7 @@ define("PartnersHub.model$RC_00f5a4717da5984b840092143f716896", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_012b2720fb0dcd442416908af4498cef", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_333caa433a680d581b2dfdf80dcbab60Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_012b2720fb0dcd442416908af4498cefInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -364,8 +354,7 @@ define("PartnersHub.model$RC_012b2720fb0dcd442416908af4498cef", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_01d741f79542148df9ffe6146152c5f0Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_01d741f79542148df9ffe6146152c5f0StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -392,8 +381,7 @@ define("PartnersHub.model$ST_01d741f79542148df9ffe6146152c5f0Structure", ["expor
 });
 
 define("PartnersHub.model$RC_0204bb6c63da4390a2e7b2aad750f108", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_01d741f79542148df9ffe6146152c5f0Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0204bb6c63da4390a2e7b2aad750f108Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -422,8 +410,7 @@ define("PartnersHub.model$RC_0204bb6c63da4390a2e7b2aad750f108", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_9589ecc0629788c2aca6b47bcbae782c", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_bc915b2fa9297a72fb4d1b227ebe2573EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9589ecc0629788c2aca6b47bcbae782cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -494,8 +481,7 @@ define("PartnersHub.model$RL_0253348eb22ed9882ec1d8af3ef0b76e", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_7e91f0d7966642cf0627c6392e43ce45EntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_7e91f0d7966642cf0627c6392e43ce45EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -564,8 +550,7 @@ define("PartnersHub.model$RL_02995be0d4089fecb83f5ff06bf3de7f", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e16346b05b03d5a8388d39bb24b7660c", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_55477c48be760e041c4dbfa365f63009Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e16346b05b03d5a8388d39bb24b7660cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -608,8 +593,7 @@ define("PartnersHub.model$RL_02c7187c7ba98cee9be98803b8e6dc25", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_fb5d22b1003cff234a588ab54b5367f0", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_6b2a66e5a0a888e952c1a6f0d254d48aEntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_fb5d22b1003cff234a588ab54b5367f0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -652,8 +636,7 @@ define("PartnersHub.model$RL_02cff45c25b99caaf51dba44a0e0b754", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_c662afc4a55685596fd9199a04b718f1Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_c662afc4a55685596fd9199a04b718f1StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -677,8 +660,7 @@ define("PartnersHub.model$ST_c662afc4a55685596fd9199a04b718f1Structure", ["expor
 });
 
 define("PartnersHub.model$ST_9f22b560a90438747cb673cbedddc4d7Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_c662afc4a55685596fd9199a04b718f1Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_9f22b560a90438747cb673cbedddc4d7StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -708,8 +690,7 @@ define("PartnersHub.model$ST_9f22b560a90438747cb673cbedddc4d7Structure", ["expor
 });
 
 define("PartnersHub.model$ST_e79f2a411ab40cb74322f1790f687b01Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_9f22b560a90438747cb673cbedddc4d7Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e79f2a411ab40cb74322f1790f687b01StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -753,8 +734,7 @@ define("PartnersHub.model$RL_02dfc236270d2126915e5a0b08f02757", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_f5490f87f20f20000a36a875dced4a8f", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_50afbe86b1f98695d7a2eacc451587a7Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f5490f87f20f20000a36a875dced4a8fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -797,8 +777,7 @@ define("PartnersHub.model$RL_02fe2e113b5eb9c675da8b940dcff7a8", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_cef11b56e6da93b85f992e1455ba4717Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_cef11b56e6da93b85f992e1455ba4717StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -825,8 +804,7 @@ define("PartnersHub.model$ST_cef11b56e6da93b85f992e1455ba4717Structure", ["expor
 });
 
 define("PartnersHub.model$ST_e422048bbd3aba1526832ee4606bb980Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e422048bbd3aba1526832ee4606bb980StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -853,8 +831,7 @@ define("PartnersHub.model$ST_e422048bbd3aba1526832ee4606bb980Structure", ["expor
 });
 
 define("PartnersHub.model$ST_141ef15563438703b2e42d78c6c7aefeStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_c2546146ca44bb59a2a2de5acfe0b484Structure", "PartnersHub.model$ST_e422048bbd3aba1526832ee4606bb980Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_141ef15563438703b2e42d78c6c7aefeStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -884,8 +861,7 @@ define("PartnersHub.model$ST_141ef15563438703b2e42d78c6c7aefeStructure", ["expor
 });
 
 define("PartnersHub.model$ST_2a14839a43e1fca3e50600e797d0e612Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_2a14839a43e1fca3e50600e797d0e612StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -939,8 +915,7 @@ define("PartnersHub.model$ST_2a14839a43e1fca3e50600e797d0e612Structure", ["expor
 });
 
 define("PartnersHub.model$ST_8b8a7d131f11e4011391f72ed3597a0eStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_8b8a7d131f11e4011391f72ed3597a0eStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -964,8 +939,7 @@ define("PartnersHub.model$ST_8b8a7d131f11e4011391f72ed3597a0eStructure", ["expor
 });
 
 define("PartnersHub.model$ST_b81b243ca5642018a62b9438e213af08Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_2a14839a43e1fca3e50600e797d0e612Structure", "PartnersHub.model$ST_8b8a7d131f11e4011391f72ed3597a0eStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b81b243ca5642018a62b9438e213af08StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1001,8 +975,7 @@ define("PartnersHub.model$ST_b81b243ca5642018a62b9438e213af08Structure", ["expor
 });
 
 define("PartnersHub.model$ST_2b2fc63a2c5dd19a88c97ed75635ef82Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_b81b243ca5642018a62b9438e213af08Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_2b2fc63a2c5dd19a88c97ed75635ef82StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1044,8 +1017,7 @@ define("PartnersHub.model$ST_2b2fc63a2c5dd19a88c97ed75635ef82Structure", ["expor
 });
 
 define("PartnersHub.model$ST_e9aa881415a78b4026eaae8ff05abb61Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_b81b243ca5642018a62b9438e213af08Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e9aa881415a78b4026eaae8ff05abb61StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1087,8 +1059,7 @@ define("PartnersHub.model$ST_e9aa881415a78b4026eaae8ff05abb61Structure", ["expor
 });
 
 define("PartnersHub.model$ST_f85e728670d653d5fa01ee2557e6e730Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_2b2fc63a2c5dd19a88c97ed75635ef82Structure", "PartnersHub.model$ST_e9aa881415a78b4026eaae8ff05abb61Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_f85e728670d653d5fa01ee2557e6e730StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1142,8 +1113,7 @@ define("PartnersHub.model$ST_f85e728670d653d5fa01ee2557e6e730Structure", ["expor
 });
 
 define("PartnersHub.model$ST_f20c843fba72b4c6aef8e435f175a9e5Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_f20c843fba72b4c6aef8e435f175a9e5StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1170,8 +1140,7 @@ define("PartnersHub.model$ST_f20c843fba72b4c6aef8e435f175a9e5Structure", ["expor
 });
 
 define("PartnersHub.model$ST_46f1b4e2ecb4e84910e0b09c3d82ea15Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_46f1b4e2ecb4e84910e0b09c3d82ea15StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1218,8 +1187,7 @@ define("PartnersHub.model$RL_d4fccd3e80d193e265d34ff56d4a302a", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_66479ac0d3a37fcf31e7645e323ef0e1Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_46f1b4e2ecb4e84910e0b09c3d82ea15Structure", "PartnersHub.model$RL_d4fccd3e80d193e265d34ff56d4a302a"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_66479ac0d3a37fcf31e7645e323ef0e1StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1243,8 +1211,7 @@ define("PartnersHub.model$ST_66479ac0d3a37fcf31e7645e323ef0e1Structure", ["expor
 });
 
 define("PartnersHub.model$ST_9b7c28a3650c4dbadc24c2da4c77a3f5Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_9b7c28a3650c4dbadc24c2da4c77a3f5StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1295,8 +1262,7 @@ define("PartnersHub.model$ST_9b7c28a3650c4dbadc24c2da4c77a3f5Structure", ["expor
 });
 
 define("PartnersHub.model$ST_c7bba0c276d724a640fd9ae5d39aa04eStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_9b7c28a3650c4dbadc24c2da4c77a3f5Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_c7bba0c276d724a640fd9ae5d39aa04eStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1323,8 +1289,7 @@ define("PartnersHub.model$ST_c7bba0c276d724a640fd9ae5d39aa04eStructure", ["expor
 });
 
 define("PartnersHub.model$ST_4fc107f3f00705667fa092c970065f35Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_141ef15563438703b2e42d78c6c7aefeStructure", "PartnersHub.model$ST_f85e728670d653d5fa01ee2557e6e730Structure", "PartnersHub.model$ST_f20c843fba72b4c6aef8e435f175a9e5Structure", "PartnersHub.model$ST_66479ac0d3a37fcf31e7645e323ef0e1Structure", "PartnersHub.model$ST_c7bba0c276d724a640fd9ae5d39aa04eStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_4fc107f3f00705667fa092c970065f35StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1372,8 +1337,7 @@ define("PartnersHub.model$ST_4fc107f3f00705667fa092c970065f35Structure", ["expor
 });
 
 define("PartnersHub.model$ST_e61d85f6aadd57329cc664ba1d0e64c1Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_cef11b56e6da93b85f992e1455ba4717Structure", "PartnersHub.model$ST_4fc107f3f00705667fa092c970065f35Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e61d85f6aadd57329cc664ba1d0e64c1StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1400,8 +1364,7 @@ define("PartnersHub.model$ST_e61d85f6aadd57329cc664ba1d0e64c1Structure", ["expor
 });
 
 define("PartnersHub.model$RC_0319dc7abb74e4286ec0cb2872f5908a", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_e61d85f6aadd57329cc664ba1d0e64c1Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0319dc7abb74e4286ec0cb2872f5908aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1430,8 +1393,7 @@ define("PartnersHub.model$RC_0319dc7abb74e4286ec0cb2872f5908a", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_1b66e77b43cfa957e304643e93df7a64Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_1b66e77b43cfa957e304643e93df7a64StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1458,8 +1420,7 @@ define("PartnersHub.model$ST_1b66e77b43cfa957e304643e93df7a64Structure", ["expor
 });
 
 define("PartnersHub.model$RC_6f00f3b77edc31dc709df5f75d5609b5", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_1b66e77b43cfa957e304643e93df7a64Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6f00f3b77edc31dc709df5f75d5609b5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1502,8 +1463,7 @@ define("PartnersHub.model$RL_0342c3044f74459cfc95e18bd327b8f0", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_03619642a06de09478f0b8f506c364eb", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_75c9c074bd528ecee8df4d2a3299b5a1EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_03619642a06de09478f0b8f506c364ebInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1546,8 +1506,7 @@ define("PartnersHub.model$RL_03ad86d8c1630b012ffc7d14eb428cff", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_eda668e7f210db3d136460db1684b63bStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_eda668e7f210db3d136460db1684b63bStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1571,8 +1530,7 @@ define("PartnersHub.model$ST_eda668e7f210db3d136460db1684b63bStructure", ["expor
 });
 
 define("PartnersHub.model$ST_6d2f2a84ec0b7321167e27d19b6d33f8Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_eda668e7f210db3d136460db1684b63bStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_6d2f2a84ec0b7321167e27d19b6d33f8StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1599,8 +1557,7 @@ define("PartnersHub.model$ST_6d2f2a84ec0b7321167e27d19b6d33f8Structure", ["expor
 });
 
 define("PartnersHub.model$ST_537325baeed781544ed9f203cd7f9384Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_eda668e7f210db3d136460db1684b63bStructure", "PartnersHub.model$ST_6d2f2a84ec0b7321167e27d19b6d33f8Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_537325baeed781544ed9f203cd7f9384StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1654,8 +1611,7 @@ define("PartnersHub.model$ST_537325baeed781544ed9f203cd7f9384Structure", ["expor
 });
 
 define("PartnersHub.model$ST_8c2ccdb8651c27e0fadf6d9395795b9fStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_537325baeed781544ed9f203cd7f9384Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_8c2ccdb8651c27e0fadf6d9395795b9fStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1707,8 +1663,7 @@ define("PartnersHub.model$RL_04d46e2886f2b55aae00a9596448295c", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e70e907746052ce92e691c25e5a4ffd3", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_746d074ddcc08e0df3b269ffb1933d5aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e70e907746052ce92e691c25e5a4ffd3Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1751,8 +1706,7 @@ define("PartnersHub.model$RL_05831c3634322d723355d086c3117149", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_05cf75e61d985a2144c0c1483a839445", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_4087e2614b3e169a49eb4d5e4388f847Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_05cf75e61d985a2144c0c1483a839445Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1795,8 +1749,7 @@ define("PartnersHub.model$RL_071a5687136a6dbeecb0a0d193c188a2", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_0a5ac3085c044e0c9df151a275033fc0", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_63a473e932ef99f5271718b62399e682Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0a5ac3085c044e0c9df151a275033fc0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1839,8 +1792,7 @@ define("PartnersHub.model$RL_06044e18a6adcb4a057162249eab9621", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_4d1bc898bacd43263e8d01ffe2f5fae1EntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_4d1bc898bacd43263e8d01ffe2f5fae1EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1867,8 +1819,7 @@ define("PartnersHub.model$EN_4d1bc898bacd43263e8d01ffe2f5fae1EntityRecord", ["ex
 });
 
 define("PartnersHub.model$RC_85c55ea8b74356abfaef898536eb52ee", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_4d1bc898bacd43263e8d01ffe2f5fae1EntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_85c55ea8b74356abfaef898536eb52eeInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1911,8 +1862,7 @@ define("PartnersHub.model$RL_0626089332b5e453c3aa7ee2cc5c8fe2", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_6e5c732e48bd98c4d439ed63bb1fb9c4Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_6e5c732e48bd98c4d439ed63bb1fb9c4StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1939,8 +1889,7 @@ define("PartnersHub.model$ST_6e5c732e48bd98c4d439ed63bb1fb9c4Structure", ["expor
 });
 
 define("PartnersHub.model$RC_064778ddc81644ddcf1406b573b875a4", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_6e5c732e48bd98c4d439ed63bb1fb9c4Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_064778ddc81644ddcf1406b573b875a4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -1983,8 +1932,7 @@ define("PartnersHub.model$RL_06622fbce6cdd9c0cef8e5e1e42d7483", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_7501a1e5933671743a2bbef56326a047", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_b5282edb36283adb40969ef7004c3e79Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7501a1e5933671743a2bbef56326a047Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2027,8 +1975,7 @@ define("PartnersHub.model$RL_06ad8081ecdd4854820e95cbc9df15a8", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_08d13aa30e14041e8a414b5d62b51845", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_4e063a3cef8e9e085284fb57c1326006Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_08d13aa30e14041e8a414b5d62b51845Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2071,8 +2018,7 @@ define("PartnersHub.model$RL_0706637a7e12b34ea54e4ad5e3fa7774", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_070998dc6b3dc951b52d8108550fe380", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_50814454e481dd1773c2250bc248da5eEntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_070998dc6b3dc951b52d8108550fe380Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2101,8 +2047,7 @@ define("PartnersHub.model$RC_070998dc6b3dc951b52d8108550fe380", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_210f541f43ec6384ba59bfd8fe4b8837", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_1b42e9a925bffd384f525d6adac8fe8eEntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_210f541f43ec6384ba59bfd8fe4b8837Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2145,8 +2090,7 @@ define("PartnersHub.model$RL_073741b4a94a52714ff12683c5a2ca93", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_b04713a56316d52deeb5eab31f0fde62Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b04713a56316d52deeb5eab31f0fde62StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2176,8 +2120,7 @@ define("PartnersHub.model$ST_b04713a56316d52deeb5eab31f0fde62Structure", ["expor
 });
 
 define("PartnersHub.model$RC_87906c34db1162e575acd2eb3da72825", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_b04713a56316d52deeb5eab31f0fde62Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_87906c34db1162e575acd2eb3da72825Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2248,8 +2191,7 @@ define("PartnersHub.model$RL_08493c76d04a33db201691368d61ec98", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_0851aaf31b0e92891278c4a514aa29cdStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_0851aaf31b0e92891278c4a514aa29cdStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2290,8 +2232,7 @@ define("PartnersHub.model$RL_085f95fe6d8c0993316da931c0bd457a", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_b654e7cd3dd9ac2b1fbdd9af9d59a56a", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_ec58aaccd7b190d47a2dd7159fa0d866Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b654e7cd3dd9ac2b1fbdd9af9d59a56aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2348,8 +2289,7 @@ define("PartnersHub.model$RL_593060ea0fb9fd453ef904bd5780284a", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_091244483290da7633fe64666de188c0", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_c864353821feed79663806f3e445d40eStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_091244483290da7633fe64666de188c0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2392,8 +2332,7 @@ define("PartnersHub.model$RL_098222569d614b59c720a7d15f2e16c6", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_8e2ccc4cb2bbc580c7d8c36277a3970f", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_349094d98d9594831ba9e5194411246fStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8e2ccc4cb2bbc580c7d8c36277a3970fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2450,8 +2389,7 @@ define("PartnersHub.model$RL_7674e0699bf7786228f1b11887afe770", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_0a89eeb60fa1f44b6316ca69b462007b", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_d11562be18a7e40ca777aa336c946163EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0a89eeb60fa1f44b6316ca69b462007bInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2494,8 +2432,7 @@ define("PartnersHub.model$RL_0aa9e930032976c41db5078db1705487", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_0af1f162a4f117f1f3e8ae4dce5af0db", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_cea376e9e95ae6d491d188174483cdceStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0af1f162a4f117f1f3e8ae4dce5af0dbInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2524,8 +2461,7 @@ define("PartnersHub.model$RC_0af1f162a4f117f1f3e8ae4dce5af0db", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_177ce791066fe3e52ef3d9c99be27198", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_1e4e8e93f82bd7d0c82446a55ed8dee2Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_177ce791066fe3e52ef3d9c99be27198Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2568,8 +2504,7 @@ define("PartnersHub.model$RL_0b481988946c6f5bbb65b67a84007644", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_c98d478d92307b8784bb1e90423f775bStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_c98d478d92307b8784bb1e90423f775bStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2593,8 +2528,7 @@ define("PartnersHub.model$ST_c98d478d92307b8784bb1e90423f775bStructure", ["expor
 });
 
 define("PartnersHub.model$ST_b539dd26c0de381503da71ca2655394fStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_eda668e7f210db3d136460db1684b63bStructure", "PartnersHub.model$ST_6d2f2a84ec0b7321167e27d19b6d33f8Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b539dd26c0de381503da71ca2655394fStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2662,8 +2596,7 @@ define("PartnersHub.model$RL_72539fe43229e47c6f0bb03bc660d8fe", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_0c954cdeca234316306bb67c6b24f05bStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_b539dd26c0de381503da71ca2655394fStructure", "PartnersHub.model$ST_eda668e7f210db3d136460db1684b63bStructure", "PartnersHub.model$RL_72539fe43229e47c6f0bb03bc660d8fe"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_0c954cdeca234316306bb67c6b24f05bStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2693,8 +2626,7 @@ define("PartnersHub.model$ST_0c954cdeca234316306bb67c6b24f05bStructure", ["expor
 });
 
 define("PartnersHub.model$ST_dbace2176e52429900d8209086350204Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_0c954cdeca234316306bb67c6b24f05bStructure", "PartnersHub.model$ST_8c2ccdb8651c27e0fadf6d9395795b9fStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_dbace2176e52429900d8209086350204StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2718,8 +2650,7 @@ define("PartnersHub.model$ST_dbace2176e52429900d8209086350204Structure", ["expor
 });
 
 define("PartnersHub.model$ST_b4cd08f1a2e52c6c30b2b1fd8abf3029Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_dbace2176e52429900d8209086350204Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b4cd08f1a2e52c6c30b2b1fd8abf3029StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2746,8 +2677,7 @@ define("PartnersHub.model$ST_b4cd08f1a2e52c6c30b2b1fd8abf3029Structure", ["expor
 });
 
 define("PartnersHub.model$ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_b4cd08f1a2e52c6c30b2b1fd8abf3029Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2803,8 +2733,7 @@ define("PartnersHub.model$RL_ad0d7e810e49e61265e2d337c04416fc", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_c98d478d92307b8784bb1e90423f775bStructure", "PartnersHub.model$ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructure", "PartnersHub.model$RL_ad0d7e810e49e61265e2d337c04416fc"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_0be4704c381e15995202804b221a5e3aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2834,8 +2763,7 @@ define("PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", ["expor
 });
 
 define("PartnersHub.model$RC_fbe47240f7e3e38042a8c23b7b2b02e0", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_2aa6b158772e078b381113da0ab825f8Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_fbe47240f7e3e38042a8c23b7b2b02e0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2878,8 +2806,7 @@ define("PartnersHub.model$RL_0c13bf82c0e754513401b974c717dc2b", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_0c21bac0f0d595b425f072410353d305", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_9b7c28a3650c4dbadc24c2da4c77a3f5Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0c21bac0f0d595b425f072410353d305Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2908,8 +2835,7 @@ define("PartnersHub.model$RC_0c21bac0f0d595b425f072410353d305", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_0c55dfa053757f7dd55cc397f37755a2", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_e9aa881415a78b4026eaae8ff05abb61Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0c55dfa053757f7dd55cc397f37755a2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2952,8 +2878,7 @@ define("PartnersHub.model$RL_0c71b2fc045fad5c4e0f7f80c50bd453", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_4c707c7ccff133f1198a8b9c73decb83EntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_4c707c7ccff133f1198a8b9c73decb83EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -2986,8 +2911,7 @@ define("PartnersHub.model$EN_4c707c7ccff133f1198a8b9c73decb83EntityRecord", ["ex
 });
 
 define("PartnersHub.model$RC_7a2e2001e60dfd229175d10cb383dd20", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_4c707c7ccff133f1198a8b9c73decb83EntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7a2e2001e60dfd229175d10cb383dd20Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3030,8 +2954,7 @@ define("PartnersHub.model$RL_0d03906c34728350f0cfb0c371fcaf7c", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_0d71b623ce5a409adf80e6d9d4a7031e", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_26b581032ad004235c0d5c566e39b1dcStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0d71b623ce5a409adf80e6d9d4a7031eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3060,8 +2983,7 @@ define("PartnersHub.model$RC_0d71b623ce5a409adf80e6d9d4a7031e", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_0d776a4e191faf321030d5ce57aa4167", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_7441573ccf264d27ef548a39a846bd68EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0d776a4e191faf321030d5ce57aa4167Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3090,8 +3012,7 @@ define("PartnersHub.model$RC_0d776a4e191faf321030d5ce57aa4167", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_0de0b53ec81c56a76116944828ba7a89", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_cef11b56e6da93b85f992e1455ba4717Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0de0b53ec81c56a76116944828ba7a89Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3120,8 +3041,7 @@ define("PartnersHub.model$RC_0de0b53ec81c56a76116944828ba7a89", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_e76ad42f067f0e001aaa1c3ada36905eStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e76ad42f067f0e001aaa1c3ada36905eStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3148,8 +3068,7 @@ define("PartnersHub.model$ST_e76ad42f067f0e001aaa1c3ada36905eStructure", ["expor
 });
 
 define("PartnersHub.model$RC_0defd940676d20252479bde82e078cfd", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_e76ad42f067f0e001aaa1c3ada36905eStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_0defd940676d20252479bde82e078cfdInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3178,8 +3097,7 @@ define("PartnersHub.model$RC_0defd940676d20252479bde82e078cfd", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_5a174d6874253917600b578d844943be", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_709b151c5172b8ff1042e5fecf4be0ecStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5a174d6874253917600b578d844943beInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3222,8 +3140,7 @@ define("PartnersHub.model$RL_0ebbc09ab880f9576c75a250e0dd80b4", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_812368e6b4b8b30fe730945bc2820fd5", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_141ef15563438703b2e42d78c6c7aefeStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_812368e6b4b8b30fe730945bc2820fd5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3266,8 +3183,7 @@ define("PartnersHub.model$RL_0ed99306a92665c51c1f5a5e119abde1", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_1024838f82ddb82da0b68c4f564c9503", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_eda668e7f210db3d136460db1684b63bStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_1024838f82ddb82da0b68c4f564c9503Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3296,8 +3212,7 @@ define("PartnersHub.model$RC_1024838f82ddb82da0b68c4f564c9503", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_10cf50ec45fc72816b85b8f216ccf5f5", ["exports", "@outsystems/runtime-core-js", "CommonPlugin.model", "PartnersHub.model", "CommonPlugin.model$ST_e17c093645b6df840d3423fc6893e70fStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$CommonPlugin"], function(exports, OSRuntimeCore, CommonPluginModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_10cf50ec45fc72816b85b8f216ccf5f5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3326,8 +3241,7 @@ define("PartnersHub.model$RC_10cf50ec45fc72816b85b8f216ccf5f5", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_8ae1180ce44995afc567de3f72e5c712Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_8ae1180ce44995afc567de3f72e5c712StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3368,8 +3282,7 @@ define("PartnersHub.model$RL_116fa19c58f8a0bcf7251972f3b488c2", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_39603b0ef897e1de470e9d95a95e49f8EntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_39603b0ef897e1de470e9d95a95e49f8EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3393,8 +3306,7 @@ define("PartnersHub.model$EN_39603b0ef897e1de470e9d95a95e49f8EntityRecord", ["ex
 });
 
 define("PartnersHub.model$RC_4535b2a68fa04382d8868d60004b6438", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_39603b0ef897e1de470e9d95a95e49f8EntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4535b2a68fa04382d8868d60004b6438Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3437,8 +3349,7 @@ define("PartnersHub.model$RL_117c7b7da327962152f7a4113c25ca3f", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e3b64ee76991773d7381701280e3c6d4", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "PartnersHub.model", "FEReleaseSlackIntegration.model$ST_a01186a03a6c4b831d48748ff6ff136bStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$FEReleaseSlackIntegration"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e3b64ee76991773d7381701280e3c6d4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3495,8 +3406,7 @@ define("PartnersHub.model$RL_126434276122aa915715df7da7c75609", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_127d33c3734e3f0cecd53087584e156c", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_812466b8d5a9a4a768bb1404c7c0b0e5Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_127d33c3734e3f0cecd53087584e156cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3539,8 +3449,7 @@ define("PartnersHub.model$RL_12d1ba6d0f7dc76efbcc2fac29abf585", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_334ec8eb11cbb1f900eb82a622de6be5", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_b47d3155c531939aabdd10ec3a99049dStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_334ec8eb11cbb1f900eb82a622de6be5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3583,8 +3492,7 @@ define("PartnersHub.model$RL_130306c98b85aa803514000e3331edb0", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_131ec4afe292e50694c2940b1e3c9a73", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_bccc1fae1833449eea329fa137ba885aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_131ec4afe292e50694c2940b1e3c9a73Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3613,8 +3521,7 @@ define("PartnersHub.model$RC_131ec4afe292e50694c2940b1e3c9a73", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_d54336ec6049dff9c99f14fd62e782c4", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_94d54d268b2cff4f4ed014a5df48da20Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d54336ec6049dff9c99f14fd62e782c4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3657,8 +3564,7 @@ define("PartnersHub.model$RL_13576b5dee00a62e9c40a0c658db0a38", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_f9a589fe5b81c3bda7db0e574d5d11fb", ["exports", "@outsystems/runtime-core-js", "System_.model", "PartnersHub.model", "System_.model$UserLoginResultRec", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f9a589fe5b81c3bda7db0e574d5d11fbInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3701,8 +3607,7 @@ define("PartnersHub.model$RL_137c1fde2390fc7845ae92a0265be990", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_78b6d6ed7d52800a8a68e7d796ec6850", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_8aa0a121c98b5f44394f59c96ffee853EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_78b6d6ed7d52800a8a68e7d796ec6850Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3787,8 +3692,7 @@ define("PartnersHub.model$RL_14c5bb80b83da1321f2059f42deabf95", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_79f003baa030e546826ed42c3962f582", ["exports", "@outsystems/runtime-core-js", "System_.model", "PartnersHub.model", "System_.model$UserInfoRec", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_79f003baa030e546826ed42c3962f582Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3845,8 +3749,7 @@ define("PartnersHub.model$RL_157fced35d515bf7b615f06f3ed59864", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_1583be5d90a94b6a73170ffa868eecc5", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_ede7f8abbe990a3b2c1a9cfd79dc5b0fEntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_1583be5d90a94b6a73170ffa868eecc5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3875,8 +3778,7 @@ define("PartnersHub.model$RC_1583be5d90a94b6a73170ffa868eecc5", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_3ba1d238c8e0f0c3e875fb37f0381cc6", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_8d4f783227026ce93d50126c7f028443EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3ba1d238c8e0f0c3e875fb37f0381cc6Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -3961,8 +3863,7 @@ define("PartnersHub.model$RL_1659ef22005bb5893eb1c95011619009", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_1876f437d76222f2a9bb4f9f307d57c6EntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_1876f437d76222f2a9bb4f9f307d57c6EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4003,8 +3904,7 @@ define("PartnersHub.model$RL_18994bd1cd31a465f2635a0d68fa478a", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_d748f9b2c2050386449473bdb4b3b0cb", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_84a0cd0731252abf8ed782a87ccaad58Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d748f9b2c2050386449473bdb4b3b0cbInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4061,8 +3961,7 @@ define("PartnersHub.model$RL_18fb42250d06ad7070f3cb354e03942c", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_191172c94e64292c8bf1a2dce4b5e876", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_977d84487e32bee2c1a14da15d247b5fStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_191172c94e64292c8bf1a2dce4b5e876Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4091,8 +3990,7 @@ define("PartnersHub.model$RC_191172c94e64292c8bf1a2dce4b5e876", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_19aa89641c7398ceacf4370c69126f64", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_1c923b28044712e7268167783ecfdfbeStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_19aa89641c7398ceacf4370c69126f64Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4121,8 +4019,7 @@ define("PartnersHub.model$RC_19aa89641c7398ceacf4370c69126f64", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_19dadc7afbb2c1873c7b698fbb261a65EntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_19dadc7afbb2c1873c7b698fbb261a65EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4166,8 +4063,7 @@ define("PartnersHub.model$RL_19efe67c3ea3fa4b4b07aaa801b42f8c", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_6adfebcd5bbca71129a168d2e2d91049EntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_6adfebcd5bbca71129a168d2e2d91049EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4197,8 +4093,7 @@ define("PartnersHub.model$EN_6adfebcd5bbca71129a168d2e2d91049EntityRecord", ["ex
 });
 
 define("PartnersHub.model$RC_1a05c904c294f37e92db8f7002105183", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_6adfebcd5bbca71129a168d2e2d91049EntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_1a05c904c294f37e92db8f7002105183Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4227,8 +4122,7 @@ define("PartnersHub.model$RC_1a05c904c294f37e92db8f7002105183", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_c6831d06e579de4edbcf59e128b60b13", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_c3a2475ae6370a2f746040280495b4a2EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c6831d06e579de4edbcf59e128b60b13Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4271,8 +4165,7 @@ define("PartnersHub.model$RL_1a211c52d9450d4da06f34c1b8aa3b76", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_39bf756e3f1604202cf1d7ac5fb3b260", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_8ddbf1b6e2eccc5a160b5fab6b9b9b86Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_39bf756e3f1604202cf1d7ac5fb3b260Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4329,8 +4222,7 @@ define("PartnersHub.model$RL_1a5cf00c92b0ec1b5c534af85d952dbc", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_5997443eb5326ff1de640a7b3b2688f0Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_0851aaf31b0e92891278c4a514aa29cdStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_5997443eb5326ff1de640a7b3b2688f0StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4357,8 +4249,7 @@ define("PartnersHub.model$ST_5997443eb5326ff1de640a7b3b2688f0Structure", ["expor
 });
 
 define("PartnersHub.model$RC_bca3b469c12fb16efadfb852197260bd", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_5997443eb5326ff1de640a7b3b2688f0Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_bca3b469c12fb16efadfb852197260bdInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4401,8 +4292,7 @@ define("PartnersHub.model$RL_1a8a92c45644c5300ad1f3bda15e19d4", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_5d5d5f00a6d0b41c664d5621f366190d", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_7e91f0d7966642cf0627c6392e43ce45EntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5d5d5f00a6d0b41c664d5621f366190dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4445,8 +4335,7 @@ define("PartnersHub.model$RL_1ac3d3ab269762306321bb7760937f2c", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_b2b69422e93d880677329d8cb90d6371", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_0851aaf31b0e92891278c4a514aa29cdStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b2b69422e93d880677329d8cb90d6371Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4489,8 +4378,7 @@ define("PartnersHub.model$RL_1ae8df2779c096f095c22ecf6335164b", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_1b2532ef629f2b3259beb09a3dc495b4", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_0543ba6e58ccc819d0ba65db33df025eStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_1b2532ef629f2b3259beb09a3dc495b4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4519,8 +4407,7 @@ define("PartnersHub.model$RC_1b2532ef629f2b3259beb09a3dc495b4", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_ea9565ddc265550c2d38c39dc154035f", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_113226709b84b71c70ebd50296313568Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ea9565ddc265550c2d38c39dc154035fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4563,8 +4450,7 @@ define("PartnersHub.model$RL_1b71a02dea96d4cd97c73eba8bb674c6", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_1ba3db8c7175cd095b4f1a36c3a1e53d", ["exports", "@outsystems/runtime-core-js", "System_.model", "PartnersHub.model", "System_.model$FinishResetPasswordFailureReasonRec", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_1ba3db8c7175cd095b4f1a36c3a1e53dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4593,8 +4479,7 @@ define("PartnersHub.model$RC_1ba3db8c7175cd095b4f1a36c3a1e53d", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_db915d6b5cc14a9247531baaa76ce4a5Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_db915d6b5cc14a9247531baaa76ce4a5StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4618,8 +4503,7 @@ define("PartnersHub.model$ST_db915d6b5cc14a9247531baaa76ce4a5Structure", ["expor
 });
 
 define("PartnersHub.model$RC_6f7ceb67acc337c0a17d106477990c4a", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_db915d6b5cc14a9247531baaa76ce4a5Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6f7ceb67acc337c0a17d106477990c4aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4676,8 +4560,7 @@ define("PartnersHub.model$RL_1dc527401e57829601dc86609514b95f", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_f643b3acfc27a4fecd1e2e4d216ea947", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_cd83fe90bac6d8f5fe1d8e3dce9729c1Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f643b3acfc27a4fecd1e2e4d216ea947Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4720,8 +4603,7 @@ define("PartnersHub.model$RL_1dea2ab8630085ef26828f80f7648065", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_a1310fc4b6664d1d807ee5336bf20c28", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a1310fc4b6664d1d807ee5336bf20c28Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4764,8 +4646,7 @@ define("PartnersHub.model$RL_1e027ac5f8769ea4d4adbbcc7903f418", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_95c473136722ba7379611f73a3471de3", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_4f86046673de081f9834eb306850ab22EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_95c473136722ba7379611f73a3471de3Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4808,8 +4689,7 @@ define("PartnersHub.model$RL_1ea3e84bcb11dff20d44cc2dd9bb0fe2", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_1ea63146d7f1d969afc206832e751192", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_1e2af88601c0491260411e1369eb104cEntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_1ea63146d7f1d969afc206832e751192Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4838,8 +4718,7 @@ define("PartnersHub.model$RC_1ea63146d7f1d969afc206832e751192", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_ae9e4b56ac8f5d5b47650c3d944e3608EntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_ae9e4b56ac8f5d5b47650c3d944e3608EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4894,8 +4773,7 @@ define("PartnersHub.model$RL_1ee2701fb233e597575036a6d1cfcb5b", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_bd573fb2cb521691dc6a8c4b02eeb054", ["exports", "@outsystems/runtime-core-js", "System_.model", "PartnersHub.model", "System_.model$UpdateUserResultRec", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_bd573fb2cb521691dc6a8c4b02eeb054Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4938,8 +4816,7 @@ define("PartnersHub.model$RL_201410915258bdd92387bbd4bec2a7bb", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_23ff1d290ec4691b1c668ad437100cd0StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -4966,8 +4843,7 @@ define("PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", ["expor
 });
 
 define("PartnersHub.model$RC_c4db4f3aeb5edd9ab802a278b6663f3f", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c4db4f3aeb5edd9ab802a278b6663f3fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5010,8 +4886,7 @@ define("PartnersHub.model$RL_20322c58eb45fb0d1b1de5d7c79573e2", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_a336dc96fafc2e7ffdb88fdcc24fe482", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_77d1f9105abe302fa373f146c295ea17Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a336dc96fafc2e7ffdb88fdcc24fe482Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5054,8 +4929,7 @@ define("PartnersHub.model$RL_2083bc83b9d077075ef50c2bd63b6965", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_6da37637b0593f4ec39cbdb7fca0818f", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_10e78341d21be3a7dc573dcf4252c9dbStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6da37637b0593f4ec39cbdb7fca0818fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5098,8 +4972,7 @@ define("PartnersHub.model$RL_21aa582dbaa7e503639ee59cca230a00", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_30490951290854c2926b2cf8ec7b4a20", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_9eb2d1268b055c9ba20852d2758a5050Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_30490951290854c2926b2cf8ec7b4a20Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5156,8 +5029,7 @@ define("PartnersHub.model$RL_2236019573133d80bb70080e1c69863c", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_224fc9970e9693b073b49748bfa1459a", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_e9af53f34f5d2c71a49407f1ed42d7f7Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_224fc9970e9693b073b49748bfa1459aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5186,8 +5058,7 @@ define("PartnersHub.model$RC_224fc9970e9693b073b49748bfa1459a", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_2296852fb68ffc0d98bf144361127c38", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_b8e5132e8639404a10bb651dc17997bcStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2296852fb68ffc0d98bf144361127c38Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5230,8 +5101,7 @@ define("PartnersHub.model$RL_230328260e3d7a695b9562201483a549", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_49efcc116edb1d3d6cd601eea8516e64EntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_49efcc116edb1d3d6cd601eea8516e64EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5258,8 +5128,7 @@ define("PartnersHub.model$EN_49efcc116edb1d3d6cd601eea8516e64EntityRecord", ["ex
 });
 
 define("PartnersHub.model$RC_500d6affd752292b92c8cddd9b92f7b9", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_49efcc116edb1d3d6cd601eea8516e64EntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_500d6affd752292b92c8cddd9b92f7b9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5302,8 +5171,7 @@ define("PartnersHub.model$RL_232c89a2d5038d57a9042dc25af9b70b", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_236b9780ed98eefd23c7d452d5b32785", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_450f06937a42e6bd68832beac9fd4297Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_236b9780ed98eefd23c7d452d5b32785Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5346,8 +5214,7 @@ define("PartnersHub.model$RL_23c5170e5cae92676806075f1dc0926f", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_23e4ac7b03ba2050af5811737c8cc89f", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_ffc6ac6eac2c99bcdbe1dc79ecc6377fStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_23e4ac7b03ba2050af5811737c8cc89fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5376,8 +5243,7 @@ define("PartnersHub.model$RC_23e4ac7b03ba2050af5811737c8cc89f", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_244e2749d28811b4841e2dbbd8dedcb9", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_c7bba0c276d724a640fd9ae5d39aa04eStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_244e2749d28811b4841e2dbbd8dedcb9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5420,8 +5286,7 @@ define("PartnersHub.model$RL_25008888c069155597e1a02e1b9ea813", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_96175866bef7bdbf74965597575b319c", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_72900159fa859d96c9b5e8531e637a4cStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_96175866bef7bdbf74965597575b319cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5464,8 +5329,7 @@ define("PartnersHub.model$RL_2567d50fd0e540a33e71ee0dd4edef5d", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_d2362d0d0bb36623a5f0020a47954dfc", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "PartnersHub.model", "OutSystemsCharts.model$EN_dd503b13df684d7ec8cc34d86edadd21EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsCharts"], function(exports, OSRuntimeCore, OutSystemsChartsModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d2362d0d0bb36623a5f0020a47954dfcInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5508,8 +5372,7 @@ define("PartnersHub.model$RL_257ff75163dcb7f5df49442c867d608a", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_e359c0b5b9349701a8aae8cc7d75c0ffStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e359c0b5b9349701a8aae8cc7d75c0ffStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5562,8 +5425,7 @@ define("PartnersHub.model$RL_259f695d96f0de3932ec1e360faf929e", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e1b3eaedbd133d4ebfdb497dc119e9c1", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_d12f6a9e29cbb97250918a3fc7bc632aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e1b3eaedbd133d4ebfdb497dc119e9c1Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5620,8 +5482,7 @@ define("PartnersHub.model$RL_260232560d4d04c2013fce278e787f24", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_261685da2c799bcc3b4873485e008694", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_182bd2d69e3f1edb7f1fb76efcbcae87EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_261685da2c799bcc3b4873485e008694Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5650,8 +5511,7 @@ define("PartnersHub.model$RC_261685da2c799bcc3b4873485e008694", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_264d82ff29428f3cd43ebe0810111d5a", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_b5731219a4e422dad77e0fd7d6ee0cdfStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_264d82ff29428f3cd43ebe0810111d5aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5680,8 +5540,7 @@ define("PartnersHub.model$RC_264d82ff29428f3cd43ebe0810111d5a", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_404c459943827781a6e430bd69037b23", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_1876f437d76222f2a9bb4f9f307d57c6EntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_404c459943827781a6e430bd69037b23Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5724,8 +5583,7 @@ define("PartnersHub.model$RL_26b9b28e49f6aa45aba24d43f71894e9", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_ca426fec0751e5b6dcf015e9fdc2120e", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_a14a98f7fea6a66cbe59ce2905b45c09EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ca426fec0751e5b6dcf015e9fdc2120eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5768,8 +5626,7 @@ define("PartnersHub.model$RL_27a81319ef1cef112a91632cbf388562", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_27b5a164e828de9b90686831c7908b4a", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_27b5a164e828de9b90686831c7908b4aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5812,8 +5669,7 @@ define("PartnersHub.model$RL_27bf68eaead02a99ca09aef3148704b7", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_2827a9b1879137deb3aaa08d45397068", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_4fa180d49a839964a4a640104b10a272Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2827a9b1879137deb3aaa08d45397068Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5856,8 +5712,7 @@ define("PartnersHub.model$RL_96ea0e5dbed7b91dda2061420ea7817a", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_2838f738beb90761e9ec634e42207f58", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_870defcbb5bf4a58a2a009971edc7d07Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2838f738beb90761e9ec634e42207f58Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5886,8 +5741,7 @@ define("PartnersHub.model$RC_2838f738beb90761e9ec634e42207f58", ["exports", "@ou
 });
 
 define("PartnersHub.model$AttachmentRec", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class AttachmentRecInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5928,8 +5782,7 @@ define("PartnersHub.model$RL_28c65a6ca00ce3f3c6a90d7190b6966d", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_82e915cb61269c2e1fb30ed84469e07b", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_c4a5ea0056d7d4d64b0630a9fc26f60bStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_82e915cb61269c2e1fb30ed84469e07bInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -5972,8 +5825,7 @@ define("PartnersHub.model$RL_29080a69ee1ce69b9b697bf94281f9ff", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_cd5e42a0793d8eb69fbc5056fff3f372", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_55ea19c18b42991c3f5575c063ad7ca7Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_cd5e42a0793d8eb69fbc5056fff3f372Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6016,8 +5868,7 @@ define("PartnersHub.model$RL_296c80117ea3feed92d93a9342c06001", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_2ac88c51f2d9ed908454e6a06ffe188e", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_4e53cb8815b86020ced1d2f2652c9b1dStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2ac88c51f2d9ed908454e6a06ffe188eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6046,8 +5897,7 @@ define("PartnersHub.model$RC_2ac88c51f2d9ed908454e6a06ffe188e", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_2b1773f6e92c4d29296f4e350964dbb2", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_31dbcfc5cd9ae02da0ba12249f6ccfcdStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2b1773f6e92c4d29296f4e350964dbb2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6090,8 +5940,7 @@ define("PartnersHub.model$RL_2b1a3419eafdbc343d89f210b76f82c7", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_2b9e41428d5c5ca3b04a80be4ce98f53", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "PartnersHub.model", "OutSystemsCharts.model$ST_639b8c480159ce740702f0a0cf3b55a5Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsCharts"], function(exports, OSRuntimeCore, OutSystemsChartsModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2b9e41428d5c5ca3b04a80be4ce98f53Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6134,8 +5983,7 @@ define("PartnersHub.model$RL_d214456dc511920f517885542ecb318a", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_5c073669af4d1bb9a059222c06ae3a49", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_2f457e0a5b13526850516eea23ae0e9aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5c073669af4d1bb9a059222c06ae3a49Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6178,8 +6026,7 @@ define("PartnersHub.model$RL_2bc6600c37d3f99d4190f0fccf1bad67", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_2bf25d62d530e43a49ce5fb7ed436ea0", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_d5a14f6db075b658d013dc3ad63d0c60Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2bf25d62d530e43a49ce5fb7ed436ea0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6208,8 +6055,7 @@ define("PartnersHub.model$RC_2bf25d62d530e43a49ce5fb7ed436ea0", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_63c659b6dc554b0b4f81d60382bf5fd6", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_189b647ddc5c60c1aa5290bb6481a72dEntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_63c659b6dc554b0b4f81d60382bf5fd6Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6252,8 +6098,7 @@ define("PartnersHub.model$RL_2c7706a8fd91e45cb8a8b97418bcf4d0", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_954cd1231210e70f33f184017bf580ac", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_f43f179caddf7f7b68b18272d67285d6EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_954cd1231210e70f33f184017bf580acInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6296,8 +6141,7 @@ define("PartnersHub.model$RL_2cadeb0c6f7df3cfbe06d89edb556615", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_441f684d3efba387356554fe17c62bec", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_d15d22dc3a60a2e6365116c61a16aaa0Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_441f684d3efba387356554fe17c62becInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6340,8 +6184,7 @@ define("PartnersHub.model$RL_2d74cc19c3ab1a029c34be65ea3b289a", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_9ff8454bf93a3174f29503bcb1750130", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_ce3665169ee165087a4fa593347f539dStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9ff8454bf93a3174f29503bcb1750130Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6412,8 +6255,7 @@ define("PartnersHub.model$RL_2e550e70d4f60fcf474568418d9dcf73", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_2e6da4a898d55ae96aab51b6e09d6a22", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_6eafdf6bd9852632690d0672a511a98fStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_2e6da4a898d55ae96aab51b6e09d6a22Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6442,8 +6284,7 @@ define("PartnersHub.model$RC_2e6da4a898d55ae96aab51b6e09d6a22", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_88f2df009156055846dc2e8f18566d7dStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_88f2df009156055846dc2e8f18566d7dStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6501,8 +6342,7 @@ define("PartnersHub.model$RL_2eb9294c2171a9f3d4046a24f0f3a436", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_700a042c18a52538bbda09226917700a", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "PartnersHub.model", "OutSystemsCharts.model$EN_c206e072354abd28c734a686a107801eEntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsCharts"], function(exports, OSRuntimeCore, OutSystemsChartsModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_700a042c18a52538bbda09226917700aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6545,8 +6385,7 @@ define("PartnersHub.model$RL_2ed820148ec0066544c2529736074c83", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_98e502ffc9bd24401241ef277fce403c", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_4820561c523dc84c471446a46147a065Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_98e502ffc9bd24401241ef277fce403cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6589,8 +6428,7 @@ define("PartnersHub.model$RL_2f1c969e24c9ba731c5c1c39ceea50ec", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_71e7722a7761502e1fc1ee9175838bd9", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_ac4f1b4870aba80de82d4c04f7b530ceStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_71e7722a7761502e1fc1ee9175838bd9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6633,8 +6471,7 @@ define("PartnersHub.model$RL_2f43bfa975a498b49479ea4ecbc98b48", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_7a9f1d8fcf08e196ae4fcb70fce3ae4d", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_9d2eeec2f5ab741e3d87ce62bfe442ffStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7a9f1d8fcf08e196ae4fcb70fce3ae4dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6677,8 +6514,7 @@ define("PartnersHub.model$RL_30996d47f459830cdd860ac4090ef40a", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_3b02862a28f878d1e3184c6f668529b4EntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_3b02862a28f878d1e3184c6f668529b4EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6722,8 +6558,7 @@ define("PartnersHub.model$RL_30a372c728c5d10f2ed9cd29e9029837", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_30f7e77f4f85f62f55a749d558899db1", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_b8e1602bee02fb2422c9742384775a7bStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_30f7e77f4f85f62f55a749d558899db1Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6752,8 +6587,7 @@ define("PartnersHub.model$RC_30f7e77f4f85f62f55a749d558899db1", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_310dae2b4d3a1f1ded7570a6ee74f16e", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_ba5b17ae5b3fdd9318ea2b4cf18c7d4dStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_310dae2b4d3a1f1ded7570a6ee74f16eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6782,8 +6616,7 @@ define("PartnersHub.model$RC_310dae2b4d3a1f1ded7570a6ee74f16e", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_4d01ba747615bc6dc01c586f0b43450a", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_34444d0742578c128ebc8b2594439346Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4d01ba747615bc6dc01c586f0b43450aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6840,8 +6673,7 @@ define("PartnersHub.model$RL_31d7615454c0155a64f826d4e0cf4cb5", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_327e36bc408edd046ca40df8a4e734bb", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_bc4abb4233d9ce894e855c520a20c76fStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_327e36bc408edd046ca40df8a4e734bbInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6884,8 +6716,7 @@ define("PartnersHub.model$RL_3325417b3e1ae27173e1161b12a2b345", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_3375dbdf42120d4cd74942f1cc4f9d88", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "PartnersHub.model", "FEReleaseSlackIntegration.model$ST_0a66c582c77592abee52988e6d0524e2Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$FEReleaseSlackIntegration"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3375dbdf42120d4cd74942f1cc4f9d88Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6914,8 +6745,7 @@ define("PartnersHub.model$RC_3375dbdf42120d4cd74942f1cc4f9d88", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_3391a407605c2903e72042e67177aeae", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "PartnersHub.model", "FEReleaseSlackIntegration.model$ST_ff6fa4367123aaf1ab10608dcb16ba43Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$FEReleaseSlackIntegration"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3391a407605c2903e72042e67177aeaeInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6944,8 +6774,7 @@ define("PartnersHub.model$RC_3391a407605c2903e72042e67177aeae", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e693c35b48131a7d9d296aba5185b8c6", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_98319758945048a72386b9e9466c220aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e693c35b48131a7d9d296aba5185b8c6Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -6988,8 +6817,7 @@ define("PartnersHub.model$RL_354382860a4523a089cd5a3761912fe2", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_3554b1e2806a5b827c457cdecc492d4a", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3554b1e2806a5b827c457cdecc492d4aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7032,8 +6860,7 @@ define("PartnersHub.model$RL_357030bc20ba450abe6756927d50ad98", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_35e37489cb29f7a304d512a403000665", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "PartnersHub.model", "OutSystemsCharts.model$EN_0c0b103cba961483054afffbc30b3066EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsCharts"], function(exports, OSRuntimeCore, OutSystemsChartsModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_35e37489cb29f7a304d512a403000665Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7090,8 +6917,7 @@ define("PartnersHub.model$RL_362950b7d5d9798e12950648533599a1", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_cc81504e70ca274810f96237dd739de9", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_178833eaf81da5980f461500f3f98736Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_cc81504e70ca274810f96237dd739de9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7162,8 +6988,7 @@ define("PartnersHub.model$RL_36ff7df6547fc6551e99dc50dec2ec00", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_373fec8a2329a8b1ecd55cf717893131", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_59aacee1cb91627a0f497366b24e4500EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_373fec8a2329a8b1ecd55cf717893131Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7192,8 +7017,7 @@ define("PartnersHub.model$RC_373fec8a2329a8b1ecd55cf717893131", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_60071085ccdc1a939c98b76e05aec53e", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_433eb5ffcea5c3c69d4be061c9113711Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_60071085ccdc1a939c98b76e05aec53eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7278,8 +7102,7 @@ define("PartnersHub.model$RL_392b64bd075fc192968825bc0bc06ae0", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_399208286269e79288e632f4faf899e3", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_2b2fc63a2c5dd19a88c97ed75635ef82Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_399208286269e79288e632f4faf899e3Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7336,8 +7159,7 @@ define("PartnersHub.model$RL_39e4b9d56d5f803650985cef34aa5a13", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_3a2d986a770a9c3e6f1096b16961e5a9", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_af8134183a4bd7e3eec97ada0cf46b5eStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3a2d986a770a9c3e6f1096b16961e5a9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7366,8 +7188,7 @@ define("PartnersHub.model$RC_3a2d986a770a9c3e6f1096b16961e5a9", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_9f80c4e8dbd08377be883c073be1c044Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_88f2df009156055846dc2e8f18566d7dStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_9f80c4e8dbd08377be883c073be1c044StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7400,8 +7221,7 @@ define("PartnersHub.model$ST_9f80c4e8dbd08377be883c073be1c044Structure", ["expor
 });
 
 define("PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_9f80c4e8dbd08377be883c073be1c044Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_cd720662d62c87faf4dd5ea5ef8052cbStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7538,8 +7358,7 @@ define("PartnersHub.model$RL_3a76b15ae1a5530a31162c7058dbf8a2", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_3b8f7a9e49bbec7ed0ab55bd440bab7dStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_3b8f7a9e49bbec7ed0ab55bd440bab7dStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7580,8 +7399,7 @@ define("PartnersHub.model$RL_3b8feaa11cc930133dbb7eecb085b527", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_3bbfc6c91fcd8a2dd97847564be30682", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_f9178b4aae1879ea388b92402c64db4cEntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3bbfc6c91fcd8a2dd97847564be30682Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7610,8 +7428,7 @@ define("PartnersHub.model$RC_3bbfc6c91fcd8a2dd97847564be30682", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_3c60a1846470070c1bbae2a1d22163d2", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_628e5221d510e98bcfe00cce5f107d21Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3c60a1846470070c1bbae2a1d22163d2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7640,8 +7457,7 @@ define("PartnersHub.model$RC_3c60a1846470070c1bbae2a1d22163d2", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_3c932c88487f91213472b65d598457af", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_19dadc7afbb2c1873c7b698fbb261a65EntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3c932c88487f91213472b65d598457afInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7670,8 +7486,7 @@ define("PartnersHub.model$RC_3c932c88487f91213472b65d598457af", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_80fdac61068a824f2594509a1ecd2e4d", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_46f1b4e2ecb4e84910e0b09c3d82ea15Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_80fdac61068a824f2594509a1ecd2e4dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7728,8 +7543,7 @@ define("PartnersHub.model$RL_3cfea1a1e933b75750f570ea368d3da2", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_3d7c5be4055c8fe2c227afc40d8dee2f", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_1967a79b0bc6b1bdc38ff87eefe0b127EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3d7c5be4055c8fe2c227afc40d8dee2fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7800,8 +7614,7 @@ define("PartnersHub.model$RL_3ddab8163c31ef065226c1ec689ad1e9", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_3f4d741c30bd5473dc9c679433c442c3", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_2aef4efdcc8a8ad935c2f051f3051327Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_3f4d741c30bd5473dc9c679433c442c3Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7830,8 +7643,7 @@ define("PartnersHub.model$RC_3f4d741c30bd5473dc9c679433c442c3", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_9817a5747e4b09aa3a6a7eb35ce9f66e", ["exports", "@outsystems/runtime-core-js", "System_.model", "PartnersHub.model", "System_.model$FinishResetPasswordResultRec", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9817a5747e4b09aa3a6a7eb35ce9f66eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7874,8 +7686,7 @@ define("PartnersHub.model$RL_3f7b36d8bbcf12054b7e2f49497f214f", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_4028c83435ff8f3fa19c27e5a3252dd5", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_7d99fd1de65649f174aff6854b052539Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4028c83435ff8f3fa19c27e5a3252dd5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7904,8 +7715,7 @@ define("PartnersHub.model$RC_4028c83435ff8f3fa19c27e5a3252dd5", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_54fc6ab982c2dba44934665039f00766", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_88f2df009156055846dc2e8f18566d7dStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_54fc6ab982c2dba44934665039f00766Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -7962,8 +7772,7 @@ define("PartnersHub.model$RL_4153455d8943850f971d65d82f35900b", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_78060f9d9359b76176f02c2e892daf92", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_8b8a7d131f11e4011391f72ed3597a0eStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_78060f9d9359b76176f02c2e892daf92Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8020,8 +7829,7 @@ define("PartnersHub.model$RL_41e67aa458234493e723d2243db01144", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_424d57a2d666c8edb0343600d6705eee", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "PartnersHub.model", "OutSystemsCharts.model$ST_87973ae5f6c07db6193b59603f29dce6Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsCharts"], function(exports, OSRuntimeCore, OutSystemsChartsModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_424d57a2d666c8edb0343600d6705eeeInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8050,8 +7858,7 @@ define("PartnersHub.model$RC_424d57a2d666c8edb0343600d6705eee", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_4286a56d180b6bb5649e20efadd675fdStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_4286a56d180b6bb5649e20efadd675fdStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8092,8 +7899,7 @@ define("PartnersHub.model$RL_d03621281d953210a5f7643c5f395ddc", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_725766536428f47602ca54f05f55b577", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_04eaf04e4147681bc07ba614af4e7e78Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_725766536428f47602ca54f05f55b577Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8136,8 +7942,7 @@ define("PartnersHub.model$RL_43065d40fb42cf2e1c75ff4cebf95a65", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_655de439743f6ef66e4c426b009f58b1", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_e9350867621f419f78bd47d2bb88d9ceStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_655de439743f6ef66e4c426b009f58b1Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8180,8 +7985,7 @@ define("PartnersHub.model$RL_431a1d9d775d905a0fa33726ccc368ad", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_7319f641bd816660fa0b06c8ae60d9ad", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_3b02862a28f878d1e3184c6f668529b4EntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7319f641bd816660fa0b06c8ae60d9adInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8252,8 +8056,7 @@ define("PartnersHub.model$RL_43ca0597982cbded980f0a6041972518", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_f045d5e7dbbffce86c51999e90634954", ["exports", "@outsystems/runtime-core-js", "DerivLogger.model", "PartnersHub.model", "DerivLogger.model$EN_aff9922b432a86fca9eedb69e5493ac3EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$DerivLogger"], function(exports, OSRuntimeCore, DerivLoggerModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f045d5e7dbbffce86c51999e90634954Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8310,8 +8113,7 @@ define("PartnersHub.model$RL_4438108cb3e8b9ed9e8aaff799663860", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_d5f1faf2f682624c1c27e7a932faee50", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_a37989da54adde60afe7657f5bc1d06eStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d5f1faf2f682624c1c27e7a932faee50Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8354,8 +8156,7 @@ define("PartnersHub.model$RL_44cebee119c996a470fbff1d981600f0", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_73fae6920f82113320dccc89ef073c01", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_f0a0dc1163bf03e1d7bb0d253808f956EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_73fae6920f82113320dccc89ef073c01Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8454,8 +8255,7 @@ define("PartnersHub.model$RL_47595c6744be14d2bd677fd05324180f", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_47772cad80dc4a787d65fd52470ca2cd", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_ccbd4ab860fdf3c4690e46bb49937de5Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_47772cad80dc4a787d65fd52470ca2cdInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8498,8 +8298,7 @@ define("PartnersHub.model$RL_478659cf4d50eb426ae425e9399ed35f", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_9bd05b4ddb4909b9d4caa679f6e81971", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "PartnersHub.model", "FEReleaseSlackIntegration.model$ST_a7c2d4fb0a81e8416c70379886c39274Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$FEReleaseSlackIntegration"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9bd05b4ddb4909b9d4caa679f6e81971Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8542,8 +8341,7 @@ define("PartnersHub.model$RL_47e7c934a3575d224a082efe32355ab7", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_d4bf765df28dc44cfc977eebedb13ed3", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_ddeabbcab252c99fc5f083425434b2a7Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d4bf765df28dc44cfc977eebedb13ed3Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8586,8 +8384,7 @@ define("PartnersHub.model$RL_481ef41ed0fae7f08c6f7bee79db99dc", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_8401e8b399f219fdd97b12284d97703eStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_8401e8b399f219fdd97b12284d97703eStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8614,8 +8411,7 @@ define("PartnersHub.model$ST_8401e8b399f219fdd97b12284d97703eStructure", ["expor
 });
 
 define("PartnersHub.model$RC_4825b8394d83318da50bdb57a69e9ba8", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_8401e8b399f219fdd97b12284d97703eStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4825b8394d83318da50bdb57a69e9ba8Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8644,8 +8440,7 @@ define("PartnersHub.model$RC_4825b8394d83318da50bdb57a69e9ba8", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_4835a3b0a2d4ab28e154f8a8831a00ef", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_5c08eaa15b890a2d617cabe547c34f0bStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4835a3b0a2d4ab28e154f8a8831a00efInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8688,8 +8483,7 @@ define("PartnersHub.model$RL_4887faff529164a4e041bdf0dc5e469f", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_5e1b44d038654ac19cd218a2a7d6a6b8", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_30cf47a274820f1ac96cf412803888fdStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5e1b44d038654ac19cd218a2a7d6a6b8Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8732,8 +8526,7 @@ define("PartnersHub.model$RL_49a4d531de393d17563dea4ec0d88883", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_a93ee00b1703fd73b488758ba52ee897EntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_a93ee00b1703fd73b488758ba52ee897EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8777,8 +8570,7 @@ define("PartnersHub.model$RL_49ba78cb9111e83f5bd1ecd3c61747f9", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_4a76c214f34feb841d0c1a2d8cdbec01", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_35e76a2e1583feb611523ac6c760c8a9Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4a76c214f34feb841d0c1a2d8cdbec01Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8835,8 +8627,7 @@ define("PartnersHub.model$RL_4ac7560fd222f165e8fbfd92d25d984e", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_fd472dd876adddab32395354eb83b1e8Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_fd472dd876adddab32395354eb83b1e8StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8863,8 +8654,7 @@ define("PartnersHub.model$ST_fd472dd876adddab32395354eb83b1e8Structure", ["expor
 });
 
 define("PartnersHub.model$RC_c2c5c3b34c7346c67deb4734f492ed4a", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_fd472dd876adddab32395354eb83b1e8Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c2c5c3b34c7346c67deb4734f492ed4aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8935,8 +8725,7 @@ define("PartnersHub.model$RL_4d556c695c13b2c308f888cfb68cea19", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_4d77cfdd567b208680377834fc8205a2", ["exports", "@outsystems/runtime-core-js", "System_.model", "PartnersHub.model", "System_.model$PasswordComplexityPolicyRec", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4d77cfdd567b208680377834fc8205a2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -8979,8 +8768,7 @@ define("PartnersHub.model$RL_4d7b8cbd6dab38c9cb08786f22d0d9cb", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_4e0347af69e49e93f28b4b0de4bcad85", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "PartnersHub.model", "FEReleaseSlackIntegration.model$ST_074de63327cc6281abd591a06ac7a3ebStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$FEReleaseSlackIntegration"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4e0347af69e49e93f28b4b0de4bcad85Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9023,8 +8811,7 @@ define("PartnersHub.model$RL_4e4931d865c8789e9e6ef1d8540ae228", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_4e51545bc16a221aad8adb982c5469bc", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_f20c843fba72b4c6aef8e435f175a9e5Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4e51545bc16a221aad8adb982c5469bcInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9109,8 +8896,7 @@ define("PartnersHub.model$RL_4f9f1230897f0a3e8b129024e1de623d", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_5044465528c94ee468cc97cee02c2f31", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_af97180714ce3993e80d246ca4429825Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5044465528c94ee468cc97cee02c2f31Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9153,8 +8939,7 @@ define("PartnersHub.model$RL_4faa698f8fe1178a7e2d85375093f6ee", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_4fc16da695108ad1b034b7256ffa868d", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_7167810326c75456a7ce120ed2dbd76bStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_4fc16da695108ad1b034b7256ffa868dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9239,8 +9024,7 @@ define("PartnersHub.model$RL_50d3e0774fce43a1ce1cf3a9009855f8", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_5d721a98b9942c12d19fd2c956f2872aEntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_5d721a98b9942c12d19fd2c956f2872aEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9270,8 +9054,7 @@ define("PartnersHub.model$EN_5d721a98b9942c12d19fd2c956f2872aEntityRecord", ["ex
 });
 
 define("PartnersHub.model$RC_50fce37edc5923848211c0f69e434208", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_5d721a98b9942c12d19fd2c956f2872aEntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_50fce37edc5923848211c0f69e434208Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9300,8 +9083,7 @@ define("PartnersHub.model$RC_50fce37edc5923848211c0f69e434208", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_51b1c15949308af5f9b2dba7043d5ae6", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_b4e36c9529d7446e086560192df48d7cEntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_51b1c15949308af5f9b2dba7043d5ae6Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9330,8 +9112,7 @@ define("PartnersHub.model$RC_51b1c15949308af5f9b2dba7043d5ae6", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_a77cae619f7a824ffaa6e30caf3829e5", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_ae69fbe61d3588d5f7a813905e5dc3aeStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a77cae619f7a824ffaa6e30caf3829e5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9374,8 +9155,7 @@ define("PartnersHub.model$RL_51c36384638fb46b29235e79e23007b4", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_51c73f641f2d05540b68c15e7660196f", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_8812c3cbc0a0d322acb5354526a670b4Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_51c73f641f2d05540b68c15e7660196fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9418,8 +9198,7 @@ define("PartnersHub.model$RL_51cb6ee93d723ed4d67f527a1090ade3", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_fc6ba00c0199e91a89c8c6d81dc1ff50", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_e79f2a411ab40cb74322f1790f687b01Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_fc6ba00c0199e91a89c8c6d81dc1ff50Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9476,8 +9255,7 @@ define("PartnersHub.model$RL_52a96e0500b1d6d23d93e10409e37890", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_c491d7115400bc6f5e71c50c6432916b", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_dbace2176e52429900d8209086350204Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c491d7115400bc6f5e71c50c6432916bInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9562,8 +9340,7 @@ define("PartnersHub.model$RL_538ff2f1d030482c84c803644c8c1240", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_cb3c04d88b114a075539728cafcde6e0", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_60a5d7a279694c475c6cf2585b652410Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_cb3c04d88b114a075539728cafcde6e0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9606,8 +9383,7 @@ define("PartnersHub.model$RL_53c372dc61bea6ee9ca5f8120f4350e8", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_589441840ccb78b5cd4edd1d387aefc9Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_589441840ccb78b5cd4edd1d387aefc9StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9648,8 +9424,7 @@ define("PartnersHub.model$RL_53c5043e2ef1b8d746a3a44abb7a9b98", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_53d491417faf149f9fb8a0dda9c12d06", ["exports", "@outsystems/runtime-core-js", "System_.model", "PartnersHub.model", "System_.model$ChangePasswordResultRec", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_53d491417faf149f9fb8a0dda9c12d06Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9678,8 +9453,7 @@ define("PartnersHub.model$RC_53d491417faf149f9fb8a0dda9c12d06", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_9156a578055ce3e905fa78bea04b423e", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_39c69c310b1fed6e6a637381cf367162Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9156a578055ce3e905fa78bea04b423eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9764,8 +9538,7 @@ define("PartnersHub.model$RL_54fab648630d41e343fad35c1143481d", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_8d1d70f3958628cc0e50b9bd4f5961e8EntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_8d1d70f3958628cc0e50b9bd4f5961e8EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9795,8 +9568,7 @@ define("PartnersHub.model$EN_8d1d70f3958628cc0e50b9bd4f5961e8EntityRecord", ["ex
 });
 
 define("PartnersHub.model$RC_555c492e2e3caa25ad7cb968c9ec957a", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_8d1d70f3958628cc0e50b9bd4f5961e8EntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_555c492e2e3caa25ad7cb968c9ec957aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9867,8 +9639,7 @@ define("PartnersHub.model$RL_5615c834166e52223964bada9f9f6329", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_56805fdef6332e01f13c0f9217357dbc", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_3cb059eb7f6ed8c9a730f87011d5c0e0Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_56805fdef6332e01f13c0f9217357dbcInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9897,8 +9668,7 @@ define("PartnersHub.model$RC_56805fdef6332e01f13c0f9217357dbc", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_56c6ce1b0108db2c43eb2e512b9aa7da", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_d331548db274235fee458e1a8f950858Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_56c6ce1b0108db2c43eb2e512b9aa7daInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9969,8 +9739,7 @@ define("PartnersHub.model$RL_581fca9d3fac382e5d136ff857d3462e", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_7e7c6006f18d7aeaad0edc93ed0f62fcEntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_7e7c6006f18d7aeaad0edc93ed0f62fcEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -9994,8 +9763,7 @@ define("PartnersHub.model$EN_7e7c6006f18d7aeaad0edc93ed0f62fcEntityRecord", ["ex
 });
 
 define("PartnersHub.model$RC_58887f4a427472f6702185b7ab32c4c9", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_7e7c6006f18d7aeaad0edc93ed0f62fcEntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_58887f4a427472f6702185b7ab32c4c9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10024,8 +9792,7 @@ define("PartnersHub.model$RC_58887f4a427472f6702185b7ab32c4c9", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_f2941aa4ceb8548588805d7ea79e08d0EntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_f2941aa4ceb8548588805d7ea79e08d0EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10052,8 +9819,7 @@ define("PartnersHub.model$EN_f2941aa4ceb8548588805d7ea79e08d0EntityRecord", ["ex
 });
 
 define("PartnersHub.model$RC_594f80d6698ba3ac9bf26419ddae299d", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_f2941aa4ceb8548588805d7ea79e08d0EntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_594f80d6698ba3ac9bf26419ddae299dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10096,8 +9862,7 @@ define("PartnersHub.model$RL_5a17cb0f64de6697951894cea5524431", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_5a50b1207c66825bfc9e9688dde972baEntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_5a50b1207c66825bfc9e9688dde972baEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10141,8 +9906,7 @@ define("PartnersHub.model$RL_5b03fcb846a256a3a783d07598b5a229", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_65cc30429520bca006e707d60d653719Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_65cc30429520bca006e707d60d653719StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10172,8 +9936,7 @@ define("PartnersHub.model$ST_65cc30429520bca006e707d60d653719Structure", ["expor
 });
 
 define("PartnersHub.model$ST_efe926326d5cdd33b2fe29d22b8327daStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_4087e2614b3e169a49eb4d5e4388f847Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_efe926326d5cdd33b2fe29d22b8327daStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10200,8 +9963,7 @@ define("PartnersHub.model$ST_efe926326d5cdd33b2fe29d22b8327daStructure", ["expor
 });
 
 define("PartnersHub.model$ST_a3416b67a2103d8d37252bdfacc86bfbStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_efe926326d5cdd33b2fe29d22b8327daStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_a3416b67a2103d8d37252bdfacc86bfbStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10231,8 +9993,7 @@ define("PartnersHub.model$ST_a3416b67a2103d8d37252bdfacc86bfbStructure", ["expor
 });
 
 define("PartnersHub.model$ST_7ceca022f8a0e753c145701ba5d76f4eStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_4087e2614b3e169a49eb4d5e4388f847Structure", "PartnersHub.model$ST_e359c0b5b9349701a8aae8cc7d75c0ffStructure", "PartnersHub.model$ST_65cc30429520bca006e707d60d653719Structure", "PartnersHub.model$ST_a3416b67a2103d8d37252bdfacc86bfbStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_7ceca022f8a0e753c145701ba5d76f4eStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10343,8 +10104,7 @@ define("PartnersHub.model$ST_7ceca022f8a0e753c145701ba5d76f4eStructure", ["expor
 });
 
 define("PartnersHub.model$RC_cd24b51ec49ca4f808ecab137d447838", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_7ceca022f8a0e753c145701ba5d76f4eStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_cd24b51ec49ca4f808ecab137d447838Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10387,8 +10147,7 @@ define("PartnersHub.model$RL_5b60fc2f6c13e2923a01ad7cd0ddff0e", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_5f28219a5e30fb90023fcbc295513e7c", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_5d1279724e719322292e34ef3c5500a0EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5f28219a5e30fb90023fcbc295513e7cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10431,8 +10190,7 @@ define("PartnersHub.model$RL_5ba41fd2555db2daaba8da89df34a9b8", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_5d4c0a98b9773e489e7e27bfe5360793", ["exports", "@outsystems/runtime-core-js", "System_.model", "PartnersHub.model", "System_.model$UpdateUserFailureReasonRec", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_5d4c0a98b9773e489e7e27bfe5360793Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10517,8 +10275,7 @@ define("PartnersHub.model$RL_5f96baf85bbca68a104650af9c95a482", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_61247e0b64729cac8e6e357df0db7eed", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_b539dd26c0de381503da71ca2655394fStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_61247e0b64729cac8e6e357df0db7eedInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10561,8 +10318,7 @@ define("PartnersHub.model$RL_617ce086b197e1cd7e2af2a1c0d1c20b", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_db915d6b5cc14a9247531baaa76ce4a5Structure", "PartnersHub.model$RL_27bf68eaead02a99ca09aef3148704b7"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10589,8 +10345,7 @@ define("PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure", ["expor
 });
 
 define("PartnersHub.model$RC_61df84f9969928991e575f5d3cdeb6cf", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_123df4fc5615aac2800d1fa4847bc440Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_61df84f9969928991e575f5d3cdeb6cfInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10619,8 +10374,7 @@ define("PartnersHub.model$RC_61df84f9969928991e575f5d3cdeb6cf", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_61e849a6b27c65d4f84da11bc7fcd961", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_b3b8308da7c5dcdc42b3f87ca949eb8cStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_61e849a6b27c65d4f84da11bc7fcd961Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10649,8 +10403,7 @@ define("PartnersHub.model$RC_61e849a6b27c65d4f84da11bc7fcd961", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_623a04a7e1c688b7ec133f2b7ca28f8e", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_96047f3e265fbed2401212ad81dfa1f4Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_623a04a7e1c688b7ec133f2b7ca28f8eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10721,8 +10474,7 @@ define("PartnersHub.model$RL_63c0d280fae1c76c130bb4eaa6325fae", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_64027d4be973e97c7c265e68fb475a55", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_9f22b560a90438747cb673cbedddc4d7Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_64027d4be973e97c7c265e68fb475a55Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10751,8 +10503,7 @@ define("PartnersHub.model$RC_64027d4be973e97c7c265e68fb475a55", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_645e6d99c62950d533c673c938aae9c2", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "PartnersHub.model", "FEReleaseSlackIntegration.model$ST_92400cc7724ed583cb86d67e1fc7e7c5Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$FEReleaseSlackIntegration"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_645e6d99c62950d533c673c938aae9c2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10781,8 +10532,7 @@ define("PartnersHub.model$RC_645e6d99c62950d533c673c938aae9c2", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_646e6c02297b69c2ac8936bd87cff545", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_eb161a8909408fbd30eac1833398f018Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_646e6c02297b69c2ac8936bd87cff545Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10825,8 +10575,7 @@ define("PartnersHub.model$RL_64d4432e93c4c639d6d9c3570ad64bb3", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_ab84a98a3ac9de80e9278e5b21681a23", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_52e55d60c515b6016f81404afb220594EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ab84a98a3ac9de80e9278e5b21681a23Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10897,8 +10646,7 @@ define("PartnersHub.model$RL_65b4601c7246ad02da4e6c18fe619d03", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e3eb18969a1d0856d6aa6db7946dac4d", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "PartnersHub.model", "OutSystemsCharts.model$ST_8ceac0b3cf282b6c0c3a95ffb4156762Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsCharts"], function(exports, OSRuntimeCore, OutSystemsChartsModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e3eb18969a1d0856d6aa6db7946dac4dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10955,8 +10703,7 @@ define("PartnersHub.model$RL_66079fd510547022662fad21af9161f1", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_f481c39b6dc571441408fc418f17e793", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_02211ece4f8ea033ae9a7fa2710f4a32Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f481c39b6dc571441408fc418f17e793Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -10999,8 +10746,7 @@ define("PartnersHub.model$RL_6611d2d9fcbfcbfe8fb57800c9eecc82", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_6ff4ee45dfc92afe92e4874530f95001", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_e184b5e893ff6633d3c7357dd29941faStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6ff4ee45dfc92afe92e4874530f95001Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11071,8 +10817,7 @@ define("PartnersHub.model$RL_67211e5ef9090bf1006a3e1da6767024", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_673cc0a63dbc3f5836f7732ba0712544", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_ac6f62956e278d5390a5f27c607338d0EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_673cc0a63dbc3f5836f7732ba0712544Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11101,8 +10846,7 @@ define("PartnersHub.model$RC_673cc0a63dbc3f5836f7732ba0712544", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_fb91f9eab17d134884b2213f47fb4a68", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_9adaf3e13b31a4c3f4ee4c0b223b00bcStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_fb91f9eab17d134884b2213f47fb4a68Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11173,8 +10917,7 @@ define("PartnersHub.model$RL_682331dd8419e94ee9d9a269052472d4", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_682f912289e0ec9e8311c537097d9585", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_65cc30429520bca006e707d60d653719Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_682f912289e0ec9e8311c537097d9585Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11203,8 +10946,7 @@ define("PartnersHub.model$RC_682f912289e0ec9e8311c537097d9585", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_b5010cf570b4e39f4aa14db0ae11cfbfStructure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_b5010cf570b4e39f4aa14db0ae11cfbfStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11287,8 +11029,7 @@ define("PartnersHub.model$RL_6a09e143d0e4a59a21ce23725d2e887e", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_bca9fdc5bae6f7d1e7c9f66cae277937", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_6d2f2a84ec0b7321167e27d19b6d33f8Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_bca9fdc5bae6f7d1e7c9f66cae277937Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11345,8 +11086,7 @@ define("PartnersHub.model$RL_6a534bbcb28aa4f96e8b5853e0208016", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_6a75354fa4c22f10c7d3494623ca83be", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_c98d478d92307b8784bb1e90423f775bStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6a75354fa4c22f10c7d3494623ca83beInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11403,8 +11143,7 @@ define("PartnersHub.model$RL_6aefb6b34ff9f8b6e1084c5b438522bb", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_6afb7faf6b2a5fdc14e3fd34318f5ba5", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_15693c4dffeb1c18ce04ec8c251678cfStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6afb7faf6b2a5fdc14e3fd34318f5ba5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11433,8 +11172,7 @@ define("PartnersHub.model$RC_6afb7faf6b2a5fdc14e3fd34318f5ba5", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_6bf0b0ffc6301cb068818135121fba90", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_bbf8c5d47c5db3fd5346cb42e483a9fdStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6bf0b0ffc6301cb068818135121fba90Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11491,8 +11229,7 @@ define("PartnersHub.model$RL_6c0d37b49870d4d159723ff35b01e012", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_6c51c66649f8fcb29b35426854249357", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_f85e728670d653d5fa01ee2557e6e730Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6c51c66649f8fcb29b35426854249357Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11535,8 +11272,7 @@ define("PartnersHub.model$RL_6cc055cc55710603767f0fd9910db36c", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_6ceb0a54ddbc92446ab66e8c847870c1", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "PartnersHub.model", "OutSystemsCharts.model$ST_9498db02a236485a96a27db0bd61b81eStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsCharts"], function(exports, OSRuntimeCore, OutSystemsChartsModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6ceb0a54ddbc92446ab66e8c847870c1Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11565,8 +11301,7 @@ define("PartnersHub.model$RC_6ceb0a54ddbc92446ab66e8c847870c1", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e70fafe9612dd12cb3b3f591b7825932", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_8c2ccdb8651c27e0fadf6d9395795b9fStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e70fafe9612dd12cb3b3f591b7825932Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11665,8 +11400,7 @@ define("PartnersHub.model$RL_6dbbf02a4665986883d0e9dbec050d5b", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_d3634c532c526ffe7f0e5eb9c98258b9", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_a93ee00b1703fd73b488758ba52ee897EntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d3634c532c526ffe7f0e5eb9c98258b9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11737,8 +11471,7 @@ define("PartnersHub.model$RL_6e4709c964d7b46a3afebff315d0d559", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_6ed70ee717bf0900eb8e06c219db56ee", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_b4cd08f1a2e52c6c30b2b1fd8abf3029Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6ed70ee717bf0900eb8e06c219db56eeInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11767,8 +11500,7 @@ define("PartnersHub.model$RC_6ed70ee717bf0900eb8e06c219db56ee", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_d2265ea20cfa443b1c068fbda918f468Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_5997443eb5326ff1de640a7b3b2688f0Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_d2265ea20cfa443b1c068fbda918f468StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11809,8 +11541,7 @@ define("PartnersHub.model$RL_6f43b1663a969d13f73eba22d1db9928", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_6f4c6d643c38fc7393e869b67917268e", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_b5010cf570b4e39f4aa14db0ae11cfbfStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_6f4c6d643c38fc7393e869b67917268eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11839,8 +11570,7 @@ define("PartnersHub.model$RC_6f4c6d643c38fc7393e869b67917268e", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_abb6a3eba8583e4ab0625de8f38fb719", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_0262e6910ebecc922f633b08db78d688Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_abb6a3eba8583e4ab0625de8f38fb719Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11883,8 +11613,7 @@ define("PartnersHub.model$RL_703668b187ab39de3436f6485526e12a", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_7096ca0099728124fcaff6ac0bf8440c", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_6669f981cb8653c55787de44bdd42a18Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7096ca0099728124fcaff6ac0bf8440cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11913,8 +11642,7 @@ define("PartnersHub.model$RC_7096ca0099728124fcaff6ac0bf8440c", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_79570c018419cf205b6b1363497623c8", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_8ae1180ce44995afc567de3f72e5c712Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_79570c018419cf205b6b1363497623c8Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -11957,8 +11685,7 @@ define("PartnersHub.model$RL_70a8331f6beea7f27870b3bf7babd9e9", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_70fc701ec1089fcf99155a06492a06f2", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_589441840ccb78b5cd4edd1d387aefc9Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_70fc701ec1089fcf99155a06492a06f2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12001,8 +11728,7 @@ define("PartnersHub.model$RL_718bfa5485b42466fae8f4ad1fc16180", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_d889bc3ca3014fc2b05daa3c2a4a0897EntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_d889bc3ca3014fc2b05daa3c2a4a0897EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12043,8 +11769,7 @@ define("PartnersHub.model$RL_72d3468658c04f718aaf1354cc74d3e4", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_72deccc4588dd4c59ea212c47055f933", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_bf5d4ab423fae3ff38a977653adc8398Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_72deccc4588dd4c59ea212c47055f933Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12073,8 +11798,7 @@ define("PartnersHub.model$RC_72deccc4588dd4c59ea212c47055f933", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_967cb65710fd1a346ebf0b0d8dbea56b", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_92679525739afa328c09890d25f5ac45EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_967cb65710fd1a346ebf0b0d8dbea56bInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12145,8 +11869,7 @@ define("PartnersHub.model$RL_756fb6e2b9d549868e73e6b90310c36f", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_9ada5f8da53eb89c641b16bac1494144", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_d889bc3ca3014fc2b05daa3c2a4a0897EntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9ada5f8da53eb89c641b16bac1494144Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12189,8 +11912,7 @@ define("PartnersHub.model$RL_759e60093aaaa8b1c5c7a466cd817b84", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e14f3c77ad4f7c2d7fcad14fc0ab9bf1", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_71bc196daedd9ac0648bfd56a713859dStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e14f3c77ad4f7c2d7fcad14fc0ab9bf1Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12233,8 +11955,7 @@ define("PartnersHub.model$RL_7682dd80718b550d6c5a921d5990d04e", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_769b74cf243bca7e23f6d8b3e094aafe", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_83fbd707f872e92b597918150eff1f3eStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_769b74cf243bca7e23f6d8b3e094aafeInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12277,8 +11998,7 @@ define("PartnersHub.model$RL_76a60ca6adfb580ac2b00e4e4f586899", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_854dbd2804fbb731b1468b879331bbde", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_8517d9c8b73e866553a1a7b806af5079Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_854dbd2804fbb731b1468b879331bbdeInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12405,8 +12125,7 @@ define("PartnersHub.model$RL_7a119d08ddaa03a9adb755d998da5288", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_85af8fa7a4c9fca4ade94e1edb0d5f7d", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_6510d2524fe77fcc6c285159d4000cfbStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_85af8fa7a4c9fca4ade94e1edb0d5f7dInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12505,8 +12224,7 @@ define("PartnersHub.model$RL_7afe2e3802b1138fe7c019f238334de4", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_7b274cb5f96a8ac297db685000547ab1", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_9d1062fa4257a03d2f3c4e1f302af3d7Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7b274cb5f96a8ac297db685000547ab1Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12563,8 +12281,7 @@ define("PartnersHub.model$RL_7c155d6f9991d43524221e40a2ecb02b", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_7c67e52a2329c05d78ed79fcc452835e", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_13505e54da5ba49238f8f2a40834f63fStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_7c67e52a2329c05d78ed79fcc452835eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12607,8 +12324,7 @@ define("PartnersHub.model$RL_7c9f790fa5c2ed1fbdf0de41347402fa", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e5ad8f04c38047441643c6868992c277", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_09173c1b0f41f719b9efd6430c2e737dStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e5ad8f04c38047441643c6868992c277Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12651,8 +12367,7 @@ define("PartnersHub.model$RL_7d09eb138f7abf181049d020e739a58f", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_fd5747c80d839934a5360c3482c6e1a4", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_0a849d490938e0e6be2b66ff11091523Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_fd5747c80d839934a5360c3482c6e1a4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12737,8 +12452,7 @@ define("PartnersHub.model$RL_7ec701d4086b9503e816fe47fc7b3996", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_b63e3909af051b8870fcf422ece5607a", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_ae9e4b56ac8f5d5b47650c3d944e3608EntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b63e3909af051b8870fcf422ece5607aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12851,8 +12565,7 @@ define("PartnersHub.model$RL_81d2bc71eb1c605f53ae134ad3caa1c0", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_840543697b5a35bfebb2ff69b9d84fbd", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_cd720662d62c87faf4dd5ea5ef8052cbStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_840543697b5a35bfebb2ff69b9d84fbdInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12881,8 +12594,7 @@ define("PartnersHub.model$RC_840543697b5a35bfebb2ff69b9d84fbd", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_ced013358a82a813f1d9a5108f17ce79", ["exports", "@outsystems/runtime-core-js", "System_.model", "PartnersHub.model", "System_.model$ENUserEntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ced013358a82a813f1d9a5108f17ce79Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12939,8 +12651,7 @@ define("PartnersHub.model$RL_843bbe6b5508d5a1ce4c6547db1f1385", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_8476f8009941f077eecf6fb67b7e9001EntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_8476f8009941f077eecf6fb67b7e9001EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -12987,8 +12698,7 @@ define("PartnersHub.model$RL_848f8b2bb658ddd4e5a07dd90226eb44", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_890f16fe63a6b66b2130ac1a285dc1bf", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_d845e9af38689337f2bff5d766253a88Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_890f16fe63a6b66b2130ac1a285dc1bfInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -13031,8 +12741,7 @@ define("PartnersHub.model$RL_855c9279ae87db4555d2fbb8ba90afc5", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_860a186f93e9fe7fe0d42f4282c2ec00", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "PartnersHub.model", "OutSystemsCharts.model$ST_e76d7672809d02d24c5a5adfeacd07eeStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsCharts"], function(exports, OSRuntimeCore, OutSystemsChartsModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_860a186f93e9fe7fe0d42f4282c2ec00Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -13075,8 +12784,7 @@ define("PartnersHub.model$RL_863ea1614b7c19486045cd9a76848c6b", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_87351e3b0fa2ca59cf6c6749c6405006", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_849d11ab47adc426b5ce8d8c815c4fbfEntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_87351e3b0fa2ca59cf6c6749c6405006Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -13161,8 +12869,7 @@ define("PartnersHub.model$RL_87e64e62a021a7f641dffaaa73541aa5", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_a751f78951c300e8acce65cba9217c6bEntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_a751f78951c300e8acce65cba9217c6bEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -13315,8 +13022,7 @@ define("PartnersHub.model$RL_8b34cec2d3a4e3170e329009c7e2bef8", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_8b362302b5966cedd4e8c7c42d7e46f8", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_ae40a5e8008c1f0252b9952ccf57ee94Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8b362302b5966cedd4e8c7c42d7e46f8Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -13345,8 +13051,7 @@ define("PartnersHub.model$RC_8b362302b5966cedd4e8c7c42d7e46f8", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_ab1efc94555a1980f3a18bff4891b468Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_ab1efc94555a1980f3a18bff4891b468StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -13398,8 +13103,7 @@ define("PartnersHub.model$RL_a401bbc515f324607832f48e5f845362", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_8bd0ab07a3f3c2d2a572a84134c564bd", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "PartnersHub.model", "OutSystemsCharts.model$ST_934e7357fa36babd8aa5d2585785fd1aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsCharts"], function(exports, OSRuntimeCore, OutSystemsChartsModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8bd0ab07a3f3c2d2a572a84134c564bdInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -13442,8 +13146,7 @@ define("PartnersHub.model$RL_8c4fcbceb61f253df73da643e4b9ae13", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_8f8c9b77bcc0996564febb7d38ea930a", ["exports", "@outsystems/runtime-core-js", "System_.model", "PartnersHub.model", "System_.model$StartResetPasswordResultRec", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8f8c9b77bcc0996564febb7d38ea930aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -13486,8 +13189,7 @@ define("PartnersHub.model$RL_8c6f3d2b086b4a75242a7e7c084f1692", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_c85058efd001ab5bb94189be59a9e6e9", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_a751f78951c300e8acce65cba9217c6bEntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c85058efd001ab5bb94189be59a9e6e9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -13530,8 +13232,7 @@ define("PartnersHub.model$RL_8c8fae00a98e307e746e877f35f1e5ab", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_8ccc091579545400bb5558b597337647", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_803bffb999fad6a38040b2086877902eStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8ccc091579545400bb5558b597337647Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -13560,8 +13261,7 @@ define("PartnersHub.model$RC_8ccc091579545400bb5558b597337647", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_8d2191077b2724e26d03dfd89ce20eb3", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_0c954cdeca234316306bb67c6b24f05bStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8d2191077b2724e26d03dfd89ce20eb3Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -13590,8 +13290,7 @@ define("PartnersHub.model$RC_8d2191077b2724e26d03dfd89ce20eb3", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_b5bc59fd6b9d0d1de1994f4ad185a4d9", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_4fc107f3f00705667fa092c970065f35Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b5bc59fd6b9d0d1de1994f4ad185a4d9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -13676,8 +13375,7 @@ define("PartnersHub.model$RL_8ed647be048e617fa817eb8a6da1f2ef", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_9ac3a73b5c3ddd8f3923cd00427e8e10", ["exports", "@outsystems/runtime-core-js", "OutSystemsCharts.model", "PartnersHub.model", "OutSystemsCharts.model$ST_80a54fdc5a44237df505b3e5b63ad0feStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsCharts"], function(exports, OSRuntimeCore, OutSystemsChartsModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9ac3a73b5c3ddd8f3923cd00427e8e10Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -13720,8 +13418,7 @@ define("PartnersHub.model$RL_8ed7a0e74bf62a56d225f393fa1fdf35", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_8f3efc29bef911e74df222fdba36c135", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_605da9a1009ce00d8c64718f9c13e284Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_8f3efc29bef911e74df222fdba36c135Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -13806,8 +13503,7 @@ define("PartnersHub.model$RL_904325e5d042a099908ed28253c5b8a6", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_c2f8f904842dd6be50322db106dd129c", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_66479ac0d3a37fcf31e7645e323ef0e1Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c2f8f904842dd6be50322db106dd129cInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -13920,8 +13616,7 @@ define("PartnersHub.model$RL_9238bba5cbd10e6024ffc4f7cd576720", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_a0738320bb0b0b3365d0bbf873ec9067", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_e359c0b5b9349701a8aae8cc7d75c0ffStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a0738320bb0b0b3365d0bbf873ec9067Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -13992,8 +13687,7 @@ define("PartnersHub.model$RL_93708d7bb7d0fbdca673f09a924bcdb7", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_ddf455813269431f810096041bed9987", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_4286a56d180b6bb5649e20efadd675fdStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ddf455813269431f810096041bed9987Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -14162,8 +13856,7 @@ define("PartnersHub.model$RL_98f3b8624fe7a466ac7ebfc153dac373", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_ab72f035aa34ddb5ec313dc02adb1f18", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_7f8fd02aa7ee2ac6182b6b36e46460d9EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ab72f035aa34ddb5ec313dc02adb1f18Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -14206,8 +13899,7 @@ define("PartnersHub.model$RL_996fbee06ca423494c6785889a54264f", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_9a29ef26037f71a833a7717922f3c172Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_eda668e7f210db3d136460db1684b63bStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_9a29ef26037f71a833a7717922f3c172StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -14276,8 +13968,7 @@ define("PartnersHub.model$RL_9b5ff325fa2b1963afc7ac5fe1fefcac", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_fed8226e055119cda9775f74ac223ef2", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_72e91b438c2e206bca7398a7a69902dfStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_fed8226e055119cda9775f74ac223ef2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -14362,8 +14053,7 @@ define("PartnersHub.model$RL_9bbf3501c857fa771241aed7c9717166", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_d20bdb75c1efb29ce702c3a9c7f8584dEntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_d20bdb75c1efb29ce702c3a9c7f8584dEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -14390,8 +14080,7 @@ define("PartnersHub.model$EN_d20bdb75c1efb29ce702c3a9c7f8584dEntityRecord", ["ex
 });
 
 define("PartnersHub.model$RC_d9ce9640ed6fb829a91a89a8787c5326", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_d20bdb75c1efb29ce702c3a9c7f8584dEntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d9ce9640ed6fb829a91a89a8787c5326Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -14462,8 +14151,7 @@ define("PartnersHub.model$RL_9c7dd64bc69086e714d43d899044d3f9", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_9ca6a18cc49ca7246c44c0f7c2cef62a", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_adf11bcbc411b5a0f498d25dd0ea882fEntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9ca6a18cc49ca7246c44c0f7c2cef62aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -14506,8 +14194,7 @@ define("PartnersHub.model$RL_9cb7bfaaafb49f2d821d7361f41fe71b", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_ca0d2aac1e11a6a4102353e595f34482", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_61bad0fb94df4b9f1aa86c41ddff5f0aStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ca0d2aac1e11a6a4102353e595f34482Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -14578,8 +14265,7 @@ define("PartnersHub.model$RL_9d69b2d3ce2ad95c00706adc74706b15", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_b7283e2c6e9c6bcb5286d1ae04959554", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_e3f9af4171d5e4a41700770295d05c77Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b7283e2c6e9c6bcb5286d1ae04959554Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -14664,8 +14350,7 @@ define("PartnersHub.model$RL_9f7e64e3acb92ada6c7cc1def60ee7ce", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_9fdefb1423ae0af9c1d321109b8695e4", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_ef2ca9573c3bd1e27b35145a902be10bStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_9fdefb1423ae0af9c1d321109b8695e4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -14722,8 +14407,7 @@ define("PartnersHub.model$RL_a2a3d623cff8db0b23d39b4d88a9486f", ["exports", "@ou
 });
 
 define("PartnersHub.model$EN_a32d86be435c41298a268fbb6a8a2358EntityRecord", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_a32d86be435c41298a268fbb6a8a2358EntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -14764,8 +14448,7 @@ define("PartnersHub.model$RL_a3746675e7afa0a411750081849db606", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e092deacf9bc8885dd34714ac00f33e4", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_5be8b31925746693c09b3f64c4898006EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e092deacf9bc8885dd34714ac00f33e4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -14808,8 +14491,7 @@ define("PartnersHub.model$RL_a48ae6e6aedeec60d7b351d47494aa56", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_a5018402fa6c90c5e826e54b2748cedc", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_48a3ab8db598b5be6bef9add20e71bbbEntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a5018402fa6c90c5e826e54b2748cedcInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -14880,8 +14562,7 @@ define("PartnersHub.model$RL_a580b6522f03efa46ba6d394dc540c4d", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_a582d84634a30a3a3b1e61cbfd3db9de", ["exports", "@outsystems/runtime-core-js", "System_.model", "PartnersHub.model", "System_.model$UserUpdateInfoRec", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a582d84634a30a3a3b1e61cbfd3db9deInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -14924,8 +14605,7 @@ define("PartnersHub.model$RL_a5b6b975942e234f0350205b728240be", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_a5fc3d62312a89b32ae393e0571bcad7", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_d4ed48681c55954edc02f19b0ed492e7Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a5fc3d62312a89b32ae393e0571bcad7Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -14982,8 +14662,7 @@ define("PartnersHub.model$RL_a67ac7d80c7ef3e94cad052357c9c645", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_a67f16d1367e48674c0278c0312479e0", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_a32d86be435c41298a268fbb6a8a2358EntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a67f16d1367e48674c0278c0312479e0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15040,8 +14719,7 @@ define("PartnersHub.model$RL_a85951adc11db15827205a4c30d6e88f", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_a8681099a96d9738667779eaaccedc4a", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_6e7638d850b78b46a75a04e2dcd58f58Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a8681099a96d9738667779eaaccedc4aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15084,8 +14762,7 @@ define("PartnersHub.model$RL_a8b7c276560c35af141714ac8a51d257", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_a9755f38b0542dfb6acdd8617637c169", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_24b97ac8060a9349e09da2d88e1dea00Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_a9755f38b0542dfb6acdd8617637c169Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15142,8 +14819,7 @@ define("PartnersHub.model$RL_a9ea31b939f652b4b427fa383c80cdbb", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_b7ccb1d374819fabb1f3fad7a6c0dd99", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_d1246d83c419f598cf8e4e18d5276097Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b7ccb1d374819fabb1f3fad7a6c0dd99Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15214,8 +14890,7 @@ define("PartnersHub.model$RL_abbb06caa2dc3007694c8b499e93ac42", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_f9bcc3504841111cb3941eef1d0c2284", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_c662afc4a55685596fd9199a04b718f1Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f9bcc3504841111cb3941eef1d0c2284Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15258,8 +14933,7 @@ define("PartnersHub.model$RL_ac3cd438d50e23f6ce21dc9210844d74", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_aca073df88d40d31252fa904cba1bb39", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_6cf1ba858957788c000fe8d27578f9c1Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_aca073df88d40d31252fa904cba1bb39Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15302,8 +14976,7 @@ define("PartnersHub.model$RL_acf032e090fcf4c3139771c17de499e0", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_ada7ae2f7fcadfe9ad4cb9dbd1c4caf8", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_159cd2ead3b4ce7cf017e33699885453Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ada7ae2f7fcadfe9ad4cb9dbd1c4caf8Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15346,8 +15019,7 @@ define("PartnersHub.model$RL_adbfc30c899ef88f92a4ffb0fe1c08d9", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e62fa91ce8ed0a38e810cad8c726da2f", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_5b838c70a2bbb273d7a479efa1e8ea87Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e62fa91ce8ed0a38e810cad8c726da2fInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15404,8 +15076,7 @@ define("PartnersHub.model$RL_af071f8b45f2932e1364f15bc3e90819", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e6a1dce963242bf05b2488e33fe798d8", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_ab1efc94555a1980f3a18bff4891b468Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e6a1dce963242bf05b2488e33fe798d8Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15462,8 +15133,7 @@ define("PartnersHub.model$RL_af7f649b9a00c07af59590b0760c28af", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_b301ee5cbf9afe7871d25666ae59fb76", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b301ee5cbf9afe7871d25666ae59fb76Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15534,8 +15204,7 @@ define("PartnersHub.model$RL_b12f7a71666929e6ceec6559f200d213", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e03a49308bfaca02257d451178bbf041", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_60f22bd2e9b10a22278b8afe6d7f601aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e03a49308bfaca02257d451178bbf041Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15578,8 +15247,7 @@ define("PartnersHub.model$RL_b17522b541f7e019c0443ba6658c825f", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_b17c3526d6deec2ea51fe6ca6895e3ea", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_95720c0132c7c8b07166d48790a0a129Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b17c3526d6deec2ea51fe6ca6895e3eaInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15622,8 +15290,7 @@ define("PartnersHub.model$RL_b1aa5dcb1499d7f1c78cdf33b91cc48b", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_b1f9a62aa1eb0e7979aaceb89243cea9", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_5ba9c80e587385c94102779d8eab301cStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b1f9a62aa1eb0e7979aaceb89243cea9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15652,8 +15319,7 @@ define("PartnersHub.model$RC_b1f9a62aa1eb0e7979aaceb89243cea9", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_b6adbbf4e08bad2975a6f8f796279b71", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_ef2257119ab36e2c35ddd0bb3d7ac544EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b6adbbf4e08bad2975a6f8f796279b71Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15696,8 +15362,7 @@ define("PartnersHub.model$RL_b2003a063523641b68ecff9e50755bc3", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_b27f0b968b0f7cea61506ac9d6ee7c27", ["exports", "@outsystems/runtime-core-js", "System_.model", "PartnersHub.model", "System_.model$PasswordValidationResultRec", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b27f0b968b0f7cea61506ac9d6ee7c27Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15810,8 +15475,7 @@ define("PartnersHub.model$RL_b50ecc69bf1d35f5563a812d2e69bf9c", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_dc6aa0e1d127d52abc5fe664ea01c3d4", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_efe926326d5cdd33b2fe29d22b8327daStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_dc6aa0e1d127d52abc5fe664ea01c3d4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15896,8 +15560,7 @@ define("PartnersHub.model$RL_b693780c9c2e91ec100b6cde72ab3ad5", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e5c662d406f83f7f791bd7e5c8b0c543", ["exports", "@outsystems/runtime-core-js", "System_.model", "PartnersHub.model", "System_.model$ChangePasswordFailureReasonRec", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e5c662d406f83f7f791bd7e5c8b0c543Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15940,8 +15603,7 @@ define("PartnersHub.model$RL_b6f4bbf36a4770c53788c60d2b555d3c", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_b7327b19dbb770ea9a49f2ca519bdd0b", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_a3416b67a2103d8d37252bdfacc86bfbStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b7327b19dbb770ea9a49f2ca519bdd0bInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -15984,8 +15646,7 @@ define("PartnersHub.model$RL_b7a05579761da982186db0cb56ca5900", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_cc09849af49e0ff0064bbe24d1baecda", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_d2265ea20cfa443b1c068fbda918f468Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_cc09849af49e0ff0064bbe24d1baecdaInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -16028,8 +15689,7 @@ define("PartnersHub.model$RL_b7a630f185854d271f04c8febe1b3c72", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_d4817385d3db168633301f8c73e2d828", ["exports", "@outsystems/runtime-core-js", "FEReleaseSlackIntegration.model", "PartnersHub.model", "FEReleaseSlackIntegration.model$ST_3782d35f5f28ff9dd18fb6881ab471a9Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$FEReleaseSlackIntegration"], function(exports, OSRuntimeCore, FEReleaseSlackIntegrationModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d4817385d3db168633301f8c73e2d828Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -16072,8 +15732,7 @@ define("PartnersHub.model$RL_b7ce76296993c7fe1a92e2eeb8b1ed65", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_b8272ebcb560c4fc5c96482b705582ba", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_9b4c1d7f5790df008534dfd8d1c97a7cStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_b8272ebcb560c4fc5c96482b705582baInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -16172,8 +15831,7 @@ define("PartnersHub.model$RL_bb38c3ab91cd808b60d5ca14bf9b4dbc", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_bb80a04f7ea6a5bb3d33db9b2bca4c88", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_b96c67f06fdfae580256b7081d85460dStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_bb80a04f7ea6a5bb3d33db9b2bca4c88Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -16202,8 +15860,7 @@ define("PartnersHub.model$RC_bb80a04f7ea6a5bb3d33db9b2bca4c88", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_c68ca2b5352eede25365718c29283667Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_c98d478d92307b8784bb1e90423f775bStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_c68ca2b5352eede25365718c29283667StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -16233,8 +15890,7 @@ define("PartnersHub.model$ST_c68ca2b5352eede25365718c29283667Structure", ["expor
 });
 
 define("PartnersHub.model$RC_bc1d8808c6b691d63b7ce4b84f5f5668", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_c68ca2b5352eede25365718c29283667Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_bc1d8808c6b691d63b7ce4b84f5f5668Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -16291,8 +15947,7 @@ define("PartnersHub.model$RL_be5a886e16881f9049697d324754da74", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_becf146c6950a91797136bc45fb81e1a", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_3b8f7a9e49bbec7ed0ab55bd440bab7dStructure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_becf146c6950a91797136bc45fb81e1aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -16433,8 +16088,7 @@ define("PartnersHub.model$RL_c229edfd5a861b3989c3898b88a89f90", ["exports", "@ou
 });
 
 define("PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e00c986a2a7690520557f1ea58ae1d82StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -16461,8 +16115,7 @@ define("PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure", ["expor
 });
 
 define("PartnersHub.model$RC_c2a1fb3299bba375b344c1c9b33ef2ea", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_e00c986a2a7690520557f1ea58ae1d82Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c2a1fb3299bba375b344c1c9b33ef2eaInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -16505,8 +16158,7 @@ define("PartnersHub.model$RL_c2a3ea4fb238a17e874113aa7e434cad", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e3b76e5c6918ce63091acb36b11f3fe2", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_2361699202fda01d7c8ade7cab583650Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e3b76e5c6918ce63091acb36b11f3fe2Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -16633,8 +16285,7 @@ define("PartnersHub.model$RL_c564b1e63d41953ea9734fb248f40109", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_c567cbac2969babec31508d5ba9b8248", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_42e091eee706086ba45ab77d0ef6821fStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_c567cbac2969babec31508d5ba9b8248Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -16873,8 +16524,7 @@ define("PartnersHub.model$RL_cb7f36c20c1100a526f054e4bd5ee331", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_f096f7fd8261c816438bbe7b5d4454b4", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_5a50b1207c66825bfc9e9688dde972baEntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f096f7fd8261c816438bbe7b5d4454b4Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -17029,8 +16679,7 @@ define("PartnersHub.model$RL_d085e8d032d69f30c1ff1fcbd1a431a3", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_d156596bf0acca794568b1ed43180f6e", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$EN_8476f8009941f077eecf6fb67b7e9001EntityRecord"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d156596bf0acca794568b1ed43180f6eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -17059,8 +16708,7 @@ define("PartnersHub.model$RC_d156596bf0acca794568b1ed43180f6e", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_d15ba8cc56cc5ee58bd8acaffd974239", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_2c43e02ff45af9d6dc9d417ea3304062EntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d15ba8cc56cc5ee58bd8acaffd974239Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -17243,8 +16891,7 @@ define("PartnersHub.model$RL_d2d0068f3a07cb94ca20f9308415ffee", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_eebe57a3100c293a3ad401503386e7ad", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_e422048bbd3aba1526832ee4606bb980Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_eebe57a3100c293a3ad401503386e7adInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -17301,8 +16948,7 @@ define("PartnersHub.model$RL_d3a7744852f4b782bcbb3dc9b2b5a3a2", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_da31320f88166d864fc396c0fddbecc9", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_c77c7364c5e093c1d601fe854bbf1fd7Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_da31320f88166d864fc396c0fddbecc9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -17359,8 +17005,7 @@ define("PartnersHub.model$RL_d4e233856a843249137106dbf3a700c8", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_d509bf89cda09ba78055eb96d496078b", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_6168fd7b9ba43ed0f5fe1ccbd8f82e90Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d509bf89cda09ba78055eb96d496078bInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -17431,8 +17076,7 @@ define("PartnersHub.model$RL_d689c0ceaaa6201af233ffc179beef2f", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_f0c73e6dbd84280986cd2f30c5ab1891", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_bc9f0cd5cd952aeeadf59ee9a5dfb79aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f0c73e6dbd84280986cd2f30c5ab1891Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -17475,8 +17119,7 @@ define("PartnersHub.model$RL_d6c2b0b2d82cc83f0e12ff8864bc303a", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_d70de5895c15876a351972489c06939e", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_9f80c4e8dbd08377be883c073be1c044Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_d70de5895c15876a351972489c06939eInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -17659,8 +17302,7 @@ define("PartnersHub.model$RL_dab4d62f4bd7f27f6010a113f1a898bf", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_dac62773434cf92b52368fd089bbfc2a", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$ST_660adb7a9db48bff1b12c6e03515b415Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_dac62773434cf92b52368fd089bbfc2aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -17731,8 +17373,7 @@ define("PartnersHub.model$RL_dce031541ffd7ddb60ff42662d8a6be6", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_dd79bf27114cbc810592c451d8bd2280", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_b96e8d04448b693f79e4aebf0b6ee4fbStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_dd79bf27114cbc810592c451d8bd2280Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -17775,8 +17416,7 @@ define("PartnersHub.model$RL_dd9462378f9bdfd544e8c5704f9c3cdc", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_f281703816a60eab09e922a615ce0fa1", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_b81b243ca5642018a62b9438e213af08Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f281703816a60eab09e922a615ce0fa1Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -17861,8 +17501,7 @@ define("PartnersHub.model$RL_dfdebdca8e822b537628659338ad0660", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_dfe43d1a19f2f910938805ce519a6be0", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_dfe43d1a19f2f910938805ce519a6be0Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -17905,8 +17544,7 @@ define("PartnersHub.model$RL_e0d14ad0ade0a943d9ecc9ebb8efce77", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e0e41cb94b033378d9153e95b9660ef9", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_3b8df1b0da2c2bbfdff9bb6416b86701Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e0e41cb94b033378d9153e95b9660ef9Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -18019,8 +17657,7 @@ define("PartnersHub.model$RL_e3233c0633e57d854cfb9e5e59427cd2", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_e3607d6b92545e5793fbeb99fc16b7e7", ["exports", "@outsystems/runtime-core-js", "OutSystemsUI.model", "PartnersHub.model", "OutSystemsUI.model$EN_c1e622743b79c1510fd62a0adf89686bEntityRecord", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI"], function(exports, OSRuntimeCore, OutSystemsUIModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_e3607d6b92545e5793fbeb99fc16b7e7Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -18245,8 +17882,7 @@ define("PartnersHub.model$RL_e8445d61f812c92de860d050e73a5e29", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_ee239f88c5d7794fe9f69be69a94411a", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_e3b9823599cdef8012785f8875d8da38Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ee239f88c5d7794fe9f69be69a94411aInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -18387,8 +18023,7 @@ define("PartnersHub.model$RL_eafe76043375465a898a3d00608f23b6", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_ecdf504954a2dbb58bd0279c57a31f42", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_2a14839a43e1fca3e50600e797d0e612Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ecdf504954a2dbb58bd0279c57a31f42Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -18515,8 +18150,7 @@ define("PartnersHub.model$RL_f07d4ee6d8af2ad822d0947b26fdf6f3", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_f0a1ff7c73207fb1b2a1936e7a7bb59b", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_537325baeed781544ed9f203cd7f9384Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f0a1ff7c73207fb1b2a1936e7a7bb59bInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -18545,8 +18179,7 @@ define("PartnersHub.model$RC_f0a1ff7c73207fb1b2a1936e7a7bb59b", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_f17ac82c4b5a6103ceb85b5c6ab07617", ["exports", "@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.model$ST_9a29ef26037f71a833a7717922f3c172Structure"], function(exports, OSRuntimeCore, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f17ac82c4b5a6103ceb85b5c6ab07617Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -18771,8 +18404,7 @@ define("PartnersHub.model$RL_f565e985301ac9dd26dbfb84b70bf745", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_f61c868ef053db94121ce89ee15a14fe", ["exports", "@outsystems/runtime-core-js", "System_.model", "PartnersHub.model", "System_.model$UserLoginFailureReasonRec", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$System_"], function(exports, OSRuntimeCore, System_Model, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f61c868ef053db94121ce89ee15a14feInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -18927,8 +18559,7 @@ define("PartnersHub.model$RL_f90829e8248d7dd911b648b9522ef82a", ["exports", "@ou
 });
 
 define("PartnersHub.model$RC_f92c9dfdeaaba0d06f3a62c3b604cf58", ["exports", "@outsystems/runtime-core-js", "RESTAPIWebsocket.model", "PartnersHub.model", "RESTAPIWebsocket.model$ST_e5081373b9c17bf97c001a46f1739ffeStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket"], function(exports, OSRuntimeCore, RESTAPIWebsocketModel, PartnersHubModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_f92c9dfdeaaba0d06f3a62c3b604cf58Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {

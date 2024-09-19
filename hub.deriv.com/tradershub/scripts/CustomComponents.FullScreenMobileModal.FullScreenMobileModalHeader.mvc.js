@@ -281,8 +281,7 @@ define("CustomComponents.FullScreenMobileModal.FullScreenMobileModalHeader.mvc$v
     return View;
 });
 define("CustomComponents.FullScreenMobileModal.FullScreenMobileModalHeader.mvc$controller", ["@outsystems/runtime-core-js", "CustomComponents.model", "CustomComponents.controller", "CustomComponents.languageResources"], function(OSRuntimeCore, CustomComponentsModel, CustomComponentsController, CustomComponentsLanguageResources) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

@@ -335,8 +335,7 @@ define("tradershub.Signup.EmailSentScreen.mvc$view", ["@outsystems/runtime-core-
     return View;
 });
 define("tradershub.Signup.EmailSentScreen.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.Signup.controller", "tradershub.Signup.EmailSentScreen.mvc$controller.ResendVerifyEmail.VerifyEmailPayloadJS", "tradershub.Signup.EmailSentScreen.mvc$controller.OnReady.RudderStackJS", "tradershub.controller$DerivApiSendMessage"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_SignupController, tradershub_Signup_EmailSentScreen_mvc_controller_ResendVerifyEmail_VerifyEmailPayloadJS, tradershub_Signup_EmailSentScreen_mvc_controller_OnReady_RudderStackJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

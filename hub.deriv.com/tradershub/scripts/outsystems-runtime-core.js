@@ -744,8 +744,7 @@
 
     function Je(e) {
         if (void 0 === e) return "";
-        if (e instanceof Error) return e.message;
-        {
+        if (e instanceof Error) return e.message; {
             const t = e.toString();
             return "[object SQLError]" === t ? e.message.toString() : t
         }
@@ -1722,8 +1721,7 @@
                     }), 0) < Tr) return Ar.push({
                     timestamp: r,
                     url: e
-                }), !1;
-                {
+                }), !1; {
                     const r = jt(e);
                     return ri(vr, `Identified a recursive navigation to '${r}'.`, t.Visibility.Internal), !0
                 }
@@ -2687,8 +2685,7 @@
         }),
         gi = e => {
             if (e) {
-                if ("string" == typeof e) return e;
-                {
+                if ("string" == typeof e) return e; {
                     const t = e.constructor.name;
                     return "Function" === t ? e.name : t
                 }
@@ -5086,8 +5083,7 @@
                 for (const {
                         clientMessage: e,
                         internalMessage: t
-                    }
-                    of y) fi({
+                    } of y) fi({
                     category: ao,
                     clientMessage: e,
                     internalMessage: t,
@@ -6090,8 +6086,7 @@
             r.sort(((t, r) => n * Ro(e(t), e(r)))), this.clear(), this.pushAll(r)
         }
         getCurrent(e) {
-            if (this.isEmpty) return this.emptyListItem;
-            {
+            if (this.isEmpty) return this.emptyListItem; {
                 const t = this.getCurrentRowNumber(e);
                 return this.getItem(t)
             }
@@ -8675,8 +8670,7 @@
             const r = e.getIdAttribute(),
                 n = new Ku;
             return n.add(r.name, r.type, t), this.rawExecuteQuery(e.select.sql, e.dbRecordToRecord, n).then((r => {
-                if (0 === r.length) throw new We.DataBaseException("", `${e.name} with id ${t} was not found`);
-                {
+                if (0 === r.length) throw new We.DataBaseException("", `${e.name} with id ${t} was not found`); {
                     const e = new(zu.getType(r[0].constructor));
                     return e.recordOut = r[0], e
                 }
@@ -9636,8 +9630,7 @@
         }
         innerLoadCachedManifest() {
             return a(this, void 0, void 0, (function*() {
-                if (yield this.ensureCachedManifest(), this.cachedAppInfo) return this.cachedAppInfo;
-                {
+                if (yield this.ensureCachedManifest(), this.cachedAppInfo) return this.cachedAppInfo; {
                     const e = yield this.manifestLoader.getCachedManifest();
                     return nd.validateApplicationInfo(e), e
                 }
@@ -9647,8 +9640,7 @@
             return zc()
         }
         ensureCachedManifest() {
-            if (ir() || this.cachedAppInfo) return Promise.resolve(void 0);
-            {
+            if (ir() || this.cachedAppInfo) return Promise.resolve(void 0); {
                 this.setUpgradeStatus(0);
                 const e = new $c({
                     message: "No cached manifest found. It's not possible to rollback to a previous version.",
@@ -12428,8 +12420,7 @@
         }
         setCurrentLocale(t) {
             const r = Xt(e.ServiceNames.TranslationsService);
-            if (r && r.clear(), !this.isValidLocale(t)) throw new Error(`Value '${t}' isn't a valid locale.`);
-            {
+            if (r && r.clear(), !this.isValidLocale(t)) throw new Error(`Value '${t}' isn't a valid locale.`); {
                 const e = {
                     localeCode: t,
                     isRTL: wg
@@ -12902,8 +12893,7 @@
 
     function Wg(e, t) {
         const r = e.trim();
-        if ("" === r) return [];
-        {
+        if ("" === r) return []; {
             const e = Ft(r, "((((\\{\\w+\\})|(\\w+)).)?((\\[\\w+\\])|(\\w+))(( )+(desc|asc))?)(( )*,( )*(((\\{\\w+\\})|(\\w+)).)?((\\[\\w+\\])|(\\w+))(( )+(desc|asc))?)*", !0);
             if (1 !== e.length || e[0].value !== r) throw new We.DataBaseException("", "Invalid syntax in 'Order By' parameter.")
         }
@@ -15210,7 +15200,7 @@
         }
     }
 
-    function of(e) {
+    function of (e) {
         const r = Ye(e),
             n = jt(e.message);
         switch (ii("Login SystemAction", n, e.errorCode, e, t.Visibility.Internal), e.errorCode) {
@@ -15994,8 +15984,7 @@
                         if ("HasFetchError" === t) return e(a.hasFetchErrorAttr, n, i, s, wo.Boolean);
                         if ("IsDataFetched" === t) return e(a.isDataFetchedAttr, n, i, s, wo.Boolean)
                     }
-                    if (l = l.filter((e => e.name === t)), 0 === l.length) return void If(`No attribute matching the given path '${t}'.`);
-                    {
+                    if (l = l.filter((e => e.name === t)), 0 === l.length) return void If(`No attribute matching the given path '${t}'.`); {
                         const t = l[0];
                         return e(a[t.attrName], n, i, s, t.dataType)
                     }
@@ -16019,8 +16008,7 @@
                     if (i = i.slice(1), "CurrentRowNumber" === t) return e(u, n, i, s, wo.Integer);
                     if ("Current" === t) return e(a.isEmpty ? a.emptyListItem : a.getItem(u), n, i, s, l);
                     if ("Empty" === t) return e(a.isEmpty, n, i, s, wo.Boolean);
-                    if ("Length" === t) return e(a.length, n, i, s, wo.Integer);
-                    {
+                    if ("Length" === t) return e(a.length, n, i, s, wo.Integer); {
                         const r = Af.exec(t);
                         if (r) {
                             const t = parseInt(r[1], 10);

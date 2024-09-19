@@ -318,8 +318,7 @@ define("tradershub.Common.CountryOfTaxResidenceSelector.mvc$view", ["@outsystems
     return View;
 });
 define("tradershub.Common.CountryOfTaxResidenceSelector.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.model", "OutSystemsUI.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.Common.CountryOfTaxResidenceSelector.mvc$controller.OnSearch.SearchCountryJS", "tradershub.Common.CountryOfTaxResidenceSelector.mvc$controller.OnReady.JavaScript1JS", "tradershub.model$ST_1eac13b44db3d2db577291973f4a7e96Structure", "tradershub.model$RL_10436c71a703b5c08e6ed74c34052e0a", "tradershub.model$ST_3d5602677826d8c01775c21c1065c8ceStructure", "OutSystemsUI.model$ST_b7d405ca4407e572da091e54d07e3bd1Structure", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "OutSystemsUI.controller$SetFocus"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIModel, OutSystemsUIController, tradershubLanguageResources, tradershubClientVariables, tradershub_Common_CountryOfTaxResidenceSelector_mvc_controller_OnSearch_SearchCountryJS, tradershub_Common_CountryOfTaxResidenceSelector_mvc_controller_OnReady_JavaScript1JS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

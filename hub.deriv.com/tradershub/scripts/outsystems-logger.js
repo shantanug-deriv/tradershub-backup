@@ -4485,10 +4485,10 @@
 
     function Zf(t, e) {
         const n = (e ? e(t) : t) + sf,
-            r = (e ? e(t) : t) + of,
+            r = (e ? e(t) : t) + of ,
             o = af + n,
             i = af + r;
-        Uf[t] = {}, Uf[t][sf] = o, Uf[t][of] = i
+        Uf[t] = {}, Uf[t][sf] = o, Uf[t][ of ] = i
     }
 
     function Vf(t, e, n, r) {
@@ -4717,7 +4717,7 @@
                     const t = Uf[r];
                     if (t) {
                         const n = t[sf],
-                            o = t[of],
+                            o = t[ of ],
                             s = e[n],
                             a = e[o];
                         if (s) {
@@ -4772,7 +4772,7 @@
         let n = Uf[e];
         n || (Zf(e), n = Uf[e]);
         const r = t[n[sf]],
-            o = t[n[of]];
+            o = t[n[ of ]];
         return r ? o ? r.concat(o) : r.slice() : o ? o.slice() : []
     }
 
@@ -5691,7 +5691,7 @@
                         isBrowser: mf,
                         isMix: Tf,
                         isNode: yf,
-                        TRUE_STR: of,
+                        TRUE_STR: of ,
                         FALSE_STR: sf,
                         ZONE_SYMBOL_PREFIX: af,
                         ADD_EVENT_LISTENER_STR: tf,
@@ -5794,8 +5794,7 @@
                     m = lf("fetchTaskScheduling"),
                     T = kf(c, "send", (() => function(t, n) {
                         if (!0 === e.current[m]) return T.apply(t, n);
-                        if (t[r]) return T.apply(t, n);
-                        {
+                        if (t[r]) return T.apply(t, n); {
                             const e = {
                                     target: t,
                                     url: t[s],
@@ -8019,8 +8018,7 @@
                 for (const {
                         message: e,
                         options: n
-                    }
-                    of o(this, kd, "f")) null === (t = o(this, Ad, "f")) || void 0 === t || t.postMessage(e, n);
+                    } of o(this, kd, "f")) null === (t = o(this, Ad, "f")) || void 0 === t || t.postMessage(e, n);
                 i(this, kd, [], "f")
             } else this.waitForSW()
         }

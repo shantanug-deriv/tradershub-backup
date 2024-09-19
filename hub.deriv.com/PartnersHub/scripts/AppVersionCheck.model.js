@@ -1,6 +1,5 @@
 define("AppVersionCheck.model$RC_10cf50ec45fc72816b85b8f216ccf5f5", ["exports", "@outsystems/runtime-core-js", "CommonPlugin.model", "AppVersionCheck.model", "CommonPlugin.model$ST_e17c093645b6df840d3423fc6893e70fStructure", "AppVersionCheck.referencesHealth", "AppVersionCheck.referencesHealth$CommonPlugin"], function(exports, OSRuntimeCore, CommonPluginModel, AppVersionCheckModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_10cf50ec45fc72816b85b8f216ccf5f5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {

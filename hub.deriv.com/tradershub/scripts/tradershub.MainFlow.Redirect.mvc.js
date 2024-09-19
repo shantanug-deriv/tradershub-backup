@@ -120,8 +120,7 @@ define("tradershub.MainFlow.Redirect.mvc$view", ["@outsystems/runtime-core-js", 
     return View;
 });
 define("tradershub.MainFlow.Redirect.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.MainFlow.controller", "tradershub.MainFlow.Redirect.mvc$controller.OnReady.GetURLParamsJS", "tradershub.controller$FeatureFlagValueByName"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_MainFlowController, tradershub_MainFlow_Redirect_mvc_controller_OnReady_GetURLParamsJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

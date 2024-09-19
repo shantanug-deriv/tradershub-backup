@@ -345,8 +345,7 @@ define("PartnersHub.PhoneNumberVerification.PhoneNumberVerificationBlock.mvc$vie
     return View;
 });
 define("PartnersHub.PhoneNumberVerification.PhoneNumberVerificationBlock.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.PhoneNumberVerification.PhoneNumberVerificationBlock.mvc$translationsResources", "PartnersHub.PhoneNumberVerification.PhoneNumberVerificationBlock.mvc$controller.OnClickChangePhoneNumber.GetAuthTokenJS", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.model$ST_7ceca022f8a0e753c145701ba5d76f4eStructure", "PartnersHub.controller$SendSetSettings"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_PhoneNumberVerification_PhoneNumberVerificationBlock_mvc_TranslationsResources, PartnersHub_PhoneNumberVerification_PhoneNumberVerificationBlock_mvc_controller_OnClickChangePhoneNumber_GetAuthTokenJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

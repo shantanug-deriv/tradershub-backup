@@ -183,8 +183,7 @@ define("tradershub.RealAccountCreation.CurrencySelection.mvc$view", ["@outsystem
     return View;
 });
 define("tradershub.RealAccountCreation.CurrencySelection.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreation.controller", "tradershub.RealAccountCreation.CurrencySelection.mvc$controller.OnReady.RudderStackJS"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationController, tradershub_RealAccountCreation_CurrencySelection_mvc_controller_OnReady_RudderStackJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

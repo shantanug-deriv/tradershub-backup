@@ -499,8 +499,7 @@ define("tradershub.RealAccountCreation.IdentityVerification.mvc$view", ["@outsys
     return View;
 });
 define("tradershub.RealAccountCreation.IdentityVerification.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreation.controller", "tradershub.RealAccountCreation.IdentityVerification.mvc$controller.OnReady.GetIDVCountry2JS", "tradershub.RealAccountCreation.IdentityVerification.mvc$controller.OnReady.GetIDVCountryJS", "tradershub.RealAccountCreation.IdentityVerification.mvc$controller.Input_DocumentTypeOnChange.JavaScript1JS", "tradershub.RealAccountCreation.IdentityVerification.mvc$controller.NextOnClick.ValidateIDVJS", "tradershub.model$ST_81244dbb8e72a05a708e9a449198444eStructure", "tradershub.model$RL_9103c933715345647d34a3ebfe5f38fd", "tradershub.controller$DerivApiSendMessage", "tradershub.model$ST_5ee2e7ff29695cda8882106170100facStructure", "tradershub.model$ST_b9fa9c81e682aaa4746021d7919cd480Structure"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationController, tradershub_RealAccountCreation_IdentityVerification_mvc_controller_OnReady_GetIDVCountry2JS, tradershub_RealAccountCreation_IdentityVerification_mvc_controller_OnReady_GetIDVCountryJS, tradershub_RealAccountCreation_IdentityVerification_mvc_controller_Input_DocumentTypeOnChange_JavaScript1JS, tradershub_RealAccountCreation_IdentityVerification_mvc_controller_NextOnClick_ValidateIDVJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

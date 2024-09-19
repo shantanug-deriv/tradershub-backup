@@ -5046,7 +5046,7 @@
         }
 
         function Ph(a, b) {
-            of.push(b, a);
+            of .push(b, a);
             Sa || (Sa = !0, bc(97, function() {
                 Ra();
                 return null
@@ -5060,8 +5060,7 @@
             if (0 !== (n & 48)) throw Error(m(331));
             var b = n;
             n |= 32;
-            var c = of;
-            of = [];
+            var c = of ; of = [];
             for (var d = 0; d < c.length; d += 2) {
                 var e = c[d],
                     f = c[d + 1],

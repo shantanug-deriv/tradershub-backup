@@ -976,8 +976,7 @@ define("tradershub.RealAccountCreation.TermsOfUse.mvc$view", ["@outsystems/runti
     return View;
 });
 define("tradershub.RealAccountCreation.TermsOfUse.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "OutSystemsUI.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.RealAccountCreation.controller", "tradershub.RealAccountCreation.TermsOfUse.mvc$controller.ButtonOnClick.RudderStackFailureJS", "tradershub.RealAccountCreation.TermsOfUse.mvc$controller.ButtonOnClick.ValidateJS", "tradershub.RealAccountCreation.TermsOfUse.mvc$controller.ButtonOnClick.RudderStackSuccessJS", "tradershub.RealAccountCreation.TermsOfUse.mvc$controller.LiveChatOnClick.SyncLocalStorageJS", "OutSystemsUI.controller$IsPhone", "tradershub.referencesHealth", "tradershub.referencesHealth$OutSystemsUI", "tradershub.model$ST_bc7a92cde0807afeabb9fb7ba2ef9c4cStructure", "tradershub.controller$SyncAccountInfo", "tradershub.controller$NewAccountReal"], function(OSRuntimeCore, tradershubModel, tradershubController, OutSystemsUIController, tradershubLanguageResources, tradershubClientVariables, tradershub_RealAccountCreationController, tradershub_RealAccountCreation_TermsOfUse_mvc_controller_ButtonOnClick_RudderStackFailureJS, tradershub_RealAccountCreation_TermsOfUse_mvc_controller_ButtonOnClick_ValidateJS, tradershub_RealAccountCreation_TermsOfUse_mvc_controller_ButtonOnClick_RudderStackSuccessJS, tradershub_RealAccountCreation_TermsOfUse_mvc_controller_LiveChatOnClick_SyncLocalStorageJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

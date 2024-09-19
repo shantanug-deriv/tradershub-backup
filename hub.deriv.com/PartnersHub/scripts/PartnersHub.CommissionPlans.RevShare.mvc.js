@@ -1,6 +1,5 @@
 define("PartnersHub.CommissionPlans.RevShare.mvc$model", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.Layouts.LayoutDashboard.mvc$model", "PartnersHub.model$RC_a67f16d1367e48674c0278c0312479e0", "PartnersHub.model$RL_ca06e5bf8b5ed2faf11935e078ed0bf5", "PartnersHub.model$RC_500d6affd752292b92c8cddd9b92f7b9", "PartnersHub.model$RL_232c89a2d5038d57a9042dc25af9b70b"], function(OSRuntimeCore, PartnersHubModel, PartnersHub_Layouts_LayoutDashboard_mvcModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class GetDigitalOptionsAggrRecInner extends
         OS.Model.AggregateRecord {
             static attributesToDeclare() {
@@ -529,8 +528,7 @@ define("PartnersHub.CommissionPlans.RevShare.mvc$view", ["@outsystems/runtime-co
     return View;
 });
 define("PartnersHub.CommissionPlans.RevShare.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.CommissionPlans.RevShare.mvc$translationsResources", "PartnersHub.CommissionPlans.controller", "PartnersHub.model$RC_a67f16d1367e48674c0278c0312479e0", "PartnersHub.model$RL_ca06e5bf8b5ed2faf11935e078ed0bf5", "PartnersHub.model$RC_500d6affd752292b92c8cddd9b92f7b9", "PartnersHub.model$RL_232c89a2d5038d57a9042dc25af9b70b"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_CommissionPlans_RevShare_mvc_TranslationsResources, PartnersHub_CommissionPlansController) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

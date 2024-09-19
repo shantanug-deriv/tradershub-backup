@@ -816,8 +816,7 @@
                                     data: p.data,
                                     success: !0,
                                     source: "cache"
-                                };
-                                {
+                                }; {
                                     var v, b;
                                     let S = await (v = k(t), b = i, new Promise(e => {
                                         let t, r = !1,
@@ -1201,7 +1200,7 @@
                         let n = {};
 
                         function s(e, t, r) {
-                            for (let [i, n] of(r = r || {}, Object.entries(t))) switch (i) {
+                            for (let [i, n] of (r = r || {}, Object.entries(t))) switch (i) {
                                 case "$or":
                                     if (!d(e, n, r)) return !1;
                                     break;

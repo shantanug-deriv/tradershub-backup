@@ -413,8 +413,7 @@ define("PartnersHub.Developer.Endpoint.mvc$view", ["@outsystems/runtime-core-js"
     return View;
 });
 define("PartnersHub.Developer.Endpoint.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Developer.Endpoint.mvc$translationsResources", "PartnersHub.Developer.controller", "PartnersHub.Developer.Endpoint.mvc$controller.ResetEndpoint.JavaScript1JS", "PartnersHub.Developer.Endpoint.mvc$controller.ButtonOnClick.JavaScript1JS", "PartnersHub.Developer.Endpoint.mvc$controller.OnClick.JavaScript1JS", "PartnersHub.controller$SetDefaultAppId", "PartnersHub.controller$SetServer", "PartnersHub.controller$SetAppId", "PartnersHub.controller$InitGrowthbook"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Developer_Endpoint_mvc_TranslationsResources, PartnersHub_DeveloperController, PartnersHub_Developer_Endpoint_mvc_controller_ResetEndpoint_JavaScript1JS, PartnersHub_Developer_Endpoint_mvc_controller_ButtonOnClick_JavaScript1JS, PartnersHub_Developer_Endpoint_mvc_controller_OnClick_JavaScript1JS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

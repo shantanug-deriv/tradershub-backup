@@ -173,8 +173,7 @@ define("OutSystemsUI.Utilities.ButtonLoading.mvc$view", ["@outsystems/runtime-co
     return View;
 });
 define("OutSystemsUI.Utilities.ButtonLoading.mvc$controller", ["@outsystems/runtime-core-js", "OutSystemsUI.model", "OutSystemsUI.controller", "OutSystemsUI.languageResources", "OutSystemsUI.Utilities.ButtonLoading.mvc$translationsResources", "OutSystemsUI.Utilities.ButtonLoading.mvc$controller.RegisterCallbacks.GetCallbackHandlersJS", "OutSystemsUI.model$ST_2b510eefd88959a00bf486cfc856fa96Structure", "OutSystemsUI.controller$ButtonLoadingDestroy", "OutSystemsUI.controller$ButtonLoadingChangeBooleanProperty", "OutSystemsUI.controller$ButtonLoadingChangeTextProperty", "OutSystemsUI.controller$ButtonLoadingRegisterCallback", "OutSystemsUI.controller$LogEvent", "OutSystemsUI.controller$GenerateUniqueId", "OutSystemsUI.controller$ButtonLoadingCreate", "OutSystemsUI.controller$ButtonLoadingInitialize"], function(OSRuntimeCore, OutSystemsUIModel, OutSystemsUIController, OutSystemsUILanguageResources, OutSystemsUI_Utilities_ButtonLoading_mvc_TranslationsResources, OutSystemsUI_Utilities_ButtonLoading_mvc_controller_RegisterCallbacks_GetCallbackHandlersJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

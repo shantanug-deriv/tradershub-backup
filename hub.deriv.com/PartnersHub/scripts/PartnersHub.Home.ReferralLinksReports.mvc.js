@@ -180,8 +180,7 @@ define("PartnersHub.Home.ReferralLinksReports.mvc$view", ["@outsystems/runtime-c
     return View;
 });
 define("PartnersHub.Home.ReferralLinksReports.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Home.ReferralLinksReports.mvc$translationsResources", "PartnersHub.Home.ReferralLinksReports.mvc$controller.OpenDashboardOnClick.JavaScript1JS", "PartnersHub.model$ST_23ff1d290ec4691b1c668ad437100cd0Structure", "PartnersHub.controller$RudderstackTrackEvent"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Home_ReferralLinksReports_mvc_TranslationsResources, PartnersHub_Home_ReferralLinksReports_mvc_controller_OpenDashboardOnClick_JavaScript1JS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

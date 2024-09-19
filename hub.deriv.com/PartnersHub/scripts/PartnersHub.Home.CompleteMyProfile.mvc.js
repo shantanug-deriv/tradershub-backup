@@ -272,8 +272,7 @@ define("PartnersHub.Home.CompleteMyProfile.mvc$view", ["@outsystems/runtime-core
     return View;
 });
 define("PartnersHub.Home.CompleteMyProfile.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "OutSystemsUI.model", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.Home.CompleteMyProfile.mvc$translationsResources", "PartnersHub.Home.CompleteMyProfile.mvc$controller.OnReady.CheckIfIDVIsSupportedJSJS", "PartnersHub.Home.CompleteMyProfile.mvc$controller.OnReady.GetAuthTokenJS", "PartnersHub.model$ST_0be4704c381e15995202804b221a5e3aStructure", "OutSystemsUI.model$ST_8391f9d0c6b78f74493c47987669deecStructure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$OutSystemsUI", "RESTAPIWebsocket.model$ST_5fc2e4a935064c1413d6e989e87decd2Structure", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.controller$GetSettings", "PartnersHub.controller$SendResidenceList"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, OutSystemsUIModel, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_Home_CompleteMyProfile_mvc_TranslationsResources, PartnersHub_Home_CompleteMyProfile_mvc_controller_OnReady_CheckIfIDVIsSupportedJSJS, PartnersHub_Home_CompleteMyProfile_mvc_controller_OnReady_GetAuthTokenJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

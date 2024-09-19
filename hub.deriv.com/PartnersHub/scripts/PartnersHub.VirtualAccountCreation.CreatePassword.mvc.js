@@ -447,8 +447,7 @@ define("PartnersHub.VirtualAccountCreation.CreatePassword.mvc$view", ["@outsyste
     return View;
 });
 define("PartnersHub.VirtualAccountCreation.CreatePassword.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "RESTAPIWebsocket.model", "RESTAPIWebsocket.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.VirtualAccountCreation.CreatePassword.mvc$translationsResources", "PartnersHub.VirtualAccountCreation.controller", "PartnersHub.VirtualAccountCreation.CreatePassword.mvc$controller.OnSubmit.SetLocalJS", "RESTAPIWebsocket.model$ST_d4ed48681c55954edc02f19b0ed492e7Structure", "PartnersHub.referencesHealth", "PartnersHub.referencesHealth$RESTAPIWebsocket", "RESTAPIWebsocket.model$ST_72900159fa859d96c9b5e8531e637a4cStructure", "RESTAPIWebsocket.controller$NewAccountVirtual", "RESTAPIWebsocket.model$ST_450f06937a42e6bd68832beac9fd4297Structure", "RESTAPIWebsocket.model$ST_f502318fbe2f943e6cfbba125766780aStructure", "RESTAPIWebsocket.controller$Authorize"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, RESTAPIWebsocketModel, RESTAPIWebsocketController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_VirtualAccountCreation_CreatePassword_mvc_TranslationsResources, PartnersHub_VirtualAccountCreationController, PartnersHub_VirtualAccountCreation_CreatePassword_mvc_controller_OnSubmit_SetLocalJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

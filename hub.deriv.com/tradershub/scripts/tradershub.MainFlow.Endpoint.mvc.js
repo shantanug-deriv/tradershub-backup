@@ -438,8 +438,7 @@ define("tradershub.MainFlow.Endpoint.mvc$view", ["@outsystems/runtime-core-js", 
     return View;
 });
 define("tradershub.MainFlow.Endpoint.mvc$controller", ["@outsystems/runtime-core-js", "tradershub.model", "tradershub.controller", "tradershub.languageResources", "tradershub.clientVariables", "tradershub.MainFlow.controller", "tradershub.MainFlow.Endpoint.mvc$controller.SaveOnClick.SaveWSURLJS", "tradershub.MainFlow.Endpoint.mvc$controller.OnReady.GetConfigJS", "tradershub.MainFlow.Endpoint.mvc$controller.ResetOnClick.ResetWSConfigJS", "tradershub.MainFlow.Endpoint.mvc$controller.SwitchOnChange.UpdateFeatureFlagByNameJS", "tradershub.model$ST_c9321e98763823c3fe8b25101ee9afbdStructure", "tradershub.model$RL_65125be14dfacc3673d277ed0ec6faeb"], function(OSRuntimeCore, tradershubModel, tradershubController, tradershubLanguageResources, tradershubClientVariables, tradershub_MainFlowController, tradershub_MainFlow_Endpoint_mvc_controller_SaveOnClick_SaveWSURLJS, tradershub_MainFlow_Endpoint_mvc_controller_OnReady_GetConfigJS, tradershub_MainFlow_Endpoint_mvc_controller_ResetOnClick_ResetWSConfigJS, tradershub_MainFlow_Endpoint_mvc_controller_SwitchOnChange_UpdateFeatureFlagByNameJS) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

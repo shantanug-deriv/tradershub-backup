@@ -310,8 +310,7 @@ define("PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$view", ["@o
     return View;
 });
 define("PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$controller", ["@outsystems/runtime-core-js", "PartnersHub.model", "PartnersHub.controller", "PartnersHub.languageResources", "PartnersHub.clientVariables", "PartnersHub.PhoneNumberVerification.OTPVerificationBlock.mvc$translationsResources", "PartnersHub.model$ST_1b66e77b43cfa957e304643e93df7a64Structure", "PartnersHub.controller$SendPhoneNumberVerify"], function(OSRuntimeCore, PartnersHubModel, PartnersHubController, PartnersHubLanguageResources, PartnersHubClientVariables, PartnersHub_PhoneNumberVerification_OTPVerificationBlock_mvc_TranslationsResources) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ControllerInner extends
         OS.Controller.BaseViewController {
             constructor(model, messagesProvider, idService) {

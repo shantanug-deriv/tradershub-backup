@@ -1,6 +1,5 @@
 define("CommonPlugin.model$ST_e17c093645b6df840d3423fc6893e70fStructure", ["exports", "@outsystems/runtime-core-js", "CommonPlugin.model"], function(exports, OSRuntimeCore, CommonPluginModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_e17c093645b6df840d3423fc6893e70fStructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -24,8 +23,7 @@ define("CommonPlugin.model$ST_e17c093645b6df840d3423fc6893e70fStructure", ["expo
 });
 
 define("CommonPlugin.model$RC_10cf50ec45fc72816b85b8f216ccf5f5", ["exports", "@outsystems/runtime-core-js", "CommonPlugin.model", "CommonPlugin.model$ST_e17c093645b6df840d3423fc6893e70fStructure"], function(exports, OSRuntimeCore, CommonPluginModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_10cf50ec45fc72816b85b8f216ccf5f5Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -54,8 +52,7 @@ define("CommonPlugin.model$RC_10cf50ec45fc72816b85b8f216ccf5f5", ["exports", "@o
 });
 
 define("CommonPlugin.model$ST_3695e3f105edfc9bb9d7bc5568b9b2f5Structure", ["exports", "@outsystems/runtime-core-js", "CommonPlugin.model"], function(exports, OSRuntimeCore, CommonPluginModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class ST_3695e3f105edfc9bb9d7bc5568b9b2f5StructureInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -94,8 +91,7 @@ define("CommonPlugin.model$ST_3695e3f105edfc9bb9d7bc5568b9b2f5Structure", ["expo
 });
 
 define("CommonPlugin.model$RC_19291221730fdcdd004b1f53d5ed5e62", ["exports", "@outsystems/runtime-core-js", "CommonPlugin.model", "CommonPlugin.model$ST_3695e3f105edfc9bb9d7bc5568b9b2f5Structure"], function(exports, OSRuntimeCore, CommonPluginModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_19291221730fdcdd004b1f53d5ed5e62Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -124,8 +120,7 @@ define("CommonPlugin.model$RC_19291221730fdcdd004b1f53d5ed5e62", ["exports", "@o
 });
 
 define("CommonPlugin.model$EN_589575018eea7445e67437e5e372d5fbEntityRecord", ["exports", "@outsystems/runtime-core-js", "CommonPlugin.model"], function(exports, OSRuntimeCore, CommonPluginModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class EN_589575018eea7445e67437e5e372d5fbEntityRecordInner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {
@@ -152,8 +147,7 @@ define("CommonPlugin.model$EN_589575018eea7445e67437e5e372d5fbEntityRecord", ["e
 });
 
 define("CommonPlugin.model$RC_ff0a3e3859d350c5c9b7f180c407c940", ["exports", "@outsystems/runtime-core-js", "CommonPlugin.model", "CommonPlugin.model$EN_589575018eea7445e67437e5e372d5fbEntityRecord"], function(exports, OSRuntimeCore, CommonPluginModel) {
-    var OS = OSRuntimeCore;
-    {
+    var OS = OSRuntimeCore; {
         class RC_ff0a3e3859d350c5c9b7f180c407c940Inner extends
         OS.DataTypes.GenericRecord {
             static attributesToDeclare() {

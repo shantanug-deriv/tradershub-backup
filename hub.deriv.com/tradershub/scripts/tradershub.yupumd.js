@@ -3051,8 +3051,7 @@ attempted value: ${i}
                 concat(t) {
                     let e = super.concat(t);
                     return e.innerType = this.innerType, t.innerType && (e.innerType = e.innerType ? e.innerType.concat(t.innerType) : t.innerType), e
-                }
-                of(t) {
+                } of (t) {
                     var e = this.clone();
                     if (!D(t)) throw TypeError("`array.of()` sub-schema must be a valid yup schema not: " + d(t));
                     return e.innerType = t, e
